@@ -1,0 +1,92 @@
+{
+  "subjectSlug": "reading",
+  "subjectName": "Reading Comprehension",
+  "frameworks": ["UK National Curriculum KS2 Reading Content Domains", "PIRA-style assessment"],
+  "icon": "BookOpen",
+  "color": "amber",
+  "strands": [
+    {
+      "slug": "retrieval",
+      "name": "Retrieval",
+      "description": "Content domain 2b: retrieve and record information/identify key details from fiction and non-fiction.",
+      "years": [
+        { "yearGroup": "Y5", "objectives": [
+          { "code": "RE5-RET-1", "description": "Retrieve, record and present information from fiction and non-fiction texts", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+        ] }
+      ]
+    },
+    {
+      "slug": "literal-comprehension",
+      "name": "Literal Comprehension",
+      "description": "Understanding what is explicitly stated in a text.",
+      "years": [
+        { "yearGroup": "Y5", "objectives": [
+          { "code": "RE5-LIT-1", "description": "Answer questions directly using information explicitly stated in the text", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] }
+        ] }
+      ]
+    },
+    {
+      "slug": "inference",
+      "name": "Inference",
+      "description": "Content domain 2d: make inferences from the text, explain and justify with evidence.",
+      "years": [
+        { "yearGroup": "Y5", "objectives": [
+          { "code": "RE5-INF-1", "description": "Draw inferences such as inferring characters' feelings, thoughts and motives from their actions", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+          { "code": "RE5-INF-2", "description": "Justify inferences with evidence from the text", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
+        ] }
+      ]
+    },
+    {
+      "slug": "prediction",
+      "name": "Predicting",
+      "description": "Content domain 2e: predict what might happen from details stated and implied.",
+      "years": [
+        { "yearGroup": "Y5", "objectives": [
+          { "code": "RE5-PRE-1", "description": "Predict what might happen next from details stated and implied", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+        ] }
+      ]
+    },
+    {
+      "slug": "vocabulary",
+      "name": "Vocabulary in Context",
+      "description": "Content domain 2a/2f: word meaning in context, and effect of word choice.",
+      "years": [
+        { "yearGroup": "Y5", "objectives": [
+          { "code": "RE5-VOC-1", "description": "Give/explain the meaning of words in context", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+          { "code": "RE5-VOC-2", "description": "Identify and explain how meaning is enhanced through the author's choice of words and phrases", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
+        ] }
+      ]
+    },
+    {
+      "slug": "author-intent",
+      "name": "Author's Intent & Viewpoint",
+      "description": "Content domain 2g: identify/explain how structure, and choice of language, contribute to meaning.",
+      "years": [
+        { "yearGroup": "Y5", "objectives": [
+          { "code": "RE5-AUT-1", "description": "Identify how language, structure and presentation contribute to meaning", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] },
+          { "code": "RE5-AUT-2", "description": "Discuss the author's use of language, including figurative language, and its effect on the reader", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
+        ] }
+      ]
+    },
+    {
+      "slug": "summarising",
+      "name": "Summarising",
+      "description": "Content domain 2c: summarise main ideas from more than one paragraph.",
+      "years": [
+        { "yearGroup": "Y5", "objectives": [
+          { "code": "RE5-SUM-1", "description": "Summarise the main ideas drawn from more than one paragraph, identifying key details that support the main idea(s)", "difficultyBands": ["silver","gold"], "questionTypes": ["short_answer","multiple_choice"] }
+        ] }
+      ]
+    },
+    {
+      "slug": "comparison",
+      "name": "Comparison Within & Across Texts",
+      "description": "Content domain 2h: make comparisons within a text.",
+      "years": [
+        { "yearGroup": "Y5", "objectives": [
+          { "code": "RE5-COM-1", "description": "Make comparisons within a text, e.g. comparing characters, settings or ideas", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
+        ] }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "subjectSlug": "maths",
+  "subjectName": "Mathematics",
+  "frameworks": ["UK National Curriculum KS2", "Cayman Islands Y5 Expectations", "PUMA-style assessment"],
+  "icon": "Calculator",
+  "color": "blue",
+  "strands": [
+    {
+      "slug": "number-place-value",
+      "name": "Number and Place Value",
+      "description": "Reading, writing, ordering, comparing and rounding whole numbers.",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-NPV-1", "description": "Read, write, order and compare numbers to at least 1,000,000", "difficultyBands": ["bronze","silver","gold","challenge"], "questionTypes": ["multiple_choice","fill_in_box","short_answer"] },
+            { "code": "MA5-NPV-2", "description": "Count forwards or backwards in steps of powers of 10 for any given number up to 1,000,000", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","short_answer"] },
+            { "code": "MA5-NPV-3", "description": "Interpret negative numbers in context; count forwards/backwards with positive and negative whole numbers through zero", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","fill_in_box"] },
+            { "code": "MA5-NPV-4", "description": "Round any number up to 1,000,000 to the nearest 10, 100, 1,000, 10,000 or 100,000", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","fill_in_box"] },
+            { "code": "MA5-NPV-5", "description": "Solve number problems and practical problems using knowledge of place value", "difficultyBands": ["gold","challenge"], "questionTypes": ["multi_step","short_answer"] },
+            { "code": "MA5-NPV-6", "description": "Read Roman numerals to 1,000 (M) and recognise years written in Roman numerals", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","matching"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "addition",
+      "name": "Addition",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-ADD-1", "description": "Add whole numbers with more than 4 digits, using formal written methods (columnar addition)", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","short_answer"] },
+            { "code": "MA5-ADD-2", "description": "Add numbers mentally with increasingly large numbers", "difficultyBands": ["bronze","silver"], "questionTypes": ["fill_in_box","multiple_choice"] },
+            { "code": "MA5-ADD-3", "description": "Use rounding to check answers to calculations and determine levels of accuracy", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "subtraction",
+      "name": "Subtraction",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-SUB-1", "description": "Subtract whole numbers with more than 4 digits, using formal written methods (columnar subtraction)", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","short_answer"] },
+            { "code": "MA5-SUB-2", "description": "Subtract numbers mentally with increasingly large numbers", "difficultyBands": ["bronze","silver"], "questionTypes": ["fill_in_box","multiple_choice"] },
+            { "code": "MA5-SUB-3", "description": "Solve multi-step subtraction problems in contexts, deciding which operations and methods to use and why", "difficultyBands": ["gold","challenge"], "questionTypes": ["multi_step","short_answer"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "multiplication",
+      "name": "Multiplication",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-MUL-1", "description": "Identify multiples and factors, including finding all factor pairs of a number, and common factors of two numbers", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+            { "code": "MA5-MUL-2", "description": "Know and use the vocabulary of prime numbers, prime factors and composite (non-prime) numbers up to 100", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] },
+            { "code": "MA5-MUL-3", "description": "Multiply numbers up to 4 digits by a one- or two-digit number using a formal written method", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","short_answer"] },
+            { "code": "MA5-MUL-4", "description": "Multiply and divide numbers mentally, drawing upon known facts", "difficultyBands": ["bronze","silver"], "questionTypes": ["fill_in_box","multiple_choice"] },
+            { "code": "MA5-MUL-5", "description": "Recognise and use square numbers and cube numbers, and the notation for squared (²) and cubed (³)", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","fill_in_box"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "division",
+      "name": "Division",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-DIV-1", "description": "Divide numbers up to 4 digits by a one-digit number using the formal written method of short division, interpreting remainders appropriately", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","short_answer"] },
+            { "code": "MA5-DIV-2", "description": "Solve problems involving multiplication and division, including scaling by simple fractions and problems involving simple rates", "difficultyBands": ["gold","challenge"], "questionTypes": ["multi_step","short_answer"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fractions",
+      "name": "Fractions",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-FRAC-1", "description": "Compare and order fractions whose denominators are all multiples of the same number", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+            { "code": "MA5-FRAC-2", "description": "Recognise mixed numbers and improper fractions and convert from one form to the other", "difficultyBands": ["silver","gold"], "questionTypes": ["fill_in_box","short_answer"] },
+            { "code": "MA5-FRAC-3", "description": "Add and subtract fractions with the same denominator and denominators that are multiples of the same number", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","short_answer"] },
+            { "code": "MA5-FRAC-4", "description": "Multiply proper fractions and mixed numbers by whole numbers, supported by materials and diagrams", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] },
+            { "code": "MA5-FRAC-5", "description": "Recognise and use thousandths and relate them to tenths, hundredths and decimal equivalents", "difficultyBands": ["gold","challenge"], "questionTypes": ["fill_in_box","matching"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "decimals",
+      "name": "Decimals",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-DEC-1", "description": "Read, write, order and compare numbers with up to three decimal places", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","fill_in_box"] },
+            { "code": "MA5-DEC-2", "description": "Round decimals with two decimal places to the nearest whole number and to one decimal place", "difficultyBands": ["silver","gold"], "questionTypes": ["fill_in_box","short_answer"] },
+            { "code": "MA5-DEC-3", "description": "Read and write decimal numbers as fractions, and vice versa", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["matching","short_answer"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "percentages",
+      "name": "Percentages",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-PCT-1", "description": "Recognise the per cent symbol (%) and understand that per cent relates to 'number of parts per hundred'", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "MA5-PCT-2", "description": "Write percentages as a fraction with denominator 100, and as a decimal", "difficultyBands": ["silver","gold"], "questionTypes": ["fill_in_box","matching"] },
+            { "code": "MA5-PCT-3", "description": "Solve problems which require finding percentages of quantities", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "measurement",
+      "name": "Measurement",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-MEA-1", "description": "Convert between different units of metric measure (km/m, cm/mm, kg/g, l/ml)", "difficultyBands": ["bronze","silver"], "questionTypes": ["fill_in_box","multiple_choice"] },
+            { "code": "MA5-MEA-2", "description": "Understand and use approximate equivalences between metric units and common imperial units", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+            { "code": "MA5-MEA-3", "description": "Measure and calculate the perimeter of composite rectilinear shapes in centimetres and metres", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["short_answer","fill_in_box"] },
+            { "code": "MA5-MEA-4", "description": "Calculate and compare the area of rectangles, including using standard units, and estimate the area of irregular shapes", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multi_step"] },
+            { "code": "MA5-MEA-5", "description": "Estimate volume and capacity", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] },
+            { "code": "MA5-MEA-6", "description": "Solve problems involving converting between units of time", "difficultyBands": ["silver","gold"], "questionTypes": ["fill_in_box","multi_step"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "geometry",
+      "name": "Geometry: Properties of Shape",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-GEO-1", "description": "Identify 3-D shapes, including cubes and other cuboids, from 2-D representations", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","matching"] },
+            { "code": "MA5-GEO-2", "description": "Know angles are measured in degrees; estimate and compare acute, obtuse and reflex angles", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+            { "code": "MA5-GEO-3", "description": "Draw given angles, and measure them in degrees", "difficultyBands": ["silver","gold"], "questionTypes": ["short_answer"] },
+            { "code": "MA5-GEO-4", "description": "Identify angles at a point and one whole turn, at a point on a straight line, and calculate missing angles", "difficultyBands": ["gold","challenge"], "questionTypes": ["fill_in_box","multi_step"] },
+            { "code": "MA5-GEO-5", "description": "Identify, describe and represent the position of a shape following a reflection or translation", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "statistics",
+      "name": "Statistics",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-STAT-1", "description": "Solve comparison, sum and difference problems using information presented in a line graph", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+            { "code": "MA5-STAT-2", "description": "Complete, read and interpret information in tables, including timetables", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["short_answer","fill_in_box"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "reasoning",
+      "name": "Reasoning and Proof",
+      "description": "Cross-curricular reasoning drawing on all number strands; PUMA-style 'explain your answer' items.",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-REA-1", "description": "Explain and justify a solution to a problem using mathematical reasoning, including spotting patterns", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] },
+            { "code": "MA5-REA-2", "description": "Solve multi-step problems requiring selection of the appropriate operations and methods", "difficultyBands": ["gold","challenge"], "questionTypes": ["multi_step"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "word-problems",
+      "name": "Word Problems",
+      "description": "Applying number, measurement and fraction skills to worded, real-world contexts, PUMA-style.",
+      "years": [
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "MA5-WP-1", "description": "Solve problems involving addition, subtraction, multiplication and division in everyday contexts", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["short_answer","multi_step"] },
+            { "code": "MA5-WP-2", "description": "Solve problems involving combinations of the four operations, including understanding the meaning of the equals sign", "difficultyBands": ["gold","challenge"], "questionTypes": ["multi_step"] }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "subjectSlug": "computing",
+  "subjectName": "Computing",
+  "frameworks": ["UK National Curriculum KS2 Computing"],
+  "icon": "Laptop",
+  "color": "cyan",
+  "strands": [
+    { "slug": "typing", "name": "Typing & Digital Fluency", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "CO5-TYP-1", "description": "Type with increasing speed and accuracy using correct home-row finger technique", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["short_answer"] }
+      ] }
+    ] },
+    { "slug": "e-safety", "name": "E-Safety", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "CO5-SAFE-1", "description": "Identify a range of ways to report concerns about content and contact online", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "CO5-SAFE-2", "description": "Explain how to keep personal information private and recognise online risks", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] }
+    ] },
+    { "slug": "algorithms", "name": "Algorithms", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "CO5-ALG-1", "description": "Design and use an algorithm to solve a problem, and understand that algorithms are implemented as programs on digital devices", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multi_step","multiple_choice"] },
+        { "code": "CO5-ALG-2", "description": "Use logical reasoning to detect and correct errors in an algorithm (debugging)", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multi_step","short_answer"] }
+      ] }
+    ] },
+    { "slug": "scratch-concepts", "name": "Scratch Programming Concepts", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "CO5-SCR-1", "description": "Use sequence, selection and repetition in programs; work with variables and inputs/outputs", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] }
+      ] }
+    ] },
+    { "slug": "digital-literacy", "name": "Digital Literacy", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "CO5-DIG-1", "description": "Select, use and combine software/services on a range of digital devices to design and create content", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "CO5-DIG-2", "description": "Understand computer networks, including the internet, and how they provide multiple services such as the World Wide Web", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] }
+    ] }
+  ]
+}

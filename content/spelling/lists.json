@@ -1,0 +1,109 @@
+[
+  { "weekLabel": "Week 1 — Silent Letters", "yearGroup": "Y5", "strandSlug": "silent-letters",
+    "words": [
+      { "word": "doubt", "exampleSentence": "I have no doubt that we will win." },
+      { "word": "island", "exampleSentence": "The Cayman Islands are made up of three islands." },
+      { "word": "lamb", "exampleSentence": "The farmer fed the newborn lamb." },
+      { "word": "solemn", "exampleSentence": "She made a solemn promise to her friend." },
+      { "word": "thistle", "exampleSentence": "A thistle grew beside the old wall." },
+      { "word": "knight", "exampleSentence": "The knight rode into the castle." },
+      { "word": "autumn", "exampleSentence": "The leaves fall in autumn." },
+      { "word": "climb", "exampleSentence": "We will climb the hill before lunch." }
+    ] },
+  { "weekLabel": "Week 2 — 'ough' Words", "yearGroup": "Y5", "strandSlug": "ough",
+    "words": [
+      { "word": "thought", "exampleSentence": "I thought about the answer carefully." },
+      { "word": "through", "exampleSentence": "We walked through the forest." },
+      { "word": "although", "exampleSentence": "Although it was late, she kept reading." },
+      { "word": "plough", "exampleSentence": "The farmer used a plough in the field." },
+      { "word": "cough", "exampleSentence": "He had a bad cough all week." },
+      { "word": "borough", "exampleSentence": "The borough council met on Tuesday." },
+      { "word": "bought", "exampleSentence": "She bought new shoes for school." },
+      { "word": "brought", "exampleSentence": "He brought his lunch to school." }
+    ] },
+  { "weekLabel": "Week 3 — '-cious' and '-tious' Endings", "yearGroup": "Y5", "strandSlug": "cious-tious",
+    "words": [
+      { "word": "vicious", "exampleSentence": "The vicious storm damaged the roof." },
+      { "word": "precious", "exampleSentence": "The necklace was a precious family heirloom." },
+      { "word": "delicious", "exampleSentence": "The mango was ripe and delicious." },
+      { "word": "cautious", "exampleSentence": "Be cautious when crossing the road." },
+      { "word": "ambitious", "exampleSentence": "She is ambitious and wants to be a scientist." },
+      { "word": "suspicious", "exampleSentence": "The dog was suspicious of the stranger." },
+      { "word": "spacious", "exampleSentence": "The new classroom is bright and spacious." }
+    ] },
+  { "weekLabel": "Week 4 — '-cial' and '-tial' Endings", "yearGroup": "Y5", "strandSlug": "cial-tial",
+    "words": [
+      { "word": "official", "exampleSentence": "It is now official — school reopens Monday." },
+      { "word": "special", "exampleSentence": "Today is a special day." },
+      { "word": "partial", "exampleSentence": "He gave only a partial answer." },
+      { "word": "confidential", "exampleSentence": "The report was marked confidential." },
+      { "word": "essential", "exampleSentence": "Water is essential for life." },
+      { "word": "financial", "exampleSentence": "The family reviewed their financial plans." },
+      { "word": "social", "exampleSentence": "The class held a social event." }
+    ] },
+  { "weekLabel": "Week 5 — 'ei' after 'c'", "yearGroup": "Y5", "strandSlug": "ei-after-c",
+    "words": [
+      { "word": "deceive", "exampleSentence": "He would never try to deceive his friends." },
+      { "word": "receive", "exampleSentence": "You will receive your results tomorrow." },
+      { "word": "ceiling", "exampleSentence": "A fan hung from the ceiling." },
+      { "word": "conceive", "exampleSentence": "It is hard to conceive of such a large number." },
+      { "word": "perceive", "exampleSentence": "Some animals perceive colours differently." },
+      { "word": "receipt", "exampleSentence": "Keep the receipt for your records." }
+    ] },
+  { "weekLabel": "Week 6 — Homophones", "yearGroup": "Y5", "strandSlug": "homophones",
+    "words": [
+      { "word": "there", "exampleSentence": "The book is over there." },
+      { "word": "their", "exampleSentence": "That is their house." },
+      { "word": "they're", "exampleSentence": "They're coming over later." },
+      { "word": "whose", "exampleSentence": "Whose bag is this?" },
+      { "word": "who's", "exampleSentence": "Who's coming to the party?" },
+      { "word": "practice", "exampleSentence": "Football practice starts at four." },
+      { "word": "practise", "exampleSentence": "You should practise the piano daily." },
+      { "word": "affect", "exampleSentence": "The weather can affect our mood." },
+      { "word": "effect", "exampleSentence": "The medicine had a strong effect." }
+    ] },
+  { "weekLabel": "Week 7 — Statutory List A", "yearGroup": "Y5", "strandSlug": "statutory-list",
+    "words": [
+      { "word": "accommodate", "exampleSentence": "The hotel can accommodate large groups." },
+      { "word": "necessary", "exampleSentence": "It is necessary to bring a hat." },
+      { "word": "government", "exampleSentence": "The government announced new plans." },
+      { "word": "environment", "exampleSentence": "We must protect the environment." },
+      { "word": "communicate", "exampleSentence": "Good friends communicate honestly." },
+      { "word": "immediately", "exampleSentence": "She left immediately after the bell." },
+      { "word": "opportunity", "exampleSentence": "This is a great opportunity." },
+      { "word": "recommend", "exampleSentence": "I recommend this book highly." }
+    ] },
+  { "weekLabel": "Week 8 — Statutory List B", "yearGroup": "Y5", "strandSlug": "statutory-list",
+    "words": [
+      { "word": "definitely", "exampleSentence": "We are definitely going to the beach." },
+      { "word": "embarrass", "exampleSentence": "Try not to embarrass your sister." },
+      { "word": "existence", "exampleSentence": "The club has been in existence for years." },
+      { "word": "guarantee", "exampleSentence": "I guarantee you will enjoy the film." },
+      { "word": "interfere", "exampleSentence": "Please do not interfere with the plan." },
+      { "word": "muscle", "exampleSentence": "He pulled a muscle while running." },
+      { "word": "queue", "exampleSentence": "We stood in a long queue." },
+      { "word": "rhythm", "exampleSentence": "The drummer kept a steady rhythm." }
+    ] },
+  { "weekLabel": "Week 9 — Word Sorting Focus (Prefixes)", "yearGroup": "Y5", "strandSlug": "word-sorting",
+    "words": [
+      { "word": "disagree", "exampleSentence": "I disagree with that idea." },
+      { "word": "misbehave", "exampleSentence": "The puppy tends to misbehave." },
+      { "word": "reappear", "exampleSentence": "The sun will reappear after the clouds pass." },
+      { "word": "impossible", "exampleSentence": "Nothing is impossible if you try." },
+      { "word": "irregular", "exampleSentence": "The shape was irregular." },
+      { "word": "interact", "exampleSentence": "The students interact during group work." },
+      { "word": "superhuman", "exampleSentence": "The rescue seemed like a superhuman effort." },
+      { "word": "autograph", "exampleSentence": "She collected the singer's autograph." }
+    ] },
+  { "weekLabel": "Week 10 — Mixed Review", "yearGroup": "Y5", "strandSlug": "statutory-list",
+    "words": [
+      { "word": "vehicle", "exampleSentence": "The vehicle stopped at the light." },
+      { "word": "yacht", "exampleSentence": "The yacht sailed across the harbour." },
+      { "word": "system", "exampleSentence": "The library has a new sorting system." },
+      { "word": "signature", "exampleSentence": "Please add your signature here." },
+      { "word": "physical", "exampleSentence": "Swimming is good physical exercise." },
+      { "word": "category", "exampleSentence": "Sort each word into the correct category." },
+      { "word": "language", "exampleSentence": "She is learning a new language." },
+      { "word": "sincere", "exampleSentence": "He gave a sincere apology." }
+    ] }
+]

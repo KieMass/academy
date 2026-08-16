@@ -1,0 +1,42 @@
+{
+  "subjectSlug": "science",
+  "subjectName": "Science",
+  "frameworks": ["UK National Curriculum KS2 Science", "Cayman Islands Y5 Expectations"],
+  "icon": "FlaskConical",
+  "color": "emerald",
+  "strands": [
+    { "slug": "living-things-habitats", "name": "Living Things and Habitats", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "SC5-LIV-1", "description": "Describe the differences in the life cycles of a mammal, an amphibian, an insect and a bird", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+        { "code": "SC5-LIV-2", "description": "Describe the life process of reproduction in some plants and animals", "difficultyBands": ["silver","gold"], "questionTypes": ["short_answer","multiple_choice"] }
+      ] }
+    ] },
+    { "slug": "animals-including-humans", "name": "Animals Including Humans", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "SC5-ANI-1", "description": "Describe the changes as humans develop to old age", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "SC5-ANI-2", "description": "Explain the changes experienced during puberty in an age-appropriate, factual way", "difficultyBands": ["silver"], "questionTypes": ["short_answer"] }
+      ] }
+    ] },
+    { "slug": "materials", "name": "Properties and Changes of Materials", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "SC5-MAT-1", "description": "Compare and group materials based on their properties, including hardness, solubility, transparency and conductivity", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+        { "code": "SC5-MAT-2", "description": "Know that some materials dissolve to form a solution and describe how to recover a substance from a solution", "difficultyBands": ["silver","gold"], "questionTypes": ["short_answer","multiple_choice"] },
+        { "code": "SC5-MAT-3", "description": "Explain that some changes result in the formation of new materials, and this is usually irreversible", "difficultyBands": ["gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] }
+    ] },
+    { "slug": "earth-and-space", "name": "Earth and Space", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "SC5-SPA-1", "description": "Describe the movement of the Earth and other planets relative to the Sun in the solar system", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+        { "code": "SC5-SPA-2", "description": "Describe the movement of the Moon relative to the Earth, and the Sun, Earth and Moon as approximately spherical bodies", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "SC5-SPA-3", "description": "Use the idea of the Earth's rotation to explain day and night and the apparent movement of the sun across the sky", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] }
+      ] }
+    ] },
+    { "slug": "forces", "name": "Forces", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "SC5-FOR-1", "description": "Explain that unsupported objects fall towards Earth because of the force of gravity", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "SC5-FOR-2", "description": "Identify the effects of air resistance, water resistance and friction that act between moving surfaces", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+        { "code": "SC5-FOR-3", "description": "Recognise that some mechanisms, including levers, pulleys and gears, allow a smaller force to have a greater effect", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] }
+      ] }
+    ] }
+  ]
+}

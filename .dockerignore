@@ -1,0 +1,12 @@
+node_modules
+.next
+dev.db
+dev.db-journal
+*.log
+.env
+.env.local
+.git
+.gitignore
+test-results
+playwright-report
+coverage

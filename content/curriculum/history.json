@@ -1,0 +1,27 @@
+{
+  "subjectSlug": "history",
+  "subjectName": "History",
+  "frameworks": ["UK National Curriculum KS2 History"],
+  "icon": "Landmark",
+  "color": "orange",
+  "strands": [
+    { "slug": "ancient-greeks", "name": "Ancient Greece", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "HI5-GRE-1", "description": "Describe Greek life and achievements and their influence on the western world", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "HI5-GRE-2", "description": "Explain the significance of Athenian democracy and compare it to systems of government today", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
+      ] }
+    ] },
+    { "slug": "anglo-saxons", "name": "Anglo-Saxons", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "HI5-SAX-1", "description": "Describe Anglo-Saxon settlement of Britain and everyday Anglo-Saxon life", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "HI5-SAX-2", "description": "Explain the significance of Anglo-Saxon kingdoms, laws and the spread of Christianity", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
+      ] }
+    ] },
+    { "slug": "vikings", "name": "Vikings", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "HI5-VIK-1", "description": "Describe Viking and Anglo-Saxon struggles for the Kingdom of England", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "HI5-VIK-2", "description": "Use evidence from artefacts and sources to describe Viking exploration and settlement", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] }
+      ] }
+    ] }
+  ]
+}

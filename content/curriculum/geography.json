@@ -1,0 +1,37 @@
+{
+  "subjectSlug": "geography",
+  "subjectName": "Geography",
+  "frameworks": ["UK National Curriculum KS2 Geography", "Cayman Islands Y5 Expectations (island geography focus)"],
+  "icon": "Globe2",
+  "color": "teal",
+  "strands": [
+    { "slug": "maps", "name": "Maps & Map Skills", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "GE5-MAP-1", "description": "Use maps, atlases, globes and digital mapping to locate countries and describe features studied", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+        { "code": "GE5-MAP-2", "description": "Use symbols and a key (including the use of Ordnance Survey maps) to build knowledge of the UK and wider world", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] }
+    ] },
+    { "slug": "coordinates", "name": "Coordinates, Grid References & Scale", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "GE5-COORD-1", "description": "Use four-figure grid references and understand latitude and longitude", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["fill_in_box","short_answer"] }
+      ] }
+    ] },
+    { "slug": "natural-resources", "name": "Natural Resources", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "GE5-RES-1", "description": "Describe the distribution of natural resources including energy, food, minerals and water", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] }
+    ] },
+    { "slug": "environmental-issues", "name": "Environmental Issues", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "GE5-ENV-1", "description": "Explain human impact on the environment, including climate change and its effect on small island nations such as the Cayman Islands", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] },
+        { "code": "GE5-ENV-2", "description": "Describe how coral reefs and mangroves protect coastlines and support biodiversity", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] }
+    ] },
+    { "slug": "world-geography", "name": "World Geography", "years": [
+      { "yearGroup": "Y5", "objectives": [
+        { "code": "GE5-WOR-1", "description": "Locate the world's countries, focusing on the Caribbean, Europe and North/South America, and their environmental regions", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+        { "code": "GE5-WOR-2", "description": "Describe climate zones, biomes and vegetation belts, and understand key aspects of physical geography including hurricanes and volcanoes", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] }
+    ] }
+  ]
+}

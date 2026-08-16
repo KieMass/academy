@@ -1,0 +1,36 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      # SQLite by default — the file lives in the named volume below so data
+      # survives container recreation. Swap for a postgres:// URL (and flip
+      # `provider` in prisma/schema.prisma to "postgresql") to use the `db`
+      # service instead — see docs/DEPLOYMENT.md.
+      DATABASE_URL: "file:/app/data/prod.db"
+      AUTH_SECRET: ${AUTH_SECRET:?Set AUTH_SECRET in your .env file}
+      NODE_ENV: production
+    volumes:
+      - app-data:/app/data
+    restart: unless-stopped
+
+  # --- Optional: PostgreSQL for production-scale deployments ---
+  # Uncomment this service, set DATABASE_URL above to
+  # postgresql://redbay:redbay@db:5432/redbay_academy, and change
+  # `provider = "sqlite"` to `provider = "postgresql"` in prisma/schema.prisma.
+  #
+  # db:
+  #   image: postgres:16-alpine
+  #   environment:
+  #     POSTGRES_USER: redbay
+  #     POSTGRES_PASSWORD: redbay
+  #     POSTGRES_DB: redbay_academy
+  #   volumes:
+  #     - pg-data:/var/lib/postgresql/data
+  #   ports:
+  #     - "5432:5432"
+
+volumes:
+  app-data:
+  # pg-data:
