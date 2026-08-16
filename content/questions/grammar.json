@@ -1,112 +1,3435 @@
 [
-  { "subjectSlug": "grammar", "strandSlug": "relative-clauses", "yearGroup": "Y5", "objectiveCode": "GR5-REL-1", "type": "multiple_choice", "difficulty": "bronze",
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which sentence correctly uses a relative clause?",
-    "options": [{ "id": "a", "text": "The dog who barked loudly ran away." }, { "id": "b", "text": "The dog which barked loudly ran away." }, { "id": "c", "text": "The dog barked loudly and it ran away and it." }, { "id": "d", "text": "The dog it barked loudly ran away." }],
-    "correctOptionId": "b", "explanation": "For animals/objects we use 'which' or 'that'; 'who' is used for people." },
-  { "subjectSlug": "grammar", "strandSlug": "relative-clauses", "yearGroup": "Y5", "objectiveCode": "GR5-REL-1", "type": "fill_in_box", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "The dog who barked loudly ran away."
+      },
+      {
+        "id": "b",
+        "text": "The dog which barked loudly ran away."
+      },
+      {
+        "id": "c",
+        "text": "The dog barked loudly and it ran away and it."
+      },
+      {
+        "id": "d",
+        "text": "The dog it barked loudly ran away."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "For animals/objects we use 'which' or 'that'; 'who' is used for people."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
     "promptText": "Complete the sentence with the correct relative pronoun: 'The teacher, ___ had marked all the books, went home early.'",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["who"] }], "explanation": "'Who' refers to a person (the teacher)." },
-  { "subjectSlug": "grammar", "strandSlug": "relative-clauses", "yearGroup": "Y5", "objectiveCode": "GR5-REL-1", "type": "short_answer", "difficulty": "gold",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "who"
+        ]
+      }
+    ],
+    "explanation": "'Who' refers to a person (the teacher)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Rewrite this as one sentence using a relative clause: 'This is the house. My grandmother grew up in the house.'",
-    "acceptedAnswers": ["this is the house where my grandmother grew up", "this is the house in which my grandmother grew up"],
-    "explanation": "'Where' is used to introduce a relative clause about a place." },
-  { "subjectSlug": "grammar", "strandSlug": "relative-clauses", "yearGroup": "Y5", "objectiveCode": "GR5-REL-1", "type": "multiple_choice", "difficulty": "gold",
+    "acceptedAnswers": [
+      "this is the house where my grandmother grew up",
+      "this is the house in which my grandmother grew up"
+    ],
+    "explanation": "'Where' is used to introduce a relative clause about a place."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Which sentence uses an omitted relative pronoun correctly?",
-    "options": [{ "id": "a", "text": "The book I borrowed was excellent." }, { "id": "b", "text": "The book that which I borrowed was excellent." }, { "id": "c", "text": "The book who I borrowed was excellent." }, { "id": "d", "text": "The book, I borrowed, was excellent." }],
-    "correctOptionId": "a", "explanation": "'That' can be omitted: 'The book (that) I borrowed was excellent.'" },
-  { "subjectSlug": "grammar", "strandSlug": "modal-verbs", "yearGroup": "Y5", "objectiveCode": "GR5-MOD-1", "type": "multiple_choice", "difficulty": "bronze",
+    "options": [
+      {
+        "id": "a",
+        "text": "The book I borrowed was excellent."
+      },
+      {
+        "id": "b",
+        "text": "The book that which I borrowed was excellent."
+      },
+      {
+        "id": "c",
+        "text": "The book who I borrowed was excellent."
+      },
+      {
+        "id": "d",
+        "text": "The book, I borrowed, was excellent."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'That' can be omitted: 'The book (that) I borrowed was excellent.'"
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which sentence shows the LEAST certainty?",
-    "options": [{ "id": "a", "text": "It will rain tomorrow." }, { "id": "b", "text": "It might rain tomorrow." }, { "id": "c", "text": "It must rain tomorrow." }, { "id": "d", "text": "It is raining now." }],
-    "correctOptionId": "b", "explanation": "'Might' expresses the lowest degree of possibility of the options given." },
-  { "subjectSlug": "grammar", "strandSlug": "modal-verbs", "yearGroup": "Y5", "objectiveCode": "GR5-MOD-1", "type": "fill_in_box", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "It will rain tomorrow."
+      },
+      {
+        "id": "b",
+        "text": "It might rain tomorrow."
+      },
+      {
+        "id": "c",
+        "text": "It must rain tomorrow."
+      },
+      {
+        "id": "d",
+        "text": "It is raining now."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Might' expresses the lowest degree of possibility of the options given."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-MOD-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
     "promptText": "Choose a modal verb to complete: 'You ___ finish your homework before dinner.' (expressing obligation)",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["must", "should"] }], "explanation": "'Must' or 'should' express obligation or strong advice." },
-  { "subjectSlug": "grammar", "strandSlug": "modal-verbs", "yearGroup": "Y5", "objectiveCode": "GR5-MOD-1", "type": "matching", "difficulty": "gold",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "must",
+          "should"
+        ]
+      }
+    ],
+    "explanation": "'Must' or 'should' express obligation or strong advice."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-MOD-1",
+    "type": "matching",
+    "difficulty": "gold",
     "promptText": "Match each modal verb to the degree of possibility it expresses.",
-    "pairs": [ { "id": "p1", "left": "must", "right": "near certainty" }, { "id": "p2", "left": "might", "right": "possibility" }, { "id": "p3", "left": "could", "right": "possibility" }, { "id": "p4", "left": "will", "right": "certainty" } ],
-    "explanation": "Modal verbs range from near-certainty (must, will) to possibility (might, could)." },
-  { "subjectSlug": "grammar", "strandSlug": "fronted-adverbials", "yearGroup": "Y5", "objectiveCode": "GR5-FRO-1", "type": "multiple_choice", "difficulty": "bronze",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "must",
+        "right": "near certainty"
+      },
+      {
+        "id": "p2",
+        "left": "might",
+        "right": "possibility"
+      },
+      {
+        "id": "p3",
+        "left": "could",
+        "right": "possibility"
+      },
+      {
+        "id": "p4",
+        "left": "will",
+        "right": "certainty"
+      }
+    ],
+    "explanation": "Modal verbs range from near-certainty (must, will) to possibility (might, could)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-FRO-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which sentence correctly uses a fronted adverbial?",
-    "options": [{ "id": "a", "text": "Later that evening, the storm arrived." }, { "id": "b", "text": "Later that evening the storm, arrived." }, { "id": "c", "text": "The storm arrived, later that evening." }, { "id": "d", "text": "Later, that, evening the storm arrived." }],
-    "correctOptionId": "a", "explanation": "A fronted adverbial starts the sentence and is followed by a comma." },
-  { "subjectSlug": "grammar", "strandSlug": "fronted-adverbials", "yearGroup": "Y5", "objectiveCode": "GR5-FRO-1", "type": "fill_in_box", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Later that evening, the storm arrived."
+      },
+      {
+        "id": "b",
+        "text": "Later that evening the storm, arrived."
+      },
+      {
+        "id": "c",
+        "text": "The storm arrived, later that evening."
+      },
+      {
+        "id": "d",
+        "text": "Later, that, evening the storm arrived."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A fronted adverbial starts the sentence and is followed by a comma."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-FRO-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
     "promptText": "Add the missing punctuation: 'Without warning___ the lights went out.'",
-    "blanks": [{ "id": "answer", "acceptedAnswers": [","] }], "explanation": "A comma follows a fronted adverbial ('Without warning,')." },
-  { "subjectSlug": "grammar", "strandSlug": "fronted-adverbials", "yearGroup": "Y5", "objectiveCode": "GR5-FRO-1", "type": "short_answer", "difficulty": "gold",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          ","
+        ]
+      }
+    ],
+    "explanation": "A comma follows a fronted adverbial ('Without warning,')."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-FRO-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Rewrite this sentence to begin with a fronted adverbial: 'The children ran outside quickly when the bell rang.'",
-    "acceptedAnswers": ["quickly, the children ran outside when the bell rang", "when the bell rang, the children ran outside quickly"],
-    "explanation": "Moving the adverbial phrase to the front and adding a comma creates a fronted adverbial." },
-  { "subjectSlug": "grammar", "strandSlug": "parenthesis", "yearGroup": "Y5", "objectiveCode": "GR5-PAR-1", "type": "multiple_choice", "difficulty": "silver",
+    "acceptedAnswers": [
+      "quickly, the children ran outside when the bell rang",
+      "when the bell rang, the children ran outside quickly"
+    ],
+    "explanation": "Moving the adverbial phrase to the front and adding a comma creates a fronted adverbial."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which sentence correctly uses brackets for parenthesis?",
-    "options": [{ "id": "a", "text": "My uncle (who lives in Cardiff) is visiting us." }, { "id": "b", "text": "My uncle who lives in (Cardiff) is visiting us." }, { "id": "c", "text": "My (uncle who lives in Cardiff is) visiting us." }, { "id": "d", "text": "My uncle who lives in Cardiff (is visiting us)." }],
-    "correctOptionId": "a", "explanation": "The extra, non-essential information ('who lives in Cardiff') is enclosed in brackets." },
-  { "subjectSlug": "grammar", "strandSlug": "parenthesis", "yearGroup": "Y5", "objectiveCode": "GR5-PAR-1", "type": "fill_in_box", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "My uncle (who lives in Cardiff) is visiting us."
+      },
+      {
+        "id": "b",
+        "text": "My uncle who lives in (Cardiff) is visiting us."
+      },
+      {
+        "id": "c",
+        "text": "My (uncle who lives in Cardiff is) visiting us."
+      },
+      {
+        "id": "d",
+        "text": "My uncle who lives in Cardiff (is visiting us)."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The extra, non-essential information ('who lives in Cardiff') is enclosed in brackets."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PAR-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
     "promptText": "Insert a pair of dashes to mark the parenthesis: 'The old bridge ___ built over 200 years ago ___ finally collapsed.'",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["-- built over 200 years ago --", "— built over 200 years ago —"] }],
-    "explanation": "A pair of dashes can enclose parenthetical information in the middle of a sentence." },
-  { "subjectSlug": "grammar", "strandSlug": "expanded-noun-phrases", "yearGroup": "Y5", "objectiveCode": "GR5-ENP-1", "type": "multiple_choice", "difficulty": "bronze",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "-- built over 200 years ago --",
+          "— built over 200 years ago —"
+        ]
+      }
+    ],
+    "explanation": "A pair of dashes can enclose parenthetical information in the middle of a sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-ENP-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which is the best example of an expanded noun phrase?",
-    "options": [{ "id": "a", "text": "The dog" }, { "id": "b", "text": "Ran fast" }, { "id": "c", "text": "The huge, scruffy dog with the torn ear" }, { "id": "d", "text": "Barked" }],
-    "correctOptionId": "c", "explanation": "An expanded noun phrase adds detail before and after the noun using adjectives and a prepositional phrase." },
-  { "subjectSlug": "grammar", "strandSlug": "expanded-noun-phrases", "yearGroup": "Y5", "objectiveCode": "GR5-ENP-1", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "The dog"
+      },
+      {
+        "id": "b",
+        "text": "Ran fast"
+      },
+      {
+        "id": "c",
+        "text": "The huge, scruffy dog with the torn ear"
+      },
+      {
+        "id": "d",
+        "text": "Barked"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "An expanded noun phrase adds detail before and after the noun using adjectives and a prepositional phrase."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-ENP-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Expand this noun phrase with at least two extra details: 'the castle'",
-    "acceptedAnswers": ["the ancient, crumbling castle on the hill", "the tall stone castle with broken towers"],
-    "explanation": "Any answer adding two or more descriptive details (adjectives and/or a prepositional phrase) is correct." },
-  { "subjectSlug": "grammar", "strandSlug": "prefixes", "yearGroup": "Y5", "objectiveCode": "GR5-PRE-1", "type": "matching", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "the ancient, crumbling castle on the hill",
+      "the tall stone castle with broken towers"
+    ],
+    "explanation": "Any answer adding two or more descriptive details (adjectives and/or a prepositional phrase) is correct."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PRE-1",
+    "type": "matching",
+    "difficulty": "bronze",
     "promptText": "Match each word to its correct prefixed opposite.",
-    "pairs": [ { "id": "p1", "left": "appear", "right": "disappear" }, { "id": "p2", "left": "understand", "right": "misunderstand" }, { "id": "p3", "left": "possible", "right": "impossible" }, { "id": "p4", "left": "legal", "right": "illegal" } ],
-    "explanation": "dis-, mis-, im- and il- are common negating prefixes." },
-  { "subjectSlug": "grammar", "strandSlug": "prefixes", "yearGroup": "Y5", "objectiveCode": "GR5-PRE-1", "type": "fill_in_box", "difficulty": "silver",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "appear",
+        "right": "disappear"
+      },
+      {
+        "id": "p2",
+        "left": "understand",
+        "right": "misunderstand"
+      },
+      {
+        "id": "p3",
+        "left": "possible",
+        "right": "impossible"
+      },
+      {
+        "id": "p4",
+        "left": "legal",
+        "right": "illegal"
+      }
+    ],
+    "explanation": "dis-, mis-, im- and il- are common negating prefixes."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PRE-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
     "promptText": "Add the correct prefix to make the opposite of 'responsible': ___responsible",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["ir"] }], "explanation": "Before words starting with 'r', we use the prefix 'ir-': irresponsible." },
-  { "subjectSlug": "grammar", "strandSlug": "suffixes", "yearGroup": "Y5", "objectiveCode": "GR5-SUF-1", "type": "multiple_choice", "difficulty": "bronze",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "ir"
+        ]
+      }
+    ],
+    "explanation": "Before words starting with 'r', we use the prefix 'ir-': irresponsible."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which suffix correctly turns 'active' into a verb meaning 'to make active'?",
-    "options": [{ "id": "a", "text": "activefy" }, { "id": "b", "text": "activate" }, { "id": "c", "text": "activeness" }, { "id": "d", "text": "activesise" }],
-    "correctOptionId": "b", "explanation": "Adding '-ate' converts the adjective 'active' into the verb 'activate'." },
-  { "subjectSlug": "grammar", "strandSlug": "suffixes", "yearGroup": "Y5", "objectiveCode": "GR5-SUF-1", "type": "fill_in_box", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "activefy"
+      },
+      {
+        "id": "b",
+        "text": "activate"
+      },
+      {
+        "id": "c",
+        "text": "activeness"
+      },
+      {
+        "id": "d",
+        "text": "activesise"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Adding '-ate' converts the adjective 'active' into the verb 'activate'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SUF-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
     "promptText": "Add a suffix beginning with a vowel to 'refer' correctly: refer + ed = ___",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["referred"] }], "explanation": "Words ending in -fer double the 'r' before a vowel suffix when the stress is on the final syllable: referred." },
-  { "subjectSlug": "grammar", "strandSlug": "homophones", "yearGroup": "Y5", "objectiveCode": "GR5-HOM-1", "type": "multiple_choice", "difficulty": "bronze",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "referred"
+        ]
+      }
+    ],
+    "explanation": "Words ending in -fer double the 'r' before a vowel suffix when the stress is on the final syllable: referred."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Choose the correct word: 'The ___ of the story surprised everyone.'",
-    "options": [{ "id": "a", "text": "affect" }, { "id": "b", "text": "effect" }, { "id": "c", "text": "affict" }, { "id": "d", "text": "efect" }],
-    "correctOptionId": "b", "explanation": "'Effect' is usually the noun (a result); 'affect' is usually the verb." },
-  { "subjectSlug": "grammar", "strandSlug": "homophones", "yearGroup": "Y5", "objectiveCode": "GR5-HOM-1", "type": "matching", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "affect"
+      },
+      {
+        "id": "b",
+        "text": "effect"
+      },
+      {
+        "id": "c",
+        "text": "affict"
+      },
+      {
+        "id": "d",
+        "text": "efect"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Effect' is usually the noun (a result); 'affect' is usually the verb."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-HOM-1",
+    "type": "matching",
+    "difficulty": "silver",
     "promptText": "Match each word to its correct meaning.",
-    "pairs": [ { "id": "p1", "left": "principal", "right": "the head of a school" }, { "id": "p2", "left": "principle", "right": "a rule or belief" }, { "id": "p3", "left": "practice", "right": "the noun (doing something repeatedly)" }, { "id": "p4", "left": "practise", "right": "the verb (to do something repeatedly)" } ],
-    "explanation": "These are commonly confused word pairs with distinct meanings and, for practice/practise, distinct spellings by word class." },
-  { "subjectSlug": "grammar", "strandSlug": "sentence-structure", "yearGroup": "Y5", "objectiveCode": "GR5-SEN-1", "type": "multiple_choice", "difficulty": "silver",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "principal",
+        "right": "the head of a school"
+      },
+      {
+        "id": "p2",
+        "left": "principle",
+        "right": "a rule or belief"
+      },
+      {
+        "id": "p3",
+        "left": "practice",
+        "right": "the noun (doing something repeatedly)"
+      },
+      {
+        "id": "p4",
+        "left": "practise",
+        "right": "the verb (to do something repeatedly)"
+      }
+    ],
+    "explanation": "These are commonly confused word pairs with distinct meanings and, for practice/practise, distinct spellings by word class."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SEN-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which sentence is a complex sentence (has a main clause and a subordinate clause)?",
-    "options": [{ "id": "a", "text": "The dog barked and the cat ran." }, { "id": "b", "text": "Although it was raining, we went outside." }, { "id": "c", "text": "It was raining. We went outside." }, { "id": "d", "text": "The dog barked loudly." }],
-    "correctOptionId": "b", "explanation": "'Although it was raining' is a subordinate clause attached to the main clause 'we went outside'." },
-  { "subjectSlug": "grammar", "strandSlug": "sentence-structure", "yearGroup": "Y5", "objectiveCode": "GR5-SEN-1", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "The dog barked and the cat ran."
+      },
+      {
+        "id": "b",
+        "text": "Although it was raining, we went outside."
+      },
+      {
+        "id": "c",
+        "text": "It was raining. We went outside."
+      },
+      {
+        "id": "d",
+        "text": "The dog barked loudly."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Although it was raining' is a subordinate clause attached to the main clause 'we went outside'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SEN-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Combine these into one complex sentence using a subordinating conjunction: 'The match was cancelled. It was raining heavily.'",
-    "acceptedAnswers": ["the match was cancelled because it was raining heavily", "because it was raining heavily, the match was cancelled"],
-    "explanation": "'Because' correctly links cause (rain) and effect (cancellation) in a complex sentence." },
-  { "subjectSlug": "grammar", "strandSlug": "verb-tenses", "yearGroup": "Y5", "objectiveCode": "GR5-TEN-1", "type": "multiple_choice", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "the match was cancelled because it was raining heavily",
+      "because it was raining heavily, the match was cancelled"
+    ],
+    "explanation": "'Because' correctly links cause (rain) and effect (cancellation) in a complex sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which sentence uses the present perfect tense correctly?",
-    "options": [{ "id": "a", "text": "I have finished my homework." }, { "id": "b", "text": "I finish my homework yesterday." }, { "id": "c", "text": "I am finished my homework." }, { "id": "d", "text": "I finishing my homework." }],
-    "correctOptionId": "a", "explanation": "The present perfect uses 'have/has' + past participle: 'have finished'." },
-  { "subjectSlug": "grammar", "strandSlug": "verb-tenses", "yearGroup": "Y5", "objectiveCode": "GR5-TEN-1", "type": "fill_in_box", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "I have finished my homework."
+      },
+      {
+        "id": "b",
+        "text": "I finish my homework yesterday."
+      },
+      {
+        "id": "c",
+        "text": "I am finished my homework."
+      },
+      {
+        "id": "d",
+        "text": "I finishing my homework."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The present perfect uses 'have/has' + past participle: 'have finished'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-TEN-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
     "promptText": "Complete using the present perfect: 'She ___ (visit) that museum three times already.'",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["has visited"] }], "explanation": "Present perfect: has/have + past participle -> 'has visited'." },
-  { "subjectSlug": "grammar", "strandSlug": "commas", "yearGroup": "Y5", "objectiveCode": "GR5-COM-1", "type": "multiple_choice", "difficulty": "silver",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "has visited"
+        ]
+      }
+    ],
+    "explanation": "Present perfect: has/have + past participle -> 'has visited'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which sentence uses a comma correctly to avoid ambiguity?",
-    "options": [{ "id": "a", "text": "Let's eat, Grandma!" }, { "id": "b", "text": "Let's eat Grandma!" }, { "id": "c", "text": "Lets, eat Grandma." }, { "id": "d", "text": "Let's, eat, Grandma." }],
-    "correctOptionId": "a", "explanation": "Without the comma, 'Let's eat Grandma!' dangerously suggests eating Grandma rather than addressing her." },
-  { "subjectSlug": "grammar", "strandSlug": "commas", "yearGroup": "Y5", "objectiveCode": "GR5-COM-1", "type": "fill_in_box", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Let's eat, Grandma!"
+      },
+      {
+        "id": "b",
+        "text": "Let's eat Grandma!"
+      },
+      {
+        "id": "c",
+        "text": "Lets, eat Grandma."
+      },
+      {
+        "id": "d",
+        "text": "Let's, eat, Grandma."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Without the comma, 'Let's eat Grandma!' dangerously suggests eating Grandma rather than addressing her."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COM-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
     "promptText": "Insert the missing comma: 'To succeed you must practise every day.'",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["to succeed, you must practise every day"] }],
-    "explanation": "A comma is needed after the introductory phrase 'To succeed'." },
-  { "subjectSlug": "grammar", "strandSlug": "brackets-dashes", "yearGroup": "Y5", "objectiveCode": "GR5-BRA-1", "type": "multiple_choice", "difficulty": "gold",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "to succeed, you must practise every day"
+        ]
+      }
+    ],
+    "explanation": "A comma is needed after the introductory phrase 'To succeed'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Which sentence uses a single dash correctly to add extra information at the end?",
-    "options": [{ "id": "a", "text": "She had one wish - to see the sea." }, { "id": "b", "text": "She had - one wish to see the sea." }, { "id": "c", "text": "She had one - wish to see the sea." }, { "id": "d", "text": "She - had one wish to see the sea." }],
-    "correctOptionId": "a", "explanation": "A single dash can introduce additional information at the end of a sentence, similar to a colon." },
-  { "subjectSlug": "grammar", "strandSlug": "cohesion", "yearGroup": "Y5", "objectiveCode": "GR5-COH-1", "type": "multiple_choice", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "She had one wish - to see the sea."
+      },
+      {
+        "id": "b",
+        "text": "She had - one wish to see the sea."
+      },
+      {
+        "id": "c",
+        "text": "She had one - wish to see the sea."
+      },
+      {
+        "id": "d",
+        "text": "She - had one wish to see the sea."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A single dash can introduce additional information at the end of a sentence, similar to a colon."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COH-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Which adverbial best links these ideas: 'The rain stopped. ___, the children went outside to play.'",
-    "options": [{ "id": "a", "text": "Meanwhile" }, { "id": "b", "text": "Soon afterwards" }, { "id": "c", "text": "Nowhere" }, { "id": "d", "text": "Similarly" }],
-    "correctOptionId": "b", "explanation": "'Soon afterwards' correctly links the two events in time." },
-  { "subjectSlug": "grammar", "strandSlug": "cohesion", "yearGroup": "Y5", "objectiveCode": "GR5-COH-1", "type": "short_answer", "difficulty": "challenge",
+    "options": [
+      {
+        "id": "a",
+        "text": "Meanwhile"
+      },
+      {
+        "id": "b",
+        "text": "Soon afterwards"
+      },
+      {
+        "id": "c",
+        "text": "Nowhere"
+      },
+      {
+        "id": "d",
+        "text": "Similarly"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Soon afterwards' correctly links the two events in time."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COH-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
     "promptText": "Write a sentence that links back to this idea using a time adverbial: 'The explorers set up camp at the base of the mountain.'",
-    "acceptedAnswers": ["the next morning, they began the climb", "later that day, they began the climb", "at dawn, they began the climb"],
-    "explanation": "Any sentence beginning with a time adverbial that logically follows from setting up camp is acceptable." }
+    "acceptedAnswers": [
+      "the next morning, they began the climb",
+      "later that day, they began the climb",
+      "at dawn, they began the climb"
+    ],
+    "explanation": "Any sentence beginning with a time adverbial that logically follows from setting up camp is acceptable."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence correctly uses 'whose'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The boy whose bike was stolen was upset."
+      },
+      {
+        "id": "b",
+        "text": "The boy who's bike was stolen was upset."
+      },
+      {
+        "id": "c",
+        "text": "The boy which bike was stolen was upset."
+      },
+      {
+        "id": "d",
+        "text": "The boy whose, bike was stolen was upset."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Whose' shows possession; 'who's' means 'who is'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which relative pronoun best completes: 'This is the town ___ I was born.'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "which"
+      },
+      {
+        "id": "b",
+        "text": "where"
+      },
+      {
+        "id": "c",
+        "text": "who"
+      },
+      {
+        "id": "d",
+        "text": "whom"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Where' introduces a relative clause about a place."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence uses a non-defining relative clause correctly (with commas)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "My sister, who lives in Leeds, is a doctor."
+      },
+      {
+        "id": "b",
+        "text": "My sister who, lives in Leeds is a doctor."
+      },
+      {
+        "id": "c",
+        "text": "My sister who lives, in Leeds is a doctor."
+      },
+      {
+        "id": "d",
+        "text": "My sister who lives in Leeds is, a doctor."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Extra (non-essential) information is enclosed in a pair of commas."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Choose the correct relative pronoun: 'The scientist ___ discovered the cure won an award.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "which"
+      },
+      {
+        "id": "b",
+        "text": "who"
+      },
+      {
+        "id": "c",
+        "text": "where"
+      },
+      {
+        "id": "d",
+        "text": "whose"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Who' refers to a person (the scientist)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence correctly omits the relative pronoun?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The cake she baked was delicious."
+      },
+      {
+        "id": "b",
+        "text": "The cake which, she baked was delicious."
+      },
+      {
+        "id": "c",
+        "text": "The cake she that baked was delicious."
+      },
+      {
+        "id": "d",
+        "text": "The cake baked she was delicious."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'That'/'which' can be omitted when it's the object of the clause."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence uses 'whom' correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The man whom I met yesterday is my uncle."
+      },
+      {
+        "id": "b",
+        "text": "The man whom met me yesterday is my uncle."
+      },
+      {
+        "id": "c",
+        "text": "The man who I met yesterday is whom my uncle."
+      },
+      {
+        "id": "d",
+        "text": "The man whom's I met is my uncle."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Whom' is used for the object of the clause: I met whom."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Complete: 'This is the reason ___ she left early.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "why"
+        ]
+      }
+    ],
+    "explanation": "'Why' introduces a relative clause about a reason."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-REL-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Combine using a relative clause: 'The bridge is very old. The bridge crosses the river.'",
+    "acceptedAnswers": [
+      "the bridge that crosses the river is very old",
+      "the bridge which crosses the river is very old"
+    ],
+    "explanation": "The relative clause 'that/which crosses the river' replaces the repeated subject."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which modal verb expresses the strongest obligation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "might"
+      },
+      {
+        "id": "b",
+        "text": "could"
+      },
+      {
+        "id": "c",
+        "text": "must"
+      },
+      {
+        "id": "d",
+        "text": "may"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'Must' expresses the strongest obligation of these options."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence expresses possibility, not certainty?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She will arrive at noon."
+      },
+      {
+        "id": "b",
+        "text": "She might arrive at noon."
+      },
+      {
+        "id": "c",
+        "text": "She always arrives at noon."
+      },
+      {
+        "id": "d",
+        "text": "She has arrived."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Might' shows something is only possible, not certain."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which modal verb best completes a rule: 'You ___ run in the corridor.' (it is forbidden)",
+    "options": [
+      {
+        "id": "a",
+        "text": "might not"
+      },
+      {
+        "id": "b",
+        "text": "could not"
+      },
+      {
+        "id": "c",
+        "text": "must not"
+      },
+      {
+        "id": "d",
+        "text": "may possibly not"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'Must not' expresses a firm rule or prohibition."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence uses a modal verb to give permission?",
+    "options": [
+      {
+        "id": "a",
+        "text": "You may leave early today."
+      },
+      {
+        "id": "b",
+        "text": "You must leave early today."
+      },
+      {
+        "id": "c",
+        "text": "You will leave early today."
+      },
+      {
+        "id": "d",
+        "text": "You leave early today."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'May' is used here to grant permission."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which modal verb shows the greatest confidence that something is true?",
+    "options": [
+      {
+        "id": "a",
+        "text": "might"
+      },
+      {
+        "id": "b",
+        "text": "could"
+      },
+      {
+        "id": "c",
+        "text": "must"
+      },
+      {
+        "id": "d",
+        "text": "may"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'Must' can express near-certainty, e.g. 'That must be true.'"
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence correctly uses a modal verb to make a polite request?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Could you pass the salt, please?"
+      },
+      {
+        "id": "b",
+        "text": "Must you pass the salt?"
+      },
+      {
+        "id": "c",
+        "text": "Will you passing the salt?"
+      },
+      {
+        "id": "d",
+        "text": "You passed the salt?"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Could' is a common, polite way to make a request."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-MOD-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "Choose a modal verb showing certainty: 'The sun ___ rise tomorrow.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "will"
+        ]
+      }
+    ],
+    "explanation": "'Will' expresses certainty about the future."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-MOD-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Choose a modal verb showing low possibility: 'It ___ snow later, but I doubt it.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "might",
+          "could"
+        ]
+      }
+    ],
+    "explanation": "'Might' or 'could' show a low degree of possibility."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-FRO-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which is a fronted adverbial of place?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In the garden, the flowers bloomed."
+      },
+      {
+        "id": "b",
+        "text": "The flowers, in the garden, bloomed."
+      },
+      {
+        "id": "c",
+        "text": "The flowers bloomed in the garden."
+      },
+      {
+        "id": "d",
+        "text": "In, the garden the flowers bloomed."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'In the garden' opens the sentence and is followed by a comma."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-FRO-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence begins with a fronted adverbial of time?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Every morning, she jogs by the river."
+      },
+      {
+        "id": "b",
+        "text": "She jogs, every morning, by the river."
+      },
+      {
+        "id": "c",
+        "text": "She jogs by the river every morning."
+      },
+      {
+        "id": "d",
+        "text": "By the river she jogs every morning."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Every morning' is a time adverbial fronting the sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-FRO-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which fronted adverbial correctly shows manner?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quietly, the cat crept across the room."
+      },
+      {
+        "id": "b",
+        "text": "The cat crept, quietly, across the room."
+      },
+      {
+        "id": "c",
+        "text": "The cat quietly crept across the room."
+      },
+      {
+        "id": "d",
+        "text": "Across the room quietly the cat crept."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Quietly' describes how the action happened and fronts the sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-FRO-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence has correct comma placement after a fronted adverbial?",
+    "options": [
+      {
+        "id": "a",
+        "text": "As the sun set, the sky turned orange."
+      },
+      {
+        "id": "b",
+        "text": "As the sun set the sky, turned orange."
+      },
+      {
+        "id": "c",
+        "text": "As, the sun set, the sky turned orange."
+      },
+      {
+        "id": "d",
+        "text": "As the sun, set the sky turned orange."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The comma comes immediately after the fronted adverbial clause."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-FRO-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence is NOT an example of a fronted adverbial?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yesterday, we visited the museum."
+      },
+      {
+        "id": "b",
+        "text": "We visited the museum yesterday."
+      },
+      {
+        "id": "c",
+        "text": "In the afternoon, we visited the museum."
+      },
+      {
+        "id": "d",
+        "text": "Carefully, we packed the boxes."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "In option b, the adverbial 'yesterday' comes at the end, not the front."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-FRO-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence begins with a fronted adverbial expressing 'how often'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Occasionally, the lights flicker."
+      },
+      {
+        "id": "b",
+        "text": "The lights flicker occasionally."
+      },
+      {
+        "id": "c",
+        "text": "The lights, occasionally, flicker."
+      },
+      {
+        "id": "d",
+        "text": "Flicker occasionally the lights."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Occasionally' fronts the sentence and is followed by a comma."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-FRO-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Add the missing comma: 'After the storm___ the streets were flooded.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          ","
+        ]
+      }
+    ],
+    "explanation": "A comma follows the fronted adverbial 'After the storm'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-FRO-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite starting with a fronted adverbial of time: 'We packed our bags before dawn.'",
+    "acceptedAnswers": [
+      "before dawn, we packed our bags"
+    ],
+    "explanation": "Moving 'before dawn' to the front and adding a comma creates a fronted adverbial."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence correctly uses a pair of commas for parenthesis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "My friend, who is very tall, plays basketball."
+      },
+      {
+        "id": "b",
+        "text": "My friend who, is very tall plays basketball."
+      },
+      {
+        "id": "c",
+        "text": "My friend who is very tall, plays, basketball."
+      },
+      {
+        "id": "d",
+        "text": "My friend who is, very tall plays basketball."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The extra information is enclosed in a matching pair of commas."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence correctly uses commas for parenthesis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The cake, which was chocolate, disappeared quickly."
+      },
+      {
+        "id": "b",
+        "text": "The cake which was chocolate disappeared, quickly."
+      },
+      {
+        "id": "c",
+        "text": "The cake, which was chocolate disappeared quickly."
+      },
+      {
+        "id": "d",
+        "text": "The cake which, was chocolate, disappeared quickly."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Both commas are needed to enclose 'which was chocolate'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence correctly uses brackets?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The trophy (won last year) sits on the shelf."
+      },
+      {
+        "id": "b",
+        "text": "The trophy won (last year sits) on the shelf."
+      },
+      {
+        "id": "c",
+        "text": "The (trophy won last year) sits on the shelf, extra."
+      },
+      {
+        "id": "d",
+        "text": "The trophy won last year (sits on the shelf."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The bracketed information could be removed and the sentence would still make sense."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which pair of punctuation marks can both indicate parenthesis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "full stops and question marks"
+      },
+      {
+        "id": "b",
+        "text": "commas and dashes"
+      },
+      {
+        "id": "c",
+        "text": "apostrophes and colons"
+      },
+      {
+        "id": "d",
+        "text": "semicolons and hyphens"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Commas, brackets and dashes can all be used to mark parenthesis."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "In which sentence could the parenthesis be removed and still leave a complete sentence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The dog (a golden retriever) loved to swim."
+      },
+      {
+        "id": "b",
+        "text": "The dog a golden retriever loved to swim."
+      },
+      {
+        "id": "c",
+        "text": "The, dog a golden retriever, loved to swim."
+      },
+      {
+        "id": "d",
+        "text": "The dog a, golden retriever loved, to swim."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Removing '(a golden retriever)' still leaves 'The dog loved to swim.'"
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence uses a single dash correctly for emphasis at the end?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She had only one goal — to win."
+      },
+      {
+        "id": "b",
+        "text": "She had — only one goal to win."
+      },
+      {
+        "id": "c",
+        "text": "She had one — goal to — win."
+      },
+      {
+        "id": "d",
+        "text": "She — had one goal to win —."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A single dash can introduce a final, emphatic piece of information."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PAR-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Insert a pair of commas to mark the parenthesis: 'My uncle___ a keen gardener___ grows prize-winning tomatoes.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          ", a keen gardener,"
+        ]
+      }
+    ],
+    "explanation": "The parenthetical phrase 'a keen gardener' is enclosed in a pair of commas."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PAR-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Rewrite adding parenthesis using brackets: 'The castle was built in 1350. It still stands today.'",
+    "acceptedAnswers": [
+      "the castle (built in 1350) still stands today"
+    ],
+    "explanation": "'(built in 1350)' is added as extra, removable information."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-ENP-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which is the best expanded noun phrase for 'the cat'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "the cat"
+      },
+      {
+        "id": "b",
+        "text": "ran"
+      },
+      {
+        "id": "c",
+        "text": "the fluffy ginger cat with green eyes"
+      },
+      {
+        "id": "d",
+        "text": "meowed loudly"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "This option adds adjectives and a prepositional phrase to the noun 'cat'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-ENP-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence contains an expanded noun phrase?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The tall, ancient oak tree stood in the field."
+      },
+      {
+        "id": "b",
+        "text": "The tree stood."
+      },
+      {
+        "id": "c",
+        "text": "It stood there."
+      },
+      {
+        "id": "d",
+        "text": "Stood the tree."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'The tall, ancient oak tree' is expanded with two adjectives."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-ENP-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which expanded noun phrase best describes a stormy sea?",
+    "options": [
+      {
+        "id": "a",
+        "text": "the sea"
+      },
+      {
+        "id": "b",
+        "text": "the wild, churning grey sea"
+      },
+      {
+        "id": "c",
+        "text": "sea water"
+      },
+      {
+        "id": "d",
+        "text": "waves"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "This option adds vivid, precise adjectives to the noun 'sea'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-ENP-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence uses an expanded noun phrase with a prepositional phrase?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The house with the red door stood alone."
+      },
+      {
+        "id": "b",
+        "text": "The house stood alone."
+      },
+      {
+        "id": "c",
+        "text": "The red house."
+      },
+      {
+        "id": "d",
+        "text": "It stood."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'with the red door' is a prepositional phrase expanding 'the house'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-ENP-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which expanded noun phrase is the most precise and concise?",
+    "options": [
+      {
+        "id": "a",
+        "text": "the big scary dog that was mean and loud and barked a lot and was tall"
+      },
+      {
+        "id": "b",
+        "text": "the snarling, muscular dog"
+      },
+      {
+        "id": "c",
+        "text": "the dog"
+      },
+      {
+        "id": "d",
+        "text": "a dog that barked"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "It conveys complicated information concisely, without rambling."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-ENP-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "Complete the expanded noun phrase: 'the shelf ___ the dusty old books' (add a preposition)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "with",
+          "full of"
+        ]
+      }
+    ],
+    "explanation": "A prepositional phrase like 'with'/'full of' expands the noun phrase."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-ENP-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Complete the expanded noun phrase: 'a garden ___ colourful flowers' (add a preposition)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "full of",
+          "with"
+        ]
+      }
+    ],
+    "explanation": "'Full of'/'with' introduces a prepositional phrase describing the garden."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-ENP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Expand this noun phrase with at least two extra details: 'the forest'",
+    "acceptedAnswers": [
+      "the dark, mysterious forest",
+      "the ancient forest full of towering trees"
+    ],
+    "explanation": "Any answer adding two or more descriptive details is correct."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which prefix means 'not' in 'illegal'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "im-"
+      },
+      {
+        "id": "b",
+        "text": "il-"
+      },
+      {
+        "id": "c",
+        "text": "in-"
+      },
+      {
+        "id": "d",
+        "text": "ir-"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Il-' is used before words starting with 'l': illegal."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which word correctly means the opposite of 'agree'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "misagree"
+      },
+      {
+        "id": "b",
+        "text": "disagree"
+      },
+      {
+        "id": "c",
+        "text": "unagree"
+      },
+      {
+        "id": "d",
+        "text": "inagree"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Dis-' negates 'agree' to form 'disagree'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which prefix correctly completes '___mobile' (meaning 'self-moving')?",
+    "options": [
+      {
+        "id": "a",
+        "text": "sub-"
+      },
+      {
+        "id": "b",
+        "text": "inter-"
+      },
+      {
+        "id": "c",
+        "text": "auto-"
+      },
+      {
+        "id": "d",
+        "text": "super-"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'Auto-' means 'self', as in automobile."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which prefix means 'between' or 'among'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "sub-"
+      },
+      {
+        "id": "b",
+        "text": "inter-"
+      },
+      {
+        "id": "c",
+        "text": "anti-"
+      },
+      {
+        "id": "d",
+        "text": "super-"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Inter-' means 'between', as in international."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which word correctly uses the prefix 'ir-'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "irresponsible"
+      },
+      {
+        "id": "b",
+        "text": "irpolite"
+      },
+      {
+        "id": "c",
+        "text": "irconvenient"
+      },
+      {
+        "id": "d",
+        "text": "irhonest"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Ir-' is used before words starting with 'r': irresponsible."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which prefix correctly completes '___national' to mean 'between nations'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "sub-"
+      },
+      {
+        "id": "b",
+        "text": "inter-"
+      },
+      {
+        "id": "c",
+        "text": "super-"
+      },
+      {
+        "id": "d",
+        "text": "auto-"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Inter-' gives 'international', meaning between nations."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PRE-1",
+    "type": "matching",
+    "difficulty": "bronze",
+    "promptText": "Match each prefix to its meaning.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "sub-",
+        "right": "under or below"
+      },
+      {
+        "id": "p2",
+        "left": "super-",
+        "right": "above or greater"
+      },
+      {
+        "id": "p3",
+        "left": "anti-",
+        "right": "against"
+      },
+      {
+        "id": "p4",
+        "left": "auto-",
+        "right": "self"
+      }
+    ],
+    "explanation": "Each prefix carries a distinct meaning that changes the root word."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-PRE-1",
+    "type": "matching",
+    "difficulty": "silver",
+    "promptText": "Match each word to its correctly prefixed form.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "legible",
+        "right": "illegible"
+      },
+      {
+        "id": "p2",
+        "left": "mature",
+        "right": "immature"
+      },
+      {
+        "id": "p3",
+        "left": "correct",
+        "right": "incorrect"
+      },
+      {
+        "id": "p4",
+        "left": "regular",
+        "right": "irregular"
+      }
+    ],
+    "explanation": "The negating prefix changes depending on the first letter of the root word."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which suffix turns 'modern' into a verb meaning 'to make modern'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "-ise"
+      },
+      {
+        "id": "b",
+        "text": "-ate"
+      },
+      {
+        "id": "c",
+        "text": "-ify"
+      },
+      {
+        "id": "d",
+        "text": "-ness"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'-ise' gives 'modernise'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which suffix turns 'pure' into a verb meaning 'to make pure'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "-ise"
+      },
+      {
+        "id": "b",
+        "text": "-ify"
+      },
+      {
+        "id": "c",
+        "text": "-ate"
+      },
+      {
+        "id": "d",
+        "text": "-ment"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'-ify' gives 'purify'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which is the correct spelling: 'refer' + '-ed'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "refered"
+      },
+      {
+        "id": "b",
+        "text": "referred"
+      },
+      {
+        "id": "c",
+        "text": "referrd"
+      },
+      {
+        "id": "d",
+        "text": "refferred"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Words ending in -fer double the 'r' before a vowel suffix when stressed on the final syllable."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which suffix correctly turns 'critic' into a verb?",
+    "options": [
+      {
+        "id": "a",
+        "text": "criticate"
+      },
+      {
+        "id": "b",
+        "text": "criticify"
+      },
+      {
+        "id": "c",
+        "text": "criticise"
+      },
+      {
+        "id": "d",
+        "text": "criticness"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'-ise' gives 'criticise'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which is the correct spelling: 'transfer' + '-ing'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "transfering"
+      },
+      {
+        "id": "b",
+        "text": "transferring"
+      },
+      {
+        "id": "c",
+        "text": "transferrring"
+      },
+      {
+        "id": "d",
+        "text": "transferrng"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The final 'r' doubles before the vowel suffix '-ing'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which suffix turns 'active' into a verb?",
+    "options": [
+      {
+        "id": "a",
+        "text": "activeify"
+      },
+      {
+        "id": "b",
+        "text": "activate"
+      },
+      {
+        "id": "c",
+        "text": "activeness"
+      },
+      {
+        "id": "d",
+        "text": "activesise"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'-ate' gives 'activate'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SUF-1",
+    "type": "matching",
+    "difficulty": "bronze",
+    "promptText": "Match each root word to its correct verb form.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "pure",
+        "right": "purify"
+      },
+      {
+        "id": "p2",
+        "left": "modern",
+        "right": "modernise"
+      },
+      {
+        "id": "p3",
+        "left": "active",
+        "right": "activate"
+      },
+      {
+        "id": "p4",
+        "left": "simple",
+        "right": "simplify"
+      }
+    ],
+    "explanation": "Each root takes a different suffix to become a verb."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SUF-1",
+    "type": "matching",
+    "difficulty": "silver",
+    "promptText": "Match each -fer word to its correctly suffixed form.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "refer",
+        "right": "referred"
+      },
+      {
+        "id": "p2",
+        "left": "prefer",
+        "right": "preferred"
+      },
+      {
+        "id": "p3",
+        "left": "transfer",
+        "right": "transferred"
+      },
+      {
+        "id": "p4",
+        "left": "infer",
+        "right": "inferred"
+      }
+    ],
+    "explanation": "All double the final 'r' before the vowel suffix '-ed'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Choose the correct word: '___ coming to the party tonight?'",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whose"
+      },
+      {
+        "id": "b",
+        "text": "Who's"
+      },
+      {
+        "id": "c",
+        "text": "Who're"
+      },
+      {
+        "id": "d",
+        "text": "Whos"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Who's' is short for 'who is'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Choose the correct word: 'The dog wagged ___ tail.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "its"
+      },
+      {
+        "id": "b",
+        "text": "it's"
+      },
+      {
+        "id": "c",
+        "text": "its'"
+      },
+      {
+        "id": "d",
+        "text": "it is"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Its' (no apostrophe) shows possession; 'it's' means 'it is'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Choose the correct word: 'I need to buy some ___ for my letters.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "stationary"
+      },
+      {
+        "id": "b",
+        "text": "stationery"
+      },
+      {
+        "id": "c",
+        "text": "stationeries"
+      },
+      {
+        "id": "d",
+        "text": "stationarys"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Stationery' (with an e) is writing materials; 'stationary' means not moving."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Choose the correct word: 'The car remained completely ___ during the traffic jam.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "stationary"
+      },
+      {
+        "id": "b",
+        "text": "stationery"
+      },
+      {
+        "id": "c",
+        "text": "station"
+      },
+      {
+        "id": "d",
+        "text": "stationed"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Stationary' means not moving."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Choose the correct word: 'Thank you for the ___ on my essay.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "complement"
+      },
+      {
+        "id": "b",
+        "text": "compliment"
+      },
+      {
+        "id": "c",
+        "text": "complament"
+      },
+      {
+        "id": "d",
+        "text": "compliement"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A 'compliment' is a nice remark; a 'complement' is something that completes."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Choose the correct word: 'Everyone attended the meeting ___ Sam, who was ill.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "accept"
+      },
+      {
+        "id": "b",
+        "text": "except"
+      },
+      {
+        "id": "c",
+        "text": "exept"
+      },
+      {
+        "id": "d",
+        "text": "acept"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Except' means 'excluding'; 'accept' means 'to receive/agree to'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-HOM-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "Choose the correct homophone: 'They went to the park with ___ dog.' (belonging to them)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "their"
+        ]
+      }
+    ],
+    "explanation": "'Their' shows possession belonging to 'them'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-HOM-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Choose the correct homophone: 'The runner ___ the finish line first.' (past tense of 'pass')",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "passed"
+        ]
+      }
+    ],
+    "explanation": "'Passed' is the past tense of the verb 'pass'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SEN-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence is a simple sentence (one main clause only)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The wind howled."
+      },
+      {
+        "id": "b",
+        "text": "The wind howled and the rain fell."
+      },
+      {
+        "id": "c",
+        "text": "Although it was cold, the wind howled."
+      },
+      {
+        "id": "d",
+        "text": "The wind, which was fierce, howled."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "It has just one subject and one verb, with no joining word or subordinate clause."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SEN-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence is a compound sentence (two main clauses joined by 'and', 'but' or 'or')?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She ran fast but she still lost the race."
+      },
+      {
+        "id": "b",
+        "text": "Because she ran fast, she won."
+      },
+      {
+        "id": "c",
+        "text": "She ran fast."
+      },
+      {
+        "id": "d",
+        "text": "Running fast, she won the race."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Two complete main clauses are joined by the coordinating conjunction 'but'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SEN-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence places the subordinate clause at the start for effect?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because it was raining, we stayed inside."
+      },
+      {
+        "id": "b",
+        "text": "We stayed inside because it was raining."
+      },
+      {
+        "id": "c",
+        "text": "We stayed, because it was raining, inside."
+      },
+      {
+        "id": "d",
+        "text": "Inside we stayed because it was raining, we."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The subordinate clause 'Because it was raining' opens the sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SEN-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence embeds the subordinate clause in the middle for effect?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The team, although exhausted, kept playing."
+      },
+      {
+        "id": "b",
+        "text": "Although exhausted, the team kept playing."
+      },
+      {
+        "id": "c",
+        "text": "The team kept playing although exhausted."
+      },
+      {
+        "id": "d",
+        "text": "The team kept playing, exhausted although."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'although exhausted' sits between the subject and the verb, marked by commas."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SEN-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence uses the widest range of clause structures?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The dog barked."
+      },
+      {
+        "id": "b",
+        "text": "Because the postman arrived, the dog, who was usually calm, barked loudly, and the cat ran away."
+      },
+      {
+        "id": "c",
+        "text": "The dog barked and ran."
+      },
+      {
+        "id": "d",
+        "text": "The dog, barked, ran, and, hid."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "It combines a subordinate clause, a relative clause, and two coordinated main clauses."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SEN-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Write a compound sentence joining these ideas with 'but': 'The team trained hard. They lost the match.'",
+    "acceptedAnswers": [
+      "the team trained hard but they lost the match",
+      "the team trained hard, but they lost the match"
+    ],
+    "explanation": "'But' joins the two contrasting main clauses."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SEN-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Rewrite as a complex sentence with the subordinate clause at the start: 'We went home. The party ended.'",
+    "acceptedAnswers": [
+      "when the party ended, we went home",
+      "because the party ended, we went home"
+    ],
+    "explanation": "Placing the subordinate clause first varies the sentence's structure for effect."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-SEN-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "Identify the clause types in this sentence: 'Although it was late, the children kept playing outside.'",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What type of clause is 'Although it was late'? (subordinate or main)",
+        "acceptedAnswers": [
+          "subordinate"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What type of clause is 'the children kept playing outside'? (subordinate or main)",
+        "acceptedAnswers": [
+          "main"
+        ]
+      }
+    ],
+    "explanation": "'Although it was late' cannot stand alone, so it is subordinate; 'the children kept playing outside' can stand alone, so it is the main clause."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence uses the simple past tense?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She walked to school."
+      },
+      {
+        "id": "b",
+        "text": "She has walked to school."
+      },
+      {
+        "id": "c",
+        "text": "She walks to school."
+      },
+      {
+        "id": "d",
+        "text": "She is walking to school."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The simple past describes a completed action: 'walked'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence uses the present perfect tense?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They have eaten lunch."
+      },
+      {
+        "id": "b",
+        "text": "They ate lunch."
+      },
+      {
+        "id": "c",
+        "text": "They eat lunch."
+      },
+      {
+        "id": "d",
+        "text": "They are eating lunch."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The present perfect uses 'have/has' + past participle: 'have eaten'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence correctly shows an action that started in the past and continues now?",
+    "options": [
+      {
+        "id": "a",
+        "text": "I have lived here for ten years."
+      },
+      {
+        "id": "b",
+        "text": "I lived here for ten years."
+      },
+      {
+        "id": "c",
+        "text": "I live here for ten years."
+      },
+      {
+        "id": "d",
+        "text": "I was living here for ten years ago."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The present perfect links the past to the present: I still live here now."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence uses the past perfect tense (an action before another past action)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By the time we arrived, the film had started."
+      },
+      {
+        "id": "b",
+        "text": "By the time we arrived, the film starts."
+      },
+      {
+        "id": "c",
+        "text": "By the time we arrived, the film starting."
+      },
+      {
+        "id": "d",
+        "text": "By the time we arrive, the film had started."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Had started' happened before the past action of arriving."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence correctly distinguishes 'went' from 'have gone'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "I have gone there twice this year, and I went again yesterday."
+      },
+      {
+        "id": "b",
+        "text": "I gone there twice and have went yesterday."
+      },
+      {
+        "id": "c",
+        "text": "I have went there twice."
+      },
+      {
+        "id": "d",
+        "text": "I go there twice this year yesterday."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Have gone' links past to present; 'went' marks a specific completed past event."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence uses the present perfect for a recently completed action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "I have just finished my homework."
+      },
+      {
+        "id": "b",
+        "text": "I just finish my homework."
+      },
+      {
+        "id": "c",
+        "text": "I was just finishing my homework then."
+      },
+      {
+        "id": "d",
+        "text": "I finish my homework just now."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Have just finished' shows an action completed a moment ago, relevant now."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-TEN-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Complete using the past perfect: 'She ___ (leave) before I arrived.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "had left"
+        ]
+      }
+    ],
+    "explanation": "The past perfect 'had left' shows this happened before another past event."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-TEN-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Complete using the present perfect: 'They ___ (not/finish) the project yet.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "have not finished",
+          "haven't finished"
+        ]
+      }
+    ],
+    "explanation": "'Have not finished' / 'haven't finished' is the negative present perfect."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence correctly uses commas in a list?",
+    "options": [
+      {
+        "id": "a",
+        "text": "I bought apples, bananas, and pears."
+      },
+      {
+        "id": "b",
+        "text": "I bought apples bananas, and pears."
+      },
+      {
+        "id": "c",
+        "text": "I bought, apples, bananas and, pears."
+      },
+      {
+        "id": "d",
+        "text": "I bought apples, bananas and, pears, too."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Each item in the list is separated by a comma."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence needs a comma to avoid a confusing meaning?",
+    "options": [
+      {
+        "id": "a",
+        "text": "I love cooking my family and my pets."
+      },
+      {
+        "id": "b",
+        "text": "I love cooking, my family, and my pets."
+      },
+      {
+        "id": "c",
+        "text": "I love cooking my family, and my pets."
+      },
+      {
+        "id": "d",
+        "text": "I love, cooking my family and my pets."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Without a comma after 'cooking', it wrongly implies cooking one's family!"
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence correctly uses a comma after a subordinate clause at the start?",
+    "options": [
+      {
+        "id": "a",
+        "text": "If you finish early, you can go outside."
+      },
+      {
+        "id": "b",
+        "text": "If you finish early you can, go outside."
+      },
+      {
+        "id": "c",
+        "text": "If, you finish early, you can go outside."
+      },
+      {
+        "id": "d",
+        "text": "If you finish, early you can go outside."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A comma follows the opening subordinate clause 'If you finish early'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence correctly uses a comma before a coordinating conjunction joining two main clauses?",
+    "options": [
+      {
+        "id": "a",
+        "text": "I wanted to go for a walk, but it started raining."
+      },
+      {
+        "id": "b",
+        "text": "I wanted to go for a walk but, it started raining."
+      },
+      {
+        "id": "c",
+        "text": "I wanted, to go for a walk but it started raining."
+      },
+      {
+        "id": "d",
+        "text": "I wanted to go for a walk but it, started raining."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A comma comes before 'but' when it joins two complete main clauses."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence correctly uses commas around a non-essential clause?",
+    "options": [
+      {
+        "id": "a",
+        "text": "My car, which is red, is parked outside."
+      },
+      {
+        "id": "b",
+        "text": "My car which is red, is parked outside."
+      },
+      {
+        "id": "c",
+        "text": "My car, which is red is parked outside."
+      },
+      {
+        "id": "d",
+        "text": "My car which, is red is parked outside."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Both commas are needed to enclose the non-essential clause 'which is red'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence is correctly punctuated with a comma after an introductory word?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes, I would love to come to your party."
+      },
+      {
+        "id": "b",
+        "text": "Yes I would love, to come to your party."
+      },
+      {
+        "id": "c",
+        "text": "Yes, I would, love to come to your party."
+      },
+      {
+        "id": "d",
+        "text": "Yes I would love to come, to your party."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A comma follows the introductory word 'Yes'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COM-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "Insert the missing comma: 'Yes___ I agree with you.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          ","
+        ]
+      }
+    ],
+    "explanation": "A comma follows the introductory word 'Yes'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COM-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Insert the missing comma: 'After lunch___ we went swimming.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          ","
+        ]
+      }
+    ],
+    "explanation": "A comma follows the introductory phrase 'After lunch'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence correctly uses brackets to add extra information?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The museum (which opened in 1990) is free to enter."
+      },
+      {
+        "id": "b",
+        "text": "The museum which opened (in 1990) is free to enter."
+      },
+      {
+        "id": "c",
+        "text": "The museum (which opened in 1990 is free) to enter."
+      },
+      {
+        "id": "d",
+        "text": "The (museum which opened in 1990 is free to enter)."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The whole extra clause '(which opened in 1990)' is enclosed in brackets."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence correctly uses a single dash?",
+    "options": [
+      {
+        "id": "a",
+        "text": "There was only one thing left to do — run."
+      },
+      {
+        "id": "b",
+        "text": "There was — only one thing left to do run."
+      },
+      {
+        "id": "c",
+        "text": "There was only — one thing left to do run."
+      },
+      {
+        "id": "d",
+        "text": "There was only one thing left — to do run —."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A single dash introduces the final, emphatic information."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence uses a pair of dashes correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The results — though surprising — were accepted."
+      },
+      {
+        "id": "b",
+        "text": "The results though — surprising were — accepted."
+      },
+      {
+        "id": "c",
+        "text": "The results though surprising — were accepted."
+      },
+      {
+        "id": "d",
+        "text": "The — results though surprising were accepted —."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The parenthetical phrase 'though surprising' is enclosed by a matching pair of dashes."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which punctuation could both correctly replace the commas here: 'My brother, an excellent cook, made dinner.'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "full stops"
+      },
+      {
+        "id": "b",
+        "text": "brackets or dashes"
+      },
+      {
+        "id": "c",
+        "text": "semicolons"
+      },
+      {
+        "id": "d",
+        "text": "question marks"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Commas, brackets and dashes can all mark the same kind of parenthesis."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence uses brackets to add a brief clarifying note?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The trophy (the biggest one) went to Sam."
+      },
+      {
+        "id": "b",
+        "text": "The trophy the biggest one (went to Sam.)"
+      },
+      {
+        "id": "c",
+        "text": "The (trophy the biggest one went) to Sam."
+      },
+      {
+        "id": "d",
+        "text": "The trophy the biggest (one went to Sam)."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'(the biggest one)' clarifies which trophy, and could be removed cleanly."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "What is a key difference between brackets and dashes when adding extra information?",
+    "options": [
+      {
+        "id": "a",
+        "text": "brackets tend to feel like a quiet aside; dashes make the information stand out more"
+      },
+      {
+        "id": "b",
+        "text": "they are never interchangeable"
+      },
+      {
+        "id": "c",
+        "text": "dashes can only be used at the end of a sentence"
+      },
+      {
+        "id": "d",
+        "text": "brackets can only contain single words"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Both add extra information, but they create a different tone or emphasis."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-BRA-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Insert the missing dash: 'There was one clear winner___Sam.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "—",
+          "-",
+          "--"
+        ]
+      }
+    ],
+    "explanation": "A single dash introduces the final piece of information."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-BRA-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Insert the missing dash: 'She had just one wish___to travel the world.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "—",
+          "-",
+          "--"
+        ]
+      }
+    ],
+    "explanation": "A single dash can introduce a final, emphatic detail."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COH-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which adverbial best links: 'The team practised for months. ___, they won the championship.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nowhere"
+      },
+      {
+        "id": "b",
+        "text": "Eventually"
+      },
+      {
+        "id": "c",
+        "text": "Similarly"
+      },
+      {
+        "id": "d",
+        "text": "Nearby"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Eventually' shows the result happened after time passed."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COH-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which adverbial of place best completes: 'We searched the whole house. ___, we found the keys.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "In the garden"
+      },
+      {
+        "id": "b",
+        "text": "Yesterday"
+      },
+      {
+        "id": "c",
+        "text": "Suddenly"
+      },
+      {
+        "id": "d",
+        "text": "Firstly"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'In the garden' is an adverbial of place, linking where the keys were found."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COH-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which word best links ideas about order: 'First, mix the flour and sugar. ___, add the eggs.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nowhere"
+      },
+      {
+        "id": "b",
+        "text": "Next"
+      },
+      {
+        "id": "c",
+        "text": "Similarly"
+      },
+      {
+        "id": "d",
+        "text": "Below"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Next' shows the following step in a sequence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COH-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which adverbial best maintains the narrative flow: 'She had trained for years. ___ she finally competed.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "Now"
+      },
+      {
+        "id": "b",
+        "text": "Eventually"
+      },
+      {
+        "id": "c",
+        "text": "Tomorrow"
+      },
+      {
+        "id": "d",
+        "text": "Currently"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Eventually' fits the past-tense narrative; 'now'/'tomorrow'/'currently' clash with the past tense."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COH-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which adverbial best links two contrasting ideas: 'The forecast predicted rain. ___, the sun shone all day.'",
+    "options": [
+      {
+        "id": "a",
+        "text": "Similarly"
+      },
+      {
+        "id": "b",
+        "text": "Furthermore"
+      },
+      {
+        "id": "c",
+        "text": "However"
+      },
+      {
+        "id": "d",
+        "text": "Meanwhile"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'However' signals a contrast between the prediction and what happened."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COH-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Write a sentence linking back to this idea using an adverbial of place: 'The hikers reached the summit.'",
+    "acceptedAnswers": [
+      "above them, the sky stretched endlessly",
+      "from there, they could see the whole valley"
+    ],
+    "explanation": "Any sentence starting with a place adverbial that logically follows is acceptable."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COH-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Write a sentence linking back using an adverbial of number/order: 'The chef prepared the sauce.'",
+    "acceptedAnswers": [
+      "next, she added the herbs",
+      "then, she added the herbs"
+    ],
+    "explanation": "Any sentence starting with a sequencing adverbial ('next'/'then') is acceptable."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y5",
+    "objectiveCode": "GR5-COH-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "Read: 'The rain began at noon. By evening, the streets were flooded.'",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "Which adverbial phrase links the two sentences in time? (copy it exactly)",
+        "acceptedAnswers": [
+          "by evening"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Does this adverbial show a change in time, place or number?",
+        "acceptedAnswers": [
+          "time"
+        ]
+      }
+    ],
+    "explanation": "'By evening' is a time adverbial connecting the two events."
+  }
 ]

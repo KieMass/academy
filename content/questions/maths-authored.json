@@ -1,131 +1,1598 @@
 [
-  { "subjectSlug": "maths", "strandSlug": "geometry", "yearGroup": "Y5", "objectiveCode": "MA5-GEO-2", "type": "multiple_choice", "difficulty": "bronze",
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "An angle measures 120°. What type of angle is it?",
-    "options": [{ "id": "a", "text": "Acute" }, { "id": "b", "text": "Right angle" }, { "id": "c", "text": "Obtuse" }, { "id": "d", "text": "Reflex" }],
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute"
+      },
+      {
+        "id": "b",
+        "text": "Right angle"
+      },
+      {
+        "id": "c",
+        "text": "Obtuse"
+      },
+      {
+        "id": "d",
+        "text": "Reflex"
+      }
+    ],
     "correctOptionId": "c",
-    "explanation": "Obtuse angles are between 90° and 180°. 120° falls in this range." },
-  { "subjectSlug": "maths", "strandSlug": "geometry", "yearGroup": "Y5", "objectiveCode": "MA5-GEO-2", "type": "multiple_choice", "difficulty": "bronze",
+    "explanation": "Obtuse angles are between 90° and 180°. 120° falls in this range."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "An angle measures 310°. What type of angle is it?",
-    "options": [{ "id": "a", "text": "Acute" }, { "id": "b", "text": "Obtuse" }, { "id": "c", "text": "Reflex" }, { "id": "d", "text": "Right angle" }],
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute"
+      },
+      {
+        "id": "b",
+        "text": "Obtuse"
+      },
+      {
+        "id": "c",
+        "text": "Reflex"
+      },
+      {
+        "id": "d",
+        "text": "Right angle"
+      }
+    ],
     "correctOptionId": "c",
-    "explanation": "Reflex angles are greater than 180° and less than 360°. 310° is reflex." },
-  { "subjectSlug": "maths", "strandSlug": "geometry", "yearGroup": "Y5", "objectiveCode": "MA5-GEO-4", "type": "fill_in_box", "difficulty": "silver",
+    "explanation": "Reflex angles are greater than 180° and less than 360°. 310° is reflex."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-4",
+    "type": "fill_in_box",
+    "difficulty": "silver",
     "promptText": "Two angles lie on a straight line. One angle is 65°. What is the size of the other angle?",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["115", "115°"] }],
-    "explanation": "Angles on a straight line add up to 180°. 180 - 65 = 115°." },
-  { "subjectSlug": "maths", "strandSlug": "geometry", "yearGroup": "Y5", "objectiveCode": "MA5-GEO-4", "type": "fill_in_box", "difficulty": "gold",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "115",
+          "115°"
+        ]
+      }
+    ],
+    "explanation": "Angles on a straight line add up to 180°. 180 - 65 = 115°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-4",
+    "type": "fill_in_box",
+    "difficulty": "gold",
     "promptText": "Three angles meet at a point. Two of them are 90° and 140°. What is the third angle?",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["130", "130°"] }],
-    "explanation": "Angles around a point add up to 360°. 360 - 90 - 140 = 130°." },
-  { "subjectSlug": "maths", "strandSlug": "geometry", "yearGroup": "Y5", "objectiveCode": "MA5-GEO-1", "type": "matching", "difficulty": "bronze",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "130",
+          "130°"
+        ]
+      }
+    ],
+    "explanation": "Angles around a point add up to 360°. 360 - 90 - 140 = 130°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-1",
+    "type": "matching",
+    "difficulty": "bronze",
     "promptText": "Match each 3-D shape to its correct number of faces.",
     "pairs": [
-      { "id": "p1", "left": "Cube", "right": "6 faces" },
-      { "id": "p2", "left": "Square-based pyramid", "right": "5 faces" },
-      { "id": "p3", "left": "Triangular prism", "right": "5 faces (2 triangles, 3 rectangles)" },
-      { "id": "p4", "left": "Cuboid", "right": "6 faces" }
+      {
+        "id": "p1",
+        "left": "Cube",
+        "right": "6 faces"
+      },
+      {
+        "id": "p2",
+        "left": "Square-based pyramid",
+        "right": "5 faces"
+      },
+      {
+        "id": "p3",
+        "left": "Triangular prism",
+        "right": "5 faces (2 triangles, 3 rectangles)"
+      },
+      {
+        "id": "p4",
+        "left": "Cuboid",
+        "right": "6 faces"
+      }
     ],
-    "explanation": "Counting faces: a cube and a cuboid both have 6 faces; a square-based pyramid and a triangular prism both have 5 faces." },
-  { "subjectSlug": "maths", "strandSlug": "geometry", "yearGroup": "Y5", "objectiveCode": "MA5-GEO-2", "type": "drag_drop", "difficulty": "silver",
+    "explanation": "Counting faces: a cube and a cuboid both have 6 faces; a square-based pyramid and a triangular prism both have 5 faces."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-2",
+    "type": "drag_drop",
+    "difficulty": "silver",
     "promptText": "Drag each angle into the correct group: Acute, Right Angle, Obtuse or Reflex.",
-    "items": [{ "id": "i1", "label": "40°" }, { "id": "i2", "label": "90°" }, { "id": "i3", "label": "150°" }, { "id": "i4", "label": "300°" }],
-    "targets": [{ "id": "t1", "label": "Acute" }, { "id": "t2", "label": "Right Angle" }, { "id": "t3", "label": "Obtuse" }, { "id": "t4", "label": "Reflex" }],
-    "correctMapping": { "i1": "t1", "i2": "t2", "i3": "t3", "i4": "t4" },
-    "explanation": "Acute < 90°, Right = 90°, Obtuse is 90°-180°, Reflex is 180°-360°." },
-  { "subjectSlug": "maths", "strandSlug": "geometry", "yearGroup": "Y5", "objectiveCode": "MA5-GEO-5", "type": "multiple_choice", "difficulty": "gold",
+    "items": [
+      {
+        "id": "i1",
+        "label": "40°"
+      },
+      {
+        "id": "i2",
+        "label": "90°"
+      },
+      {
+        "id": "i3",
+        "label": "150°"
+      },
+      {
+        "id": "i4",
+        "label": "300°"
+      }
+    ],
+    "targets": [
+      {
+        "id": "t1",
+        "label": "Acute"
+      },
+      {
+        "id": "t2",
+        "label": "Right Angle"
+      },
+      {
+        "id": "t3",
+        "label": "Obtuse"
+      },
+      {
+        "id": "t4",
+        "label": "Reflex"
+      }
+    ],
+    "correctMapping": {
+      "i1": "t1",
+      "i2": "t2",
+      "i3": "t3",
+      "i4": "t4"
+    },
+    "explanation": "Acute < 90°, Right = 90°, Obtuse is 90°-180°, Reflex is 180°-360°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-5",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "A shape is translated 3 squares right and 2 squares up. Which word describes this movement?",
-    "options": [{ "id": "a", "text": "Reflection" }, { "id": "b", "text": "Rotation" }, { "id": "c", "text": "Translation" }, { "id": "d", "text": "Enlargement" }],
+    "options": [
+      {
+        "id": "a",
+        "text": "Reflection"
+      },
+      {
+        "id": "b",
+        "text": "Rotation"
+      },
+      {
+        "id": "c",
+        "text": "Translation"
+      },
+      {
+        "id": "d",
+        "text": "Enlargement"
+      }
+    ],
     "correctOptionId": "c",
-    "explanation": "Sliding a shape without turning or flipping it is called a translation." },
-  { "subjectSlug": "maths", "strandSlug": "measurement", "yearGroup": "Y5", "objectiveCode": "MA5-MEA-1", "type": "fill_in_box", "difficulty": "bronze",
+    "explanation": "Sliding a shape without turning or flipping it is called a translation."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
     "promptText": "Convert 3.5 km into metres.",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["3500", "3500m", "3500 m"] }],
-    "explanation": "1 km = 1000 m, so 3.5 km = 3.5 × 1000 = 3500 m." },
-  { "subjectSlug": "maths", "strandSlug": "measurement", "yearGroup": "Y5", "objectiveCode": "MA5-MEA-1", "type": "fill_in_box", "difficulty": "silver",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "3500",
+          "3500m",
+          "3500 m"
+        ]
+      }
+    ],
+    "explanation": "1 km = 1000 m, so 3.5 km = 3.5 × 1000 = 3500 m."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
     "promptText": "Convert 2,450 g into kilograms.",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["2.45", "2.45kg", "2.45 kg"] }],
-    "explanation": "1000 g = 1 kg, so 2450 g = 2450 ÷ 1000 = 2.45 kg." },
-  { "subjectSlug": "maths", "strandSlug": "measurement", "yearGroup": "Y5", "objectiveCode": "MA5-MEA-3", "type": "short_answer", "difficulty": "silver",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "2.45",
+          "2.45kg",
+          "2.45 kg"
+        ]
+      }
+    ],
+    "explanation": "1000 g = 1 kg, so 2450 g = 2450 ÷ 1000 = 2.45 kg."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-3",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "A rectangular garden is 12 m long and 7 m wide. What is its perimeter?",
-    "acceptedAnswers": ["38", "38m", "38 m"],
-    "explanation": "Perimeter = 2 × (length + width) = 2 × (12 + 7) = 2 × 19 = 38 m." },
-  { "subjectSlug": "maths", "strandSlug": "measurement", "yearGroup": "Y5", "objectiveCode": "MA5-MEA-4", "type": "short_answer", "difficulty": "gold",
+    "acceptedAnswers": [
+      "38",
+      "38m",
+      "38 m"
+    ],
+    "explanation": "Perimeter = 2 × (length + width) = 2 × (12 + 7) = 2 × 19 = 38 m."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-4",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "A rectangle has an area of 48 cm² and a width of 6 cm. What is its length?",
-    "acceptedAnswers": ["8", "8cm", "8 cm"],
-    "explanation": "Area = length × width, so length = area ÷ width = 48 ÷ 6 = 8 cm." },
-  { "subjectSlug": "maths", "strandSlug": "measurement", "yearGroup": "Y5", "objectiveCode": "MA5-MEA-6", "type": "multi_step", "difficulty": "gold",
+    "acceptedAnswers": [
+      "8",
+      "8cm",
+      "8 cm"
+    ],
+    "explanation": "Area = length × width, so length = area ÷ width = 48 ÷ 6 = 8 cm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-6",
+    "type": "multi_step",
+    "difficulty": "gold",
     "promptText": "A film starts at 14:45 and lasts 1 hour 50 minutes.",
     "steps": [
-      { "id": "s1", "prompt": "What time does the film finish? (24-hour clock, e.g. 16:35)", "acceptedAnswers": ["16:35"] },
-      { "id": "s2", "prompt": "How many minutes is 1 hour 50 minutes in total?", "acceptedAnswers": ["110"] }
+      {
+        "id": "s1",
+        "prompt": "What time does the film finish? (24-hour clock, e.g. 16:35)",
+        "acceptedAnswers": [
+          "16:35"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many minutes is 1 hour 50 minutes in total?",
+        "acceptedAnswers": [
+          "110"
+        ]
+      }
     ],
-    "explanation": "14:45 + 1h50m = 16:35. 1 hour 50 minutes = 60 + 50 = 110 minutes." },
-  { "subjectSlug": "maths", "strandSlug": "measurement", "yearGroup": "Y5", "objectiveCode": "MA5-MEA-2", "type": "multiple_choice", "difficulty": "silver",
+    "explanation": "14:45 + 1h50m = 16:35. 1 hour 50 minutes = 60 + 50 = 110 minutes."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which is the best estimate for the length of a school bus?",
-    "options": [{ "id": "a", "text": "12 metres" }, { "id": "b", "text": "12 centimetres" }, { "id": "c", "text": "12 kilometres" }, { "id": "d", "text": "120 metres" }],
+    "options": [
+      {
+        "id": "a",
+        "text": "12 metres"
+      },
+      {
+        "id": "b",
+        "text": "12 centimetres"
+      },
+      {
+        "id": "c",
+        "text": "12 kilometres"
+      },
+      {
+        "id": "d",
+        "text": "120 metres"
+      }
+    ],
     "correctOptionId": "a",
-    "explanation": "A typical school bus is around 10-12 metres long." },
-  { "subjectSlug": "maths", "strandSlug": "statistics", "yearGroup": "Y5", "objectiveCode": "MA5-STAT-2", "type": "short_answer", "difficulty": "bronze",
+    "explanation": "A typical school bus is around 10-12 metres long."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-2",
+    "type": "short_answer",
+    "difficulty": "bronze",
     "promptText": "A class recorded pets owned: Dogs 8, Cats 6, Fish 4, Rabbits 2. How many more children own dogs than rabbits?",
-    "acceptedAnswers": ["6"],
-    "explanation": "8 dogs - 2 rabbits = 6 more." },
-  { "subjectSlug": "maths", "strandSlug": "statistics", "yearGroup": "Y5", "objectiveCode": "MA5-STAT-2", "type": "short_answer", "difficulty": "silver",
+    "acceptedAnswers": [
+      "6"
+    ],
+    "explanation": "8 dogs - 2 rabbits = 6 more."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-2",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "A table shows rainfall (mm) over 4 days: Mon 12, Tue 8, Wed 15, Thu 5. What was the total rainfall over the 4 days?",
-    "acceptedAnswers": ["40", "40mm", "40 mm"],
-    "explanation": "12 + 8 + 15 + 5 = 40 mm." },
-  { "subjectSlug": "maths", "strandSlug": "statistics", "yearGroup": "Y5", "objectiveCode": "MA5-STAT-1", "type": "multiple_choice", "difficulty": "gold",
+    "acceptedAnswers": [
+      "40",
+      "40mm",
+      "40 mm"
+    ],
+    "explanation": "12 + 8 + 15 + 5 = 40 mm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "A line graph shows a plant's height: Week 1 = 4 cm, Week 2 = 7 cm, Week 3 = 9 cm, Week 4 = 9 cm. Between which weeks did the plant grow the most?",
-    "options": [{ "id": "a", "text": "Week 1 to Week 2" }, { "id": "b", "text": "Week 2 to Week 3" }, { "id": "c", "text": "Week 3 to Week 4" }, { "id": "d", "text": "It grew the same amount every week" }],
+    "options": [
+      {
+        "id": "a",
+        "text": "Week 1 to Week 2"
+      },
+      {
+        "id": "b",
+        "text": "Week 2 to Week 3"
+      },
+      {
+        "id": "c",
+        "text": "Week 3 to Week 4"
+      },
+      {
+        "id": "d",
+        "text": "It grew the same amount every week"
+      }
+    ],
     "correctOptionId": "a",
-    "explanation": "Growth: Wk1-2 = 3cm, Wk2-3 = 2cm, Wk3-4 = 0cm. The greatest growth was Week 1 to Week 2." },
-  { "subjectSlug": "maths", "strandSlug": "statistics", "yearGroup": "Y5", "objectiveCode": "MA5-STAT-2", "type": "short_answer", "difficulty": "silver",
+    "explanation": "Growth: Wk1-2 = 3cm, Wk2-3 = 2cm, Wk3-4 = 0cm. The greatest growth was Week 1 to Week 2."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-2",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "A bus timetable shows departures at 09:15, 09:45, 10:15 and 10:45. How many minutes apart are the buses?",
-    "acceptedAnswers": ["30", "30 minutes", "30mins"],
-    "explanation": "Each departure is 30 minutes after the last." },
-  { "subjectSlug": "maths", "strandSlug": "reasoning", "yearGroup": "Y5", "objectiveCode": "MA5-REA-1", "type": "short_answer", "difficulty": "gold",
+    "acceptedAnswers": [
+      "30",
+      "30 minutes",
+      "30mins"
+    ],
+    "explanation": "Each departure is 30 minutes after the last."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "I am a 4-digit number. My thousands digit is double my units digit. My units digit is 3. My hundreds and tens digits are both 0. What number am I?",
-    "acceptedAnswers": ["6003"],
-    "explanation": "Units = 3, thousands = double 3 = 6, hundreds and tens = 0, giving 6003." },
-  { "subjectSlug": "maths", "strandSlug": "reasoning", "yearGroup": "Y5", "objectiveCode": "MA5-REA-2", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "6003"
+    ],
+    "explanation": "Units = 3, thousands = double 3 = 6, hundreds and tens = 0, giving 6003."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-2",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "A number is multiplied by 3, then 7 is added, giving a result of 40.",
     "steps": [
-      { "id": "s1", "prompt": "What is the result before 7 was added?", "acceptedAnswers": ["33"] },
-      { "id": "s2", "prompt": "What was the original number?", "acceptedAnswers": ["11"] }
+      {
+        "id": "s1",
+        "prompt": "What is the result before 7 was added?",
+        "acceptedAnswers": [
+          "33"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What was the original number?",
+        "acceptedAnswers": [
+          "11"
+        ]
+      }
     ],
-    "explanation": "40 - 7 = 33. 33 ÷ 3 = 11." },
-  { "subjectSlug": "maths", "strandSlug": "reasoning", "yearGroup": "Y5", "objectiveCode": "MA5-REA-1", "type": "short_answer", "difficulty": "gold",
-    "promptText": "Two numbers have a sum of 30 and a difference of 8. What is the larger number?", "acceptedAnswers": ["19"],
-    "explanation": "Larger = (sum + difference) ÷ 2 = (30 + 8) ÷ 2 = 19." },
-  { "subjectSlug": "maths", "strandSlug": "reasoning", "yearGroup": "Y5", "objectiveCode": "MA5-REA-1", "type": "multiple_choice", "difficulty": "silver",
+    "explanation": "40 - 7 = 33. 33 ÷ 3 = 11."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Two numbers have a sum of 30 and a difference of 8. What is the larger number?",
+    "acceptedAnswers": [
+      "19"
+    ],
+    "explanation": "Larger = (sum + difference) ÷ 2 = (30 + 8) ÷ 2 = 19."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which of these numbers is the odd one out: 12, 18, 24, 35, 42?",
-    "options": [{ "id": "a", "text": "12" }, { "id": "b", "text": "18" }, { "id": "c", "text": "35" }, { "id": "d", "text": "42" }],
+    "options": [
+      {
+        "id": "a",
+        "text": "12"
+      },
+      {
+        "id": "b",
+        "text": "18"
+      },
+      {
+        "id": "c",
+        "text": "35"
+      },
+      {
+        "id": "d",
+        "text": "42"
+      }
+    ],
     "correctOptionId": "c",
-    "explanation": "All the others are multiples of 6; 35 is not." },
-  { "subjectSlug": "maths", "strandSlug": "word-problems", "yearGroup": "Y5", "objectiveCode": "MA5-WP-1", "type": "short_answer", "difficulty": "bronze",
+    "explanation": "All the others are multiples of 6; 35 is not."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-1",
+    "type": "short_answer",
+    "difficulty": "bronze",
     "promptText": "A cinema has 8 rows of 24 seats. How many seats are there in total?",
-    "acceptedAnswers": ["192"],
-    "explanation": "8 × 24 = 192 seats." },
-  { "subjectSlug": "maths", "strandSlug": "word-problems", "yearGroup": "Y5", "objectiveCode": "MA5-WP-1", "type": "short_answer", "difficulty": "silver",
+    "acceptedAnswers": [
+      "192"
+    ],
+    "explanation": "8 × 24 = 192 seats."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Amelia has $45. She buys 3 books costing $8 each. How much money does she have left?",
-    "acceptedAnswers": ["21", "$21"],
-    "explanation": "3 × 8 = 24. 45 - 24 = 21." },
-  { "subjectSlug": "maths", "strandSlug": "word-problems", "yearGroup": "Y5", "objectiveCode": "MA5-WP-2", "type": "multi_step", "difficulty": "gold",
+    "acceptedAnswers": [
+      "21",
+      "$21"
+    ],
+    "explanation": "3 × 8 = 24. 45 - 24 = 21."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-2",
+    "type": "multi_step",
+    "difficulty": "gold",
     "promptText": "A school orders 240 pencils. They are shared equally between 6 classes, then each class gives 5 pencils to the office.",
     "steps": [
-      { "id": "s1", "prompt": "How many pencils does each class start with?", "acceptedAnswers": ["40"] },
-      { "id": "s2", "prompt": "How many pencils does each class have left after giving 5 to the office?", "acceptedAnswers": ["35"] }
+      {
+        "id": "s1",
+        "prompt": "How many pencils does each class start with?",
+        "acceptedAnswers": [
+          "40"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many pencils does each class have left after giving 5 to the office?",
+        "acceptedAnswers": [
+          "35"
+        ]
+      }
     ],
-    "explanation": "240 ÷ 6 = 40 per class. 40 - 5 = 35 remaining." },
-  { "subjectSlug": "maths", "strandSlug": "word-problems", "yearGroup": "Y5", "objectiveCode": "MA5-WP-1", "type": "short_answer", "difficulty": "gold",
+    "explanation": "240 ÷ 6 = 40 per class. 40 - 5 = 35 remaining."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "A recipe needs 250 g of flour to make 10 cookies. How much flour is needed to make 35 cookies?",
-    "acceptedAnswers": ["875", "875g", "875 g"],
-    "explanation": "250 ÷ 10 = 25 g per cookie. 25 × 35 = 875 g." },
-  { "subjectSlug": "maths", "strandSlug": "word-problems", "yearGroup": "Y5", "objectiveCode": "MA5-WP-2", "type": "short_answer", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "875",
+      "875g",
+      "875 g"
+    ],
+    "explanation": "250 ÷ 10 = 25 g per cookie. 25 × 35 = 875 g."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-2",
+    "type": "short_answer",
+    "difficulty": "challenge",
     "promptText": "A ferry can carry 180 passengers. On Saturday it made 4 full trips and 1 trip with only 95 passengers. How many passengers travelled in total?",
-    "acceptedAnswers": ["815"],
-    "explanation": "4 × 180 = 720. 720 + 95 = 815." },
-  { "subjectSlug": "maths", "strandSlug": "word-problems", "yearGroup": "Y5", "objectiveCode": "MA5-WP-1", "type": "short_answer", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "815"
+    ],
+    "explanation": "4 × 180 = 720. 720 + 95 = 815."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-1",
+    "type": "short_answer",
+    "difficulty": "bronze",
     "promptText": "There are 365 days in a year. How many full weeks is that (ignore the remainder)?",
-    "acceptedAnswers": ["52"],
-    "explanation": "365 ÷ 7 = 52 remainder 1, so 52 full weeks." }
+    "acceptedAnswers": [
+      "52"
+    ],
+    "explanation": "365 ÷ 7 = 52 remainder 1, so 52 full weeks."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "multiplication",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MUL-4",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "What is 8 × 7?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "56"
+        ]
+      }
+    ],
+    "explanation": "8 × 7 = 56."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "multiplication",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MUL-4",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "What is 144 ÷ 12?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "12"
+        ]
+      }
+    ],
+    "explanation": "144 ÷ 12 = 12."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "multiplication",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MUL-4",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "If 7 × 8 = 56, what is 56 ÷ 7?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "8"
+        ]
+      }
+    ],
+    "explanation": "Division undoes multiplication: 56 ÷ 7 = 8."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "multiplication",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MUL-4",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Use the fact 6 × 9 = 54 to work out 6 × 90.",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "540"
+        ]
+      }
+    ],
+    "explanation": "6 × 90 is 10 times 6 × 9, so 54 × 10 = 540."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "division",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-DIV-2",
+    "type": "short_answer",
+    "difficulty": "bronze",
+    "promptText": "A recipe for 4 people needs 200 g of rice. How much rice is needed for 12 people?",
+    "acceptedAnswers": [
+      "600",
+      "600g",
+      "600 g"
+    ],
+    "explanation": "12 people is 3 times 4 people, so 200 × 3 = 600 g."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "division",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-DIV-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A car travels at a steady 60 km per hour. How far does it travel in 3.5 hours?",
+    "acceptedAnswers": [
+      "210",
+      "210km",
+      "210 km"
+    ],
+    "explanation": "60 × 3.5 = 210 km."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "division",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-DIV-2",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "A machine fills 15 bottles every 3 minutes.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How many bottles does it fill per minute?",
+        "acceptedAnswers": [
+          "5"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many bottles will it fill in 12 minutes?",
+        "acceptedAnswers": [
+          "60"
+        ]
+      }
+    ],
+    "explanation": "15 ÷ 3 = 5 bottles per minute. 5 × 12 = 60 bottles."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "division",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-DIV-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "5 identical books weigh 2.5 kg in total. What is the weight of 8 of the same books?",
+    "acceptedAnswers": [
+      "4",
+      "4kg",
+      "4 kg"
+    ],
+    "explanation": "2.5 ÷ 5 = 0.5 kg per book. 0.5 × 8 = 4 kg."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "Convert 4.2 m into centimetres.",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "420",
+          "420cm",
+          "420 cm"
+        ]
+      }
+    ],
+    "explanation": "1 m = 100 cm, so 4.2 × 100 = 420 cm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Convert 1,800 ml into litres.",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "1.8",
+          "1.8l",
+          "1.8 l"
+        ]
+      }
+    ],
+    "explanation": "1000 ml = 1 l, so 1800 ÷ 1000 = 1.8 l."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "1 mile is approximately 1.6 km. Roughly how many miles is 8 km?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 miles"
+      },
+      {
+        "id": "b",
+        "text": "8 miles"
+      },
+      {
+        "id": "c",
+        "text": "3 miles"
+      },
+      {
+        "id": "d",
+        "text": "13 miles"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "8 ÷ 1.6 = 5 miles."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "1 kg is approximately 2.2 lb. Estimate the weight, in lb, of a 5 kg bag of flour.",
+    "acceptedAnswers": [
+      "11",
+      "11lb",
+      "11 lb"
+    ],
+    "explanation": "2.2 × 5 = 11 lb."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-3",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A rectangular field is 45 m long and 30 m wide. What is its perimeter?",
+    "acceptedAnswers": [
+      "150",
+      "150m",
+      "150 m"
+    ],
+    "explanation": "Perimeter = 2 × (45 + 30) = 2 × 75 = 150 m."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-3",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A shape is made from a 10 m × 6 m rectangle with a 3 m × 2 m rectangular piece cut from one corner (not through the middle). The original rectangle's perimeter was 32 m. What is the perimeter of the new shape?",
+    "acceptedAnswers": [
+      "32",
+      "32m",
+      "32 m"
+    ],
+    "explanation": "Cutting a rectangular notch out of a corner replaces two short outer edges with two equal inner edges, so the total perimeter stays 32 m."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-4",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A rectangular lawn is 9 m by 5 m. What is its area?",
+    "acceptedAnswers": [
+      "45",
+      "45m2",
+      "45 m2",
+      "45m²",
+      "45 m²"
+    ],
+    "explanation": "Area = length × width = 9 × 5 = 45 m²."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-4",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A shape drawn on a 1 cm² grid covers 14 whole squares and 6 half squares. Estimate its area.",
+    "acceptedAnswers": [
+      "17",
+      "17cm2",
+      "17 cm2",
+      "17cm²",
+      "17 cm²"
+    ],
+    "explanation": "6 half squares make 3 whole squares. 14 + 3 = 17 cm²."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-5",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which is the best estimate for the capacity of a bathtub?",
+    "options": [
+      {
+        "id": "a",
+        "text": "150 litres"
+      },
+      {
+        "id": "b",
+        "text": "150 ml"
+      },
+      {
+        "id": "c",
+        "text": "15 litres"
+      },
+      {
+        "id": "d",
+        "text": "1,500 litres"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A typical bathtub holds around 150 litres of water."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-5",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A fish tank measures 40 cm × 25 cm × 30 cm. Estimate its volume.",
+    "acceptedAnswers": [
+      "30000",
+      "30000cm3",
+      "30000 cm3",
+      "30,000cm3",
+      "30,000 cm3"
+    ],
+    "explanation": "Volume = 40 × 25 × 30 = 30,000 cm³."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-MEA-6",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "How many minutes are there in 2.5 hours?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "150"
+        ]
+      }
+    ],
+    "explanation": "2.5 × 60 = 150 minutes."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which 3-D shape has 5 faces, 8 edges and 5 vertices?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cube"
+      },
+      {
+        "id": "b",
+        "text": "Triangular prism"
+      },
+      {
+        "id": "c",
+        "text": "Square-based pyramid"
+      },
+      {
+        "id": "d",
+        "text": "Cuboid"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A square-based pyramid has 1 square face + 4 triangular faces = 5 faces, 8 edges and 5 vertices."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-2",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "A right angle is 90°. An angle is 15° more than a right angle. What is its size, in degrees?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "105",
+          "105°"
+        ]
+      }
+    ],
+    "explanation": "90 + 15 = 105°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-3",
+    "type": "short_answer",
+    "difficulty": "bronze",
+    "promptText": "A protractor is placed with 0° on one arm of an angle. The other arm lines up with the 42° mark. What is the size of the angle?",
+    "acceptedAnswers": [
+      "42",
+      "42°"
+    ],
+    "explanation": "Reading directly from the protractor, the angle is 42°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-3",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "An angle is measured on a protractor starting at 0° and finishing at the 128° mark. What type of angle is this?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute"
+      },
+      {
+        "id": "b",
+        "text": "Right angle"
+      },
+      {
+        "id": "c",
+        "text": "Obtuse"
+      },
+      {
+        "id": "d",
+        "text": "Reflex"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "128° is between 90° and 180°, so it is obtuse."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-4",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Four angles meet at a point. Three of them are 70°, 95° and 110°. What is the fourth angle?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "85",
+          "85°"
+        ]
+      }
+    ],
+    "explanation": "Angles around a point add to 360°. 360 - 70 - 95 - 110 = 85°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-4",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "Two angles on a straight line are in the ratio 2:3. The smaller angle is 72°.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is one 'unit' of the ratio, in degrees (72 ÷ 2)?",
+        "acceptedAnswers": [
+          "36"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the larger angle (3 × the unit)?",
+        "acceptedAnswers": [
+          "108"
+        ]
+      }
+    ],
+    "explanation": "72 ÷ 2 = 36 per unit. The larger angle is 3 × 36 = 108° (and 72 + 108 = 180, confirming they're on a straight line)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-5",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "A shape is flipped over a mirror line so it faces the opposite way. Which word describes this transformation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Translation"
+      },
+      {
+        "id": "b",
+        "text": "Rotation"
+      },
+      {
+        "id": "c",
+        "text": "Reflection"
+      },
+      {
+        "id": "d",
+        "text": "Enlargement"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Flipping a shape over a mirror line is called a reflection."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-GEO-5",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A point is at position (2, 3). It is translated 4 right and 1 down. What are its new coordinates? (format: x,y)",
+    "acceptedAnswers": [
+      "(6,2)",
+      "6,2",
+      "6, 2",
+      "(6, 2)"
+    ],
+    "explanation": "2 + 4 = 6 (x), 3 - 1 = 2 (y), so the new position is (6, 2)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "A line graph shows temperature over a day: 6am 10°C, 9am 14°C, 12pm 19°C, 3pm 21°C, 6pm 16°C. Between which two times did the temperature fall?",
+    "options": [
+      {
+        "id": "a",
+        "text": "6am to 9am"
+      },
+      {
+        "id": "b",
+        "text": "9am to 12pm"
+      },
+      {
+        "id": "c",
+        "text": "12pm to 3pm"
+      },
+      {
+        "id": "d",
+        "text": "3pm to 6pm"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Temperature dropped from 21°C to 16°C between 3pm and 6pm; every other interval increased."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A line graph shows a shop's weekly sales: Mon $200, Tue $350, Wed $300, Thu $500. What is the difference between the highest and lowest sales?",
+    "acceptedAnswers": [
+      "300",
+      "$300"
+    ],
+    "explanation": "Highest = $500 (Thu), lowest = $200 (Mon). 500 - 200 = $300."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A line graph shows a car's speed: 0min 0mph, 5min 30mph, 10min 30mph, 15min 0mph. During which interval was the car's speed constant (not changing)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "0 to 5 min"
+      },
+      {
+        "id": "b",
+        "text": "5 to 10 min"
+      },
+      {
+        "id": "c",
+        "text": "10 to 15 min"
+      },
+      {
+        "id": "d",
+        "text": "It was never constant"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The speed stayed at 30mph from 5 to 10 minutes."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-2",
+    "type": "short_answer",
+    "difficulty": "bronze",
+    "promptText": "A survey of favourite fruit: Apple 15, Banana 9, Orange 12, Grape 4. How many people were surveyed in total?",
+    "acceptedAnswers": [
+      "40"
+    ],
+    "explanation": "15 + 9 + 12 + 4 = 40."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A table shows books read: Week 1 = 3, Week 2 = 5, Week 3 = 2, Week 4 = 6. What is the mean (average) number of books read per week?",
+    "acceptedAnswers": [
+      "4"
+    ],
+    "explanation": "(3 + 5 + 2 + 6) ÷ 4 = 16 ÷ 4 = 4."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-2",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "A timetable shows a train leaves at 08:20 and arrives at 09:05. How many minutes does the journey take?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "45"
+        ]
+      }
+    ],
+    "explanation": "From 08:20 to 09:05 is 45 minutes."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A museum had 280 visitors on Sunday. Monday had 25% fewer visitors than Sunday. How many visitors were there on Monday?",
+    "acceptedAnswers": [
+      "210"
+    ],
+    "explanation": "25% of 280 = 70. 280 - 70 = 210."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A table shows medals won: Gold 5, Silver 8, Bronze 6. How many more silver medals than gold medals were won?",
+    "acceptedAnswers": [
+      "3"
+    ],
+    "explanation": "8 - 5 = 3."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-STAT-2",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "A timetable shows buses departing at 07:10, 07:40, 08:10 and 08:40.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How many minutes apart are consecutive buses?",
+        "acceptedAnswers": [
+          "30"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "A passenger arrives at 08:05. How many minutes will they wait for the next bus (08:10)?",
+        "acceptedAnswers": [
+          "5"
+        ]
+      }
+    ],
+    "explanation": "Buses run every 30 minutes. The passenger waits from 08:05 to 08:10, which is 5 minutes."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "I am thinking of a number. If you double it and add 7, you get 23. What is my number?",
+    "acceptedAnswers": [
+      "8"
+    ],
+    "explanation": "23 - 7 = 16. 16 ÷ 2 = 8."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "The sum of three consecutive whole numbers is 72. What is the smallest of the three numbers?",
+    "acceptedAnswers": [
+      "23"
+    ],
+    "explanation": "72 ÷ 3 = 24 (the middle number), so the numbers are 23, 24, 25. The smallest is 23."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which number continues the sequence: 3, 6, 12, 24, ...?",
+    "options": [
+      {
+        "id": "a",
+        "text": "30"
+      },
+      {
+        "id": "b",
+        "text": "36"
+      },
+      {
+        "id": "c",
+        "text": "42"
+      },
+      {
+        "id": "d",
+        "text": "48"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "Each term doubles the one before: 24 × 2 = 48."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A number is a multiple of 6 and a factor of 24. It is greater than 6 but less than 20. What is the number?",
+    "acceptedAnswers": [
+      "12"
+    ],
+    "explanation": "Multiples of 6 that are also factors of 24: 6, 12, 24. Only 12 is between 6 and 20."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-2",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "A number is halved, then 5 is subtracted, giving a result of 9.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What was the result before 5 was subtracted?",
+        "acceptedAnswers": [
+          "14"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What was the original number?",
+        "acceptedAnswers": [
+          "28"
+        ]
+      }
+    ],
+    "explanation": "9 + 5 = 14. 14 × 2 = 28."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Half of a number is 17. What is double the same number?",
+    "acceptedAnswers": [
+      "68"
+    ],
+    "explanation": "The number is 17 × 2 = 34. Double 34 is 68."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which of these is NOT a square number: 16, 25, 32, 36?",
+    "options": [
+      {
+        "id": "a",
+        "text": "16"
+      },
+      {
+        "id": "b",
+        "text": "25"
+      },
+      {
+        "id": "c",
+        "text": "32"
+      },
+      {
+        "id": "d",
+        "text": "36"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "16 = 4², 25 = 5², 36 = 6², but 32 is not a square number."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-REA-2",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A shop had some apples. It sold half of them in the morning, then sold 15 more in the afternoon, leaving 10 apples.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How many apples were left just before the afternoon sale (10 + 15)?",
+        "acceptedAnswers": [
+          "25"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many apples did the shop start with?",
+        "acceptedAnswers": [
+          "50"
+        ]
+      }
+    ],
+    "explanation": "10 + 15 = 25 apples remained after the morning sale (half of the total). So the shop started with 25 × 2 = 50 apples."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-1",
+    "type": "short_answer",
+    "difficulty": "bronze",
+    "promptText": "A box holds 24 chocolates. How many chocolates are there in 9 boxes?",
+    "acceptedAnswers": [
+      "216"
+    ],
+    "explanation": "24 × 9 = 216."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Tickets to a show cost $12 each. A family buys 5 tickets and pays with a $100 note. How much change do they get?",
+    "acceptedAnswers": [
+      "40",
+      "$40"
+    ],
+    "explanation": "5 × 12 = 60. 100 - 60 = $40."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A tank holds 850 litres of water. It leaks 15 litres per day. How many litres will be left after 20 days?",
+    "acceptedAnswers": [
+      "550",
+      "550l",
+      "550 l"
+    ],
+    "explanation": "15 × 20 = 300 litres lost. 850 - 300 = 550 litres."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-2",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "A baker makes 180 buns. She sells two-thirds of them in the morning, then bakes 45 more.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How many buns did she sell in the morning?",
+        "acceptedAnswers": [
+          "120"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many buns does she have after baking the extra 45 (180 - 120 + 45)?",
+        "acceptedAnswers": [
+          "105"
+        ]
+      }
+    ],
+    "explanation": "Two-thirds of 180 = 120 sold, leaving 60. 60 + 45 = 105."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A charity raised $3,240, shared equally between 4 projects. How much did each project receive?",
+    "acceptedAnswers": [
+      "810",
+      "$810"
+    ],
+    "explanation": "3240 ÷ 4 = $810."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-2",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "A factory produces 144 toys per hour. It runs for 6.5 hours. How many toys are produced in total?",
+    "acceptedAnswers": [
+      "936"
+    ],
+    "explanation": "144 × 6.5 = 936."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-1",
+    "type": "short_answer",
+    "difficulty": "bronze",
+    "promptText": "A jug holds 2 litres. How many 250 ml cups can be filled from a full jug?",
+    "acceptedAnswers": [
+      "8"
+    ],
+    "explanation": "2 litres = 2000 ml. 2000 ÷ 250 = 8 cups."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-2",
+    "type": "multi_step",
+    "difficulty": "silver",
+    "promptText": "Entry to a fair costs $6 for adults and $3 for children. A family of 2 adults and 3 children attends.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How much do the adult tickets cost in total?",
+        "acceptedAnswers": [
+          "12"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the total cost for the whole family?",
+        "acceptedAnswers": [
+          "21"
+        ]
+      }
+    ],
+    "explanation": "2 × $6 = $12 for adults. 3 × $3 = $9 for children. $12 + $9 = $21."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y5",
+    "objectiveCode": "MA5-WP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A car uses 1 litre of fuel every 12 km. How far can it travel on 8.5 litres?",
+    "acceptedAnswers": [
+      "102",
+      "102km",
+      "102 km"
+    ],
+    "explanation": "12 × 8.5 = 102 km."
+  }
 ]
