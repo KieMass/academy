@@ -92,7 +92,7 @@ export function WorksheetDocument({ meta, questions }: { meta: WorksheetMeta; qu
   return (
     <Document title={`${meta.subjectName} — ${meta.topicLabel} — ${meta.kindLabel}`}>
       <Page size="A4" style={styles.page}>
-        <Text style={styles.title}>Red Bay Academy</Text>
+        <Text style={styles.title}>KaeLex Academy</Text>
         <Text style={styles.subtitle}>{meta.kindLabel}</Text>
 
         <View style={styles.metaRow}>
@@ -118,7 +118,7 @@ export function WorksheetDocument({ meta, questions }: { meta: WorksheetMeta; qu
           <QuestionPrompt key={q.id} q={q} index={i} />
         ))}
 
-        <Text style={styles.footer} render={({ pageNumber, totalPages }) => `Page ${pageNumber} of ${totalPages} — Red Bay Academy`} fixed />
+        <Text style={styles.footer} render={({ pageNumber, totalPages }) => `Page ${pageNumber} of ${totalPages} — KaeLex Academy`} fixed />
       </Page>
 
       <Page size="A4" style={styles.page}>
@@ -130,7 +130,7 @@ export function WorksheetDocument({ meta, questions }: { meta: WorksheetMeta; qu
             <Text style={{ flex: 1 }}>{revealAnswer(q)}</Text>
           </View>
         ))}
-        <Text style={styles.footer} render={({ pageNumber, totalPages }) => `Page ${pageNumber} of ${totalPages} — Red Bay Academy`} fixed />
+        <Text style={styles.footer} render={({ pageNumber, totalPages }) => `Page ${pageNumber} of ${totalPages} — KaeLex Academy`} fixed />
       </Page>
     </Document>
   );

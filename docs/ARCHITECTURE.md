@@ -2,7 +2,7 @@
 
 ## Core principle: the curriculum map is the source of truth
 
-Every subject, topic and piece of content in Red Bay Academy is derived from
+Every subject, topic and piece of content in KaeLex Academy is derived from
 JSON files in [`content/curriculum/`](../content/curriculum) — **never**
 hard-coded to "Year 5". Each file (`maths.json`, `reading.json`, ...)
 describes a subject as a list of **strands** (e.g. "Fractions"), and each

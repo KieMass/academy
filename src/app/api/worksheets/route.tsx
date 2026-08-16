@@ -10,7 +10,7 @@ import { YEAR_GROUPS } from "@/lib/curriculum/types";
 
 const schema = z.object({
   subjectSlug: z.string(),
-  strandSlug: z.string().optional(), // omit for ASSESSMENT (spans the whole subject)
+  strandSlugs: z.array(z.string()).min(1).max(4).optional(), // omit for ASSESSMENT (spans the whole subject); up to 4 topics
   yearGroup: z.enum(YEAR_GROUPS),
   kind: z.enum(["TEN_QUESTION", "TWENTY_QUESTION", "ASSESSMENT", "INTERVENTION"]),
   studentId: z.string().optional(), // required for INTERVENTION; used to print the student's name otherwise
@@ -37,7 +37,7 @@ export async function POST(req: Request) {
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.issues[0]?.message ?? "Invalid request." }, { status: 400 });
   }
-  const { subjectSlug, strandSlug, yearGroup, kind, studentId } = parsed.data;
+  const { subjectSlug, strandSlugs, yearGroup, kind, studentId } = parsed.data;
   const targetCount = QUESTION_COUNT[kind];
 
   let student: { id: string; displayName: string } | null = null;
@@ -60,15 +60,15 @@ export async function POST(req: Request) {
     const topics = await db.topic.findMany({ where: { subject: { slug: subjectSlug }, yearGroup, strandSlug: { in: weakStrandSlugs } } });
     topicIds = topics.length > 0 ? topics.map((t) => t.id) : (await db.topic.findMany({ where: { subject: { slug: subjectSlug }, yearGroup } })).map((t) => t.id);
     topicLabel = "Targeted practice (weak areas)";
-  } else if (kind === "ASSESSMENT" || !strandSlug) {
+  } else if (kind === "ASSESSMENT" || !strandSlugs || strandSlugs.length === 0) {
     const topics = await db.topic.findMany({ where: { subject: { slug: subjectSlug }, yearGroup } });
     topicIds = topics.map((t) => t.id);
     topicLabel = "Mixed topics";
   } else {
-    const topic = await db.topic.findFirst({ where: { subject: { slug: subjectSlug }, strandSlug, yearGroup } });
-    if (!topic) return NextResponse.json({ error: "Topic not found." }, { status: 404 });
-    topicIds = [topic.id];
-    topicLabel = topic.strandName;
+    const topics = await db.topic.findMany({ where: { subject: { slug: subjectSlug }, strandSlug: { in: strandSlugs }, yearGroup } });
+    if (topics.length === 0) return NextResponse.json({ error: "Topic not found." }, { status: 404 });
+    topicIds = topics.map((t) => t.id);
+    topicLabel = topics.map((t) => t.strandName).join(", ");
   }
 
   if (topicIds.length === 0) {

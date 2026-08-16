@@ -1,12 +1,15 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { toast } from "sonner";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Printer } from "lucide-react";
+import { Printer, Check } from "lucide-react";
+import { cn } from "@/lib/utils";
+
+const MAX_TOPICS = 4;
 
 interface Student {
   id: string;
@@ -34,7 +37,7 @@ const KINDS = [
 export function PrintForm({ students, curriculum }: { students: Student[]; curriculum: CurriculumSubject[] }) {
   const [studentId, setStudentId] = useState(students[0]?.id ?? "");
   const [subjectSlug, setSubjectSlug] = useState(curriculum[0]?.subjectSlug ?? "");
-  const [strandSlug, setStrandSlug] = useState("");
+  const [strandSlugs, setStrandSlugs] = useState<string[]>([]);
   const [kind, setKind] = useState<(typeof KINDS)[number]["value"]>("TEN_QUESTION");
   const [generating, setGenerating] = useState(false);
 
@@ -44,19 +47,40 @@ export function PrintForm({ students, curriculum }: { students: Student[]; curri
     () => subject?.strands.filter((s) => !student || s.yearGroups.includes(student.yearGroup)) ?? [],
     [subject, student]
   );
-  const strand = availableStrands.find((s) => s.slug === strandSlug) ?? availableStrands[0];
   const kindConfig = KINDS.find((k) => k.value === kind)!;
+
+  // Keep the selection valid (and default to the first topic) whenever the
+  // available list changes — e.g. the parent switched subject or student.
+  useEffect(() => {
+    setStrandSlugs((prev) => {
+      const stillValid = prev.filter((slug) => availableStrands.some((s) => s.slug === slug));
+      if (stillValid.length > 0) return stillValid;
+      return availableStrands[0] ? [availableStrands[0].slug] : [];
+    });
+  }, [availableStrands]);
+
+  function toggleStrand(slug: string) {
+    setStrandSlugs((prev) => {
+      if (prev.includes(slug)) return prev.filter((s) => s !== slug);
+      if (prev.length >= MAX_TOPICS) return prev;
+      return [...prev, slug];
+    });
+  }
 
   async function handleGenerate() {
     if (!student) return;
     setGenerating(true);
+    // Open the tab synchronously, inside the click gesture — opening it after
+    // the `await`s below would happen outside the trusted user-gesture
+    // window and most browsers silently block the popup.
+    const pdfWindow = window.open("", "_blank");
     try {
       const res = await fetch("/api/worksheets", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           subjectSlug,
-          strandSlug: kindConfig.needsStrand ? strand?.slug : undefined,
+          strandSlugs: kindConfig.needsStrand ? strandSlugs : undefined,
           yearGroup: student.yearGroup,
           kind,
           studentId: student.id,
@@ -64,13 +88,23 @@ export function PrintForm({ students, curriculum }: { students: Student[]; curri
       });
       if (!res.ok) {
         const data = await res.json().catch(() => ({}));
+        pdfWindow?.close();
         toast.error(data.error ?? "Couldn't generate the worksheet.");
         return;
       }
       const blob = await res.blob();
       const url = URL.createObjectURL(blob);
-      window.open(url, "_blank");
+      if (pdfWindow) {
+        pdfWindow.location.href = url;
+      } else {
+        // Popup was blocked even for the synchronous open (e.g. strict
+        // blocker settings) — fall back to a same-tab navigation link.
+        window.open(url, "_blank");
+      }
       toast.success("Worksheet ready — opened in a new tab for printing.");
+    } catch {
+      pdfWindow?.close();
+      toast.error("Couldn't generate the worksheet.");
     } finally {
       setGenerating(false);
     }
@@ -85,7 +119,11 @@ export function PrintForm({ students, curriculum }: { students: Student[]; curri
       <CardContent className="space-y-4">
         <div className="space-y-1.5">
           <Label>Student</Label>
-          <Select value={studentId} onValueChange={(v) => v && setStudentId(v)}>
+          <Select
+            items={students.map((s) => ({ value: s.id, label: `${s.displayName} (Year ${s.yearGroup.replace("Y", "")})` }))}
+            value={studentId}
+            onValueChange={(v) => v && setStudentId(v)}
+          >
             <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
             <SelectContent>
               {students.map((s) => (
@@ -97,7 +135,11 @@ export function PrintForm({ students, curriculum }: { students: Student[]; curri
 
         <div className="space-y-1.5">
           <Label>Subject</Label>
-          <Select value={subjectSlug} onValueChange={(v) => { if (v) { setSubjectSlug(v); setStrandSlug(""); } }}>
+          <Select
+            items={curriculum.map((s) => ({ value: s.subjectSlug, label: s.subjectName }))}
+            value={subjectSlug}
+            onValueChange={(v) => { if (v) { setSubjectSlug(v); setStrandSlugs([]); } }}
+          >
             <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
             <SelectContent>
               {curriculum.map((s) => (
@@ -109,7 +151,11 @@ export function PrintForm({ students, curriculum }: { students: Student[]; curri
 
         <div className="space-y-1.5">
           <Label>Worksheet type</Label>
-          <Select value={kind} onValueChange={(v) => v && setKind(v as typeof kind)}>
+          <Select
+            items={KINDS.map((k) => ({ value: k.value, label: k.label }))}
+            value={kind}
+            onValueChange={(v) => v && setKind(v as typeof kind)}
+          >
             <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
             <SelectContent>
               {KINDS.map((k) => (
@@ -121,19 +167,45 @@ export function PrintForm({ students, curriculum }: { students: Student[]; curri
 
         {kindConfig.needsStrand && (
           <div className="space-y-1.5">
-            <Label>Topic</Label>
-            <Select value={strand?.slug ?? ""} onValueChange={(v) => v && setStrandSlug(v)}>
-              <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
-              <SelectContent>
-                {availableStrands.map((s) => (
-                  <SelectItem key={s.slug} value={s.slug}>{s.name}</SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
+            <div className="flex items-baseline justify-between">
+              <Label>Topics</Label>
+              <span className="text-xs text-muted-foreground">
+                {strandSlugs.length}/{MAX_TOPICS} selected — questions are split across them
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {availableStrands.map((s) => {
+                const selected = strandSlugs.includes(s.slug);
+                const disabled = !selected && strandSlugs.length >= MAX_TOPICS;
+                return (
+                  <button
+                    key={s.slug}
+                    type="button"
+                    onClick={() => toggleStrand(s.slug)}
+                    disabled={disabled}
+                    aria-pressed={selected}
+                    className={cn(
+                      "flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm font-medium transition-colors",
+                      selected
+                        ? "border-primary bg-primary/10 text-primary"
+                        : "border-border text-muted-foreground hover:bg-accent hover:text-accent-foreground",
+                      disabled && "cursor-not-allowed opacity-50"
+                    )}
+                  >
+                    {selected && <Check className="size-3.5" />}
+                    {s.name}
+                  </button>
+                );
+              })}
+            </div>
           </div>
         )}
 
-        <Button onClick={handleGenerate} className="w-full gap-2" disabled={generating || !student}>
+        <Button
+          onClick={handleGenerate}
+          className="w-full gap-2"
+          disabled={generating || !student || (kindConfig.needsStrand && strandSlugs.length === 0)}
+        >
           <Printer className="size-4" />
           {generating ? "Generating..." : "Generate PDF"}
         </Button>

@@ -12,10 +12,10 @@ export default async function Home() {
   return (
     <div className="flex-1 flex flex-col">
       <header className="flex items-center justify-between px-6 py-4 md:px-10">
-        <div className="flex items-center gap-2 font-heading text-xl font-bold text-primary">
+        <Link href="/" className="flex items-center gap-2 font-heading text-xl font-bold text-primary">
           <Sparkles className="size-6" />
-          Red Bay Academy
-        </div>
+          KaeLex Academy
+        </Link>
         <Button variant="outline" render={<Link href="/login">Log in</Link>} />
       </header>
 

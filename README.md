@@ -1,4 +1,4 @@
-# Red Bay Academy
+# KaeLex Academy
 
 A Year 5 learning platform built for a Red Bay Primary School (Cayman Islands) family — maths, reading,
 grammar, spelling, science, history, geography and computing practice aligned to the UK Key Stage 2

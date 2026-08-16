@@ -75,7 +75,11 @@ export function AssignForm({ students, curriculum }: { students: Student[]; curr
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div className="space-y-1.5">
             <Label>Student</Label>
-            <Select value={studentId} onValueChange={(v) => v && setStudentId(v)}>
+            <Select
+              items={students.map((s) => ({ value: s.id, label: `${s.displayName} (Year ${s.yearGroup.replace("Y", "")})` }))}
+              value={studentId}
+              onValueChange={(v) => v && setStudentId(v)}
+            >
               <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
               <SelectContent>
                 {students.map((s) => (
@@ -87,7 +91,11 @@ export function AssignForm({ students, curriculum }: { students: Student[]; curr
 
           <div className="space-y-1.5">
             <Label>Subject</Label>
-            <Select value={subjectSlug} onValueChange={(v) => { if (v) { setSubjectSlug(v); setStrandSlug(""); } }}>
+            <Select
+              items={curriculum.map((s) => ({ value: s.subjectSlug, label: s.subjectName }))}
+              value={subjectSlug}
+              onValueChange={(v) => { if (v) { setSubjectSlug(v); setStrandSlug(""); } }}
+            >
               <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
               <SelectContent>
                 {curriculum.map((s) => (
@@ -99,7 +107,11 @@ export function AssignForm({ students, curriculum }: { students: Student[]; curr
 
           <div className="space-y-1.5">
             <Label>Topic</Label>
-            <Select value={strand?.slug ?? ""} onValueChange={(v) => v && setStrandSlug(v)}>
+            <Select
+              items={availableStrands.map((s) => ({ value: s.slug, label: s.name }))}
+              value={strand?.slug ?? ""}
+              onValueChange={(v) => v && setStrandSlug(v)}
+            >
               <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
               <SelectContent>
                 {availableStrands.map((s) => (

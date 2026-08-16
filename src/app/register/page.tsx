@@ -42,7 +42,7 @@ export default function RegisterPage() {
     <div className="flex flex-1 flex-col items-center justify-center gap-8 px-6 py-16">
       <Link href="/" className="flex items-center gap-2 font-heading text-xl font-bold text-primary">
         <Sparkles className="size-6" />
-        Red Bay Academy
+        KaeLex Academy
       </Link>
       <Card className="w-full max-w-md">
         <CardHeader>

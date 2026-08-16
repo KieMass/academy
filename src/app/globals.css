@@ -49,7 +49,7 @@
 }
 
 :root {
-  /* Red Bay Academy brand palette — bright, warm, Caribbean-reef inspired:
+  /* KaeLex Academy brand palette — bright, warm, Caribbean-reef inspired:
      teal/ocean primary, coral accent. Chosen for energy without babyishness. */
   --background: oklch(0.99 0.006 240);
   --foreground: oklch(0.22 0.03 250);

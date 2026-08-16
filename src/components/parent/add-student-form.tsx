@@ -72,7 +72,11 @@ export function AddStudentForm() {
             </div>
             <div className="space-y-1.5">
               <Label htmlFor="yearGroup">Year group</Label>
-              <Select name="yearGroup" defaultValue="Y5">
+              <Select
+                items={YEAR_GROUPS.map((y) => ({ value: y, label: `Year ${y.replace("Y", "")}` }))}
+                name="yearGroup"
+                defaultValue="Y5"
+              >
                 <SelectTrigger className="w-full" id="yearGroup"><SelectValue /></SelectTrigger>
                 <SelectContent>
                   {YEAR_GROUPS.map((y) => (

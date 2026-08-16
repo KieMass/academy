@@ -262,7 +262,7 @@ async function seedDemoAccounts() {
 }
 
 async function main() {
-  console.log("Seeding Red Bay Academy database...\n");
+  console.log("Seeding KaeLex Academy database...\n");
   const topicIdByKey = await seedSubjectsAndTopics();
   await seedQuestions(topicIdByKey);
   await seedReadingPassages(topicIdByKey);

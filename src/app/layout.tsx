@@ -22,7 +22,7 @@ const baloo = Baloo_2({
 });
 
 export const metadata: Metadata = {
-  title: "Red Bay Academy",
+  title: "KaeLex Academy",
   description: "A Year 5 learning platform for Red Bay Primary School — maths, reading, grammar, spelling and more.",
 };
 

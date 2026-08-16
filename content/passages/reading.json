@@ -3,7 +3,7 @@
     "title": "The Lighthouse Keeper's Secret",
     "type": "fiction",
     "yearGroup": "Y5",
-    "author": "Original — Red Bay Academy",
+    "author": "Original — KaeLex Academy",
     "bodyText": "Maya pressed her hand against the cold, salt-crusted door of the lighthouse. Nobody had opened it in years, or so the fishermen said. Her grandfather had kept the light burning for thirty seasons before he vanished one stormy October night, and the door had been locked ever since.\n\nThe key, warm from being clutched in her fist the whole walk down, trembled slightly as she turned it. The lock gave way with a groan that seemed to echo up through the spiral staircase above her. Dust swirled in the thin blade of afternoon light that slipped through the doorway, and for a moment Maya hesitated, her heart thudding against her ribs.\n\n\"You don't have to do this,\" her brother Theo called from the path behind her, though he made no move to stop her either.\n\nMaya didn't answer. She had spent five years wondering what her grandfather had been guarding, why he refused to let anyone else near the lantern room, and why the last thing he had said to her was, 'Keep it lit, no matter what.' She stepped inside.\n\nThe staircase wound upward into shadow, each step creaking beneath her feet like it, too, was waking from a long sleep. At the top, the lantern room was exactly as she had imagined it a hundred times: a great glass lens, taller than she was, sitting silent and dark in the centre of the room. But it was the small, weathered logbook on the windowsill that made her breath catch. She opened it carefully, and there, in her grandfather's careful handwriting, was an entry dated the very night he disappeared.",
     "questions": [
       { "strandSlug": "retrieval", "objectiveCode": "RE5-RET-1", "subSkill": "retrieval", "type": "multiple_choice", "difficulty": "bronze",
@@ -50,7 +50,7 @@
     "title": "Guardians of the Reef",
     "type": "non_fiction",
     "yearGroup": "Y5",
-    "author": "Original — Red Bay Academy",
+    "author": "Original — KaeLex Academy",
     "bodyText": "Coral reefs cover less than one per cent of the ocean floor, yet they support around a quarter of all marine species on Earth. In the waters around the Cayman Islands, reefs provide a home for parrotfish, sea turtles, and the elusive Nassau grouper, as well as protecting the coastline from powerful waves during hurricane season.\n\nA coral reef is not a rock, as many people assume, but a living structure built by thousands of tiny animals called polyps. Each polyp produces a hard, cup-shaped skeleton, and over hundreds of years these skeletons stack together to form the reef we see today. Some of the largest reef systems took thousands of years to grow to their current size.\n\nUnfortunately, reefs around the world are under threat. Rising sea temperatures cause a process called coral bleaching, where stressed coral expels the colourful algae living inside it, turning the coral white and weak. If temperatures do not cool again quickly, the coral can die completely. Pollution, overfishing and careless snorkelling or diving can also damage reef ecosystems.\n\nHowever, there is hope. Marine parks, such as those protecting large sections of Cayman's coastline, restrict fishing and anchoring in sensitive areas. Volunteers and scientists have also begun 'coral gardening' projects, growing new coral fragments in underwater nurseries before transplanting them onto damaged reefs. Every visitor who avoids touching coral and every diver who follows marine park rules helps to protect these fragile underwater cities for future generations.",
     "questions": [
       { "strandSlug": "retrieval", "objectiveCode": "RE5-RET-1", "subSkill": "retrieval", "type": "short_answer", "difficulty": "bronze",
@@ -98,7 +98,7 @@
     "title": "Trade Winds",
     "type": "poetry",
     "yearGroup": "Y5",
-    "author": "Original — Red Bay Academy",
+    "author": "Original — KaeLex Academy",
     "bodyText": "The trade wind combs the palm trees flat,\nAnd flicks white lace across the bay,\nIt whistles through the fisherman's net\nAnd carries salt spray far away.\n\nIt does not pause for anyone,\nNot boat, nor bird, nor beating drum,\nIt only knows the path it's run\nSince long before the tourists come.\n\nAt dusk it settles, soft and low,\nA breath held gently over sand,\nAs if the whole wide ocean's glow\nWere resting lightly in its hand.",
     "questions": [
       { "strandSlug": "literal-comprehension", "objectiveCode": "RE5-LIT-1", "subSkill": "literal", "type": "multiple_choice", "difficulty": "bronze",
