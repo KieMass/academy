@@ -22,13 +22,14 @@ export default async function Home() {
       <main className="flex-1 flex flex-col items-center justify-center gap-10 px-6 py-16 text-center">
         <div className="max-w-2xl space-y-4">
           <h1 className="font-heading text-4xl font-extrabold tracking-tight text-balance md:text-5xl">
-            Year 5 learning, built around{" "}
+            Learning built around{" "}
             <span className="text-primary">your child&apos;s curriculum</span>
           </h1>
           <p className="text-lg text-muted-foreground text-balance">
-            Maths, reading, grammar &amp; spelling practice aligned to the UK Key Stage 2 curriculum and Cayman
-            Islands Year 5 expectations — with PUMA-style maths, PIRA-style reading and GAPS-style grammar practice,
-            instant feedback, and real progress tracking for parents.
+            Maths, reading, grammar and spelling practice aligned to the UK curriculum, featuring PUMA-style maths,
+            PIRA-style reading and GAPS-style grammar activities, with instant feedback and real progress tracking
+            for parents. Detailed progress insights help parents identify strengths, spot learning gaps early, and
+            support their child&apos;s development with confidence.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <Button size="lg" className="rounded-full px-8" render={<Link href="/login?as=student">I&apos;m a student</Link>} />
@@ -57,7 +58,7 @@ export default async function Home() {
       </main>
 
       <footer className="px-6 py-6 text-center text-xs text-muted-foreground">
-        Built for Red Bay Primary School families. Content aligned to UK KS2 &amp; Cayman Islands Y5 expectations.
+        Content aligned to the UK Key Stage 2 curriculum.
       </footer>
     </div>
   );

@@ -21,7 +21,7 @@ test("student can log in with the demo account and reach their dashboard", async
 
 test("parent can log in with the demo account and reach their dashboard", async ({ page }) => {
   await page.goto("/login?as=parent");
-  await page.getByLabel("Email").fill("parent@redbay.demo");
+  await page.getByLabel("Email").fill("parent@kaelex.demo");
   await page.getByLabel("Password").fill("Parent123!");
   await page.getByRole("button", { name: "Log in" }).click();
 

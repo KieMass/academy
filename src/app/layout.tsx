@@ -23,7 +23,7 @@ const baloo = Baloo_2({
 
 export const metadata: Metadata = {
   title: "KaeLex Academy",
-  description: "A Year 5 learning platform for Red Bay Primary School — maths, reading, grammar, spelling and more.",
+  description: "A learning platform built around your child's curriculum — maths, reading, grammar, spelling and more.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

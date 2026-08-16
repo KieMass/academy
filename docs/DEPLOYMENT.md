@@ -1,23 +1,24 @@
 # Deployment
 
+The schema (`prisma/schema.prisma`) targets Postgres — shared by local dev,
+Docker, and production. There is no SQLite path any more (Vercel's
+filesystem is read-only and ephemeral at request time, which ruled it out
+for production, so the whole app standardised on Postgres instead).
+
 ## Vercel (recommended for a family/small-scale deployment)
 
-Vercel's filesystem is read-only and ephemeral at request time, which rules
-out the default SQLite setup for production — use a hosted Postgres.
-
 1. Create a Postgres database (Vercel Postgres, Neon, or Supabase all work).
-2. In `prisma/schema.prisma`, set `provider = "postgresql"`.
-3. In the Vercel project settings, add environment variables:
+2. In the Vercel project settings, add environment variables:
    - `DATABASE_URL` — your Postgres connection string
    - `AUTH_SECRET` — a long random string (`node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`)
-4. Add a build step to run migrations before the app builds — either:
+3. Add a build step to run migrations before the app builds — either:
    - Set the Vercel **Build Command** to `npx prisma migrate deploy && next build`, or
    - Run `npx prisma migrate deploy` manually against the production
      `DATABASE_URL` before the first deploy.
-5. Seed once after the first successful migration:
+4. Seed once after the first successful migration:
    `DATABASE_URL=<prod-url> npm run db:seed` (run locally, pointed at prod —
    there's no seed step in the Vercel build since it should only run once).
-6. Deploy: `vercel --prod` or connect the GitHub repo in the Vercel dashboard.
+5. Deploy: `vercel --prod` or connect the GitHub repo in the Vercel dashboard.
 
 `next.config.ts` sets `output: "standalone"` only when `process.env.VERCEL`
 is unset — it's there for the Docker path below. Vercel has its own build
@@ -32,14 +33,15 @@ cp .env.example .env   # set AUTH_SECRET
 docker compose up --build
 ```
 
-This builds the multi-stage `Dockerfile`, runs `prisma migrate deploy` and
-(on first boot only) `npm run db:seed` via `docker-entrypoint.sh`, and
-serves the app on `http://localhost:3000`. SQLite data persists in the
-`app-data` named volume.
+`docker-compose.yml` starts the app alongside a `db` (Postgres) service and
+points `DATABASE_URL` at it by default — no extra setup needed. On boot,
+`docker-entrypoint.sh` runs `prisma migrate deploy` and (on first boot only)
+`npm run db:seed`, then serves the app on `http://localhost:3000`. Postgres
+data persists in the `pg-data` named volume.
 
-To use Postgres instead, uncomment the `db` service in `docker-compose.yml`,
-set `DATABASE_URL` to point at it, and flip `provider` in
-`prisma/schema.prisma` to `"postgresql"`.
+To point at an external Postgres instead (e.g. the same Neon database used
+elsewhere), remove the `db` service and set `DATABASE_URL` on `app` to that
+connection string.
 
 ## Local development
 

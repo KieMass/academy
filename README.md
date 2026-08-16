@@ -1,9 +1,9 @@
 # KaeLex Academy
 
-A Year 5 learning platform built for a Red Bay Primary School (Cayman Islands) family — maths, reading,
-grammar, spelling, science, history, geography and computing practice aligned to the UK Key Stage 2
-curriculum and Cayman Islands Year 5 expectations, with PUMA-style maths, PIRA-style reading and
-GAPS-style grammar/spelling assessment styles.
+A learning platform built around your child's curriculum — maths, reading, grammar, spelling, science,
+history, geography and computing practice aligned to the UK Key Stage 2 curriculum and Cayman Islands
+Year 5 expectations, with PUMA-style maths, PIRA-style reading and GAPS-style grammar/spelling
+assessment styles.
 
 **Everything the app knows about "what to teach" lives in `content/curriculum/*.json`** — see
 [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for why that matters (short version: moving to Year 6 next
@@ -13,8 +13,8 @@ year is a content change, not a code change).
 
 ```bash
 npm install
-cp .env.example .env          # sets DATABASE_URL + generates you'll want to replace AUTH_SECRET
-npm run db:migrate             # creates prisma/dev.db and applies the schema
+cp .env.example .env          # set DATABASE_URL (Postgres) + AUTH_SECRET
+npm run db:migrate             # applies the schema to your Postgres database
 npm run db:seed                # loads the curriculum map + question banks + demo accounts
 npm run dev
 ```
@@ -23,12 +23,12 @@ Open [http://localhost:3000](http://localhost:3000). Demo accounts (created by t
 
 | Role    | Login                  | Password     |
 | ------- | ----------------------- | ------------ |
-| Parent  | `parent@redbay.demo`    | `Parent123!` |
+| Parent  | `parent@kaelex.demo`    | `Parent123!` |
 | Student | username `alex`         | `student123` |
 
 ## Tech stack
 
-Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · shadcn/ui (on Base UI) · Prisma · SQLite (Postgres-ready)
+Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · shadcn/ui (on Base UI) · Prisma · PostgreSQL
 · TanStack Query · Zustand · `@react-pdf/renderer` · Vitest · Playwright · Docker
 
 ## Project structure
@@ -40,7 +40,7 @@ content/
   passages/            Reading passages with embedded comprehension questions
   spelling/             Weekly spelling lists
 prisma/
-  schema.prisma        Database schema (SQLite now, Postgres-ready)
+  schema.prisma        Database schema (PostgreSQL)
   seed.ts              Populates the DB from content/ — never hand-edit Subject/Topic rows
   migrations/
 src/
@@ -114,5 +114,4 @@ cp .env.example .env   # set AUTH_SECRET
 docker compose up --build
 ```
 
-See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for full Docker and Vercel instructions, including the
-SQLite → PostgreSQL migration path.
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for full Docker and Vercel instructions.

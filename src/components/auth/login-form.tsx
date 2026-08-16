@@ -85,7 +85,7 @@ export function LoginForm({ defaultTab }: { defaultTab: "student" | "parent" }) 
                 {loading ? "Logging in..." : "Log in"}
               </Button>
               <p className="text-xs text-muted-foreground">
-                Demo account — parent@redbay.demo · Parent123! &nbsp;•&nbsp; No account?{" "}
+                Demo account — parent@kaelex.demo · Parent123! &nbsp;•&nbsp; No account?{" "}
                 <Link href="/register" className="text-primary underline underline-offset-2">
                   Create one
                 </Link>

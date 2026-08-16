@@ -225,11 +225,11 @@ async function seedDemoAccounts() {
   const studentPassword = await hashPassword("student123");
 
   const parentUser = await db.user.upsert({
-    where: { email: "parent@redbay.demo" },
+    where: { email: "parent@kaelex.demo" },
     update: {},
     create: {
       role: "PARENT",
-      email: "parent@redbay.demo",
+      email: "parent@kaelex.demo",
       passwordHash: parentPassword,
       parentProfile: { create: { fullName: "Demo Parent" } },
     },
@@ -257,7 +257,7 @@ async function seedDemoAccounts() {
   });
 
   console.log("  ✓ Demo accounts ready:");
-  console.log("    Parent  → email: parent@redbay.demo   password: Parent123!");
+  console.log("    Parent  → email: parent@kaelex.demo   password: Parent123!");
   console.log("    Student → username: alex               password: student123");
 }
 
