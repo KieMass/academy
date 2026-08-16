@@ -12,11 +12,10 @@ generator client {
 }
 
 datasource db {
-  // SQLite for local/dev. Swap to `provider = "postgresql"` + a POSTGRES_URL
-  // env var for production — see docs/DEPLOYMENT.md. Field types below
-  // (String, Json-as-String, etc.) are deliberately chosen to be portable
-  // across both.
-  provider = "sqlite"
+  // Postgres (Neon) — shared by local dev and production. Field types below
+  // (String, Json-as-String, etc.) were deliberately chosen to be portable,
+  // in case this ever needs to move providers again.
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
