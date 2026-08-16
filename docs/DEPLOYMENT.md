@@ -19,9 +19,11 @@ out the default SQLite setup for production — use a hosted Postgres.
    there's no seed step in the Vercel build since it should only run once).
 6. Deploy: `vercel --prod` or connect the GitHub repo in the Vercel dashboard.
 
-`next.config.ts` already sets `output: "standalone"`, which Vercel doesn't
-need (it has its own build pipeline) — it's there for the Docker path below
-and is harmless on Vercel.
+`next.config.ts` sets `output: "standalone"` only when `process.env.VERCEL`
+is unset — it's there for the Docker path below. Vercel has its own build
+pipeline and this setting actively breaks it there (`ENOENT` on
+`.next/next-server.js.nft.json`), so it's conditionally disabled on Vercel
+rather than merely redundant.
 
 ## Docker (self-hosted / home server)
 
