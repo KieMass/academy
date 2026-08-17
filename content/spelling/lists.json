@@ -105,5 +105,115 @@
       { "word": "category", "exampleSentence": "Sort each word into the correct category." },
       { "word": "language", "exampleSentence": "She is learning a new language." },
       { "word": "sincere", "exampleSentence": "He gave a sincere apology." }
+    ] },
+  { "weekLabel": "Week 11 — Silent Letters (Y6)", "yearGroup": "Y6", "strandSlug": "silent-letters",
+    "words": [
+      { "word": "bruise", "exampleSentence": "She had a bruise on her knee after the fall." },
+      { "word": "rhyme", "exampleSentence": "Can you think of a word that will rhyme with 'light'?" },
+      { "word": "mnemonic", "exampleSentence": "We used a mnemonic to remember the planets in order." },
+      { "word": "gnome", "exampleSentence": "A stone gnome stood in the corner of the garden." },
+      { "word": "condemn", "exampleSentence": "The council will condemn the derelict building." },
+      { "word": "knead", "exampleSentence": "Bakers knead the dough before it is baked." },
+      { "word": "gnarled", "exampleSentence": "The gnarled old tree had stood for centuries." },
+      { "word": "subtle", "exampleSentence": "There was a subtle change in her voice." }
+    ] },
+  { "weekLabel": "Week 12 — 'ough' Words (Y6)", "yearGroup": "Y6", "strandSlug": "ough",
+    "words": [
+      { "word": "thoroughly", "exampleSentence": "She thoroughly cleaned her room before the visitors arrived." },
+      { "word": "doughnut", "exampleSentence": "He chose a jam doughnut from the bakery counter." },
+      { "word": "roughage", "exampleSentence": "Vegetables provide roughage that helps digestion." },
+      { "word": "though", "exampleSentence": "It was raining, though the sun soon came out." },
+      { "word": "drought", "exampleSentence": "The drought meant the reservoir was almost empty." },
+      { "word": "trough", "exampleSentence": "The pigs ate from a wooden trough." },
+      { "word": "bough", "exampleSentence": "A bough of the old oak tree snapped in the storm." },
+      { "word": "dough", "exampleSentence": "She rolled out the dough for the pizza base." }
+    ] },
+  { "weekLabel": "Week 13 — '-cious'/'-tious' Endings (Y6)", "yearGroup": "Y6", "strandSlug": "cious-tious",
+    "words": [
+      { "word": "conscious", "exampleSentence": "He was conscious of the time as the exam began." },
+      { "word": "infectious", "exampleSentence": "Her laughter was so infectious that everyone smiled." },
+      { "word": "superstitious", "exampleSentence": "Some sailors are superstitious about whistling on a ship." },
+      { "word": "atrocious", "exampleSentence": "The weather during the storm was atrocious." },
+      { "word": "nutritious", "exampleSentence": "A nutritious breakfast helps you concentrate at school." },
+      { "word": "fictitious", "exampleSentence": "The characters in the story are entirely fictitious." },
+      { "word": "contentious", "exampleSentence": "The new rule became a contentious topic in class." },
+      { "word": "scrumptious", "exampleSentence": "Grandma baked a scrumptious chocolate cake." }
+    ] },
+  { "weekLabel": "Week 14 — '-cial'/'-tial' Endings (Y6)", "yearGroup": "Y6", "strandSlug": "cial-tial",
+    "words": [
+      { "word": "artificial", "exampleSentence": "The pond had artificial lights around its edge." },
+      { "word": "beneficial", "exampleSentence": "Regular exercise is beneficial for your health." },
+      { "word": "commercial", "exampleSentence": "The shop sits in a busy commercial district." },
+      { "word": "influential", "exampleSentence": "She was an influential leader in the community." },
+      { "word": "torrential", "exampleSentence": "Torrential rain flooded the school playground." },
+      { "word": "crucial", "exampleSentence": "Getting enough sleep is crucial before a test." },
+      { "word": "substantial", "exampleSentence": "They made a substantial donation to the charity." },
+      { "word": "potential", "exampleSentence": "The coach saw great potential in the young player." }
+    ] },
+  { "weekLabel": "Week 15 — 'ei' After 'c' & Exceptions (Y6)", "yearGroup": "Y6", "strandSlug": "ei-after-c",
+    "words": [
+      { "word": "protein", "exampleSentence": "Fish and eggs are good sources of protein." },
+      { "word": "caffeine", "exampleSentence": "Tea contains less caffeine than coffee." },
+      { "word": "seize", "exampleSentence": "The players tried to seize the chance to score." },
+      { "word": "weird", "exampleSentence": "It felt weird to be back at school after the holidays." },
+      { "word": "neither", "exampleSentence": "Neither of the twins wanted to go first." },
+      { "word": "leisure", "exampleSentence": "We spent our leisure time snorkelling near the reef." },
+      { "word": "foreign", "exampleSentence": "She is learning about foreign countries in geography." },
+      { "word": "forfeit", "exampleSentence": "The team had to forfeit the match after arriving late." }
+    ] },
+  { "weekLabel": "Week 16 — Homophones (Y6)", "yearGroup": "Y6", "strandSlug": "homophones",
+    "words": [
+      { "word": "stationary", "exampleSentence": "The bus remained stationary in the heavy traffic." },
+      { "word": "stationery", "exampleSentence": "We bought new stationery for the start of term." },
+      { "word": "principal", "exampleSentence": "The principal welcomed the new students on Monday." },
+      { "word": "principle", "exampleSentence": "Honesty is an important principle to live by." },
+      { "word": "compliment", "exampleSentence": "She gave her friend a kind compliment on her artwork." },
+      { "word": "complement", "exampleSentence": "The scarf was a perfect complement to her outfit." },
+      { "word": "licence", "exampleSentence": "He renewed his driving licence last month." },
+      { "word": "license", "exampleSentence": "The council will license the new restaurant next week." }
+    ] },
+  { "weekLabel": "Week 17 — Statutory Word List (Y6) Part A", "yearGroup": "Y6", "strandSlug": "statutory-list",
+    "words": [
+      { "word": "correspond", "exampleSentence": "Pen pals correspond by writing letters to each other." },
+      { "word": "sufficient", "exampleSentence": "There was sufficient time to finish the test." },
+      { "word": "vegetable", "exampleSentence": "Carrots are a popular vegetable in the school garden." },
+      { "word": "achieve", "exampleSentence": "With practice, you can achieve your goals." },
+      { "word": "appreciate", "exampleSentence": "We appreciate everyone who helped at the fundraiser." },
+      { "word": "available", "exampleSentence": "Extra tutoring is available after school on Fridays." },
+      { "word": "ancient", "exampleSentence": "The museum displayed ancient pottery from Crete." },
+      { "word": "apparent", "exampleSentence": "It was apparent that the tide was coming in quickly." }
+    ] },
+  { "weekLabel": "Week 18 — Statutory Word List (Y6) Part B", "yearGroup": "Y6", "strandSlug": "statutory-list",
+    "words": [
+      { "word": "controversy", "exampleSentence": "The new uniform rule caused some controversy at school." },
+      { "word": "definite", "exampleSentence": "We have a definite date for the sports day now." },
+      { "word": "marvellous", "exampleSentence": "The fireworks display was absolutely marvellous." },
+      { "word": "mischievous", "exampleSentence": "The mischievous puppy hid one of my shoes." },
+      { "word": "neighbour", "exampleSentence": "Our neighbour helped us carry the shopping inside." },
+      { "word": "nuisance", "exampleSentence": "The buzzing mosquito was a real nuisance at the picnic." },
+      { "word": "occupy", "exampleSentence": "The younger children occupy the classroom next door." },
+      { "word": "persuade", "exampleSentence": "She tried to persuade her brother to share his sweets." }
+    ] },
+  { "weekLabel": "Week 19 — Word Sorting by Origin (Y6)", "yearGroup": "Y6", "strandSlug": "word-sorting",
+    "words": [
+      { "word": "telephone", "exampleSentence": "Grandma called us on the telephone every Sunday." },
+      { "word": "biology", "exampleSentence": "In biology we learned about the human skeleton." },
+      { "word": "photograph", "exampleSentence": "She kept a photograph of the beach on her desk." },
+      { "word": "geography", "exampleSentence": "Geography lessons often include maps of the Caribbean." },
+      { "word": "chorus", "exampleSentence": "The whole class joined in for the chorus of the song." },
+      { "word": "chronicle", "exampleSentence": "The old book was a chronicle of island history." },
+      { "word": "democracy", "exampleSentence": "In a democracy, citizens vote for their leaders." },
+      { "word": "phenomenon", "exampleSentence": "A rainbow is a beautiful natural phenomenon." }
+    ] },
+  { "weekLabel": "Week 20 — Hyphenated Words (Y6)", "yearGroup": "Y6", "strandSlug": "hyphens",
+    "words": [
+      { "word": "co-ordinate", "exampleSentence": "The teacher will co-ordinate the sports day events." },
+      { "word": "re-enter", "exampleSentence": "Please re-enter your password to log back in." },
+      { "word": "well-being", "exampleSentence": "Regular exercise is good for your well-being." },
+      { "word": "co-operate", "exampleSentence": "The class learned to co-operate during group projects." },
+      { "word": "self-control", "exampleSentence": "It takes self-control to stay calm during an argument." },
+      { "word": "re-elect", "exampleSentence": "The members voted to re-elect the class president." },
+      { "word": "non-fiction", "exampleSentence": "She borrowed a non-fiction book about coral reefs." },
+      { "word": "great-grandmother", "exampleSentence": "My great-grandmother moved to Grand Cayman many years ago." }
     ] }
 ]
