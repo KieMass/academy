@@ -5,8 +5,9 @@ import { getSubjectMap } from "@/lib/curriculum/loader";
 import { QuestionRunner } from "@/components/question-engine/question-runner";
 import { ChevronLeft } from "lucide-react";
 
-export default async function PracticePage({ params }: PageProps<"/student/[subject]/[strand]">) {
+export default async function PracticePage({ params, searchParams }: PageProps<"/student/[subject]/[strand]">) {
   const { subject: subjectSlug, strand: strandSlug } = await params;
+  const { assignmentId } = await searchParams;
   const { studentProfile } = await requireStudent();
   const map = getSubjectMap(subjectSlug);
   const strand = map?.strands.find((s) => s.slug === strandSlug);
@@ -17,7 +18,13 @@ export default async function PracticePage({ params }: PageProps<"/student/[subj
       <Link href={`/student/${subjectSlug}`} className="inline-flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground">
         <ChevronLeft className="size-4" /> {map.subjectName}
       </Link>
-      <QuestionRunner subjectSlug={subjectSlug} strandSlug={strandSlug} yearGroup={studentProfile.yearGroup} strandName={strand.name} />
+      <QuestionRunner
+        subjectSlug={subjectSlug}
+        strandSlug={strandSlug}
+        yearGroup={studentProfile.yearGroup}
+        strandName={strand.name}
+        assignmentId={typeof assignmentId === "string" ? assignmentId : undefined}
+      />
     </div>
   );
 }

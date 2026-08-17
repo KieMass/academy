@@ -41,11 +41,17 @@ export function QuestionRunner({
   strandSlug,
   yearGroup,
   strandName,
+  assignmentId,
 }: {
   subjectSlug: string;
   strandSlug: string;
   yearGroup: string;
   strandName: string;
+  /** Present when this session was launched from an assignment link — on a
+   * session that scores above 75%, we ask the server to mark it complete
+   * (server recomputes the score itself from graded attempts; see
+   * /api/assignments/[id]/complete). */
+  assignmentId?: string;
 }) {
   const router = useRouter();
   const readAloudEnabled = useAccessibilityStore((s) => s.readAloudEnabled);
@@ -57,6 +63,8 @@ export function QuestionRunner({
   const [sessionResults, setSessionResults] = useState<boolean[]>([]);
   const [totalXp, setTotalXp] = useState(0);
   const [earnedBadges, setEarnedBadges] = useState<string[]>([]);
+  const [assignmentCompleted, setAssignmentCompleted] = useState(false);
+  const completionCheckedRef = useRef<number>(0); // sessionResults.length already checked, avoids re-firing
   // A ref (not state) because it's a timing side-channel for handleSubmit,
   // not something that should trigger a re-render — and setting it inside
   // an effect (rather than as a useState initializer) keeps the Date.now()
@@ -96,7 +104,7 @@ export function QuestionRunner({
       const res = await fetch("/api/attempts", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ questionId: question.id, response, timeSpentSeconds }),
+        body: JSON.stringify({ questionId: question.id, response, timeSpentSeconds, assignmentId }),
       });
       if (!res.ok) throw new Error("Failed to submit");
       const result = await res.json();
@@ -130,6 +138,21 @@ export function QuestionRunner({
 
   const isComplete = questions.length > 0 && index >= questions.length;
   const scorePct = sessionResults.length > 0 ? Math.round((sessionResults.filter(Boolean).length / sessionResults.length) * 100) : 0;
+
+  useEffect(() => {
+    if (!isComplete || !assignmentId || scorePct <= 75) return;
+    if (completionCheckedRef.current === sessionResults.length) return; // already asked for this result set
+    completionCheckedRef.current = sessionResults.length;
+    fetch(`/api/assignments/${assignmentId}/complete`, { method: "POST" })
+      .then((res) => (res.ok ? res.json() : null))
+      .then((data) => {
+        if (data?.ok) setAssignmentCompleted(true);
+      })
+      .catch(() => {
+        // Non-critical — the assignment just stays in the student's list;
+        // no need to surface an error for a background housekeeping call.
+      });
+  }, [isComplete, assignmentId, scorePct, sessionResults.length]);
 
   if (!difficulty) {
     return (
@@ -177,6 +200,9 @@ export function QuestionRunner({
             <Badge variant="secondary" className="rounded-full px-3 py-1">+{totalXp} XP</Badge>
             {earnedBadges.length > 0 && <Badge className="rounded-full px-3 py-1">{earnedBadges.length} new badge{earnedBadges.length > 1 ? "s" : ""}!</Badge>}
           </div>
+          {assignmentCompleted && (
+            <p className="text-sm font-medium text-primary">🎉 Assignment complete — nice work! It's off your list now.</p>
+          )}
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <Button
               onClick={() => {

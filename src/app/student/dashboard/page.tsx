@@ -54,7 +54,7 @@ export default async function StudentDashboardPage() {
               return (
                 <Link
                   key={a.id}
-                  href={`/student/${topic.subject.slug}/${topic.strandSlug}`}
+                  href={`/student/${topic.subject.slug}/${topic.strandSlug}?assignmentId=${a.id}`}
                   className="flex items-center justify-between rounded-xl border bg-card px-4 py-3 transition hover:shadow-md"
                 >
                   <div>

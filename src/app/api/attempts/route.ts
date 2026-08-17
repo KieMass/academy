@@ -25,6 +25,11 @@ export async function POST(req: Request) {
   }
   const { questionId, response, timeSpentSeconds, assignmentId } = parsed.data;
 
+  if (assignmentId) {
+    const owned = await db.assignment.findFirst({ where: { id: assignmentId, studentId: studentProfile.id } });
+    if (!owned) return NextResponse.json({ error: "Assignment not found." }, { status: 404 });
+  }
+
   const row = await db.contentQuestion.findUnique({ where: { id: questionId } });
   if (!row) return NextResponse.json({ error: "Question not found." }, { status: 404 });
 
