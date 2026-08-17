@@ -19,7 +19,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { loadCurriculumMaps, resolveTopics } from "../src/lib/curriculum/loader";
 import { toStorageFields, toPrismaEnums } from "../src/lib/question-engine/mapper";
-import { generateAllMathsQuestions } from "../src/lib/content-generators/maths";
+import { generateAllMathsQuestions, generateAllMathsQuestionsY6 } from "../src/lib/content-generators/maths";
 import type { DraftQuestion } from "../src/lib/content-generators/types";
 import { hashPassword } from "../src/lib/auth/password";
 
@@ -78,6 +78,7 @@ async function seedQuestions(topicIdByKey: Map<string, string>) {
 
   const drafts: DraftQuestion[] = [
     ...generateAllMathsQuestions(),
+    ...generateAllMathsQuestionsY6(),
     ...readJson<DraftQuestion[]>("questions", "maths-authored.json"),
     ...readJson<DraftQuestion[]>("questions", "grammar.json"),
     ...readJson<DraftQuestion[]>("questions", "science.json"),

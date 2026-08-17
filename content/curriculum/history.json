@@ -9,18 +9,40 @@
       { "yearGroup": "Y5", "objectives": [
         { "code": "HI5-GRE-1", "description": "Describe Greek life and achievements and their influence on the western world", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
         { "code": "HI5-GRE-2", "description": "Explain the significance of Athenian democracy and compare it to systems of government today", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "HI6-GRE-1", "description": "Evaluate the lasting influence of Ancient Greek achievements (democracy, philosophy, theatre, the Olympics) on the modern world, using evidence", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
       ] }
     ] },
     { "slug": "anglo-saxons", "name": "Anglo-Saxons", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "HI5-SAX-1", "description": "Describe Anglo-Saxon settlement of Britain and everyday Anglo-Saxon life", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
         { "code": "HI5-SAX-2", "description": "Explain the significance of Anglo-Saxon kingdoms, laws and the spread of Christianity", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "HI6-SAX-1", "description": "Compare different types of historical sources (artefacts, written accounts, archaeology) about Anglo-Saxon Britain and evaluate their reliability", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
       ] }
     ] },
     { "slug": "vikings", "name": "Vikings", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "HI5-VIK-1", "description": "Describe Viking and Anglo-Saxon struggles for the Kingdom of England", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
         { "code": "HI5-VIK-2", "description": "Use evidence from artefacts and sources to describe Viking exploration and settlement", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "HI6-VIK-1", "description": "Explain the significance of key events in the Viking and Anglo-Saxon struggle for England, including the eventual Norman Conquest of 1066", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
+      ] }
+    ] },
+    { "slug": "world-war-two", "name": "The Second World War", "description": "New for Y6: a study of a significant turning point in twentieth-century British history.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "HI6-WW2-1", "description": "Describe the causes and key events of the Second World War, including the Blitz and evacuation", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "HI6-WW2-2", "description": "Describe everyday life on the home front, including rationing and the role of women in the war effort", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "HI6-WW2-3", "description": "Use a range of sources (photographs, ration books, propaganda posters) to draw conclusions about life during the war", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
+      ] }
+    ] },
+    { "slug": "crime-punishment", "name": "Crime and Punishment Through Time", "description": "New for Y6: a thematic study of how crime, punishment and law have changed across different periods studied.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "HI6-CRI-1", "description": "Describe how crime and punishment changed from Anglo-Saxon times to the present day", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "HI6-CRI-2", "description": "Explain reasons for changes in attitudes to crime and punishment over time, linking them to wider social change", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
       ] }
     ] }
   ]

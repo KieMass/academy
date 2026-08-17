@@ -8,29 +8,58 @@
     { "slug": "typing", "name": "Typing & Digital Fluency", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "CO5-TYP-1", "description": "Type with increasing speed and accuracy using correct home-row finger technique", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "CO6-TYP-1", "description": "Type fluently and accurately, using keyboard shortcuts to edit and format text efficiently", "difficultyBands": ["silver","gold"], "questionTypes": ["short_answer","multiple_choice"] }
       ] }
     ] },
     { "slug": "e-safety", "name": "E-Safety", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "CO5-SAFE-1", "description": "Identify a range of ways to report concerns about content and contact online", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] },
         { "code": "CO5-SAFE-2", "description": "Explain how to keep personal information private and recognise online risks", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "CO6-SAFE-1", "description": "Understand acceptable and unacceptable online behaviour, including the responsible use of social media and online games", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "CO6-SAFE-2", "description": "Evaluate the credibility and reliability of online sources and search results", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] }
       ] }
     ] },
     { "slug": "algorithms", "name": "Algorithms", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "CO5-ALG-1", "description": "Design and use an algorithm to solve a problem, and understand that algorithms are implemented as programs on digital devices", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multi_step","multiple_choice"] },
         { "code": "CO5-ALG-2", "description": "Use logical reasoning to detect and correct errors in an algorithm (debugging)", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multi_step","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "CO6-ALG-1", "description": "Design, write and debug programs that accomplish specific goals, including controlling or simulating physical systems", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multi_step","multiple_choice"] },
+        { "code": "CO6-ALG-2", "description": "Use logical reasoning to explain how a more complex algorithm, involving nested selection and repetition, works", "difficultyBands": ["gold","challenge"], "questionTypes": ["multi_step","short_answer"] }
       ] }
     ] },
     { "slug": "scratch-concepts", "name": "Scratch Programming Concepts", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "CO5-SCR-1", "description": "Use sequence, selection and repetition in programs; work with variables and inputs/outputs", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "CO6-SCR-1", "description": "Use nested selection and repetition, and multiple variables, to build more complex programs", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","matching"] }
       ] }
     ] },
     { "slug": "digital-literacy", "name": "Digital Literacy", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "CO5-DIG-1", "description": "Select, use and combine software/services on a range of digital devices to design and create content", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] },
         { "code": "CO5-DIG-2", "description": "Understand computer networks, including the internet, and how they provide multiple services such as the World Wide Web", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "CO6-DIG-1", "description": "Select, use and combine a variety of software on a range of digital devices to design, create, collaborate on, and evaluate content that accomplishes given goals", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "CO6-DIG-2", "description": "Explain how computer networks, including the internet, work, including the opportunities they offer for communication and collaboration", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] }
+    ] },
+    { "slug": "data-handling", "name": "Data & Information", "description": "New for Y6: representing and manipulating data with spreadsheets and databases.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "CO6-DATA-1", "description": "Use technology to collect, organise and present data, including in spreadsheets and databases", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "CO6-DATA-2", "description": "Design and create a simple database and use it to answer questions by sorting and searching for data", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
+      ] }
+    ] },
+    { "slug": "search-technologies", "name": "Search Technologies", "description": "New for Y6: using search technologies effectively and understanding how results are selected and ranked.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "CO6-SRCH-1", "description": "Use search technologies effectively, and understand how search results are selected and ranked", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
       ] }
     ] }
   ]

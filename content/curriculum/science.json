@@ -9,12 +9,21 @@
       { "yearGroup": "Y5", "objectives": [
         { "code": "SC5-LIV-1", "description": "Describe the differences in the life cycles of a mammal, an amphibian, an insect and a bird", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
         { "code": "SC5-LIV-2", "description": "Describe the life process of reproduction in some plants and animals", "difficultyBands": ["silver","gold"], "questionTypes": ["short_answer","multiple_choice"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SC6-LIV-1", "description": "Describe how living things are classified into broad groups according to common observable characteristics", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+        { "code": "SC6-LIV-2", "description": "Give reasons for classifying plants and animals based on specific characteristics", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] }
       ] }
     ] },
     { "slug": "animals-including-humans", "name": "Animals Including Humans", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "SC5-ANI-1", "description": "Describe the changes as humans develop to old age", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] },
         { "code": "SC5-ANI-2", "description": "Explain the changes experienced during puberty in an age-appropriate, factual way", "difficultyBands": ["silver"], "questionTypes": ["short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SC6-ANI-1", "description": "Identify and name the main parts of the human circulatory system, and describe the functions of the heart, blood vessels and blood", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+        { "code": "SC6-ANI-2", "description": "Recognise the impact of diet, exercise, drugs and lifestyle on the way bodies function", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "SC6-ANI-3", "description": "Describe the ways in which nutrients and water are transported within animals, including humans", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] }
       ] }
     ] },
     { "slug": "materials", "name": "Properties and Changes of Materials", "years": [
@@ -36,6 +45,27 @@
         { "code": "SC5-FOR-1", "description": "Explain that unsupported objects fall towards Earth because of the force of gravity", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] },
         { "code": "SC5-FOR-2", "description": "Identify the effects of air resistance, water resistance and friction that act between moving surfaces", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","matching"] },
         { "code": "SC5-FOR-3", "description": "Recognise that some mechanisms, including levers, pulleys and gears, allow a smaller force to have a greater effect", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] }
+      ] }
+    ] },
+    { "slug": "evolution-inheritance", "name": "Evolution and Inheritance", "description": "New for Y6: how living things have changed over time and inherit characteristics.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SC6-EVO-1", "description": "Recognise that living things have changed over time and that fossils provide information about living things that inhabited the Earth millions of years ago", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "SC6-EVO-2", "description": "Recognise that living things produce offspring of the same kind, but normally offspring vary and are not identical to their parents", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "SC6-EVO-3", "description": "Identify how animals and plants are adapted to suit their environment, and how adaptation may lead to evolution", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] }
+      ] }
+    ] },
+    { "slug": "light", "name": "Light", "description": "Revisited from Y3 with greater depth for Y6: how light behaves and enables us to see.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SC6-LIG-1", "description": "Recognise that light appears to travel in straight lines", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "SC6-LIG-2", "description": "Use the idea that light travels in straight lines to explain that objects are seen because they give out or reflect light into the eye", "difficultyBands": ["silver","gold"], "questionTypes": ["short_answer","multiple_choice"] },
+        { "code": "SC6-LIG-3", "description": "Explain that we see things because light travels from light sources to our eyes, or from light sources to objects and then to our eyes; use this to explain shadows", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
+      ] }
+    ] },
+    { "slug": "electricity", "name": "Electricity", "description": "Revisited from Y4 with greater depth for Y6: circuits, components and their effects.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SC6-ELE-1", "description": "Associate the brightness of a lamp or volume of a buzzer with the number and voltage of cells used in the circuit", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "SC6-ELE-2", "description": "Use recognised symbols when representing a simple circuit in a diagram", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+        { "code": "SC6-ELE-3", "description": "Compare and give reasons for variations in how components function, including the brightness of bulbs, the loudness of buzzers and the on/off position of switches", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] }
       ] }
     ] }
   ]

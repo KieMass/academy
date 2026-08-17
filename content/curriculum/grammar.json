@@ -8,66 +8,133 @@
     { "slug": "relative-clauses", "name": "Relative Clauses", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-REL-1", "description": "Use relative clauses beginning with who, which, where, when, whose, that, or an omitted relative pronoun", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","fill_in_box","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-REL-1", "description": "Use relative clauses with an omitted relative pronoun for concise, formal writing", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] }
       ] }
     ] },
     { "slug": "modal-verbs", "name": "Modal Verbs", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-MOD-1", "description": "Use modal verbs (might, should, will, must) to indicate degrees of possibility", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","fill_in_box"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-MOD-1", "description": "Select modal verbs and adverbs (e.g. surely, perhaps) to indicate degrees of possibility appropriately for formal and informal contexts", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] }
       ] }
     ] },
     { "slug": "fronted-adverbials", "name": "Fronted Adverbials", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-FRO-1", "description": "Use fronted adverbials, and punctuate them with a comma", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","fill_in_box","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-FRO-1", "description": "Use a wide range of fronted adverbials of manner, time, place and probability across a piece of writing for cohesion", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
       ] }
     ] },
     { "slug": "parenthesis", "name": "Parenthesis (Brackets, Dashes, Commas)", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-PAR-1", "description": "Indicate parenthesis using brackets, dashes or commas", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","fill_in_box","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-PAR-1", "description": "Choose between brackets, dashes and commas for parenthesis based on the level of formality and effect required", "difficultyBands": ["gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] }
       ] }
     ] },
     { "slug": "expanded-noun-phrases", "name": "Expanded Noun Phrases", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-ENP-1", "description": "Use expanded noun phrases to convey complicated information concisely", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["short_answer","fill_in_box"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-ENP-1", "description": "Use expanded noun phrases with modifying adjectives, nouns and prepositional phrases for precision and economy", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","fill_in_box"] }
       ] }
     ] },
     { "slug": "prefixes", "name": "Prefixes", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-PRE-1", "description": "Use a range of prefixes (dis-, mis-, re-, in-, im-, il-, ir-, sub-, inter-, super-, anti-, auto-) to build new words", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-PRE-1", "description": "Use knowledge of prefixes (e.g. de-, over-, mis-, dis-, mis-) to understand and infer the meaning of unfamiliar words", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
       ] }
     ] },
     { "slug": "suffixes", "name": "Suffixes", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-SUF-1", "description": "Convert nouns/adjectives into verbs using suffixes (-ate, -ise, -ify), and add suffixes beginning with vowel letters to words ending in -fer", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-SUF-1", "description": "Use the suffixes -cious, -tious, -cial and -tial correctly, and use suffixes to distinguish word class (e.g. -ly, -ness, -ment, -ity)", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","matching"] }
       ] }
     ] },
     { "slug": "homophones", "name": "Homophones & Near-Homophones", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-HOM-1", "description": "Distinguish between homophones and other words that are often confused (e.g. affect/effect, principal/principle)", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","fill_in_box"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-HOM-1", "description": "Distinguish between homophones and other words that are often confused in more formal/academic vocabulary (e.g. compliment/complement, stationary/stationery, ensure/insure)", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","fill_in_box"] }
       ] }
     ] },
     { "slug": "sentence-structure", "name": "Sentence Structure", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-SEN-1", "description": "Use a wide range of clause structures, varying position within the sentence for effect", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-SEN-1", "description": "Use a range of sentence structures to achieve particular effects, and identify simple, compound and complex sentences", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "GR6-SEN-2", "description": "Recognise vocabulary and structures appropriate for formal speech and writing, including the subjunctive", "difficultyBands": ["gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] }
       ] }
     ] },
     { "slug": "verb-tenses", "name": "Verb Tenses", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-TEN-1", "description": "Use the perfect form of verbs to mark relationships of time and cause; use the present perfect vs past tense correctly", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","fill_in_box"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-TEN-1", "description": "Use verb tenses consistently and correctly throughout a piece of writing, including the progressive and perfect forms", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","fill_in_box"] }
       ] }
     ] },
     { "slug": "commas", "name": "Commas for Clarity", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-COM-1", "description": "Use commas to clarify meaning or avoid ambiguity in writing", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","multiple_choice"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-COM-1", "description": "Use commas correctly in complex sentences to mark clause boundaries and resolve ambiguity", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["fill_in_box","multiple_choice"] }
       ] }
     ] },
     { "slug": "brackets-dashes", "name": "Brackets & Dashes", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-BRA-1", "description": "Use brackets and dashes to add extra information within a sentence", "difficultyBands": ["silver","gold"], "questionTypes": ["fill_in_box","multiple_choice"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-BRA-1", "description": "Use a single dash to mark the boundary between independent clauses", "difficultyBands": ["gold","challenge"], "questionTypes": ["fill_in_box","multiple_choice"] }
       ] }
     ] },
     { "slug": "cohesion", "name": "Cohesion & Adverbials of Time/Place", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GR5-COH-1", "description": "Link ideas across paragraphs using adverbials of time, place and number, and tense choices", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-COH-1", "description": "Link ideas across paragraphs using a wider range of cohesive devices, including repetition of a word or phrase, grammatical connections and ellipsis", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
+      ] }
+    ] },
+    { "slug": "active-passive-voice", "name": "Active & Passive Voice", "description": "New for Y6: understanding how the passive voice changes the presentation and formality of information.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-ACT-1", "description": "Recognise and use the passive voice to affect the presentation of information in a sentence", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","fill_in_box","short_answer"] }
+      ] }
+    ] },
+    { "slug": "subjunctive-form", "name": "The Subjunctive Form", "description": "New for Y6: formal/subjunctive verb forms used in formal speech and writing.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-SUBJ-1", "description": "Use the subjunctive form in formal writing and speech (e.g. 'If I were', 'The teacher requested that he hand in his book')", "difficultyBands": ["gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] }
+    ] },
+    { "slug": "semicolons-colons-dashes", "name": "Semicolons, Colons & Dashes for Lists", "description": "New for Y6: punctuation to mark the boundary between independent clauses and to introduce lists.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-PUNC-1", "description": "Use a colon to introduce a list, and semicolons within a list", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","multiple_choice"] },
+        { "code": "GR6-PUNC-2", "description": "Use a semicolon to mark the boundary between independent clauses", "difficultyBands": ["gold","challenge"], "questionTypes": ["fill_in_box","multiple_choice"] },
+        { "code": "GR6-PUNC-3", "description": "Use hyphens to avoid ambiguity (e.g. 'man eating shark' vs 'man-eating shark')", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] }
+    ] },
+    { "slug": "synonyms-antonyms", "name": "Synonyms & Antonyms", "description": "New for Y6: precise vocabulary choices for effect.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-SYN-1", "description": "Use a thesaurus-style knowledge of synonyms and antonyms to enhance vocabulary choices and avoid repetition", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["matching","multiple_choice"] }
+      ] }
+    ] },
+    { "slug": "layout-devices", "name": "Layout Devices & Bullet Points", "description": "New for Y6: using layout to present information clearly in non-fiction writing.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GR6-LAY-1", "description": "Use bullet points consistently, and headings/sub-headings to structure non-fiction texts", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] }
       ] }
     ] }
   ]

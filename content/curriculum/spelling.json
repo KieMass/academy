@@ -8,41 +8,70 @@
     { "slug": "silent-letters", "name": "Words with Silent Letters", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "SP5-SIL-1", "description": "Spell words containing silent letters (e.g. doubt, island, lamb, solemn, thistle, knight)", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SP6-SIL-1", "description": "Spell a wider range of words containing silent letters (e.g. bruise, rhythm, rhyme, mnemonic, gnome)", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["fill_in_box","short_answer"] }
       ] }
     ] },
     { "slug": "ough", "name": "Words with 'ough'", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "SP5-OUGH-1", "description": "Spell words containing the letter string 'ough' (e.g. thought, through, plough, cough, though, borough)", "difficultyBands": ["silver","gold"], "questionTypes": ["fill_in_box","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SP6-OUGH-1", "description": "Spell and use less common words containing 'ough' correctly in context (e.g. thoroughly, doughnut, roughage, oughtn't)", "difficultyBands": ["gold","challenge"], "questionTypes": ["fill_in_box","short_answer"] }
       ] }
     ] },
     { "slug": "cious-tious", "name": "'-cious' and '-tious' Endings", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "SP5-CT-1", "description": "Spell words ending in '-cious' or '-tious' (e.g. vicious, precious, cautious, ambitious)", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","matching"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SP6-CT-1", "description": "Spell less common words ending in '-cious' or '-tious', including exceptions (e.g. conscious, infectious, superstitious, atrocious)", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["fill_in_box","matching"] }
       ] }
     ] },
     { "slug": "cial-tial", "name": "'-cial' and '-tial' Endings", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "SP5-CIT-1", "description": "Spell words ending in '-cial' or '-tial' (e.g. official, special, partial, confidential)", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","matching"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SP6-CIT-1", "description": "Spell less common words ending in '-cial' or '-tial' (e.g. artificial, beneficial, commercial, influential, torrential)", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["fill_in_box","matching"] }
       ] }
     ] },
     { "slug": "ei-after-c", "name": "'ei' after 'c'", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "SP5-EI-1", "description": "Spell words with 'ei' after 'c' where it sounds like /ee/ (e.g. deceive, receive, ceiling)", "difficultyBands": ["silver","gold"], "questionTypes": ["fill_in_box"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SP6-EI-1", "description": "Spell words with 'ei' after 'c' and know exceptions to the rule (e.g. protein, caffeine, seize, weird)", "difficultyBands": ["gold","challenge"], "questionTypes": ["fill_in_box"] }
       ] }
     ] },
     { "slug": "homophones", "name": "Homophones & Near-Homophones", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "SP5-HOM-1", "description": "Spell frequently confused homophones correctly in context (e.g. there/their/they're, whose/who's, practice/practise)", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["fill_in_box","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SP6-HOM-1", "description": "Spell frequently confused homophones and near-homophones correctly in more formal contexts (e.g. stationary/stationery, principal/principle, compliment/complement, licence/license)", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["fill_in_box","short_answer"] }
       ] }
     ] },
     { "slug": "statutory-list", "name": "Y5/Y6 Statutory Word List", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "SP5-STAT-1", "description": "Spell words from the statutory Years 5 and 6 word list correctly (e.g. accommodate, necessary, government, environment)", "difficultyBands": ["bronze","silver","gold","challenge"], "questionTypes": ["fill_in_box","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SP6-STAT-1", "description": "Spell the remaining, more challenging words from the statutory Years 5 and 6 word list correctly (e.g. correspond, embarrass, immediately, sufficient, vegetable)", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["fill_in_box","short_answer"] }
       ] }
     ] },
     { "slug": "word-sorting", "name": "Word Sorting by Pattern", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "SP5-SORT-1", "description": "Sort and classify words by spelling pattern, prefix or suffix", "difficultyBands": ["bronze","silver"], "questionTypes": ["matching","drag_drop"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SP6-SORT-1", "description": "Sort and classify words by less common spelling patterns, etymology or word origin", "difficultyBands": ["silver","gold"], "questionTypes": ["matching","drag_drop"] }
+      ] }
+    ] },
+    { "slug": "hyphens", "name": "Hyphenated Words", "description": "New for Y6: using hyphens to form compound words and avoid ambiguity.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "SP6-HYP-1", "description": "Spell and correctly use hyphenated compound words (e.g. co-ordinate, re-enter, well-being)", "difficultyBands": ["silver","gold"], "questionTypes": ["fill_in_box","short_answer"] }
       ] }
     ] }
   ]

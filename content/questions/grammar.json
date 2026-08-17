@@ -3431,5 +3431,3194 @@
       }
     ],
     "explanation": "'By evening' is a time adverbial connecting the two events."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence correctly omits the relative pronoun?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The cake she baked was delicious."
+      },
+      {
+        "id": "b",
+        "text": "The cake that which she baked was delicious."
+      },
+      {
+        "id": "c",
+        "text": "The cake she baked, was delicious."
+      },
+      {
+        "id": "d",
+        "text": "The cake whom she baked was delicious."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The relative pronoun 'that' can be omitted here because it is the object of the relative clause: 'The cake (that) she baked...'"
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-REL-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Rewrite this sentence, omitting the relative pronoun where possible: 'The film that we watched last night was terrifying.'",
+    "acceptedAnswers": [
+      "the film we watched last night was terrifying"
+    ],
+    "explanation": "'That' can be dropped because it is the object of the relative clause, not the subject."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "In which sentence CANNOT the relative pronoun be omitted?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The teacher who taught us was very strict."
+      },
+      {
+        "id": "b",
+        "text": "The bag that I packed was heavy."
+      },
+      {
+        "id": "c",
+        "text": "The song that she sang was beautiful."
+      },
+      {
+        "id": "d",
+        "text": "The letter that he wrote arrived late."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A relative pronoun can only be omitted when it is the object of the relative clause; here 'who' is the subject of 'taught us', so it must stay."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-REL-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Combine using an omitted relative pronoun: 'This is the photograph. My uncle took the photograph in 1985.'",
+    "acceptedAnswers": [
+      "this is the photograph my uncle took in 1985"
+    ],
+    "explanation": "Since 'the photograph' is the object of 'took', the relative pronoun 'that/which' can be omitted for a more concise, formal style."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence uses an omitted relative pronoun for the most concise, formal effect?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The report which the committee submitted was thorough."
+      },
+      {
+        "id": "b",
+        "text": "The report the committee submitted was thorough."
+      },
+      {
+        "id": "c",
+        "text": "The report that which the committee submitted was thorough."
+      },
+      {
+        "id": "d",
+        "text": "The report, the committee submitted it, was thorough."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Omitting the object relative pronoun ('which') produces the most concise and formal version of the sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-REL-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Rewrite formally, omitting the relative pronoun: 'The decision that the judges reached surprised everyone.'",
+    "acceptedAnswers": [
+      "the decision the judges reached surprised everyone"
+    ],
+    "explanation": "'That' is the object of 'reached' so it can be dropped for concise, formal writing."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence uses a modal adverb to show possibility?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Perhaps the train will be delayed."
+      },
+      {
+        "id": "b",
+        "text": "The train was delayed."
+      },
+      {
+        "id": "c",
+        "text": "The train delayed today."
+      },
+      {
+        "id": "d",
+        "text": "Delayed was the train."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Perhaps' is a modal adverb expressing possibility."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-MOD-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Rewrite using a modal verb to show strong obligation: 'You attend the meeting.'",
+    "acceptedAnswers": [
+      "you must attend the meeting",
+      "you should attend the meeting"
+    ],
+    "explanation": "'Must' expresses strong obligation appropriate for a formal instruction."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence is most appropriate for FORMAL writing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It's gonna probably rain later."
+      },
+      {
+        "id": "b",
+        "text": "It will probably rain later."
+      },
+      {
+        "id": "c",
+        "text": "Might rain, innit."
+      },
+      {
+        "id": "d",
+        "text": "Rain's coming maybe."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Standard modal verbs and adverbs like 'probably' are appropriate for formal writing, unlike contractions or slang."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-MOD-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite this informal sentence formally, keeping the same degree of possibility: 'It might be true, I reckon.'",
+    "acceptedAnswers": [
+      "it may be true",
+      "it might be true",
+      "it could be true"
+    ],
+    "explanation": "Formal register replaces informal phrases such as 'I reckon' with a modal verb like 'may' or 'might'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence expresses the HIGHEST degree of certainty using a modal adverb?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Perhaps she has already left."
+      },
+      {
+        "id": "b",
+        "text": "Surely she has already left."
+      },
+      {
+        "id": "c",
+        "text": "Possibly she has already left."
+      },
+      {
+        "id": "d",
+        "text": "Maybe she has already left."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Surely' expresses strong confidence, close to certainty, compared with the more tentative 'perhaps', 'possibly' and 'maybe'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-MOD-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Write a formal sentence expressing a small degree of possibility that the results are inaccurate, using a modal verb.",
+    "acceptedAnswers": [
+      "the results may be inaccurate",
+      "the results might be inaccurate",
+      "the results could be inaccurate"
+    ],
+    "explanation": "Modal verbs such as 'may', 'might' or 'could' are used formally to express a small degree of possibility."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-FRO-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Write a sentence beginning with a fronted adverbial of manner, describing how a dancer moved.",
+    "acceptedAnswers": [
+      "gracefully, the dancer moved across the stage",
+      "elegantly, the dancer moved across the stage"
+    ],
+    "explanation": "A fronted adverbial of manner describes how something happens and is followed by a comma."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-FRO-1",
+    "type": "multi_step",
+    "difficulty": "silver",
+    "promptText": "Read: 'Cautiously, the explorer entered the cave. Deep within the mountain, strange sounds echoed.'",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "Which fronted adverbial in the first sentence shows manner? (copy it exactly)",
+        "acceptedAnswers": [
+          "cautiously"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Which fronted adverbial in the second sentence shows place? (copy it exactly)",
+        "acceptedAnswers": [
+          "deep within the mountain"
+        ]
+      }
+    ],
+    "explanation": "'Cautiously' describes how the explorer entered (manner); 'deep within the mountain' describes where the sounds echoed (place)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-FRO-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Write a sentence beginning with a fronted adverbial of probability about whether a team will win.",
+    "acceptedAnswers": [
+      "surely, the team will win the match",
+      "almost certainly, the team will win the match"
+    ],
+    "explanation": "A fronted adverbial of probability (e.g. 'surely', 'almost certainly') expresses how likely something is."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-FRO-1",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "Read: 'Almost certainly, the storm will worsen overnight. Far out at sea, fishing boats were already turning back.'",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "Which fronted adverbial shows probability? (copy it exactly)",
+        "acceptedAnswers": [
+          "almost certainly"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Which fronted adverbial shows place? (copy it exactly)",
+        "acceptedAnswers": [
+          "far out at sea"
+        ]
+      }
+    ],
+    "explanation": "'Almost certainly' expresses likelihood; 'far out at sea' locates the action."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-FRO-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Rewrite this paragraph opening using a varied fronted adverbial of time (not 'suddenly' or 'later'): 'The bell rang and the exam began.'",
+    "acceptedAnswers": [
+      "promptly at nine o'clock, the bell rang and the exam began",
+      "at nine o'clock sharp, the bell rang and the exam began"
+    ],
+    "explanation": "A fronted adverbial of time signals when the action happens and adds variety beyond overused words like 'suddenly'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-FRO-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "Read: 'Reluctantly, the cat crept towards the vet's door. Beyond the door, an ominous silence waited. Perhaps, the appointment would not be so bad after all.'",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "Copy the fronted adverbial that shows manner.",
+        "acceptedAnswers": [
+          "reluctantly"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Copy the fronted adverbial that shows probability.",
+        "acceptedAnswers": [
+          "perhaps"
+        ]
+      }
+    ],
+    "explanation": "'Reluctantly' shows how the cat moved (manner); 'perhaps' shows the likelihood of the outcome (probability)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which use of parenthesis is most appropriate for a FORMAL report?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The results (see Appendix B) confirm our hypothesis."
+      },
+      {
+        "id": "b",
+        "text": "The results — check Appendix B lol — confirm our hypothesis."
+      },
+      {
+        "id": "c",
+        "text": "The results, see Appendix B, confirm our hypothesis."
+      },
+      {
+        "id": "d",
+        "text": "The results (see Appendix B lol) confirm our hypothesis."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Brackets are commonly used in formal writing to add a precise, factual aside such as a reference."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PAR-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite this sentence using dashes instead of brackets for a more dramatic, informal effect: 'The winner (much to everyone's surprise) was the youngest competitor.'",
+    "acceptedAnswers": [
+      "the winner — much to everyone's surprise — was the youngest competitor",
+      "the winner - much to everyone's surprise - was the youngest competitor"
+    ],
+    "explanation": "Dashes create a more dramatic, informal interruption than brackets, which suit a formal aside."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence uses commas for parenthesis in a way that suits neutral, everyday writing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "My sister, who lives in Leeds, is visiting this weekend."
+      },
+      {
+        "id": "b",
+        "text": "My sister (who lives in Leeds) is visiting this weekend."
+      },
+      {
+        "id": "c",
+        "text": "My sister — who lives in Leeds — is visiting this weekend."
+      },
+      {
+        "id": "d",
+        "text": "My sister who lives in Leeds, is visiting, this weekend."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Commas are the most neutral and common way to mark parenthesis in everyday writing."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "A formal scientific report needs to add a technical clarification. Which punctuation choice is most suitable?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dashes, because they add drama."
+      },
+      {
+        "id": "b",
+        "text": "Brackets, because they clearly separate factual, secondary information without altering tone."
+      },
+      {
+        "id": "c",
+        "text": "Commas, because they are the least noticeable."
+      },
+      {
+        "id": "d",
+        "text": "Exclamation marks, because they emphasise the point."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Brackets are typically chosen in formal or technical writing to insert precise, factual information with minimal disruption to tone."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PAR-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Rewrite this sentence for a formal essay, replacing the dashes with a more suitable form of parenthesis: 'The volcano — dormant for over a century — erupted without warning.'",
+    "acceptedAnswers": [
+      "the volcano (dormant for over a century) erupted without warning",
+      "the volcano, dormant for over a century, erupted without warning"
+    ],
+    "explanation": "Brackets or commas suit formal essay writing better than dashes, which feel more dramatic and informal."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence best demonstrates parenthesis chosen for dramatic effect in narrative writing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The truth — and this shocked everyone — had been hidden for years."
+      },
+      {
+        "id": "b",
+        "text": "The truth (and this shocked everyone) had been hidden for years."
+      },
+      {
+        "id": "c",
+        "text": "The truth, and this shocked everyone, had been hidden for years."
+      },
+      {
+        "id": "d",
+        "text": "The truth and this shocked everyone had been hidden for years."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Dashes create a dramatic pause and emphasis, well suited to a tense moment in narrative writing."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ENP-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Complete the expanded noun phrase with a prepositional phrase for precision: 'the small cottage ___ the edge of the forest' (add a preposition)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "at",
+          "on",
+          "near"
+        ]
+      }
+    ],
+    "explanation": "'At'/'on'/'near' introduces the prepositional phrase that precisely locates the cottage."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ENP-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Expand this noun phrase economically using one adjective and one prepositional phrase: 'the bridge'",
+    "acceptedAnswers": [
+      "the narrow bridge over the river",
+      "the old stone bridge across the gorge"
+    ],
+    "explanation": "Combining a single precise adjective with a prepositional phrase adds detail without unnecessary wordiness."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ENP-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Complete the expanded noun phrase: 'the scientist ___ the ground-breaking discovery' (add a preposition)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "behind"
+        ]
+      }
+    ],
+    "explanation": "'Behind' introduces a prepositional phrase that precisely links the scientist to the discovery."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ENP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite this noun phrase more precisely and economically, using a modifying noun instead of a wordy description: 'a door that is made of oak'",
+    "acceptedAnswers": [
+      "the oak door",
+      "an oak door"
+    ],
+    "explanation": "A modifying noun ('oak') expresses the same information far more economically than a relative clause."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ENP-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Expand 'the letter' precisely and economically using an adjective, a modifying noun and a prepositional phrase.",
+    "acceptedAnswers": [
+      "the crumpled parchment letter from her grandfather",
+      "the faded handwritten letter on the desk"
+    ],
+    "explanation": "Combining an adjective, a modifying noun and a prepositional phrase packs maximum precision into a concise phrase."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ENP-1",
+    "type": "fill_in_box",
+    "difficulty": "challenge",
+    "promptText": "Complete the expanded noun phrase for precision: 'the ___ evidence ___ the witness' (add an adjective, then a preposition)",
+    "blanks": [
+      {
+        "id": "b1",
+        "acceptedAnswers": [
+          "damning",
+          "contradictory"
+        ]
+      },
+      {
+        "id": "b2",
+        "acceptedAnswers": [
+          "against"
+        ]
+      }
+    ],
+    "explanation": "An adjective ('damning') plus a prepositional phrase ('against the witness') builds precision economically."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What does the prefix 'de-' mean in 'defrost'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "again"
+      },
+      {
+        "id": "b",
+        "text": "not"
+      },
+      {
+        "id": "c",
+        "text": "reverse or remove"
+      },
+      {
+        "id": "d",
+        "text": "too much"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'De-' often reverses an action, as in 'defrost' (remove frost)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which word means 'to understand something incorrectly'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "understand"
+      },
+      {
+        "id": "b",
+        "text": "misunderstand"
+      },
+      {
+        "id": "c",
+        "text": "overunderstand"
+      },
+      {
+        "id": "d",
+        "text": "disunderstand"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The prefix 'mis-' means 'wrongly', so 'misunderstand' means to understand incorrectly."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PRE-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Use your knowledge of prefixes to infer the meaning of 'overreact'.",
+    "acceptedAnswers": [
+      "to react too much",
+      "to react excessively",
+      "to react more strongly than necessary"
+    ],
+    "explanation": "'Over-' means 'too much', so 'overreact' means to react excessively to something."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "The prefix 'dis-' in 'disqualify' most likely means...",
+    "options": [
+      {
+        "id": "a",
+        "text": "again"
+      },
+      {
+        "id": "b",
+        "text": "not / reverse"
+      },
+      {
+        "id": "c",
+        "text": "before"
+      },
+      {
+        "id": "d",
+        "text": "beneath"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Dis-' reverses or negates the root word, so 'disqualify' means to remove someone's qualification."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PRE-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Using prefix knowledge, explain what 'misinform' means.",
+    "acceptedAnswers": [
+      "to give someone wrong or incorrect information",
+      "to inform someone incorrectly"
+    ],
+    "explanation": "'Mis-' means 'wrongly', so 'misinform' means to give incorrect information."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence uses 'overestimate' correctly, based on its prefix meaning?",
+    "options": [
+      {
+        "id": "a",
+        "text": "He overestimated the cost, so it was cheaper than he thought."
+      },
+      {
+        "id": "b",
+        "text": "He overestimated the cost, so it was exactly right."
+      },
+      {
+        "id": "c",
+        "text": "He overestimated the cost, so it was more expensive than he thought."
+      },
+      {
+        "id": "d",
+        "text": "He overestimated the cost, meaning he guessed correctly."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Over-' means 'too much', so overestimating means guessing higher than the true amount, making the actual cost cheaper than expected."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which word is spelled correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "delicious"
+      },
+      {
+        "id": "b",
+        "text": "delitious"
+      },
+      {
+        "id": "c",
+        "text": "delicous"
+      },
+      {
+        "id": "d",
+        "text": "delishous"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'-cious' is used after most roots to form this adjective ending, as in 'delicious'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which word is spelled correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "cautious"
+      },
+      {
+        "id": "b",
+        "text": "cautous"
+      },
+      {
+        "id": "c",
+        "text": "caucious"
+      },
+      {
+        "id": "d",
+        "text": "cautshus"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'-tious' is used here, as in 'cautious', following the root 'caution'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which suffix correctly completes 'benefi___' to mean 'showing benefit'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "-cial"
+      },
+      {
+        "id": "b",
+        "text": "-tial"
+      },
+      {
+        "id": "c",
+        "text": "-cious"
+      },
+      {
+        "id": "d",
+        "text": "-tious"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'-cial' follows roots ending in a hard 'c' sound or 'ce', as in 'beneficial'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which word uses '-tial' correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "essential"
+      },
+      {
+        "id": "b",
+        "text": "essencial"
+      },
+      {
+        "id": "c",
+        "text": "essenshal"
+      },
+      {
+        "id": "d",
+        "text": "essentious"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'-tial' is used after roots ending in 'nce' or similar, as in 'essential'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUF-1",
+    "type": "matching",
+    "difficulty": "gold",
+    "promptText": "Match each root word to the correctly suffixed word.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "space",
+        "right": "spacious"
+      },
+      {
+        "id": "p2",
+        "left": "ambition",
+        "right": "ambitious"
+      },
+      {
+        "id": "p3",
+        "left": "office",
+        "right": "official"
+      },
+      {
+        "id": "p4",
+        "left": "confidence",
+        "right": "confidential"
+      }
+    ],
+    "explanation": "'-cious' follows 'space' (spacious), '-tious' follows 'ambition' (ambitious), '-cial' follows 'office' (official), and '-tial' follows 'confidence' (confidential)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUF-1",
+    "type": "matching",
+    "difficulty": "challenge",
+    "promptText": "Match each word to the word class its suffix creates.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "quickly",
+        "right": "adverb"
+      },
+      {
+        "id": "p2",
+        "left": "kindness",
+        "right": "noun"
+      },
+      {
+        "id": "p3",
+        "left": "excitement",
+        "right": "noun"
+      },
+      {
+        "id": "p4",
+        "left": "generosity",
+        "right": "noun"
+      }
+    ],
+    "explanation": "'-ly' forms adverbs; '-ness', '-ment' and '-ity' all form nouns from adjectives or verbs."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which word is spelled correctly, using the correct suffix for its sound?",
+    "options": [
+      {
+        "id": "a",
+        "text": "financial"
+      },
+      {
+        "id": "b",
+        "text": "financal"
+      },
+      {
+        "id": "c",
+        "text": "finantial"
+      },
+      {
+        "id": "d",
+        "text": "financious"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'-cial' is used after 'financ-' since it follows a soft 'sh' sound spelled with 'ci', as in 'financial'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The scarf complements her outfit perfectly."
+      },
+      {
+        "id": "b",
+        "text": "The scarf compliments her outfit perfectly."
+      },
+      {
+        "id": "c",
+        "text": "The scarf complement her outfit perfectly."
+      },
+      {
+        "id": "d",
+        "text": "The scarf compliment her outfit perfectly."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Complements' (with an e) means 'completes or enhances'; 'compliments' (with an i) means 'praises'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-HOM-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Complete with the correct homophone: 'Thank you for the lovely ___ about my speech.' (an expression of praise)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "compliment",
+          "compliments"
+        ]
+      }
+    ],
+    "explanation": "'Compliment' (with an i) means an expression of praise."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The stationary shop sells beautiful notebooks."
+      },
+      {
+        "id": "b",
+        "text": "The stationery shop sells beautiful notebooks."
+      },
+      {
+        "id": "c",
+        "text": "The stationary shop sell's beautiful notebooks."
+      },
+      {
+        "id": "d",
+        "text": "The stationery shop sells beautiful notebook's."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Stationery' (with an e) refers to writing materials; 'stationary' (with an a) means not moving."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-HOM-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Complete with the correct homophone: 'The car remained completely ___ throughout the traffic jam.' (not moving)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "stationary"
+        ]
+      }
+    ],
+    "explanation": "'Stationary' (with an a) means not moving."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence is correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It is important to insure your essay answers the question."
+      },
+      {
+        "id": "b",
+        "text": "It is important to ensure your essay answers the question."
+      },
+      {
+        "id": "c",
+        "text": "It is important to ensure's your essay answers the question."
+      },
+      {
+        "id": "d",
+        "text": "It is important to insured your essay answers the question."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Ensure' means to make certain; 'insure' relates to insurance policies."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-HOM-1",
+    "type": "fill_in_box",
+    "difficulty": "challenge",
+    "promptText": "Complete with the correct word: 'The company will ___ the building against fire damage.' (arrange financial protection)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "insure"
+        ]
+      }
+    ],
+    "explanation": "'Insure' relates to arranging insurance cover, unlike 'ensure' (make certain)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence correctly distinguishes 'affect' and 'effect'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The medicine had a positive effect on her health."
+      },
+      {
+        "id": "b",
+        "text": "The medicine had a positive affect on her health."
+      },
+      {
+        "id": "c",
+        "text": "The medicine will affects her recovery."
+      },
+      {
+        "id": "d",
+        "text": "The medicine had a positive effected on her health."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Effect' is normally a noun meaning a result; 'affect' is normally a verb meaning to influence something."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence is a SIMPLE sentence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The rain fell steadily."
+      },
+      {
+        "id": "b",
+        "text": "The rain fell steadily, and the streets flooded."
+      },
+      {
+        "id": "c",
+        "text": "Because the rain fell steadily, the streets flooded."
+      },
+      {
+        "id": "d",
+        "text": "The rain fell steadily; the streets flooded."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A simple sentence contains only one independent clause and no conjunction."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence is a COMPOUND sentence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She ran quickly."
+      },
+      {
+        "id": "b",
+        "text": "She ran quickly, but she still missed the bus."
+      },
+      {
+        "id": "c",
+        "text": "Although she ran quickly, she missed the bus."
+      },
+      {
+        "id": "d",
+        "text": "Running quickly, she missed the bus."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A compound sentence joins two independent clauses with a coordinating conjunction such as 'but'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence is a COMPLEX sentence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The dog barked loudly."
+      },
+      {
+        "id": "b",
+        "text": "The dog barked loudly, and the cat ran away."
+      },
+      {
+        "id": "c",
+        "text": "When the doorbell rang, the dog barked loudly."
+      },
+      {
+        "id": "d",
+        "text": "The dog barked; the cat ran away."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A complex sentence contains a main clause and at least one subordinate clause, here introduced by 'when'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Identify the sentence type: 'Because the bridge was closed, we took a longer route home.'",
+    "acceptedAnswers": [
+      "complex",
+      "complex sentence"
+    ],
+    "explanation": "This sentence has a subordinate clause ('Because the bridge was closed') and a main clause, making it complex."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite these two simple sentences as one compound sentence: 'The wind howled. The trees swayed violently.'",
+    "acceptedAnswers": [
+      "the wind howled and the trees swayed violently",
+      "the wind howled, and the trees swayed violently"
+    ],
+    "explanation": "Joining two independent clauses with 'and' creates a compound sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence combines simple, compound and complex structures for the greatest variety of effect?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The storm raged. It was loud. Trees fell."
+      },
+      {
+        "id": "b",
+        "text": "The storm raged and it was loud and trees fell."
+      },
+      {
+        "id": "c",
+        "text": "The storm raged. Because it was so loud, trees fell, and the town flooded."
+      },
+      {
+        "id": "d",
+        "text": "The storm raged and raged and raged."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Option c mixes a simple sentence with a complex sentence and a compound clause, creating varied rhythm and effect."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence is written in a FORMAL register?",
+    "options": [
+      {
+        "id": "a",
+        "text": "We reckon the plan's gonna work."
+      },
+      {
+        "id": "b",
+        "text": "We believe the plan will be successful."
+      },
+      {
+        "id": "c",
+        "text": "I think the plan's gonna be fine."
+      },
+      {
+        "id": "d",
+        "text": "The plan's well good, innit."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Formal writing avoids contractions and colloquial phrases, using precise vocabulary instead."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence uses formal vocabulary appropriate for an official letter?",
+    "options": [
+      {
+        "id": "a",
+        "text": "I want to ask you to sort this out ASAP."
+      },
+      {
+        "id": "b",
+        "text": "I would be grateful if you could resolve this matter promptly."
+      },
+      {
+        "id": "c",
+        "text": "Can you fix this quick, please?"
+      },
+      {
+        "id": "d",
+        "text": "Sort it, cheers."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Formal letters use polite, indirect requests and elevated vocabulary rather than casual phrasing."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite this sentence in a more formal register: 'The boss wants everyone to turn up on time.'",
+    "acceptedAnswers": [
+      "the manager requests that everyone arrive on time",
+      "the manager requires that all staff arrive punctually"
+    ],
+    "explanation": "Formal register replaces informal words ('boss', 'turn up') with more precise, elevated vocabulary."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-2",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence correctly uses formal structure, including the subjunctive?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The committee insists that he attends the hearing."
+      },
+      {
+        "id": "b",
+        "text": "The committee insists that he attend the hearing."
+      },
+      {
+        "id": "c",
+        "text": "The committee insists that he attending the hearing."
+      },
+      {
+        "id": "d",
+        "text": "The committee insists he will attend the hearing, maybe."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "After verbs like 'insist' expressing a formal demand, the subjunctive uses the base form of the verb ('attend'), not 'attends'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-2",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Rewrite formally, using a subjunctive structure: 'The doctor said, \"You should rest.\"'",
+    "acceptedAnswers": [
+      "the doctor recommended that she rest",
+      "the doctor recommended that he rest",
+      "the doctor suggested that the patient rest"
+    ],
+    "explanation": "Verbs like 'recommend' and 'suggest' trigger the subjunctive, which uses the base form of the verb ('rest') regardless of subject."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "sentence-structure",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SEN-2",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence is most appropriate for a formal report?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Loads of pupils didn't turn up to the trip."
+      },
+      {
+        "id": "b",
+        "text": "A significant number of pupils were absent from the trip."
+      },
+      {
+        "id": "c",
+        "text": "Tons of kids skipped the trip."
+      },
+      {
+        "id": "d",
+        "text": "Most of the pupils didn't bother coming."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Formal reports use precise, neutral vocabulary rather than informal exaggerations like 'loads' or 'tons'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence uses the present perfect correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "I have visited Paris three times."
+      },
+      {
+        "id": "b",
+        "text": "I have visit Paris three times."
+      },
+      {
+        "id": "c",
+        "text": "I has visited Paris three times."
+      },
+      {
+        "id": "d",
+        "text": "I having visited Paris three times."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The present perfect is formed with 'have/has' + past participle: 'have visited'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence uses the past progressive correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She was reading when the phone rang."
+      },
+      {
+        "id": "b",
+        "text": "She reading when the phone rang."
+      },
+      {
+        "id": "c",
+        "text": "She were reading when the phone rang."
+      },
+      {
+        "id": "d",
+        "text": "She reads when the phone rang."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The past progressive is formed with 'was/were' + the '-ing' form: 'was reading'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-TEN-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Complete with the correct past perfect form: 'By the time we arrived, the film ___ already ___.' (begin)",
+    "blanks": [
+      {
+        "id": "aux",
+        "acceptedAnswers": [
+          "had"
+        ]
+      },
+      {
+        "id": "verb",
+        "acceptedAnswers": [
+          "begun",
+          "started"
+        ]
+      }
+    ],
+    "explanation": "The past perfect ('had begun') shows an action completed before another past action."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence shows INCONSISTENT tense use?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She opened the door and saw the garden."
+      },
+      {
+        "id": "b",
+        "text": "She opened the door and sees the garden."
+      },
+      {
+        "id": "c",
+        "text": "She opened the door and looked around."
+      },
+      {
+        "id": "d",
+        "text": "She had opened the door before she saw the garden."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Switching from the past tense 'opened' to the present tense 'sees' creates an inconsistent tense shift."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-TEN-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Complete using the present perfect progressive: 'I ___ ___ for two hours.' (study)",
+    "blanks": [
+      {
+        "id": "aux",
+        "acceptedAnswers": [
+          "have been"
+        ]
+      },
+      {
+        "id": "verb",
+        "acceptedAnswers": [
+          "studying"
+        ]
+      }
+    ],
+    "explanation": "The present perfect progressive ('have been studying') shows an action that started in the past and continues now."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence correctly maintains consistent tense throughout?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By next year, she will have finished her training and starts her new job."
+      },
+      {
+        "id": "b",
+        "text": "By next year, she will have finished her training and will start her new job."
+      },
+      {
+        "id": "c",
+        "text": "By next year, she finished her training and will start her new job."
+      },
+      {
+        "id": "d",
+        "text": "By next year, she will finish her training and started her new job."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Both verbs correctly use future forms ('will have finished', 'will start') to describe events relative to next year."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-TEN-1",
+    "type": "fill_in_box",
+    "difficulty": "challenge",
+    "promptText": "Complete with the correct perfect form: 'She ___ ___ the report before the meeting even started.' (finish)",
+    "blanks": [
+      {
+        "id": "aux",
+        "acceptedAnswers": [
+          "had"
+        ]
+      },
+      {
+        "id": "verb",
+        "acceptedAnswers": [
+          "finished"
+        ]
+      }
+    ],
+    "explanation": "The past perfect ('had finished') shows the action was completed before another past event (the meeting starting)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COM-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Insert the missing comma to mark the clause boundary: 'Although it was raining heavily___ the match continued.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          ","
+        ]
+      }
+    ],
+    "explanation": "A comma marks the boundary after the subordinate clause 'Although it was raining heavily'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence means that ALL the pupils had finished their work, and all of them went outside?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The pupils who had finished their work went outside."
+      },
+      {
+        "id": "b",
+        "text": "The pupils, who had finished their work, went outside."
+      },
+      {
+        "id": "c",
+        "text": "The pupils who, had finished their work, went outside."
+      },
+      {
+        "id": "d",
+        "text": "The pupils who had, finished their work went, outside."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Commas around 'who had finished their work' show it is extra (non-restrictive) information describing all the pupils, not singling out a group."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COM-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Insert the missing commas: 'The scientist___ who had studied the virus for years___ finally found a cure.'",
+    "blanks": [
+      {
+        "id": "b1",
+        "acceptedAnswers": [
+          ","
+        ]
+      },
+      {
+        "id": "b2",
+        "acceptedAnswers": [
+          ","
+        ]
+      }
+    ],
+    "explanation": "A pair of commas marks the non-restrictive clause 'who had studied the virus for years'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence uses a comma correctly to avoid ambiguity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "While we were eating, the dog barked."
+      },
+      {
+        "id": "b",
+        "text": "While we were eating the dog, barked."
+      },
+      {
+        "id": "c",
+        "text": "While, we were eating the dog barked."
+      },
+      {
+        "id": "d",
+        "text": "While we were eating the dog barked."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The comma after 'eating' clarifies that the dog was barking, not being eaten."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COM-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Insert the missing comma: 'Because the bridge was under repair___ traffic was diverted through the village.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          ","
+        ]
+      }
+    ],
+    "explanation": "A comma marks the boundary between the subordinate clause and the main clause."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence is punctuated to show that only SOME of the runners (those who trained hard) qualified, not all of them?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The runners, who had trained hard, qualified for the final."
+      },
+      {
+        "id": "b",
+        "text": "The runners who had trained hard qualified for the final."
+      },
+      {
+        "id": "c",
+        "text": "The runners who, had trained hard qualified, for the final."
+      },
+      {
+        "id": "d",
+        "text": "The runners who had trained hard, qualified for the final."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Without commas, 'who had trained hard' is a restrictive clause that identifies which runners qualified — only those who trained hard."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COM-1",
+    "type": "fill_in_box",
+    "difficulty": "challenge",
+    "promptText": "Insert commas to correctly mark the non-essential clause and avoid ambiguity: 'My cousin___ who lives in Cardiff___ is coming to stay.'",
+    "blanks": [
+      {
+        "id": "b1",
+        "acceptedAnswers": [
+          ","
+        ]
+      },
+      {
+        "id": "b2",
+        "acceptedAnswers": [
+          ","
+        ]
+      }
+    ],
+    "explanation": "Commas around 'who lives in Cardiff' show this is additional information about my only cousin, not identifying which cousin."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-BRA-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Insert a single dash to mark the boundary between the two independent clauses: 'The rain finally stopped___ the sun broke through the clouds.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "—",
+          "-",
+          "--"
+        ]
+      }
+    ],
+    "explanation": "A single dash can join two independent clauses, similar to a semicolon, creating a dramatic pause."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence correctly uses a single dash to mark the boundary between two independent clauses?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She trained for years — she finally won the gold medal."
+      },
+      {
+        "id": "b",
+        "text": "She trained — for years she finally won the gold medal."
+      },
+      {
+        "id": "c",
+        "text": "She — trained for years finally won the gold medal."
+      },
+      {
+        "id": "d",
+        "text": "She trained for years, she finally — won the gold medal."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The dash separates two complete independent clauses that could each stand alone as a sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-BRA-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Insert a single dash: 'The lights flickered once___ then the power failed completely.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "—",
+          "-",
+          "--"
+        ]
+      }
+    ],
+    "explanation": "The dash marks the boundary between two independent clauses, adding dramatic emphasis."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence uses the dash correctly to join two independent clauses, unlike a comma splice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The plan was risky, it succeeded anyway."
+      },
+      {
+        "id": "b",
+        "text": "The plan was risky — it succeeded anyway."
+      },
+      {
+        "id": "c",
+        "text": "The plan was risky it succeeded, anyway."
+      },
+      {
+        "id": "d",
+        "text": "The plan, was risky — it succeeded anyway."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A single dash, like a semicolon, can correctly join two independent clauses; a comma alone would create a comma splice, as in option a."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-BRA-1",
+    "type": "fill_in_box",
+    "difficulty": "challenge",
+    "promptText": "Insert a single dash to correctly join these independent clauses: 'Nobody expected the underdogs to win___ they triumphed in the final minute.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "—",
+          "-",
+          "--"
+        ]
+      }
+    ],
+    "explanation": "The dash joins the two independent clauses with dramatic effect, avoiding a comma splice."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence uses a dash correctly rather than a comma splice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The exam was difficult, everyone struggled with it."
+      },
+      {
+        "id": "b",
+        "text": "The exam was difficult — everyone struggled with it."
+      },
+      {
+        "id": "c",
+        "text": "The exam, was difficult everyone struggled with it."
+      },
+      {
+        "id": "d",
+        "text": "The exam was difficult everyone, struggled with it."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A comma alone cannot join two independent clauses (a comma splice, as in option a); a dash can."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COH-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite the second sentence using ellipsis to avoid repetition: 'Sam wanted to play football. Jess wanted to play football too.'",
+    "acceptedAnswers": [
+      "jess did too",
+      "so did jess",
+      "jess wanted to as well"
+    ],
+    "explanation": "Ellipsis omits the repeated words ('play football'), relying on the reader to infer them from context."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COH-1",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "Read: 'The volunteers cleared the beach of litter. This effort inspired other communities to do the same.'",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "Which phrase in the second sentence is a grammatical connection referring back to the first sentence? (copy it exactly)",
+        "acceptedAnswers": [
+          "this effort"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What does 'this effort' refer back to?",
+        "acceptedAnswers": [
+          "clearing the beach of litter",
+          "the volunteers clearing the beach of litter",
+          "clearing the beach"
+        ]
+      }
+    ],
+    "explanation": "'This effort' is a grammatical connection referring back to the beach-clearing action described in the first sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COH-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Write a follow-up sentence that links back using deliberate repetition of a key word or phrase: 'The old library held thousands of forgotten books.'",
+    "acceptedAnswers": [
+      "those forgotten books had not been opened in decades",
+      "the forgotten books were finally rediscovered by a curious student"
+    ],
+    "explanation": "Repeating the phrase 'forgotten books' creates cohesion by explicitly linking the two sentences."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COH-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "Read: 'The council reduced the bus service. As a result, fewer people could travel to work easily.'",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "Which phrase shows a grammatical (cause-and-effect) connection between the sentences? (copy it exactly)",
+        "acceptedAnswers": [
+          "as a result"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What device is this: repetition, ellipsis or a grammatical connective?",
+        "acceptedAnswers": [
+          "grammatical connective",
+          "connective",
+          "grammatical connection"
+        ]
+      }
+    ],
+    "explanation": "'As a result' is a cohesive connective showing the cause-and-effect relationship between the two ideas."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COH-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Rewrite the second sentence using ellipsis to avoid repetition: 'Maya had finished her project. Leo had finished his project as well.'",
+    "acceptedAnswers": [
+      "leo had too",
+      "so had leo",
+      "leo had as well"
+    ],
+    "explanation": "Ellipsis omits 'finished his project', which is understood from the first sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COH-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "Read: 'The bridge had stood for two hundred years. This ancient structure had survived floods, wars and storms.'",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "Which phrase is a grammatical connection referring back to 'the bridge'? (copy it exactly)",
+        "acceptedAnswers": [
+          "this ancient structure"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Name one other cohesive device (besides grammatical connection) that could also link ideas across paragraphs.",
+        "acceptedAnswers": [
+          "repetition",
+          "ellipsis"
+        ]
+      }
+    ],
+    "explanation": "'This ancient structure' refers back to the bridge; repetition of key words and ellipsis are other devices used to link ideas across paragraphs."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "active-passive-voice",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ACT-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence is written in the PASSIVE voice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The chef cooked the meal."
+      },
+      {
+        "id": "b",
+        "text": "The meal was cooked by the chef."
+      },
+      {
+        "id": "c",
+        "text": "The chef is cooking the meal."
+      },
+      {
+        "id": "d",
+        "text": "The chef will cook the meal."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "In the passive voice, the subject (the meal) receives the action, and 'was cooked' uses 'to be' + past participle."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "active-passive-voice",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ACT-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence is written in the ACTIVE voice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The window was broken by the storm."
+      },
+      {
+        "id": "b",
+        "text": "The storm broke the window."
+      },
+      {
+        "id": "c",
+        "text": "The window had been broken."
+      },
+      {
+        "id": "d",
+        "text": "The window was being broken."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "In the active voice, the subject (the storm) performs the action directly."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "active-passive-voice",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ACT-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Rewrite in the passive voice: 'The gardener planted the roses.' → 'The roses ___ ___ by the gardener.'",
+    "blanks": [
+      {
+        "id": "aux",
+        "acceptedAnswers": [
+          "were"
+        ]
+      },
+      {
+        "id": "verb",
+        "acceptedAnswers": [
+          "planted"
+        ]
+      }
+    ],
+    "explanation": "The passive form uses 'were' (to be) + the past participle 'planted'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "active-passive-voice",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ACT-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite this sentence in the passive voice: 'The council will repair the road next month.'",
+    "acceptedAnswers": [
+      "the road will be repaired by the council next month",
+      "the road will be repaired next month"
+    ],
+    "explanation": "The passive voice moves the object ('the road') to the subject position, using 'will be' + past participle."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "active-passive-voice",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ACT-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Why might a scientist choose to write 'The solution was heated to 80°C' rather than 'I heated the solution to 80°C'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To make the writing more exciting."
+      },
+      {
+        "id": "b",
+        "text": "To focus on the process/result rather than who performed the action, which suits formal scientific writing."
+      },
+      {
+        "id": "c",
+        "text": "Because passive sentences are always shorter."
+      },
+      {
+        "id": "d",
+        "text": "Because active sentences are grammatically incorrect in science."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Passive voice is often used in formal/scientific writing to emphasise the process or result rather than the person performing the action."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "active-passive-voice",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ACT-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Rewrite in the passive voice: 'Vandals damaged the statue overnight.' → 'The statue ___ ___ by vandals overnight.'",
+    "blanks": [
+      {
+        "id": "aux",
+        "acceptedAnswers": [
+          "was"
+        ]
+      },
+      {
+        "id": "verb",
+        "acceptedAnswers": [
+          "damaged"
+        ]
+      }
+    ],
+    "explanation": "The passive form uses 'was' + the past participle 'damaged', placing the statue as the subject."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "active-passive-voice",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ACT-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite this passive sentence in the active voice: 'The trophy was presented to the winner by the mayor.'",
+    "acceptedAnswers": [
+      "the mayor presented the trophy to the winner"
+    ],
+    "explanation": "In the active voice, the mayor (the doer of the action) becomes the subject of the sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "active-passive-voice",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ACT-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence uses the passive voice to deliberately avoid stating who is responsible?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The manager made a serious mistake."
+      },
+      {
+        "id": "b",
+        "text": "A serious mistake was made."
+      },
+      {
+        "id": "c",
+        "text": "The manager will fix the mistake tomorrow."
+      },
+      {
+        "id": "d",
+        "text": "Someone made a serious mistake."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The passive construction 'a serious mistake was made' omits the agent, which can be used to avoid assigning blame."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "active-passive-voice",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ACT-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain why a newspaper headline might use the passive voice: 'Local park vandalised overnight.'",
+    "acceptedAnswers": [
+      "to focus attention on the event/park rather than on who did it, especially when the culprit is unknown",
+      "because the person responsible is unknown or unimportant, so the focus stays on what happened"
+    ],
+    "explanation": "The passive voice foregrounds the event itself when the agent is unknown or less important than the outcome."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "active-passive-voice",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ACT-1",
+    "type": "fill_in_box",
+    "difficulty": "challenge",
+    "promptText": "Rewrite in the passive voice, keeping the same tense: 'Engineers are testing the new bridge this week.' → 'The new bridge ___ ___ ___ by engineers this week.'",
+    "blanks": [
+      {
+        "id": "aux1",
+        "acceptedAnswers": [
+          "is"
+        ]
+      },
+      {
+        "id": "aux2",
+        "acceptedAnswers": [
+          "being"
+        ]
+      },
+      {
+        "id": "verb",
+        "acceptedAnswers": [
+          "tested"
+        ]
+      }
+    ],
+    "explanation": "The present progressive passive uses 'is being' + the past participle 'tested'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "subjunctive-form",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUBJ-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence correctly uses the subjunctive form?",
+    "options": [
+      {
+        "id": "a",
+        "text": "If I was rich, I would travel the world."
+      },
+      {
+        "id": "b",
+        "text": "If I were rich, I would travel the world."
+      },
+      {
+        "id": "c",
+        "text": "If I am rich, I would travel the world."
+      },
+      {
+        "id": "d",
+        "text": "If I will be rich, I would travel the world."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The subjunctive uses 'were' (not 'was') for hypothetical situations, even with the singular subject 'I'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "subjunctive-form",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUBJ-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence correctly uses the subjunctive after a formal request?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The teacher requested that he hands in his book."
+      },
+      {
+        "id": "b",
+        "text": "The teacher requested that he hand in his book."
+      },
+      {
+        "id": "c",
+        "text": "The teacher requested that he handed in his book."
+      },
+      {
+        "id": "d",
+        "text": "The teacher requested that he is handing in his book."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "After verbs of formal request/demand (e.g. 'requested that'), the subjunctive uses the base form of the verb ('hand'), not 'hands'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "subjunctive-form",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUBJ-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite using the subjunctive: 'If I am you, I would apologise.'",
+    "acceptedAnswers": [
+      "if i were you, i would apologise"
+    ],
+    "explanation": "The subjunctive 'were' is used for hypothetical situations contrary to fact, regardless of subject."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "subjunctive-form",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUBJ-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence correctly uses the subjunctive?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It is essential that every pupil brings a coat."
+      },
+      {
+        "id": "b",
+        "text": "It is essential that every pupil bring a coat."
+      },
+      {
+        "id": "c",
+        "text": "It is essential that every pupil brought a coat."
+      },
+      {
+        "id": "d",
+        "text": "It is essential that every pupil is bringing a coat."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "After expressions like 'it is essential that', the subjunctive uses the base form of the verb ('bring')."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "subjunctive-form",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUBJ-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Rewrite formally using the subjunctive: 'The headteacher insisted, \"Every student must arrive on time.\"'",
+    "acceptedAnswers": [
+      "the headteacher insisted that every student arrive on time"
+    ],
+    "explanation": "'Insisted that' triggers the subjunctive, which uses the base form 'arrive' rather than 'arrives'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "subjunctive-form",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUBJ-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence uses the subjunctive correctly to express a wish about an unreal situation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "I wish I was taller."
+      },
+      {
+        "id": "b",
+        "text": "I wish I were taller."
+      },
+      {
+        "id": "c",
+        "text": "I wish I am taller."
+      },
+      {
+        "id": "d",
+        "text": "I wish I will be taller."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "After 'I wish', the subjunctive 'were' is used to express a hypothetical or unreal wish."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "Insert the missing colon to introduce the list: 'We packed three things___ a tent, a torch and a map.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          ":"
+        ]
+      }
+    ],
+    "explanation": "A colon introduces the list that follows."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which sentence correctly uses a colon to introduce a list?",
+    "options": [
+      {
+        "id": "a",
+        "text": "I need: eggs, milk and flour."
+      },
+      {
+        "id": "b",
+        "text": "I need the following: eggs, milk and flour."
+      },
+      {
+        "id": "c",
+        "text": "I need eggs: milk and flour."
+      },
+      {
+        "id": "d",
+        "text": "I need eggs, milk, and: flour."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A colon follows a complete independent clause ('I need the following') before introducing the list; option a's clause is incomplete."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Insert the missing semicolons to separate items in this list, which already contain commas: 'The team visited Paris, France___ Rome, Italy___ and Berlin, Germany.'",
+    "blanks": [
+      {
+        "id": "b1",
+        "acceptedAnswers": [
+          ";"
+        ]
+      },
+      {
+        "id": "b2",
+        "acceptedAnswers": [
+          ";"
+        ]
+      }
+    ],
+    "explanation": "Semicolons separate list items that themselves contain commas, preventing confusion."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence correctly uses semicolons within a list?",
+    "options": [
+      {
+        "id": "a",
+        "text": "For the trip, bring a coat, warm and waterproof, boots, sturdy, and a hat."
+      },
+      {
+        "id": "b",
+        "text": "For the trip, bring a coat, warm and waterproof; boots, sturdy; and a hat."
+      },
+      {
+        "id": "c",
+        "text": "For the trip; bring a coat, warm and waterproof; boots, sturdy; and a hat."
+      },
+      {
+        "id": "d",
+        "text": "For the trip, bring: a coat; warm and waterproof, boots; sturdy, and a hat."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Semicolons separate the complex list items ('a coat, warm and waterproof') that already contain commas."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Insert the colon and semicolons correctly: 'The recipe needed three ingredients___ ripe tomatoes, chopped finely___ fresh basil, torn___ and olive oil, warmed gently.'",
+    "blanks": [
+      {
+        "id": "b1",
+        "acceptedAnswers": [
+          ":"
+        ]
+      },
+      {
+        "id": "b2",
+        "acceptedAnswers": [
+          ";"
+        ]
+      },
+      {
+        "id": "b3",
+        "acceptedAnswers": [
+          ";"
+        ]
+      }
+    ],
+    "explanation": "A colon introduces the list; semicolons separate items that already contain commas."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence correctly combines a colon and semicolons for a complex list?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The judges awarded three prizes: first place, a trophy; second place, a medal; and third place, a certificate."
+      },
+      {
+        "id": "b",
+        "text": "The judges awarded three prizes, first place, a trophy, second place, a medal, and third place, a certificate."
+      },
+      {
+        "id": "c",
+        "text": "The judges awarded three prizes; first place: a trophy; second place: a medal; and third place: a certificate."
+      },
+      {
+        "id": "d",
+        "text": "The judges awarded three prizes: first place; a trophy, second place; a medal, and third place; a certificate."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The colon introduces the list, and semicolons separate the three complex items, each of which contains a comma."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-2",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Insert a semicolon to join these independent clauses: 'The sky darkened___ a storm was coming.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          ";"
+        ]
+      }
+    ],
+    "explanation": "A semicolon joins two closely related independent clauses without a conjunction."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence correctly uses a semicolon?",
+    "options": [
+      {
+        "id": "a",
+        "text": "I finished my homework; then I watched television."
+      },
+      {
+        "id": "b",
+        "text": "I finished my homework; and then I watched television."
+      },
+      {
+        "id": "c",
+        "text": "I finished my homework, then; I watched television."
+      },
+      {
+        "id": "d",
+        "text": "I finished; my homework then I watched television."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A semicolon joins two independent clauses without needing a coordinating conjunction like 'and'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-2",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Insert a semicolon: 'Some pupils prefer maths___ others prefer art.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          ";"
+        ]
+      }
+    ],
+    "explanation": "A semicolon links these two contrasting but closely related independent clauses."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-2",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence correctly uses a semicolon rather than creating a comma splice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The negotiations failed, both sides refused to compromise."
+      },
+      {
+        "id": "b",
+        "text": "The negotiations failed; both sides refused to compromise."
+      },
+      {
+        "id": "c",
+        "text": "The negotiations, failed both sides refused to compromise."
+      },
+      {
+        "id": "d",
+        "text": "The negotiations failed both sides; refused to compromise."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A semicolon correctly joins the two independent clauses; a comma alone (option a) would create a comma splice."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-2",
+    "type": "fill_in_box",
+    "difficulty": "challenge",
+    "promptText": "Insert a semicolon to correctly join these independent clauses: 'The evidence was overwhelming___ the jury reached its verdict within an hour.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          ";"
+        ]
+      }
+    ],
+    "explanation": "A semicolon joins the two closely related independent clauses without a conjunction."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-2",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence uses a semicolon correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She loves reading novels; especially mysteries."
+      },
+      {
+        "id": "b",
+        "text": "She loves reading novels; she rarely watches television."
+      },
+      {
+        "id": "c",
+        "text": "She loves reading; novels especially mysteries."
+      },
+      {
+        "id": "d",
+        "text": "She loves; reading novels especially mysteries."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Both parts joined by the semicolon are independent clauses that could stand alone as sentences; option a's second part is not a full clause."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-3",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which phrase means a shark that eats humans?",
+    "options": [
+      {
+        "id": "a",
+        "text": "man eating shark"
+      },
+      {
+        "id": "b",
+        "text": "man-eating shark"
+      },
+      {
+        "id": "c",
+        "text": "man, eating shark"
+      },
+      {
+        "id": "d",
+        "text": "man eating-shark"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The hyphen links 'man' and 'eating' to form a single compound adjective describing the shark's diet."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-3",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which phrase clearly means 'approximately twenty children'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "twenty odd children"
+      },
+      {
+        "id": "b",
+        "text": "twenty-odd children"
+      },
+      {
+        "id": "c",
+        "text": "twenty, odd children"
+      },
+      {
+        "id": "d",
+        "text": "twenty odd, children"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The hyphen in 'twenty-odd' shows it means 'approximately twenty', avoiding confusion with 'twenty odd (strange) children'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-3",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Explain the difference in meaning between 'a hot water bottle' and 'a hot-water bottle'.",
+    "acceptedAnswers": [
+      "a hot-water bottle is a bottle for holding hot water, while a hot water bottle could mean a water bottle that is hot",
+      "hot-water bottle means a bottle designed to hold hot water; without the hyphen it could mean the bottle itself is hot"
+    ],
+    "explanation": "The hyphen links 'hot' and 'water' as a single modifier describing the type of bottle, avoiding ambiguity."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which phrase correctly uses a hyphen to mean 'a shop that sells second-hand books' rather than 'a bookshop that is second hand'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "a second hand bookshop"
+      },
+      {
+        "id": "b",
+        "text": "a second-hand bookshop"
+      },
+      {
+        "id": "c",
+        "text": "a second, hand bookshop"
+      },
+      {
+        "id": "d",
+        "text": "a second hand-bookshop"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Second-hand' is hyphenated to show it modifies 'bookshop' as a single compound adjective meaning 'previously owned'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-3",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Explain how a hyphen changes the meaning between 're-form' and 'reform'.",
+    "acceptedAnswers": [
+      "re-form means to form again, while reform means to improve or change a system",
+      "re-form means to form something again; reform means to make improvements to something"
+    ],
+    "explanation": "The hyphen distinguishes 're-form' (to form again) from 'reform' (to improve or change)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "semicolons-colons-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PUNC-3",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Explain the ambiguity in the phrase 'a man eating shark' and show how a hyphen fixes it.",
+    "acceptedAnswers": [
+      "without a hyphen it could mean a shark that is eating a man; man-eating shark with a hyphen means a shark that eats people",
+      "man eating shark is ambiguous because it could describe a man eating shark meat; the hyphen in man-eating shark shows the shark eats humans"
+    ],
+    "explanation": "Without the hyphen, 'man eating shark' could describe a man who is eating shark meat; the hyphen fixes 'man-eating' as a single adjective describing the shark's diet."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "synonyms-antonyms",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SYN-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which word is a synonym for 'happy'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "joyful"
+      },
+      {
+        "id": "b",
+        "text": "furious"
+      },
+      {
+        "id": "c",
+        "text": "exhausted"
+      },
+      {
+        "id": "d",
+        "text": "anxious"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Joyful' means the same as 'happy'; the others describe different emotions."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "synonyms-antonyms",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SYN-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which word is an antonym for 'generous'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "kind"
+      },
+      {
+        "id": "b",
+        "text": "selfish"
+      },
+      {
+        "id": "c",
+        "text": "wealthy"
+      },
+      {
+        "id": "d",
+        "text": "cheerful"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Selfish' means the opposite of 'generous'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "synonyms-antonyms",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SYN-1",
+    "type": "matching",
+    "difficulty": "silver",
+    "promptText": "Match each word to its synonym.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "enormous",
+        "right": "huge"
+      },
+      {
+        "id": "p2",
+        "left": "tiny",
+        "right": "minuscule"
+      },
+      {
+        "id": "p3",
+        "left": "furious",
+        "right": "enraged"
+      },
+      {
+        "id": "p4",
+        "left": "exhausted",
+        "right": "weary"
+      }
+    ],
+    "explanation": "Each pair shares a very similar meaning, useful for avoiding repetition in writing."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "synonyms-antonyms",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SYN-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which word could best replace 'said' to show the character spoke quietly and nervously?",
+    "options": [
+      {
+        "id": "a",
+        "text": "shouted"
+      },
+      {
+        "id": "b",
+        "text": "whispered"
+      },
+      {
+        "id": "c",
+        "text": "declared"
+      },
+      {
+        "id": "d",
+        "text": "bellowed"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Whispered' precisely conveys speaking quietly, unlike the louder alternatives."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "synonyms-antonyms",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SYN-1",
+    "type": "matching",
+    "difficulty": "gold",
+    "promptText": "Match each overused word to a more powerful, precise synonym.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "nice",
+        "right": "delightful"
+      },
+      {
+        "id": "p2",
+        "left": "big",
+        "right": "colossal"
+      },
+      {
+        "id": "p3",
+        "left": "sad",
+        "right": "sorrowful"
+      },
+      {
+        "id": "p4",
+        "left": "walked",
+        "right": "strolled"
+      }
+    ],
+    "explanation": "Choosing precise synonyms instead of overused words like 'nice' or 'big' improves the quality of writing."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "synonyms-antonyms",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SYN-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence uses a well-chosen synonym to avoid repeating 'beautiful' twice?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The beautiful garden had beautiful flowers."
+      },
+      {
+        "id": "b",
+        "text": "The beautiful garden had stunning flowers."
+      },
+      {
+        "id": "c",
+        "text": "The garden beautiful had flowers beautiful."
+      },
+      {
+        "id": "d",
+        "text": "The beautiful, beautiful garden had flowers."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Replacing the second 'beautiful' with the synonym 'stunning' avoids repetition while keeping the meaning."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "layout-devices",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-LAY-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What is the main purpose of a heading in a non-fiction text?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To decorate the page."
+      },
+      {
+        "id": "b",
+        "text": "To tell the reader what that section is about."
+      },
+      {
+        "id": "c",
+        "text": "To replace the need for paragraphs."
+      },
+      {
+        "id": "d",
+        "text": "To end the text."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A heading signals the topic of the section that follows, helping readers navigate the text."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "layout-devices",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-LAY-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which list uses bullet points consistently?",
+    "options": [
+      {
+        "id": "a",
+        "text": "• Pack a coat. • Bring water. • don't forget snacks"
+      },
+      {
+        "id": "b",
+        "text": "• Pack a coat. • Bring water. • Don't forget snacks."
+      },
+      {
+        "id": "c",
+        "text": "- Pack a coat. • Bring water. * Don't forget snacks."
+      },
+      {
+        "id": "d",
+        "text": "Pack a coat. • Bring water • Don't forget snacks"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Consistent bullet points use the same symbol and consistent capitalisation/punctuation throughout the list."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "layout-devices",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-LAY-1",
+    "type": "short_answer",
+    "difficulty": "bronze",
+    "promptText": "Give one reason why a recipe uses bullet points to list ingredients rather than a full paragraph.",
+    "acceptedAnswers": [
+      "bullet points make each ingredient easy to see and read quickly, rather than searching through a paragraph",
+      "bullet points make the list clear and easy to scan compared to a continuous paragraph"
+    ],
+    "explanation": "Bullet points present list items clearly and concisely, making them faster to scan than a dense paragraph."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "layout-devices",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-LAY-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Explain why a non-fiction text about volcanoes might use sub-headings.",
+    "acceptedAnswers": [
+      "to break the information into smaller, organised sections so readers can find specific information quickly",
+      "sub-headings organise the text into clear sections, making it easier for readers to locate information"
+    ],
+    "explanation": "Sub-headings divide information into clear, organised sections, helping readers locate facts quickly."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "layout-devices",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-LAY-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which set of bullet points is grammatically consistent?",
+    "options": [
+      {
+        "id": "a",
+        "text": "• Buying the ingredients • Mix the batter • Bake for 20 minutes"
+      },
+      {
+        "id": "b",
+        "text": "• Buy the ingredients • Mix the batter • Bake for 20 minutes"
+      },
+      {
+        "id": "c",
+        "text": "• Buy the ingredients • Mixing the batter • Baked for 20 minutes"
+      },
+      {
+        "id": "d",
+        "text": "• You buy the ingredients • Mix the batter • You bake for 20 minutes"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Consistent bullet points use the same grammatical form (here, imperative verbs) throughout the list."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "layout-devices",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-LAY-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A pupil is writing an information text about the rainforest with sections on 'Climate', 'Animals' and 'Plants'. Explain how headings would help organise this text.",
+    "acceptedAnswers": [
+      "headings would let the reader quickly find the section they want, such as jumping straight to 'Animals'",
+      "headings would clearly separate each topic so readers can navigate the text and find information easily"
+    ],
+    "explanation": "Headings act as signposts, allowing readers to locate the specific section they need without reading the whole text."
   }
 ]

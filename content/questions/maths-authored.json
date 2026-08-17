@@ -1594,5 +1594,1720 @@
       "102 km"
     ],
     "explanation": "12 × 8.5 = 102 km."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "To draw an equilateral triangle, what should each interior angle measure?",
+    "options": [
+      {
+        "id": "a",
+        "text": "60°"
+      },
+      {
+        "id": "b",
+        "text": "90°"
+      },
+      {
+        "id": "c",
+        "text": "45°"
+      },
+      {
+        "id": "d",
+        "text": "120°"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "An equilateral triangle has three equal angles that sum to 180°, so each angle is 180 ÷ 3 = 60°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "You are drawing a parallelogram. One of its angles measures 70°. What size should the angle next to it, along the same side, measure?",
+    "acceptedAnswers": [
+      "110",
+      "110°"
+    ],
+    "explanation": "Angles between parallel lines on the same side (co-interior angles) sum to 180°. 180 - 70 = 110°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "You want to draw a regular hexagon. What should each interior angle measure?",
+    "options": [
+      {
+        "id": "a",
+        "text": "90°"
+      },
+      {
+        "id": "b",
+        "text": "108°"
+      },
+      {
+        "id": "c",
+        "text": "120°"
+      },
+      {
+        "id": "d",
+        "text": "135°"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A hexagon's interior angles sum to (6-2) × 180° = 720°. 720 ÷ 6 = 120° per angle."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "A triangular prism is unfolded into its net. How many rectangular faces does the net contain?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2"
+      },
+      {
+        "id": "b",
+        "text": "3"
+      },
+      {
+        "id": "c",
+        "text": "4"
+      },
+      {
+        "id": "d",
+        "text": "5"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A triangular prism has 2 triangular faces and 3 rectangular faces, so its net contains 3 rectangles."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-2",
+    "type": "matching",
+    "difficulty": "silver",
+    "promptText": "Match each 3-D shape to the faces its net is made from.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Cube",
+        "right": "6 squares"
+      },
+      {
+        "id": "p2",
+        "left": "Square-based pyramid",
+        "right": "1 square + 4 triangles"
+      },
+      {
+        "id": "p3",
+        "left": "Triangular prism",
+        "right": "2 triangles + 3 rectangles"
+      },
+      {
+        "id": "p4",
+        "left": "Cylinder",
+        "right": "2 circles + 1 rectangle"
+      }
+    ],
+    "explanation": "Nets show every face of a 3-D shape unfolded flat: a cube's net is 6 squares, a square-based pyramid's is 1 square and 4 triangles, a triangular prism's is 2 triangles and 3 rectangles, and a cylinder's is 2 circles and 1 curved rectangle."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A cuboid measuring 4 cm × 3 cm × 2 cm is unfolded into a net of 6 rectangles. How many of these rectangles measure 4 cm × 3 cm?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A cuboid's net has 3 pairs of matching rectangles (top/bottom, front/back, left/right). The 4 cm × 3 cm pair is the top and bottom, so there are 2."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-3",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "A triangle has angles of 55° and 65°. What is the size of the third angle?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "60",
+          "60°"
+        ]
+      }
+    ],
+    "explanation": "Angles in a triangle sum to 180°. 180 - 55 - 65 = 60°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-3",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "A quadrilateral has three angles measuring 80°, 95° and 110°.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the sum of these three angles?",
+        "acceptedAnswers": [
+          "285",
+          "285°"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the size of the fourth angle?",
+        "acceptedAnswers": [
+          "75",
+          "75°"
+        ]
+      }
+    ],
+    "explanation": "Angles in a quadrilateral sum to 360°. 80 + 95 + 110 = 285°, and 360 - 285 = 75°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-3",
+    "type": "fill_in_box",
+    "difficulty": "challenge",
+    "promptText": "A regular octagon (8 sides) is drawn. What is the size of each interior angle?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "135",
+          "135°"
+        ]
+      }
+    ],
+    "explanation": "Interior angles of a polygon sum to (n-2) × 180°. For an octagon: (8-2) × 180 = 1080°. 1080 ÷ 8 = 135° per angle."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-4",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "A circle has a radius of 5 cm. What is its diameter?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 cm"
+      },
+      {
+        "id": "b",
+        "text": "10 cm"
+      },
+      {
+        "id": "c",
+        "text": "15 cm"
+      },
+      {
+        "id": "d",
+        "text": "20 cm"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The diameter is always twice the radius. 5 × 2 = 10 cm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-4",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "The diameter of a circle is 24 cm. What is its radius, in cm?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "12",
+          "12cm",
+          "12 cm"
+        ]
+      }
+    ],
+    "explanation": "The radius is half the diameter. 24 ÷ 2 = 12 cm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-4",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which part of a circle passes through the centre and touches the circle at both ends?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Radius"
+      },
+      {
+        "id": "b",
+        "text": "Diameter"
+      },
+      {
+        "id": "c",
+        "text": "Circumference"
+      },
+      {
+        "id": "d",
+        "text": "Arc"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The diameter is the straight line through the centre from one side of the circle to the other."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-4",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "A circular running track has a diameter of 50 m. Using π ≈ 3.14 and circumference = π × diameter, what is the circumference, in metres, to the nearest metre?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "157",
+          "157m",
+          "157 m"
+        ]
+      }
+    ],
+    "explanation": "Circumference = π × diameter = 3.14 × 50 = 157 m."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-5",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Two angles are vertically opposite. One of them measures 72°. What is the size of the other angle?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "72",
+          "72°"
+        ]
+      }
+    ],
+    "explanation": "Vertically opposite angles, formed where two straight lines cross, are always equal."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-5",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Three angles meet at a point: 110°, 95° and an unknown angle x. What is the size of x?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "155",
+          "155°"
+        ]
+      }
+    ],
+    "explanation": "Angles around a point sum to 360°. 360 - 110 - 95 = 155°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-5",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "Two angles lie on a straight line. One angle is three times the size of the other.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "The two angles are in the ratio 1:3 and sum to 180°. What is the size of one 'part' (180 ÷ 4)?",
+        "acceptedAnswers": [
+          "45",
+          "45°"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the size of the larger angle (3 × the part)?",
+        "acceptedAnswers": [
+          "135",
+          "135°"
+        ]
+      }
+    ],
+    "explanation": "1 + 3 = 4 parts share 180°, so each part is 45°. The larger angle is 3 × 45 = 135°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-GEO-5",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "Four angles meet at a point. Two of them are vertically opposite and equal, each labelled a. The other two angles are 90° and 130°.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the sum of the two unknown angles a + a (360 - 90 - 130)?",
+        "acceptedAnswers": [
+          "140",
+          "140°"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the value of one angle a (140 ÷ 2)?",
+        "acceptedAnswers": [
+          "70",
+          "70°"
+        ]
+      }
+    ],
+    "explanation": "360 - 90 - 130 = 140° is shared equally between the two equal angles, so each a = 140 ÷ 2 = 70°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "Convert 2.375 km into metres.",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "2375",
+          "2375m",
+          "2375 m"
+        ]
+      }
+    ],
+    "explanation": "1 km = 1000 m, so 2.375 × 1000 = 2375 m."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-1",
+    "type": "short_answer",
+    "difficulty": "bronze",
+    "promptText": "A piece of ribbon is 1.250 m long. How many centimetres is that?",
+    "acceptedAnswers": [
+      "125",
+      "125cm",
+      "125 cm"
+    ],
+    "explanation": "1 m = 100 cm, so 1.250 × 100 = 125 cm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Convert 3,845 g into kilograms. Give your answer to three decimal places.",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "3.845",
+          "3.845kg",
+          "3.845 kg"
+        ]
+      }
+    ],
+    "explanation": "1000 g = 1 kg, so 3845 ÷ 1000 = 3.845 kg."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A recipe uses 0.085 kg of butter per batch. How many grams of butter are needed for 12 batches?",
+    "acceptedAnswers": [
+      "1020",
+      "1020g",
+      "1020 g"
+    ],
+    "explanation": "0.085 kg = 85 g. 85 × 12 = 1020 g."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-2",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "The distance from George Town to Rum Point is about 25 miles. Using 1 mile ≈ 1.6 km, roughly how many kilometres is this?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "40",
+          "40km",
+          "40 km"
+        ]
+      }
+    ],
+    "explanation": "1 mile is approximately 1.6 km, so 25 × 1.6 = 40 km."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "A cyclist rides 40 km. Using 5 miles ≈ 8 km (1 mile ≈ 1.6 km), approximately how many miles is this?",
+    "options": [
+      {
+        "id": "a",
+        "text": "25 miles"
+      },
+      {
+        "id": "b",
+        "text": "20 miles"
+      },
+      {
+        "id": "c",
+        "text": "32 miles"
+      },
+      {
+        "id": "d",
+        "text": "15 miles"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "40 km ÷ 8 km × 5 miles = 25 miles (since 5 miles is approximately 8 km)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-2",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "A ferry route is about 48 km long. Using 1 mile ≈ 1.6 km, how many miles is this?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "30",
+          "30 miles"
+        ]
+      }
+    ],
+    "explanation": "1 mile is approximately 1.6 km, so 48 ÷ 1.6 = 30 miles."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-3",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Rectangle A is 8 cm by 2 cm. Rectangle B is 4 cm by 4 cm. Both have an area of 16 cm². What is the perimeter of Rectangle A, in cm?",
+    "acceptedAnswers": [
+      "20",
+      "20cm",
+      "20 cm"
+    ],
+    "explanation": "Perimeter = 2 × (8 + 2) = 20 cm — showing that Rectangle B (perimeter 16 cm) has the same area but a different perimeter."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-3",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "Two rectangles both have a perimeter of 24 cm: Rectangle C is 9 cm by 3 cm, and Rectangle D is 6 cm by 6 cm.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the area of Rectangle C, in cm²?",
+        "acceptedAnswers": [
+          "27",
+          "27cm2",
+          "27 cm2",
+          "27cm²",
+          "27 cm²"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the area of Rectangle D, in cm²?",
+        "acceptedAnswers": [
+          "36",
+          "36cm2",
+          "36 cm2",
+          "36cm²",
+          "36 cm²"
+        ]
+      }
+    ],
+    "explanation": "Rectangle C: 9 × 3 = 27 cm². Rectangle D: 6 × 6 = 36 cm². Equal perimeters can give different areas."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-3",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A shape made from six 1 cm² squares in an L-shape has a perimeter of 12 cm. A different shape, also made from six 1 cm² squares but arranged as a 2 cm × 3 cm rectangle, has the same area. What is the perimeter of the 2 cm × 3 cm rectangle?",
+    "acceptedAnswers": [
+      "10",
+      "10cm",
+      "10 cm"
+    ],
+    "explanation": "The rectangle's perimeter is 2 × (2 + 3) = 10 cm, which is different from the L-shape's 12 cm, even though both have an area of 6 cm²."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-3",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A farmer has exactly 20 m of fencing to enclose a rectangular pen. The pen is 7 m long.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What width gives a perimeter of 20 m ((20 ÷ 2) - 7)?",
+        "acceptedAnswers": [
+          "3",
+          "3m",
+          "3 m"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the area of this pen, in m²?",
+        "acceptedAnswers": [
+          "21",
+          "21m2",
+          "21 m2",
+          "21m²",
+          "21 m²"
+        ]
+      }
+    ],
+    "explanation": "Half the perimeter is 10 m, so width = 10 - 7 = 3 m. Area = 7 × 3 = 21 m²."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-4",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "A parallelogram has a base of 8 cm and a height of 5 cm. What is its area, in cm²?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "40",
+          "40cm2",
+          "40 cm2",
+          "40cm²",
+          "40 cm²"
+        ]
+      }
+    ],
+    "explanation": "Area of a parallelogram = base × height = 8 × 5 = 40 cm²."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-4",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A triangle has a base of 10 cm and a height of 6 cm. What is its area, in cm²?",
+    "acceptedAnswers": [
+      "30",
+      "30cm2",
+      "30 cm2",
+      "30cm²",
+      "30 cm²"
+    ],
+    "explanation": "Area of a triangle = ½ × base × height = ½ × 10 × 6 = 30 cm²."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-4",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "A parallelogram has a base of 12.5 cm and a height of 4 cm. What is its area, in cm²?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "50",
+          "50cm2",
+          "50 cm2",
+          "50cm²",
+          "50 cm²"
+        ]
+      }
+    ],
+    "explanation": "Area of a parallelogram = base × height = 12.5 × 4 = 50 cm²."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-5",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "A cuboid measures 5 cm by 4 cm by 3 cm. What is its volume, in cm³?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "60",
+          "60cm3",
+          "60 cm3",
+          "60cm³",
+          "60 cm³"
+        ]
+      }
+    ],
+    "explanation": "Volume of a cuboid = length × width × height = 5 × 4 × 3 = 60 cm³."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-5",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A fish tank is 40 cm long, 25 cm wide and 20 cm tall.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the volume of the tank, in cm³?",
+        "acceptedAnswers": [
+          "20000",
+          "20,000",
+          "20000cm3",
+          "20,000cm3"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "If the tank is filled to three-quarters full, what volume of water, in cm³, is in the tank?",
+        "acceptedAnswers": [
+          "15000",
+          "15,000",
+          "15000cm3",
+          "15,000cm3"
+        ]
+      }
+    ],
+    "explanation": "Volume = 40 × 25 × 20 = 20,000 cm³. Three-quarters full: 20,000 × 0.75 = 15,000 cm³."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-MEA-5",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A storage crate measures 2 m by 1.5 m by 1 m.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the volume of one crate, in m³?",
+        "acceptedAnswers": [
+          "3",
+          "3m3",
+          "3 m3",
+          "3m³",
+          "3 m³"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many identical crates would be needed to fill a container with a volume of 18 m³?",
+        "acceptedAnswers": [
+          "6"
+        ]
+      }
+    ],
+    "explanation": "Volume of one crate = 2 × 1.5 × 1 = 3 m³. 18 ÷ 3 = 6 crates."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-POS-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "What are the coordinates of the point 3 units left and 2 units below the origin? (format: x,y)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "(-3,-2)",
+          "-3,-2",
+          "-3, -2",
+          "(-3, -2)"
+        ]
+      }
+    ],
+    "explanation": "Moving left decreases x and moving below the origin decreases y, giving the point (-3, -2)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-POS-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A point is at (-6, 4). What are the coordinates of the point that is 4 units to the right and 7 units down from it? (format: x,y)",
+    "acceptedAnswers": [
+      "(-2,-3)",
+      "-2,-3",
+      "-2, -3",
+      "(-2, -3)"
+    ],
+    "explanation": "-6 + 4 = -2 (x). 4 - 7 = -3 (y). The new point is (-2, -3)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-POS-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Point A is at (2, -5) and Point B is at (2, 3). What is the distance between A and B, in units?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "8"
+        ]
+      }
+    ],
+    "explanation": "Both points share the same x-coordinate, so the distance is the difference in y-values: 3 - (-5) = 8 units."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-POS-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A square has vertices at (-2, -2), (-2, 3), (3, 3) and (3, -2). Which vertex lies in the third quadrant (both coordinates negative)? Give its coordinates. (format: x,y)",
+    "acceptedAnswers": [
+      "(-2,-2)",
+      "-2,-2",
+      "-2, -2",
+      "(-2, -2)"
+    ],
+    "explanation": "The third quadrant has negative x and negative y. Of the four vertices, only (-2, -2) has both coordinates negative."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-POS-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A triangle has vertices at (1,2), (3,2) and (1,5). It is reflected in the x-axis. What are the new coordinates of the vertex that was at (1,5)? (format: x,y)",
+    "acceptedAnswers": [
+      "(1,-5)",
+      "1,-5",
+      "1, -5",
+      "(1, -5)"
+    ],
+    "explanation": "Reflecting in the x-axis keeps x the same and reverses the sign of y: (1, 5) becomes (1, -5)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-POS-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A rectangle has vertices at (2,1), (5,1), (5,4) and (2,4). It is translated 3 left and 2 down. What are the new coordinates of the vertex that was at (5,4)? (format: x,y)",
+    "acceptedAnswers": [
+      "(2,2)",
+      "2,2",
+      "2, 2",
+      "(2, 2)"
+    ],
+    "explanation": "5 - 3 = 2 (x). 4 - 2 = 2 (y). The new coordinates are (2, 2)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-POS-2",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "A square has vertices at (1,1), (4,1), (4,4) and (1,4). It is reflected in the y-axis.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What are the new coordinates of the vertex that was at (1,1)? (format: x,y)",
+        "acceptedAnswers": [
+          "(-1,1)",
+          "-1,1",
+          "-1, 1",
+          "(-1, 1)"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What are the new coordinates of the vertex that was at (4,4)? (format: x,y)",
+        "acceptedAnswers": [
+          "(-4,4)",
+          "-4,4",
+          "-4, 4",
+          "(-4, 4)"
+        ]
+      }
+    ],
+    "explanation": "Reflecting in the y-axis keeps y the same and reverses the sign of x: (1,1) becomes (-1,1) and (4,4) becomes (-4,4)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-POS-2",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A triangle has vertices at (-2,1), (2,1) and (0,4). It is first translated 2 right and 3 down, then the translated shape is reflected in the x-axis.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What are the coordinates of the vertex that was at (0,4), after the translation only? (format: x,y)",
+        "acceptedAnswers": [
+          "(2,1)",
+          "2,1",
+          "2, 1",
+          "(2, 1)"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What are its coordinates after also being reflected in the x-axis? (format: x,y)",
+        "acceptedAnswers": [
+          "(2,-1)",
+          "2,-1",
+          "2, -1",
+          "(2, -1)"
+        ]
+      }
+    ],
+    "explanation": "Translating (0,4) by 2 right and 3 down gives (2,1). Reflecting (2,1) in the x-axis reverses the sign of y, giving (2,-1)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-STAT-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "A pie chart shows how 60 pupils travel to school: Walk 30, Bus 15, Car 10, Cycle 5. How many more pupils walk than cycle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "25"
+      },
+      {
+        "id": "b",
+        "text": "30"
+      },
+      {
+        "id": "c",
+        "text": "20"
+      },
+      {
+        "id": "d",
+        "text": "35"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "30 pupils walk and 5 cycle. 30 - 5 = 25 more."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-STAT-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A pie chart shows the favourite sport of 40 pupils: Football 18, Swimming 10, Tennis 8, Athletics 4. How many pupils chose either football or swimming?",
+    "acceptedAnswers": [
+      "28"
+    ],
+    "explanation": "18 + 10 = 28 pupils."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-STAT-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A line graph shows a plant's height over 5 weeks: Week 1 = 3 cm, Week 2 = 6 cm, Week 3 = 10 cm, Week 4 = 15 cm, Week 5 = 15 cm. By how many centimetres did the plant grow between Week 3 and Week 4?",
+    "acceptedAnswers": [
+      "5",
+      "5cm",
+      "5 cm"
+    ],
+    "explanation": "15 - 10 = 5 cm of growth between Week 3 and Week 4."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-STAT-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A pie chart shows the holiday choices of 120 people: Beach 60, Reef diving 30, Hiking 20, Other 10. What percentage of people chose reef diving?",
+    "options": [
+      {
+        "id": "a",
+        "text": "25%"
+      },
+      {
+        "id": "b",
+        "text": "30%"
+      },
+      {
+        "id": "c",
+        "text": "20%"
+      },
+      {
+        "id": "d",
+        "text": "15%"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "30 out of 120 chose reef diving. 30 ÷ 120 × 100 = 25%."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "algebra",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-ALG-3",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Write an expression for 'a number x, doubled, then add 7'.",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "2x + 7",
+          "2x+7",
+          "7 + 2x",
+          "7+2x"
+        ]
+      }
+    ],
+    "explanation": "Doubling x gives 2x, then adding 7 gives 2x + 7."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "algebra",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-ALG-3",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Solve for x: 3x + 4 = 19.",
+    "acceptedAnswers": [
+      "5",
+      "x=5",
+      "x = 5"
+    ],
+    "explanation": "3x = 19 - 4 = 15, so x = 15 ÷ 3 = 5."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "algebra",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-ALG-3",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Write an expression for 'a number y, tripled, then subtract 5'.",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "3y - 5",
+          "3y-5"
+        ]
+      }
+    ],
+    "explanation": "Tripling y gives 3y, then subtracting 5 gives 3y - 5."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "algebra",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-ALG-3",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Solve for x: 2(x + 3) = 22.",
+    "acceptedAnswers": [
+      "8",
+      "x=8",
+      "x = 8"
+    ],
+    "explanation": "x + 3 = 22 ÷ 2 = 11, so x = 11 - 3 = 8."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "algebra",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-ALG-4",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Find a pair of whole numbers a and b where a + b = 12 and a is double b. Give your answer as a,b.",
+    "acceptedAnswers": [
+      "8,4",
+      "8, 4",
+      "a=8, b=4",
+      "a=8,b=4"
+    ],
+    "explanation": "If a = 2b, then 2b + b = 12, so 3b = 12 and b = 4. Then a = 2 × 4 = 8."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "algebra",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-ALG-4",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "Two whole numbers, p and q, satisfy p + q = 15 and p - q = 3.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "Adding the two equations gives 2p = 15 + 3. What is 2p?",
+        "acceptedAnswers": [
+          "18"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the value of p?",
+        "acceptedAnswers": [
+          "9"
+        ]
+      }
+    ],
+    "explanation": "Adding the equations: (p+q) + (p-q) = 2p = 18, so p = 9 (and q = 6)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "algebra",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-ALG-4",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Find a pair of whole numbers x and y, both greater than 0, where x + y = 20 and x is three times y. Give your answer as x,y.",
+    "acceptedAnswers": [
+      "15,5",
+      "15, 5",
+      "x=15, y=5",
+      "x=15,y=5"
+    ],
+    "explanation": "If x = 3y, then 3y + y = 20, so 4y = 20 and y = 5. Then x = 3 × 5 = 15."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "algebra",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-ALG-5",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "How many different whole-number combinations of 2p and 5p coins (including using none of one type) make exactly 20p in total?",
+    "acceptedAnswers": [
+      "3"
+    ],
+    "explanation": "The combinations are: ten 2p coins; five 2p and two 5p coins; four 5p coins. That is 3 combinations in total."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "algebra",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-ALG-5",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "A school trip costs $5 per adult and $3 per child. A group paid exactly $23 in total, with at least 1 adult in the group. There are two possible combinations of adults and children.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "If there is 1 adult, how many children are there ((23 - 5) ÷ 3)?",
+        "acceptedAnswers": [
+          "6"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "If there are 4 adults, how many children are there ((23 - 20) ÷ 3)?",
+        "acceptedAnswers": [
+          "1"
+        ]
+      }
+    ],
+    "explanation": "1 adult and 6 children: 5 + 18 = 23. 4 adults and 1 child: 20 + 3 = 23. These are the only two whole-number combinations."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "algebra",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-ALG-5",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A raffle seller sold exactly 41 tickets using whole books of 4 tickets and whole books of 9 tickets, using at least one book of each size.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "If exactly 1 book of 9 was sold, how many tickets remain to be made up from books of 4 ((41 - 9) ÷ 4)?",
+        "acceptedAnswers": [
+          "8"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "So how many books of 4 were sold?",
+        "acceptedAnswers": [
+          "8"
+        ]
+      }
+    ],
+    "explanation": "With 1 book of 9 (9 tickets), the remaining 32 tickets need 32 ÷ 4 = 8 books of 4. Checking other numbers of 9-books (2, 3, 4) does not leave a total divisible by 4, so this is the only solution: 8 books of 4 and 1 book of 9."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "ratio-proportion",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-RAT-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "In a class of 30 pupils, 40% walk to school. How many pupils walk to school?",
+    "acceptedAnswers": [
+      "12"
+    ],
+    "explanation": "40% of 30 = 0.4 × 30 = 12 pupils."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "ratio-proportion",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-RAT-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A jacket costs $60. It is reduced by 15% in a sale. How much is the discount, in dollars?",
+    "acceptedAnswers": [
+      "9",
+      "$9"
+    ],
+    "explanation": "15% of 60 = 0.15 × 60 = $9."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "ratio-proportion",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-RAT-2",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "Shop A reduces an $80 item by 20%. Shop B reduces a $120 item by 25%.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the sale price at Shop A?",
+        "acceptedAnswers": [
+          "64",
+          "$64"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the sale price at Shop B?",
+        "acceptedAnswers": [
+          "90",
+          "$90"
+        ]
+      }
+    ],
+    "explanation": "Shop A: 80 - (20% of 80) = 80 - 16 = $64. Shop B: 120 - (25% of 120) = 120 - 30 = $90."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "ratio-proportion",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-RAT-3",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rectangle A is 4 cm by 6 cm. Rectangle B is similar to Rectangle A with a scale factor of 3. What is the length of the longer side of Rectangle B, in cm?",
+    "acceptedAnswers": [
+      "18",
+      "18cm",
+      "18 cm"
+    ],
+    "explanation": "The longer side of Rectangle A is 6 cm. 6 × 3 = 18 cm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "ratio-proportion",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-RAT-3",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "Triangle P has sides 3 cm, 4 cm and 5 cm. Triangle Q is similar to Triangle P, and its shortest side measures 9 cm.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the scale factor from Triangle P to Triangle Q (9 ÷ 3)?",
+        "acceptedAnswers": [
+          "3"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the length of the longest side of Triangle Q (5 × 3)?",
+        "acceptedAnswers": [
+          "15",
+          "15cm",
+          "15 cm"
+        ]
+      }
+    ],
+    "explanation": "Scale factor = 9 ÷ 3 = 3. The longest side of Triangle Q = 5 × 3 = 15 cm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "ratio-proportion",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-RAT-3",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "A model boat is built at a scale of 1:20. If the real boat is 8 m long, how long is the model, in cm?",
+    "acceptedAnswers": [
+      "40",
+      "40cm",
+      "40 cm"
+    ],
+    "explanation": "8 m = 800 cm. At a scale of 1:20, the model is 800 ÷ 20 = 40 cm long."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "ratio-proportion",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-RAT-4",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "$40 is shared between Anna and Ben in the ratio 3:5. How much does Ben receive?",
+    "acceptedAnswers": [
+      "25",
+      "$25"
+    ],
+    "explanation": "3 + 5 = 8 parts. Each part = 40 ÷ 8 = $5. Ben's share = 5 × $5 = $25."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "ratio-proportion",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-RAT-4",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A bag of 72 sweets is shared between three friends in the ratio 2:3:4. How many sweets does the friend with the largest share get?",
+    "acceptedAnswers": [
+      "32"
+    ],
+    "explanation": "2 + 3 + 4 = 9 parts. Each part = 72 ÷ 9 = 8 sweets. Largest share = 4 × 8 = 32 sweets."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "ratio-proportion",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-RAT-4",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "$90 is shared between two shops in the ratio 4:5.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the value of one share (90 ÷ 9)?",
+        "acceptedAnswers": [
+          "10",
+          "$10"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How much does the larger share receive (5 × 10)?",
+        "acceptedAnswers": [
+          "50",
+          "$50"
+        ]
+      }
+    ],
+    "explanation": "4 + 5 = 9 parts. Each part = 90 ÷ 9 = $10. The larger share = 5 × $10 = $50."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "ratio-proportion",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-RAT-4",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A 50 kg building mixture is made from sand, cement and gravel in the ratio 3:2:5.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the value of one part, in kg (50 ÷ 10)?",
+        "acceptedAnswers": [
+          "5",
+          "5kg",
+          "5 kg"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many kg of gravel are used (5 × 5)?",
+        "acceptedAnswers": [
+          "25",
+          "25kg",
+          "25 kg"
+        ]
+      }
+    ],
+    "explanation": "3 + 2 + 5 = 10 parts. Each part = 50 ÷ 10 = 5 kg. Gravel = 5 parts × 5 kg = 25 kg."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-REA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Look at the sequence 5, 11, 17, 23, ... Each term increases by the same amount. What is the 6th term?",
+    "acceptedAnswers": [
+      "35"
+    ],
+    "explanation": "The sequence increases by 6 each time: 5, 11, 17, 23, 29, 35. The 6th term is 35."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-REA-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A sequence of shapes is made from matchsticks: 1 triangle in a row uses 3 matchsticks, 2 triangles use 5 matchsticks, 3 triangles use 7 matchsticks.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How many matchsticks would 4 triangles in a row use, continuing the pattern of +2 each time?",
+        "acceptedAnswers": [
+          "9"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Using the rule 'matchsticks = 2n + 1', how many matchsticks would 10 triangles in a row use?",
+        "acceptedAnswers": [
+          "21"
+        ]
+      }
+    ],
+    "explanation": "Each extra triangle adds 2 matchsticks, giving the rule 2n + 1. For n = 4: 9 matchsticks. For n = 10: 2 × 10 + 1 = 21 matchsticks."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-REA-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "The sum of the first n odd numbers is always a square number (1 = 1², 1+3 = 2², 1+3+5 = 3², ...). What is the sum of the first 7 odd numbers?",
+    "acceptedAnswers": [
+      "49"
+    ],
+    "explanation": "The sum of the first n odd numbers is n². For n = 7: 7² = 49."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-REA-2",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "Two whole numbers have a sum of 12 and a product of 35.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the smaller of the two numbers?",
+        "acceptedAnswers": [
+          "5"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the larger of the two numbers?",
+        "acceptedAnswers": [
+          "7"
+        ]
+      }
+    ],
+    "explanation": "5 × 7 = 35 and 5 + 7 = 12. Checking other factor pairs of 35 (1 and 35) shows they don't sum to 12, so this is the only solution."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-REA-2",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "Two different whole numbers, both between 1 and 20, have a sum of 25 and a difference of 7. Is this the only possible pair?",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the larger number ((25 + 7) ÷ 2)?",
+        "acceptedAnswers": [
+          "16"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the smaller number ((25 - 7) ÷ 2)?",
+        "acceptedAnswers": [
+          "9"
+        ]
+      }
+    ],
+    "explanation": "16 + 9 = 25 and 16 - 9 = 7. Since a sum and difference uniquely determine two numbers, 16 and 9 is the only possible pair."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-REA-2",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "Three different whole numbers between 1 and 15 have a sum of 20. The largest number is double the smallest, which is 3.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What is the largest number (double 3)?",
+        "acceptedAnswers": [
+          "6"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the middle number (20 - 3 - 6)?",
+        "acceptedAnswers": [
+          "11"
+        ]
+      }
+    ],
+    "explanation": "The largest number is 2 × 3 = 6. The middle number is 20 - 3 - 6 = 11, giving the three numbers 3, 6 and 11."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-WP-1",
+    "type": "short_answer",
+    "difficulty": "bronze",
+    "promptText": "A snorkelling trip costs $18 per person. How much will it cost for 6 people?",
+    "acceptedAnswers": [
+      "108",
+      "$108"
+    ],
+    "explanation": "18 × 6 = 108."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-WP-1",
+    "type": "multi_step",
+    "difficulty": "silver",
+    "promptText": "A boat travels at a steady rate of 15 km per hour.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How far does it travel in 3 hours (15 × 3)?",
+        "acceptedAnswers": [
+          "45",
+          "45km",
+          "45 km"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How far does it travel in 4.5 hours (15 × 4.5)?",
+        "acceptedAnswers": [
+          "67.5",
+          "67.5km",
+          "67.5 km"
+        ]
+      }
+    ],
+    "explanation": "15 × 3 = 45 km. 15 × 4.5 = 67.5 km."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-WP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A bakery makes 240 cupcakes, packed into boxes of 8 and sold at $15 per box. If all the cupcakes are sold, how much money is made in total?",
+    "acceptedAnswers": [
+      "450",
+      "$450"
+    ],
+    "explanation": "240 ÷ 8 = 30 boxes. 30 × 15 = $450."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-WP-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A dive boat uses 3 litres of fuel for every 5 km travelled, and fuel costs $1.50 per litre.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How many litres of fuel are needed for a 40 km trip?",
+        "acceptedAnswers": [
+          "24",
+          "24l",
+          "24 l"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What is the total fuel cost for the 40 km trip?",
+        "acceptedAnswers": [
+          "36",
+          "$36"
+        ]
+      }
+    ],
+    "explanation": "40 km is 8 times 5 km, so fuel needed = 3 × 8 = 24 litres. Cost = 24 × $1.50 = $36."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-WP-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A pupil calculates 38 × 21 and gets an answer of 798. Using the estimate 40 × 20 = 800, is 798 a reasonable answer? Answer 'yes' or 'no'.",
+    "acceptedAnswers": [
+      "yes",
+      "Yes"
+    ],
+    "explanation": "798 is very close to the estimate of 800, so it is a reasonable (and correct) answer."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-WP-2",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "A pupil calculates 6.2 × 4.9 and gets an answer of 303.8. Using the estimate 6 × 5 = 30, is 303.8 a reasonable answer? Answer 'yes' or 'no'.",
+    "acceptedAnswers": [
+      "no",
+      "No"
+    ],
+    "explanation": "The estimate is about 30, but 303.8 is ten times too big — the pupil has likely misplaced a decimal point, so 303.8 is not reasonable."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-WP-2",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A pupil calculates 782 - 295 and gets an answer of 487.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "Use the inverse operation to check: what is 487 + 295?",
+        "acceptedAnswers": [
+          "782"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Since 487 + 295 equals 782, is the pupil's original answer of 487 correct? Answer 'yes' or 'no'.",
+        "acceptedAnswers": [
+          "yes",
+          "Yes"
+        ]
+      }
+    ],
+    "explanation": "Adding back the subtracted amount (487 + 295 = 782) matches the original number, confirming 487 is correct."
   }
 ]
