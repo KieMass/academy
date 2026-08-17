@@ -948,15 +948,23 @@ export function generateFractionCompareY6Questions(rng: Rng, count: number): Dra
     const value1 = n1 / d1;
     const value2 = n2 / d2;
     if (Math.abs(value1 - value2) < 0.001) continue;
-    const bigger = value1 > value2 ? `${n1}/${d1}` : `${n2}/${d2}`;
+    const biggerNum = value1 > value2 ? n1 : n2;
+    const biggerDen = value1 > value2 ? d1 : d2;
+    const bigger = `${biggerNum}/${biggerDen}`;
     const smaller = value1 > value2 ? `${n2}/${d2}` : `${n1}/${d1}`;
+    // Off-by-one numerator on the *correct* fraction's own denominator — a
+    // plausible near-miss that (unlike a fixed "max/max" filler) can never
+    // collide with `smaller` (different denominator, since d1 !== d2 for
+    // every pair) or with `bigger` itself (numerator always differs).
+    const nearMissNum = biggerNum > 1 ? biggerNum - 1 : biggerNum + 1;
+    const nearMiss = `${nearMissNum}/${biggerDen}`;
     out.push(
       mcQuestion(rng, {
         subjectSlug: SUBJECT, strandSlug: "fractions", yearGroup: YEAR6, objectiveCode: "MA6-FRAC-1",
         difficulty,
         promptText: `Which fraction is greater: ${n1}/${d1} or ${n2}/${d2}?`,
         correct: bigger,
-        distractors: [smaller, "They are equal", `${Math.max(d1, d2)}/${Math.max(d1, d2)}`],
+        distractors: [smaller, "They are equal", nearMiss],
         explanation: `Using a common denominator of ${d1 * d2}: ${n1}/${d1} = ${n1 * d2}/${d1 * d2} and ${n2}/${d2} = ${n2 * d1}/${d1 * d2}, so ${bigger} is greater.`,
       })
     );
@@ -1081,8 +1089,15 @@ export function generateDecimalPlaceValueY6Questions(rng: Rng, count: number): D
     const digit = digits[placeIndex];
     const correct = `${digit} ${placeNames[placeIndex]}`;
     // Distractors: the same digit paired with each of the other two place
-    // names (the common misconception — reading the right digit, wrong column).
-    const distractors = placeNames.filter((_, idx) => idx !== placeIndex).map((p) => `${digit} ${p}`);
+    // names (the common misconception — reading the right digit, wrong
+    // column), plus a different digit paired with the *correct* column
+    // (right column, wrong digit) so there are always 3 distinct options.
+    let wrongDigit = randInt(rng, 0, 9);
+    while (wrongDigit === digit) wrongDigit = randInt(rng, 0, 9);
+    const distractors = [
+      ...placeNames.filter((_, idx) => idx !== placeIndex).map((p) => `${digit} ${p}`),
+      `${wrongDigit} ${placeNames[placeIndex]}`,
+    ];
     out.push(
       mcQuestion(rng, {
         subjectSlug: SUBJECT, strandSlug: "decimals", yearGroup: YEAR6, objectiveCode: "MA6-DEC-1",
