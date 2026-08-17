@@ -26,6 +26,7 @@ datasource db {
 enum Role {
   PARENT
   STUDENT
+  ADMIN
 }
 
 model User {

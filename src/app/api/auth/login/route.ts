@@ -5,8 +5,8 @@ import { verifyPassword } from "@/lib/auth/password";
 import { createSession } from "@/lib/auth/session";
 
 const loginSchema = z.object({
-  role: z.enum(["PARENT", "STUDENT"]),
-  identifier: z.string().min(1), // email for parents, username for students
+  role: z.enum(["PARENT", "STUDENT", "ADMIN"]),
+  identifier: z.string().min(1), // email for parents/admins, username for students
   password: z.string().min(1),
 });
 
@@ -19,7 +19,7 @@ export async function POST(req: Request) {
   const { role, identifier, password } = parsed.data;
 
   const user = await db.user.findFirst({
-    where: role === "PARENT" ? { role, email: identifier.toLowerCase() } : { role, username: identifier.toLowerCase() },
+    where: role === "STUDENT" ? { role, username: identifier.toLowerCase() } : { role, email: identifier.toLowerCase() },
   });
 
   if (!user) {

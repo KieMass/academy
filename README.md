@@ -26,6 +26,13 @@ Open [http://localhost:3000](http://localhost:3000). Demo accounts (created by t
 | Parent  | `parent@kaelex.demo`    | `Parent123!` |
 | Student | username `alex`         | `student123` |
 
+An admin account is also created on first seed, at `/admin/login` — the
+password is randomly generated and printed to the console **once**, on
+creation only (re-running the seed afterward won't reprint or reset it, so
+it won't leak into build logs). Override the email/password with
+`ADMIN_EMAIL` / `ADMIN_PASSWORD` env vars before the first seed if you want
+to set them explicitly.
+
 ## Tech stack
 
 Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · shadcn/ui (on Base UI) · Prisma · PostgreSQL
@@ -70,7 +77,11 @@ docs/
 
 ## What's implemented
 
-- **Auth** — separate parent (email) and student (username) login, session cookies, role-guarded routes.
+- **Auth** — separate parent (email), student (username) and admin (email) login, session cookies,
+  role-guarded routes.
+- **Admin** — `/admin` (view-only): a dashboard of registered users and question counts by subject/year
+  group, a subjects overview broken down by strand, and password reset for any account (generates and
+  shows a one-time new password; also revokes that user's active sessions).
 - **Question engine** — 6 question types (multiple choice, fill-in-the-box, multi-step, drag-and-drop,
   matching, short answer), Bronze/Silver/Gold/Challenge difficulty, always graded server-side with
   immediate feedback and a worked explanation.

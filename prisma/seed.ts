@@ -17,6 +17,7 @@
 import { PrismaClient } from "@prisma/client";
 import fs from "node:fs";
 import path from "node:path";
+import crypto from "node:crypto";
 import { loadCurriculumMaps, resolveTopics } from "../src/lib/curriculum/loader";
 import { toStorageFields, toPrismaEnums } from "../src/lib/question-engine/mapper";
 import { generateAllMathsQuestions, generateAllMathsQuestionsY6 } from "../src/lib/content-generators/maths";
@@ -262,6 +263,31 @@ async function seedDemoAccounts() {
   console.log("    Student → username: alex               password: student123");
 }
 
+/** Seeds a single admin account, if one doesn't already exist. Unlike the
+ * demo accounts, this is a real privileged account — the password is only
+ * ever generated/printed once (on first creation), never reset by re-runs,
+ * so a later `db:seed` can't leak it into build logs. Override the email
+ * and/or starting password via ADMIN_EMAIL / ADMIN_PASSWORD env vars. */
+async function seedAdminAccount() {
+  console.log("→ Seeding admin account...");
+  const email = (process.env.ADMIN_EMAIL ?? "admin@kaelex.app").toLowerCase();
+
+  const existing = await db.user.findUnique({ where: { email } });
+  if (existing) {
+    console.log(`  ✓ Admin account already exists (${email}) — leaving password untouched`);
+    return;
+  }
+
+  const password = process.env.ADMIN_PASSWORD ?? crypto.randomBytes(15).toString("base64url");
+  const passwordHash = await hashPassword(password);
+  await db.user.create({ data: { role: "ADMIN", email, passwordHash } });
+
+  console.log("  ✓ Admin account created:");
+  console.log(`    Email    → ${email}`);
+  console.log(`    Password → ${password}`);
+  console.log("    (shown once — save it now; re-running the seed will not print it again)");
+}
+
 async function main() {
   console.log("Seeding KaeLex Academy database...\n");
   const topicIdByKey = await seedSubjectsAndTopics();
@@ -270,6 +296,7 @@ async function main() {
   await seedSpellingLists();
   await seedBadges();
   await seedDemoAccounts();
+  await seedAdminAccount();
   console.log("\nSeed complete.");
 }
 

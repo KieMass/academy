@@ -19,3 +19,12 @@ export async function requireStudent() {
   }
   return { user, studentProfile: user.studentProfile! };
 }
+
+/** Use in server components/pages that require a logged-in admin. */
+export async function requireAdmin() {
+  const user = await getCurrentUser();
+  if (!user || user.role !== "ADMIN") {
+    redirect("/admin/login");
+  }
+  return { user };
+}

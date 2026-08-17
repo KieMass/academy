@@ -3,14 +3,14 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { LogOut, Sparkles, Home, Trophy, LineChart, Settings, ClipboardList, Printer, Menu, X, type LucideIcon } from "lucide-react";
+import { LogOut, Sparkles, Home, Trophy, LineChart, Settings, ClipboardList, Printer, Menu, X, Users, BookOpen, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
 // Server Components can't pass component references (functions) as props to
 // Client Components — only serialisable data crosses that boundary. Nav
 // items therefore carry an icon *name*, resolved to a component here.
-const NAV_ICONS: Record<string, LucideIcon> = { Home, Trophy, LineChart, Settings, ClipboardList, Printer };
+const NAV_ICONS: Record<string, LucideIcon> = { Home, Trophy, LineChart, Settings, ClipboardList, Printer, Users, BookOpen };
 
 export interface NavItem {
   href: string;
