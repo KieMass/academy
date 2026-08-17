@@ -2060,5 +2060,1078 @@
         "explanation": "The passage contrasts the early dismissal of her theory with its modern-day recognition as key evidence for plate tectonics."
       }
     ]
+  },
+  {
+    "title": "Number Nine",
+    "type": "fiction",
+    "yearGroup": "Y6",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Ronan had been dreading this moment since his mother's phone rang with the offer of a place at Kingsfield Primary, three weeks into the autumn term, when everyone else already knew where they were meant to sit, who they were meant to talk to, and precisely which teachers to avoid before lunchtime. Now, standing at the classroom door with his rucksack cutting into his shoulder, he understood that dread was rarely as bad as the thing itself. It was worse.\n\nMrs Adeyemi guided him to a desk in the third row, its surface scratched with years of initials and doodles, and told him it was 'Number Nine' — apparently every desk in the room had a small brass number screwed to its corner, a tradition nobody could quite explain. Ronan noticed, almost immediately, that the room fell strangely quiet as he sat down, and that a girl two rows over exchanged a glance with the boy beside her that lasted a fraction too long to be nothing.\n\nBy break time, curiosity had got the better of him. Wedged into the crack between the desk lid and its frame, he found a folded scrap of paper, soft and grey with age, on which someone had written a single word in careful pencil: Callum. When he asked Aisha, the girl who sat beside him and seemed the only person willing to speak to him directly, who Callum was, she hesitated before answering, as though weighing up whether the truth was hers to tell.\n\n\"He used to sit there,\" she said eventually. \"Before half term. His dad got a new job up in Scotland, so they had to move really suddenly — like, within a week suddenly. He didn't even get to say goodbye to most of us properly.\" She paused, tracing a finger along one of the desk's scratches. \"Some people act a bit strange about that desk now. Not because anything happened to him, just... it feels weird, sitting where someone used to sit, when you never got to find out how their story ended.\"\n\nRonan turned this over in his mind for the rest of the day, through spelling tests and a baffling fractions worksheet, and found that his dread had quietly transformed into something gentler — a kind of curiosity, and perhaps even sympathy, for a boy he had never met but who had left this same worn desk behind him, unfinished sentences and all.\n\nThat afternoon, before he packed away, Ronan took out his own pencil and, in the smallest corner of the desk lid he could find, wrote a single new word beneath the old one: Ronan. Not to replace Callum's name, he told himself, but to sit alongside it — proof that Number Nine's story hadn't ended after all, only continued, one nervous new pupil at a time.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "How many weeks into the autumn term did Ronan join Kingsfield Primary?",
+        "options": [
+          {
+            "id": "a",
+            "text": "One week"
+          },
+          {
+            "id": "b",
+            "text": "Three weeks"
+          },
+          {
+            "id": "c",
+            "text": "Five weeks"
+          },
+          {
+            "id": "d",
+            "text": "Ten weeks"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The text states he received 'the offer of a place at Kingsfield Primary, three weeks into the autumn term'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "bronze",
+        "promptText": "What single word was written on the scrap of paper Ronan found wedged in the desk?",
+        "acceptedAnswers": [
+          "Callum"
+        ],
+        "explanation": "The text says someone had written 'a single word in careful pencil: Callum'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "According to Aisha, why did Callum's family move away so suddenly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "His dad got a new job up in Scotland"
+          },
+          {
+            "id": "b",
+            "text": "His parents were getting divorced"
+          },
+          {
+            "id": "c",
+            "text": "The school closed down"
+          },
+          {
+            "id": "d",
+            "text": "His family wanted better weather"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Aisha explains: 'His dad got a new job up in Scotland, so they had to move really suddenly.'"
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does the room falling 'strangely quiet' as Ronan sat down, along with the lingering glance between two classmates, suggest?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The class already had feelings or memories connected to that particular desk"
+          },
+          {
+            "id": "b",
+            "text": "The teacher had just told everyone to be silent"
+          },
+          {
+            "id": "c",
+            "text": "The class was about to start a spelling test"
+          },
+          {
+            "id": "d",
+            "text": "Nobody in the class had noticed Ronan arrive"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The unusual silence and the lingering glance hint that the class already knew something significant about Number Nine, later revealed to be Callum's story."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-2",
+        "subSkill": "inference",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Using evidence from across the text, explain why Aisha hesitates before telling Ronan about Callum.",
+        "acceptedAnswers": [
+          "she is deciding whether it is her place to share callum's story",
+          "she is unsure whether the truth is hers to tell",
+          "she is being careful about sharing something personal about callum before answering"
+        ],
+        "explanation": "The text says she 'hesitated before answering, as though weighing up whether the truth was hers to tell', suggesting she is being thoughtful about sharing someone else's story."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "In the opening paragraph, what does 'dread' most likely mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A feeling of great fear or anxiety about something about to happen"
+          },
+          {
+            "id": "b",
+            "text": "A feeling of excitement about something new"
+          },
+          {
+            "id": "c",
+            "text": "A feeling of boredom"
+          },
+          {
+            "id": "d",
+            "text": "A feeling of confusion about directions"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Ronan has been 'dreading this moment', and the passage explains 'dread was rarely as bad as the thing itself', showing it is a fearful, anxious feeling."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE6-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the ending of the passage, what does Ronan seem likely to do at Kingsfield Primary going forward?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Begin to settle in and feel that he belongs"
+          },
+          {
+            "id": "b",
+            "text": "Ask to move to a different desk immediately"
+          },
+          {
+            "id": "c",
+            "text": "Refuse to speak to anyone in the class"
+          },
+          {
+            "id": "d",
+            "text": "Leave the school after one day"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "By writing his own name beside Callum's as 'proof that Number Nine's story hadn't ended', Ronan shows he is beginning to feel part of the class."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE6-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one or two sentences, summarise what happens in this passage.",
+        "acceptedAnswers": [
+          "a new boy called ronan joins a school partway through term, discovers a previous pupil's name in his desk, learns why that boy left, and starts to feel he belongs by adding his own name",
+          "ronan starts at a new school, finds callum's name written in his desk, learns why callum moved away, and writes his own name beside it"
+        ],
+        "explanation": "A good summary captures the new pupil's nervousness, the discovery of Callum's name and story, and the hopeful ending where Ronan adds his own name."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE6-AUT-1",
+        "subSkill": "author-intent",
+        "type": "short_answer",
+        "difficulty": "challenge",
+        "promptText": "Why might the author have chosen to end the passage with Ronan writing his name beside Callum's, rather than simply having him settle quietly into his new desk?",
+        "acceptedAnswers": [
+          "to show a symbolic connection between the two boys and suggest the desk's story continues rather than being forgotten",
+          "it creates a hopeful, meaningful ending showing ronan feels connected to callum and is beginning to belong"
+        ],
+        "explanation": "This small, symbolic action gives the ending emotional meaning, showing Ronan's growing sense of belonging rather than simply stating that he settled in."
+      }
+    ]
+  },
+  {
+    "title": "The Clockmaker's Apprentice",
+    "type": "fiction",
+    "yearGroup": "Y6",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Elsie had swept the workshop floor a thousand times before, but she had never swept it with quite this much dread. Somewhere between locking up on Tuesday evening and opening the shutters on Wednesday morning, the blueprint for Mr Voss's masterpiece — a clock designed to run for exactly one hundred years without rewinding — had vanished from the workbench where it always lived, pinned beneath a brass paperweight shaped like a swallow.\n\n\"It cannot simply have walked away,\" muttered Mr Voss, turning slowly on the spot as though the missing paper might reappear if he looked hard enough. His hands, usually so steady around delicate cogs and springs, trembled slightly as he lifted the empty paperweight and set it down again. Elsie had never seen him look quite so lost.\n\nShe crouched beside the workbench, examining the thin layer of brass dust that always gathered there after a long day's filing. A single clear line ran through it, as though something had been slid rather than lifted — a book, perhaps, or a folder, dragged carefully towards the workshop's side door. That door, Elsie knew, was rarely used; its hinges were stiff enough to groan loudly at the slightest movement, and yet this morning it swung open silently, freshly oiled.\n\n\"Someone prepared for this,\" she said slowly, more to herself than to Mr Voss. \"Someone who knew exactly which door wouldn't be noticed, and took the trouble to oil it first.\"\n\nMr Voss's face changed as understanding dawned. \"There was a man in yesterday afternoon, just before closing. Said he collected clocks, wanted to see my workshop. I thought it was simple curiosity.\" He rubbed his temples. \"I even told him about the hundred-year clock. Fool that I am, I even showed him where the blueprint was kept.\"\n\nElsie thought back to the visitor: a tall man in a long grey coat who had asked a great many precise questions and lingered rather too long beside the workbench, his eyes moving over every tool and drawing with an attention that, at the time, she had mistaken for polite interest. Now it seemed far more calculating.\n\n\"He asked when the shop closed,\" Elsie remembered suddenly. \"And whether you lived above it, or went home each evening.\"\n\nMr Voss's shoulders sagged. \"Then he knew the workshop would be empty overnight.\"\n\nElsie straightened up, brushing brass dust from her knees, a plan already forming. The man had mentioned, almost in passing, that he was travelling on to the coast the following week to visit 'a fellow collector.' If Elsie was right, that throwaway comment might be the only clue that stood between the blueprint disappearing forever and Mr Voss's life's work being returned to where it belonged.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "bronze",
+        "promptText": "What had gone missing from Mr Voss's workbench?",
+        "acceptedAnswers": [
+          "the blueprint for his hundred-year clock",
+          "the blueprint",
+          "the blueprint for the clock designed to run for a hundred years without rewinding"
+        ],
+        "explanation": "The passage states 'the blueprint for Mr Voss's masterpiece... had vanished from the workbench'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "According to the passage, what was unusual about the side door on Wednesday morning?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It was locked from the inside"
+          },
+          {
+            "id": "b",
+            "text": "It swung open silently, freshly oiled, despite normally being stiff and noisy"
+          },
+          {
+            "id": "c",
+            "text": "It had been painted a different colour"
+          },
+          {
+            "id": "d",
+            "text": "It was missing entirely"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The text says the door 'this morning it swung open silently, freshly oiled', unlike usual when its 'hinges were stiff enough to groan loudly'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does the mark Elsie finds in the brass dust suggest happened to the blueprint?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It was accidentally knocked onto the floor and swept away"
+          },
+          {
+            "id": "b",
+            "text": "It was carefully slid and dragged towards the side door"
+          },
+          {
+            "id": "c",
+            "text": "It was burned in the workshop fireplace"
+          },
+          {
+            "id": "d",
+            "text": "Mr Voss had taken it home himself"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The text describes 'a single clear line... as though something had been slid rather than lifted... dragged carefully towards the workshop's side door'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'calculating' mean as it is used to describe the visitor's attention near the end of the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Doing sums or mathematics"
+          },
+          {
+            "id": "b",
+            "text": "Coldly and deliberately scheming or planning"
+          },
+          {
+            "id": "c",
+            "text": "Friendly and warm"
+          },
+          {
+            "id": "d",
+            "text": "Confused and uncertain"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Elsie realises the visitor's close attention, once mistaken for 'polite interest', now 'seemed far more calculating' — meaning coldly scheming rather than innocent."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-2",
+        "subSkill": "vocabulary",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Explain the effect of the phrase 'as though the missing paper might reappear if he looked hard enough' in the second paragraph.",
+        "acceptedAnswers": [
+          "it shows how desperate and disbelieving mr voss is, almost as if he cannot accept the blueprint is really gone",
+          "it conveys his shock and denial, suggesting he is struggling to accept what has happened"
+        ],
+        "explanation": "The phrase captures Mr Voss's disbelief and desperation, as though sheer wishing might undo the theft."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE6-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Based on the ending of the passage, what is Elsie most likely planning to do next?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Give up on ever finding the blueprint"
+          },
+          {
+            "id": "b",
+            "text": "Follow up on the visitor's comment about travelling to the coast to see a fellow collector"
+          },
+          {
+            "id": "c",
+            "text": "Report the theft to Mr Voss's family and do nothing else"
+          },
+          {
+            "id": "d",
+            "text": "Buy Mr Voss a replacement blueprint"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The passage ends by highlighting the visitor's remark about the coast as 'the only clue' standing between the blueprint being lost forever and being recovered, implying Elsie will pursue it."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE6-SUM-1",
+        "subSkill": "summarising",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Which sentence best summarises this passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A blueprint disappears from a clockmaker's workshop, and his apprentice pieces together clues pointing to a suspicious visitor"
+          },
+          {
+            "id": "b",
+            "text": "A clockmaker loses his temper with his apprentice over a mistake"
+          },
+          {
+            "id": "c",
+            "text": "Elsie builds a new hundred-year clock from scratch"
+          },
+          {
+            "id": "d",
+            "text": "A visitor buys a clock from Mr Voss's shop"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "This captures the theft of the blueprint and Elsie's detective work in identifying the likely culprit."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE6-AUT-2",
+        "subSkill": "author-intent",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "This passage follows Elsie's thoughts and observations closely. How might the story feel different if it were instead told from Mr Voss's point of view?",
+        "acceptedAnswers": [
+          "it might focus more on his shock, guilt and worry about losing his life's work, rather than on piecing together the clues",
+          "we might see more of his emotions and less of the detective-style investigation, since elsie is the one solving the mystery",
+          "the reader might not find out the clues as clearly, since elsie is the one investigating and noticing details"
+        ],
+        "explanation": "Because Elsie is the observant, detective-like character, telling the story through Mr Voss instead would likely focus more on his emotions and less on the careful clue-gathering the reader currently follows."
+      }
+    ]
+  },
+  {
+    "title": "Platform Four",
+    "type": "fiction",
+    "yearGroup": "Y6",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "The train had been crowded since Paddington, every carriage packed with children clutching cardboard suitcases and gas mask boxes slung awkwardly across their shoulders, but by the time it pulled into the small country station, most of the noise and nervous laughter of the morning had faded into an uneasy silence. Iris pressed her forehead against the cool glass and watched fields roll past that seemed impossibly green after weeks of grey London streets, streets she had left behind with barely an hour's notice the night before.\n\nA cardboard label, tied with string to the top button of her coat, read simply: IRIS BENNETT, AGE 9, as though she were a parcel rather than a person, something to be posted from one place to another and hoped for the best. She supposed, in a way, that was exactly what she was.\n\nOn the platform, a crowd of unfamiliar adults waited beside a woman with a clipboard, calling out names and matching them, one by one, to the children stepping down from the train. Iris scanned the faces for anything familiar and found nothing, only strangers in wellington boots and headscarves, studying the new arrivals with expressions she couldn't quite read — curiosity, perhaps, or the weary resignation of people who had already taken in evacuees twice before and were bracing themselves for a third.\n\n\"Bennett?\" called the woman with the clipboard, consulting her list. A tall woman in a green coat stepped forward, looking Iris up and down with a critical eye that made her wish, quite fiercely, that she had brushed her hair before leaving that morning.\n\n\"You'll do,\" the woman said eventually, not unkindly, though not warmly either. \"I'm Mrs Fenwick. You'll be stopping with us at Bramble Farm. Do you know anything about hens?\"\n\nIris shook her head. She knew about buses and the corner shop and the sound the air-raid siren made when it rose and fell across the rooftops at night, but nothing at all about hens, or farms, or the strange green quiet of the countryside that seemed to stretch on forever in every direction.\n\n\"No matter,\" said Mrs Fenwick, taking Iris's suitcase before she could protest. \"You'll learn quickly enough, I expect. Everyone does.\" She set off along the platform at a brisk pace, and Iris hurried to keep up, gas mask box bumping against her hip, leaving Platform Four and the last familiar thing about her old life behind her.\n\nBy the time they reached the farm cart waiting outside the station, drawn by a patient grey pony, Iris had decided two things: that she missed her mother more than she had thought possible only that morning, and that Mrs Fenwick, despite her stern face, had a voice that softened slightly whenever she spoke about the hens waiting for them at home.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What did the label tied to Iris's coat say?",
+        "options": [
+          {
+            "id": "a",
+            "text": "IRIS BENNETT, AGE 9"
+          },
+          {
+            "id": "b",
+            "text": "PLEASE RETURN TO LONDON"
+          },
+          {
+            "id": "c",
+            "text": "BRAMBLE FARM"
+          },
+          {
+            "id": "d",
+            "text": "MRS FENWICK"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The text states: 'A cardboard label... read simply: IRIS BENNETT, AGE 9'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "short_answer",
+        "difficulty": "silver",
+        "promptText": "According to the passage, where had Iris travelled from?",
+        "acceptedAnswers": [
+          "London",
+          "Paddington in London",
+          "from Paddington station in London"
+        ],
+        "explanation": "The passage opens 'The train had been crowded since Paddington' and later refers to 'grey London streets' she had left behind."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "short_answer",
+        "difficulty": "silver",
+        "promptText": "Using evidence from the text, explain how Iris feels as she waits on the platform.",
+        "acceptedAnswers": [
+          "she feels nervous and out of place, comparing herself to a parcel being posted somewhere new",
+          "she feels uneasy and lost among strangers, finding nothing familiar in the crowd"
+        ],
+        "explanation": "The text says 'Iris scanned the faces for anything familiar and found nothing' and describes her feeling 'as though she were a parcel rather than a person', showing her nervousness and unease."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-2",
+        "subSkill": "inference",
+        "type": "short_answer",
+        "difficulty": "challenge",
+        "promptText": "Using evidence from across the whole passage, explain what the final paragraph suggests about how Iris's feelings towards Mrs Fenwick might be beginning to change.",
+        "acceptedAnswers": [
+          "although mrs fenwick seems stern, iris notices her voice softens when she talks about the hens, suggesting iris is starting to see a kinder side to her",
+          "it suggests iris is beginning to feel less afraid of mrs fenwick, noticing warmth beneath her strict manner"
+        ],
+        "explanation": "Despite Mrs Fenwick's stern first impression, Iris notices her voice 'softened slightly whenever she spoke about the hens', hinting at a kinder side Iris is beginning to notice."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What does 'resignation' mean as used to describe the adults' expressions on the platform?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Excitement about meeting new children"
+          },
+          {
+            "id": "b",
+            "text": "Quietly accepting something without complaint"
+          },
+          {
+            "id": "c",
+            "text": "Confusion about where to stand"
+          },
+          {
+            "id": "d",
+            "text": "Sudden anger"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The phrase 'weary resignation of people who had already taken in evacuees twice before' describes tired, reluctant acceptance rather than excitement or anger."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE6-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the details in the final paragraph, what is most likely to happen to Iris over the coming weeks?",
+        "options": [
+          {
+            "id": "a",
+            "text": "She will return to London immediately"
+          },
+          {
+            "id": "b",
+            "text": "She will gradually begin to adjust to life on the farm, despite missing her mother"
+          },
+          {
+            "id": "c",
+            "text": "She will run away from Bramble Farm that night"
+          },
+          {
+            "id": "d",
+            "text": "She will refuse to speak to Mrs Fenwick"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Noticing warmth in Mrs Fenwick's voice, even while missing her mother, suggests Iris may gradually settle in rather than reject her new home."
+      },
+      {
+        "strandSlug": "comparison",
+        "objectiveCode": "RE6-COM-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Compare Iris's life in London with what she encounters at Bramble Farm, according to the passage.",
+        "acceptedAnswers": [
+          "in london she knew buses, the corner shop and air-raid sirens, but at bramble farm everything is unfamiliar - the countryside, farm life and hens",
+          "her old life was noisy, urban and familiar, while bramble farm is quiet, green and completely new to her"
+        ],
+        "explanation": "The passage contrasts what Iris 'knew about' in London — buses, the corner shop, air-raid sirens — with the unfamiliar 'hens, or farms, or the strange green quiet of the countryside'."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE6-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one or two sentences, summarise what happens to Iris in this passage.",
+        "acceptedAnswers": [
+          "iris is evacuated from london by train and arrives at a country station, where she is taken in by mrs fenwick to live at bramble farm",
+          "iris travels from london to the countryside as an evacuee and is collected from the station by mrs fenwick to stay at her farm"
+        ],
+        "explanation": "A good summary covers Iris's evacuation journey from London and her being taken in by Mrs Fenwick to live at Bramble Farm."
+      }
+    ]
+  },
+  {
+    "title": "Evacuation: Britain's Wartime Journey",
+    "type": "non_fiction",
+    "yearGroup": "Y6",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "When Britain declared war on Germany in September 1939, the government faced an urgent problem: how to protect the millions of children living in cities that were expected to become targets for enemy bombing raids. The solution, launched in the first few days of the war, became known as Operation Pied Piper — one of the largest mass movements of people in British history.\n\nOver three days, roughly one and a half million people were moved out of major cities such as London, Liverpool and Manchester and relocated to towns and villages considered safer from air attack. The majority were schoolchildren, sent away from their families, often with only a small suitcase, a gas mask box and a luggage label pinned to their coat listing their name and school. Many had never left their home city before, let alone travelled without their parents.\n\nOn arrival, evacuees were gathered in village halls or school buildings, where local families, known as billeting hosts, would choose which children to take into their homes. This process, sometimes called 'the choosing', has since been criticised as chaotic and, at times, upsetting, since children were often selected based on their appearance rather than any thought given to keeping siblings together. Farming families frequently hoped for older, stronger children who could help with physical chores, while families with limited space understandably preferred fewer or younger evacuees.\n\nExperiences varied enormously. Some evacuees were welcomed warmly into kind, comfortable households and formed friendships and memories that lasted a lifetime. Others faced loneliness, homesickness or, in the worst cases, genuine unkindness from hosts who had not truly wanted to take in a child at all. Many evacuees also encountered a completely unfamiliar way of life; children raised amid city streets and shops often had no experience of muddy fields, farm animals or the near-total darkness of the countryside at night.\n\nInterestingly, after the initial wave of evacuations, thousands of families chose to bring their children back to the cities once the expected bombing raids failed to arrive immediately, a quiet period sometimes nicknamed the 'Phoney War'. This decision proved dangerous for many families, since the bombing campaign known as the Blitz began in earnest in September 1940, prompting a second, smaller wave of evacuations across the country.\n\nToday, historians regard evacuation as a defining experience of British childhood during the Second World War: a story of remarkable resilience and adaptability, but also one that reveals how war can disrupt even the most basic parts of ordinary life, tearing families apart in the name of safety.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What was the name given to the mass evacuation launched at the start of the war?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Operation Pied Piper"
+          },
+          {
+            "id": "b",
+            "text": "Operation Home Front"
+          },
+          {
+            "id": "c",
+            "text": "Operation Safe Haven"
+          },
+          {
+            "id": "d",
+            "text": "Operation Blitz"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The text states the evacuation plan 'became known as Operation Pied Piper'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "bronze",
+        "promptText": "Roughly how many people were moved out of major cities over the first three days of evacuation?",
+        "acceptedAnswers": [
+          "one and a half million",
+          "1.5 million",
+          "about 1,500,000",
+          "1,500,000"
+        ],
+        "explanation": "The passage says 'roughly one and a half million people were moved out of major cities' over three days."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "According to the passage, what did evacuees typically carry with them?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A small suitcase, a gas mask box and a luggage label"
+          },
+          {
+            "id": "b",
+            "text": "A bicycle and a tent"
+          },
+          {
+            "id": "c",
+            "text": "Only a gas mask box"
+          },
+          {
+            "id": "d",
+            "text": "Money and ration books"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The text says children travelled 'often with only a small suitcase, a gas mask box and a luggage label pinned to their coat'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'chaotic' mean as used to describe 'the choosing' process?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Calm and well organised"
+          },
+          {
+            "id": "b",
+            "text": "Disorganised and confusing"
+          },
+          {
+            "id": "c",
+            "text": "Friendly and welcoming"
+          },
+          {
+            "id": "d",
+            "text": "Quick and efficient"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The text says the choosing process 'has since been criticised as chaotic and, at times, upsetting', meaning disorganised and confusing."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What can you infer about why farming families 'frequently hoped for older, stronger children'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They wanted children's company for entertainment"
+          },
+          {
+            "id": "b",
+            "text": "They hoped the children could help with physical work on the farm"
+          },
+          {
+            "id": "c",
+            "text": "Older children were cheaper to feed"
+          },
+          {
+            "id": "d",
+            "text": "It was a legal requirement"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The text says farming families 'hoped for older, stronger children who could help with physical chores', implying they wanted help with farm work."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE6-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "silver",
+        "promptText": "Summarise, in your own words, why some families brought their children back to the cities during the 'Phoney War'.",
+        "acceptedAnswers": [
+          "because the expected bombing raids did not happen immediately, so families thought it was safe to bring their children home",
+          "the bombing they feared had not started yet, so many decided evacuation was not necessary and brought their children back"
+        ],
+        "explanation": "The passage explains families brought children home 'once the expected bombing raids failed to arrive immediately', during the quiet 'Phoney War' period."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE6-AUT-1",
+        "subSkill": "author-intent",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Why might the author have chosen to end the passage by describing evacuation as revealing 'how war can disrupt even the most basic parts of ordinary life'?",
+        "acceptedAnswers": [
+          "to leave the reader with a thoughtful, balanced final impression of both the resilience shown and the hardship caused by evacuation",
+          "to sum up the passage's balanced view, showing evacuation was not simply positive or negative but complicated and disruptive"
+        ],
+        "explanation": "This closing statement gives the passage a reflective, balanced ending, summing up both the resilience and the disruption caused by evacuation."
+      },
+      {
+        "strandSlug": "comparison",
+        "objectiveCode": "RE6-COM-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Compare the experiences of evacuees described in the passage: how did some children's experiences differ from others?",
+        "acceptedAnswers": [
+          "some were welcomed warmly and formed lasting friendships, while others faced loneliness, homesickness or unkindness from hosts who had not wanted to take them in",
+          "experiences varied - some evacuees were happy and well cared for, others felt lonely or were treated unkindly"
+        ],
+        "explanation": "The passage contrasts evacuees 'welcomed warmly into kind, comfortable households' with others who 'faced loneliness, homesickness or... genuine unkindness'."
+      }
+    ]
+  },
+  {
+    "title": "The Naturalist Who Changed Everything",
+    "type": "non_fiction",
+    "yearGroup": "Y6",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "As a boy, Charles Darwin was, by his own admission, an unremarkable pupil. His schoolmasters considered him ordinary at best, more interested in collecting beetles and wandering the countryside than in memorising Latin verbs, and his father once despaired that he would ever amount to anything beyond an idle hobby of chasing insects. Nobody watching young Darwin trudge home, pockets bulging with specimens, could have guessed that he would grow up to transform how humanity understood the natural world.\n\nIn 1831, at the age of twenty-two, Darwin was offered an unpaid position as a naturalist aboard HMS Beagle, a small survey ship setting out on a voyage that was expected to last two years but eventually stretched to almost five. The Beagle sailed to South America, the Galápagos Islands, and beyond, and Darwin, despite suffering from seasickness for much of the journey, filled notebook after notebook with careful observations of rocks, fossils, plants and animals unlike anything he had studied back in England.\n\nIt was on the Galápagos Islands that Darwin noticed something particularly curious. Finches on different islands, though clearly related, had subtly different beaks — some short and stout, ideal for cracking seeds, others long and slender, better suited to picking insects from crevices. At first, Darwin did not fully appreciate the significance of what he had found; it was only years later, after painstaking comparison of his specimens back in England, that the pattern began to suggest something extraordinary.\n\nDarwin spent more than twenty years quietly gathering further evidence before he dared publish his theory, partly because he understood how deeply controversial his conclusions would be. His idea, which came to be known as the theory of evolution by natural selection, proposed that species gradually change over many generations, as individuals with characteristics better suited to their environment are more likely to survive and pass those characteristics to their offspring. Given enough time, Darwin argued, this slow, unglamorous process could explain the extraordinary variety of life found across the entire planet.\n\nWhen Darwin finally published his ideas in 1859, in a book titled On the Origin of Species, the reaction was immediate and fierce. Many scientists and religious leaders rejected his theory outright, arguing it contradicted long-held beliefs about how life began. Others, however, recognised almost at once that Darwin had produced one of the most important scientific explanations in human history.\n\nToday, the theory of evolution by natural selection underpins almost every branch of modern biology, from medicine to conservation. It stands as a remarkable reminder that scientific breakthroughs do not always come from brilliant schoolwork or overnight inspiration, but sometimes from patient, curious observation, sustained over decades, by someone who simply refused to stop asking why.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "How old was Darwin when he was offered a position aboard HMS Beagle?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Twelve"
+          },
+          {
+            "id": "b",
+            "text": "Twenty-two"
+          },
+          {
+            "id": "c",
+            "text": "Thirty-two"
+          },
+          {
+            "id": "d",
+            "text": "Forty-two"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The passage states: 'In 1831, at the age of twenty-two, Darwin was offered an unpaid position as a naturalist aboard HMS Beagle.'"
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "According to the passage, what was noticeably different about finches on different Galápagos islands?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Their beaks"
+          },
+          {
+            "id": "b",
+            "text": "Their colours"
+          },
+          {
+            "id": "c",
+            "text": "Their size only"
+          },
+          {
+            "id": "d",
+            "text": "Their songs"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The text says 'Finches on different islands, though clearly related, had subtly different beaks'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'painstaking' mean as used to describe Darwin's comparison of his specimens?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Careless and quick"
+          },
+          {
+            "id": "b",
+            "text": "Done with great care and effort"
+          },
+          {
+            "id": "c",
+            "text": "Physically painful"
+          },
+          {
+            "id": "d",
+            "text": "Done by someone else on his behalf"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The phrase 'painstaking comparison of his specimens' describes work done with great care and thoroughness."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-2",
+        "subSkill": "vocabulary",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Explain the effect of describing evolution as a 'slow, unglamorous process' in the fourth paragraph.",
+        "acceptedAnswers": [
+          "it emphasises that the process is gradual and undramatic, despite the huge impact of its results",
+          "it contrasts the ordinary, undramatic nature of the process with the extraordinary results it can produce over time"
+        ],
+        "explanation": "Calling evolution 'slow, unglamorous' emphasises the contrast between its gradual, undramatic nature and the extraordinary variety of life it explains."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What can you infer from the fact that Darwin waited more than twenty years before publishing his theory?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He kept forgetting to write it up"
+          },
+          {
+            "id": "b",
+            "text": "He understood how controversial his theory would be and wanted to gather more evidence first"
+          },
+          {
+            "id": "c",
+            "text": "He did not believe his own theory"
+          },
+          {
+            "id": "d",
+            "text": "He was too busy travelling to write"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The text explains he waited 'partly because he understood how deeply controversial his conclusions would be', gathering further evidence in the meantime."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-2",
+        "subSkill": "inference",
+        "type": "short_answer",
+        "difficulty": "challenge",
+        "promptText": "Using evidence from across the whole passage, explain why the author describes Darwin as an 'unremarkable pupil' in the opening paragraph.",
+        "acceptedAnswers": [
+          "to create a contrast between his ordinary, unpromising childhood and his extraordinary later achievement, making his success feel more surprising",
+          "it sets up a contrast with his later scientific breakthrough, showing that great achievements do not always come from being an obviously gifted student"
+        ],
+        "explanation": "Opening with Darwin's ordinary schooldays creates a contrast with his later, extraordinary achievement, making the theory of evolution feel even more remarkable."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE6-SUM-1",
+        "subSkill": "summarising",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Which sentence best summarises this passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Charles Darwin, an ordinary schoolboy, made careful observations during a long voyage that eventually led him to develop the theory of evolution, a discovery that transformed science despite early controversy"
+          },
+          {
+            "id": "b",
+            "text": "Darwin was famous at school for being brilliant at Latin"
+          },
+          {
+            "id": "c",
+            "text": "Darwin invented the Galápagos finches"
+          },
+          {
+            "id": "d",
+            "text": "Darwin published his theory the day after returning from his voyage"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "This captures Darwin's ordinary schooldays, his voyage and observations, and the eventual, controversial publication of his theory."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE6-AUT-1",
+        "subSkill": "author-intent",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why might the author have chosen to end the passage with the idea that breakthroughs come from 'patient, curious observation... by someone who simply refused to stop asking why'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To leave the reader with an inspiring message about curiosity and persistence, rather than natural genius"
+          },
+          {
+            "id": "b",
+            "text": "To suggest that anyone can become famous overnight"
+          },
+          {
+            "id": "c",
+            "text": "To criticise Darwin's old schoolmasters"
+          },
+          {
+            "id": "d",
+            "text": "To explain how ships like HMS Beagle were built"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "This closing message reframes Darwin's success as a result of patience and curiosity rather than natural brilliance, leaving the reader with an inspiring, reflective ending."
+      }
+    ]
+  },
+  {
+    "title": "Migration",
+    "type": "poetry",
+    "yearGroup": "Y6",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "They gather first on telephone wires,\na hundred dark commas against the grey,\nrestless with a knowledge older than instinct,\nthat summer, this year, will not stay.\n\nNo map is folded in a beak,\nno compass carried underwing,\nyet something pulls them south and southward still,\nthe way a held breath waits to sing.\n\nI watched them lift as one dark cloud,\na single thought in a thousand wings,\nand felt the garden empty out\nof something I could not quite name —\n\nthe swing that creaks with no one on it,\nthe washing line, the fading light,\nthe strange, small ache of staying still\nwhile something else takes flight.\n\nThey will return, my mother says,\nwhen frost has loosened from the ground,\nbut spring feels far as Africa tonight,\nand the garden holds an emptied sound.",
+    "questions": [
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "Where do the birds gather at the start of the poem?",
+        "options": [
+          {
+            "id": "a",
+            "text": "On telephone wires"
+          },
+          {
+            "id": "b",
+            "text": "In the garden trees"
+          },
+          {
+            "id": "c",
+            "text": "On the rooftop"
+          },
+          {
+            "id": "d",
+            "text": "By the swing"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem opens: 'They gather first on telephone wires.'"
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "In the poem, the birds are described as 'a hundred dark commas against the grey'. What technique is this an example of?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Metaphor"
+          },
+          {
+            "id": "b",
+            "text": "Onomatopoeia"
+          },
+          {
+            "id": "c",
+            "text": "Alliteration"
+          },
+          {
+            "id": "d",
+            "text": "End rhyme"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The birds are directly described as 'commas' without using 'like' or 'as', making this a metaphor."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "short_answer",
+        "difficulty": "silver",
+        "promptText": "Using evidence from the poem, explain how the speaker feels about the birds leaving.",
+        "acceptedAnswers": [
+          "the speaker feels a sense of loss or sadness, described as 'the strange, small ache of staying still while something else takes flight'",
+          "the speaker feels sad and a little empty, missing the birds and comparing the feeling to an ache"
+        ],
+        "explanation": "The poem describes 'the strange, small ache of staying still / while something else takes flight', showing the speaker's sadness at being left behind."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-2",
+        "subSkill": "vocabulary",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Explain the effect of the phrase 'the garden holds an emptied sound' in the final stanza.",
+        "acceptedAnswers": [
+          "it creates a sense of quiet absence, as if the garden itself feels the loss of the birds' presence and sound",
+          "it suggests the garden feels strangely silent and empty now the birds have left, giving a feeling of loss"
+        ],
+        "explanation": "Describing the garden as holding 'an emptied sound' gives the silence a physical presence, emphasising how strongly the birds' absence is felt."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE6-AUT-1",
+        "subSkill": "author-intent",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why might the poet have included the lines 'No map is folded in a beak, / no compass carried underwing'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To explain literally how birds use navigation tools"
+          },
+          {
+            "id": "b",
+            "text": "To highlight how remarkable and mysterious it is that birds can migrate accurately without instruments"
+          },
+          {
+            "id": "c",
+            "text": "To suggest the birds are lost"
+          },
+          {
+            "id": "d",
+            "text": "To describe a science experiment being conducted"
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "By denying the tools we might expect (a map, a compass), the poet emphasises the mystery and wonder of the birds' natural instinct."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE6-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "silver",
+        "promptText": "In your own words, summarise what this poem is about.",
+        "acceptedAnswers": [
+          "birds migrating south for the winter and the speaker's feeling of sadness and emptiness at their leaving, with hope for their return in spring",
+          "a flock of birds leaving for migration, and how the speaker misses them and looks forward to their return"
+        ],
+        "explanation": "The poem follows a flock of birds gathering and leaving on their migration, and the speaker's feeling of loss, ending with hope for their return."
+      },
+      {
+        "strandSlug": "comparison",
+        "objectiveCode": "RE6-COM-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "challenge",
+        "promptText": "Compare the mood of the poem in the first stanza with the mood in the final two stanzas.",
+        "acceptedAnswers": [
+          "the first stanza feels restless and full of energy as the birds gather, while the final stanzas feel quieter, sadder and emptier once the birds have gone",
+          "it shifts from a busy, anticipatory mood as the birds prepare to leave to a quieter, more melancholy mood once they have gone"
+        ],
+        "explanation": "The poem moves from the restless energy of birds gathering ('restless with a knowledge older than instinct') to the quiet sadness of the empty garden in the final stanzas ('an emptied sound')."
+      }
+    ]
   }
 ]
