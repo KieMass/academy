@@ -9,28 +9,56 @@
       { "yearGroup": "Y5", "objectives": [
         { "code": "GE5-MAP-1", "description": "Use maps, atlases, globes and digital mapping to locate countries and describe features studied", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
         { "code": "GE5-MAP-2", "description": "Use symbols and a key (including the use of Ordnance Survey maps) to build knowledge of the UK and wider world", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GE6-MAP-1", "description": "Use a range of maps, atlases, globes and digital mapping confidently to plan routes and locate features at a variety of scales", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
       ] }
     ] },
     { "slug": "coordinates", "name": "Coordinates, Grid References & Scale", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GE5-COORD-1", "description": "Use four-figure grid references and understand latitude and longitude", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["fill_in_box","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GE6-COORD-1", "description": "Use six-figure grid references, and understand latitude, longitude, the Equator, hemispheres, the Tropics of Cancer and Capricorn, the Arctic and Antarctic Circles and time zones", "difficultyBands": ["gold","challenge"], "questionTypes": ["fill_in_box","short_answer"] }
       ] }
     ] },
     { "slug": "natural-resources", "name": "Natural Resources", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GE5-RES-1", "description": "Describe the distribution of natural resources including energy, food, minerals and water", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GE6-RES-1", "description": "Explain how the uneven distribution of natural resources affects trade and quality of life between regions", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
       ] }
     ] },
     { "slug": "environmental-issues", "name": "Environmental Issues", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GE5-ENV-1", "description": "Explain human impact on the environment, including climate change and its effect on small island nations such as the Cayman Islands", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] },
         { "code": "GE5-ENV-2", "description": "Describe how coral reefs and mangroves protect coastlines and support biodiversity", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GE6-ENV-1", "description": "Evaluate the effectiveness of different strategies used to reduce human impact on the environment, including in small island nations", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
       ] }
     ] },
     { "slug": "world-geography", "name": "World Geography", "years": [
       { "yearGroup": "Y5", "objectives": [
         { "code": "GE5-WOR-1", "description": "Locate the world's countries, focusing on the Caribbean, Europe and North/South America, and their environmental regions", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
         { "code": "GE5-WOR-2", "description": "Describe climate zones, biomes and vegetation belts, and understand key aspects of physical geography including hurricanes and volcanoes", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] }
+      ] },
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GE6-WOR-1", "description": "Locate the world's countries, using maps to focus on Asia and Africa, and their environmental regions, key physical and human characteristics", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
+        { "code": "GE6-WOR-2", "description": "Compare a region of the United Kingdom with a region in a country in Asia or Africa", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multi_step"] }
+      ] }
+    ] },
+    { "slug": "rivers-water-cycle", "name": "Rivers and the Water Cycle", "description": "New for Y6: physical geography of rivers and the water cycle.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GE6-RIV-1", "description": "Describe the stages of the water cycle, including evaporation, condensation and precipitation", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "GE6-RIV-2", "description": "Describe the physical features of a river from source to mouth, and explain how rivers shape the landscape", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] }
+      ] }
+    ] },
+    { "slug": "economic-activity-trade", "name": "Economic Activity & Trade", "description": "New for Y6: human geography — economic activity, land use and trade links.", "years": [
+      { "yearGroup": "Y6", "objectives": [
+        { "code": "GE6-ECO-1", "description": "Describe types of economic activity, including trade links and the distribution of natural resources, focusing on energy, food, minerals and water", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
+        { "code": "GE6-ECO-2", "description": "Explain how land use changes as a settlement grows, and describe the key characteristics of settlement and land use", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
       ] }
     ] }
   ]
