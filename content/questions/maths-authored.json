@@ -3309,5 +3309,191 @@
       }
     ],
     "explanation": "Adding back the subtracted amount (487 + 295 = 782) matches the original number, confirming 487 is correct."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "subtraction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-SUB-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A shop has 850 items in stock. It sells 275 in the morning and 189 in the afternoon. How many items are left in stock?",
+    "acceptedAnswers": [
+      "386"
+    ],
+    "explanation": "850 - 275 - 189 = 386."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "subtraction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-SUB-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A school hall can seat 500 people. 218 adults and 173 children attend a concert. How many empty seats are there?",
+    "acceptedAnswers": [
+      "109"
+    ],
+    "explanation": "500 - 218 - 173 = 109."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "subtraction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-SUB-1",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "A water tank holds 2,000 litres. On Monday, 450 litres are used. On Tuesday, a further 380 litres are used.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How many litres are left after Monday?",
+        "acceptedAnswers": [
+          "1550"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many litres are left after Tuesday too?",
+        "acceptedAnswers": [
+          "1170"
+        ]
+      }
+    ],
+    "explanation": "2000 - 450 = 1550 after Monday. 1550 - 380 = 1170 after Tuesday."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "subtraction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-SUB-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "A company had $12,500 in its account. It spent $3,750 on rent and $2,890 on supplies, then earned $1,200 from sales. What is the final balance?",
+    "acceptedAnswers": [
+      "7060",
+      "$7060"
+    ],
+    "explanation": "12500 - 3750 - 2890 + 1200 = 7060."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "subtraction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-SUB-1",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "A stadium has a capacity of 45,000. 32,650 tickets are sold for the first match. The second match sells 5,000 more tickets than the first.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How many tickets were sold for the second match?",
+        "acceptedAnswers": [
+          "37650"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many empty seats were there for the second match?",
+        "acceptedAnswers": [
+          "7350"
+        ]
+      }
+    ],
+    "explanation": "32650 + 5000 = 37650 tickets sold for the second match. 45000 - 37650 = 7350 empty seats."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "subtraction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-SUB-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A journey is 674 km long. After driving 385 km, the driver stops for a break, then drives a further 149 km. How much further do they need to travel to complete the journey?",
+    "acceptedAnswers": [
+      "140",
+      "140km",
+      "140 km"
+    ],
+    "explanation": "674 - 385 - 149 = 140 km."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "subtraction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-SUB-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "A charity aims to raise $10,000. By March they have raised $4,250, and by June a further $3,180. How much more do they need to raise to reach their target?",
+    "acceptedAnswers": [
+      "2570",
+      "$2570"
+    ],
+    "explanation": "10000 - 4250 - 3180 = 2570."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "subtraction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-SUB-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A baker starts with 15 kg of flour. She uses 4.5 kg to make bread and 3.75 kg to make cakes.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How much flour is left after making the bread?",
+        "acceptedAnswers": [
+          "10.5"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How much flour is left after making the cakes too?",
+        "acceptedAnswers": [
+          "6.75"
+        ]
+      }
+    ],
+    "explanation": "15 - 4.5 = 10.5 kg after the bread. 10.5 - 3.75 = 6.75 kg after the cakes too."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "subtraction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-SUB-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A cinema has 320 seats. For a showing, 145 are booked online and 98 are booked at the counter. How many seats remain unbooked?",
+    "acceptedAnswers": [
+      "77"
+    ],
+    "explanation": "320 - 145 - 98 = 77."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "subtraction",
+    "yearGroup": "Y6",
+    "objectiveCode": "MA6-SUB-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "In a sponsored walk, the total distance is 26 miles. A walker completes 11.5 miles before lunch and 8.25 miles after lunch.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How many miles has the walker completed in total?",
+        "acceptedAnswers": [
+          "19.75"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many miles are left to walk?",
+        "acceptedAnswers": [
+          "6.25"
+        ]
+      }
+    ],
+    "explanation": "11.5 + 8.25 = 19.75 miles completed. 26 - 19.75 = 6.25 miles remaining."
   }
 ]

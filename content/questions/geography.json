@@ -1,159 +1,2095 @@
 [
-  { "subjectSlug": "geography", "strandSlug": "maps", "yearGroup": "Y5", "objectiveCode": "GE5-MAP-1", "type": "multiple_choice", "difficulty": "bronze",
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-MAP-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which tool would best help you find the meaning of symbols on a map?",
-    "options": [{ "id": "a", "text": "The compass rose" }, { "id": "b", "text": "The key (legend)" }, { "id": "c", "text": "The scale bar" }, { "id": "d", "text": "The title" }],
-    "correctOptionId": "b", "explanation": "A map's key (or legend) explains what each symbol on the map represents." },
-  { "subjectSlug": "geography", "strandSlug": "maps", "yearGroup": "Y5", "objectiveCode": "GE5-MAP-1", "type": "multiple_choice", "difficulty": "bronze",
+    "options": [
+      {
+        "id": "a",
+        "text": "The compass rose"
+      },
+      {
+        "id": "b",
+        "text": "The key (legend)"
+      },
+      {
+        "id": "c",
+        "text": "The scale bar"
+      },
+      {
+        "id": "d",
+        "text": "The title"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A map's key (or legend) explains what each symbol on the map represents."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-MAP-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "On a compass rose, which direction is directly opposite North?",
-    "options": [{ "id": "a", "text": "East" }, { "id": "b", "text": "West" }, { "id": "c", "text": "South" }, { "id": "d", "text": "North-East" }],
-    "correctOptionId": "c", "explanation": "South is directly opposite North on a compass." },
-  { "subjectSlug": "geography", "strandSlug": "maps", "yearGroup": "Y5", "objectiveCode": "GE5-MAP-2", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "East"
+      },
+      {
+        "id": "b",
+        "text": "West"
+      },
+      {
+        "id": "c",
+        "text": "South"
+      },
+      {
+        "id": "d",
+        "text": "North-East"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "South is directly opposite North on a compass."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-MAP-2",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "What does the scale on a map help you calculate?",
-    "acceptedAnswers": ["real distances", "the actual distance between places", "how far things are in real life"],
-    "explanation": "A map's scale shows the relationship between distance on the map and real-world distance." },
-  { "subjectSlug": "geography", "strandSlug": "maps", "yearGroup": "Y5", "objectiveCode": "GE5-MAP-2", "type": "multiple_choice", "difficulty": "silver",
+    "acceptedAnswers": [
+      "real distances",
+      "the actual distance between places",
+      "how far things are in real life"
+    ],
+    "explanation": "A map's scale shows the relationship between distance on the map and real-world distance."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-MAP-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "On an Ordnance Survey map, what does a symbol of a small church with a cross usually represent?",
-    "options": [{ "id": "a", "text": "A place of worship" }, { "id": "b", "text": "A hospital" }, { "id": "c", "text": "A railway station" }, { "id": "d", "text": "A car park" }],
-    "correctOptionId": "a", "explanation": "A small cross/church symbol on OS maps typically marks a place of worship." },
-  { "subjectSlug": "geography", "strandSlug": "coordinates", "yearGroup": "Y5", "objectiveCode": "GE5-COORD-1", "type": "fill_in_box", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "A place of worship"
+      },
+      {
+        "id": "b",
+        "text": "A hospital"
+      },
+      {
+        "id": "c",
+        "text": "A railway station"
+      },
+      {
+        "id": "d",
+        "text": "A car park"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A small cross/church symbol on OS maps typically marks a place of worship."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-COORD-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
     "promptText": "A four-figure grid reference is read across then up. For the reference '2678', what are the 'easting' digits?",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["26"] }], "explanation": "In a four-figure grid reference, the first two digits are the easting (across) and the last two are the northing (up)." },
-  { "subjectSlug": "geography", "strandSlug": "coordinates", "yearGroup": "Y5", "objectiveCode": "GE5-COORD-1", "type": "multiple_choice", "difficulty": "gold",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "26"
+        ]
+      }
+    ],
+    "explanation": "In a four-figure grid reference, the first two digits are the easting (across) and the last two are the northing (up)."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-COORD-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Which imaginary line running east-west around the Earth is used to measure latitude, and is at 0°?",
-    "options": [{ "id": "a", "text": "The Prime Meridian" }, { "id": "b", "text": "The Equator" }, { "id": "c", "text": "The Tropic of Cancer" }, { "id": "d", "text": "The Arctic Circle" }],
-    "correctOptionId": "b", "explanation": "The Equator is the 0° line of latitude, running east-west around the middle of the Earth." },
-  { "subjectSlug": "geography", "strandSlug": "coordinates", "yearGroup": "Y5", "objectiveCode": "GE5-COORD-1", "type": "multiple_choice", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Prime Meridian"
+      },
+      {
+        "id": "b",
+        "text": "The Equator"
+      },
+      {
+        "id": "c",
+        "text": "The Tropic of Cancer"
+      },
+      {
+        "id": "d",
+        "text": "The Arctic Circle"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Equator is the 0° line of latitude, running east-west around the middle of the Earth."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-COORD-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Which line of longitude is defined as 0°, passing through Greenwich, London?",
-    "options": [{ "id": "a", "text": "The Equator" }, { "id": "b", "text": "The Prime Meridian" }, { "id": "c", "text": "The International Date Line" }, { "id": "d", "text": "The Tropic of Capricorn" }],
-    "correctOptionId": "b", "explanation": "The Prime Meridian, passing through Greenwich, is the 0° line of longitude." },
-  { "subjectSlug": "geography", "strandSlug": "natural-resources", "yearGroup": "Y5", "objectiveCode": "GE5-RES-1", "type": "multiple_choice", "difficulty": "bronze",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Equator"
+      },
+      {
+        "id": "b",
+        "text": "The Prime Meridian"
+      },
+      {
+        "id": "c",
+        "text": "The International Date Line"
+      },
+      {
+        "id": "d",
+        "text": "The Tropic of Capricorn"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Prime Meridian, passing through Greenwich, is the 0° line of longitude."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-RES-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which of these is a renewable natural resource?",
-    "options": [{ "id": "a", "text": "Coal" }, { "id": "b", "text": "Oil" }, { "id": "c", "text": "Solar energy" }, { "id": "d", "text": "Natural gas" }],
-    "correctOptionId": "c", "explanation": "Solar energy is renewable because it is continuously produced by the sun, unlike fossil fuels." },
-  { "subjectSlug": "geography", "strandSlug": "natural-resources", "yearGroup": "Y5", "objectiveCode": "GE5-RES-1", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Coal"
+      },
+      {
+        "id": "b",
+        "text": "Oil"
+      },
+      {
+        "id": "c",
+        "text": "Solar energy"
+      },
+      {
+        "id": "d",
+        "text": "Natural gas"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Solar energy is renewable because it is continuously produced by the sun, unlike fossil fuels."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-RES-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Name one natural resource that is especially important to island nations like the Cayman Islands.",
-    "acceptedAnswers": ["fresh water", "fish", "the sea", "sunshine/solar energy", "coral reefs"],
-    "explanation": "Islands often rely heavily on marine resources (fish, reefs), fresh water and sunshine for energy and tourism." },
-  { "subjectSlug": "geography", "strandSlug": "environmental-issues", "yearGroup": "Y5", "objectiveCode": "GE5-ENV-1", "type": "multiple_choice", "difficulty": "silver",
+    "acceptedAnswers": [
+      "fresh water",
+      "fish",
+      "the sea",
+      "sunshine/solar energy",
+      "coral reefs"
+    ],
+    "explanation": "Islands often rely heavily on marine resources (fish, reefs), fresh water and sunshine for energy and tourism."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-ENV-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Why are small island nations, such as the Cayman Islands, especially vulnerable to climate change?",
-    "options": [{ "id": "a", "text": "They have very cold weather" }, { "id": "b", "text": "Rising sea levels can flood low-lying coastal land" }, { "id": "c", "text": "They have too much fresh water" }, { "id": "d", "text": "They are far from the ocean" }],
-    "correctOptionId": "b", "explanation": "Rising sea levels threaten to flood or erode the low-lying coastal areas common on small islands." },
-  { "subjectSlug": "geography", "strandSlug": "environmental-issues", "yearGroup": "Y5", "objectiveCode": "GE5-ENV-2", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "They have very cold weather"
+      },
+      {
+        "id": "b",
+        "text": "Rising sea levels can flood low-lying coastal land"
+      },
+      {
+        "id": "c",
+        "text": "They have too much fresh water"
+      },
+      {
+        "id": "d",
+        "text": "They are far from the ocean"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Rising sea levels threaten to flood or erode the low-lying coastal areas common on small islands."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-ENV-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "How do mangrove forests help protect coastlines?",
-    "options": [{ "id": "a", "text": "They absorb wave energy and reduce erosion" }, { "id": "b", "text": "They stop rain from falling" }, { "id": "c", "text": "They increase sea temperature" }, { "id": "d", "text": "They attract more hurricanes" }],
-    "correctOptionId": "a", "explanation": "Mangrove roots absorb wave energy and stabilise soil, reducing coastal erosion and storm damage." },
-  { "subjectSlug": "geography", "strandSlug": "environmental-issues", "yearGroup": "Y5", "objectiveCode": "GE5-ENV-1", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "They absorb wave energy and reduce erosion"
+      },
+      {
+        "id": "b",
+        "text": "They stop rain from falling"
+      },
+      {
+        "id": "c",
+        "text": "They increase sea temperature"
+      },
+      {
+        "id": "d",
+        "text": "They attract more hurricanes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Mangrove roots absorb wave energy and stabilise soil, reducing coastal erosion and storm damage."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-ENV-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Suggest one action people can take to help reduce the effects of climate change.",
-    "acceptedAnswers": ["reduce plastic use", "recycle", "use less energy", "plant trees", "use renewable energy", "walk or cycle instead of driving"],
-    "explanation": "Reducing energy use, recycling, using renewable energy and protecting habitats all help reduce climate impact." },
-  { "subjectSlug": "geography", "strandSlug": "world-geography", "yearGroup": "Y5", "objectiveCode": "GE5-WOR-1", "type": "multiple_choice", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "reduce plastic use",
+      "recycle",
+      "use less energy",
+      "plant trees",
+      "use renewable energy",
+      "walk or cycle instead of driving"
+    ],
+    "explanation": "Reducing energy use, recycling, using renewable energy and protecting habitats all help reduce climate impact."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-WOR-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which sea/ocean region are the Cayman Islands located in?",
-    "options": [{ "id": "a", "text": "The Caribbean Sea" }, { "id": "b", "text": "The Mediterranean Sea" }, { "id": "c", "text": "The Indian Ocean" }, { "id": "d", "text": "The North Sea" }],
-    "correctOptionId": "a", "explanation": "The Cayman Islands lie in the Caribbean Sea, south of Cuba." },
-  { "subjectSlug": "geography", "strandSlug": "world-geography", "yearGroup": "Y5", "objectiveCode": "GE5-WOR-2", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Caribbean Sea"
+      },
+      {
+        "id": "b",
+        "text": "The Mediterranean Sea"
+      },
+      {
+        "id": "c",
+        "text": "The Indian Ocean"
+      },
+      {
+        "id": "d",
+        "text": "The North Sea"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Cayman Islands lie in the Caribbean Sea, south of Cuba."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-WOR-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "What is a hurricane primarily powered by?",
-    "options": [{ "id": "a", "text": "Cold, dry air over land" }, { "id": "b", "text": "Warm, moist air rising over warm ocean water" }, { "id": "c", "text": "Volcanic eruptions" }, { "id": "d", "text": "Earthquakes" }],
-    "correctOptionId": "b", "explanation": "Hurricanes form and strengthen over warm ocean water as warm, moist air rises rapidly." },
-  { "subjectSlug": "geography", "strandSlug": "world-geography", "yearGroup": "Y5", "objectiveCode": "GE5-WOR-1", "type": "matching", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cold, dry air over land"
+      },
+      {
+        "id": "b",
+        "text": "Warm, moist air rising over warm ocean water"
+      },
+      {
+        "id": "c",
+        "text": "Volcanic eruptions"
+      },
+      {
+        "id": "d",
+        "text": "Earthquakes"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Hurricanes form and strengthen over warm ocean water as warm, moist air rises rapidly."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-WOR-1",
+    "type": "matching",
+    "difficulty": "silver",
     "promptText": "Match each continent to a country found on it.",
-    "pairs": [ { "id": "p1", "left": "North America", "right": "Canada" }, { "id": "p2", "left": "South America", "right": "Brazil" }, { "id": "p3", "left": "Europe", "right": "France" }, { "id": "p4", "left": "Africa", "right": "Kenya" } ],
-    "explanation": "Each country is located within the named continent." },
-  { "subjectSlug": "geography", "strandSlug": "world-geography", "yearGroup": "Y5", "objectiveCode": "GE5-WOR-2", "type": "short_answer", "difficulty": "gold",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "North America",
+        "right": "Canada"
+      },
+      {
+        "id": "p2",
+        "left": "South America",
+        "right": "Brazil"
+      },
+      {
+        "id": "p3",
+        "left": "Europe",
+        "right": "France"
+      },
+      {
+        "id": "p4",
+        "left": "Africa",
+        "right": "Kenya"
+      }
+    ],
+    "explanation": "Each country is located within the named continent."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-WOR-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "What is the name for the imaginary line of latitude that marks the boundary of the tropics in the Northern Hemisphere?",
-    "acceptedAnswers": ["tropic of cancer"], "explanation": "The Tropic of Cancer marks the northernmost point where the sun can be directly overhead." },
-  { "subjectSlug": "geography", "strandSlug": "maps", "yearGroup": "Y6", "objectiveCode": "GE6-MAP-1", "type": "multiple_choice", "difficulty": "silver",
+    "acceptedAnswers": [
+      "tropic of cancer"
+    ],
+    "explanation": "The Tropic of Cancer marks the northernmost point where the sun can be directly overhead."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-MAP-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which of these is an example of digital mapping that can help you plan a route and get live directions?",
-    "options": [{ "id": "a", "text": "A satellite navigation (GPS) app" }, { "id": "b", "text": "A paper atlas" }, { "id": "c", "text": "A globe" }, { "id": "d", "text": "A photograph of a street" }],
-    "correctOptionId": "a", "explanation": "Digital mapping such as satnav apps use satellite data to plan routes and give live, updating directions." },
-  { "subjectSlug": "geography", "strandSlug": "maps", "yearGroup": "Y6", "objectiveCode": "GE6-MAP-1", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "A satellite navigation (GPS) app"
+      },
+      {
+        "id": "b",
+        "text": "A paper atlas"
+      },
+      {
+        "id": "c",
+        "text": "A globe"
+      },
+      {
+        "id": "d",
+        "text": "A photograph of a street"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Digital mapping such as satnav apps use satellite data to plan routes and give live, updating directions."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-MAP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Give one advantage that digital mapping has over a printed paper map when planning a route.",
-    "acceptedAnswers": ["it can update in real time", "it shows traffic or live conditions", "it can recalculate the route", "it can show your exact location", "it is easier to zoom in and out"],
-    "explanation": "Digital maps can update in real time, show live conditions such as traffic, and recalculate a route, unlike a fixed paper map." },
-  { "subjectSlug": "geography", "strandSlug": "coordinates", "yearGroup": "Y6", "objectiveCode": "GE6-COORD-1", "type": "fill_in_box", "difficulty": "gold",
+    "acceptedAnswers": [
+      "it can update in real time",
+      "it shows traffic or live conditions",
+      "it can recalculate the route",
+      "it can show your exact location",
+      "it is easier to zoom in and out"
+    ],
+    "explanation": "Digital maps can update in real time, show live conditions such as traffic, and recalculate a route, unlike a fixed paper map."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-COORD-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
     "promptText": "A six-figure grid reference is more precise than a four-figure one. In the reference '267781', what are the three 'easting' digits?",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["267"] }], "explanation": "In a six-figure grid reference, the first three digits are the easting (across) and the last three are the northing (up), giving a more precise location than a four-figure reference." },
-  { "subjectSlug": "geography", "strandSlug": "coordinates", "yearGroup": "Y6", "objectiveCode": "GE6-COORD-1", "type": "short_answer", "difficulty": "gold",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "267"
+        ]
+      }
+    ],
+    "explanation": "In a six-figure grid reference, the first three digits are the easting (across) and the last three are the northing (up), giving a more precise location than a four-figure reference."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-COORD-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Which line of latitude marks the southern boundary of the tropics, passing through countries such as Brazil and Australia?",
-    "acceptedAnswers": ["tropic of capricorn"], "explanation": "The Tropic of Capricorn, at about 23.5°S, marks the southernmost point where the sun can be directly overhead." },
-  { "subjectSlug": "geography", "strandSlug": "coordinates", "yearGroup": "Y6", "objectiveCode": "GE6-COORD-1", "type": "short_answer", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "tropic of capricorn"
+    ],
+    "explanation": "The Tropic of Capricorn, at about 23.5°S, marks the southernmost point where the sun can be directly overhead."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-COORD-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
     "promptText": "The world is divided into time zones, so it is a different time of day in different countries at the same moment. What causes this?",
-    "acceptedAnswers": ["the rotation of the earth", "the earth spinning on its axis", "the earth turning on its axis"],
-    "explanation": "As the Earth rotates on its axis, different lines of longitude face the sun at different moments, so the world is divided into time zones roughly 15° of longitude apart." },
-  { "subjectSlug": "geography", "strandSlug": "natural-resources", "yearGroup": "Y6", "objectiveCode": "GE6-RES-1", "type": "short_answer", "difficulty": "silver",
+    "acceptedAnswers": [
+      "the rotation of the earth",
+      "the earth spinning on its axis",
+      "the earth turning on its axis"
+    ],
+    "explanation": "As the Earth rotates on its axis, different lines of longitude face the sun at different moments, so the world is divided into time zones roughly 15° of longitude apart."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RES-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Why might a country with large oil reserves have a different quality of life to a country with very few natural resources?",
-    "acceptedAnswers": ["it can sell or export the oil for money", "it can trade the resource to earn income", "it has more resources to trade and profit from"],
-    "explanation": "Countries rich in resources such as oil can trade them for income, which can improve infrastructure and services, though this wealth is not always shared evenly." },
-  { "subjectSlug": "geography", "strandSlug": "natural-resources", "yearGroup": "Y6", "objectiveCode": "GE6-RES-1", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "it can sell or export the oil for money",
+      "it can trade the resource to earn income",
+      "it has more resources to trade and profit from"
+    ],
+    "explanation": "Countries rich in resources such as oil can trade them for income, which can improve infrastructure and services, though this wealth is not always shared evenly."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RES-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "Water is unevenly distributed around the world. Answer the following about how this affects regions.",
     "steps": [
-      { "id": "s1", "prompt": "Name one region of the world that often experiences water scarcity.", "acceptedAnswers": ["sub-saharan africa", "the sahel", "north africa", "the middle east"] },
-      { "id": "s2", "prompt": "Give one effect that water scarcity can have on quality of life.", "acceptedAnswers": ["less water for farming or crops", "disease from unsafe water", "less food produced", "people have to travel far for water"] },
-      { "id": "s3", "prompt": "Suggest one way water can be moved from an area with plenty to an area with too little.", "acceptedAnswers": ["pipelines", "importing or trading water", "building reservoirs and transporting it", "desalination"] }
+      {
+        "id": "s1",
+        "prompt": "Name one region of the world that often experiences water scarcity.",
+        "acceptedAnswers": [
+          "sub-saharan africa",
+          "the sahel",
+          "north africa",
+          "the middle east"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Give one effect that water scarcity can have on quality of life.",
+        "acceptedAnswers": [
+          "less water for farming or crops",
+          "disease from unsafe water",
+          "less food produced",
+          "people have to travel far for water"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Suggest one way water can be moved from an area with plenty to an area with too little.",
+        "acceptedAnswers": [
+          "pipelines",
+          "importing or trading water",
+          "building reservoirs and transporting it",
+          "desalination"
+        ]
+      }
     ],
-    "explanation": "Water is not evenly distributed globally; regions with scarcity often have lower agricultural output and poorer health, while pipelines, trade and technology like desalination can help move or create fresh water." },
-  { "subjectSlug": "geography", "strandSlug": "environmental-issues", "yearGroup": "Y6", "objectiveCode": "GE6-ENV-1", "type": "short_answer", "difficulty": "gold",
+    "explanation": "Water is not evenly distributed globally; regions with scarcity often have lower agricultural output and poorer health, while pipelines, trade and technology like desalination can help move or create fresh water."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ENV-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Is banning single-use plastic bags likely to help reduce pollution on a small island such as the Cayman Islands? Give one reason for your answer.",
-    "acceptedAnswers": ["yes because it reduces plastic waste", "yes because less plastic ends up in the sea", "it helps reduce marine plastic pollution", "it reduces litter"],
-    "explanation": "Banning single-use plastic bags can reduce litter and marine plastic pollution, though its overall effectiveness depends on whether other sources of plastic waste are also tackled." },
-  { "subjectSlug": "geography", "strandSlug": "environmental-issues", "yearGroup": "Y6", "objectiveCode": "GE6-ENV-1", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "yes because it reduces plastic waste",
+      "yes because less plastic ends up in the sea",
+      "it helps reduce marine plastic pollution",
+      "it reduces litter"
+    ],
+    "explanation": "Banning single-use plastic bags can reduce litter and marine plastic pollution, though its overall effectiveness depends on whether other sources of plastic waste are also tackled."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ENV-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "Small island nations use different strategies to reduce their impact on the environment. Answer the following.",
     "steps": [
-      { "id": "s1", "prompt": "Name one strategy a small island nation could use to reduce its environmental impact.", "acceptedAnswers": ["renewable energy or solar power", "recycling schemes", "protecting mangroves and coral reefs", "reducing plastic use", "marine protected areas"] },
-      { "id": "s2", "prompt": "Explain one advantage of this strategy.", "acceptedAnswers": ["it reduces pollution", "it protects wildlife or habitats", "it reduces reliance on fossil fuels", "it protects the coastline from storms"] },
-      { "id": "s3", "prompt": "Explain one limitation or challenge of this strategy.", "acceptedAnswers": ["it can be expensive", "it can take a long time to work", "it needs everyone to take part", "it can be difficult to enforce"] }
+      {
+        "id": "s1",
+        "prompt": "Name one strategy a small island nation could use to reduce its environmental impact.",
+        "acceptedAnswers": [
+          "renewable energy or solar power",
+          "recycling schemes",
+          "protecting mangroves and coral reefs",
+          "reducing plastic use",
+          "marine protected areas"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Explain one advantage of this strategy.",
+        "acceptedAnswers": [
+          "it reduces pollution",
+          "it protects wildlife or habitats",
+          "it reduces reliance on fossil fuels",
+          "it protects the coastline from storms"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Explain one limitation or challenge of this strategy.",
+        "acceptedAnswers": [
+          "it can be expensive",
+          "it can take a long time to work",
+          "it needs everyone to take part",
+          "it can be difficult to enforce"
+        ]
+      }
     ],
-    "explanation": "Effective strategies such as renewable energy or protecting mangroves have real benefits, but often face challenges like cost, time or the need for widespread cooperation." },
-  { "subjectSlug": "geography", "strandSlug": "world-geography", "yearGroup": "Y6", "objectiveCode": "GE6-WOR-1", "type": "multiple_choice", "difficulty": "bronze",
+    "explanation": "Effective strategies such as renewable energy or protecting mangroves have real benefits, but often face challenges like cost, time or the need for widespread cooperation."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-WOR-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "The Sahara, the world's largest hot desert, is located on which continent?",
-    "options": [{ "id": "a", "text": "Asia" }, { "id": "b", "text": "Africa" }, { "id": "c", "text": "South America" }, { "id": "d", "text": "Europe" }],
-    "correctOptionId": "b", "explanation": "The Sahara Desert stretches across much of northern Africa." },
-  { "subjectSlug": "geography", "strandSlug": "world-geography", "yearGroup": "Y6", "objectiveCode": "GE6-WOR-1", "type": "matching", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Asia"
+      },
+      {
+        "id": "b",
+        "text": "Africa"
+      },
+      {
+        "id": "c",
+        "text": "South America"
+      },
+      {
+        "id": "d",
+        "text": "Europe"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Sahara Desert stretches across much of northern Africa."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-WOR-1",
+    "type": "matching",
+    "difficulty": "gold",
     "promptText": "Match each country to the continent (Asia or Africa) it is located on.",
-    "pairs": [ { "id": "p1", "left": "Japan", "right": "Asia" }, { "id": "p2", "left": "Nigeria", "right": "Africa" }, { "id": "p3", "left": "India", "right": "Asia" }, { "id": "p4", "left": "Egypt", "right": "Africa" } ],
-    "explanation": "Japan and India are countries in Asia; Nigeria and Egypt are countries in Africa." },
-  { "subjectSlug": "geography", "strandSlug": "world-geography", "yearGroup": "Y6", "objectiveCode": "GE6-WOR-2", "type": "short_answer", "difficulty": "gold",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Japan",
+        "right": "Asia"
+      },
+      {
+        "id": "p2",
+        "left": "Nigeria",
+        "right": "Africa"
+      },
+      {
+        "id": "p3",
+        "left": "India",
+        "right": "Asia"
+      },
+      {
+        "id": "p4",
+        "left": "Egypt",
+        "right": "Africa"
+      }
+    ],
+    "explanation": "Japan and India are countries in Asia; Nigeria and Egypt are countries in Africa."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-WOR-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Name one way that a busy region such as Greater London differs from a more rural region in a country such as Kenya.",
-    "acceptedAnswers": ["london has a much higher population density", "london has more buildings and urban land use", "the kenyan region may have more farmland", "london has more industry and services"],
-    "explanation": "Regions like Greater London tend to have higher population density, more urban land use and more service industries, compared with more rural regions in countries such as Kenya." },
-  { "subjectSlug": "geography", "strandSlug": "world-geography", "yearGroup": "Y6", "objectiveCode": "GE6-WOR-2", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "london has a much higher population density",
+      "london has more buildings and urban land use",
+      "the kenyan region may have more farmland",
+      "london has more industry and services"
+    ],
+    "explanation": "Regions like Greater London tend to have higher population density, more urban land use and more service industries, compared with more rural regions in countries such as Kenya."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-WOR-2",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "Compare a region of the UK with a region in a country in Asia or Africa.",
     "steps": [
-      { "id": "s1", "prompt": "Give one similarity between a UK region and a region in Asia or Africa (for example, climate, land use or population).", "acceptedAnswers": ["both have cities and towns", "both have areas of farmland", "both have a climate suited to farming", "both have rivers used for transport or water supply"] },
-      { "id": "s2", "prompt": "Give one difference between a UK region and a region in Asia or Africa.", "acceptedAnswers": ["the climate is different", "the population density is different", "the type of housing is different", "the main industries are different"] },
-      { "id": "s3", "prompt": "Explain why comparing two regions like this helps geographers understand the world.", "acceptedAnswers": ["it shows how human and physical features vary between places", "it helps identify similarities and differences between places", "it helps us understand how people live differently around the world"] }
+      {
+        "id": "s1",
+        "prompt": "Give one similarity between a UK region and a region in Asia or Africa (for example, climate, land use or population).",
+        "acceptedAnswers": [
+          "both have cities and towns",
+          "both have areas of farmland",
+          "both have a climate suited to farming",
+          "both have rivers used for transport or water supply"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Give one difference between a UK region and a region in Asia or Africa.",
+        "acceptedAnswers": [
+          "the climate is different",
+          "the population density is different",
+          "the type of housing is different",
+          "the main industries are different"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Explain why comparing two regions like this helps geographers understand the world.",
+        "acceptedAnswers": [
+          "it shows how human and physical features vary between places",
+          "it helps identify similarities and differences between places",
+          "it helps us understand how people live differently around the world"
+        ]
+      }
     ],
-    "explanation": "Comparing regions helps geographers understand how physical and human features, such as climate, land use and population, vary from place to place around the world." },
-  { "subjectSlug": "geography", "strandSlug": "rivers-water-cycle", "yearGroup": "Y6", "objectiveCode": "GE6-RIV-1", "type": "multiple_choice", "difficulty": "bronze",
+    "explanation": "Comparing regions helps geographers understand how physical and human features, such as climate, land use and population, vary from place to place around the world."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "rivers-water-cycle",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RIV-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "What is the process called when heat from the sun turns liquid water into water vapour?",
-    "options": [{ "id": "a", "text": "Condensation" }, { "id": "b", "text": "Evaporation" }, { "id": "c", "text": "Precipitation" }, { "id": "d", "text": "Collection" }],
-    "correctOptionId": "b", "explanation": "Evaporation is when heat from the sun turns liquid water into water vapour, which rises into the air." },
-  { "subjectSlug": "geography", "strandSlug": "rivers-water-cycle", "yearGroup": "Y6", "objectiveCode": "GE6-RIV-1", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Condensation"
+      },
+      {
+        "id": "b",
+        "text": "Evaporation"
+      },
+      {
+        "id": "c",
+        "text": "Precipitation"
+      },
+      {
+        "id": "d",
+        "text": "Collection"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Evaporation is when heat from the sun turns liquid water into water vapour, which rises into the air."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "rivers-water-cycle",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RIV-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "What is the process called when water vapour cools and turns into tiny droplets, forming clouds?",
-    "options": [{ "id": "a", "text": "Evaporation" }, { "id": "b", "text": "Precipitation" }, { "id": "c", "text": "Condensation" }, { "id": "d", "text": "Transpiration" }],
-    "correctOptionId": "c", "explanation": "Condensation occurs when water vapour cools and changes back into liquid droplets, forming clouds." },
-  { "subjectSlug": "geography", "strandSlug": "rivers-water-cycle", "yearGroup": "Y6", "objectiveCode": "GE6-RIV-1", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Evaporation"
+      },
+      {
+        "id": "b",
+        "text": "Precipitation"
+      },
+      {
+        "id": "c",
+        "text": "Condensation"
+      },
+      {
+        "id": "d",
+        "text": "Transpiration"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Condensation occurs when water vapour cools and changes back into liquid droplets, forming clouds."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "rivers-water-cycle",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RIV-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "What name is given to water falling from clouds as rain, snow, sleet or hail?",
-    "acceptedAnswers": ["precipitation"], "explanation": "Precipitation is any form of water, such as rain, snow, sleet or hail, that falls from clouds to the ground." },
-  { "subjectSlug": "geography", "strandSlug": "rivers-water-cycle", "yearGroup": "Y6", "objectiveCode": "GE6-RIV-2", "type": "short_answer", "difficulty": "silver",
+    "acceptedAnswers": [
+      "precipitation"
+    ],
+    "explanation": "Precipitation is any form of water, such as rain, snow, sleet or hail, that falls from clouds to the ground."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "rivers-water-cycle",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RIV-2",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "What is the starting point of a river, often found in hills or mountains, called?",
-    "acceptedAnswers": ["the source", "source"], "explanation": "The source is the starting point of a river, often a spring, lake or melting snow in hills or mountains." },
-  { "subjectSlug": "geography", "strandSlug": "rivers-water-cycle", "yearGroup": "Y6", "objectiveCode": "GE6-RIV-2", "type": "multiple_choice", "difficulty": "gold",
+    "acceptedAnswers": [
+      "the source",
+      "source"
+    ],
+    "explanation": "The source is the starting point of a river, often a spring, lake or melting snow in hills or mountains."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "rivers-water-cycle",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RIV-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "What is the point where a river flows into the sea called?",
-    "options": [{ "id": "a", "text": "The source" }, { "id": "b", "text": "The tributary" }, { "id": "c", "text": "The mouth" }, { "id": "d", "text": "The meander" }],
-    "correctOptionId": "c", "explanation": "The mouth is where a river flows into the sea, a lake or another river." },
-  { "subjectSlug": "geography", "strandSlug": "economic-activity-trade", "yearGroup": "Y6", "objectiveCode": "GE6-ECO-1", "type": "multiple_choice", "difficulty": "bronze",
+    "options": [
+      {
+        "id": "a",
+        "text": "The source"
+      },
+      {
+        "id": "b",
+        "text": "The tributary"
+      },
+      {
+        "id": "c",
+        "text": "The mouth"
+      },
+      {
+        "id": "d",
+        "text": "The meander"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The mouth is where a river flows into the sea, a lake or another river."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "economic-activity-trade",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ECO-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which of these is an example of a primary economic activity?",
-    "options": [{ "id": "a", "text": "Farming" }, { "id": "b", "text": "Banking" }, { "id": "c", "text": "Teaching" }, { "id": "d", "text": "Selling clothes in a shop" }],
-    "correctOptionId": "a", "explanation": "Primary economic activities involve extracting or producing raw materials directly from the land or sea, such as farming, fishing and mining." },
-  { "subjectSlug": "geography", "strandSlug": "economic-activity-trade", "yearGroup": "Y6", "objectiveCode": "GE6-ECO-1", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Farming"
+      },
+      {
+        "id": "b",
+        "text": "Banking"
+      },
+      {
+        "id": "c",
+        "text": "Teaching"
+      },
+      {
+        "id": "d",
+        "text": "Selling clothes in a shop"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Primary economic activities involve extracting or producing raw materials directly from the land or sea, such as farming, fishing and mining."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "economic-activity-trade",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ECO-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Give one reason why countries trade natural resources such as oil, food or minerals with each other.",
-    "acceptedAnswers": ["because resources are not evenly distributed", "because some countries do not have enough of a resource", "to get resources they do not have themselves", "to earn money by selling resources they have"],
-    "explanation": "Because natural resources are unevenly distributed around the world, countries trade to access resources they lack and to sell resources they have in surplus." },
-  { "subjectSlug": "geography", "strandSlug": "economic-activity-trade", "yearGroup": "Y6", "objectiveCode": "GE6-ECO-2", "type": "multiple_choice", "difficulty": "silver",
+    "acceptedAnswers": [
+      "because resources are not evenly distributed",
+      "because some countries do not have enough of a resource",
+      "to get resources they do not have themselves",
+      "to earn money by selling resources they have"
+    ],
+    "explanation": "Because natural resources are unevenly distributed around the world, countries trade to access resources they lack and to sell resources they have in surplus."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "economic-activity-trade",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ECO-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "As a settlement grows from a small village into a large town, what usually happens to land use?",
-    "options": [{ "id": "a", "text": "More land is used for housing, shops and roads" }, { "id": "b", "text": "All the land returns to farmland" }, { "id": "c", "text": "The settlement disappears" }, { "id": "d", "text": "Land use stays exactly the same" }],
-    "correctOptionId": "a", "explanation": "As settlements grow, more land is typically used for housing, shops, roads and services, often replacing farmland or open space." },
-  { "subjectSlug": "geography", "strandSlug": "economic-activity-trade", "yearGroup": "Y6", "objectiveCode": "GE6-ECO-2", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "More land is used for housing, shops and roads"
+      },
+      {
+        "id": "b",
+        "text": "All the land returns to farmland"
+      },
+      {
+        "id": "c",
+        "text": "The settlement disappears"
+      },
+      {
+        "id": "d",
+        "text": "Land use stays exactly the same"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "As settlements grow, more land is typically used for housing, shops, roads and services, often replacing farmland or open space."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "economic-activity-trade",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ECO-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "What term describes a large settlement that is an important centre for business, government and culture, such as London or Nairobi?",
-    "acceptedAnswers": ["city", "a city"], "explanation": "A city is a large, significant settlement, often serving as an important centre for business, government, culture and services." }
+    "acceptedAnswers": [
+      "city",
+      "a city"
+    ],
+    "explanation": "A city is a large, significant settlement, often serving as an important centre for business, government, culture and services."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-MAP-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these tools would help you find a country's exact location using lines of latitude and longitude?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An atlas or globe"
+      },
+      {
+        "id": "b",
+        "text": "A thermometer"
+      },
+      {
+        "id": "c",
+        "text": "A calendar"
+      },
+      {
+        "id": "d",
+        "text": "A ruler alone"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Atlases and globes show lines of latitude and longitude used to locate places precisely."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-MAP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name a digital tool that lets you view satellite images of anywhere on Earth.",
+    "acceptedAnswers": [
+      "google earth",
+      "digital mapping",
+      "satellite mapping software"
+    ],
+    "explanation": "Tools like Google Earth use satellite imagery to let you view almost anywhere on the planet."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-MAP-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "On an Ordnance Survey map, what does a small tent symbol usually represent?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A campsite"
+      },
+      {
+        "id": "b",
+        "text": "A hospital"
+      },
+      {
+        "id": "c",
+        "text": "A railway station"
+      },
+      {
+        "id": "d",
+        "text": "A school"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A tent symbol on OS maps marks a campsite."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-MAP-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Why do maps use symbols instead of writing out full labels for every feature?",
+    "acceptedAnswers": [
+      "symbols save space and make the map clearer and easier to read",
+      "symbols are quicker to read and take up less space than words"
+    ],
+    "explanation": "Symbols take up far less space than written labels, keeping maps clear and easy to read."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-MAP-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "You are planning a walking route between two towns. Which map feature helps you calculate the real distance?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The scale bar"
+      },
+      {
+        "id": "b",
+        "text": "The compass rose only"
+      },
+      {
+        "id": "c",
+        "text": "The map's title"
+      },
+      {
+        "id": "d",
+        "text": "The border colour"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The scale bar shows how map distance relates to real-world distance."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-MAP-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these is an example of digital mapping technology?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A GPS satellite navigation app"
+      },
+      {
+        "id": "b",
+        "text": "A paper road atlas"
+      },
+      {
+        "id": "c",
+        "text": "A hand-drawn sketch map"
+      },
+      {
+        "id": "d",
+        "text": "A globe"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "GPS satnav apps are a form of digital mapping, using satellite data for live navigation."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-MAP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one advantage of using a digital map over a globe when planning a long journey.",
+    "acceptedAnswers": [
+      "it can give turn-by-turn directions",
+      "it shows real-time traffic and can recalculate routes",
+      "it is easier to zoom into detail"
+    ],
+    "explanation": "Digital maps can give live directions, show traffic and recalculate routes — things a globe cannot do."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-MAP-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A map has a scale of 1:50,000. What does this mean?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 cm on the map represents 50,000 cm (500 m) in real life"
+      },
+      {
+        "id": "b",
+        "text": "The map is 50,000 times bigger than real life"
+      },
+      {
+        "id": "c",
+        "text": "There are 50,000 symbols on the map"
+      },
+      {
+        "id": "d",
+        "text": "The map covers 50,000 countries"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A scale of 1:50,000 means every unit on the map represents 50,000 of the same unit in real life."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-MAP-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain why digital mapping is especially useful for planning routes in an unfamiliar city.",
+    "acceptedAnswers": [
+      "it can give live directions and adjust the route based on traffic or road closures",
+      "it provides real-time navigation, unlike a static paper map"
+    ],
+    "explanation": "Digital mapping can adapt in real time to traffic, closures and your exact location, which is invaluable in an unfamiliar place."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-COORD-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "In a four-figure grid reference, which direction do you read first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Along (east), then up (north)"
+      },
+      {
+        "id": "b",
+        "text": "Up first, then along"
+      },
+      {
+        "id": "c",
+        "text": "Diagonally"
+      },
+      {
+        "id": "d",
+        "text": "It doesn't matter"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Grid references are always read 'along the corridor, then up the stairs' — easting first, then northing."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-COORD-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "For the four-figure grid reference '4512', what are the northing (up) digits?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "12"
+        ]
+      }
+    ],
+    "explanation": "The last two digits of a four-figure grid reference are the northing."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-COORD-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which imaginary lines run north-south on a globe, used to measure longitude?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lines of latitude"
+      },
+      {
+        "id": "b",
+        "text": "Lines of longitude"
+      },
+      {
+        "id": "c",
+        "text": "The Equator only"
+      },
+      {
+        "id": "d",
+        "text": "Contour lines"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Lines of longitude run from pole to pole (north-south) and are used to measure east-west position."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-COORD-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain the difference between lines of latitude and lines of longitude.",
+    "acceptedAnswers": [
+      "latitude lines run east-west around the globe, while longitude lines run north-south from pole to pole",
+      "lines of latitude go around the earth horizontally, lines of longitude go from north to south pole"
+    ],
+    "explanation": "Latitude lines circle the globe horizontally (east-west); longitude lines run vertically from pole to pole (north-south)."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-COORD-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "For the six-figure grid reference '267781', what are the three 'northing' digits?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "781"
+        ]
+      }
+    ],
+    "explanation": "The last three digits of a six-figure grid reference are the northing."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-COORD-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which imaginary line marks the boundary of the Arctic region?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Arctic Circle"
+      },
+      {
+        "id": "b",
+        "text": "The Equator"
+      },
+      {
+        "id": "c",
+        "text": "The Tropic of Cancer"
+      },
+      {
+        "id": "d",
+        "text": "The Prime Meridian"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Arctic Circle marks the boundary of the Arctic region in the far north."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-COORD-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Roughly how many hours' difference is there between two places on exactly opposite sides of the world (12 time zones apart)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 hour"
+      },
+      {
+        "id": "b",
+        "text": "6 hours"
+      },
+      {
+        "id": "c",
+        "text": "12 hours"
+      },
+      {
+        "id": "d",
+        "text": "24 hours"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Places 12 time zones apart (roughly opposite sides of the Earth) differ by about 12 hours."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-COORD-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain why a six-figure grid reference is more precise than a four-figure grid reference.",
+    "acceptedAnswers": [
+      "it narrows the location down to a smaller 100m square instead of a 1km square, using an extra digit for easting and northing",
+      "adding a third digit to both the easting and northing pinpoints a smaller, more precise area"
+    ],
+    "explanation": "The extra digit in each direction narrows the located square from 1 km down to 100 m, giving a much more precise position."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-RES-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these is a non-renewable natural resource?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wind"
+      },
+      {
+        "id": "b",
+        "text": "Coal"
+      },
+      {
+        "id": "c",
+        "text": "Solar energy"
+      },
+      {
+        "id": "d",
+        "text": "Fresh rainwater"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Coal is a fossil fuel that takes millions of years to form and cannot be replaced quickly, making it non-renewable."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-RES-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which natural resource is essential for growing crops and for drinking?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Water"
+      },
+      {
+        "id": "b",
+        "text": "Coal"
+      },
+      {
+        "id": "c",
+        "text": "Gold"
+      },
+      {
+        "id": "d",
+        "text": "Oil"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Water is essential for both farming and drinking, making it one of the most vital natural resources."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-RES-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one reason why fresh water might be scarce on a small island.",
+    "acceptedAnswers": [
+      "islands have limited land area to collect and store rainwater",
+      "there may be no large rivers or lakes, so water has to be collected, imported or desalinated"
+    ],
+    "explanation": "Small islands often lack large rivers or lakes, so fresh water can be scarce and must be collected, imported or desalinated."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-RES-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which of these best describes the 'distribution' of a natural resource?",
+    "options": [
+      {
+        "id": "a",
+        "text": "How much money it costs"
+      },
+      {
+        "id": "b",
+        "text": "Where in the world it is found and how much is there"
+      },
+      {
+        "id": "c",
+        "text": "How old it is"
+      },
+      {
+        "id": "d",
+        "text": "Its colour"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Distribution describes where a resource is located around the world and in what quantities."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-RES-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name one mineral resource that is mined from the ground.",
+    "acceptedAnswers": [
+      "gold",
+      "iron",
+      "copper",
+      "coal",
+      "diamonds",
+      "salt"
+    ],
+    "explanation": "Gold, iron, copper, coal, diamonds and salt are all examples of resources extracted through mining."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RES-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these best explains why some countries are wealthier than others in terms of natural resources?",
+    "options": [
+      {
+        "id": "a",
+        "text": "All countries have exactly the same resources"
+      },
+      {
+        "id": "b",
+        "text": "Resources are unevenly distributed around the world"
+      },
+      {
+        "id": "c",
+        "text": "Only large countries have resources"
+      },
+      {
+        "id": "d",
+        "text": "Resources never affect a country's wealth"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Natural resources are unevenly distributed, which contributes to differences in wealth between countries."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RES-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one negative effect that relying heavily on selling one natural resource (e.g. oil) can have on a country.",
+    "acceptedAnswers": [
+      "the country's economy can suffer greatly if the price of that resource falls",
+      "it can make the economy unstable if prices change or the resource runs out"
+    ],
+    "explanation": "Relying on one resource makes a country's economy vulnerable to price changes or the resource running out."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RES-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A country has very fertile farmland but few mineral resources. What is it most likely to trade?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Food and agricultural products"
+      },
+      {
+        "id": "b",
+        "text": "Oil"
+      },
+      {
+        "id": "c",
+        "text": "Diamonds"
+      },
+      {
+        "id": "d",
+        "text": "Nothing at all"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A country with fertile land would likely produce and trade food and agricultural products."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RES-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain how trading resources can improve quality of life in a country that lacks a particular resource.",
+    "acceptedAnswers": [
+      "trade lets a country access resources it doesn't have, like food or energy, improving living standards",
+      "importing resources through trade means people can access things not available locally, raising quality of life"
+    ],
+    "explanation": "Trade allows a country to access resources it lacks, such as food, fuel or minerals, which can raise living standards."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RES-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these is most likely to be affected by an uneven distribution of energy resources?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The price and availability of electricity in different countries"
+      },
+      {
+        "id": "b",
+        "text": "The colour of the sky"
+      },
+      {
+        "id": "c",
+        "text": "The number of holidays a country has"
+      },
+      {
+        "id": "d",
+        "text": "The alphabet used in a country"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Countries with more energy resources often have cheaper, more reliable electricity than those with fewer resources."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-ENV-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which human activity contributes most to climate change?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Recycling paper"
+      },
+      {
+        "id": "b",
+        "text": "Burning fossil fuels"
+      },
+      {
+        "id": "c",
+        "text": "Planting trees"
+      },
+      {
+        "id": "d",
+        "text": "Walking to school"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Burning fossil fuels releases greenhouse gases that are a major driver of climate change."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-ENV-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name one effect that rising sea levels can have on a coastal community.",
+    "acceptedAnswers": [
+      "flooding",
+      "loss of land",
+      "damage to buildings",
+      "erosion of the coastline"
+    ],
+    "explanation": "Rising sea levels can cause flooding, coastal erosion, and loss of land and buildings."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-ENV-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Explain why protecting coral reefs is important for both wildlife and people.",
+    "acceptedAnswers": [
+      "coral reefs provide habitats for marine life and protect coastlines from waves, also supporting fishing and tourism",
+      "reefs support biodiversity and reduce wave energy, protecting coastlines and local economies"
+    ],
+    "explanation": "Coral reefs support huge biodiversity, protect coastlines from wave damage, and underpin fishing and tourism industries."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-ENV-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What is a major threat to coral reefs caused by rising ocean temperatures?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Coral bleaching"
+      },
+      {
+        "id": "b",
+        "text": "Coral growing too fast"
+      },
+      {
+        "id": "c",
+        "text": "More fish being born"
+      },
+      {
+        "id": "d",
+        "text": "Reefs turning to stone"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Warmer oceans stress coral, causing it to expel the algae that give it colour and food — a process called coral bleaching."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ENV-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these is an example of a strategy to reduce human impact on the environment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Creating marine protected areas"
+      },
+      {
+        "id": "b",
+        "text": "Increasing the use of single-use plastic"
+      },
+      {
+        "id": "c",
+        "text": "Removing recycling bins"
+      },
+      {
+        "id": "d",
+        "text": "Building on all remaining coastline"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Marine protected areas restrict damaging activities to let ecosystems recover — a genuine environmental strategy."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ENV-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one reason that switching to renewable energy can be a challenging strategy for a country to adopt.",
+    "acceptedAnswers": [
+      "it can be expensive to set up",
+      "it can take a long time to build the infrastructure needed",
+      "not every location is suitable for solar or wind power"
+    ],
+    "explanation": "Renewable energy infrastructure can be costly and slow to build, and not every location suits every type of renewable power."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ENV-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A government bans fishing in a small area of the ocean to let fish populations recover. What is this strategy called?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A marine protected area"
+      },
+      {
+        "id": "b",
+        "text": "Deforestation"
+      },
+      {
+        "id": "c",
+        "text": "Overfishing"
+      },
+      {
+        "id": "d",
+        "text": "Urbanisation"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Restricting fishing in a designated ocean area to protect wildlife is called a marine protected area."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ENV-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Evaluate whether recycling alone is enough to solve the problem of plastic pollution. Give a reason.",
+    "acceptedAnswers": [
+      "no, because it does not stop new plastic being produced or already-polluting plastic in the environment",
+      "recycling helps but is not enough alone — reducing plastic use and better waste management are also needed"
+    ],
+    "explanation": "Recycling helps but does not solve everything on its own — reducing plastic production and improving waste management are also needed."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ENV-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which strategy directly helps protect coastlines from storm damage AND supports marine biodiversity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Replanting mangrove forests"
+      },
+      {
+        "id": "b",
+        "text": "Building more roads"
+      },
+      {
+        "id": "c",
+        "text": "Increasing plastic production"
+      },
+      {
+        "id": "d",
+        "text": "Removing coral reefs"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Mangroves absorb wave energy to protect coastlines and provide rich habitats for marine life."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-WOR-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which country is located in South America?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Brazil"
+      },
+      {
+        "id": "b",
+        "text": "Japan"
+      },
+      {
+        "id": "c",
+        "text": "Egypt"
+      },
+      {
+        "id": "d",
+        "text": "Canada"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Brazil is the largest country in South America."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-WOR-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one country located in Europe.",
+    "acceptedAnswers": [
+      "france",
+      "germany",
+      "spain",
+      "italy",
+      "uk",
+      "united kingdom",
+      "england"
+    ],
+    "explanation": "France, Germany, Spain, Italy and the UK are all countries located in Europe."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-WOR-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which climate zone is found near the Equator, typically hot and wet all year round?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tropical"
+      },
+      {
+        "id": "b",
+        "text": "Polar"
+      },
+      {
+        "id": "c",
+        "text": "Temperate"
+      },
+      {
+        "id": "d",
+        "text": "Arctic"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Tropical climate zones near the Equator are hot and wet throughout the year."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-WOR-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name a type of natural disaster that forms over warm ocean water in the Caribbean.",
+    "acceptedAnswers": [
+      "hurricane",
+      "a hurricane"
+    ],
+    "explanation": "Hurricanes form over warm Caribbean waters and are a major natural hazard in the region."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-WOR-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these countries is located in Asia?",
+    "options": [
+      {
+        "id": "a",
+        "text": "India"
+      },
+      {
+        "id": "b",
+        "text": "Nigeria"
+      },
+      {
+        "id": "c",
+        "text": "Kenya"
+      },
+      {
+        "id": "d",
+        "text": "Egypt"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "India is a large country located in Asia."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-WOR-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name a major desert located on the continent of Asia.",
+    "acceptedAnswers": [
+      "gobi desert",
+      "the gobi",
+      "arabian desert"
+    ],
+    "explanation": "The Gobi Desert and the Arabian Desert are both major deserts located in Asia."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-WOR-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "When comparing a UK region to a region in Asia or Africa, which of these is a 'human characteristic' rather than a physical one?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Population density"
+      },
+      {
+        "id": "b",
+        "text": "Climate"
+      },
+      {
+        "id": "c",
+        "text": "Rivers"
+      },
+      {
+        "id": "d",
+        "text": "Mountains"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Population density is a human characteristic; climate, rivers and mountains are physical (natural) features."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-WOR-2",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Give one physical (natural) feature you might compare between a UK region and a region in Africa or Asia.",
+    "acceptedAnswers": [
+      "climate",
+      "rivers",
+      "mountains",
+      "vegetation",
+      "landscape"
+    ],
+    "explanation": "Climate, rivers, mountains, vegetation and landscape are all physical features useful for comparing two regions."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "rivers-water-cycle",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RIV-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "What is the term for water being taken up by plant roots and released as vapour from their leaves?",
+    "acceptedAnswers": [
+      "transpiration"
+    ],
+    "explanation": "Transpiration is the process by which plants release water vapour from their leaves, contributing to the water cycle."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "rivers-water-cycle",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RIV-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which feature forms when a river bends and loops back and forth across a floodplain?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A meander"
+      },
+      {
+        "id": "b",
+        "text": "A source"
+      },
+      {
+        "id": "c",
+        "text": "A delta"
+      },
+      {
+        "id": "d",
+        "text": "A tributary"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A meander is a winding bend a river forms as it flows across flatter land."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "rivers-water-cycle",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RIV-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name the term for a smaller river or stream that joins a larger river.",
+    "acceptedAnswers": [
+      "tributary",
+      "a tributary"
+    ],
+    "explanation": "A tributary is a smaller river or stream that flows into a larger river."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "economic-activity-trade",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ECO-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these is an example of a secondary economic activity (manufacturing or processing)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Building furniture from wood"
+      },
+      {
+        "id": "b",
+        "text": "Growing wheat"
+      },
+      {
+        "id": "c",
+        "text": "Mining coal"
+      },
+      {
+        "id": "d",
+        "text": "Fishing"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Secondary activities process or manufacture raw materials into goods, like turning wood into furniture."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "economic-activity-trade",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ECO-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which of these is an example of a tertiary (service) economic activity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Teaching in a school"
+      },
+      {
+        "id": "b",
+        "text": "Growing rice"
+      },
+      {
+        "id": "c",
+        "text": "Mining iron ore"
+      },
+      {
+        "id": "d",
+        "text": "Cutting down trees for timber"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Tertiary activities provide services to people, such as teaching, healthcare and retail."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "economic-activity-trade",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ECO-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name one type of land use commonly found in a city centre.",
+    "acceptedAnswers": [
+      "shops",
+      "offices",
+      "businesses",
+      "housing",
+      "flats"
+    ],
+    "explanation": "City centres are typically dominated by shops, offices, businesses and high-density housing."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "economic-activity-trade",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ECO-2",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "As a settlement grows outward from its centre, what usually happens near its very edge (the rural-urban fringe)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It suddenly becomes ocean"
+      },
+      {
+        "id": "b",
+        "text": "New housing estates and out-of-town developments often appear, blending into the countryside"
+      },
+      {
+        "id": "c",
+        "text": "It is always left completely empty"
+      },
+      {
+        "id": "d",
+        "text": "It becomes the busiest part of the settlement"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The rural-urban fringe is where new development gradually blends the edge of a growing settlement into the surrounding countryside."
+  }
 ]

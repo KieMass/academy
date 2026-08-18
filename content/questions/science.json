@@ -1,190 +1,2224 @@
 [
-  { "subjectSlug": "science", "strandSlug": "living-things-habitats", "yearGroup": "Y5", "objectiveCode": "SC5-LIV-1", "type": "matching", "difficulty": "bronze",
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-1",
+    "type": "matching",
+    "difficulty": "bronze",
     "promptText": "Match each animal to its life cycle stage order description.",
-    "pairs": [ { "id": "p1", "left": "Frog", "right": "Egg → Tadpole → Froglet → Adult" }, { "id": "p2", "left": "Butterfly", "right": "Egg → Larva → Pupa → Adult" }, { "id": "p3", "left": "Human", "right": "Baby → Child → Adolescent → Adult" }, { "id": "p4", "left": "Chicken", "right": "Egg → Chick → Adult" } ],
-    "explanation": "Each animal group (amphibian, insect, mammal, bird) has a distinct life cycle pattern." },
-  { "subjectSlug": "science", "strandSlug": "living-things-habitats", "yearGroup": "Y5", "objectiveCode": "SC5-LIV-1", "type": "multiple_choice", "difficulty": "bronze",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Frog",
+        "right": "Egg → Tadpole → Froglet → Adult"
+      },
+      {
+        "id": "p2",
+        "left": "Butterfly",
+        "right": "Egg → Larva → Pupa → Adult"
+      },
+      {
+        "id": "p3",
+        "left": "Human",
+        "right": "Baby → Child → Adolescent → Adult"
+      },
+      {
+        "id": "p4",
+        "left": "Chicken",
+        "right": "Egg → Chick → Adult"
+      }
+    ],
+    "explanation": "Each animal group (amphibian, insect, mammal, bird) has a distinct life cycle pattern."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which stage comes between 'egg' and 'adult' in a butterfly's life cycle?",
-    "options": [{ "id": "a", "text": "Tadpole" }, { "id": "b", "text": "Larva (caterpillar) then pupa" }, { "id": "c", "text": "Chick" }, { "id": "d", "text": "Nothing — eggs hatch straight into adults" }],
-    "correctOptionId": "b", "explanation": "A butterfly's life cycle is egg, larva (caterpillar), pupa (chrysalis), then adult." },
-  { "subjectSlug": "science", "strandSlug": "living-things-habitats", "yearGroup": "Y5", "objectiveCode": "SC5-LIV-2", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tadpole"
+      },
+      {
+        "id": "b",
+        "text": "Larva (caterpillar) then pupa"
+      },
+      {
+        "id": "c",
+        "text": "Chick"
+      },
+      {
+        "id": "d",
+        "text": "Nothing — eggs hatch straight into adults"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A butterfly's life cycle is egg, larva (caterpillar), pupa (chrysalis), then adult."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "What is the process called when a plant produces seeds after its flower is pollinated?",
-    "options": [{ "id": "a", "text": "Germination" }, { "id": "b", "text": "Fertilisation" }, { "id": "c", "text": "Photosynthesis" }, { "id": "d", "text": "Evaporation" }],
-    "correctOptionId": "b", "explanation": "Fertilisation happens when pollen reaches the ovule, allowing seeds to form." },
-  { "subjectSlug": "science", "strandSlug": "living-things-habitats", "yearGroup": "Y5", "objectiveCode": "SC5-LIV-2", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Germination"
+      },
+      {
+        "id": "b",
+        "text": "Fertilisation"
+      },
+      {
+        "id": "c",
+        "text": "Photosynthesis"
+      },
+      {
+        "id": "d",
+        "text": "Evaporation"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Fertilisation happens when pollen reaches the ovule, allowing seeds to form."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Name one way that animals can reproduce, other than laying eggs.",
-    "acceptedAnswers": ["live birth", "giving birth to live young", "having babies"], "explanation": "Mammals typically reproduce by giving birth to live young rather than laying eggs." },
-  { "subjectSlug": "science", "strandSlug": "living-things-habitats", "yearGroup": "Y5", "objectiveCode": "SC5-LIV-1", "type": "fill_in_box", "difficulty": "silver",
+    "acceptedAnswers": [
+      "live birth",
+      "giving birth to live young",
+      "having babies"
+    ],
+    "explanation": "Mammals typically reproduce by giving birth to live young rather than laying eggs."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
     "promptText": "A young frog that has legs but still has some of its tail is called a ___.",
-    "blanks": [{ "id": "answer", "acceptedAnswers": ["froglet"] }], "explanation": "A froglet is the stage between tadpole and adult frog." },
-  { "subjectSlug": "science", "strandSlug": "animals-including-humans", "yearGroup": "Y5", "objectiveCode": "SC5-ANI-1", "type": "multiple_choice", "difficulty": "bronze",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "froglet"
+        ]
+      }
+    ],
+    "explanation": "A froglet is the stage between tadpole and adult frog."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-ANI-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Put these human life stages in the correct order: Adult, Baby, Child, Elderly, Adolescent.",
-    "options": [{ "id": "a", "text": "Baby, Child, Adolescent, Adult, Elderly" }, { "id": "b", "text": "Baby, Adolescent, Child, Adult, Elderly" }, { "id": "c", "text": "Child, Baby, Adult, Adolescent, Elderly" }, { "id": "d", "text": "Elderly, Adult, Adolescent, Child, Baby" }],
-    "correctOptionId": "a", "explanation": "Humans develop from baby to child, then adolescent, adult, and finally elderly." },
-  { "subjectSlug": "science", "strandSlug": "animals-including-humans", "yearGroup": "Y5", "objectiveCode": "SC5-ANI-2", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Baby, Child, Adolescent, Adult, Elderly"
+      },
+      {
+        "id": "b",
+        "text": "Baby, Adolescent, Child, Adult, Elderly"
+      },
+      {
+        "id": "c",
+        "text": "Child, Baby, Adult, Adolescent, Elderly"
+      },
+      {
+        "id": "d",
+        "text": "Elderly, Adult, Adolescent, Child, Baby"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Humans develop from baby to child, then adolescent, adult, and finally elderly."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-ANI-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which of these is a physical change that can happen during puberty?",
-    "options": [{ "id": "a", "text": "Growth spurts" }, { "id": "b", "text": "Losing the ability to walk" }, { "id": "c", "text": "Becoming shorter" }, { "id": "d", "text": "Hair turning grey" }],
-    "correctOptionId": "a", "explanation": "Growth spurts are a well-documented physical change that happens during puberty." },
-  { "subjectSlug": "science", "strandSlug": "animals-including-humans", "yearGroup": "Y5", "objectiveCode": "SC5-ANI-1", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Growth spurts"
+      },
+      {
+        "id": "b",
+        "text": "Losing the ability to walk"
+      },
+      {
+        "id": "c",
+        "text": "Becoming shorter"
+      },
+      {
+        "id": "d",
+        "text": "Hair turning grey"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Growth spurts are a well-documented physical change that happens during puberty."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-ANI-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Name one change that typically happens to the human body in old age.",
-    "acceptedAnswers": ["bones become weaker", "hair turns grey", "skin wrinkles", "muscles weaken", "hearing or eyesight may decline"],
-    "explanation": "Common changes in old age include weaker bones, greying hair, wrinkled skin and reduced muscle strength." },
-  { "subjectSlug": "science", "strandSlug": "materials", "yearGroup": "Y5", "objectiveCode": "SC5-MAT-1", "type": "matching", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "bones become weaker",
+      "hair turns grey",
+      "skin wrinkles",
+      "muscles weaken",
+      "hearing or eyesight may decline"
+    ],
+    "explanation": "Common changes in old age include weaker bones, greying hair, wrinkled skin and reduced muscle strength."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-1",
+    "type": "matching",
+    "difficulty": "bronze",
     "promptText": "Match each material property to its correct example.",
-    "pairs": [ { "id": "p1", "left": "Transparent", "right": "Glass" }, { "id": "p2", "left": "Soluble in water", "right": "Sugar" }, { "id": "p3", "left": "Good conductor of electricity", "right": "Copper" }, { "id": "p4", "left": "Hard", "right": "Diamond" } ],
-    "explanation": "Materials are grouped by properties such as transparency, solubility, conductivity and hardness." },
-  { "subjectSlug": "science", "strandSlug": "materials", "yearGroup": "Y5", "objectiveCode": "SC5-MAT-2", "type": "multiple_choice", "difficulty": "silver",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Transparent",
+        "right": "Glass"
+      },
+      {
+        "id": "p2",
+        "left": "Soluble in water",
+        "right": "Sugar"
+      },
+      {
+        "id": "p3",
+        "left": "Good conductor of electricity",
+        "right": "Copper"
+      },
+      {
+        "id": "p4",
+        "left": "Hard",
+        "right": "Diamond"
+      }
+    ],
+    "explanation": "Materials are grouped by properties such as transparency, solubility, conductivity and hardness."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "How could you recover salt from salty water?",
-    "options": [{ "id": "a", "text": "Filtering" }, { "id": "b", "text": "Evaporating the water" }, { "id": "c", "text": "Freezing the water" }, { "id": "d", "text": "Stirring harder" }],
-    "correctOptionId": "b", "explanation": "Evaporating the water leaves the dissolved salt behind." },
-  { "subjectSlug": "science", "strandSlug": "materials", "yearGroup": "Y5", "objectiveCode": "SC5-MAT-3", "type": "multiple_choice", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Filtering"
+      },
+      {
+        "id": "b",
+        "text": "Evaporating the water"
+      },
+      {
+        "id": "c",
+        "text": "Freezing the water"
+      },
+      {
+        "id": "d",
+        "text": "Stirring harder"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Evaporating the water leaves the dissolved salt behind."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Which of these is usually an IRREVERSIBLE change?",
-    "options": [{ "id": "a", "text": "Melting ice" }, { "id": "b", "text": "Dissolving sugar in water" }, { "id": "c", "text": "Burning paper" }, { "id": "d", "text": "Freezing water" }],
-    "correctOptionId": "c", "explanation": "Burning creates new materials (ash, smoke) and cannot be reversed, unlike melting, dissolving or freezing." },
-  { "subjectSlug": "science", "strandSlug": "materials", "yearGroup": "Y5", "objectiveCode": "SC5-MAT-1", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Melting ice"
+      },
+      {
+        "id": "b",
+        "text": "Dissolving sugar in water"
+      },
+      {
+        "id": "c",
+        "text": "Burning paper"
+      },
+      {
+        "id": "d",
+        "text": "Freezing water"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Burning creates new materials (ash, smoke) and cannot be reversed, unlike melting, dissolving or freezing."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Name a material that is a poor conductor of electricity (an insulator).",
-    "acceptedAnswers": ["rubber", "plastic", "wood", "glass"], "explanation": "Rubber, plastic, wood and glass are all common electrical insulators." },
-  { "subjectSlug": "science", "strandSlug": "earth-and-space", "yearGroup": "Y5", "objectiveCode": "SC5-SPA-1", "type": "multiple_choice", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "rubber",
+      "plastic",
+      "wood",
+      "glass"
+    ],
+    "explanation": "Rubber, plastic, wood and glass are all common electrical insulators."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which planet is closest to the Sun?",
-    "options": [{ "id": "a", "text": "Venus" }, { "id": "b", "text": "Earth" }, { "id": "c", "text": "Mercury" }, { "id": "d", "text": "Mars" }],
-    "correctOptionId": "c", "explanation": "Mercury is the closest planet to the Sun in our solar system." },
-  { "subjectSlug": "science", "strandSlug": "earth-and-space", "yearGroup": "Y5", "objectiveCode": "SC5-SPA-3", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Venus"
+      },
+      {
+        "id": "b",
+        "text": "Earth"
+      },
+      {
+        "id": "c",
+        "text": "Mercury"
+      },
+      {
+        "id": "d",
+        "text": "Mars"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Mercury is the closest planet to the Sun in our solar system."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-3",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Why do we experience day and night?",
-    "options": [{ "id": "a", "text": "The Sun moves around the Earth" }, { "id": "b", "text": "The Earth rotates on its axis" }, { "id": "c", "text": "The Moon blocks the Sun" }, { "id": "d", "text": "The Earth orbits the Moon" }],
-    "correctOptionId": "b", "explanation": "The Earth's rotation on its axis causes different areas to face towards or away from the Sun." },
-  { "subjectSlug": "science", "strandSlug": "earth-and-space", "yearGroup": "Y5", "objectiveCode": "SC5-SPA-2", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Sun moves around the Earth"
+      },
+      {
+        "id": "b",
+        "text": "The Earth rotates on its axis"
+      },
+      {
+        "id": "c",
+        "text": "The Moon blocks the Sun"
+      },
+      {
+        "id": "d",
+        "text": "The Earth orbits the Moon"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Earth's rotation on its axis causes different areas to face towards or away from the Sun."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "What shape are the Sun, Earth and Moon approximately?",
-    "options": [{ "id": "a", "text": "Cubes" }, { "id": "b", "text": "Spheres" }, { "id": "c", "text": "Flat discs" }, { "id": "d", "text": "Cylinders" }],
-    "correctOptionId": "b", "explanation": "The Sun, Earth and Moon are all approximately spherical bodies." },
-  { "subjectSlug": "science", "strandSlug": "earth-and-space", "yearGroup": "Y5", "objectiveCode": "SC5-SPA-1", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cubes"
+      },
+      {
+        "id": "b",
+        "text": "Spheres"
+      },
+      {
+        "id": "c",
+        "text": "Flat discs"
+      },
+      {
+        "id": "d",
+        "text": "Cylinders"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Sun, Earth and Moon are all approximately spherical bodies."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Name the force that keeps the planets in orbit around the Sun.",
-    "acceptedAnswers": ["gravity"], "explanation": "The Sun's gravity keeps the planets travelling in their orbits." },
-  { "subjectSlug": "science", "strandSlug": "forces", "yearGroup": "Y5", "objectiveCode": "SC5-FOR-1", "type": "multiple_choice", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "gravity"
+    ],
+    "explanation": "The Sun's gravity keeps the planets travelling in their orbits."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which force pulls objects down towards the Earth?",
-    "options": [{ "id": "a", "text": "Friction" }, { "id": "b", "text": "Gravity" }, { "id": "c", "text": "Magnetism" }, { "id": "d", "text": "Air resistance" }],
-    "correctOptionId": "b", "explanation": "Gravity is the force that pulls unsupported objects towards the Earth." },
-  { "subjectSlug": "science", "strandSlug": "forces", "yearGroup": "Y5", "objectiveCode": "SC5-FOR-2", "type": "matching", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Friction"
+      },
+      {
+        "id": "b",
+        "text": "Gravity"
+      },
+      {
+        "id": "c",
+        "text": "Magnetism"
+      },
+      {
+        "id": "d",
+        "text": "Air resistance"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Gravity is the force that pulls unsupported objects towards the Earth."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-2",
+    "type": "matching",
+    "difficulty": "silver",
     "promptText": "Match each situation to the resistance force mainly acting on it.",
-    "pairs": [ { "id": "p1", "left": "A parachute falling through the air", "right": "Air resistance" }, { "id": "p2", "left": "A swimmer moving through a pool", "right": "Water resistance" }, { "id": "p3", "left": "A box sliding across a rough floor", "right": "Friction" } ],
-    "explanation": "Air resistance, water resistance and friction all oppose motion in different situations." },
-  { "subjectSlug": "science", "strandSlug": "forces", "yearGroup": "Y5", "objectiveCode": "SC5-FOR-3", "type": "multiple_choice", "difficulty": "gold",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "A parachute falling through the air",
+        "right": "Air resistance"
+      },
+      {
+        "id": "p2",
+        "left": "A swimmer moving through a pool",
+        "right": "Water resistance"
+      },
+      {
+        "id": "p3",
+        "left": "A box sliding across a rough floor",
+        "right": "Friction"
+      }
+    ],
+    "explanation": "Air resistance, water resistance and friction all oppose motion in different situations."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Which simple mechanism uses a wheel and a rope to lift a heavy load with less effort?",
-    "options": [{ "id": "a", "text": "Lever" }, { "id": "b", "text": "Pulley" }, { "id": "c", "text": "Gear" }, { "id": "d", "text": "Wedge" }],
-    "correctOptionId": "b", "explanation": "A pulley uses a wheel and rope/cable to change the direction of force and make lifting easier." },
-  { "subjectSlug": "science", "strandSlug": "forces", "yearGroup": "Y5", "objectiveCode": "SC5-FOR-2", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lever"
+      },
+      {
+        "id": "b",
+        "text": "Pulley"
+      },
+      {
+        "id": "c",
+        "text": "Gear"
+      },
+      {
+        "id": "d",
+        "text": "Wedge"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A pulley uses a wheel and rope/cable to change the direction of force and make lifting easier."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Explain why a cyclist finds it harder to pedal into a strong headwind.",
-    "acceptedAnswers": ["air resistance pushes against them, opposing their movement", "the wind creates air resistance that slows them down"],
-    "explanation": "A headwind increases air resistance acting against the direction of travel, requiring more effort to overcome." },
-  { "subjectSlug": "science", "strandSlug": "living-things-habitats", "yearGroup": "Y6", "objectiveCode": "SC6-LIV-1", "type": "multiple_choice", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "air resistance pushes against them, opposing their movement",
+      "the wind creates air resistance that slows them down"
+    ],
+    "explanation": "A headwind increases air resistance acting against the direction of travel, requiring more effort to overcome."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIV-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Carl Linnaeus developed a system for classifying living things. What did he mainly group living things according to?",
-    "options": [{ "id": "a", "text": "Their observable characteristics, such as body features" }, { "id": "b", "text": "Their exact age" }, { "id": "c", "text": "Where they were born only" }, { "id": "d", "text": "Their favourite food only" }],
-    "correctOptionId": "a", "explanation": "Linnaeus classified living things into groups based on shared observable characteristics, such as body structure and features." },
-  { "subjectSlug": "science", "strandSlug": "living-things-habitats", "yearGroup": "Y6", "objectiveCode": "SC6-LIV-1", "type": "matching", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Their observable characteristics, such as body features"
+      },
+      {
+        "id": "b",
+        "text": "Their exact age"
+      },
+      {
+        "id": "c",
+        "text": "Where they were born only"
+      },
+      {
+        "id": "d",
+        "text": "Their favourite food only"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Linnaeus classified living things into groups based on shared observable characteristics, such as body structure and features."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIV-1",
+    "type": "matching",
+    "difficulty": "gold",
     "promptText": "Match each group of living things to its defining characteristic.",
-    "pairs": [ { "id": "p1", "left": "Vertebrate", "right": "An animal with a backbone" }, { "id": "p2", "left": "Invertebrate", "right": "An animal without a backbone" }, { "id": "p3", "left": "Mammal", "right": "Has fur or hair and feeds its young on milk" }, { "id": "p4", "left": "Amphibian", "right": "Lives part of its life in water and part on land" } ],
-    "explanation": "Living things can be grouped into broad categories, such as vertebrates and invertebrates, and further into smaller groups like mammals and amphibians, based on shared characteristics." },
-  { "subjectSlug": "science", "strandSlug": "living-things-habitats", "yearGroup": "Y6", "objectiveCode": "SC6-LIV-2", "type": "short_answer", "difficulty": "silver",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Vertebrate",
+        "right": "An animal with a backbone"
+      },
+      {
+        "id": "p2",
+        "left": "Invertebrate",
+        "right": "An animal without a backbone"
+      },
+      {
+        "id": "p3",
+        "left": "Mammal",
+        "right": "Has fur or hair and feeds its young on milk"
+      },
+      {
+        "id": "p4",
+        "left": "Amphibian",
+        "right": "Lives part of its life in water and part on land"
+      }
+    ],
+    "explanation": "Living things can be grouped into broad categories, such as vertebrates and invertebrates, and further into smaller groups like mammals and amphibians, based on shared characteristics."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIV-2",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Give one reason why scientists classify living things into groups.",
-    "acceptedAnswers": ["it makes it easier to identify and study them", "it helps them see how living things are related to each other", "it helps them organise and compare living things"],
-    "explanation": "Classifying living things by shared characteristics helps scientists identify, compare and study them more easily." },
-  { "subjectSlug": "science", "strandSlug": "living-things-habitats", "yearGroup": "Y6", "objectiveCode": "SC6-LIV-2", "type": "multiple_choice", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "it makes it easier to identify and study them",
+      "it helps them see how living things are related to each other",
+      "it helps them organise and compare living things"
+    ],
+    "explanation": "Classifying living things by shared characteristics helps scientists identify, compare and study them more easily."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIV-2",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
     "promptText": "A scientist is deciding whether to classify a dolphin as a fish or a mammal. Which characteristic gives the best reason to classify it as a mammal?",
-    "options": [{ "id": "a", "text": "It lives in the ocean" }, { "id": "b", "text": "It breathes air using lungs and feeds its young on milk" }, { "id": "c", "text": "It has a streamlined, smooth body" }, { "id": "d", "text": "It swims in groups called pods" }],
-    "correctOptionId": "b", "explanation": "Dolphins are classified as mammals because they breathe air with lungs and feed their young on milk, not because of where they live or how they look." },
-  { "subjectSlug": "science", "strandSlug": "animals-including-humans", "yearGroup": "Y6", "objectiveCode": "SC6-ANI-1", "type": "multiple_choice", "difficulty": "bronze",
+    "options": [
+      {
+        "id": "a",
+        "text": "It lives in the ocean"
+      },
+      {
+        "id": "b",
+        "text": "It breathes air using lungs and feeds its young on milk"
+      },
+      {
+        "id": "c",
+        "text": "It has a streamlined, smooth body"
+      },
+      {
+        "id": "d",
+        "text": "It swims in groups called pods"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Dolphins are classified as mammals because they breathe air with lungs and feed their young on milk, not because of where they live or how they look."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "What is the main job of the heart?",
-    "options": [{ "id": "a", "text": "To digest food" }, { "id": "b", "text": "To pump blood around the body" }, { "id": "c", "text": "To filter the air we breathe" }, { "id": "d", "text": "To produce new blood cells" }],
-    "correctOptionId": "b", "explanation": "The heart is a muscular organ that pumps blood around the body through the blood vessels." },
-  { "subjectSlug": "science", "strandSlug": "animals-including-humans", "yearGroup": "Y6", "objectiveCode": "SC6-ANI-1", "type": "matching", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "To digest food"
+      },
+      {
+        "id": "b",
+        "text": "To pump blood around the body"
+      },
+      {
+        "id": "c",
+        "text": "To filter the air we breathe"
+      },
+      {
+        "id": "d",
+        "text": "To produce new blood cells"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The heart is a muscular organ that pumps blood around the body through the blood vessels."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-1",
+    "type": "matching",
+    "difficulty": "silver",
     "promptText": "Match each part of the circulatory system to its function.",
-    "pairs": [ { "id": "p1", "left": "Heart", "right": "Pumps blood around the body" }, { "id": "p2", "left": "Blood vessels", "right": "Tubes that carry blood to and from the heart" }, { "id": "p3", "left": "Red blood cells", "right": "Carry oxygen around the body" }, { "id": "p4", "left": "Plasma", "right": "The liquid part of blood that carries blood cells and nutrients" } ],
-    "explanation": "The heart, blood vessels and blood work together to transport oxygen and nutrients around the body." },
-  { "subjectSlug": "science", "strandSlug": "animals-including-humans", "yearGroup": "Y6", "objectiveCode": "SC6-ANI-2", "type": "short_answer", "difficulty": "silver",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Heart",
+        "right": "Pumps blood around the body"
+      },
+      {
+        "id": "p2",
+        "left": "Blood vessels",
+        "right": "Tubes that carry blood to and from the heart"
+      },
+      {
+        "id": "p3",
+        "left": "Red blood cells",
+        "right": "Carry oxygen around the body"
+      },
+      {
+        "id": "p4",
+        "left": "Plasma",
+        "right": "The liquid part of blood that carries blood cells and nutrients"
+      }
+    ],
+    "explanation": "The heart, blood vessels and blood work together to transport oxygen and nutrients around the body."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-2",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Give one way that regular exercise benefits the body.",
-    "acceptedAnswers": ["it strengthens the heart", "it keeps muscles and bones strong", "it improves fitness", "it helps maintain a healthy weight"],
-    "explanation": "Regular exercise strengthens the heart and muscles, keeps bones healthy and helps maintain a healthy body weight." },
-  { "subjectSlug": "science", "strandSlug": "animals-including-humans", "yearGroup": "Y6", "objectiveCode": "SC6-ANI-2", "type": "multiple_choice", "difficulty": "gold",
+    "acceptedAnswers": [
+      "it strengthens the heart",
+      "it keeps muscles and bones strong",
+      "it improves fitness",
+      "it helps maintain a healthy weight"
+    ],
+    "explanation": "Regular exercise strengthens the heart and muscles, keeps bones healthy and helps maintain a healthy body weight."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Which statement about the effect of drugs on the body is correct?",
-    "options": [{ "id": "a", "text": "Alcohol can slow down reactions and affect judgement" }, { "id": "b", "text": "All drugs are illegal" }, { "id": "c", "text": "Drugs never affect the heart or lungs" }, { "id": "d", "text": "Medicines are never classed as drugs" }],
-    "correctOptionId": "a", "explanation": "Alcohol is a drug that affects the nervous system, slowing reactions and impairing judgement." },
-  { "subjectSlug": "science", "strandSlug": "animals-including-humans", "yearGroup": "Y6", "objectiveCode": "SC6-ANI-3", "type": "multiple_choice", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Alcohol can slow down reactions and affect judgement"
+      },
+      {
+        "id": "b",
+        "text": "All drugs are illegal"
+      },
+      {
+        "id": "c",
+        "text": "Drugs never affect the heart or lungs"
+      },
+      {
+        "id": "d",
+        "text": "Medicines are never classed as drugs"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Alcohol is a drug that affects the nervous system, slowing reactions and impairing judgement."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Digested food passes into the blood mainly through the wall of which organ?",
-    "options": [{ "id": "a", "text": "The stomach" }, { "id": "b", "text": "The small intestine" }, { "id": "c", "text": "The liver" }, { "id": "d", "text": "The lungs" }],
-    "correctOptionId": "b", "explanation": "Most digested nutrients are absorbed into the blood through the wall of the small intestine." },
-  { "subjectSlug": "science", "strandSlug": "animals-including-humans", "yearGroup": "Y6", "objectiveCode": "SC6-ANI-3", "type": "short_answer", "difficulty": "challenge",
+    "options": [
+      {
+        "id": "a",
+        "text": "The stomach"
+      },
+      {
+        "id": "b",
+        "text": "The small intestine"
+      },
+      {
+        "id": "c",
+        "text": "The liver"
+      },
+      {
+        "id": "d",
+        "text": "The lungs"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Most digested nutrients are absorbed into the blood through the wall of the small intestine."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-3",
+    "type": "short_answer",
+    "difficulty": "challenge",
     "promptText": "Explain how nutrients from food reach the rest of the body after digestion.",
-    "acceptedAnswers": ["they are absorbed into the blood in the small intestine and carried around the body by the circulatory system", "nutrients pass into the blood and are transported around the body by blood vessels"],
-    "explanation": "Nutrients are absorbed into the bloodstream in the small intestine, and the circulatory system then transports them to all parts of the body." },
-  { "subjectSlug": "science", "strandSlug": "evolution-inheritance", "yearGroup": "Y6", "objectiveCode": "SC6-EVO-1", "type": "multiple_choice", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "they are absorbed into the blood in the small intestine and carried around the body by the circulatory system",
+      "nutrients pass into the blood and are transported around the body by blood vessels"
+    ],
+    "explanation": "Nutrients are absorbed into the bloodstream in the small intestine, and the circulatory system then transports them to all parts of the body."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "What is a fossil?",
-    "options": [{ "id": "a", "text": "The preserved remains or traces of a living thing from millions of years ago" }, { "id": "b", "text": "A type of rock found only on mountains" }, { "id": "c", "text": "A bone from a living animal" }, { "id": "d", "text": "A living dinosaur" }],
-    "correctOptionId": "a", "explanation": "A fossil is the preserved remains, impression or trace of a plant or animal that lived millions of years ago." },
-  { "subjectSlug": "science", "strandSlug": "evolution-inheritance", "yearGroup": "Y6", "objectiveCode": "SC6-EVO-1", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "The preserved remains or traces of a living thing from millions of years ago"
+      },
+      {
+        "id": "b",
+        "text": "A type of rock found only on mountains"
+      },
+      {
+        "id": "c",
+        "text": "A bone from a living animal"
+      },
+      {
+        "id": "d",
+        "text": "A living dinosaur"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A fossil is the preserved remains, impression or trace of a plant or animal that lived millions of years ago."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Give one way that a fossil can form.",
-    "acceptedAnswers": ["an animal or plant dies and is buried in mud or sediment, which slowly turns to rock and preserves its shape", "a dead organism is buried in sediment and over millions of years the sediment turns to rock, preserving its shape"],
-    "explanation": "Fossils often form when a dead organism is quickly buried in sediment, which hardens into rock over millions of years, preserving its shape." },
-  { "subjectSlug": "science", "strandSlug": "evolution-inheritance", "yearGroup": "Y6", "objectiveCode": "SC6-EVO-2", "type": "multiple_choice", "difficulty": "silver",
+    "acceptedAnswers": [
+      "an animal or plant dies and is buried in mud or sediment, which slowly turns to rock and preserves its shape",
+      "a dead organism is buried in sediment and over millions of years the sediment turns to rock, preserving its shape"
+    ],
+    "explanation": "Fossils often form when a dead organism is quickly buried in sediment, which hardens into rock over millions of years, preserving its shape."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which statement about offspring is correct?",
-    "options": [{ "id": "a", "text": "Offspring are always identical to their parents" }, { "id": "b", "text": "Offspring are usually similar to their parents but not identical" }, { "id": "c", "text": "Offspring never share any characteristics with their parents" }, { "id": "d", "text": "Only plants produce offspring that vary" }],
-    "correctOptionId": "b", "explanation": "Offspring of the same parents are normally similar to them but show variation and are not identical." },
-  { "subjectSlug": "science", "strandSlug": "evolution-inheritance", "yearGroup": "Y6", "objectiveCode": "SC6-EVO-2", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Offspring are always identical to their parents"
+      },
+      {
+        "id": "b",
+        "text": "Offspring are usually similar to their parents but not identical"
+      },
+      {
+        "id": "c",
+        "text": "Offspring never share any characteristics with their parents"
+      },
+      {
+        "id": "d",
+        "text": "Only plants produce offspring that vary"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Offspring of the same parents are normally similar to them but show variation and are not identical."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Give one reason why two puppies from the same litter might look slightly different from each other.",
-    "acceptedAnswers": ["they inherit a different mix of characteristics from their parents", "each puppy inherits a different combination of characteristics from its parents, causing natural variation"],
-    "explanation": "Even offspring from the same parents inherit different combinations of characteristics, which causes natural variation between them." },
-  { "subjectSlug": "science", "strandSlug": "evolution-inheritance", "yearGroup": "Y6", "objectiveCode": "SC6-EVO-3", "type": "short_answer", "difficulty": "gold",
+    "acceptedAnswers": [
+      "they inherit a different mix of characteristics from their parents",
+      "each puppy inherits a different combination of characteristics from its parents, causing natural variation"
+    ],
+    "explanation": "Even offspring from the same parents inherit different combinations of characteristics, which causes natural variation between them."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-3",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Give one example of how an animal is adapted to suit its environment.",
-    "acceptedAnswers": ["a polar bear has thick fur and fat to keep warm in the cold", "a camel stores fat in its hump to survive without food or water in the desert", "a fish has gills to help it breathe underwater"],
-    "explanation": "Animals have body features suited to their environment, such as a polar bear's thick fur for warmth in the Arctic." },
-  { "subjectSlug": "science", "strandSlug": "evolution-inheritance", "yearGroup": "Y6", "objectiveCode": "SC6-EVO-3", "type": "multiple_choice", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "a polar bear has thick fur and fat to keep warm in the cold",
+      "a camel stores fat in its hump to survive without food or water in the desert",
+      "a fish has gills to help it breathe underwater"
+    ],
+    "explanation": "Animals have body features suited to their environment, such as a polar bear's thick fur for warmth in the Arctic."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-3",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
     "promptText": "Over many generations, how can adaptation lead to evolution?",
-    "options": [{ "id": "a", "text": "Individuals with characteristics suited to their environment are more likely to survive and reproduce, passing those characteristics on" }, { "id": "b", "text": "All animals change instantly to suit their environment" }, { "id": "c", "text": "Adaptation only happens in plants, not animals" }, { "id": "d", "text": "Adaptation happens the same way in every generation with no change over time" }],
-    "correctOptionId": "a", "explanation": "Evolution happens when individuals best suited to their environment survive and reproduce, gradually passing on useful characteristics over many generations." },
-  { "subjectSlug": "science", "strandSlug": "light", "yearGroup": "Y6", "objectiveCode": "SC6-LIG-1", "type": "multiple_choice", "difficulty": "bronze",
+    "options": [
+      {
+        "id": "a",
+        "text": "Individuals with characteristics suited to their environment are more likely to survive and reproduce, passing those characteristics on"
+      },
+      {
+        "id": "b",
+        "text": "All animals change instantly to suit their environment"
+      },
+      {
+        "id": "c",
+        "text": "Adaptation only happens in plants, not animals"
+      },
+      {
+        "id": "d",
+        "text": "Adaptation happens the same way in every generation with no change over time"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Evolution happens when individuals best suited to their environment survive and reproduce, gradually passing on useful characteristics over many generations."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "How does light usually travel?",
-    "options": [{ "id": "a", "text": "In straight lines" }, { "id": "b", "text": "In curves" }, { "id": "c", "text": "In circles" }, { "id": "d", "text": "Only downwards" }],
-    "correctOptionId": "a", "explanation": "Light travels in straight lines, which is why we can see shadows and use straight rulers to show light paths." },
-  { "subjectSlug": "science", "strandSlug": "light", "yearGroup": "Y6", "objectiveCode": "SC6-LIG-1", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "In straight lines"
+      },
+      {
+        "id": "b",
+        "text": "In curves"
+      },
+      {
+        "id": "c",
+        "text": "In circles"
+      },
+      {
+        "id": "d",
+        "text": "Only downwards"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Light travels in straight lines, which is why we can see shadows and use straight rulers to show light paths."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Explain why you cannot see around a corner without using a mirror.",
-    "acceptedAnswers": ["light travels in straight lines, so it cannot bend around a corner", "because light only travels in straight lines and cannot curve around objects"],
-    "explanation": "Since light travels in straight lines, it cannot bend around a corner, so a mirror is needed to redirect it." },
-  { "subjectSlug": "science", "strandSlug": "light", "yearGroup": "Y6", "objectiveCode": "SC6-LIG-2", "type": "short_answer", "difficulty": "silver",
+    "acceptedAnswers": [
+      "light travels in straight lines, so it cannot bend around a corner",
+      "because light only travels in straight lines and cannot curve around objects"
+    ],
+    "explanation": "Since light travels in straight lines, it cannot bend around a corner, so a mirror is needed to redirect it."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-2",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "A book on a table does not give out its own light. Explain how we are still able to see it.",
-    "acceptedAnswers": ["light from a light source reflects off the book and travels into our eyes", "light bounces off the book and into our eyes"],
-    "explanation": "We see non-luminous objects like books because light from a light source reflects off them and travels into our eyes." },
-  { "subjectSlug": "science", "strandSlug": "light", "yearGroup": "Y6", "objectiveCode": "SC6-LIG-2", "type": "multiple_choice", "difficulty": "gold",
+    "acceptedAnswers": [
+      "light from a light source reflects off the book and travels into our eyes",
+      "light bounces off the book and into our eyes"
+    ],
+    "explanation": "We see non-luminous objects like books because light from a light source reflects off them and travels into our eyes."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Which of these is a light source, meaning it gives out its own light?",
-    "options": [{ "id": "a", "text": "The Moon" }, { "id": "b", "text": "A mirror" }, { "id": "c", "text": "The Sun" }, { "id": "d", "text": "A shiny book cover" }],
-    "correctOptionId": "c", "explanation": "The Sun produces its own light, whereas the Moon, mirrors and shiny surfaces only reflect light from elsewhere." },
-  { "subjectSlug": "science", "strandSlug": "light", "yearGroup": "Y6", "objectiveCode": "SC6-LIG-3", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Moon"
+      },
+      {
+        "id": "b",
+        "text": "A mirror"
+      },
+      {
+        "id": "c",
+        "text": "The Sun"
+      },
+      {
+        "id": "d",
+        "text": "A shiny book cover"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The Sun produces its own light, whereas the Moon, mirrors and shiny surfaces only reflect light from elsewhere."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-3",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Explain why a shadow forms when an opaque object is placed in front of a light source.",
-    "acceptedAnswers": ["the object blocks the light so it cannot pass through, creating a dark area behind it", "light cannot pass through an opaque object, so it is blocked and a shadow forms behind it"],
-    "explanation": "Opaque objects block light because it cannot pass through them, creating a dark shadow on the surface behind." },
-  { "subjectSlug": "science", "strandSlug": "light", "yearGroup": "Y6", "objectiveCode": "SC6-LIG-3", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "the object blocks the light so it cannot pass through, creating a dark area behind it",
+      "light cannot pass through an opaque object, so it is blocked and a shadow forms behind it"
+    ],
+    "explanation": "Opaque objects block light because it cannot pass through them, creating a dark shadow on the surface behind."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-3",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "A torch shines on a ball, casting a shadow on the wall behind it.",
-    "steps": [ { "id": "s1", "prompt": "What happens to the size of the shadow if the ball is moved closer to the torch?", "acceptedAnswers": ["it gets bigger", "the shadow becomes larger"] }, { "id": "s2", "prompt": "Use the idea that light travels in straight lines to explain why the shadow changes size.", "acceptedAnswers": ["light travels in straight lines from the torch and spreads out, so moving the ball closer blocks a wider path of light, making a bigger shadow", "because light spreads out in straight lines from the torch, blocking it closer to the source blocks more of the light, casting a larger shadow"] } ],
-    "explanation": "Light spreads out in straight lines from a torch, so an object placed closer to the light source blocks a wider path of light, creating a larger shadow." },
-  { "subjectSlug": "science", "strandSlug": "electricity", "yearGroup": "Y6", "objectiveCode": "SC6-ELE-1", "type": "multiple_choice", "difficulty": "bronze",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What happens to the size of the shadow if the ball is moved closer to the torch?",
+        "acceptedAnswers": [
+          "it gets bigger",
+          "the shadow becomes larger"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Use the idea that light travels in straight lines to explain why the shadow changes size.",
+        "acceptedAnswers": [
+          "light travels in straight lines from the torch and spreads out, so moving the ball closer blocks a wider path of light, making a bigger shadow",
+          "because light spreads out in straight lines from the torch, blocking it closer to the source blocks more of the light, casting a larger shadow"
+        ]
+      }
+    ],
+    "explanation": "Light spreads out in straight lines from a torch, so an object placed closer to the light source blocks a wider path of light, creating a larger shadow."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "What happens to a bulb's brightness if you add a second cell of the same voltage to a simple series circuit?",
-    "options": [{ "id": "a", "text": "It gets dimmer" }, { "id": "b", "text": "It gets brighter" }, { "id": "c", "text": "It stays exactly the same" }, { "id": "d", "text": "It stops working completely" }],
-    "correctOptionId": "b", "explanation": "Adding another cell of the same voltage increases the energy supplied to the circuit, making the bulb brighter." },
-  { "subjectSlug": "science", "strandSlug": "electricity", "yearGroup": "Y6", "objectiveCode": "SC6-ELE-1", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "It gets dimmer"
+      },
+      {
+        "id": "b",
+        "text": "It gets brighter"
+      },
+      {
+        "id": "c",
+        "text": "It stays exactly the same"
+      },
+      {
+        "id": "d",
+        "text": "It stops working completely"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Adding another cell of the same voltage increases the energy supplied to the circuit, making the bulb brighter."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Give one factor that affects how loud a buzzer sounds in a circuit.",
-    "acceptedAnswers": ["the number of cells in the circuit", "the voltage of the cells used", "the number and voltage of the cells"],
-    "explanation": "The loudness of a buzzer depends on the number and voltage of the cells powering the circuit." },
-  { "subjectSlug": "science", "strandSlug": "electricity", "yearGroup": "Y6", "objectiveCode": "SC6-ELE-2", "type": "multiple_choice", "difficulty": "silver",
+    "acceptedAnswers": [
+      "the number of cells in the circuit",
+      "the voltage of the cells used",
+      "the number and voltage of the cells"
+    ],
+    "explanation": "The loudness of a buzzer depends on the number and voltage of the cells powering the circuit."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "In a circuit diagram, which symbol represents a switch?",
-    "options": [{ "id": "a", "text": "A circle with a cross inside" }, { "id": "b", "text": "A break in the wire with a lever that can open or close the gap" }, { "id": "c", "text": "A zigzag line" }, { "id": "d", "text": "Two parallel lines, one longer than the other" }],
-    "correctOptionId": "b", "explanation": "A switch is shown as a break in the circuit line with a lever that can be opened or closed to control the flow of current." },
-  { "subjectSlug": "science", "strandSlug": "electricity", "yearGroup": "Y6", "objectiveCode": "SC6-ELE-2", "type": "matching", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "A circle with a cross inside"
+      },
+      {
+        "id": "b",
+        "text": "A break in the wire with a lever that can open or close the gap"
+      },
+      {
+        "id": "c",
+        "text": "A zigzag line"
+      },
+      {
+        "id": "d",
+        "text": "Two parallel lines, one longer than the other"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A switch is shown as a break in the circuit line with a lever that can be opened or closed to control the flow of current."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-2",
+    "type": "matching",
+    "difficulty": "gold",
     "promptText": "Match each circuit symbol description to the component it represents.",
-    "pairs": [ { "id": "p1", "left": "A circle with a cross inside", "right": "Bulb (lamp)" }, { "id": "p2", "left": "Two parallel lines, one long and one short", "right": "Cell (battery)" }, { "id": "p3", "left": "A break in the wire with a switch lever", "right": "Switch" }, { "id": "p4", "left": "A zigzag line", "right": "Resistor" } ],
-    "explanation": "Recognised symbols let anyone read a circuit diagram in the same way, no matter what the real components look like." },
-  { "subjectSlug": "science", "strandSlug": "electricity", "yearGroup": "Y6", "objectiveCode": "SC6-ELE-3", "type": "short_answer", "difficulty": "gold",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "A circle with a cross inside",
+        "right": "Bulb (lamp)"
+      },
+      {
+        "id": "p2",
+        "left": "Two parallel lines, one long and one short",
+        "right": "Cell (battery)"
+      },
+      {
+        "id": "p3",
+        "left": "A break in the wire with a switch lever",
+        "right": "Switch"
+      },
+      {
+        "id": "p4",
+        "left": "A zigzag line",
+        "right": "Resistor"
+      }
+    ],
+    "explanation": "Recognised symbols let anyone read a circuit diagram in the same way, no matter what the real components look like."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-3",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Give one reason why a bulb in one circuit might be brighter than an identical bulb in another circuit.",
-    "acceptedAnswers": ["the circuit has more cells or a higher voltage", "the cells have a higher voltage", "there are fewer components using up the energy in that circuit"],
-    "explanation": "A bulb is brighter when the circuit provides more energy, for example through more cells or a higher voltage." },
-  { "subjectSlug": "science", "strandSlug": "electricity", "yearGroup": "Y6", "objectiveCode": "SC6-ELE-3", "type": "multiple_choice", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "the circuit has more cells or a higher voltage",
+      "the cells have a higher voltage",
+      "there are fewer components using up the energy in that circuit"
+    ],
+    "explanation": "A bulb is brighter when the circuit provides more energy, for example through more cells or a higher voltage."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-3",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
     "promptText": "Circuit A has two cells and circuit B has one identical cell, but both circuits are otherwise the same with one buzzer each. What would you expect?",
-    "options": [{ "id": "a", "text": "The buzzer in circuit A will be louder than in circuit B" }, { "id": "b", "text": "The buzzer in circuit B will be louder than in circuit A" }, { "id": "c", "text": "Both buzzers will be silent" }, { "id": "d", "text": "There will be no difference in volume" }],
-    "correctOptionId": "a", "explanation": "More cells provide more voltage to the circuit, so the buzzer in circuit A receives more energy and sounds louder." }
+    "options": [
+      {
+        "id": "a",
+        "text": "The buzzer in circuit A will be louder than in circuit B"
+      },
+      {
+        "id": "b",
+        "text": "The buzzer in circuit B will be louder than in circuit A"
+      },
+      {
+        "id": "c",
+        "text": "Both buzzers will be silent"
+      },
+      {
+        "id": "d",
+        "text": "There will be no difference in volume"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "More cells provide more voltage to the circuit, so the buzzer in circuit A receives more energy and sounds louder."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these is the correct order of a bird's life cycle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Egg → Chick → Adult"
+      },
+      {
+        "id": "b",
+        "text": "Chick → Egg → Adult"
+      },
+      {
+        "id": "c",
+        "text": "Adult → Egg → Larva"
+      },
+      {
+        "id": "d",
+        "text": "Egg → Larva → Pupa → Adult"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Birds hatch from eggs, grow as chicks, then become adults."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which animal undergoes complete metamorphosis (a total change of body form) during its life cycle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Butterfly"
+      },
+      {
+        "id": "b",
+        "text": "Human"
+      },
+      {
+        "id": "c",
+        "text": "Chicken"
+      },
+      {
+        "id": "d",
+        "text": "Dog"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A butterfly changes completely from caterpillar to chrysalis to adult — a process called complete metamorphosis."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name the four stages of a frog's life cycle in order.",
+    "acceptedAnswers": [
+      "egg, tadpole, froglet, adult",
+      "egg tadpole froglet adult"
+    ],
+    "explanation": "A frog's life cycle is: egg, tadpole, froglet, then adult."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What is the male part of a flower that produces pollen called?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stamen"
+      },
+      {
+        "id": "b",
+        "text": "Stigma"
+      },
+      {
+        "id": "c",
+        "text": "Petal"
+      },
+      {
+        "id": "d",
+        "text": "Sepal"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The stamen is the male part of a flower and produces pollen."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name the part of a flower that receives pollen during pollination.",
+    "acceptedAnswers": [
+      "stigma"
+    ],
+    "explanation": "The stigma is the part of the female reproductive organ that receives pollen."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-ANI-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which life stage comes immediately after 'child' in human development?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Adolescent"
+      },
+      {
+        "id": "b",
+        "text": "Baby"
+      },
+      {
+        "id": "c",
+        "text": "Elderly"
+      },
+      {
+        "id": "d",
+        "text": "Adult"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The order is baby, child, adolescent, adult, elderly."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-ANI-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name one stage of human development that comes before adulthood.",
+    "acceptedAnswers": [
+      "baby",
+      "child",
+      "adolescent",
+      "infancy",
+      "childhood"
+    ],
+    "explanation": "Baby, child and adolescent are all stages that come before adulthood."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-ANI-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "During puberty, which of these mainly triggers the physical changes in the body?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sex hormones"
+      },
+      {
+        "id": "b",
+        "text": "Digestive enzymes"
+      },
+      {
+        "id": "c",
+        "text": "Vitamins"
+      },
+      {
+        "id": "d",
+        "text": "Antibodies"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Hormones released during puberty trigger the physical changes the body goes through."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-ANI-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one physical change that can happen during puberty.",
+    "acceptedAnswers": [
+      "growth spurts",
+      "voice changes",
+      "body shape changes",
+      "growing taller"
+    ],
+    "explanation": "Growth spurts, voice changes and changes in body shape are all common physical changes during puberty."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-ANI-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which statement about ageing is TRUE?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Everyone ages at exactly the same rate"
+      },
+      {
+        "id": "b",
+        "text": "Ageing only affects appearance, not health"
+      },
+      {
+        "id": "c",
+        "text": "The human body gradually changes throughout life, including in old age"
+      },
+      {
+        "id": "d",
+        "text": "Ageing stops once you become an adult"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The human body continues to change throughout every life stage, including old age."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which property describes how easily a material lets light pass through it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Transparency"
+      },
+      {
+        "id": "b",
+        "text": "Hardness"
+      },
+      {
+        "id": "c",
+        "text": "Solubility"
+      },
+      {
+        "id": "d",
+        "text": "Conductivity"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Transparency describes how much light a material lets through."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name a material that is transparent.",
+    "acceptedAnswers": [
+      "glass",
+      "clear plastic",
+      "water"
+    ],
+    "explanation": "Glass, clear plastic and water are all common transparent materials."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "When sugar dissolves in water, what has actually happened to it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It has disappeared completely and no longer exists"
+      },
+      {
+        "id": "b",
+        "text": "It has broken into tiny particles spread through the water, and can be recovered"
+      },
+      {
+        "id": "c",
+        "text": "It has turned into a gas"
+      },
+      {
+        "id": "d",
+        "text": "It has become a permanently different substance"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Dissolving is a reversible change — the sugar's particles spread through the water but can be recovered, e.g. by evaporation."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-3",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these changes is REVERSIBLE?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Baking a cake"
+      },
+      {
+        "id": "b",
+        "text": "Melting chocolate"
+      },
+      {
+        "id": "c",
+        "text": "Rusting iron"
+      },
+      {
+        "id": "d",
+        "text": "Burning wood"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Melting is reversible (the chocolate can be cooled back to a solid); baking, rusting and burning all form new substances and cannot be undone."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-1",
+    "type": "matching",
+    "difficulty": "bronze",
+    "promptText": "Match each material property to a correct example.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Solubility",
+        "right": "Salt dissolves in water"
+      },
+      {
+        "id": "p2",
+        "left": "Hardness",
+        "right": "Diamond is very hard"
+      },
+      {
+        "id": "p3",
+        "left": "Conductivity",
+        "right": "Copper carries electricity well"
+      },
+      {
+        "id": "p4",
+        "left": "Transparency",
+        "right": "Glass lets light through"
+      }
+    ],
+    "explanation": "Materials can be grouped and compared using properties like solubility, hardness, conductivity and transparency."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which lists these planets in order from closest to the Sun?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mercury, Venus, Earth, Mars"
+      },
+      {
+        "id": "b",
+        "text": "Venus, Mercury, Mars, Earth"
+      },
+      {
+        "id": "c",
+        "text": "Earth, Venus, Mercury, Mars"
+      },
+      {
+        "id": "d",
+        "text": "Mars, Earth, Venus, Mercury"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In order from the Sun: Mercury, Venus, Earth, Mars."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name the force that causes planets to orbit the Sun instead of flying off into space.",
+    "acceptedAnswers": [
+      "gravity"
+    ],
+    "explanation": "The Sun's gravity pulls on the planets, keeping them travelling in orbit around it."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Roughly how long does it take the Moon to orbit the Earth once?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About a day"
+      },
+      {
+        "id": "b",
+        "text": "About a month"
+      },
+      {
+        "id": "c",
+        "text": "About a year"
+      },
+      {
+        "id": "d",
+        "text": "About a week"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Moon takes roughly a month (about 27-29 days) to orbit the Earth once."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "If it is midday where you are, where does the Sun appear to be in the sky?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Low near the horizon"
+      },
+      {
+        "id": "b",
+        "text": "High overhead"
+      },
+      {
+        "id": "c",
+        "text": "It cannot be seen"
+      },
+      {
+        "id": "d",
+        "text": "Directly below you"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "At midday, the Sun appears at its highest point in the sky."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-3",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain why the Sun appears to rise in the east and set in the west.",
+    "acceptedAnswers": [
+      "because the earth rotates from west to east on its axis",
+      "the earth spins west to east, making the sun appear to move across the sky"
+    ],
+    "explanation": "The Earth spins on its axis from west to east, which makes the Sun appear to rise in the east and set in the west."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "A ball is dropped and falls to the ground. Which force is mainly responsible?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Friction"
+      },
+      {
+        "id": "b",
+        "text": "Gravity"
+      },
+      {
+        "id": "c",
+        "text": "Air resistance"
+      },
+      {
+        "id": "d",
+        "text": "Magnetism"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Gravity pulls unsupported objects towards the Earth."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Explain why a feather falls more slowly than a coin when dropped from the same height.",
+    "acceptedAnswers": [
+      "air resistance acts more on the feather because of its shape and large surface area, slowing its fall",
+      "the feather has more air resistance due to its larger surface area compared to its weight"
+    ],
+    "explanation": "The feather's large surface area relative to its weight means air resistance has a much bigger slowing effect on it than on the coin."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which force acts between two surfaces rubbing against each other, slowing motion down?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Friction"
+      },
+      {
+        "id": "b",
+        "text": "Gravity"
+      },
+      {
+        "id": "c",
+        "text": "Magnetism"
+      },
+      {
+        "id": "d",
+        "text": "Upthrust"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Friction is the force that opposes motion between two surfaces in contact."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-3",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which simple machine is a bar that pivots on a fixed point to help lift a heavy load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pulley"
+      },
+      {
+        "id": "b",
+        "text": "Lever"
+      },
+      {
+        "id": "c",
+        "text": "Gear"
+      },
+      {
+        "id": "d",
+        "text": "Wedge"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A lever is a rigid bar that pivots on a fixed point (fulcrum) to make lifting easier."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-3",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Explain how gears can change the effect of a force.",
+    "acceptedAnswers": [
+      "gears can change the speed or direction of a turning force, making it easier to do work",
+      "interlocking gears change the speed, direction or turning force needed to move something"
+    ],
+    "explanation": "Interlocking gears change the speed, direction, or amount of turning force needed, allowing a smaller force to have a greater effect."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIV-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What is the name for a broad group of living things, such as 'mammals' or 'insects'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A species"
+      },
+      {
+        "id": "b",
+        "text": "A classification group"
+      },
+      {
+        "id": "c",
+        "text": "A habitat"
+      },
+      {
+        "id": "d",
+        "text": "An ecosystem"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Living things are sorted into classification groups based on shared characteristics."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIV-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name one characteristic used to classify an animal as a reptile.",
+    "acceptedAnswers": [
+      "it has scales",
+      "it is cold-blooded",
+      "it lays eggs with leathery shells",
+      "dry scaly skin"
+    ],
+    "explanation": "Reptiles are typically classified by features such as scaly skin, being cold-blooded, and laying leathery-shelled eggs."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIV-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Fungi (such as mushrooms) are classified separately from plants mainly because...",
+    "options": [
+      {
+        "id": "a",
+        "text": "they cannot make their own food through photosynthesis"
+      },
+      {
+        "id": "b",
+        "text": "they are always very small"
+      },
+      {
+        "id": "c",
+        "text": "they only grow in water"
+      },
+      {
+        "id": "d",
+        "text": "they can move around"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Unlike plants, fungi cannot photosynthesise — they get nutrients by absorbing them, which is why they're classified separately."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIV-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one reason a spider is classified as an invertebrate rather than an insect, even though it has legs.",
+    "acceptedAnswers": [
+      "it has 8 legs instead of 6, and two body sections instead of three",
+      "spiders have eight legs and two body parts, unlike insects which have six legs and three"
+    ],
+    "explanation": "Spiders have eight legs and two body sections, while insects have six legs and three body sections — a key classification difference."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIV-2",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "A newly discovered creature has fur, feeds its young on milk, and breathes air, but lives permanently in the ocean. How should it be classified?",
+    "options": [
+      {
+        "id": "a",
+        "text": "As a fish, because it lives in water"
+      },
+      {
+        "id": "b",
+        "text": "As a mammal, based on its characteristics rather than its habitat"
+      },
+      {
+        "id": "c",
+        "text": "It cannot be classified"
+      },
+      {
+        "id": "d",
+        "text": "As a reptile"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Classification is based on shared characteristics (fur, milk, breathing air), not where an animal lives — this describes a marine mammal, like a whale."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name the type of blood vessel that carries blood AWAY from the heart.",
+    "acceptedAnswers": [
+      "artery",
+      "arteries"
+    ],
+    "explanation": "Arteries carry oxygen-rich blood away from the heart to the rest of the body."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name the type of blood vessel that carries blood back TO the heart.",
+    "acceptedAnswers": [
+      "vein",
+      "veins"
+    ],
+    "explanation": "Veins carry blood back to the heart."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which lifestyle choice is most likely to have a negative impact on the heart and lungs over time?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Regular exercise"
+      },
+      {
+        "id": "b",
+        "text": "Smoking"
+      },
+      {
+        "id": "c",
+        "text": "Drinking water"
+      },
+      {
+        "id": "d",
+        "text": "Getting enough sleep"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Smoking damages the lungs and heart over time, unlike exercise, hydration and sleep, which support good health."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-3",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain the role of the small intestine in getting nutrients to the rest of the body.",
+    "acceptedAnswers": [
+      "it absorbs digested nutrients into the bloodstream so they can be transported around the body",
+      "nutrients pass through the walls of the small intestine into the blood, which carries them around the body"
+    ],
+    "explanation": "The small intestine absorbs digested nutrients into the blood, which then transports them to every part of the body."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Explain why fossils are useful evidence for scientists studying how living things have changed over time.",
+    "acceptedAnswers": [
+      "they show what living things looked like millions of years ago, letting scientists compare them to living things today",
+      "fossils preserve the shape of ancient living things, allowing scientists to see how species have changed"
+    ],
+    "explanation": "Fossils preserve evidence of ancient living things, letting scientists compare them with species alive today to study change over time."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Two brown rabbits have a litter of baby rabbits. Some babies are darker, some lighter. What best explains this?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The babies are not related to the parents"
+      },
+      {
+        "id": "b",
+        "text": "Natural variation means offspring inherit a different mix of characteristics"
+      },
+      {
+        "id": "c",
+        "text": "One parent must not be a rabbit"
+      },
+      {
+        "id": "d",
+        "text": "The babies will all change colour to match each other over time"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Offspring naturally vary because they inherit different combinations of characteristics from their parents."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-3",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Cactus plants have thick, waxy stems that store water. Which environment are they most likely adapted to?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rainforest"
+      },
+      {
+        "id": "b",
+        "text": "Desert"
+      },
+      {
+        "id": "c",
+        "text": "Arctic tundra"
+      },
+      {
+        "id": "d",
+        "text": "Deep ocean"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Water-storing, waxy stems are adaptations suited to hot, dry desert environments."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-3",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain what might happen to a species over many generations if its environment changes significantly and it cannot adapt.",
+    "acceptedAnswers": [
+      "it may struggle to survive and reproduce, and could eventually become extinct",
+      "the species may decline in numbers and could become extinct if it cannot adapt"
+    ],
+    "explanation": "A species that cannot adapt to a changed environment may struggle to survive and reproduce, and could eventually become extinct."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these best demonstrates that light travels in straight lines?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A shadow with a sharp, clear edge"
+      },
+      {
+        "id": "b",
+        "text": "A rainbow"
+      },
+      {
+        "id": "c",
+        "text": "A mirror reflecting an image"
+      },
+      {
+        "id": "d",
+        "text": "Sound echoing in a cave"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A sharp-edged shadow forms because light travels in straight lines and is fully blocked by the opaque object."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these is NOT a light source (it does not give out its own light)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Sun"
+      },
+      {
+        "id": "b",
+        "text": "A lit candle"
+      },
+      {
+        "id": "c",
+        "text": "A torch"
+      },
+      {
+        "id": "d",
+        "text": "The Moon"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "The Moon does not produce its own light — it only reflects sunlight."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Explain the difference between a light source and a reflective surface, using the Moon as an example.",
+    "acceptedAnswers": [
+      "a light source makes its own light, but the moon only reflects light from the sun rather than producing its own",
+      "the moon does not produce light itself, it just reflects sunlight"
+    ],
+    "explanation": "A true light source produces its own light; the Moon only reflects sunlight rather than producing light itself."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Why does the size of a shadow change as an object moves further from a light source?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The object gets physically smaller"
+      },
+      {
+        "id": "b",
+        "text": "Less of the spreading light is blocked, so the shadow shrinks"
+      },
+      {
+        "id": "c",
+        "text": "The light source gets dimmer"
+      },
+      {
+        "id": "d",
+        "text": "Shadows always stay the same size"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Light spreads out from its source, so moving an object further away means it blocks less of the spreading light, making a smaller shadow."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "What happens to a bulb's brightness if you increase the voltage of the cells in a simple series circuit?",
+    "acceptedAnswers": [
+      "it gets brighter",
+      "the bulb becomes brighter"
+    ],
+    "explanation": "A higher voltage supplies more energy to the circuit, making the bulb brighter."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "In a circuit diagram, which symbol represents a cell (battery)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A circle with a cross inside"
+      },
+      {
+        "id": "b",
+        "text": "Two parallel lines, one long and one short"
+      },
+      {
+        "id": "c",
+        "text": "A zigzag line"
+      },
+      {
+        "id": "d",
+        "text": "A break in the wire with a lever"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A cell is shown as two parallel lines, one longer (positive) and one shorter (negative)."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Why do scientists and engineers use standard, recognised symbols to draw circuit diagrams?",
+    "acceptedAnswers": [
+      "so anyone can read and understand the diagram in the same way, no matter who drew it",
+      "so circuit diagrams can be understood by anyone, regardless of who drew them"
+    ],
+    "explanation": "Standard symbols mean anyone, anywhere, can read and understand a circuit diagram in the same way."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A circuit has two buzzers connected in series with one cell. Compared to a circuit with just one buzzer and the same cell, what would you expect?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Both buzzers would be louder"
+      },
+      {
+        "id": "b",
+        "text": "Each buzzer would be quieter, as the energy is shared between them"
+      },
+      {
+        "id": "c",
+        "text": "There would be no difference"
+      },
+      {
+        "id": "d",
+        "text": "The buzzers would not work at all"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "With the same cell powering two buzzers in series, the energy is shared between them, so each is quieter than with a single buzzer."
+  }
 ]

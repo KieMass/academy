@@ -1,155 +1,1695 @@
 [
-  { "subjectSlug": "history", "strandSlug": "ancient-greeks", "yearGroup": "Y5", "objectiveCode": "HI5-GRE-1", "type": "multiple_choice", "difficulty": "bronze",
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-GRE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which Ancient Greek city-state is famous for developing an early form of democracy?",
-    "options": [{ "id": "a", "text": "Sparta" }, { "id": "b", "text": "Athens" }, { "id": "c", "text": "Corinth" }, { "id": "d", "text": "Thebes" }],
-    "correctOptionId": "b", "explanation": "Athens is famous for developing one of the earliest known forms of democracy." },
-  { "subjectSlug": "history", "strandSlug": "ancient-greeks", "yearGroup": "Y5", "objectiveCode": "HI5-GRE-1", "type": "multiple_choice", "difficulty": "bronze",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sparta"
+      },
+      {
+        "id": "b",
+        "text": "Athens"
+      },
+      {
+        "id": "c",
+        "text": "Corinth"
+      },
+      {
+        "id": "d",
+        "text": "Thebes"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Athens is famous for developing one of the earliest known forms of democracy."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-GRE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "What were the Ancient Greek Olympic Games originally held to honour?",
-    "options": [{ "id": "a", "text": "The god Zeus" }, { "id": "b", "text": "The goddess Athena" }, { "id": "c", "text": "A famous king" }, { "id": "d", "text": "The city of Rome" }],
-    "correctOptionId": "a", "explanation": "The ancient Olympic Games were held at Olympia in honour of Zeus." },
-  { "subjectSlug": "history", "strandSlug": "ancient-greeks", "yearGroup": "Y5", "objectiveCode": "HI5-GRE-2", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "The god Zeus"
+      },
+      {
+        "id": "b",
+        "text": "The goddess Athena"
+      },
+      {
+        "id": "c",
+        "text": "A famous king"
+      },
+      {
+        "id": "d",
+        "text": "The city of Rome"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The ancient Olympic Games were held at Olympia in honour of Zeus."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-GRE-2",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "In Athenian democracy, who was allowed to vote?",
-    "acceptedAnswers": ["free adult male citizens", "male citizens", "adult men who were citizens"],
-    "explanation": "Athenian democracy only allowed free adult male citizens to vote — women, slaves and foreigners could not." },
-  { "subjectSlug": "history", "strandSlug": "ancient-greeks", "yearGroup": "Y5", "objectiveCode": "HI5-GRE-2", "type": "short_answer", "difficulty": "gold",
+    "acceptedAnswers": [
+      "free adult male citizens",
+      "male citizens",
+      "adult men who were citizens"
+    ],
+    "explanation": "Athenian democracy only allowed free adult male citizens to vote — women, slaves and foreigners could not."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-GRE-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Give one way that Athenian democracy is different from most governments today.",
-    "acceptedAnswers": ["only men could vote", "not everyone could vote", "citizens voted directly rather than electing representatives"],
-    "explanation": "Unlike most modern democracies, Athenian democracy excluded women, slaves and foreigners, and used direct rather than representative voting." },
-  { "subjectSlug": "history", "strandSlug": "ancient-greeks", "yearGroup": "Y5", "objectiveCode": "HI5-GRE-1", "type": "multiple_choice", "difficulty": "silver",
+    "acceptedAnswers": [
+      "only men could vote",
+      "not everyone could vote",
+      "citizens voted directly rather than electing representatives"
+    ],
+    "explanation": "Unlike most modern democracies, Athenian democracy excluded women, slaves and foreigners, and used direct rather than representative voting."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-GRE-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which Ancient Greek city-state was famous for its strict military training?",
-    "options": [{ "id": "a", "text": "Athens" }, { "id": "b", "text": "Sparta" }, { "id": "c", "text": "Delphi" }, { "id": "d", "text": "Crete" }],
-    "correctOptionId": "b", "explanation": "Sparta was renowned for its rigorous, disciplined military training system." },
-  { "subjectSlug": "history", "strandSlug": "ancient-greeks", "yearGroup": "Y5", "objectiveCode": "HI5-GRE-1", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Athens"
+      },
+      {
+        "id": "b",
+        "text": "Sparta"
+      },
+      {
+        "id": "c",
+        "text": "Delphi"
+      },
+      {
+        "id": "d",
+        "text": "Crete"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sparta was renowned for its rigorous, disciplined military training system."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-GRE-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Name one subject that Ancient Greek philosophers and mathematicians made important discoveries in.",
-    "acceptedAnswers": ["maths", "mathematics", "philosophy", "astronomy", "geometry", "science"],
-    "explanation": "Ancient Greek thinkers made major contributions to mathematics, philosophy, astronomy and science." },
-  { "subjectSlug": "history", "strandSlug": "anglo-saxons", "yearGroup": "Y5", "objectiveCode": "HI5-SAX-1", "type": "multiple_choice", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "maths",
+      "mathematics",
+      "philosophy",
+      "astronomy",
+      "geometry",
+      "science"
+    ],
+    "explanation": "Ancient Greek thinkers made major contributions to mathematics, philosophy, astronomy and science."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-SAX-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "From roughly which regions did the Anglo-Saxons originally travel to Britain?",
-    "options": [{ "id": "a", "text": "Northern France and Spain" }, { "id": "b", "text": "Germany, Denmark and the Netherlands" }, { "id": "c", "text": "Italy and Greece" }, { "id": "d", "text": "Ireland and Scotland" }],
-    "correctOptionId": "b", "explanation": "The Anglo-Saxons came from areas of what is now Germany, Denmark and the Netherlands." },
-  { "subjectSlug": "history", "strandSlug": "anglo-saxons", "yearGroup": "Y5", "objectiveCode": "HI5-SAX-1", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Northern France and Spain"
+      },
+      {
+        "id": "b",
+        "text": "Germany, Denmark and the Netherlands"
+      },
+      {
+        "id": "c",
+        "text": "Italy and Greece"
+      },
+      {
+        "id": "d",
+        "text": "Ireland and Scotland"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Anglo-Saxons came from areas of what is now Germany, Denmark and the Netherlands."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-SAX-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "What type of building did Anglo-Saxon villagers typically live in?",
-    "acceptedAnswers": ["wooden huts", "timber houses", "thatched wooden houses"], "explanation": "Anglo-Saxons typically built simple wooden houses with thatched roofs." },
-  { "subjectSlug": "history", "strandSlug": "anglo-saxons", "yearGroup": "Y5", "objectiveCode": "HI5-SAX-2", "type": "multiple_choice", "difficulty": "gold",
+    "acceptedAnswers": [
+      "wooden huts",
+      "timber houses",
+      "thatched wooden houses"
+    ],
+    "explanation": "Anglo-Saxons typically built simple wooden houses with thatched roofs."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-SAX-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Which religion spread widely across Anglo-Saxon England during this period?",
-    "options": [{ "id": "a", "text": "Christianity" }, { "id": "b", "text": "Islam" }, { "id": "c", "text": "Buddhism" }, { "id": "d", "text": "Hinduism" }],
-    "correctOptionId": "a", "explanation": "Christianity spread across Anglo-Saxon England, partly through missionaries such as St Augustine." },
-  { "subjectSlug": "history", "strandSlug": "anglo-saxons", "yearGroup": "Y5", "objectiveCode": "HI5-SAX-2", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Christianity"
+      },
+      {
+        "id": "b",
+        "text": "Islam"
+      },
+      {
+        "id": "c",
+        "text": "Buddhism"
+      },
+      {
+        "id": "d",
+        "text": "Hinduism"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Christianity spread across Anglo-Saxon England, partly through missionaries such as St Augustine."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-SAX-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "What was the name given to an Anglo-Saxon king's code of laws written to keep order?",
-    "acceptedAnswers": ["law code", "code of laws"], "explanation": "Anglo-Saxon kings, such as King Alfred, issued written law codes to maintain order across their kingdoms." },
-  { "subjectSlug": "history", "strandSlug": "anglo-saxons", "yearGroup": "Y5", "objectiveCode": "HI5-SAX-1", "type": "multiple_choice", "difficulty": "silver",
+    "acceptedAnswers": [
+      "law code",
+      "code of laws"
+    ],
+    "explanation": "Anglo-Saxon kings, such as King Alfred, issued written law codes to maintain order across their kingdoms."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-SAX-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "What was the name of an Anglo-Saxon assembly of wise advisors to the king?",
-    "options": [{ "id": "a", "text": "The Witan" }, { "id": "b", "text": "The Senate" }, { "id": "c", "text": "The Parliament" }, { "id": "d", "text": "The Council of Elders" }],
-    "correctOptionId": "a", "explanation": "The Witan was the council of nobles and church leaders that advised Anglo-Saxon kings." },
-  { "subjectSlug": "history", "strandSlug": "vikings", "yearGroup": "Y5", "objectiveCode": "HI5-VIK-1", "type": "multiple_choice", "difficulty": "bronze",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Witan"
+      },
+      {
+        "id": "b",
+        "text": "The Senate"
+      },
+      {
+        "id": "c",
+        "text": "The Parliament"
+      },
+      {
+        "id": "d",
+        "text": "The Council of Elders"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Witan was the council of nobles and church leaders that advised Anglo-Saxon kings."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-VIK-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "From which countries did the Vikings mainly come?",
-    "options": [{ "id": "a", "text": "Norway, Sweden and Denmark" }, { "id": "b", "text": "France and Spain" }, { "id": "c", "text": "Italy and Greece" }, { "id": "d", "text": "Egypt and Libya" }],
-    "correctOptionId": "a", "explanation": "The Vikings mainly came from Scandinavia — Norway, Sweden and Denmark." },
-  { "subjectSlug": "history", "strandSlug": "vikings", "yearGroup": "Y5", "objectiveCode": "HI5-VIK-1", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Norway, Sweden and Denmark"
+      },
+      {
+        "id": "b",
+        "text": "France and Spain"
+      },
+      {
+        "id": "c",
+        "text": "Italy and Greece"
+      },
+      {
+        "id": "d",
+        "text": "Egypt and Libya"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Vikings mainly came from Scandinavia — Norway, Sweden and Denmark."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-VIK-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "What type of ship did the Vikings use to travel and raid across the seas?",
-    "acceptedAnswers": ["longship", "longboat"], "explanation": "The Viking longship was fast, sturdy and could sail in shallow water, ideal for raids and exploration." },
-  { "subjectSlug": "history", "strandSlug": "vikings", "yearGroup": "Y5", "objectiveCode": "HI5-VIK-1", "type": "multiple_choice", "difficulty": "gold",
+    "acceptedAnswers": [
+      "longship",
+      "longboat"
+    ],
+    "explanation": "The Viking longship was fast, sturdy and could sail in shallow water, ideal for raids and exploration."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-VIK-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "Which English king is famous for his battles against the Vikings and later became known as 'the Great'?",
-    "options": [{ "id": "a", "text": "Alfred" }, { "id": "b", "text": "Harold" }, { "id": "c", "text": "William" }, { "id": "d", "text": "Edward" }],
-    "correctOptionId": "a", "explanation": "Alfred the Great famously defended Wessex against Viking invasions and later negotiated territorial agreements with them." },
-  { "subjectSlug": "history", "strandSlug": "vikings", "yearGroup": "Y5", "objectiveCode": "HI5-VIK-2", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Alfred"
+      },
+      {
+        "id": "b",
+        "text": "Harold"
+      },
+      {
+        "id": "c",
+        "text": "William"
+      },
+      {
+        "id": "d",
+        "text": "Edward"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Alfred the Great famously defended Wessex against Viking invasions and later negotiated territorial agreements with them."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-VIK-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Name one type of evidence historians use to learn about the Vikings.",
-    "acceptedAnswers": ["artefacts", "archaeology", "sagas", "written records", "coins", "jewellery", "burial sites"],
-    "explanation": "Historians use artefacts, archaeological digs, burial sites, coins and written sagas to learn about Viking life." },
-  { "subjectSlug": "history", "strandSlug": "vikings", "yearGroup": "Y5", "objectiveCode": "HI5-VIK-1", "type": "multiple_choice", "difficulty": "silver",
+    "acceptedAnswers": [
+      "artefacts",
+      "archaeology",
+      "sagas",
+      "written records",
+      "coins",
+      "jewellery",
+      "burial sites"
+    ],
+    "explanation": "Historians use artefacts, archaeological digs, burial sites, coins and written sagas to learn about Viking life."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-VIK-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "What was 'Danegeld'?",
-    "options": [{ "id": "a", "text": "A payment made to Vikings to stop them raiding" }, { "id": "b", "text": "A type of Viking helmet" }, { "id": "c", "text": "A Viking farming tool" }, { "id": "d", "text": "A Viking sport" }],
-    "correctOptionId": "a", "explanation": "Danegeld was money paid by Anglo-Saxon kings to Viking raiders in an attempt to prevent attacks." },
-  { "subjectSlug": "history", "strandSlug": "ancient-greeks", "yearGroup": "Y6", "objectiveCode": "HI6-GRE-1", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "A payment made to Vikings to stop them raiding"
+      },
+      {
+        "id": "b",
+        "text": "A type of Viking helmet"
+      },
+      {
+        "id": "c",
+        "text": "A Viking farming tool"
+      },
+      {
+        "id": "d",
+        "text": "A Viking sport"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Danegeld was money paid by Anglo-Saxon kings to Viking raiders in an attempt to prevent attacks."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-GRE-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Give one example of an Ancient Greek achievement that still shapes life in Britain today.",
-    "acceptedAnswers": ["democracy", "the olympics", "the olympic games", "theatre", "philosophy", "juries in courts", "geometry", "maths"],
-    "explanation": "Many aspects of modern life, including democratic government, the Olympic Games, theatre and philosophy, developed from Ancient Greek ideas." },
-  { "subjectSlug": "history", "strandSlug": "ancient-greeks", "yearGroup": "Y6", "objectiveCode": "HI6-GRE-1", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "democracy",
+      "the olympics",
+      "the olympic games",
+      "theatre",
+      "philosophy",
+      "juries in courts",
+      "geometry",
+      "maths"
+    ],
+    "explanation": "Many aspects of modern life, including democratic government, the Olympic Games, theatre and philosophy, developed from Ancient Greek ideas."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-GRE-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "Explore how an Ancient Greek achievement still influences the modern world.",
     "steps": [
-      { "id": "s1", "prompt": "Name one field the Ancient Greeks made lasting contributions to (e.g. government, science, sport or the arts).", "acceptedAnswers": ["democracy", "government", "philosophy", "science", "maths", "mathematics", "theatre", "drama", "the olympics", "sport"] },
-      { "id": "s2", "prompt": "Give one piece of evidence that shows this Greek idea is still used today.", "acceptedAnswers": ["modern democracies elect representatives", "the olympic games are still held every four years", "plays and theatres still exist today", "scientists still use methods first developed by greek thinkers"] },
-      { "id": "s3", "prompt": "Explain why it is useful for historians to compare Ancient Greek achievements with life today.", "acceptedAnswers": ["it shows how much influence the past still has on the present", "it helps us understand where modern ideas came from", "it shows continuity and change over time"] }
+      {
+        "id": "s1",
+        "prompt": "Name one field the Ancient Greeks made lasting contributions to (e.g. government, science, sport or the arts).",
+        "acceptedAnswers": [
+          "democracy",
+          "government",
+          "philosophy",
+          "science",
+          "maths",
+          "mathematics",
+          "theatre",
+          "drama",
+          "the olympics",
+          "sport"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Give one piece of evidence that shows this Greek idea is still used today.",
+        "acceptedAnswers": [
+          "modern democracies elect representatives",
+          "the olympic games are still held every four years",
+          "plays and theatres still exist today",
+          "scientists still use methods first developed by greek thinkers"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Explain why it is useful for historians to compare Ancient Greek achievements with life today.",
+        "acceptedAnswers": [
+          "it shows how much influence the past still has on the present",
+          "it helps us understand where modern ideas came from",
+          "it shows continuity and change over time"
+        ]
+      }
     ],
-    "explanation": "Ancient Greek achievements in government, science and the arts can be traced through to institutions and ideas we still use today." },
-  { "subjectSlug": "history", "strandSlug": "anglo-saxons", "yearGroup": "Y6", "objectiveCode": "HI6-SAX-1", "type": "short_answer", "difficulty": "gold",
+    "explanation": "Ancient Greek achievements in government, science and the arts can be traced through to institutions and ideas we still use today."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-SAX-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Give one reason why an artefact dug up by archaeologists, such as those found at Sutton Hoo, can be useful evidence about Anglo-Saxon life.",
-    "acceptedAnswers": ["it was made and used at the time so shows real objects from anglo-saxon life", "it wasn't written down so it can't be exaggerated by an author's opinion", "it shows what anglo-saxons owned, made or used"],
-    "explanation": "Artefacts such as the Sutton Hoo treasure were made and used by the Anglo-Saxons themselves, so they give direct evidence about their skills, beliefs and way of life." },
-  { "subjectSlug": "history", "strandSlug": "anglo-saxons", "yearGroup": "Y6", "objectiveCode": "HI6-SAX-1", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "it was made and used at the time so shows real objects from anglo-saxon life",
+      "it wasn't written down so it can't be exaggerated by an author's opinion",
+      "it shows what anglo-saxons owned, made or used"
+    ],
+    "explanation": "Artefacts such as the Sutton Hoo treasure were made and used by the Anglo-Saxons themselves, so they give direct evidence about their skills, beliefs and way of life."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-SAX-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "Compare different types of evidence historians use to study Anglo-Saxon Britain.",
     "steps": [
-      { "id": "s1", "prompt": "Name two different types of source historians use to find out about Anglo-Saxon Britain.", "acceptedAnswers": ["artefacts and written accounts", "artefacts and archaeology", "written accounts and archaeology"] },
-      { "id": "s2", "prompt": "Give one reason a written account from the time might be unreliable.", "acceptedAnswers": ["it may have been written to make a king or ruler look good", "the writer may not have witnessed the event themselves", "it may be biased"] },
-      { "id": "s3", "prompt": "Give one reason archaeological evidence can also have limitations.", "acceptedAnswers": ["objects can be damaged or incomplete", "not everything survives to be found", "it doesn't tell us people's thoughts or feelings"] }
+      {
+        "id": "s1",
+        "prompt": "Name two different types of source historians use to find out about Anglo-Saxon Britain.",
+        "acceptedAnswers": [
+          "artefacts and written accounts",
+          "artefacts and archaeology",
+          "written accounts and archaeology"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Give one reason a written account from the time might be unreliable.",
+        "acceptedAnswers": [
+          "it may have been written to make a king or ruler look good",
+          "the writer may not have witnessed the event themselves",
+          "it may be biased"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Give one reason archaeological evidence can also have limitations.",
+        "acceptedAnswers": [
+          "objects can be damaged or incomplete",
+          "not everything survives to be found",
+          "it doesn't tell us people's thoughts or feelings"
+        ]
+      }
     ],
-    "explanation": "Historians combine artefacts, archaeology and written accounts, weighing up the strengths and limitations of each, to build a fuller and more reliable picture of Anglo-Saxon Britain." },
-  { "subjectSlug": "history", "strandSlug": "vikings", "yearGroup": "Y6", "objectiveCode": "HI6-VIK-1", "type": "short_answer", "difficulty": "gold",
+    "explanation": "Historians combine artefacts, archaeology and written accounts, weighing up the strengths and limitations of each, to build a fuller and more reliable picture of Anglo-Saxon Britain."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-VIK-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "In which year did the Battle of Hastings take place?",
-    "acceptedAnswers": ["1066"],
-    "explanation": "The Battle of Hastings took place in 1066, when William of Normandy defeated King Harold II." },
-  { "subjectSlug": "history", "strandSlug": "vikings", "yearGroup": "Y6", "objectiveCode": "HI6-VIK-1", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "1066"
+    ],
+    "explanation": "The Battle of Hastings took place in 1066, when William of Normandy defeated King Harold II."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-VIK-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "Trace the key events of the struggle for the English throne in 1066.",
     "steps": [
-      { "id": "s1", "prompt": "Which Viking king briefly ruled England in the early 11th century?", "acceptedAnswers": ["cnut", "king cnut", "canute"] },
-      { "id": "s2", "prompt": "Name the battle in 1066 where King Harold II defeated an invading Viking army before marching south.", "acceptedAnswers": ["battle of stamford bridge", "stamford bridge"] },
-      { "id": "s3", "prompt": "Who defeated King Harold II at the Battle of Hastings later in 1066?", "acceptedAnswers": ["william of normandy", "william the conqueror", "william"] }
+      {
+        "id": "s1",
+        "prompt": "Which Viking king briefly ruled England in the early 11th century?",
+        "acceptedAnswers": [
+          "cnut",
+          "king cnut",
+          "canute"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Name the battle in 1066 where King Harold II defeated an invading Viking army before marching south.",
+        "acceptedAnswers": [
+          "battle of stamford bridge",
+          "stamford bridge"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Who defeated King Harold II at the Battle of Hastings later in 1066?",
+        "acceptedAnswers": [
+          "william of normandy",
+          "william the conqueror",
+          "william"
+        ]
+      }
     ],
-    "explanation": "1066 saw a struggle for the English throne: Harold II defeated Viking invaders at Stamford Bridge, then was defeated by William of Normandy at Hastings, beginning the Norman Conquest." },
-  { "subjectSlug": "history", "strandSlug": "world-war-two", "yearGroup": "Y6", "objectiveCode": "HI6-WW2-1", "type": "multiple_choice", "difficulty": "bronze",
+    "explanation": "1066 saw a struggle for the English throne: Harold II defeated Viking invaders at Stamford Bridge, then was defeated by William of Normandy at Hastings, beginning the Norman Conquest."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "In which year did the Second World War begin?",
-    "options": [{ "id": "a", "text": "1914" }, { "id": "b", "text": "1939" }, { "id": "c", "text": "1945" }, { "id": "d", "text": "1929" }],
-    "correctOptionId": "b", "explanation": "The Second World War began in 1939 when Britain and France declared war on Germany after the invasion of Poland." },
-  { "subjectSlug": "history", "strandSlug": "world-war-two", "yearGroup": "Y6", "objectiveCode": "HI6-WW2-1", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "1914"
+      },
+      {
+        "id": "b",
+        "text": "1939"
+      },
+      {
+        "id": "c",
+        "text": "1945"
+      },
+      {
+        "id": "d",
+        "text": "1929"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The Second World War began in 1939 when Britain and France declared war on Germany after the invasion of Poland."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "What name was given to the sustained German bombing of British cities during the war?",
-    "options": [{ "id": "a", "text": "The Blitz" }, { "id": "b", "text": "The Somme" }, { "id": "c", "text": "VE Day" }, { "id": "d", "text": "The Battle of Hastings" }],
-    "correctOptionId": "a", "explanation": "The Blitz was the name given to the German bombing campaign against British cities, including London, from 1940." },
-  { "subjectSlug": "history", "strandSlug": "world-war-two", "yearGroup": "Y6", "objectiveCode": "HI6-WW2-1", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Blitz"
+      },
+      {
+        "id": "b",
+        "text": "The Somme"
+      },
+      {
+        "id": "c",
+        "text": "VE Day"
+      },
+      {
+        "id": "d",
+        "text": "The Battle of Hastings"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Blitz was the name given to the German bombing campaign against British cities, including London, from 1940."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Give one reason why many children were evacuated from British cities during the Second World War.",
-    "acceptedAnswers": ["to keep them safe from bombing", "to protect them from air raids", "cities were being bombed so children were moved somewhere safer"],
-    "explanation": "Children were evacuated from cities to the countryside to keep them safe from the bombing raids that targeted urban and industrial areas." },
-  { "subjectSlug": "history", "strandSlug": "world-war-two", "yearGroup": "Y6", "objectiveCode": "HI6-WW2-2", "type": "multiple_choice", "difficulty": "silver",
+    "acceptedAnswers": [
+      "to keep them safe from bombing",
+      "to protect them from air raids",
+      "cities were being bombed so children were moved somewhere safer"
+    ],
+    "explanation": "Children were evacuated from cities to the countryside to keep them safe from the bombing raids that targeted urban and industrial areas."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "What was 'rationing' during the Second World War?",
-    "options": [{ "id": "a", "text": "Limiting how much food and goods people could buy each week" }, { "id": "b", "text": "A type of air raid shelter" }, { "id": "c", "text": "A job in a factory" }, { "id": "d", "text": "A wartime holiday scheme" }],
-    "correctOptionId": "a", "explanation": "Rationing limited the amount of food and other goods each person could buy, ensuring supplies were shared fairly during shortages." },
-  { "subjectSlug": "history", "strandSlug": "world-war-two", "yearGroup": "Y6", "objectiveCode": "HI6-WW2-2", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Limiting how much food and goods people could buy each week"
+      },
+      {
+        "id": "b",
+        "text": "A type of air raid shelter"
+      },
+      {
+        "id": "c",
+        "text": "A job in a factory"
+      },
+      {
+        "id": "d",
+        "text": "A wartime holiday scheme"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Rationing limited the amount of food and other goods each person could buy, ensuring supplies were shared fairly during shortages."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Name one way women contributed to the war effort on the home front during the Second World War.",
-    "acceptedAnswers": ["working in factories", "joining the land army", "farming as part of the women's land army", "making munitions", "working as nurses", "driving vehicles", "driving ambulances"],
-    "explanation": "With many men away fighting, women took on vital roles such as working in munitions factories, driving vehicles and farming with the Women's Land Army." },
-  { "subjectSlug": "history", "strandSlug": "world-war-two", "yearGroup": "Y6", "objectiveCode": "HI6-WW2-3", "type": "short_answer", "difficulty": "gold",
+    "acceptedAnswers": [
+      "working in factories",
+      "joining the land army",
+      "farming as part of the women's land army",
+      "making munitions",
+      "working as nurses",
+      "driving vehicles",
+      "driving ambulances"
+    ],
+    "explanation": "With many men away fighting, women took on vital roles such as working in munitions factories, driving vehicles and farming with the Women's Land Army."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-3",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Give one thing a wartime ration book can tell historians about life during the Second World War.",
-    "acceptedAnswers": ["that food was in short supply", "that people could only buy limited amounts of certain foods", "it shows how the government controlled food supplies"],
-    "explanation": "A ration book shows that food and goods were in short supply and that the government controlled how much each person could buy." },
-  { "subjectSlug": "history", "strandSlug": "world-war-two", "yearGroup": "Y6", "objectiveCode": "HI6-WW2-3", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "that food was in short supply",
+      "that people could only buy limited amounts of certain foods",
+      "it shows how the government controlled food supplies"
+    ],
+    "explanation": "A ration book shows that food and goods were in short supply and that the government controlled how much each person could buy."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-3",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "Investigate what different wartime sources can tell us about life during the Second World War.",
     "steps": [
-      { "id": "s1", "prompt": "Name one type of source historians might use to study life during the Second World War (e.g. photographs, ration books or posters).", "acceptedAnswers": ["photographs", "ration books", "propaganda posters", "posters", "diaries", "newspapers"] },
-      { "id": "s2", "prompt": "Give one thing this type of source might reveal about wartime life.", "acceptedAnswers": ["what people wore or looked like", "what food was available", "what the government wanted people to think or do", "how people coped with shortages"] },
-      { "id": "s3", "prompt": "Give one reason historians should be careful when using propaganda posters as evidence.", "acceptedAnswers": ["they were designed to persuade people, not just inform them", "they may not show the whole truth", "they show the government's point of view rather than an objective one"] }
+      {
+        "id": "s1",
+        "prompt": "Name one type of source historians might use to study life during the Second World War (e.g. photographs, ration books or posters).",
+        "acceptedAnswers": [
+          "photographs",
+          "ration books",
+          "propaganda posters",
+          "posters",
+          "diaries",
+          "newspapers"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Give one thing this type of source might reveal about wartime life.",
+        "acceptedAnswers": [
+          "what people wore or looked like",
+          "what food was available",
+          "what the government wanted people to think or do",
+          "how people coped with shortages"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Give one reason historians should be careful when using propaganda posters as evidence.",
+        "acceptedAnswers": [
+          "they were designed to persuade people, not just inform them",
+          "they may not show the whole truth",
+          "they show the government's point of view rather than an objective one"
+        ]
+      }
     ],
-    "explanation": "Photographs, ration books and posters all give useful clues about wartime life, but sources like propaganda posters must be read carefully because they were designed to persuade rather than simply inform." },
-  { "subjectSlug": "history", "strandSlug": "crime-punishment", "yearGroup": "Y6", "objectiveCode": "HI6-CRI-1", "type": "multiple_choice", "difficulty": "bronze",
+    "explanation": "Photographs, ration books and posters all give useful clues about wartime life, but sources like propaganda posters must be read carefully because they were designed to persuade rather than simply inform."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "crime-punishment",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-CRI-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "In Anglo-Saxon times, what was 'trial by ordeal'?",
-    "options": [{ "id": "a", "text": "A test, such as carrying hot iron, believed to show guilt or innocence through God's judgement" }, { "id": "b", "text": "A trial held in front of the king only" }, { "id": "c", "text": "A modern-style trial with a jury" }, { "id": "d", "text": "A punishment for very minor crimes" }],
-    "correctOptionId": "a", "explanation": "Trial by ordeal was an Anglo-Saxon method of judging guilt, in which people underwent a painful physical test believed to reveal God's judgement." },
-  { "subjectSlug": "history", "strandSlug": "crime-punishment", "yearGroup": "Y6", "objectiveCode": "HI6-CRI-1", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "A test, such as carrying hot iron, believed to show guilt or innocence through God's judgement"
+      },
+      {
+        "id": "b",
+        "text": "A trial held in front of the king only"
+      },
+      {
+        "id": "c",
+        "text": "A modern-style trial with a jury"
+      },
+      {
+        "id": "d",
+        "text": "A punishment for very minor crimes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Trial by ordeal was an Anglo-Saxon method of judging guilt, in which people underwent a painful physical test believed to reveal God's judgement."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "crime-punishment",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-CRI-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "How did punishments in Britain generally change from earlier periods to the Victorian era and beyond?",
-    "options": [{ "id": "a", "text": "Prisons became more common instead of physical or capital punishment for many crimes" }, { "id": "b", "text": "All punishments were abolished" }, { "id": "c", "text": "Only fines were used for every crime" }, { "id": "d", "text": "Punishments became more severe for every single crime" }],
-    "correctOptionId": "a", "explanation": "Over time, Britain moved away from widespread use of physical and capital punishment towards imprisonment as a more common form of punishment." },
-  { "subjectSlug": "history", "strandSlug": "crime-punishment", "yearGroup": "Y6", "objectiveCode": "HI6-CRI-1", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Prisons became more common instead of physical or capital punishment for many crimes"
+      },
+      {
+        "id": "b",
+        "text": "All punishments were abolished"
+      },
+      {
+        "id": "c",
+        "text": "Only fines were used for every crime"
+      },
+      {
+        "id": "d",
+        "text": "Punishments became more severe for every single crime"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Over time, Britain moved away from widespread use of physical and capital punishment towards imprisonment as a more common form of punishment."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "crime-punishment",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-CRI-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Give one way that crime and punishment in Britain today is different from Anglo-Saxon times.",
-    "acceptedAnswers": ["we now have prisons instead of trial by ordeal", "punishments today are usually decided by courts and juries rather than trial by ordeal", "the death penalty has been abolished in britain", "we have a police force today"],
-    "explanation": "Modern Britain uses courts, juries and prisons, and has abolished practices such as trial by ordeal and the death penalty, unlike Anglo-Saxon times." },
-  { "subjectSlug": "history", "strandSlug": "crime-punishment", "yearGroup": "Y6", "objectiveCode": "HI6-CRI-2", "type": "short_answer", "difficulty": "gold",
+    "acceptedAnswers": [
+      "we now have prisons instead of trial by ordeal",
+      "punishments today are usually decided by courts and juries rather than trial by ordeal",
+      "the death penalty has been abolished in britain",
+      "we have a police force today"
+    ],
+    "explanation": "Modern Britain uses courts, juries and prisons, and has abolished practices such as trial by ordeal and the death penalty, unlike Anglo-Saxon times."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "crime-punishment",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-CRI-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Give one reason why attitudes to crime and punishment became less harsh in Britain over time.",
-    "acceptedAnswers": ["ideas about human rights changed", "people began to believe punishment should also try to reform criminals", "society became more educated and less accepting of cruel punishments", "reformers campaigned for change"],
-    "explanation": "Changing ideas about fairness, human rights and reform, often driven by reformers and campaigners, led society to move away from harsh punishments." },
-  { "subjectSlug": "history", "strandSlug": "crime-punishment", "yearGroup": "Y6", "objectiveCode": "HI6-CRI-2", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "ideas about human rights changed",
+      "people began to believe punishment should also try to reform criminals",
+      "society became more educated and less accepting of cruel punishments",
+      "reformers campaigned for change"
+    ],
+    "explanation": "Changing ideas about fairness, human rights and reform, often driven by reformers and campaigners, led society to move away from harsh punishments."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "crime-punishment",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-CRI-2",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "Link a wider social change to changing attitudes towards crime and punishment.",
     "steps": [
-      { "id": "s1", "prompt": "Name one period in British history when punishments were often very harsh (for example, hanging for many crimes).", "acceptedAnswers": ["victorian times", "georgian times", "the 18th century", "the 19th century", "tudor times"] },
-      { "id": "s2", "prompt": "Give one wider social change that helped change attitudes to punishment.", "acceptedAnswers": ["more people could read and access ideas about reform", "growing belief in human rights", "increased education", "campaigns by reformers"] },
-      { "id": "s3", "prompt": "Explain how this social change linked to a change in how criminals were treated.", "acceptedAnswers": ["it led to prisons focusing more on reforming criminals rather than just punishing them", "it led to fewer crimes being punished by death", "people began to think punishments should fit the crime more fairly"] }
+      {
+        "id": "s1",
+        "prompt": "Name one period in British history when punishments were often very harsh (for example, hanging for many crimes).",
+        "acceptedAnswers": [
+          "victorian times",
+          "georgian times",
+          "the 18th century",
+          "the 19th century",
+          "tudor times"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Give one wider social change that helped change attitudes to punishment.",
+        "acceptedAnswers": [
+          "more people could read and access ideas about reform",
+          "growing belief in human rights",
+          "increased education",
+          "campaigns by reformers"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Explain how this social change linked to a change in how criminals were treated.",
+        "acceptedAnswers": [
+          "it led to prisons focusing more on reforming criminals rather than just punishing them",
+          "it led to fewer crimes being punished by death",
+          "people began to think punishments should fit the crime more fairly"
+        ]
+      }
     ],
-    "explanation": "Wider social changes, such as growing ideas about human rights and reform, gradually led Britain to move away from very harsh punishments towards more proportionate justice and rehabilitation." }
+    "explanation": "Wider social changes, such as growing ideas about human rights and reform, gradually led Britain to move away from very harsh punishments towards more proportionate justice and rehabilitation."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-GRE-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What type of building did the Ancient Greeks build to worship their gods?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A temple"
+      },
+      {
+        "id": "b",
+        "text": "A castle"
+      },
+      {
+        "id": "c",
+        "text": "A mosque"
+      },
+      {
+        "id": "d",
+        "text": "A cathedral"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Ancient Greeks built temples, such as the Parthenon, to honour and worship their gods."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-GRE-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one Ancient Greek god or goddess.",
+    "acceptedAnswers": [
+      "zeus",
+      "athena",
+      "poseidon",
+      "apollo",
+      "hera",
+      "ares",
+      "artemis"
+    ],
+    "explanation": "Zeus, Athena, Poseidon and Apollo are among the many gods and goddesses worshipped in Ancient Greece."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-GRE-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "In Athenian democracy, who made the final decisions about laws?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A single king alone"
+      },
+      {
+        "id": "b",
+        "text": "Citizens voting directly in an assembly"
+      },
+      {
+        "id": "c",
+        "text": "Only priests"
+      },
+      {
+        "id": "d",
+        "text": "Foreign rulers"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Athenian democracy was direct — eligible citizens voted themselves on laws, rather than electing representatives."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-SAX-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Anglo-Saxon Britain was divided into several separate kingdoms. What term describes this period?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Heptarchy"
+      },
+      {
+        "id": "b",
+        "text": "The Commonwealth"
+      },
+      {
+        "id": "c",
+        "text": "The Empire"
+      },
+      {
+        "id": "d",
+        "text": "The Republic"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Heptarchy refers to the roughly seven main Anglo-Saxon kingdoms that existed in Britain."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-SAX-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one craft or skill Anglo-Saxons were known for, evidenced by finds like those at Sutton Hoo.",
+    "acceptedAnswers": [
+      "metalwork",
+      "jewellery making",
+      "blacksmithing",
+      "weaving"
+    ],
+    "explanation": "Anglo-Saxon craftspeople were skilled in metalwork, jewellery-making and weaving, as shown by finds like the Sutton Hoo treasure."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-SAX-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name the Anglo-Saxon king known for defending Wessex and promoting learning and law.",
+    "acceptedAnswers": [
+      "alfred the great",
+      "king alfred",
+      "alfred"
+    ],
+    "explanation": "Alfred the Great defended Wessex against the Vikings and promoted education and law codes across his kingdom."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-SAX-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What was the main crop grown by most Anglo-Saxon farming families?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rice"
+      },
+      {
+        "id": "b",
+        "text": "Wheat and barley"
+      },
+      {
+        "id": "c",
+        "text": "Coffee beans"
+      },
+      {
+        "id": "d",
+        "text": "Bananas"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Anglo-Saxon farmers mainly grew grains such as wheat and barley to make bread and ale."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-VIK-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What was the name for the area of northern and eastern England that came under Viking rule and law?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Danelaw"
+      },
+      {
+        "id": "b",
+        "text": "The Domain"
+      },
+      {
+        "id": "c",
+        "text": "The Shire"
+      },
+      {
+        "id": "d",
+        "text": "The Commonwealth"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Danelaw was the region of England where Viking (Danish) laws and customs applied."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-VIK-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one item commonly found in Viking burial sites that helps historians learn about their beliefs.",
+    "acceptedAnswers": [
+      "weapons",
+      "jewellery",
+      "coins",
+      "a viking ship",
+      "grave goods"
+    ],
+    "explanation": "Viking graves often contained weapons, jewellery and even ships, giving historians clues about their beliefs and way of life."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-VIK-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What did the Vikings use to help navigate the open seas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The sun, stars and sea landmarks"
+      },
+      {
+        "id": "b",
+        "text": "A compass invented in Scandinavia"
+      },
+      {
+        "id": "c",
+        "text": "Satellite maps"
+      },
+      {
+        "id": "d",
+        "text": "Radio signals"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Viking sailors navigated using the sun, stars, sea birds and other natural landmarks."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-VIK-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "How do historians know the Vikings were skilled traders as well as raiders?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Foreign coins and goods have been found at Viking sites"
+      },
+      {
+        "id": "b",
+        "text": "There is no evidence they traded"
+      },
+      {
+        "id": "c",
+        "text": "They never sailed beyond Scandinavia"
+      },
+      {
+        "id": "d",
+        "text": "They avoided contact with other cultures"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Archaeologists have found coins and goods from far-off lands at Viking sites, showing they traded widely, not just raided."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-GRE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these modern activities can be traced back to Ancient Greece?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Olympic Games"
+      },
+      {
+        "id": "b",
+        "text": "Cricket"
+      },
+      {
+        "id": "c",
+        "text": "Ice hockey"
+      },
+      {
+        "id": "d",
+        "text": "American football"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Olympic Games began in Ancient Greece and continue in a modern form today."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-GRE-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which branch of study did the Ancient Greek thinker Pythagoras contribute important ideas to?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mathematics"
+      },
+      {
+        "id": "b",
+        "text": "Cooking"
+      },
+      {
+        "id": "c",
+        "text": "Weaving"
+      },
+      {
+        "id": "d",
+        "text": "Farming"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Pythagoras was an Ancient Greek mathematician still known today for his work on geometry."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-GRE-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Explain one way that Ancient Greek theatre influences entertainment today.",
+    "acceptedAnswers": [
+      "plays and drama performed in theatres today developed from ancient greek theatre",
+      "modern plays and acting techniques trace back to ancient greek drama"
+    ],
+    "explanation": "Modern theatre, plays and acting techniques all have roots in the drama first developed in Ancient Greece."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-GRE-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which type of Ancient Greek government, where citizens vote directly on laws, is most similar to some referendums used today?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Direct democracy"
+      },
+      {
+        "id": "b",
+        "text": "Monarchy"
+      },
+      {
+        "id": "c",
+        "text": "Dictatorship"
+      },
+      {
+        "id": "d",
+        "text": "Feudalism"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Direct democracy, where citizens vote on issues themselves, is echoed today in referendums."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-GRE-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Using evidence, explain why the Olympic Games are a good example of lasting Ancient Greek influence.",
+    "acceptedAnswers": [
+      "the modern olympics still use the same four-year cycle and international competition idea first started by the ancient greeks",
+      "the games are still held every four years internationally, just as the ancient greeks began"
+    ],
+    "explanation": "The modern Olympics still follow the four-year cycle and spirit of international competition that the Ancient Greeks began nearly 3,000 years ago."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-GRE-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these is a legacy of Ancient Greek architecture still seen in buildings today?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tall stone columns"
+      },
+      {
+        "id": "b",
+        "text": "Glass skyscrapers"
+      },
+      {
+        "id": "c",
+        "text": "Steel bridges"
+      },
+      {
+        "id": "d",
+        "text": "Concrete domes only"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Classical column styles from Ancient Greek architecture are still used in many buildings, such as museums and government buildings, today."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-SAX-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which type of historical source is a physical object left behind, such as a brooch or sword?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An artefact"
+      },
+      {
+        "id": "b",
+        "text": "An oral account"
+      },
+      {
+        "id": "c",
+        "text": "A newspaper"
+      },
+      {
+        "id": "d",
+        "text": "A photograph"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "An artefact is a physical object made or used in the past, such as a brooch, sword or coin."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-SAX-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Why might an Anglo-Saxon chronicle written by monks be a useful but potentially biased source?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It records real events but may reflect the Church's viewpoint"
+      },
+      {
+        "id": "b",
+        "text": "It is completely unreliable and useless"
+      },
+      {
+        "id": "c",
+        "text": "It was written centuries after the events with no research"
+      },
+      {
+        "id": "d",
+        "text": "It only contains pictures, no words"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Chronicles written by monks record real events but often reflect a religious viewpoint, so historians must read them critically."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-SAX-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one limitation of using only archaeological evidence to understand Anglo-Saxon beliefs.",
+    "acceptedAnswers": [
+      "objects alone don't explain what people believed or thought, only what they owned or made",
+      "archaeology shows physical objects but not people's ideas, feelings or reasons"
+    ],
+    "explanation": "Archaeological objects show what people owned or made, but not directly what they believed, thought or felt."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-SAX-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "The Sutton Hoo ship burial contained fine jewellery and armour. What does this suggest about the person buried there?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They were likely someone of high status or wealth"
+      },
+      {
+        "id": "b",
+        "text": "They were definitely a farmer"
+      },
+      {
+        "id": "c",
+        "text": "They had no possessions"
+      },
+      {
+        "id": "d",
+        "text": "They lived in poverty"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The richness of the grave goods at Sutton Hoo suggests the burial was for someone of very high status, possibly a king."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-SAX-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain why using more than one type of source usually gives historians a more reliable picture of the past.",
+    "acceptedAnswers": [
+      "different sources can confirm or challenge each other, revealing a fuller and more balanced picture",
+      "combining sources helps historians cross-check facts and avoid relying on one potentially biased account"
+    ],
+    "explanation": "Cross-checking multiple types of source lets historians confirm facts and spot bias, building a fuller, more reliable picture."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-SAX-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these is an example of a written historical source about Anglo-Saxon Britain?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Anglo-Saxon Chronicle"
+      },
+      {
+        "id": "b",
+        "text": "A gold brooch"
+      },
+      {
+        "id": "c",
+        "text": "A skeleton"
+      },
+      {
+        "id": "d",
+        "text": "A coin hoard"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Anglo-Saxon Chronicle is a written historical record, unlike the other options, which are archaeological artefacts."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-VIK-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What event in 1066 is often seen as the end of the Anglo-Saxon and Viking age in England?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Norman Conquest"
+      },
+      {
+        "id": "b",
+        "text": "The Battle of Stamford Bridge alone"
+      },
+      {
+        "id": "c",
+        "text": "The building of Sutton Hoo"
+      },
+      {
+        "id": "d",
+        "text": "The founding of the Danelaw"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "William of Normandy's victory and the Norman Conquest of 1066 marked the end of Anglo-Saxon and Viking-era rule in England."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-VIK-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name the Norwegian king who invaded England in 1066 and was defeated at Stamford Bridge.",
+    "acceptedAnswers": [
+      "harald hardrada",
+      "harald hardrada of norway"
+    ],
+    "explanation": "Harald Hardrada of Norway invaded England in 1066 but was defeated by Harold II at Stamford Bridge."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-VIK-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Why was Harold II's army at a disadvantage at the Battle of Hastings, having just fought at Stamford Bridge?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They had just marched a long way south and were tired"
+      },
+      {
+        "id": "b",
+        "text": "They had more soldiers than William"
+      },
+      {
+        "id": "c",
+        "text": "They had better weapons than the Normans"
+      },
+      {
+        "id": "d",
+        "text": "They had already won the war"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Harold's army had to march quickly south after Stamford Bridge, arriving at Hastings exhausted."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-VIK-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one lasting change that William the Conqueror's victory in 1066 brought to England.",
+    "acceptedAnswers": [
+      "norman nobles replaced anglo-saxon lords",
+      "the introduction of the feudal system",
+      "changes to the english language",
+      "new castles were built across england"
+    ],
+    "explanation": "William's conquest brought Norman nobles to power, introduced the feudal system, changed the English language, and led to castles being built across the country."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-VIK-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "What historical record did William commission to survey land and property across England?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Domesday Book"
+      },
+      {
+        "id": "b",
+        "text": "The Magna Carta"
+      },
+      {
+        "id": "c",
+        "text": "The Anglo-Saxon Chronicle"
+      },
+      {
+        "id": "d",
+        "text": "The Bayeux Tapestry only"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Domesday Book was William's great survey of land and property ownership across England."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-VIK-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain why 1066 is considered such a significant turning point in English history.",
+    "acceptedAnswers": [
+      "it marked the end of anglo-saxon rule and the start of norman control, changing england's language, culture and government",
+      "it led to a new ruling class, new laws and lasting changes to england's culture and government"
+    ],
+    "explanation": "1066 ended Anglo-Saxon rule and began Norman control, bringing lasting changes to England's language, culture, government and society."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name the event that led Britain to declare war on Germany in 1939.",
+    "acceptedAnswers": [
+      "the invasion of poland",
+      "germany invading poland"
+    ],
+    "explanation": "Britain and France declared war on Germany after Germany invaded Poland in September 1939."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name one item that was commonly rationed during the Second World War.",
+    "acceptedAnswers": [
+      "sugar",
+      "butter",
+      "meat",
+      "eggs",
+      "petrol",
+      "clothes"
+    ],
+    "explanation": "Sugar, butter, meat, eggs, petrol and clothing were all commonly rationed during the war."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Why are photographs from the Second World War useful historical evidence?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They show real scenes and can be compared with written accounts"
+      },
+      {
+        "id": "b",
+        "text": "They are always completely unbiased and show everything"
+      },
+      {
+        "id": "c",
+        "text": "They were never used for propaganda"
+      },
+      {
+        "id": "d",
+        "text": "They cannot be dated"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Photographs capture real moments in time, which historians can compare against written accounts — though they too can be selective in what they show."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "crime-punishment",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-CRI-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "In the past, what was 'transportation' used as a punishment for?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sending convicted criminals to a distant colony, such as Australia"
+      },
+      {
+        "id": "b",
+        "text": "Giving criminals a bus pass"
+      },
+      {
+        "id": "c",
+        "text": "Moving criminals to a nicer prison"
+      },
+      {
+        "id": "d",
+        "text": "A type of fine"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Transportation involved sending convicted criminals overseas, often to colonies such as Australia, as punishment."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "crime-punishment",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-CRI-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name one method of punishment used in the past that is no longer used in Britain today.",
+    "acceptedAnswers": [
+      "hanging",
+      "the death penalty",
+      "public flogging",
+      "the stocks",
+      "transportation"
+    ],
+    "explanation": "Hanging, the death penalty, public flogging, the stocks and transportation were all once used but have since been abolished in Britain."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "crime-punishment",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-CRI-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which of these best explains why the death penalty was eventually abolished in Britain?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Changing attitudes about human rights and fairness in punishment"
+      },
+      {
+        "id": "b",
+        "text": "There were no more crimes being committed"
+      },
+      {
+        "id": "c",
+        "text": "It was too cheap to carry out"
+      },
+      {
+        "id": "d",
+        "text": "Judges refused to work"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Changing social attitudes towards human rights and fairer punishment led to the abolition of the death penalty in Britain."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "crime-punishment",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-CRI-2",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain one way that changes in society, such as better policing, changed how crime was dealt with over time.",
+    "acceptedAnswers": [
+      "better policing meant crimes could be investigated and solved more fairly, reducing reliance on harsh assumed punishments",
+      "organised police forces allowed for proper investigation rather than harsh, immediate punishment"
+    ],
+    "explanation": "The growth of organised police forces allowed crimes to be properly investigated, reducing reliance on harsh, immediate punishments based on assumption alone."
+  }
 ]

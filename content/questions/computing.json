@@ -1,130 +1,1915 @@
 [
-  { "subjectSlug": "computing", "strandSlug": "typing", "yearGroup": "Y5", "objectiveCode": "CO5-TYP-1", "type": "multiple_choice", "difficulty": "bronze",
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-TYP-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which row of keys should your fingers rest on when touch-typing?",
-    "options": [{ "id": "a", "text": "The number row" }, { "id": "b", "text": "The home row (ASDF JKL;)" }, { "id": "c", "text": "The top row" }, { "id": "d", "text": "The space bar row" }],
-    "correctOptionId": "b", "explanation": "The home row (ASDF for the left hand, JKL; for the right) is the resting position for touch-typing." },
-  { "subjectSlug": "computing", "strandSlug": "typing", "yearGroup": "Y5", "objectiveCode": "CO5-TYP-1", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "The number row"
+      },
+      {
+        "id": "b",
+        "text": "The home row (ASDF JKL;)"
+      },
+      {
+        "id": "c",
+        "text": "The top row"
+      },
+      {
+        "id": "d",
+        "text": "The space bar row"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The home row (ASDF for the left hand, JKL; for the right) is the resting position for touch-typing."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-TYP-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Which finger normally presses the spacebar?",
-    "acceptedAnswers": ["thumb", "either thumb"], "explanation": "The thumbs are used to press the spacebar in touch-typing technique." },
-  { "subjectSlug": "computing", "strandSlug": "e-safety", "yearGroup": "Y5", "objectiveCode": "CO5-SAFE-1", "type": "multiple_choice", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "thumb",
+      "either thumb"
+    ],
+    "explanation": "The thumbs are used to press the spacebar in touch-typing technique."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SAFE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "What should you do if a message online makes you feel uncomfortable or worried?",
-    "options": [{ "id": "a", "text": "Ignore it and keep playing" }, { "id": "b", "text": "Tell a trusted adult" }, { "id": "c", "text": "Reply angrily" }, { "id": "d", "text": "Share it with more friends" }],
-    "correctOptionId": "b", "explanation": "Telling a trusted adult is the safest response to anything online that feels uncomfortable or worrying." },
-  { "subjectSlug": "computing", "strandSlug": "e-safety", "yearGroup": "Y5", "objectiveCode": "CO5-SAFE-2", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ignore it and keep playing"
+      },
+      {
+        "id": "b",
+        "text": "Tell a trusted adult"
+      },
+      {
+        "id": "c",
+        "text": "Reply angrily"
+      },
+      {
+        "id": "d",
+        "text": "Share it with more friends"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Telling a trusted adult is the safest response to anything online that feels uncomfortable or worrying."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SAFE-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which of these is safe to share in a public online gaming profile?",
-    "options": [{ "id": "a", "text": "Your home address" }, { "id": "b", "text": "Your school name" }, { "id": "c", "text": "A nickname/username" }, { "id": "d", "text": "Your full name and phone number" }],
-    "correctOptionId": "c", "explanation": "A nickname doesn't reveal personal information, unlike your address, school or full name." },
-  { "subjectSlug": "computing", "strandSlug": "e-safety", "yearGroup": "Y5", "objectiveCode": "CO5-SAFE-1", "type": "short_answer", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Your home address"
+      },
+      {
+        "id": "b",
+        "text": "Your school name"
+      },
+      {
+        "id": "c",
+        "text": "A nickname/username"
+      },
+      {
+        "id": "d",
+        "text": "Your full name and phone number"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A nickname doesn't reveal personal information, unlike your address, school or full name."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SAFE-1",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "Name one feature most apps and games have that lets you report bad behaviour.",
-    "acceptedAnswers": ["a report button", "a block button", "report/block feature"], "explanation": "Most apps and games include report and block features to flag inappropriate content or behaviour." },
-  { "subjectSlug": "computing", "strandSlug": "algorithms", "yearGroup": "Y5", "objectiveCode": "CO5-ALG-1", "type": "short_answer", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "a report button",
+      "a block button",
+      "report/block feature"
+    ],
+    "explanation": "Most apps and games include report and block features to flag inappropriate content or behaviour."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-ALG-1",
+    "type": "short_answer",
+    "difficulty": "bronze",
     "promptText": "What word describes a set of step-by-step instructions to solve a problem?",
-    "acceptedAnswers": ["algorithm"], "explanation": "An algorithm is a precise, ordered set of instructions used to solve a problem or complete a task." },
-  { "subjectSlug": "computing", "strandSlug": "algorithms", "yearGroup": "Y5", "objectiveCode": "CO5-ALG-1", "type": "multi_step", "difficulty": "silver",
+    "acceptedAnswers": [
+      "algorithm"
+    ],
+    "explanation": "An algorithm is a precise, ordered set of instructions used to solve a problem or complete a task."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-ALG-1",
+    "type": "multi_step",
+    "difficulty": "silver",
     "promptText": "Put these steps of an algorithm for 'making a cup of tea' into the correct order by numbering them 1-3.",
     "steps": [
-      { "id": "s1", "prompt": "Which step should happen FIRST: 'Pour hot water into the cup', 'Boil the kettle', or 'Add a teabag to the cup'?", "acceptedAnswers": ["boil the kettle"] },
-      { "id": "s2", "prompt": "Which step should happen SECOND?", "acceptedAnswers": ["add a teabag to the cup"] },
-      { "id": "s3", "prompt": "Which step should happen THIRD?", "acceptedAnswers": ["pour hot water into the cup"] }
+      {
+        "id": "s1",
+        "prompt": "Which step should happen FIRST: 'Pour hot water into the cup', 'Boil the kettle', or 'Add a teabag to the cup'?",
+        "acceptedAnswers": [
+          "boil the kettle"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Which step should happen SECOND?",
+        "acceptedAnswers": [
+          "add a teabag to the cup"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Which step should happen THIRD?",
+        "acceptedAnswers": [
+          "pour hot water into the cup"
+        ]
+      }
     ],
-    "explanation": "A correct algorithm for tea: 1) Boil the kettle, 2) Add a teabag to the cup, 3) Pour in the hot water." },
-  { "subjectSlug": "computing", "strandSlug": "algorithms", "yearGroup": "Y5", "objectiveCode": "CO5-ALG-2", "type": "multiple_choice", "difficulty": "gold",
+    "explanation": "A correct algorithm for tea: 1) Boil the kettle, 2) Add a teabag to the cup, 3) Pour in the hot water."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-ALG-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "What is it called when you find and fix a mistake in a program's instructions?",
-    "options": [{ "id": "a", "text": "Debugging" }, { "id": "b", "text": "Coding" }, { "id": "c", "text": "Downloading" }, { "id": "d", "text": "Formatting" }],
-    "correctOptionId": "a", "explanation": "Debugging is the process of finding and correcting errors ('bugs') in an algorithm or program." },
-  { "subjectSlug": "computing", "strandSlug": "scratch-concepts", "yearGroup": "Y5", "objectiveCode": "CO5-SCR-1", "type": "matching", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Debugging"
+      },
+      {
+        "id": "b",
+        "text": "Coding"
+      },
+      {
+        "id": "c",
+        "text": "Downloading"
+      },
+      {
+        "id": "d",
+        "text": "Formatting"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Debugging is the process of finding and correcting errors ('bugs') in an algorithm or program."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SCR-1",
+    "type": "matching",
+    "difficulty": "silver",
     "promptText": "Match each programming concept to its description.",
-    "pairs": [ { "id": "p1", "left": "Sequence", "right": "Instructions run one after another in order" }, { "id": "p2", "left": "Selection", "right": "The program chooses a path using if/else" }, { "id": "p3", "left": "Repetition", "right": "A block of instructions repeats using a loop" }, { "id": "p4", "left": "Variable", "right": "A named value that can change while a program runs" } ],
-    "explanation": "Sequence, selection and repetition are the three core building blocks of algorithms and programs; variables store changeable data." },
-  { "subjectSlug": "computing", "strandSlug": "scratch-concepts", "yearGroup": "Y5", "objectiveCode": "CO5-SCR-1", "type": "multiple_choice", "difficulty": "bronze",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Sequence",
+        "right": "Instructions run one after another in order"
+      },
+      {
+        "id": "p2",
+        "left": "Selection",
+        "right": "The program chooses a path using if/else"
+      },
+      {
+        "id": "p3",
+        "left": "Repetition",
+        "right": "A block of instructions repeats using a loop"
+      },
+      {
+        "id": "p4",
+        "left": "Variable",
+        "right": "A named value that can change while a program runs"
+      }
+    ],
+    "explanation": "Sequence, selection and repetition are the three core building blocks of algorithms and programs; variables store changeable data."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SCR-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "In Scratch, which block type would you use to make a character repeat an action 10 times?",
-    "options": [{ "id": "a", "text": "A 'repeat 10' loop block" }, { "id": "b", "text": "An 'if/else' block" }, { "id": "c", "text": "A 'wait' block" }, { "id": "d", "text": "A 'broadcast' block" }],
-    "correctOptionId": "a", "explanation": "A 'repeat' loop block runs the enclosed instructions a set number of times." },
-  { "subjectSlug": "computing", "strandSlug": "digital-literacy", "yearGroup": "Y5", "objectiveCode": "CO5-DIG-1", "type": "multiple_choice", "difficulty": "bronze",
+    "options": [
+      {
+        "id": "a",
+        "text": "A 'repeat 10' loop block"
+      },
+      {
+        "id": "b",
+        "text": "An 'if/else' block"
+      },
+      {
+        "id": "c",
+        "text": "A 'wait' block"
+      },
+      {
+        "id": "d",
+        "text": "A 'broadcast' block"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A 'repeat' loop block runs the enclosed instructions a set number of times."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-DIG-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which software would be most suitable for creating a poster with pictures and text?",
-    "options": [{ "id": "a", "text": "A spreadsheet program" }, { "id": "b", "text": "A desktop publishing / presentation program" }, { "id": "c", "text": "An email client" }, { "id": "d", "text": "A calculator app" }],
-    "correctOptionId": "b", "explanation": "Desktop publishing or presentation software is designed for combining text and images into documents like posters." },
-  { "subjectSlug": "computing", "strandSlug": "digital-literacy", "yearGroup": "Y5", "objectiveCode": "CO5-DIG-2", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "A spreadsheet program"
+      },
+      {
+        "id": "b",
+        "text": "A desktop publishing / presentation program"
+      },
+      {
+        "id": "c",
+        "text": "An email client"
+      },
+      {
+        "id": "d",
+        "text": "A calculator app"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Desktop publishing or presentation software is designed for combining text and images into documents like posters."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-DIG-2",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "What is the name of the global network that connects computers so they can share information?",
-    "acceptedAnswers": ["the internet", "internet"], "explanation": "The internet is the global network of connected computers that allows information to be shared, including the World Wide Web." },
-  { "subjectSlug": "computing", "strandSlug": "typing", "yearGroup": "Y6", "objectiveCode": "CO6-TYP-1", "type": "short_answer", "difficulty": "silver",
+    "acceptedAnswers": [
+      "the internet",
+      "internet"
+    ],
+    "explanation": "The internet is the global network of connected computers that allows information to be shared, including the World Wide Web."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-TYP-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "Which keyboard shortcut is commonly used to make selected text bold?",
-    "acceptedAnswers": ["ctrl+b", "ctrl + b", "control b", "control+b"], "explanation": "Ctrl+B (or Control+B on a Mac) is the standard keyboard shortcut for making selected text bold." },
-  { "subjectSlug": "computing", "strandSlug": "typing", "yearGroup": "Y6", "objectiveCode": "CO6-TYP-1", "type": "multiple_choice", "difficulty": "gold",
+    "acceptedAnswers": [
+      "ctrl+b",
+      "ctrl + b",
+      "control b",
+      "control+b"
+    ],
+    "explanation": "Ctrl+B (or Control+B on a Mac) is the standard keyboard shortcut for making selected text bold."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-TYP-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
     "promptText": "You have just typed a sentence with a mistake and want to undo it quickly without using the mouse. Which keyboard shortcut should you use?",
-    "options": [{ "id": "a", "text": "Ctrl+Z" }, { "id": "b", "text": "Ctrl+P" }, { "id": "c", "text": "Ctrl+S" }, { "id": "d", "text": "Ctrl+A" }],
-    "correctOptionId": "a", "explanation": "Ctrl+Z is the standard shortcut for 'undo', reversing the last action you typed or edited." },
-  { "subjectSlug": "computing", "strandSlug": "e-safety", "yearGroup": "Y6", "objectiveCode": "CO6-SAFE-1", "type": "multiple_choice", "difficulty": "bronze",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ctrl+Z"
+      },
+      {
+        "id": "b",
+        "text": "Ctrl+P"
+      },
+      {
+        "id": "c",
+        "text": "Ctrl+S"
+      },
+      {
+        "id": "d",
+        "text": "Ctrl+A"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ctrl+Z is the standard shortcut for 'undo', reversing the last action you typed or edited."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SAFE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which of these is an example of acceptable online behaviour when playing a game with other people?",
-    "options": [{ "id": "a", "text": "Being kind and encouraging to other players" }, { "id": "b", "text": "Sending rude messages to players who lose" }, { "id": "c", "text": "Sharing someone else's password without asking them" }, { "id": "d", "text": "Pretending to be someone else to trick people" }],
-    "correctOptionId": "a", "explanation": "Being kind and encouraging to others is acceptable online behaviour; the other options are all examples of unacceptable or unsafe behaviour." },
-  { "subjectSlug": "computing", "strandSlug": "e-safety", "yearGroup": "Y6", "objectiveCode": "CO6-SAFE-2", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Being kind and encouraging to other players"
+      },
+      {
+        "id": "b",
+        "text": "Sending rude messages to players who lose"
+      },
+      {
+        "id": "c",
+        "text": "Sharing someone else's password without asking them"
+      },
+      {
+        "id": "d",
+        "text": "Pretending to be someone else to trick people"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Being kind and encouraging to others is acceptable online behaviour; the other options are all examples of unacceptable or unsafe behaviour."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SAFE-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which of these is the best clue that information on a website might NOT be reliable?",
-    "options": [{ "id": "a", "text": "It gives a recent publication date" }, { "id": "b", "text": "It is written by a named, qualified expert" }, { "id": "c", "text": "It makes surprising claims but gives no evidence or sources" }, { "id": "d", "text": "It links to other trustworthy websites" }],
-    "correctOptionId": "c", "explanation": "Reliable sources back up their claims with evidence and sources; a page that makes big claims with nothing to support them is a warning sign." },
-  { "subjectSlug": "computing", "strandSlug": "e-safety", "yearGroup": "Y6", "objectiveCode": "CO6-SAFE-2", "type": "short_answer", "difficulty": "challenge",
+    "options": [
+      {
+        "id": "a",
+        "text": "It gives a recent publication date"
+      },
+      {
+        "id": "b",
+        "text": "It is written by a named, qualified expert"
+      },
+      {
+        "id": "c",
+        "text": "It makes surprising claims but gives no evidence or sources"
+      },
+      {
+        "id": "d",
+        "text": "It links to other trustworthy websites"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Reliable sources back up their claims with evidence and sources; a page that makes big claims with nothing to support them is a warning sign."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SAFE-2",
+    "type": "short_answer",
+    "difficulty": "challenge",
     "promptText": "What is the term for checking whether a claim is true by comparing it with other trustworthy sources?",
-    "acceptedAnswers": ["fact-checking", "fact checking", "verifying it", "verification"], "explanation": "Fact-checking means confirming information is accurate by comparing it against other reliable, independent sources before trusting it." },
-  { "subjectSlug": "computing", "strandSlug": "algorithms", "yearGroup": "Y6", "objectiveCode": "CO6-ALG-1", "type": "multiple_choice", "difficulty": "bronze",
+    "acceptedAnswers": [
+      "fact-checking",
+      "fact checking",
+      "verifying it",
+      "verification"
+    ],
+    "explanation": "Fact-checking means confirming information is accurate by comparing it against other reliable, independent sources before trusting it."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-ALG-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "You are writing a program to control a set of traffic lights. Which sequence of colours should the lights show, in order, to go from stop to go?",
-    "options": [{ "id": "a", "text": "Red, Red+Amber, Green" }, { "id": "b", "text": "Green, Amber, Red" }, { "id": "c", "text": "Amber, Red, Green" }, { "id": "d", "text": "Red, Green, Amber" }],
-    "correctOptionId": "a", "explanation": "UK traffic lights change from Red to Red+Amber (get ready) to Green (go) — a real example of a physical system controlled by a sequenced algorithm." },
-  { "subjectSlug": "computing", "strandSlug": "algorithms", "yearGroup": "Y6", "objectiveCode": "CO6-ALG-1", "type": "multi_step", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Red, Red+Amber, Green"
+      },
+      {
+        "id": "b",
+        "text": "Green, Amber, Red"
+      },
+      {
+        "id": "c",
+        "text": "Amber, Red, Green"
+      },
+      {
+        "id": "d",
+        "text": "Red, Green, Amber"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "UK traffic lights change from Red to Red+Amber (get ready) to Green (go) — a real example of a physical system controlled by a sequenced algorithm."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-ALG-1",
+    "type": "multi_step",
+    "difficulty": "silver",
     "promptText": "Put these steps for programming a floor robot (like a Bee-Bot) to reach a target square into the correct order by numbering them 1-4.",
     "steps": [
-      { "id": "s1", "prompt": "Which step should happen FIRST: 'Press the go button', 'Turn on the robot', 'Enter the sequence of moves', or 'Watch the robot follow the moves'?", "acceptedAnswers": ["turn on the robot"] },
-      { "id": "s2", "prompt": "Which step should happen SECOND?", "acceptedAnswers": ["enter the sequence of moves"] },
-      { "id": "s3", "prompt": "Which step should happen THIRD?", "acceptedAnswers": ["press the go button"] },
-      { "id": "s4", "prompt": "Which step should happen FOURTH?", "acceptedAnswers": ["watch the robot follow the moves"] }
+      {
+        "id": "s1",
+        "prompt": "Which step should happen FIRST: 'Press the go button', 'Turn on the robot', 'Enter the sequence of moves', or 'Watch the robot follow the moves'?",
+        "acceptedAnswers": [
+          "turn on the robot"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Which step should happen SECOND?",
+        "acceptedAnswers": [
+          "enter the sequence of moves"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Which step should happen THIRD?",
+        "acceptedAnswers": [
+          "press the go button"
+        ]
+      },
+      {
+        "id": "s4",
+        "prompt": "Which step should happen FOURTH?",
+        "acceptedAnswers": [
+          "watch the robot follow the moves"
+        ]
+      }
     ],
-    "explanation": "To control a floor robot you must turn it on, enter (program) the moves, press go to run the algorithm, then watch it carry out the instructions." },
-  { "subjectSlug": "computing", "strandSlug": "algorithms", "yearGroup": "Y6", "objectiveCode": "CO6-ALG-2", "type": "short_answer", "difficulty": "gold",
+    "explanation": "To control a floor robot you must turn it on, enter (program) the moves, press go to run the algorithm, then watch it carry out the instructions."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-ALG-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "What is it called when a repeat (loop) block contains another selection (if) block inside it?",
-    "acceptedAnswers": ["nesting", "nested selection", "a nested if", "nested"], "explanation": "Placing one block of instructions inside another, such as an if-statement inside a loop, is called nesting." },
-  { "subjectSlug": "computing", "strandSlug": "algorithms", "yearGroup": "Y6", "objectiveCode": "CO6-ALG-2", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "nesting",
+      "nested selection",
+      "a nested if",
+      "nested"
+    ],
+    "explanation": "Placing one block of instructions inside another, such as an if-statement inside a loop, is called nesting."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-ALG-2",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "A program runs this nested algorithm: 'REPEAT 2 times: [ REPEAT 3 times: [ PRINT star ] ]'. Work through the algorithm by answering the steps below.",
     "steps": [
-      { "id": "s1", "prompt": "How many times does the inner loop (REPEAT 3 times) run for each single pass of the outer loop?", "acceptedAnswers": ["3", "three"] },
-      { "id": "s2", "prompt": "How many times does the outer loop (REPEAT 2 times) run in total?", "acceptedAnswers": ["2", "two"] },
-      { "id": "s3", "prompt": "How many times does PRINT star run altogether?", "acceptedAnswers": ["6", "six"] }
+      {
+        "id": "s1",
+        "prompt": "How many times does the inner loop (REPEAT 3 times) run for each single pass of the outer loop?",
+        "acceptedAnswers": [
+          "3",
+          "three"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many times does the outer loop (REPEAT 2 times) run in total?",
+        "acceptedAnswers": [
+          "2",
+          "two"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "How many times does PRINT star run altogether?",
+        "acceptedAnswers": [
+          "6",
+          "six"
+        ]
+      }
     ],
-    "explanation": "The inner loop runs 3 times for every one of the outer loop's 2 passes, so PRINT star runs 2 × 3 = 6 times in total." },
-  { "subjectSlug": "computing", "strandSlug": "scratch-concepts", "yearGroup": "Y6", "objectiveCode": "CO6-SCR-1", "type": "multiple_choice", "difficulty": "silver",
+    "explanation": "The inner loop runs 3 times for every one of the outer loop's 2 passes, so PRINT star runs 2 × 3 = 6 times in total."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SCR-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "In Scratch, a sprite must check 'if score > 10' and, only when that is true, also check 'if lives > 0' before it says 'You win!'. What is it called when one if-block is placed inside another like this?",
-    "options": [{ "id": "a", "text": "Nested selection" }, { "id": "b", "text": "A variable" }, { "id": "c", "text": "A broadcast" }, { "id": "d", "text": "A sequence" }],
-    "correctOptionId": "a", "explanation": "Placing one selection (if) block inside another is called nested selection, allowing more than one condition to be checked together." },
-  { "subjectSlug": "computing", "strandSlug": "scratch-concepts", "yearGroup": "Y6", "objectiveCode": "CO6-SCR-1", "type": "matching", "difficulty": "gold",
+    "options": [
+      {
+        "id": "a",
+        "text": "Nested selection"
+      },
+      {
+        "id": "b",
+        "text": "A variable"
+      },
+      {
+        "id": "c",
+        "text": "A broadcast"
+      },
+      {
+        "id": "d",
+        "text": "A sequence"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Placing one selection (if) block inside another is called nested selection, allowing more than one condition to be checked together."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SCR-1",
+    "type": "matching",
+    "difficulty": "gold",
     "promptText": "Match each Scratch programming concept to its description.",
-    "pairs": [ { "id": "p1", "left": "Nested repetition", "right": "A loop placed inside another loop" }, { "id": "p2", "left": "Nested selection", "right": "An if block placed inside another if block" }, { "id": "p3", "left": "Local variable", "right": "A variable that only one sprite can use" }, { "id": "p4", "left": "Global variable", "right": "A variable that every sprite in the project can use" } ],
-    "explanation": "Nesting means placing one block inside another for more complex logic; a local variable belongs to a single sprite, while a global variable can be read and changed by every sprite." },
-  { "subjectSlug": "computing", "strandSlug": "digital-literacy", "yearGroup": "Y6", "objectiveCode": "CO6-DIG-1", "type": "multiple_choice", "difficulty": "bronze",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Nested repetition",
+        "right": "A loop placed inside another loop"
+      },
+      {
+        "id": "p2",
+        "left": "Nested selection",
+        "right": "An if block placed inside another if block"
+      },
+      {
+        "id": "p3",
+        "left": "Local variable",
+        "right": "A variable that only one sprite can use"
+      },
+      {
+        "id": "p4",
+        "left": "Global variable",
+        "right": "A variable that every sprite in the project can use"
+      }
+    ],
+    "explanation": "Nesting means placing one block inside another for more complex logic; a local variable belongs to a single sprite, while a global variable can be read and changed by every sprite."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DIG-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "A group of pupils work together online on the same slideshow at the same time, with each pupil adding and editing their own slide. What is this called?",
-    "options": [{ "id": "a", "text": "Collaborating" }, { "id": "b", "text": "Formatting" }, { "id": "c", "text": "Downloading" }, { "id": "d", "text": "Debugging" }],
-    "correctOptionId": "a", "explanation": "Working together with others on a shared digital document at the same time is called collaborating." },
-  { "subjectSlug": "computing", "strandSlug": "digital-literacy", "yearGroup": "Y6", "objectiveCode": "CO6-DIG-2", "type": "multiple_choice", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "Collaborating"
+      },
+      {
+        "id": "b",
+        "text": "Formatting"
+      },
+      {
+        "id": "c",
+        "text": "Downloading"
+      },
+      {
+        "id": "d",
+        "text": "Debugging"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Working together with others on a shared digital document at the same time is called collaborating."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DIG-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
     "promptText": "Which of these best describes what happens when you send an email across the internet?",
-    "options": [{ "id": "a", "text": "It is broken into small pieces of data that travel across networks and are reassembled at the recipient's device" }, { "id": "b", "text": "It travels instantly through a single wire directly to the recipient" }, { "id": "c", "text": "It is printed out automatically and posted" }, { "id": "d", "text": "It only works if both computers are switched on at exactly the same moment" }],
-    "correctOptionId": "a", "explanation": "Data sent over the internet, including emails, is broken into small packets that travel across many connected networks and are reassembled when they arrive." },
-  { "subjectSlug": "computing", "strandSlug": "data-handling", "yearGroup": "Y6", "objectiveCode": "CO6-DATA-1", "type": "multiple_choice", "difficulty": "bronze",
+    "options": [
+      {
+        "id": "a",
+        "text": "It is broken into small pieces of data that travel across networks and are reassembled at the recipient's device"
+      },
+      {
+        "id": "b",
+        "text": "It travels instantly through a single wire directly to the recipient"
+      },
+      {
+        "id": "c",
+        "text": "It is printed out automatically and posted"
+      },
+      {
+        "id": "d",
+        "text": "It only works if both computers are switched on at exactly the same moment"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Data sent over the internet, including emails, is broken into small packets that travel across many connected networks and are reassembled when they arrive."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "data-handling",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DATA-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "Which type of software would you use to store data in rows and columns and automatically calculate totals using formulas?",
-    "options": [{ "id": "a", "text": "A spreadsheet" }, { "id": "b", "text": "A web browser" }, { "id": "c", "text": "A word processor" }, { "id": "d", "text": "A drawing program" }],
-    "correctOptionId": "a", "explanation": "Spreadsheet software organises data into rows and columns (cells) and can use formulas to calculate totals and other values automatically." },
-  { "subjectSlug": "computing", "strandSlug": "data-handling", "yearGroup": "Y6", "objectiveCode": "CO6-DATA-1", "type": "short_answer", "difficulty": "silver",
+    "options": [
+      {
+        "id": "a",
+        "text": "A spreadsheet"
+      },
+      {
+        "id": "b",
+        "text": "A web browser"
+      },
+      {
+        "id": "c",
+        "text": "A word processor"
+      },
+      {
+        "id": "d",
+        "text": "A drawing program"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Spreadsheet software organises data into rows and columns (cells) and can use formulas to calculate totals and other values automatically."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "data-handling",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DATA-1",
+    "type": "short_answer",
+    "difficulty": "silver",
     "promptText": "In a spreadsheet, what is the name for the box where a column and a row meet?",
-    "acceptedAnswers": ["cell", "a cell"], "explanation": "The box formed where a column and row cross is called a cell, and it can hold a number, text or a formula." },
-  { "subjectSlug": "computing", "strandSlug": "data-handling", "yearGroup": "Y6", "objectiveCode": "CO6-DATA-2", "type": "short_answer", "difficulty": "gold",
+    "acceptedAnswers": [
+      "cell",
+      "a cell"
+    ],
+    "explanation": "The box formed where a column and row cross is called a cell, and it can hold a number, text or a formula."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "data-handling",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DATA-2",
+    "type": "short_answer",
+    "difficulty": "gold",
     "promptText": "In a database, what is the name for a single complete entry, such as all the stored details about one pupil?",
-    "acceptedAnswers": ["record", "a record"], "explanation": "A record is one complete set of data about a single item, such as all of one pupil's details stored together." },
-  { "subjectSlug": "computing", "strandSlug": "data-handling", "yearGroup": "Y6", "objectiveCode": "CO6-DATA-2", "type": "multi_step", "difficulty": "challenge",
+    "acceptedAnswers": [
+      "record",
+      "a record"
+    ],
+    "explanation": "A record is one complete set of data about a single item, such as all of one pupil's details stored together."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "data-handling",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DATA-2",
+    "type": "multi_step",
+    "difficulty": "challenge",
     "promptText": "A class database stores each pupil's name, age and favourite sport. Put these steps for finding all pupils whose favourite sport is 'football' into the correct order by numbering them 1-3.",
     "steps": [
-      { "id": "s1", "prompt": "Which step should happen FIRST: 'Read the results', 'Open the database', or 'Search using the criteria favourite sport = football'?", "acceptedAnswers": ["open the database"] },
-      { "id": "s2", "prompt": "Which step should happen SECOND?", "acceptedAnswers": ["search using the criteria favourite sport = football"] },
-      { "id": "s3", "prompt": "Which step should happen THIRD?", "acceptedAnswers": ["read the results"] }
+      {
+        "id": "s1",
+        "prompt": "Which step should happen FIRST: 'Read the results', 'Open the database', or 'Search using the criteria favourite sport = football'?",
+        "acceptedAnswers": [
+          "open the database"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Which step should happen SECOND?",
+        "acceptedAnswers": [
+          "search using the criteria favourite sport = football"
+        ]
+      },
+      {
+        "id": "s3",
+        "prompt": "Which step should happen THIRD?",
+        "acceptedAnswers": [
+          "read the results"
+        ]
+      }
     ],
-    "explanation": "To answer a question using a database you first open it, then search using the correct criteria, then read the matching results." },
-  { "subjectSlug": "computing", "strandSlug": "search-technologies", "yearGroup": "Y6", "objectiveCode": "CO6-SRCH-1", "type": "multiple_choice", "difficulty": "bronze",
+    "explanation": "To answer a question using a database you first open it, then search using the correct criteria, then read the matching results."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "search-technologies",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SRCH-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
     "promptText": "When you type a question into a search engine, what does it search through to find matching webpages?",
-    "options": [{ "id": "a", "text": "A huge index of webpages it has already collected and stored" }, { "id": "b", "text": "Only the websites you have visited before" }, { "id": "c", "text": "Only websites that were published today" }, { "id": "d", "text": "The hard drive of your own computer" }],
-    "correctOptionId": "a", "explanation": "Search engines constantly scan (crawl) the web and store an index of webpages, which they search through instantly when you type a query." }
+    "options": [
+      {
+        "id": "a",
+        "text": "A huge index of webpages it has already collected and stored"
+      },
+      {
+        "id": "b",
+        "text": "Only the websites you have visited before"
+      },
+      {
+        "id": "c",
+        "text": "Only websites that were published today"
+      },
+      {
+        "id": "d",
+        "text": "The hard drive of your own computer"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Search engines constantly scan (crawl) the web and store an index of webpages, which they search through instantly when you type a query."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-TYP-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Why is it useful to learn touch-typing without looking at the keyboard?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It helps you type faster and more accurately"
+      },
+      {
+        "id": "b",
+        "text": "It makes the keyboard lighter"
+      },
+      {
+        "id": "c",
+        "text": "It changes the letters on the keys"
+      },
+      {
+        "id": "d",
+        "text": "It is required to turn on a computer"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Touch-typing lets you type faster and more accurately by keeping your eyes on the screen, not the keys."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-TYP-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which fingers typically rest on the letters 'A', 'S', 'D', 'F'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The right hand's fingers"
+      },
+      {
+        "id": "b",
+        "text": "The left hand's fingers"
+      },
+      {
+        "id": "c",
+        "text": "Only the thumbs"
+      },
+      {
+        "id": "d",
+        "text": "Only the index fingers"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A, S, D, F are the left-hand home-row keys."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-TYP-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "What is the term for typing without looking at the keyboard?",
+    "acceptedAnswers": [
+      "touch typing",
+      "touch-typing"
+    ],
+    "explanation": "Touch-typing means typing accurately using muscle memory, without needing to look at the keys."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-TYP-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which typing habit is most likely to slow you down and cause mistakes over time?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Resting fingers on the home row between keystrokes"
+      },
+      {
+        "id": "b",
+        "text": "Looking at the keyboard constantly instead of the screen"
+      },
+      {
+        "id": "c",
+        "text": "Using both hands"
+      },
+      {
+        "id": "d",
+        "text": "Sitting up straight"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Constantly looking down at the keyboard breaks your rhythm and slows typing speed and accuracy."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-TYP-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Which keyboard shortcut is commonly used to copy selected text?",
+    "acceptedAnswers": [
+      "ctrl+c",
+      "ctrl + c",
+      "control c",
+      "control+c"
+    ],
+    "explanation": "Ctrl+C (or Command+C on a Mac) copies the selected text."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-TYP-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Which keyboard shortcut is commonly used to paste copied text?",
+    "acceptedAnswers": [
+      "ctrl+v",
+      "ctrl + v",
+      "control v",
+      "control+v"
+    ],
+    "explanation": "Ctrl+V (or Command+V on a Mac) pastes whatever was last copied or cut."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-TYP-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "You want to select an entire document quickly without using the mouse. Which shortcut should you use?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ctrl+A"
+      },
+      {
+        "id": "b",
+        "text": "Ctrl+Z"
+      },
+      {
+        "id": "c",
+        "text": "Ctrl+X"
+      },
+      {
+        "id": "d",
+        "text": "Ctrl+P"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ctrl+A selects all the content in a document."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-TYP-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Why might touch-typing with keyboard shortcuts help you work more efficiently on a long document?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It lets you edit and format text quickly without breaking your typing flow"
+      },
+      {
+        "id": "b",
+        "text": "It automatically corrects all spelling mistakes"
+      },
+      {
+        "id": "c",
+        "text": "It makes the document shorter"
+      },
+      {
+        "id": "d",
+        "text": "It changes the font automatically"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Shortcuts let you edit and format without stopping to reach for the mouse, keeping your typing flow going."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SAFE-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "You see another player being bullied in an online game. What is the best thing to do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Join in"
+      },
+      {
+        "id": "b",
+        "text": "Ignore it"
+      },
+      {
+        "id": "c",
+        "text": "Report it and tell a trusted adult"
+      },
+      {
+        "id": "d",
+        "text": "Share screenshots with friends for fun"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Reporting bullying and telling a trusted adult is the safest, most responsible response."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SAFE-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one trusted person you could talk to if something online worried you.",
+    "acceptedAnswers": [
+      "a parent",
+      "a teacher",
+      "a trusted adult",
+      "parent",
+      "teacher",
+      "carer"
+    ],
+    "explanation": "A parent, teacher or other trusted adult is the right person to talk to about anything worrying online."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SAFE-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these should you keep private online?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Your favourite colour"
+      },
+      {
+        "id": "b",
+        "text": "Your home address"
+      },
+      {
+        "id": "c",
+        "text": "Your favourite game"
+      },
+      {
+        "id": "d",
+        "text": "Your favourite book"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Your home address is personal information that should always be kept private online."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SAFE-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Give one reason it's risky to accept a friend request from someone you don't know in real life.",
+    "acceptedAnswers": [
+      "they might not be who they say they are",
+      "they could be a stranger pretending to be someone else",
+      "you don't know their real intentions"
+    ],
+    "explanation": "Online, people are not always who they claim to be, so accepting requests from strangers carries real risks."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SAFE-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Give one example of unacceptable online behaviour.",
+    "acceptedAnswers": [
+      "cyberbullying",
+      "sharing someone's personal information without permission",
+      "sending mean messages",
+      "impersonating someone else"
+    ],
+    "explanation": "Cyberbullying, sharing others' information without consent, and impersonation are all unacceptable online behaviours."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SAFE-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A friend asks you to share your gaming password so they can 'help' with a level. What should you do?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Share it since they're a friend"
+      },
+      {
+        "id": "b",
+        "text": "Refuse — passwords should stay private, even from friends"
+      },
+      {
+        "id": "c",
+        "text": "Share it but change it after"
+      },
+      {
+        "id": "d",
+        "text": "Ask them to guess it instead"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Passwords should never be shared, even with friends — it's the safest habit to protect your account."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SAFE-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which is the best way to check if information you found online is reliable?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trust it if it's the first search result"
+      },
+      {
+        "id": "b",
+        "text": "Compare it with other trustworthy sources"
+      },
+      {
+        "id": "c",
+        "text": "Trust it if the website looks nice"
+      },
+      {
+        "id": "d",
+        "text": "Trust it if lots of people shared it"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Cross-checking information against other trustworthy sources is the most reliable way to verify it."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SAFE-2",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain why a website from a well-known organisation (e.g. a government or university site) might be more reliable than a random blog.",
+    "acceptedAnswers": [
+      "established organisations are more likely to check facts and be accountable for what they publish",
+      "official organisations have a reputation to protect and are more likely to publish accurate, checked information"
+    ],
+    "explanation": "Established organisations typically fact-check their content and are accountable for what they publish, unlike an anonymous blog."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-ALG-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Why must the steps of an algorithm be in the correct order?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Otherwise it won't look neat"
+      },
+      {
+        "id": "b",
+        "text": "Because a different order can produce the wrong result"
+      },
+      {
+        "id": "c",
+        "text": "Order never matters"
+      },
+      {
+        "id": "d",
+        "text": "Because computers ignore order"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Running steps out of order can completely change (or break) the outcome of an algorithm."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-ALG-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one everyday example (not on a computer) of following an algorithm.",
+    "acceptedAnswers": [
+      "following a recipe",
+      "a set of instructions for building furniture",
+      "getting dressed in the morning",
+      "brushing your teeth"
+    ],
+    "explanation": "A recipe, furniture instructions, or a morning routine are all real-life examples of following step-by-step algorithms."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-ALG-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What is the term for a mistake in a program or algorithm?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A glitch"
+      },
+      {
+        "id": "b",
+        "text": "A bug"
+      },
+      {
+        "id": "c",
+        "text": "A crash"
+      },
+      {
+        "id": "d",
+        "text": "A patch"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A mistake in code is called a 'bug', and fixing it is called 'debugging'."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-ALG-2",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain why it's useful to test an algorithm with different examples before trusting that it works.",
+    "acceptedAnswers": [
+      "testing with different examples helps find mistakes that might not show up with just one example",
+      "different test cases can reveal bugs that a single example might miss"
+    ],
+    "explanation": "A single test might work by chance — trying several different examples helps reveal bugs that only appear in certain cases."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-ALG-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Give one example of a physical system that could be controlled by a program.",
+    "acceptedAnswers": [
+      "traffic lights",
+      "a robot",
+      "a washing machine",
+      "a floor robot",
+      "a bee-bot",
+      "a smart thermostat"
+    ],
+    "explanation": "Traffic lights, robots, washing machines and thermostats are all real physical systems controlled by programmed algorithms."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-ALG-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A washing machine program should only run the 'spin' step if the 'rinse' step has finished. Which programming concept is this an example of?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Selection"
+      },
+      {
+        "id": "b",
+        "text": "A variable"
+      },
+      {
+        "id": "c",
+        "text": "An output"
+      },
+      {
+        "id": "d",
+        "text": "A crash"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Choosing whether to run a step based on a condition (has rinse finished?) is an example of selection."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-ALG-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What does it mean when a loop is described as 'nested'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It runs forever with no way to stop"
+      },
+      {
+        "id": "b",
+        "text": "It contains another loop or selection block inside it"
+      },
+      {
+        "id": "c",
+        "text": "It only runs once"
+      },
+      {
+        "id": "d",
+        "text": "It has no instructions inside it"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A nested loop is one placed inside another loop or selection block."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-ALG-2",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "A program checks the numbers 2, 3, 4, 5 in order, and PRINTs a number only if it is even.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How many of the four numbers (2, 3, 4, 5) are even?",
+        "acceptedAnswers": [
+          "2",
+          "two"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many times will PRINT run in total?",
+        "acceptedAnswers": [
+          "2",
+          "two"
+        ]
+      }
+    ],
+    "explanation": "Only 2 and 4 are even, so the selection condition is true twice, meaning PRINT runs twice."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SCR-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "In Scratch, which block type would make a sprite bounce only 'if touching the edge'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A repeat block"
+      },
+      {
+        "id": "b",
+        "text": "An if (selection) block"
+      },
+      {
+        "id": "c",
+        "text": "A variable block"
+      },
+      {
+        "id": "d",
+        "text": "A broadcast block"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "An if block runs instructions only when a condition (touching the edge) is true — that's selection."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SCR-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "What is the name for a named value in a program that can change while it runs, such as a score?",
+    "acceptedAnswers": [
+      "variable",
+      "a variable"
+    ],
+    "explanation": "A variable is a named value, like 'score', that a program can store and change while it runs."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SCR-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these is an example of 'sequence' in programming?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Running the same three blocks 5 times"
+      },
+      {
+        "id": "b",
+        "text": "Checking if a condition is true before acting"
+      },
+      {
+        "id": "c",
+        "text": "Running one instruction, then the next, then the next in order"
+      },
+      {
+        "id": "d",
+        "text": "Storing a changing score"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Sequence means instructions run one after another in a fixed order."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SCR-1",
+    "type": "multi_step",
+    "difficulty": "silver",
+    "promptText": "A Scratch program runs: 'move 10 steps', 'turn 90 degrees', 'move 10 steps'.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "Which instruction happens first?",
+        "acceptedAnswers": [
+          "move 10 steps"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "How many times does the sprite move 10 steps in total?",
+        "acceptedAnswers": [
+          "2",
+          "two"
+        ]
+      }
+    ],
+    "explanation": "'Move 10 steps' happens first, and appears twice in the sequence, so the sprite moves 10 steps a total of 2 times."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SCR-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "What is the term for a variable that only one sprite in a Scratch project can use and change?",
+    "acceptedAnswers": [
+      "local variable",
+      "a local variable"
+    ],
+    "explanation": "A local variable belongs to, and can only be used by, a single sprite."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SCR-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "What is the term for a variable that every sprite in a Scratch project can use and change?",
+    "acceptedAnswers": [
+      "global variable",
+      "a global variable"
+    ],
+    "explanation": "A global variable can be read and changed by every sprite in the project."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SCR-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A program checks 'if touching an enemy' and, only if true, also checks 'if lives is greater than 0' before ending the game. What is this an example of?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A single selection block"
+      },
+      {
+        "id": "b",
+        "text": "Nested selection"
+      },
+      {
+        "id": "c",
+        "text": "A loop with no condition"
+      },
+      {
+        "id": "d",
+        "text": "A broadcast message"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "One if-block placed inside another if-block is nested selection."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SCR-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "A loop repeats 3 times, and each time it runs, an inner loop inside it repeats 4 times. How many times does the innermost instruction run in total?",
+    "options": [
+      {
+        "id": "a",
+        "text": "7"
+      },
+      {
+        "id": "b",
+        "text": "12"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The inner loop's 4 repeats happen for each of the outer loop's 3 passes: 3 × 4 = 12."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-DIG-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which software would be best for working out a family's monthly budget using numbers and formulas?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A spreadsheet"
+      },
+      {
+        "id": "b",
+        "text": "A drawing program"
+      },
+      {
+        "id": "c",
+        "text": "A video player"
+      },
+      {
+        "id": "d",
+        "text": "A web browser"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Spreadsheets are designed for organising numbers and calculating with formulas."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-DIG-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one digital device, other than a computer, that can be used to create content.",
+    "acceptedAnswers": [
+      "tablet",
+      "smartphone",
+      "phone",
+      "ipad"
+    ],
+    "explanation": "Tablets and smartphones are common digital devices used to create content besides desktop computers."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-DIG-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What do we call a website address, such as www.example.com?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A URL"
+      },
+      {
+        "id": "b",
+        "text": "An IP"
+      },
+      {
+        "id": "c",
+        "text": "A CPU"
+      },
+      {
+        "id": "d",
+        "text": "A byte"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A URL (web address) tells a browser where to find a webpage."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-DIG-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these best describes the World Wide Web?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A collection of linked webpages accessed via the internet"
+      },
+      {
+        "id": "b",
+        "text": "Another name for a single computer"
+      },
+      {
+        "id": "c",
+        "text": "A type of computer virus"
+      },
+      {
+        "id": "d",
+        "text": "A physical cable"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The World Wide Web is the collection of linked webpages and content accessed over the internet."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DIG-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Give one example of software you might use to collaborate with classmates on the same document.",
+    "acceptedAnswers": [
+      "google docs",
+      "a shared online document",
+      "google slides",
+      "a cloud-based word processor"
+    ],
+    "explanation": "Cloud-based tools like Google Docs let multiple people edit the same document together at the same time."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DIG-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A group is evaluating their finished slideshow before presenting it. Which of these is a useful thing to check?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Whether the slides are clear, accurate and easy to follow"
+      },
+      {
+        "id": "b",
+        "text": "Whether the file is the largest possible size"
+      },
+      {
+        "id": "c",
+        "text": "Whether every slide uses a different font"
+      },
+      {
+        "id": "d",
+        "text": "Whether it took the longest time to make"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Evaluating content means checking whether it clearly and accurately achieves its purpose, not its file size or how long it took."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DIG-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "What is the name for the small pieces that data is broken into when sent across the internet?",
+    "acceptedAnswers": [
+      "packets",
+      "data packets"
+    ],
+    "explanation": "Data is broken into small packets that travel across networks and are reassembled at their destination."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DIG-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which of these is an opportunity that computer networks offer for communication?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Video calling people anywhere in the world instantly"
+      },
+      {
+        "id": "b",
+        "text": "Making computers run slower"
+      },
+      {
+        "id": "c",
+        "text": "Preventing any file sharing"
+      },
+      {
+        "id": "d",
+        "text": "Removing the need for passwords"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Computer networks like the internet make instant, worldwide communication such as video calling possible."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "data-handling",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DATA-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "In a spreadsheet, what do we call a vertical line of cells, usually labelled with a letter?",
+    "acceptedAnswers": [
+      "column",
+      "a column"
+    ],
+    "explanation": "A column is a vertical line of cells, typically labelled A, B, C, and so on."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "data-handling",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DATA-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A spreadsheet formula adds up all the numbers in cells A1 to A10. What is the main benefit of using a formula instead of adding them by hand?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It looks nicer"
+      },
+      {
+        "id": "b",
+        "text": "It automatically recalculates if the numbers change"
+      },
+      {
+        "id": "c",
+        "text": "It uses less memory"
+      },
+      {
+        "id": "d",
+        "text": "It only works once"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A formula automatically updates its result whenever the underlying data changes, saving you from recalculating by hand."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "data-handling",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DATA-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "In a database, what is the name for a single piece of information within a record, such as just the 'age' value?",
+    "acceptedAnswers": [
+      "field",
+      "a field"
+    ],
+    "explanation": "A field is one piece of information (like 'age') within a record."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "data-handling",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DATA-2",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "A database of pupils is arranged so you can quickly find everyone in Year 6. What database skill is being used?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Formatting"
+      },
+      {
+        "id": "b",
+        "text": "Sorting"
+      },
+      {
+        "id": "c",
+        "text": "Printing"
+      },
+      {
+        "id": "d",
+        "text": "Deleting"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sorting (or searching) data lets you quickly find and group records that match given criteria."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "search-technologies",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SRCH-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these search terms is most likely to give useful, specific results?",
+    "options": [
+      {
+        "id": "a",
+        "text": "\"animals\""
+      },
+      {
+        "id": "b",
+        "text": "\"how do humpback whales communicate\""
+      },
+      {
+        "id": "c",
+        "text": "\"info\""
+      },
+      {
+        "id": "d",
+        "text": "\"thing\""
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Specific, detailed search terms return far more relevant results than vague, general ones."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "search-technologies",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SRCH-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one reason a search engine might rank one webpage higher than another.",
+    "acceptedAnswers": [
+      "it is more relevant to the search terms",
+      "it is from a more trusted or popular website",
+      "more people link to or visit it"
+    ],
+    "explanation": "Search engines rank pages by factors like relevance to the search terms, trustworthiness and popularity."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "search-technologies",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SRCH-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What is it called when a search engine automatically suggests words as you start typing a search?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Autocomplete"
+      },
+      {
+        "id": "b",
+        "text": "A firewall"
+      },
+      {
+        "id": "c",
+        "text": "A cookie"
+      },
+      {
+        "id": "d",
+        "text": "A download"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Autocomplete suggests likely search terms based on what you've started typing."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "search-technologies",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SRCH-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which of these is a sign that a search result might be an advert rather than a genuine result?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It is labelled 'Sponsored' or 'Ad'"
+      },
+      {
+        "id": "b",
+        "text": "It has a website address"
+      },
+      {
+        "id": "c",
+        "text": "It appears in a search engine"
+      },
+      {
+        "id": "d",
+        "text": "It has a title"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Search engines label paid results as 'Sponsored' or 'Ad' to distinguish them from organic results."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "search-technologies",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SRCH-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain why typing more specific search terms usually gives better results than very general ones.",
+    "acceptedAnswers": [
+      "specific terms narrow down the results to pages that closely match what you're looking for",
+      "general terms return too many broad, unrelated results, while specific terms focus the search"
+    ],
+    "explanation": "Specific search terms help the search engine narrow results down to pages that closely match what you actually want."
+  }
 ]
