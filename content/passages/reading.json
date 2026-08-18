@@ -213,6 +213,20 @@
           "to build tension and curiosity"
         ],
         "explanation": "Ending on a cliffhanger is a deliberate technique to build suspense and encourage the reader to keep reading."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE5-PRE-1",
+        "subSkill": "prediction",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Predict what Maya is likely to discover when she reads her grandfather's logbook, based on details earlier in the passage.",
+        "acceptedAnswers": [
+          "clues or an explanation about why he vanished / disappeared",
+          "why her grandfather disappeared",
+          "what happened to her grandfather on the night he vanished"
+        ],
+        "explanation": "The passage builds tension around her grandfather's mysterious disappearance and his final instruction to 'keep it lit', suggesting the logbook holds answers about that night."
       }
     ]
   },
@@ -823,6 +837,34 @@
           "he is frightened because his hands are trembling"
         ],
         "explanation": "His trembling hands as he fits the oars are physical evidence of fear or nervousness."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE5-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the passage, what will most likely happen once Priya and Kai reach the fishing shack?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They will find shelter from the storm and wait for it to pass."
+          },
+          {
+            "id": "b",
+            "text": "They will discover the shack is also flooded and have to swim home."
+          },
+          {
+            "id": "c",
+            "text": "They will abandon the boat and walk the rest of the way home."
+          },
+          {
+            "id": "d",
+            "text": "They will find a working phone and call for a rescue boat."
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage describes the shack as 'shelter' and 'all that mattered', strongly implying they will take refuge there from the storm."
       }
     ]
   },
@@ -1651,6 +1693,34 @@
           "it hints at how the thief escaped, building tension and suspicion"
         ],
         "explanation": "This small, precise detail plants a clue and builds suspense about how the theft happened."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE5-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Given that the label reveals the painting was 'on loan' from the National Gallery, what is Priya most likely to do next?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Forget about the label and go back to class."
+          },
+          {
+            "id": "b",
+            "text": "Tell Mr. Okafor about the label, since it changes how serious the theft is."
+          },
+          {
+            "id": "c",
+            "text": "Hide the label so nobody else finds out."
+          },
+          {
+            "id": "d",
+            "text": "Repaint the empty rectangle herself."
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The passage shows Priya piecing together an important clue that changes the stakes of the mystery, so she would logically share it with an adult investigating the theft."
       }
     ]
   },
@@ -2259,6 +2329,47 @@
           "it creates a hopeful, meaningful ending showing ronan feels connected to callum and is beginning to belong"
         ],
         "explanation": "This small, symbolic action gives the ending emotional meaning, showing Ronan's growing sense of belonging rather than simply stating that he settled in."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE6-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Based on Ronan writing his name beside Callum's, what is most likely to happen to future pupils who sit at Number Nine?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They will find the desk empty, with no trace of previous pupils."
+          },
+          {
+            "id": "b",
+            "text": "They will discover a growing list of names left by pupils who once sat there, including Ronan's."
+          },
+          {
+            "id": "c",
+            "text": "The desk will be thrown away before anyone else uses it."
+          },
+          {
+            "id": "d",
+            "text": "Ronan will erase Callum's name before he leaves the school."
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "Ronan deliberately writes his name 'alongside' Callum's rather than replacing it, implying the desk's story of names will continue to grow with future pupils."
+      },
+      {
+        "strandSlug": "comparison",
+        "objectiveCode": "RE6-COM-1",
+        "subSkill": "comparison",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Compare how Ronan feels at the start of the passage with how he feels by the end. How does his attitude towards Number Nine change?",
+        "acceptedAnswers": [
+          "at the start ronan feels dread but by the end he feels curiosity and sympathy",
+          "he starts off dreading the desk but ends up feeling curious and sympathetic towards callum"
+        ],
+        "explanation": "The passage explicitly contrasts Ronan's opening 'dread' with his closing feelings of 'curiosity, and perhaps even sympathy', showing his attitude softening over the passage."
       }
     ]
   },
@@ -2449,6 +2560,32 @@
           "the reader might not find out the clues as clearly, since elsie is the one investigating and noticing details"
         ],
         "explanation": "Because Elsie is the observant, detective-like character, telling the story through Mr Voss instead would likely focus more on his emotions and less on the careful clue-gathering the reader currently follows."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE6-PRE-1",
+        "subSkill": "prediction",
+        "type": "short_answer",
+        "difficulty": "challenge",
+        "promptText": "Based on Elsie's realisation about the 'fellow collector' at the coast, predict what she is likely to do next, and justify your answer using evidence from the passage.",
+        "acceptedAnswers": [
+          "she will follow or investigate the man to try to recover the blueprint before he sells it",
+          "she will try to track down the man travelling to the coast to get the blueprint back"
+        ],
+        "explanation": "The passage says Elsie's plan is 'already forming' and identifies the throwaway comment as 'the only clue', strongly implying she intends to act on it to recover the stolen blueprint."
+      },
+      {
+        "strandSlug": "comparison",
+        "objectiveCode": "RE6-COM-1",
+        "subSkill": "comparison",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Compare Mr Voss's mood at the start of the passage with his mood after Elsie shares her plan. What changes?",
+        "acceptedAnswers": [
+          "mr voss starts dismayed or upset about the missing blueprint but becomes more hopeful once elsie has a plan",
+          "he goes from despairing that the blueprint is gone to having renewed hope because of elsie's clue"
+        ],
+        "explanation": "Mr Voss's 'shoulders sagged' in dismay when the theft is confirmed, contrasting with the hope implied once Elsie identifies a clue and begins forming a plan to recover it."
       }
     ]
   },
@@ -2608,6 +2745,34 @@
           "iris travels from london to the countryside as an evacuee and is collected from the station by mrs fenwick to stay at her farm"
         ],
         "explanation": "A good summary covers Iris's evacuation journey from London and her being taken in by Mrs Fenwick to live at Bramble Farm."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE6-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on how Mrs Fenwick's voice softens when she mentions the hens, how is Iris's life on the farm likely to develop?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Iris will remain unhappy and never settle in at the farm."
+          },
+          {
+            "id": "b",
+            "text": "Iris will gradually grow closer to Mrs Fenwick despite a difficult start."
+          },
+          {
+            "id": "c",
+            "text": "Mrs Fenwick will send Iris back to London immediately."
+          },
+          {
+            "id": "d",
+            "text": "Iris will run away from the farm that same night."
+          }
+        ],
+        "correctOptionId": "b",
+        "explanation": "The hint of warmth in Mrs Fenwick's 'stern' voice suggests a kinder side beneath the surface, implying their relationship is likely to soften over time."
       }
     ]
   },
@@ -2986,6 +3151,19 @@
         ],
         "correctOptionId": "a",
         "explanation": "This closing message reframes Darwin's success as a result of patience and curiosity rather than natural brilliance, leaving the reader with an inspiring, reflective ending."
+      },
+      {
+        "strandSlug": "comparison",
+        "objectiveCode": "RE6-COM-1",
+        "subSkill": "comparison",
+        "type": "short_answer",
+        "difficulty": "challenge",
+        "promptText": "Compare how Darwin was viewed as a schoolboy with how he came to be regarded as an adult. Use evidence from the passage.",
+        "acceptedAnswers": [
+          "as a boy he was seen as unremarkable and ordinary, but as an adult he transformed how humanity understood the natural world",
+          "he was considered an ordinary, unremarkable pupil as a child, yet he grew up to transform science"
+        ],
+        "explanation": "The passage contrasts his schoolmasters' view of him as 'ordinary at best' with the adult Darwin who would 'transform how humanity understood the natural world' — a deliberate before/after contrast."
       }
     ]
   },
