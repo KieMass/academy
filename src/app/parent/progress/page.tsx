@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 import { SubjectAccuracyChart } from "@/components/parent/subject-accuracy-chart";
+import { ReportForm } from "@/components/parent/report-form";
 import { subDays } from "date-fns";
 
 const PERIODS = [
@@ -17,7 +18,7 @@ const PERIODS = [
 export default async function ParentProgressPage({ searchParams }: PageProps<"/parent/progress">) {
   const { parentProfile } = await requireParent();
   const params = await searchParams;
-  const students = await db.studentProfile.findMany({ where: { parentId: parentProfile.id }, orderBy: { createdAt: "asc" } });
+  const students = await db.studentProfile.findMany({ where: { parent: { familyId: parentProfile.familyId } }, orderBy: { createdAt: "asc" } });
   if (students.length === 0) {
     return <p className="text-muted-foreground">Add a student in Settings to see progress reports.</p>;
   }
@@ -79,14 +80,17 @@ export default async function ParentProgressPage({ searchParams }: PageProps<"/p
         </div>
       </div>
 
-      <div className="flex gap-2">
-        {PERIODS.map((p) => (
-          <Link key={p.key} href={`/parent/progress?student=${student.id}&period=${p.key}`}>
-            <Badge variant={p.key === period.key ? "default" : "outline"} className="cursor-pointer rounded-full px-3 py-1.5">
-              {p.label}
-            </Badge>
-          </Link>
-        ))}
+      <div className="flex flex-wrap items-center justify-between gap-4">
+        <div className="flex gap-2">
+          {PERIODS.map((p) => (
+            <Link key={p.key} href={`/parent/progress?student=${student.id}&period=${p.key}`}>
+              <Badge variant={p.key === period.key ? "default" : "outline"} className="cursor-pointer rounded-full px-3 py-1.5">
+                {p.label}
+              </Badge>
+            </Link>
+          ))}
+        </div>
+        <ReportForm studentId={student.id} />
       </div>
 
       <Card>
