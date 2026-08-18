@@ -131,6 +131,40 @@
   }
 }
 
+/* --- Ambient background wash ---
+   Two soft, fixed radial blobs (teal + coral, echoing the brand palette)
+   sit behind every page at very low opacity. Purely decorative — it never
+   intercepts clicks (pointer-events: none) and sits below all content
+   (z-index: -1), so it adds depth to plain card surfaces without touching
+   layout or contrast. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(38rem 26rem at 8% -6%, oklch(0.75 0.14 200 / 12%), transparent 60%),
+    radial-gradient(32rem 24rem at 100% 8%, oklch(0.75 0.16 55 / 10%), transparent 60%);
+}
+
+.dark body::before {
+  background:
+    radial-gradient(38rem 26rem at 8% -6%, oklch(0.55 0.1 200 / 18%), transparent 60%),
+    radial-gradient(32rem 24rem at 100% 8%, oklch(0.55 0.14 55 / 14%), transparent 60%);
+}
+
+/* Reusable brand gradient for hero banners / headings that want extra pop. */
+.text-gradient-brand {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.bg-gradient-brand {
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+}
+
 /* --- Accessibility layer: dyslexia-friendly font, font scale, high contrast ---
    Driven by src/store/accessibility-store.ts via classes/vars on <html>. */
 :root {
@@ -157,6 +191,12 @@ html.contrast-high {
   --primary-foreground: oklch(1 0 0);
   --border: oklch(0.2 0 0);
   --muted-foreground: oklch(0.15 0 0);
+}
+
+html.contrast-high body::before {
+  /* The decorative wash undermines a high-contrast mode's whole point —
+     drop it entirely rather than trying to tune its opacity. */
+  display: none;
 }
 
 html.contrast-high.dark {

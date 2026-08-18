@@ -5,10 +5,10 @@ import { getStudentOverview } from "@/lib/student-stats";
 import { db } from "@/lib/db";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { Badge } from "@/components/ui/badge";
 import { SubjectIcon } from "@/components/subject-icon";
 import { subjectColorClasses } from "@/lib/subject-colors";
-import { ArrowRight, Target, Sparkle, ClipboardList } from "lucide-react";
+import { xpProgressWithinLevel } from "@/lib/gamification/xp";
+import { ArrowRight, Target, ClipboardList, Flame } from "lucide-react";
 
 export default async function StudentDashboardPage() {
   const { studentProfile } = await requireStudent();
@@ -31,11 +31,36 @@ export default async function StudentDashboardPage() {
     : [];
   const assignedTopicById = new Map(assignedTopics.map((t) => [t.id, t]));
 
+  const { level, xpIntoLevel, xpForLevel } = xpProgressWithinLevel(studentProfile.xpTotal);
+  const levelPct = Math.round((xpIntoLevel / xpForLevel) * 100);
+
   return (
     <div className="space-y-8">
-      <div>
-        <h1 className="font-heading text-2xl font-bold">Today&apos;s Tasks</h1>
-        <p className="text-muted-foreground">Pick a subject, or jump into your recommended practice below.</p>
+      <div className="overflow-hidden rounded-3xl bg-gradient-brand p-6 text-primary-foreground shadow-lg md:p-8">
+        <div className="flex flex-wrap items-center justify-between gap-6">
+          <div>
+            <h1 className="font-heading text-2xl font-bold md:text-3xl">Today&apos;s Tasks</h1>
+            <p className="text-primary-foreground/85">Pick a subject, or jump into your recommended practice below.</p>
+          </div>
+          <div className="flex items-center gap-4 rounded-2xl bg-black/10 px-4 py-3 backdrop-blur-sm">
+            <div className="flex size-11 items-center justify-center rounded-full bg-white/20 font-heading text-lg font-bold">
+              {level}
+            </div>
+            <div className="w-40">
+              <div className="flex items-center justify-between text-xs font-medium text-primary-foreground/85">
+                <span>Level {level}</span>
+                <span>{xpIntoLevel}/{xpForLevel} XP</span>
+              </div>
+              <div className="mt-1 h-2 w-full overflow-hidden rounded-full bg-black/15">
+                <div className="h-full rounded-full bg-white transition-all" style={{ width: `${levelPct}%` }} />
+              </div>
+            </div>
+            <div className="flex items-center gap-1.5 border-l border-white/25 pl-4 text-sm font-semibold">
+              <Flame className="size-4.5 text-orange-200" />
+              {studentProfile.streakDays}
+            </div>
+          </div>
+        </div>
       </div>
 
       {activeAssignments.length > 0 && (
@@ -126,14 +151,6 @@ export default async function StudentDashboardPage() {
           })}
         </div>
       </div>
-
-      <Card className="bg-accent/10 border-accent/30">
-        <CardContent className="flex items-center gap-3 py-4 text-sm">
-          <Sparkle className="size-5 text-accent" />
-          You have <strong className="mx-1">{studentProfile.xpTotal} XP</strong> and you&apos;re Level {studentProfile.levelNumber}. Keep going!
-          <Badge variant="secondary" className="ml-auto">🔥 {studentProfile.streakDays}-day streak</Badge>
-        </CardContent>
-      </Card>
     </div>
   );
 }

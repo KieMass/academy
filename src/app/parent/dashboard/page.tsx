@@ -9,20 +9,20 @@ import { UserPlus, ArrowRight, Flame, Star } from "lucide-react";
 
 export default async function ParentDashboardPage() {
   const { parentProfile } = await requireParent();
-  const students = await db.studentProfile.findMany({ where: { parentId: parentProfile.id }, orderBy: { createdAt: "asc" } });
+  const students = await db.studentProfile.findMany({ where: { parent: { familyId: parentProfile.familyId } }, orderBy: { createdAt: "asc" } });
 
   const overviews = await Promise.all(students.map((s) => getStudentOverview(s.id, s.yearGroup, 3)));
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-wrap items-center justify-between gap-4 overflow-hidden rounded-3xl bg-gradient-brand p-6 text-primary-foreground shadow-lg md:p-8">
         <div>
-          <h1 className="font-heading text-2xl font-bold">Welcome back, {parentProfile.fullName.split(" ")[0]}</h1>
-          <p className="text-muted-foreground">Here&apos;s how your family is getting on.</p>
+          <h1 className="font-heading text-2xl font-bold md:text-3xl">Welcome back, {parentProfile.fullName.split(" ")[0]}</h1>
+          <p className="text-primary-foreground/85">Here&apos;s how your family is getting on.</p>
         </div>
         <Button
-          variant="outline"
-          className="gap-2"
+          variant="secondary"
+          className="gap-2 shadow-sm"
           render={
             <Link href="/parent/settings">
               <UserPlus className="size-4" /> Add student
@@ -44,10 +44,10 @@ export default async function ParentDashboardPage() {
             const overview = overviews[i];
             const masteredPct = overview.totalTopics > 0 ? Math.round(((overview.counts.mastered + overview.counts.secure) / overview.totalTopics) * 100) : 0;
             return (
-              <Card key={student.id}>
+              <Card key={student.id} className="overflow-hidden transition hover:shadow-md">
                 <CardHeader className="flex-row items-center justify-between space-y-0">
                   <CardTitle className="flex items-center gap-2 text-lg">
-                    <span className="text-2xl">{student.avatarEmoji}</span>
+                    <span className="flex size-9 items-center justify-center rounded-full bg-primary/10 text-xl">{student.avatarEmoji}</span>
                     {student.displayName}
                     <span className="text-sm font-normal text-muted-foreground">Year {student.yearGroup.replace("Y", "")}</span>
                   </CardTitle>
