@@ -3,6 +3,7 @@ import { db } from "@/lib/db";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ResetPasswordButton } from "@/components/admin/reset-password-button";
+import { EditUserDialog } from "@/components/admin/edit-user-dialog";
 
 const ROLE_VARIANT: Record<string, "default" | "secondary" | "outline"> = {
   ADMIN: "default",
@@ -14,7 +15,10 @@ export default async function AdminUsersPage() {
   await requireAdmin();
 
   const users = await db.user.findMany({
-    include: { parentProfile: true, studentProfile: { include: { parent: true } } },
+    include: {
+      parentProfile: { include: { family: { include: { parents: true } } } },
+      studentProfile: { include: { parent: { include: { family: { include: { parents: true } } } } } },
+    },
     orderBy: { createdAt: "desc" },
   });
 
@@ -47,13 +51,14 @@ export default async function AdminUsersPage() {
                   u.role === "STUDENT" ? (u.studentProfile?.displayName ?? "—") :
                   "Admin";
                 const login = u.email ?? u.username ?? "—";
+                const familyParents = u.role === "STUDENT" ? u.studentProfile?.parent.family.parents : undefined;
                 return (
                   <tr key={u.id} className="border-b last:border-0">
                     <td className="py-2.5 font-medium">
                       {name}
-                      {u.role === "STUDENT" && u.studentProfile?.parent && (
+                      {familyParents && familyParents.length > 0 && (
                         <span className="block text-xs font-normal text-muted-foreground">
-                          Parent: {u.studentProfile.parent.fullName}
+                          Parent{familyParents.length > 1 ? "s" : ""}: {familyParents.map((p) => p.fullName).join(", ")}
                         </span>
                       )}
                     </td>
@@ -64,8 +69,17 @@ export default async function AdminUsersPage() {
                     <td className="py-2.5 pl-4 text-muted-foreground">
                       {u.createdAt.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}
                     </td>
-                    <td className="py-2.5 pl-4 text-right">
-                      <ResetPasswordButton userId={u.id} userLabel={name} />
+                    <td className="py-2.5 pl-4">
+                      <div className="flex justify-end gap-2">
+                        <EditUserDialog
+                          user={
+                            u.role === "PARENT" ? { id: u.id, role: "PARENT", fullName: u.parentProfile!.fullName, email: u.email! } :
+                            u.role === "STUDENT" ? { id: u.id, role: "STUDENT", displayName: u.studentProfile!.displayName, username: u.username!, yearGroup: u.studentProfile!.yearGroup, avatarEmoji: u.studentProfile!.avatarEmoji } :
+                            { id: u.id, role: "ADMIN", email: u.email! }
+                          }
+                        />
+                        <ResetPasswordButton userId={u.id} userLabel={name} />
+                      </div>
                     </td>
                   </tr>
                 );

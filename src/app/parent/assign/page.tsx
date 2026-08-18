@@ -8,9 +8,9 @@ import { formatDistanceToNow } from "date-fns";
 
 export default async function AssignWorkPage() {
   const { parentProfile } = await requireParent();
-  const students = await db.studentProfile.findMany({ where: { parentId: parentProfile.id }, orderBy: { createdAt: "asc" } });
+  const students = await db.studentProfile.findMany({ where: { parent: { familyId: parentProfile.familyId } }, orderBy: { createdAt: "asc" } });
   const assignments = await db.assignment.findMany({
-    where: { student: { parentId: parentProfile.id } },
+    where: { student: { parent: { familyId: parentProfile.familyId } } },
     include: { student: true },
     orderBy: { createdAt: "desc" },
     take: 20,

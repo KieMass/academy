@@ -44,7 +44,7 @@ export default function AdminLoginPage() {
         <ShieldCheck className="size-6" />
         Admin
       </Link>
-      <Card className="w-full max-w-md">
+      <Card className="w-full max-w-md border-t-4 border-t-foreground/70 shadow-xl">
         <CardHeader>
           <CardTitle className="font-heading text-2xl">Admin sign in</CardTitle>
           <CardDescription>Restricted access — site administration only.</CardDescription>
@@ -56,7 +56,12 @@ export default function AdminLoginPage() {
               <Input id="email" name="email" type="email" autoComplete="email" required />
             </div>
             <div className="space-y-1.5">
-              <Label htmlFor="password">Password</Label>
+              <div className="flex items-center justify-between">
+                <Label htmlFor="password">Password</Label>
+                <Link href="/forgot-password" className="text-xs text-muted-foreground underline underline-offset-2 hover:text-foreground">
+                  Forgot password?
+                </Link>
+              </div>
               <Input id="password" name="password" type="password" autoComplete="current-password" required />
             </div>
             {error && <p className="text-sm text-destructive">{error}</p>}

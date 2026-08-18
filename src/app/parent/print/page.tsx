@@ -6,7 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default async function PrintResourcesPage() {
   const { parentProfile } = await requireParent();
-  const students = await db.studentProfile.findMany({ where: { parentId: parentProfile.id }, orderBy: { createdAt: "asc" } });
+  const students = await db.studentProfile.findMany({ where: { parent: { familyId: parentProfile.familyId } }, orderBy: { createdAt: "asc" } });
   const curriculum = loadCurriculumMaps().map((m) => ({
     subjectSlug: m.subjectSlug,
     subjectName: m.subjectName,

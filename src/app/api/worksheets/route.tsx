@@ -42,7 +42,7 @@ export async function POST(req: Request) {
 
   let student: { id: string; displayName: string } | null = null;
   if (studentId) {
-    const found = await db.studentProfile.findFirst({ where: { id: studentId, parentId: parentProfile.id } });
+    const found = await db.studentProfile.findFirst({ where: { id: studentId, parent: { familyId: parentProfile.familyId } } });
     if (!found) return NextResponse.json({ error: "Student not found." }, { status: 404 });
     student = { id: found.id, displayName: found.displayName };
   }

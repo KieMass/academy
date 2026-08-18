@@ -57,3 +57,9 @@ next-env.d.ts
 
 .vercel
 .env*
+
+# Claude Code local tool config — the permission allow-list accumulates
+# literal command strings (including secrets typed/generated during a
+# session) as the user grants them. Local-machine state, never project
+# source; must never be committed.
+.claude/

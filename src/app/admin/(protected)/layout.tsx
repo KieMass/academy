@@ -4,7 +4,9 @@ import { DashboardShell, type NavItem } from "@/components/layout/dashboard-shel
 const navItems: NavItem[] = [
   { href: "/admin/dashboard", label: "Dashboard", icon: "Home" },
   { href: "/admin/users", label: "Users", icon: "Users" },
+  { href: "/admin/reset-requests", label: "Reset requests", icon: "KeyRound" },
   { href: "/admin/subjects", label: "Subjects", icon: "BookOpen" },
+  { href: "/admin/settings", label: "Settings", icon: "Settings" },
 ];
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {

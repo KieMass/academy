@@ -29,7 +29,7 @@ export async function POST(req: Request) {
       role: "PARENT",
       email: email.toLowerCase(),
       passwordHash,
-      parentProfile: { create: { fullName } },
+      parentProfile: { create: { fullName, family: { create: {} } } },
     },
   });
 
