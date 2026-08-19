@@ -80,7 +80,12 @@ export async function POST(req: Request) {
   const rows = (
     await Promise.all(
       topicIds.map((topicId) =>
-        db.contentQuestion.findMany({ where: { topicId, status: "PUBLISHED" }, take: perTopic, orderBy: { difficulty: "asc" } })
+        db.contentQuestion.findMany({
+          where: { topicId, status: "PUBLISHED" },
+          take: perTopic,
+          orderBy: { difficulty: "asc" },
+          include: { passage: true },
+        })
       )
     )
   )
@@ -91,7 +96,29 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "No published questions found for this selection." }, { status: 404 });
   }
 
-  const questions = rows.map(fromContentQuestion);
+  // Cluster every question onto the same page as its reading passage — topic
+  // order alone can interleave a passage's retrieval/inference/vocabulary
+  // questions with unrelated ones, leaving the passage nowhere near some of
+  // its own questions. Groups keep the position of their first occurrence,
+  // so overall ordering across topics is otherwise undisturbed.
+  const groups = new Map<string, typeof rows>();
+  const groupOrder: string[] = [];
+  for (const row of rows) {
+    const key = row.passageId ?? row.id;
+    if (!groups.has(key)) {
+      groups.set(key, []);
+      groupOrder.push(key);
+    }
+    groups.get(key)!.push(row);
+  }
+  const orderedRows = groupOrder.flatMap((key) => groups.get(key)!);
+
+  const questions = orderedRows.map(fromContentQuestion);
+  const passages = Object.fromEntries(
+    orderedRows
+      .filter((r) => r.passage)
+      .map((r) => [r.passage!.id, { title: r.passage!.title, bodyText: r.passage!.bodyText }])
+  );
 
   await db.worksheet.create({
     data: {
@@ -114,6 +141,7 @@ export async function POST(req: Request) {
         kindLabel: KIND_LABEL[kind],
       }}
       questions={questions}
+      passages={passages}
     />
   );
 

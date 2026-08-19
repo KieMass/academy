@@ -10,6 +10,9 @@ const styles = StyleSheet.create({
   metaRow: { flexDirection: "row", justifyContent: "space-between", borderBottom: "1 solid #ccc", paddingBottom: 8, marginBottom: 16 },
   metaLabel: { fontSize: 9, color: "#777" },
   metaValue: { fontSize: 11, fontWeight: 700 },
+  passageBlock: { marginBottom: 14, padding: 10, backgroundColor: "#f6f6f4", borderRadius: 4 },
+  passageTitle: { fontSize: 12, fontWeight: 700, marginBottom: 6 },
+  passageText: { fontSize: 10, lineHeight: 1.5, color: "#333" },
   questionBlock: { marginBottom: 16 },
   questionRow: { flexDirection: "row", gap: 6 },
   questionNumber: { fontWeight: 700, width: 20 },
@@ -28,6 +31,20 @@ export interface WorksheetMeta {
   subjectName: string;
   topicLabel: string; // e.g. "Fractions" or "Mixed topics" for assessments
   kindLabel: string; // "10-Question Practice", "Assessment Paper", etc.
+}
+
+export interface WorksheetPassage {
+  title: string;
+  bodyText: string;
+}
+
+function PassageBlock({ passage }: { passage: WorksheetPassage }) {
+  return (
+    <View style={styles.passageBlock}>
+      <Text style={styles.passageTitle}>{passage.title}</Text>
+      <Text style={styles.passageText}>{passage.bodyText}</Text>
+    </View>
+  );
 }
 
 function QuestionPrompt({ q, index }: { q: AnyQuestion; index: number }) {
@@ -88,7 +105,19 @@ function QuestionPrompt({ q, index }: { q: AnyQuestion; index: number }) {
   );
 }
 
-export function WorksheetDocument({ meta, questions }: { meta: WorksheetMeta; questions: AnyQuestion[] }) {
+export function WorksheetDocument({
+  meta,
+  questions,
+  passages = {},
+}: {
+  meta: WorksheetMeta;
+  questions: AnyQuestion[];
+  /** Reading passages keyed by id — rendered once, immediately before the
+   * first question that references it via `passageId`. */
+  passages?: Record<string, WorksheetPassage>;
+}) {
+  const printedPassageIds = new Set<string>();
+
   return (
     <Document title={`${meta.subjectName} — ${meta.topicLabel} — ${meta.kindLabel}`}>
       <Page size="A4" style={styles.page}>
@@ -114,9 +143,17 @@ export function WorksheetDocument({ meta, questions }: { meta: WorksheetMeta; qu
           </View>
         </View>
 
-        {questions.map((q, i) => (
-          <QuestionPrompt key={q.id} q={q} index={i} />
-        ))}
+        {questions.map((q, i) => {
+          const passage = q.passageId ? passages[q.passageId] : undefined;
+          const showPassage = passage && !printedPassageIds.has(q.passageId!);
+          if (showPassage) printedPassageIds.add(q.passageId!);
+          return (
+            <View key={q.id}>
+              {showPassage && <PassageBlock passage={passage} />}
+              <QuestionPrompt q={q} index={i} />
+            </View>
+          );
+        })}
 
         <Text style={styles.footer} render={({ pageNumber, totalPages }) => `Page ${pageNumber} of ${totalPages} — KaeLex Academy`} fixed />
       </Page>
