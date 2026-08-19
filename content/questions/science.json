@@ -109,17 +109,28 @@
     "strandSlug": "living-things-habitats",
     "yearGroup": "Y5",
     "objectiveCode": "SC5-LIV-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "A young frog that has legs but still has some of its tail is called a ___.",
-    "blanks": [
+    "promptText": "What is a young frog called when it has legs but still has some of its tail?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "froglet"
-        ]
+        "id": "a",
+        "text": "froglet"
+      },
+      {
+        "id": "b",
+        "text": "tadpole"
+      },
+      {
+        "id": "c",
+        "text": "polliwog"
+      },
+      {
+        "id": "d",
+        "text": "larva"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A froglet is the stage between tadpole and adult frog."
   },
   {

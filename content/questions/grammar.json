@@ -33,17 +33,28 @@
     "strandSlug": "relative-clauses",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-REL-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Complete the sentence with the correct relative pronoun: 'The teacher, ___ had marked all the books, went home early.'",
-    "blanks": [
+    "promptText": "Which relative pronoun correctly completes this sentence? 'The teacher, ___ had marked all the books, went home early.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "who"
-        ]
+        "id": "a",
+        "text": "who"
+      },
+      {
+        "id": "b",
+        "text": "which"
+      },
+      {
+        "id": "c",
+        "text": "whose"
+      },
+      {
+        "id": "d",
+        "text": "where"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Who' refers to a person (the teacher)."
   },
   {
@@ -123,19 +134,29 @@
     "strandSlug": "modal-verbs",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-MOD-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Choose a modal verb to complete: 'You ___ finish your homework before dinner.' (expressing obligation)",
-    "blanks": [
+    "promptText": "Which modal verb correctly expresses obligation? 'You ___ finish your homework before dinner.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "must",
-          "should"
-        ]
+        "id": "a",
+        "text": "must"
+      },
+      {
+        "id": "b",
+        "text": "might"
+      },
+      {
+        "id": "c",
+        "text": "will"
+      },
+      {
+        "id": "d",
+        "text": "could"
       }
     ],
-    "explanation": "'Must' or 'should' express obligation or strong advice."
+    "correctOptionId": "a",
+    "explanation": "'Must' expresses obligation or a strong requirement."
   },
   {
     "subjectSlug": "grammar",
@@ -203,17 +224,28 @@
     "strandSlug": "fronted-adverbials",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-FRO-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Add the missing punctuation: 'Without warning___ the lights went out.'",
-    "blanks": [
+    "promptText": "Which punctuation mark is missing? 'Without warning___ the lights went out.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          ","
-        ]
+        "id": "a",
+        "text": "a comma"
+      },
+      {
+        "id": "b",
+        "text": "a semicolon"
+      },
+      {
+        "id": "c",
+        "text": "a colon"
+      },
+      {
+        "id": "d",
+        "text": "no punctuation is needed"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A comma follows a fronted adverbial ('Without warning,')."
   },
   {
@@ -264,19 +296,29 @@
     "strandSlug": "parenthesis",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-PAR-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Insert a pair of dashes to mark the parenthesis: 'The old bridge ___ built over 200 years ago ___ finally collapsed.'",
-    "blanks": [
+    "promptText": "Which version correctly uses a pair of dashes to mark the parenthesis?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "-- built over 200 years ago --",
-          "— built over 200 years ago —"
-        ]
+        "id": "a",
+        "text": "The old bridge — built over 200 years ago — finally collapsed."
+      },
+      {
+        "id": "b",
+        "text": "The old bridge, built over 200 years ago — finally collapsed."
+      },
+      {
+        "id": "c",
+        "text": "The old bridge — built over 200 years ago, finally collapsed."
+      },
+      {
+        "id": "d",
+        "text": "The old bridge; built over 200 years ago; finally collapsed."
       }
     ],
-    "explanation": "A pair of dashes can enclose parenthetical information in the middle of a sentence."
+    "correctOptionId": "a",
+    "explanation": "A matching pair of dashes encloses parenthetical information in the middle of a sentence."
   },
   {
     "subjectSlug": "grammar",
@@ -358,17 +400,28 @@
     "strandSlug": "prefixes",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-PRE-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Add the correct prefix to make the opposite of 'responsible': ___responsible",
-    "blanks": [
+    "promptText": "Which prefix makes the opposite of 'responsible'?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "ir"
-        ]
+        "id": "a",
+        "text": "ir-"
+      },
+      {
+        "id": "b",
+        "text": "un-"
+      },
+      {
+        "id": "c",
+        "text": "dis-"
+      },
+      {
+        "id": "d",
+        "text": "non-"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "Before words starting with 'r', we use the prefix 'ir-': irresponsible."
   },
   {
@@ -405,17 +458,28 @@
     "strandSlug": "suffixes",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-SUF-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Add a suffix beginning with a vowel to 'refer' correctly: refer + ed = ___",
-    "blanks": [
+    "promptText": "Which spelling correctly adds '-ed' to 'refer'?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "referred"
-        ]
+        "id": "a",
+        "text": "referred"
+      },
+      {
+        "id": "b",
+        "text": "refered"
+      },
+      {
+        "id": "c",
+        "text": "referrred"
+      },
+      {
+        "id": "d",
+        "text": "refferred"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "Words ending in -fer double the 'r' before a vowel suffix when the stress is on the final syllable: referred."
   },
   {
@@ -556,17 +620,28 @@
     "strandSlug": "verb-tenses",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-TEN-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Complete using the present perfect: 'She ___ (visit) that museum three times already.'",
-    "blanks": [
+    "promptText": "Which correctly completes the present perfect? 'She ___ that museum three times already.' (visit)",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "has visited"
-        ]
+        "id": "a",
+        "text": "has visited"
+      },
+      {
+        "id": "b",
+        "text": "visited"
+      },
+      {
+        "id": "c",
+        "text": "was visiting"
+      },
+      {
+        "id": "d",
+        "text": "visits"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "Present perfect: has/have + past participle -> 'has visited'."
   },
   {
@@ -603,17 +678,28 @@
     "strandSlug": "commas",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-COM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Insert the missing comma: 'To succeed you must practise every day.'",
-    "blanks": [
+    "promptText": "Which version is correctly punctuated?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "to succeed, you must practise every day"
-        ]
+        "id": "a",
+        "text": "To succeed, you must practise every day."
+      },
+      {
+        "id": "b",
+        "text": "To succeed you, must practise every day."
+      },
+      {
+        "id": "c",
+        "text": "To succeed you must, practise every day."
+      },
+      {
+        "id": "d",
+        "text": "To, succeed you must practise every day."
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A comma is needed after the introductory phrase 'To succeed'."
   },
   {
@@ -868,17 +954,28 @@
     "strandSlug": "relative-clauses",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-REL-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Complete: 'This is the reason ___ she left early.'",
-    "blanks": [
+    "promptText": "Which word correctly completes this sentence? 'This is the reason ___ she left early.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "why"
-        ]
+        "id": "a",
+        "text": "why"
+      },
+      {
+        "id": "b",
+        "text": "who"
+      },
+      {
+        "id": "c",
+        "text": "which"
+      },
+      {
+        "id": "d",
+        "text": "where"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Why' introduces a relative clause about a reason."
   },
   {
@@ -1074,17 +1171,28 @@
     "strandSlug": "modal-verbs",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-MOD-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "bronze",
-    "promptText": "Choose a modal verb showing certainty: 'The sun ___ rise tomorrow.'",
-    "blanks": [
+    "promptText": "Which modal verb shows certainty? 'The sun ___ rise tomorrow.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "will"
-        ]
+        "id": "a",
+        "text": "will"
+      },
+      {
+        "id": "b",
+        "text": "might"
+      },
+      {
+        "id": "c",
+        "text": "could"
+      },
+      {
+        "id": "d",
+        "text": "may"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Will' expresses certainty about the future."
   },
   {
@@ -1092,19 +1200,29 @@
     "strandSlug": "modal-verbs",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-MOD-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Choose a modal verb showing low possibility: 'It ___ snow later, but I doubt it.'",
-    "blanks": [
+    "promptText": "Which modal verb shows low possibility? 'It ___ snow later, but I doubt it.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "might",
-          "could"
-        ]
+        "id": "a",
+        "text": "might"
+      },
+      {
+        "id": "b",
+        "text": "must"
+      },
+      {
+        "id": "c",
+        "text": "will"
+      },
+      {
+        "id": "d",
+        "text": "shall"
       }
     ],
-    "explanation": "'Might' or 'could' show a low degree of possibility."
+    "correctOptionId": "a",
+    "explanation": "'Might' shows a low degree of possibility, matching the doubt expressed."
   },
   {
     "subjectSlug": "grammar",
@@ -1285,17 +1403,28 @@
     "strandSlug": "fronted-adverbials",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-FRO-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Add the missing comma: 'After the storm___ the streets were flooded.'",
-    "blanks": [
+    "promptText": "Which punctuation mark is missing? 'After the storm___ the streets were flooded.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          ","
-        ]
+        "id": "a",
+        "text": "a comma"
+      },
+      {
+        "id": "b",
+        "text": "a semicolon"
+      },
+      {
+        "id": "c",
+        "text": "a colon"
+      },
+      {
+        "id": "d",
+        "text": "no punctuation is needed"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A comma follows the fronted adverbial 'After the storm'."
   },
   {
@@ -1490,18 +1619,29 @@
     "strandSlug": "parenthesis",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-PAR-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Insert a pair of commas to mark the parenthesis: 'My uncle___ a keen gardener___ grows prize-winning tomatoes.'",
-    "blanks": [
+    "promptText": "Which version correctly marks the parenthesis with a pair of commas?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          ", a keen gardener,"
-        ]
+        "id": "a",
+        "text": "My uncle, a keen gardener, grows prize-winning tomatoes."
+      },
+      {
+        "id": "b",
+        "text": "My uncle a keen gardener, grows prize-winning tomatoes."
+      },
+      {
+        "id": "c",
+        "text": "My uncle, a keen gardener grows prize-winning tomatoes."
+      },
+      {
+        "id": "d",
+        "text": "My, uncle a keen gardener, grows prize-winning tomatoes."
       }
     ],
-    "explanation": "The parenthetical phrase 'a keen gardener' is enclosed in a pair of commas."
+    "correctOptionId": "a",
+    "explanation": "The parenthetical phrase 'a keen gardener' is enclosed in a matching pair of commas."
   },
   {
     "subjectSlug": "grammar",
@@ -1666,38 +1806,58 @@
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-ENP-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "bronze",
-    "promptText": "Complete the expanded noun phrase: 'the shelf ___ the dusty old books' (add a preposition)",
-    "blanks": [
+    "promptText": "Which preposition best completes this expanded noun phrase? 'the shelf ___ the dusty old books'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "with",
-          "full of"
-        ]
+        "id": "a",
+        "text": "full of"
+      },
+      {
+        "id": "b",
+        "text": "about"
+      },
+      {
+        "id": "c",
+        "text": "before"
+      },
+      {
+        "id": "d",
+        "text": "against"
       }
     ],
-    "explanation": "A prepositional phrase like 'with'/'full of' expands the noun phrase."
+    "correctOptionId": "a",
+    "explanation": "A prepositional phrase like 'full of' expands the noun phrase precisely."
   },
   {
     "subjectSlug": "grammar",
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-ENP-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Complete the expanded noun phrase: 'a garden ___ colourful flowers' (add a preposition)",
-    "blanks": [
+    "promptText": "Which preposition best completes this expanded noun phrase? 'a garden ___ colourful flowers'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "full of",
-          "with"
-        ]
+        "id": "a",
+        "text": "full of"
+      },
+      {
+        "id": "b",
+        "text": "about"
+      },
+      {
+        "id": "c",
+        "text": "beyond"
+      },
+      {
+        "id": "d",
+        "text": "despite"
       }
     ],
-    "explanation": "'Full of'/'with' introduces a prepositional phrase describing the garden."
+    "correctOptionId": "a",
+    "explanation": "'Full of' introduces a prepositional phrase describing what fills the garden."
   },
   {
     "subjectSlug": "grammar",
@@ -2368,17 +2528,28 @@
     "strandSlug": "homophones",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-HOM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "bronze",
-    "promptText": "Choose the correct homophone: 'They went to the park with ___ dog.' (belonging to them)",
-    "blanks": [
+    "promptText": "Which homophone correctly completes this sentence? 'They went to the park with ___ dog.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "their"
-        ]
+        "id": "a",
+        "text": "their"
+      },
+      {
+        "id": "b",
+        "text": "there"
+      },
+      {
+        "id": "c",
+        "text": "they're"
+      },
+      {
+        "id": "d",
+        "text": "them"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Their' shows possession belonging to 'them'."
   },
   {
@@ -2386,17 +2557,28 @@
     "strandSlug": "homophones",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-HOM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Choose the correct homophone: 'The runner ___ the finish line first.' (past tense of 'pass')",
-    "blanks": [
+    "promptText": "Which homophone correctly completes this sentence? 'The runner ___ the finish line first.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "passed"
-        ]
+        "id": "a",
+        "text": "passed"
+      },
+      {
+        "id": "b",
+        "text": "past"
+      },
+      {
+        "id": "c",
+        "text": "passt"
+      },
+      {
+        "id": "d",
+        "text": "pased"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Passed' is the past tense of the verb 'pass'."
   },
   {
@@ -2777,17 +2959,28 @@
     "strandSlug": "verb-tenses",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-TEN-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Complete using the past perfect: 'She ___ (leave) before I arrived.'",
-    "blanks": [
+    "promptText": "Which correctly completes the past perfect? 'She ___ before I arrived.' (leave)",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "had left"
-        ]
+        "id": "a",
+        "text": "had left"
+      },
+      {
+        "id": "b",
+        "text": "has left"
+      },
+      {
+        "id": "c",
+        "text": "left"
+      },
+      {
+        "id": "d",
+        "text": "was leaving"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "The past perfect 'had left' shows this happened before another past event."
   },
   {
@@ -2795,19 +2988,29 @@
     "strandSlug": "verb-tenses",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-TEN-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Complete using the present perfect: 'They ___ (not/finish) the project yet.'",
-    "blanks": [
+    "promptText": "Which correctly completes the negative present perfect? 'They ___ the project yet.' (not/finish)",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "have not finished",
-          "haven't finished"
-        ]
+        "id": "a",
+        "text": "have not finished"
+      },
+      {
+        "id": "b",
+        "text": "did not finish"
+      },
+      {
+        "id": "c",
+        "text": "were not finishing"
+      },
+      {
+        "id": "d",
+        "text": "had not finished"
       }
     ],
-    "explanation": "'Have not finished' / 'haven't finished' is the negative present perfect."
+    "correctOptionId": "a",
+    "explanation": "'Have not finished' is the negative present perfect, matching 'yet'."
   },
   {
     "subjectSlug": "grammar",
@@ -2988,17 +3191,28 @@
     "strandSlug": "commas",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-COM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "bronze",
-    "promptText": "Insert the missing comma: 'Yes___ I agree with you.'",
-    "blanks": [
+    "promptText": "Which punctuation mark is missing? 'Yes___ I agree with you.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          ","
-        ]
+        "id": "a",
+        "text": "a comma"
+      },
+      {
+        "id": "b",
+        "text": "a semicolon"
+      },
+      {
+        "id": "c",
+        "text": "a colon"
+      },
+      {
+        "id": "d",
+        "text": "no punctuation is needed"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A comma follows the introductory word 'Yes'."
   },
   {
@@ -3006,17 +3220,28 @@
     "strandSlug": "commas",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-COM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Insert the missing comma: 'After lunch___ we went swimming.'",
-    "blanks": [
+    "promptText": "Which punctuation mark is missing? 'After lunch___ we went swimming.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          ","
-        ]
+        "id": "a",
+        "text": "a comma"
+      },
+      {
+        "id": "b",
+        "text": "a semicolon"
+      },
+      {
+        "id": "c",
+        "text": "a colon"
+      },
+      {
+        "id": "d",
+        "text": "no punctuation is needed"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A comma follows the introductory phrase 'After lunch'."
   },
   {
@@ -3198,19 +3423,28 @@
     "strandSlug": "brackets-dashes",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-BRA-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Insert the missing dash: 'There was one clear winner___Sam.'",
-    "blanks": [
+    "promptText": "Which punctuation mark is missing? 'There was one clear winner___Sam.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "—",
-          "-",
-          "--"
-        ]
+        "id": "a",
+        "text": "a dash"
+      },
+      {
+        "id": "b",
+        "text": "a comma"
+      },
+      {
+        "id": "c",
+        "text": "a semicolon"
+      },
+      {
+        "id": "d",
+        "text": "an apostrophe"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A single dash introduces the final piece of information."
   },
   {
@@ -3218,19 +3452,28 @@
     "strandSlug": "brackets-dashes",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-BRA-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Insert the missing dash: 'She had just one wish___to travel the world.'",
-    "blanks": [
+    "promptText": "Which punctuation mark is missing? 'She had just one wish___to travel the world.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "—",
-          "-",
-          "--"
-        ]
+        "id": "a",
+        "text": "a dash"
+      },
+      {
+        "id": "b",
+        "text": "a comma"
+      },
+      {
+        "id": "c",
+        "text": "a semicolon"
+      },
+      {
+        "id": "d",
+        "text": "an apostrophe"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A single dash can introduce a final, emphatic detail."
   },
   {
@@ -3958,20 +4201,29 @@
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ENP-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Complete the expanded noun phrase with a prepositional phrase for precision: 'the small cottage ___ the edge of the forest' (add a preposition)",
-    "blanks": [
+    "promptText": "Which preposition best completes this expanded noun phrase? 'the small cottage ___ the edge of the forest'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "at",
-          "on",
-          "near"
-        ]
+        "id": "a",
+        "text": "at"
+      },
+      {
+        "id": "b",
+        "text": "about"
+      },
+      {
+        "id": "c",
+        "text": "despite"
+      },
+      {
+        "id": "d",
+        "text": "throughout"
       }
     ],
-    "explanation": "'At'/'on'/'near' introduces the prepositional phrase that precisely locates the cottage."
+    "correctOptionId": "a",
+    "explanation": "'At' introduces the prepositional phrase that precisely locates the cottage."
   },
   {
     "subjectSlug": "grammar",
@@ -3992,17 +4244,28 @@
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ENP-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Complete the expanded noun phrase: 'the scientist ___ the ground-breaking discovery' (add a preposition)",
-    "blanks": [
+    "promptText": "Which preposition best completes this expanded noun phrase? 'the scientist ___ the ground-breaking discovery'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "behind"
-        ]
+        "id": "a",
+        "text": "behind"
+      },
+      {
+        "id": "b",
+        "text": "about"
+      },
+      {
+        "id": "c",
+        "text": "despite"
+      },
+      {
+        "id": "d",
+        "text": "along"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Behind' introduces a prepositional phrase that precisely links the scientist to the discovery."
   },
   {
@@ -4038,24 +4301,28 @@
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ENP-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Complete the expanded noun phrase for precision: 'the ___ evidence ___ the witness' (add an adjective, then a preposition)",
-    "blanks": [
+    "promptText": "Which pair correctly completes this expanded noun phrase? 'the ___ evidence ___ the witness'",
+    "options": [
       {
-        "id": "b1",
-        "acceptedAnswers": [
-          "damning",
-          "contradictory"
-        ]
+        "id": "a",
+        "text": "damning ... against"
       },
       {
-        "id": "b2",
-        "acceptedAnswers": [
-          "against"
-        ]
+        "id": "b",
+        "text": "quick ... about"
+      },
+      {
+        "id": "c",
+        "text": "damning ... about"
+      },
+      {
+        "id": "d",
+        "text": "loud ... against"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "An adjective ('damning') plus a prepositional phrase ('against the witness') builds precision economically."
   },
   {
@@ -4446,18 +4713,28 @@
     "strandSlug": "homophones",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-HOM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Complete with the correct homophone: 'Thank you for the lovely ___ about my speech.' (an expression of praise)",
-    "blanks": [
+    "promptText": "Which homophone correctly completes this sentence? 'Thank you for the lovely ___ about my speech.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "compliment",
-          "compliments"
-        ]
+        "id": "a",
+        "text": "compliment"
+      },
+      {
+        "id": "b",
+        "text": "complement"
+      },
+      {
+        "id": "c",
+        "text": "complements"
+      },
+      {
+        "id": "d",
+        "text": "compliance"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Compliment' (with an i) means an expression of praise."
   },
   {
@@ -4494,17 +4771,28 @@
     "strandSlug": "homophones",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-HOM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Complete with the correct homophone: 'The car remained completely ___ throughout the traffic jam.' (not moving)",
-    "blanks": [
+    "promptText": "Which homophone correctly completes this sentence? 'The car remained completely ___ throughout the traffic jam.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "stationary"
-        ]
+        "id": "a",
+        "text": "stationary"
+      },
+      {
+        "id": "b",
+        "text": "stationery"
+      },
+      {
+        "id": "c",
+        "text": "static"
+      },
+      {
+        "id": "d",
+        "text": "still"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Stationary' (with an a) means not moving."
   },
   {
@@ -4541,17 +4829,28 @@
     "strandSlug": "homophones",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-HOM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Complete with the correct word: 'The company will ___ the building against fire damage.' (arrange financial protection)",
-    "blanks": [
+    "promptText": "Which word correctly completes this sentence? 'The company will ___ the building against fire damage.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "insure"
-        ]
+        "id": "a",
+        "text": "insure"
+      },
+      {
+        "id": "b",
+        "text": "ensure"
+      },
+      {
+        "id": "c",
+        "text": "assure"
+      },
+      {
+        "id": "d",
+        "text": "reassure"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Insure' relates to arranging insurance cover, unlike 'ensure' (make certain)."
   },
   {
@@ -4935,24 +5234,28 @@
     "strandSlug": "verb-tenses",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-TEN-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Complete with the correct past perfect form: 'By the time we arrived, the film ___ already ___.' (begin)",
-    "blanks": [
+    "promptText": "Which pair correctly completes the past perfect? 'By the time we arrived, the film ___ already ___.' (begin)",
+    "options": [
       {
-        "id": "aux",
-        "acceptedAnswers": [
-          "had"
-        ]
+        "id": "a",
+        "text": "had ... begun"
       },
       {
-        "id": "verb",
-        "acceptedAnswers": [
-          "begun",
-          "started"
-        ]
+        "id": "b",
+        "text": "has ... begun"
+      },
+      {
+        "id": "c",
+        "text": "was ... beginning"
+      },
+      {
+        "id": "d",
+        "text": "did ... begin"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "The past perfect ('had begun') shows an action completed before another past action."
   },
   {
@@ -4989,23 +5292,28 @@
     "strandSlug": "verb-tenses",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-TEN-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Complete using the present perfect progressive: 'I ___ ___ for two hours.' (study)",
-    "blanks": [
+    "promptText": "Which pair correctly completes the present perfect progressive? 'I ___ ___ for two hours.' (study)",
+    "options": [
       {
-        "id": "aux",
-        "acceptedAnswers": [
-          "have been"
-        ]
+        "id": "a",
+        "text": "have been ... studying"
       },
       {
-        "id": "verb",
-        "acceptedAnswers": [
-          "studying"
-        ]
+        "id": "b",
+        "text": "had been ... studying"
+      },
+      {
+        "id": "c",
+        "text": "was ... studying"
+      },
+      {
+        "id": "d",
+        "text": "have ... studied"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "The present perfect progressive ('have been studying') shows an action that started in the past and continues now."
   },
   {
@@ -5042,23 +5350,28 @@
     "strandSlug": "verb-tenses",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-TEN-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Complete with the correct perfect form: 'She ___ ___ the report before the meeting even started.' (finish)",
-    "blanks": [
+    "promptText": "Which pair correctly completes the perfect form? 'She ___ ___ the report before the meeting even started.' (finish)",
+    "options": [
       {
-        "id": "aux",
-        "acceptedAnswers": [
-          "had"
-        ]
+        "id": "a",
+        "text": "had ... finished"
       },
       {
-        "id": "verb",
-        "acceptedAnswers": [
-          "finished"
-        ]
+        "id": "b",
+        "text": "has ... finished"
+      },
+      {
+        "id": "c",
+        "text": "was ... finishing"
+      },
+      {
+        "id": "d",
+        "text": "did ... finish"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "The past perfect ('had finished') shows the action was completed before another past event (the meeting starting)."
   },
   {
@@ -5066,17 +5379,28 @@
     "strandSlug": "commas",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-COM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Insert the missing comma to mark the clause boundary: 'Although it was raining heavily___ the match continued.'",
-    "blanks": [
+    "promptText": "Which version is correctly punctuated? 'Although it was raining heavily the match continued.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          ","
-        ]
+        "id": "a",
+        "text": "Although it was raining heavily, the match continued."
+      },
+      {
+        "id": "b",
+        "text": "Although, it was raining heavily the match continued."
+      },
+      {
+        "id": "c",
+        "text": "Although it was raining heavily; the match continued."
+      },
+      {
+        "id": "d",
+        "text": "Although it was raining heavily the match, continued."
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A comma marks the boundary after the subordinate clause 'Although it was raining heavily'."
   },
   {
@@ -5113,23 +5437,28 @@
     "strandSlug": "commas",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-COM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Insert the missing commas: 'The scientist___ who had studied the virus for years___ finally found a cure.'",
-    "blanks": [
+    "promptText": "Which version correctly marks the non-restrictive clause with a pair of commas?",
+    "options": [
       {
-        "id": "b1",
-        "acceptedAnswers": [
-          ","
-        ]
+        "id": "a",
+        "text": "The scientist, who had studied the virus for years, finally found a cure."
       },
       {
-        "id": "b2",
-        "acceptedAnswers": [
-          ","
-        ]
+        "id": "b",
+        "text": "The scientist who had studied the virus for years, finally found a cure."
+      },
+      {
+        "id": "c",
+        "text": "The scientist, who had studied the virus for years finally found a cure."
+      },
+      {
+        "id": "d",
+        "text": "The, scientist who had studied the virus for years, finally found a cure."
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A pair of commas marks the non-restrictive clause 'who had studied the virus for years'."
   },
   {
@@ -5166,17 +5495,28 @@
     "strandSlug": "commas",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-COM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Insert the missing comma: 'Because the bridge was under repair___ traffic was diverted through the village.'",
-    "blanks": [
+    "promptText": "Which version is correctly punctuated? 'Because the bridge was under repair traffic was diverted through the village.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          ","
-        ]
+        "id": "a",
+        "text": "Because the bridge was under repair, traffic was diverted through the village."
+      },
+      {
+        "id": "b",
+        "text": "Because, the bridge was under repair traffic was diverted through the village."
+      },
+      {
+        "id": "c",
+        "text": "Because the bridge was under repair; traffic was diverted through the village."
+      },
+      {
+        "id": "d",
+        "text": "Because the bridge was under repair traffic, was diverted through the village."
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A comma marks the boundary between the subordinate clause and the main clause."
   },
   {
@@ -5213,23 +5553,28 @@
     "strandSlug": "commas",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-COM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Insert commas to correctly mark the non-essential clause and avoid ambiguity: 'My cousin___ who lives in Cardiff___ is coming to stay.'",
-    "blanks": [
+    "promptText": "Which version correctly marks the non-essential clause, showing there is only one cousin?",
+    "options": [
       {
-        "id": "b1",
-        "acceptedAnswers": [
-          ","
-        ]
+        "id": "a",
+        "text": "My cousin, who lives in Cardiff, is coming to stay."
       },
       {
-        "id": "b2",
-        "acceptedAnswers": [
-          ","
-        ]
+        "id": "b",
+        "text": "My cousin who lives in Cardiff, is coming to stay."
+      },
+      {
+        "id": "c",
+        "text": "My cousin, who lives in Cardiff is coming to stay."
+      },
+      {
+        "id": "d",
+        "text": "My, cousin who lives in Cardiff, is coming to stay."
       }
     ],
+    "correctOptionId": "a",
     "explanation": "Commas around 'who lives in Cardiff' show this is additional information about my only cousin, not identifying which cousin."
   },
   {
@@ -5237,19 +5582,28 @@
     "strandSlug": "brackets-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-BRA-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Insert a single dash to mark the boundary between the two independent clauses: 'The rain finally stopped___ the sun broke through the clouds.'",
-    "blanks": [
+    "promptText": "Which punctuation mark correctly joins these two independent clauses? 'The rain finally stopped___ the sun broke through the clouds.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "—",
-          "-",
-          "--"
-        ]
+        "id": "a",
+        "text": "a dash"
+      },
+      {
+        "id": "b",
+        "text": "a comma"
+      },
+      {
+        "id": "c",
+        "text": "an apostrophe"
+      },
+      {
+        "id": "d",
+        "text": "no punctuation is needed"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A single dash can join two independent clauses, similar to a semicolon, creating a dramatic pause."
   },
   {
@@ -5286,19 +5640,28 @@
     "strandSlug": "brackets-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-BRA-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Insert a single dash: 'The lights flickered once___ then the power failed completely.'",
-    "blanks": [
+    "promptText": "Which punctuation mark correctly joins these two independent clauses? 'The lights flickered once___ then the power failed completely.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "—",
-          "-",
-          "--"
-        ]
+        "id": "a",
+        "text": "a dash"
+      },
+      {
+        "id": "b",
+        "text": "a comma"
+      },
+      {
+        "id": "c",
+        "text": "an apostrophe"
+      },
+      {
+        "id": "d",
+        "text": "no punctuation is needed"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "The dash marks the boundary between two independent clauses, adding dramatic emphasis."
   },
   {
@@ -5335,19 +5698,28 @@
     "strandSlug": "brackets-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-BRA-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Insert a single dash to correctly join these independent clauses: 'Nobody expected the underdogs to win___ they triumphed in the final minute.'",
-    "blanks": [
+    "promptText": "Which punctuation mark correctly joins these two independent clauses without a comma splice? 'Nobody expected the underdogs to win___ they triumphed in the final minute.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "—",
-          "-",
-          "--"
-        ]
+        "id": "a",
+        "text": "a dash"
+      },
+      {
+        "id": "b",
+        "text": "a comma"
+      },
+      {
+        "id": "c",
+        "text": "an apostrophe"
+      },
+      {
+        "id": "d",
+        "text": "no punctuation is needed"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "The dash joins the two independent clauses with dramatic effect, avoiding a comma splice."
   },
   {
@@ -5569,24 +5941,29 @@
     "strandSlug": "active-passive-voice",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ACT-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Rewrite in the passive voice: 'The gardener planted the roses.' → 'The roses ___ ___ by the gardener.'",
-    "blanks": [
+    "promptText": "Which pair correctly completes the passive voice? 'The roses ___ ___ by the gardener.'",
+    "options": [
       {
-        "id": "aux",
-        "acceptedAnswers": [
-          "were"
-        ]
+        "id": "a",
+        "text": "were ... planted"
       },
       {
-        "id": "verb",
-        "acceptedAnswers": [
-          "planted"
-        ]
+        "id": "b",
+        "text": "was ... planted"
+      },
+      {
+        "id": "c",
+        "text": "are ... planting"
+      },
+      {
+        "id": "d",
+        "text": "have ... planted"
       }
     ],
-    "explanation": "The passive form uses 'were' (to be) + the past participle 'planted'."
+    "correctOptionId": "a",
+    "explanation": "The passive form uses 'were' (to be, plural subject 'roses') + the past participle 'planted'."
   },
   {
     "subjectSlug": "grammar",
@@ -5636,23 +6013,28 @@
     "strandSlug": "active-passive-voice",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ACT-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite in the passive voice: 'Vandals damaged the statue overnight.' → 'The statue ___ ___ by vandals overnight.'",
-    "blanks": [
+    "promptText": "Which pair correctly completes the passive voice? 'The statue ___ ___ by vandals overnight.'",
+    "options": [
       {
-        "id": "aux",
-        "acceptedAnswers": [
-          "was"
-        ]
+        "id": "a",
+        "text": "was ... damaged"
       },
       {
-        "id": "verb",
-        "acceptedAnswers": [
-          "damaged"
-        ]
+        "id": "b",
+        "text": "were ... damaged"
+      },
+      {
+        "id": "c",
+        "text": "is ... damaging"
+      },
+      {
+        "id": "d",
+        "text": "has ... damaged"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "The passive form uses 'was' + the past participle 'damaged', placing the statue as the subject."
   },
   {
@@ -5716,29 +6098,28 @@
     "strandSlug": "active-passive-voice",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ACT-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Rewrite in the passive voice, keeping the same tense: 'Engineers are testing the new bridge this week.' → 'The new bridge ___ ___ ___ by engineers this week.'",
-    "blanks": [
+    "promptText": "Which set correctly completes the present progressive passive? 'The new bridge ___ ___ ___ by engineers this week.'",
+    "options": [
       {
-        "id": "aux1",
-        "acceptedAnswers": [
-          "is"
-        ]
+        "id": "a",
+        "text": "is ... being ... tested"
       },
       {
-        "id": "aux2",
-        "acceptedAnswers": [
-          "being"
-        ]
+        "id": "b",
+        "text": "was ... being ... tested"
       },
       {
-        "id": "verb",
-        "acceptedAnswers": [
-          "tested"
-        ]
+        "id": "c",
+        "text": "is ... been ... tested"
+      },
+      {
+        "id": "d",
+        "text": "has ... being ... tested"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "The present progressive passive uses 'is being' + the past participle 'tested'."
   },
   {
@@ -5888,17 +6269,28 @@
     "strandSlug": "semicolons-colons-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PUNC-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "bronze",
-    "promptText": "Insert the missing colon to introduce the list: 'We packed three things___ a tent, a torch and a map.'",
-    "blanks": [
+    "promptText": "Which punctuation mark correctly introduces this list? 'We packed three things___ a tent, a torch and a map.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          ":"
-        ]
+        "id": "a",
+        "text": "a colon"
+      },
+      {
+        "id": "b",
+        "text": "a semicolon"
+      },
+      {
+        "id": "c",
+        "text": "a comma"
+      },
+      {
+        "id": "d",
+        "text": "a dash"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A colon introduces the list that follows."
   },
   {
@@ -5935,23 +6327,28 @@
     "strandSlug": "semicolons-colons-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PUNC-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Insert the missing semicolons to separate items in this list, which already contain commas: 'The team visited Paris, France___ Rome, Italy___ and Berlin, Germany.'",
-    "blanks": [
+    "promptText": "Which punctuation mark correctly separates these list items, which already contain commas?",
+    "options": [
       {
-        "id": "b1",
-        "acceptedAnswers": [
-          ";"
-        ]
+        "id": "a",
+        "text": "semicolons"
       },
       {
-        "id": "b2",
-        "acceptedAnswers": [
-          ";"
-        ]
+        "id": "b",
+        "text": "commas"
+      },
+      {
+        "id": "c",
+        "text": "colons"
+      },
+      {
+        "id": "d",
+        "text": "dashes"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "Semicolons separate list items that themselves contain commas, preventing confusion."
   },
   {
@@ -5988,29 +6385,28 @@
     "strandSlug": "semicolons-colons-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PUNC-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Insert the colon and semicolons correctly: 'The recipe needed three ingredients___ ripe tomatoes, chopped finely___ fresh basil, torn___ and olive oil, warmed gently.'",
-    "blanks": [
+    "promptText": "Which correctly describes the punctuation needed in this sentence?",
+    "options": [
       {
-        "id": "b1",
-        "acceptedAnswers": [
-          ":"
-        ]
+        "id": "a",
+        "text": "A colon introduces the list; semicolons separate the items"
       },
       {
-        "id": "b2",
-        "acceptedAnswers": [
-          ";"
-        ]
+        "id": "b",
+        "text": "Commas introduce the list; colons separate the items"
       },
       {
-        "id": "b3",
-        "acceptedAnswers": [
-          ";"
-        ]
+        "id": "c",
+        "text": "A dash introduces the list; commas separate the items"
+      },
+      {
+        "id": "d",
+        "text": "No punctuation is needed anywhere"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A colon introduces the list; semicolons separate items that already contain commas."
   },
   {
@@ -6047,17 +6443,28 @@
     "strandSlug": "semicolons-colons-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PUNC-2",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Insert a semicolon to join these independent clauses: 'The sky darkened___ a storm was coming.'",
-    "blanks": [
+    "promptText": "Which punctuation mark correctly joins these independent clauses without a conjunction? 'The sky darkened___ a storm was coming.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          ";"
-        ]
+        "id": "a",
+        "text": "a semicolon"
+      },
+      {
+        "id": "b",
+        "text": "a comma"
+      },
+      {
+        "id": "c",
+        "text": "a colon"
+      },
+      {
+        "id": "d",
+        "text": "an apostrophe"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A semicolon joins two closely related independent clauses without a conjunction."
   },
   {
@@ -6094,17 +6501,28 @@
     "strandSlug": "semicolons-colons-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PUNC-2",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Insert a semicolon: 'Some pupils prefer maths___ others prefer art.'",
-    "blanks": [
+    "promptText": "Which punctuation mark correctly joins these contrasting clauses? 'Some pupils prefer maths___ others prefer art.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          ";"
-        ]
+        "id": "a",
+        "text": "a semicolon"
+      },
+      {
+        "id": "b",
+        "text": "a comma"
+      },
+      {
+        "id": "c",
+        "text": "a colon"
+      },
+      {
+        "id": "d",
+        "text": "an apostrophe"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A semicolon links these two contrasting but closely related independent clauses."
   },
   {
@@ -6141,17 +6559,28 @@
     "strandSlug": "semicolons-colons-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PUNC-2",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Insert a semicolon to correctly join these independent clauses: 'The evidence was overwhelming___ the jury reached its verdict within an hour.'",
-    "blanks": [
+    "promptText": "Which punctuation mark correctly joins these independent clauses without a conjunction? 'The evidence was overwhelming___ the jury reached its verdict within an hour.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          ";"
-        ]
+        "id": "a",
+        "text": "a semicolon"
+      },
+      {
+        "id": "b",
+        "text": "a comma"
+      },
+      {
+        "id": "c",
+        "text": "a colon"
+      },
+      {
+        "id": "d",
+        "text": "an apostrophe"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A semicolon joins the two closely related independent clauses without a conjunction."
   },
   {
@@ -6655,18 +7084,28 @@
     "strandSlug": "brackets-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-BRA-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Insert a single dash in the correct place to join these two independent clauses: 'Nobody had spoken for an hour the silence had become unbearable.'",
-    "blanks": [
+    "promptText": "Which version correctly places a single dash between two independent clauses?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "nobody had spoken for an hour — the silence had become unbearable",
-          "nobody had spoken for an hour— the silence had become unbearable"
-        ]
+        "id": "a",
+        "text": "Nobody had spoken for an hour — the silence had become unbearable."
+      },
+      {
+        "id": "b",
+        "text": "Nobody had spoken — for an hour the silence had become unbearable."
+      },
+      {
+        "id": "c",
+        "text": "Nobody — had spoken for an hour the silence had become unbearable."
+      },
+      {
+        "id": "d",
+        "text": "Nobody had spoken for an hour the silence — had become unbearable."
       }
     ],
+    "correctOptionId": "a",
     "explanation": "The dash sits between the two complete clauses, replacing a semicolon or full stop."
   },
   {
@@ -6831,17 +7270,28 @@
     "strandSlug": "commas",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-COM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Add a comma to mark the clause boundary: 'Although the rain had stopped the ground was still soaked.'",
-    "blanks": [
+    "promptText": "Which version is correctly punctuated? 'Although the rain had stopped the ground was still soaked.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "although the rain had stopped, the ground was still soaked"
-        ]
+        "id": "a",
+        "text": "Although the rain had stopped, the ground was still soaked."
+      },
+      {
+        "id": "b",
+        "text": "Although, the rain had stopped the ground was still soaked."
+      },
+      {
+        "id": "c",
+        "text": "Although the rain had stopped the ground, was still soaked."
+      },
+      {
+        "id": "d",
+        "text": "Although the rain had stopped; the ground was still soaked."
       }
     ],
+    "correctOptionId": "a",
     "explanation": "A comma marks the boundary after an introductory subordinate clause ('Although the rain had stopped')."
   },
   {
@@ -6907,17 +7357,28 @@
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ENP-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Expand this noun phrase economically using a modifying noun (not an adjective): 'the ___ pathway' (a pathway made of gravel)",
-    "blanks": [
+    "promptText": "Which word correctly expands this noun phrase using a modifying noun (not an adjective)? 'the ___ pathway' (made of gravel)",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "gravel"
-        ]
+        "id": "a",
+        "text": "gravel"
+      },
+      {
+        "id": "b",
+        "text": "stony"
+      },
+      {
+        "id": "c",
+        "text": "rocky"
+      },
+      {
+        "id": "d",
+        "text": "hard"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Gravel pathway' uses a noun ('gravel') to modify another noun, giving precise, economical detail without a full clause."
   },
   {
@@ -7084,17 +7545,28 @@
     "strandSlug": "homophones",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-HOM-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Choose the correct word: 'The insurance policy will ___ that any damage is covered.' (ensure / insure)",
-    "blanks": [
+    "promptText": "Which word correctly completes this sentence? 'The insurance policy will ___ that any damage is covered.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "ensure"
-        ]
+        "id": "a",
+        "text": "ensure"
+      },
+      {
+        "id": "b",
+        "text": "insure"
+      },
+      {
+        "id": "c",
+        "text": "assure"
+      },
+      {
+        "id": "d",
+        "text": "endure"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Ensure' means to make certain; 'insure' means to provide financial compensation, e.g. against loss or damage."
   },
   {
@@ -7705,18 +8177,28 @@
     "strandSlug": "suffixes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-SUF-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Complete the word with the correct suffix: 'The judge made an impar___ decision.' (-cial or -tial)",
-    "blanks": [
+    "promptText": "Which suffix correctly completes this word? 'The judge made an impar___ decision.'",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "tial",
-          "impartial"
-        ]
+        "id": "a",
+        "text": "-tial (impartial)"
+      },
+      {
+        "id": "b",
+        "text": "-cial (imparcial)"
+      },
+      {
+        "id": "c",
+        "text": "-cious (imparcious)"
+      },
+      {
+        "id": "d",
+        "text": "-tious (impartious)"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "'Impartial' uses '-tial', typically following a root ending in a consonant other than 'c' (part → impartial)."
   },
   {
@@ -7900,17 +8382,28 @@
     "strandSlug": "verb-tenses",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-TEN-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Correct the tense inconsistency: 'Yesterday, I walk to school and I saw my friend.'",
-    "blanks": [
+    "promptText": "Which version correctly fixes the tense inconsistency?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "yesterday, i walked to school and i saw my friend"
-        ]
+        "id": "a",
+        "text": "Yesterday, I walked to school and I saw my friend."
+      },
+      {
+        "id": "b",
+        "text": "Yesterday, I walk to school and I see my friend."
+      },
+      {
+        "id": "c",
+        "text": "Yesterday, I have walked to school and I saw my friend."
+      },
+      {
+        "id": "d",
+        "text": "Yesterday, I walked to school and I see my friend."
       }
     ],
+    "correctOptionId": "a",
     "explanation": "Both verbs should be in the past tense for consistency: 'walked' and 'saw'."
   },
   {

@@ -106,17 +106,28 @@
     "strandSlug": "coordinates",
     "yearGroup": "Y5",
     "objectiveCode": "GE5-COORD-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "A four-figure grid reference is read across then up. For the reference '2678', what are the 'easting' digits?",
-    "blanks": [
+    "promptText": "A four-figure grid reference is read across then up. For the reference '2678', which digits are the 'easting'?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "26"
-        ]
+        "id": "a",
+        "text": "26"
+      },
+      {
+        "id": "b",
+        "text": "78"
+      },
+      {
+        "id": "c",
+        "text": "27"
+      },
+      {
+        "id": "d",
+        "text": "68"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "In a four-figure grid reference, the first two digits are the easting (across) and the last two are the northing (up)."
   },
   {
@@ -453,17 +464,28 @@
     "strandSlug": "coordinates",
     "yearGroup": "Y6",
     "objectiveCode": "GE6-COORD-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "A six-figure grid reference is more precise than a four-figure one. In the reference '267781', what are the three 'easting' digits?",
-    "blanks": [
+    "promptText": "A six-figure grid reference is more precise than a four-figure one. In the reference '267781', which digits are the 'easting'?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "267"
-        ]
+        "id": "a",
+        "text": "267"
+      },
+      {
+        "id": "b",
+        "text": "781"
+      },
+      {
+        "id": "c",
+        "text": "677"
+      },
+      {
+        "id": "d",
+        "text": "778"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "In a six-figure grid reference, the first three digits are the easting (across) and the last three are the northing (up), giving a more precise location than a four-figure reference."
   },
   {
@@ -1167,17 +1189,28 @@
     "strandSlug": "coordinates",
     "yearGroup": "Y5",
     "objectiveCode": "GE5-COORD-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "For the four-figure grid reference '4512', what are the northing (up) digits?",
-    "blanks": [
+    "promptText": "For the four-figure grid reference '4512', which digits are the northing (up)?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "12"
-        ]
+        "id": "a",
+        "text": "12"
+      },
+      {
+        "id": "b",
+        "text": "45"
+      },
+      {
+        "id": "c",
+        "text": "51"
+      },
+      {
+        "id": "d",
+        "text": "42"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "The last two digits of a four-figure grid reference are the northing."
   },
   {
@@ -1228,17 +1261,28 @@
     "strandSlug": "coordinates",
     "yearGroup": "Y6",
     "objectiveCode": "GE6-COORD-1",
-    "type": "fill_in_box",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "For the six-figure grid reference '267781', what are the three 'northing' digits?",
-    "blanks": [
+    "promptText": "For the six-figure grid reference '267781', which digits are the 'northing'?",
+    "options": [
       {
-        "id": "answer",
-        "acceptedAnswers": [
-          "781"
-        ]
+        "id": "a",
+        "text": "781"
+      },
+      {
+        "id": "b",
+        "text": "267"
+      },
+      {
+        "id": "c",
+        "text": "677"
+      },
+      {
+        "id": "d",
+        "text": "778"
       }
     ],
+    "correctOptionId": "a",
     "explanation": "The last three digits of a six-figure grid reference are the northing."
   },
   {
