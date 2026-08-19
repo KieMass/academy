@@ -88,6 +88,8 @@ model ParentProfile {
 }
 
 enum YearGroup {
+  Y1
+  Y2
   Y3
   Y4
   Y5

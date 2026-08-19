@@ -1,7 +1,10 @@
 {
   "subjectSlug": "reading",
   "subjectName": "Reading Comprehension",
-  "frameworks": ["UK National Curriculum KS2 Reading Content Domains", "PIRA-style assessment"],
+  "frameworks": [
+    "UK National Curriculum KS2 Reading Content Domains",
+    "PIRA-style assessment"
+  ],
   "icon": "BookOpen",
   "color": "amber",
   "strands": [
@@ -10,12 +13,77 @@
       "name": "Retrieval",
       "description": "Content domain 2b: retrieve and record information/identify key details from fiction and non-fiction.",
       "years": [
-        { "yearGroup": "Y5", "objectives": [
-          { "code": "RE5-RET-1", "description": "Retrieve, record and present information from fiction and non-fiction texts", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
-        ] },
-        { "yearGroup": "Y6", "objectives": [
-          { "code": "RE6-RET-1", "description": "Retrieve, record and present information from longer, more complex fiction and non-fiction texts, including across multiple paragraphs", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
-        ] }
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "RE1-RET-1",
+              "description": "Identify and explain key aspects of a text, such as characters, events and titles",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "RE2-RET-1",
+              "description": "Retrieve and record key information from a short fiction or non-fiction text",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "RE5-RET-1",
+              "description": "Retrieve, record and present information from fiction and non-fiction texts",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "RE6-RET-1",
+              "description": "Retrieve, record and present information from longer, more complex fiction and non-fiction texts, including across multiple paragraphs",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -23,12 +91,75 @@
       "name": "Literal Comprehension",
       "description": "Understanding what is explicitly stated in a text.",
       "years": [
-        { "yearGroup": "Y5", "objectives": [
-          { "code": "RE5-LIT-1", "description": "Answer questions directly using information explicitly stated in the text", "difficultyBands": ["bronze","silver"], "questionTypes": ["multiple_choice","short_answer"] }
-        ] },
-        { "yearGroup": "Y6", "objectives": [
-          { "code": "RE6-LIT-1", "description": "Answer questions directly using information explicitly stated across a text with more sophisticated vocabulary and sentence structures", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
-        ] }
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "RE1-LIT-1",
+              "description": "Answer simple questions directly using information explicitly stated in the text",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "RE2-LIT-1",
+              "description": "Answer questions directly using information explicitly stated in the text",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "RE5-LIT-1",
+              "description": "Answer questions directly using information explicitly stated in the text",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "RE6-LIT-1",
+              "description": "Answer questions directly using information explicitly stated across a text with more sophisticated vocabulary and sentence structures",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -36,14 +167,97 @@
       "name": "Inference",
       "description": "Content domain 2d: make inferences from the text, explain and justify with evidence.",
       "years": [
-        { "yearGroup": "Y5", "objectives": [
-          { "code": "RE5-INF-1", "description": "Draw inferences such as inferring characters' feelings, thoughts and motives from their actions", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] },
-          { "code": "RE5-INF-2", "description": "Justify inferences with evidence from the text", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
-        ] },
-        { "yearGroup": "Y6", "objectives": [
-          { "code": "RE6-INF-1", "description": "Draw inferences such as inferring characters' feelings, thoughts and motives from their actions, and justify them with more than one piece of textual evidence", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] },
-          { "code": "RE6-INF-2", "description": "Infer meaning that is implied but not stated, using evidence from across the whole text", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
-        ] }
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "RE1-INF-1",
+              "description": "Make simple inferences from illustrations and the text, e.g. how a character is feeling",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "RE2-INF-1",
+              "description": "Make inferences from the text, explaining what is being implied",
+              "difficultyBands": [
+                "silver",
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "RE5-INF-1",
+              "description": "Draw inferences such as inferring characters' feelings, thoughts and motives from their actions",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            },
+            {
+              "code": "RE5-INF-2",
+              "description": "Justify inferences with evidence from the text",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "RE6-INF-1",
+              "description": "Draw inferences such as inferring characters' feelings, thoughts and motives from their actions, and justify them with more than one piece of textual evidence",
+              "difficultyBands": [
+                "silver",
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            },
+            {
+              "code": "RE6-INF-2",
+              "description": "Infer meaning that is implied but not stated, using evidence from across the whole text",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -51,12 +265,75 @@
       "name": "Predicting",
       "description": "Content domain 2e: predict what might happen from details stated and implied.",
       "years": [
-        { "yearGroup": "Y5", "objectives": [
-          { "code": "RE5-PRE-1", "description": "Predict what might happen next from details stated and implied", "difficultyBands": ["silver","gold"], "questionTypes": ["multiple_choice","short_answer"] }
-        ] },
-        { "yearGroup": "Y6", "objectives": [
-          { "code": "RE6-PRE-1", "description": "Predict what might happen from details stated and implied, justifying predictions with reference to the whole text so far", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["multiple_choice","short_answer"] }
-        ] }
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "RE1-PRE-1",
+              "description": "Predict what might happen next on the basis of what has been read so far",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "RE2-PRE-1",
+              "description": "Predict what might happen on the basis of what has been read so far, using evidence from the text",
+              "difficultyBands": [
+                "silver",
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "RE5-PRE-1",
+              "description": "Predict what might happen next from details stated and implied",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "RE6-PRE-1",
+              "description": "Predict what might happen from details stated and implied, justifying predictions with reference to the whole text so far",
+              "difficultyBands": [
+                "silver",
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -64,14 +341,97 @@
       "name": "Vocabulary in Context",
       "description": "Content domain 2a/2f: word meaning in context, and effect of word choice.",
       "years": [
-        { "yearGroup": "Y5", "objectives": [
-          { "code": "RE5-VOC-1", "description": "Give/explain the meaning of words in context", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
-          { "code": "RE5-VOC-2", "description": "Identify and explain how meaning is enhanced through the author's choice of words and phrases", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
-        ] },
-        { "yearGroup": "Y6", "objectives": [
-          { "code": "RE6-VOC-1", "description": "Give/explain the meaning of words in context, including figurative and technical vocabulary", "difficultyBands": ["bronze","silver","gold"], "questionTypes": ["multiple_choice","matching"] },
-          { "code": "RE6-VOC-2", "description": "Analyse and evaluate how the author's choice of language, including figurative language, contributes to meaning and effect", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
-        ] }
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "RE1-VOC-1",
+              "description": "Draw on knowledge of vocabulary to understand a simple text",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "RE2-VOC-1",
+              "description": "Discuss and clarify the meanings of words, linking new meanings to known vocabulary",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "RE5-VOC-1",
+              "description": "Give/explain the meaning of words in context",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "matching"
+              ]
+            },
+            {
+              "code": "RE5-VOC-2",
+              "description": "Identify and explain how meaning is enhanced through the author's choice of words and phrases",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "RE6-VOC-1",
+              "description": "Give/explain the meaning of words in context, including figurative and technical vocabulary",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "matching"
+              ]
+            },
+            {
+              "code": "RE6-VOC-2",
+              "description": "Analyse and evaluate how the author's choice of language, including figurative language, contributes to meaning and effect",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -79,14 +439,62 @@
       "name": "Author's Intent & Viewpoint",
       "description": "Content domain 2g: identify/explain how structure, and choice of language, contribute to meaning.",
       "years": [
-        { "yearGroup": "Y5", "objectives": [
-          { "code": "RE5-AUT-1", "description": "Identify how language, structure and presentation contribute to meaning", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] },
-          { "code": "RE5-AUT-2", "description": "Discuss the author's use of language, including figurative language, and its effect on the reader", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
-        ] },
-        { "yearGroup": "Y6", "objectives": [
-          { "code": "RE6-AUT-1", "description": "Explain how language, structure and presentation contribute to meaning across a whole text, including in non-fiction", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] },
-          { "code": "RE6-AUT-2", "description": "Identify the point of view from which a text is written, and how a change in this would affect the narrative", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
-        ] }
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "RE5-AUT-1",
+              "description": "Identify how language, structure and presentation contribute to meaning",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer",
+                "multiple_choice"
+              ]
+            },
+            {
+              "code": "RE5-AUT-2",
+              "description": "Discuss the author's use of language, including figurative language, and its effect on the reader",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "RE6-AUT-1",
+              "description": "Explain how language, structure and presentation contribute to meaning across a whole text, including in non-fiction",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer",
+                "multiple_choice"
+              ]
+            },
+            {
+              "code": "RE6-AUT-2",
+              "description": "Identify the point of view from which a text is written, and how a change in this would affect the narrative",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -94,12 +502,58 @@
       "name": "Summarising",
       "description": "Content domain 2c: summarise main ideas from more than one paragraph.",
       "years": [
-        { "yearGroup": "Y5", "objectives": [
-          { "code": "RE5-SUM-1", "description": "Summarise the main ideas drawn from more than one paragraph, identifying key details that support the main idea(s)", "difficultyBands": ["silver","gold"], "questionTypes": ["short_answer","multiple_choice"] }
-        ] },
-        { "yearGroup": "Y6", "objectives": [
-          { "code": "RE6-SUM-1", "description": "Summarise the main ideas drawn from more than one paragraph across a whole text, identifying key details that support the main idea(s)", "difficultyBands": ["silver","gold","challenge"], "questionTypes": ["short_answer","multiple_choice"] }
-        ] }
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "RE2-SUM-1",
+              "description": "Identify and explain the sequence of events in a text",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "RE5-SUM-1",
+              "description": "Summarise the main ideas drawn from more than one paragraph, identifying key details that support the main idea(s)",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "short_answer",
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "RE6-SUM-1",
+              "description": "Summarise the main ideas drawn from more than one paragraph across a whole text, identifying key details that support the main idea(s)",
+              "difficultyBands": [
+                "silver",
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer",
+                "multiple_choice"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
@@ -107,12 +561,38 @@
       "name": "Comparison Within & Across Texts",
       "description": "Content domain 2h: make comparisons within a text.",
       "years": [
-        { "yearGroup": "Y5", "objectives": [
-          { "code": "RE5-COM-1", "description": "Make comparisons within a text, e.g. comparing characters, settings or ideas", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
-        ] },
-        { "yearGroup": "Y6", "objectives": [
-          { "code": "RE6-COM-1", "description": "Make comparisons within and across texts, e.g. comparing characters, settings, themes or the way information is presented", "difficultyBands": ["gold","challenge"], "questionTypes": ["short_answer"] }
-        ] }
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "RE5-COM-1",
+              "description": "Make comparisons within a text, e.g. comparing characters, settings or ideas",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "RE6-COM-1",
+              "description": "Make comparisons within and across texts, e.g. comparing characters, settings, themes or the way information is presented",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer"
+              ]
+            }
+          ]
+        }
       ]
     }
   ]

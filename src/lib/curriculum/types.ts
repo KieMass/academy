@@ -11,9 +11,9 @@
  * against these types at build/seed time (see `lib/curriculum/loader.ts`).
  */
 
-/** Key Stage 2 year groups. Extend this union (not the app code) to support
- *  Year 3/4 catch-up content or Year 6 progression later. */
-export const YEAR_GROUPS = ["Y3", "Y4", "Y5", "Y6"] as const;
+/** Key Stage 1 (Y1-Y2) and Key Stage 2 (Y3-Y6) year groups. Extend this
+ *  union (not the app code) to support further year groups later. */
+export const YEAR_GROUPS = ["Y1", "Y2", "Y3", "Y4", "Y5", "Y6"] as const;
 export type YearGroup = (typeof YEAR_GROUPS)[number];
 
 export const DIFFICULTY_BANDS = ["bronze", "silver", "gold", "challenge"] as const;
