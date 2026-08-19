@@ -6,13 +6,32 @@ export interface GradeResult {
   partial?: { total: number; correct: number };
 }
 
+/** Strips thousands-separator commas (5,541 -> 5541; 1,234,567 -> 1234567)
+ * so a student who was taught to format large numbers that way isn't
+ * marked wrong on formatting alone. Deliberately requires exactly three
+ * digits after the comma, not just "a digit" — some accepted answers are
+ * coordinate pairs like "(6,2)" or "6,2" where the comma isn't a
+ * thousands separator at all, and those must survive untouched. Applied
+ * repeatedly (non-global regex in a loop) so multi-comma numbers like
+ * "1,234,567" fully resolve: each pass strips one comma, since the digits
+ * freed up by a strip can themselves complete the next group. */
+function stripThousandsSeparators(value: string): string {
+  let result = value;
+  let next = result.replace(/(\d),(\d{3})(?!\d)/, "$1$2");
+  while (next !== result) {
+    result = next;
+    next = result.replace(/(\d),(\d{3})(?!\d)/, "$1$2");
+  }
+  return result;
+}
+
 function normalise(value: string): string {
-  return value.trim().toLowerCase().replace(/\s+/g, " ");
+  return stripThousandsSeparators(value.trim().toLowerCase().replace(/\s+/g, " "));
 }
 
 function answerMatches(given: string, accepted: string[], caseSensitive = false): boolean {
-  const target = caseSensitive ? given.trim() : normalise(given);
-  return accepted.some((a) => (caseSensitive ? a.trim() : normalise(a)) === target);
+  const target = caseSensitive ? stripThousandsSeparators(given.trim()) : normalise(given);
+  return accepted.some((a) => (caseSensitive ? stripThousandsSeparators(a.trim()) : normalise(a)) === target);
 }
 
 /**
