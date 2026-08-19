@@ -227,6 +227,144 @@
           "what happened to her grandfather on the night he vanished"
         ],
         "explanation": "The passage builds tension around her grandfather's mysterious disappearance and his final instruction to 'keep it lit', suggesting the logbook holds answers about that night."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What had Maya's grandfather done for thirty seasons before he vanished?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kept the lighthouse light burning"
+          },
+          {
+            "id": "b",
+            "text": "Sailed fishing boats"
+          },
+          {
+            "id": "c",
+            "text": "Taught at the school"
+          },
+          {
+            "id": "d",
+            "text": "Repaired the staircase"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage states her grandfather 'had kept the light burning for thirty seasons' before he vanished."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE5-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "Who calls out to Maya from the path behind her?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Her brother Theo"
+          },
+          {
+            "id": "b",
+            "text": "A fisherman"
+          },
+          {
+            "id": "c",
+            "text": "Her grandfather"
+          },
+          {
+            "id": "d",
+            "text": "A stranger"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'her brother Theo called from the path behind her'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE5-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "In the passage, what does 'hesitated' mean, as in 'Maya hesitated, her heart thudding'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Paused briefly, unsure whether to continue"
+          },
+          {
+            "id": "b",
+            "text": "Ran forward quickly"
+          },
+          {
+            "id": "c",
+            "text": "Laughed with relief"
+          },
+          {
+            "id": "d",
+            "text": "Fell asleep"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Hesitated' means to pause, often through uncertainty or nervousness."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE5-INF-1",
+        "subSkill": "inference",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "What can you infer about how long the lighthouse door has been locked, and how do you know?",
+        "acceptedAnswers": [
+          "it has been locked for five years, because maya has spent five years wondering about it",
+          "about five years, since the passage says she spent five years wondering what he was guarding"
+        ],
+        "explanation": "The passage says Maya 'had spent five years wondering' about her grandfather's secret, implying the door has been locked that long."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE5-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Summarise in one sentence what happens in this extract.",
+        "acceptedAnswers": [
+          "maya finally unlocks the lighthouse her grandfather kept and discovers his logbook from the night he disappeared",
+          "maya enters the locked lighthouse and finds her grandfather's logbook with an entry from the night he vanished"
+        ],
+        "explanation": "The extract follows Maya unlocking the long-shut lighthouse and discovering a logbook entry from the night her grandfather disappeared."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE5-AUT-1",
+        "subSkill": "author-intent",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does the author mention that dust 'swirled' in the light as Maya entered?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To show the room has been undisturbed for a long time"
+          },
+          {
+            "id": "b",
+            "text": "To show the lighthouse is about to collapse"
+          },
+          {
+            "id": "c",
+            "text": "To explain why Maya sneezes"
+          },
+          {
+            "id": "d",
+            "text": "To show the room was recently cleaned"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Swirling dust in the light suggests the room hasn't been touched or entered in a long while, reinforcing the sense of a long-kept secret."
       }
     ]
   },
@@ -444,6 +582,161 @@
           "restrict fishing and anchoring in sensitive areas"
         ],
         "explanation": "The text states marine parks 'restrict fishing and anchoring in sensitive areas'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What percentage of the ocean floor do coral reefs cover, according to the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Less than one per cent"
+          },
+          {
+            "id": "b",
+            "text": "About a quarter"
+          },
+          {
+            "id": "c",
+            "text": "About half"
+          },
+          {
+            "id": "d",
+            "text": "Almost all of it"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage states coral reefs 'cover less than one per cent of the ocean floor'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE5-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What is a coral reef actually built by, according to the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thousands of tiny animals called polyps"
+          },
+          {
+            "id": "b",
+            "text": "Volcanic rock"
+          },
+          {
+            "id": "c",
+            "text": "Coral gardeners"
+          },
+          {
+            "id": "d",
+            "text": "Ocean currents"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains a reef is 'a living structure built by thousands of tiny animals called polyps'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE5-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'fragile' mean, as in 'these fragile underwater cities'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Easily damaged"
+          },
+          {
+            "id": "b",
+            "text": "Extremely large"
+          },
+          {
+            "id": "c",
+            "text": "Brightly coloured"
+          },
+          {
+            "id": "d",
+            "text": "Very old"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Fragile' means easily broken or damaged, fitting the reef's vulnerability to threats."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE5-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What can you infer about coral bleaching from the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It is a warning sign that a reef is under serious stress"
+          },
+          {
+            "id": "b",
+            "text": "It is a natural, harmless colour change"
+          },
+          {
+            "id": "c",
+            "text": "It only happens to fake coral"
+          },
+          {
+            "id": "d",
+            "text": "It helps coral grow faster"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains bleaching happens when coral is 'stressed' and can lead to the coral dying, marking it as a warning sign."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "silver",
+        "promptText": "Name two things mentioned in the passage that can damage reef ecosystems.",
+        "acceptedAnswers": [
+          "pollution and overfishing",
+          "pollution, overfishing",
+          "overfishing and careless snorkelling or diving",
+          "pollution and careless diving"
+        ],
+        "explanation": "The passage lists 'pollution, overfishing and careless snorkelling or diving' as threats to reefs."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE5-AUT-1",
+        "subSkill": "author-intent",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does the author end the passage by mentioning what 'every visitor' and 'every diver' can do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To encourage the reader to take personal action to help protect reefs"
+          },
+          {
+            "id": "b",
+            "text": "To blame tourists for all reef damage"
+          },
+          {
+            "id": "c",
+            "text": "To discourage people from ever visiting reefs"
+          },
+          {
+            "id": "d",
+            "text": "To advertise a diving company"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Ending on what individual readers can do is a persuasive technique encouraging personal responsibility and hope."
       }
     ]
   },
@@ -618,6 +911,103 @@
           "it starts strong and unstoppable, then becomes calm and gentle by dusk"
         ],
         "explanation": "The poem contrasts the forceful, unceasing wind of the day ('does not pause for anyone') with the gentle, settled wind at dusk ('soft and low')."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE5-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What does the trade wind do to the palm trees in the first line?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Combs them flat"
+          },
+          {
+            "id": "b",
+            "text": "Uproots them"
+          },
+          {
+            "id": "c",
+            "text": "Sets them on fire"
+          },
+          {
+            "id": "d",
+            "text": "Makes them grow taller"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem's first line says the wind 'combs the palm trees flat'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE5-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'combs' suggest about the way the wind moves through the palm trees?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It moves through them smoothly and repeatedly, like a comb through hair"
+          },
+          {
+            "id": "b",
+            "text": "It cuts through them sharply, like scissors"
+          },
+          {
+            "id": "c",
+            "text": "It stops and starts unpredictably"
+          },
+          {
+            "id": "d",
+            "text": "It is completely silent and still"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Combs' is a metaphor comparing the wind's smooth, repeated movement to a comb passing through hair."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE5-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does the phrase 'since long before the tourists come' suggest about the trade wind?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It has existed for a very long time, independent of human visitors"
+          },
+          {
+            "id": "b",
+            "text": "It only started blowing recently"
+          },
+          {
+            "id": "c",
+            "text": "It was created by tourists"
+          },
+          {
+            "id": "d",
+            "text": "It stops when tourists arrive"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The line suggests the wind's path is ancient and unaffected by more recent human activity like tourism."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE5-AUT-1",
+        "subSkill": "author-intent",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Why might the poet describe the wind settling 'at dusk' as being like 'a breath held gently over sand'?",
+        "acceptedAnswers": [
+          "to create a calm, gentle, peaceful mood at the end of the poem",
+          "to show the wind becoming soft and quiet, giving a peaceful feeling"
+        ],
+        "explanation": "The simile compares the wind to a held breath, creating a calm, gentle mood as the poem closes."
       }
     ]
   },
@@ -865,6 +1255,131 @@
         ],
         "correctOptionId": "a",
         "explanation": "The passage describes the shack as 'shelter' and 'all that mattered', strongly implying they will take refuge there from the storm."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What happened to the engine at the start of the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It spluttered twice, coughed once, and died"
+          },
+          {
+            "id": "b",
+            "text": "It caught fire"
+          },
+          {
+            "id": "c",
+            "text": "It exploded"
+          },
+          {
+            "id": "d",
+            "text": "It ran perfectly the whole time"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage opens: 'The engine spluttered twice, coughed once, and died'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE5-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What tool did Kai reach for after the engine failed?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The oars"
+          },
+          {
+            "id": "b",
+            "text": "A radio"
+          },
+          {
+            "id": "c",
+            "text": "A fishing net"
+          },
+          {
+            "id": "d",
+            "text": "A torch"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Kai reached for the oars stowed beneath his seat'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE5-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'half-hearted' mean, as in 'the engine gave a half-hearted groan'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Weak and lacking real effort or energy"
+          },
+          {
+            "id": "b",
+            "text": "Extremely loud and powerful"
+          },
+          {
+            "id": "c",
+            "text": "Completely silent"
+          },
+          {
+            "id": "d",
+            "text": "Fast and sudden"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Half-hearted' describes something done with little energy or commitment, matching the weak, failing engine."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE5-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does Priya say nothing about her worry over the current and wind?",
+        "options": [
+          {
+            "id": "a",
+            "text": "She doesn't want to frighten Kai further"
+          },
+          {
+            "id": "b",
+            "text": "She hasn't noticed the danger"
+          },
+          {
+            "id": "c",
+            "text": "She is too tired to speak"
+          },
+          {
+            "id": "d",
+            "text": "She doesn't trust Kai"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage states she said nothing, 'not wanting to frighten him further'."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE5-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Summarise in one sentence what happens in this extract.",
+        "acceptedAnswers": [
+          "after their boat's engine fails in a storm, priya and kai row towards a fishing shack for shelter",
+          "priya and kai's boat engine fails during a storm, so they row to safety at an old fishing shack"
+        ],
+        "explanation": "The extract covers the engine failing, the pair rowing through the storm, and reaching the shelter of a fishing shack."
       }
     ]
   },
@@ -1069,6 +1584,132 @@
           "at launch they were active explorers of the outer planets; now they are quietly running out of power far outside the solar system"
         ],
         "explanation": "The passage contrasts their active exploration of the outer planets with their current, quiet drift through interstellar space."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "In what year did Voyager 1 and Voyager 2 launch?",
+        "options": [
+          {
+            "id": "a",
+            "text": "1977"
+          },
+          {
+            "id": "b",
+            "text": "1969"
+          },
+          {
+            "id": "c",
+            "text": "1985"
+          },
+          {
+            "id": "d",
+            "text": "2001"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage states 'In 1977, two small spacecraft called Voyager 1 and Voyager 2 launched'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE5-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does each Voyager spacecraft carry, according to the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A Golden Record"
+          },
+          {
+            "id": "b",
+            "text": "A crew of astronauts"
+          },
+          {
+            "id": "c",
+            "text": "A telescope"
+          },
+          {
+            "id": "d",
+            "text": "A robotic arm"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Each spacecraft carries a Golden Record'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE5-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'transforming' mean, as in the photographs 'transforming what scientists understood'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Completely changing"
+          },
+          {
+            "id": "b",
+            "text": "Slightly confusing"
+          },
+          {
+            "id": "c",
+            "text": "Destroying"
+          },
+          {
+            "id": "d",
+            "text": "Repeating"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Transforming' means changing something significantly, here referring to scientific understanding."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE5-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why are engineers switching off the Voyagers' scientific instruments one by one?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To conserve their remaining power for as long as possible"
+          },
+          {
+            "id": "b",
+            "text": "Because the instruments are broken"
+          },
+          {
+            "id": "c",
+            "text": "Because NASA has lost interest in the mission"
+          },
+          {
+            "id": "d",
+            "text": "To make room for new instruments"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says this is done 'to conserve the last of their energy'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "silver",
+        "promptText": "According to the passage, how long does a radio message currently take to reach Voyager 1?",
+        "acceptedAnswers": [
+          "over 22 hours",
+          "22 hours",
+          "more than 22 hours"
+        ],
+        "explanation": "The passage states a radio message 'takes over 22 hours to reach it'."
       }
     ]
   },
@@ -1272,6 +1913,118 @@
           "at first it is empty and natural; later it becomes developed with roads and shops"
         ],
         "explanation": "The poem moves from an empty, natural landscape to a developed, busier one."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "According to the poem, what do the old men say when they stop and stare at the tree now?",
+        "options": [
+          {
+            "id": "a",
+            "text": "'That fig tree still stands there.'"
+          },
+          {
+            "id": "b",
+            "text": "'That tree should be cut down.'"
+          },
+          {
+            "id": "c",
+            "text": "'I remember planting that tree.'"
+          },
+          {
+            "id": "d",
+            "text": "'That tree is dying.'"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem says the old men 'say, \"That fig tree still stands there.\"'"
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE5-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What did the fishermen's children do in the tree, according to the poem?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Climbed its arms and sheltered from storms"
+          },
+          {
+            "id": "b",
+            "text": "Cut down its branches"
+          },
+          {
+            "id": "c",
+            "text": "Planted new trees beside it"
+          },
+          {
+            "id": "d",
+            "text": "Painted pictures of it"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem says 'I watched their children climb my arms, and shelter safe from island storms'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE5-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does the tree mean by saying its 'roots sunk deep in golden sand'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It was firmly and deeply rooted in a sandy place"
+          },
+          {
+            "id": "b",
+            "text": "It was floating on water"
+          },
+          {
+            "id": "c",
+            "text": "It had no roots at all"
+          },
+          {
+            "id": "d",
+            "text": "It was planted in a pot"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "This describes the tree being deeply and firmly established in sandy ground."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE5-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does the tree's attitude towards change seem to be, based on the final stanza?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Accepting and peaceful, finding comfort in what stays the same"
+          },
+          {
+            "id": "b",
+            "text": "Angry and resentful about the new buildings"
+          },
+          {
+            "id": "c",
+            "text": "Completely indifferent to everything"
+          },
+          {
+            "id": "d",
+            "text": "Frightened of the cars and engineers"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The tree says 'I do not mind the change of years', finding comfort that children still hear 'the same wind'."
       }
     ]
   },
@@ -1475,6 +2228,131 @@
           "piracy declined from being common and dangerous to mostly ended, because of stronger naval forces and pardons offered to pirates"
         ],
         "explanation": "The passage contrasts the dangerous height of piracy with its decline as navies grew stronger and pardons were offered."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "Over which period was the Caribbean Sea especially dangerous due to piracy, according to the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The 1650s to the 1730s"
+          },
+          {
+            "id": "b",
+            "text": "The 1800s to the 1900s"
+          },
+          {
+            "id": "c",
+            "text": "The 1400s to the 1500s"
+          },
+          {
+            "id": "d",
+            "text": "The 1900s to the 1950s"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage states this was true 'from the 1650s to the 1730s'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE5-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "According to the passage, what were pirate crews often more interested in than gold?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Practical goods like cloth, tools and food"
+          },
+          {
+            "id": "b",
+            "text": "Buried treasure"
+          },
+          {
+            "id": "c",
+            "text": "Jewellery"
+          },
+          {
+            "id": "d",
+            "text": "Land to settle on"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says pirates were 'more interested in practical goods: cloth, tools, medicine and, above all, food and fresh water'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE5-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'contrary to popular legend' mean at the start of the second paragraph?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The opposite of what people commonly believe"
+          },
+          {
+            "id": "b",
+            "text": "Exactly what people commonly believe"
+          },
+          {
+            "id": "c",
+            "text": "A well-known fact"
+          },
+          {
+            "id": "d",
+            "text": "A brand new discovery"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Contrary to' means opposite or against, signalling the text is about to correct a common myth."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE5-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does the passage imply about how pirate crews were governed, compared to official navies?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Pirate crews were, in some ways, more democratic than official navies"
+          },
+          {
+            "id": "b",
+            "text": "Pirate crews had no rules at all"
+          },
+          {
+            "id": "c",
+            "text": "Pirate crews were governed identically to navies"
+          },
+          {
+            "id": "d",
+            "text": "Pirate crews were controlled entirely by governments"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says life was 'in some surprising ways, fairer' and that crews 'elected their own captain', implying more democratic governance."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "silver",
+        "promptText": "According to the passage, why did piracy in the Caribbean decline by the 1730s?",
+        "acceptedAnswers": [
+          "naval forces grew stronger and more organised, and governments offered pardons to pirates",
+          "stronger navies and pardons offered to pirates who gave up their lawless life"
+        ],
+        "explanation": "The passage says 'Naval forces grew stronger... while several governments offered pardons to pirates willing to give up their lawless life'."
       }
     ]
   },
@@ -1721,6 +2599,146 @@
         ],
         "correctOptionId": "b",
         "explanation": "The passage shows Priya piecing together an important clue that changes the stakes of the mystery, so she would logically share it with an adult investigating the theft."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "Whose portrait had hung in the school hall?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Elizabeth Hartley, the school's founder"
+          },
+          {
+            "id": "b",
+            "text": "Mr Okafor, the headteacher"
+          },
+          {
+            "id": "c",
+            "text": "A famous artist"
+          },
+          {
+            "id": "d",
+            "text": "The caretaker"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage describes 'a faded portrait of the school's founder, Elizabeth Hartley'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE5-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What did Priya notice along the skirting board?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A thin scratch, as though something had been dragged"
+          },
+          {
+            "id": "b",
+            "text": "Muddy footprints"
+          },
+          {
+            "id": "c",
+            "text": "A dropped key"
+          },
+          {
+            "id": "d",
+            "text": "Broken glass"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'A thin scratch ran along the skirting board... as though something heavy had been dragged'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE5-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'askew' mean, as in one ceiling tile 'sat very slightly askew'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Not straight or level"
+          },
+          {
+            "id": "b",
+            "text": "Missing completely"
+          },
+          {
+            "id": "c",
+            "text": "Freshly painted"
+          },
+          {
+            "id": "d",
+            "text": "Extremely heavy"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Askew' means tilted or not in its correct straight position."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE5-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "How does Priya work out that the thief likely didn't use the fire exit?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The fire exit alarm didn't go off, so it wasn't used"
+          },
+          {
+            "id": "b",
+            "text": "The fire exit was welded shut"
+          },
+          {
+            "id": "c",
+            "text": "There were no scratches near the fire exit"
+          },
+          {
+            "id": "d",
+            "text": "The caretaker was guarding the fire exit"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Kofi points out 'the alarm didn't go off', so if someone used that door 'we'd have heard it'."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE5-AUT-1",
+        "subSkill": "author-intent",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does the author reveal the National Gallery label at the very end of the extract?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To create a twist that raises the stakes of the mystery"
+          },
+          {
+            "id": "b",
+            "text": "To explain how the painting was cleaned"
+          },
+          {
+            "id": "c",
+            "text": "To resolve the mystery completely"
+          },
+          {
+            "id": "d",
+            "text": "To introduce a new character"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Ending the extract on this discovery is a cliffhanger technique that raises the stakes and hooks the reader."
       }
     ]
   },
@@ -1925,6 +2943,131 @@
           "supporters say it builds good habits, while the author argues it has limited benefit for young children and disadvantages some families"
         ],
         "explanation": "The passage weighs the 'good habits' argument for homework against limited benefit and unfairness against it."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What does the writer suggest replacing homework with for younger students?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A strong recommendation to read for pleasure"
+          },
+          {
+            "id": "b",
+            "text": "More exams"
+          },
+          {
+            "id": "c",
+            "text": "Extra sports lessons"
+          },
+          {
+            "id": "d",
+            "text": "Nothing at all"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage concludes by suggesting homework be 'replaced instead with a strong recommendation to read for pleasure'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE5-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "According to the passage, how do young children generally learn best?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Through play, conversation and hands-on activities"
+          },
+          {
+            "id": "b",
+            "text": "Through repeating worksheets"
+          },
+          {
+            "id": "c",
+            "text": "Through memorising facts alone"
+          },
+          {
+            "id": "d",
+            "text": "Through formal exams"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage states young children 'generally learn best through play, conversation and hands-on activities'."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE5-AUT-1",
+        "subSkill": "author-intent",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does the author include the opposing view about homework building 'good habits'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To acknowledge a counter-argument before responding to it, which strengthens their own argument"
+          },
+          {
+            "id": "b",
+            "text": "Because they have changed their mind about homework"
+          },
+          {
+            "id": "c",
+            "text": "To confuse the reader"
+          },
+          {
+            "id": "d",
+            "text": "Because the essay needed to be longer"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Addressing an opposing viewpoint and responding to it ('There is some truth to this... However...') is a persuasive technique that strengthens the argument."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE5-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does the passage suggest about fairness and homework?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Children without a quiet space or support at home are unfairly disadvantaged"
+          },
+          {
+            "id": "b",
+            "text": "Homework is completely fair to every child"
+          },
+          {
+            "id": "c",
+            "text": "Only wealthy children are given homework"
+          },
+          {
+            "id": "d",
+            "text": "Homework fairness depends only on the school"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains children without 'a calm, well-resourced home' are 'placed at an unfair disadvantage... through no fault of their own'."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE5-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Summarise the writer's main argument in one sentence.",
+        "acceptedAnswers": [
+          "homework should be reduced or removed for younger students because it offers limited benefit and is unfair to some families",
+          "primary school homework does more harm than good and should be replaced with reading for pleasure"
+        ],
+        "explanation": "The writer argues homework offers limited benefit to young children and is unfair, so it should be reduced or removed."
       }
     ]
   },
@@ -2128,6 +3271,131 @@
           "originally many scientists rejected her idea, but now it is recognised as an important scientific discovery"
         ],
         "explanation": "The passage contrasts the early dismissal of her theory with its modern-day recognition as key evidence for plate tectonics."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What was Marie Tharp's job while male colleagues collected data at sea?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Studying sonar readings at a desk"
+          },
+          {
+            "id": "b",
+            "text": "Captaining the research ship"
+          },
+          {
+            "id": "c",
+            "text": "Teaching geography"
+          },
+          {
+            "id": "d",
+            "text": "Repairing sonar equipment"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says Tharp 'worked at a desk, carefully studying the sonar readings her male colleagues collected at sea'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE5-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What did Tharp notice running down the centre of the Mid-Atlantic Ridge?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A long, deep valley"
+          },
+          {
+            "id": "b",
+            "text": "A chain of volcanoes"
+          },
+          {
+            "id": "c",
+            "text": "A coral reef"
+          },
+          {
+            "id": "d",
+            "text": "A shipping lane"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage describes 'a long, deep valley running down the centre' of the ridge."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE5-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'radical' mean, as in 'a radical idea at the time'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Very new and different from accepted beliefs"
+          },
+          {
+            "id": "b",
+            "text": "Boring and old-fashioned"
+          },
+          {
+            "id": "c",
+            "text": "Widely accepted by everyone"
+          },
+          {
+            "id": "d",
+            "text": "Simple and obvious"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Radical' describes an idea that is a major, often controversial, departure from accepted thinking."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE5-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does the passage suggest about the way Tharp's theory was first received?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It was dismissed unfairly, partly because she was a woman"
+          },
+          {
+            "id": "b",
+            "text": "It was immediately accepted and celebrated"
+          },
+          {
+            "id": "c",
+            "text": "Nobody ever heard about it"
+          },
+          {
+            "id": "d",
+            "text": "It was proven wrong shortly after"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage notes colleagues dismissed it, 'some even calling it \"girl talk\"', implying unfair bias."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE5-RET-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "silver",
+        "promptText": "According to the passage, what theory does Tharp's rift valley discovery now support?",
+        "acceptedAnswers": [
+          "plate tectonics",
+          "the theory of plate tectonics"
+        ],
+        "explanation": "The passage states her discovery 'is recognised as key evidence supporting plate tectonics'."
       }
     ]
   },
@@ -2370,6 +3638,144 @@
           "he starts off dreading the desk but ends up feeling curious and sympathetic towards callum"
         ],
         "explanation": "The passage explicitly contrasts Ronan's opening 'dread' with his closing feelings of 'curiosity, and perhaps even sympathy', showing his attitude softening over the passage."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "How far into the autumn term did Ronan join Kingsfield Primary?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Three weeks in"
+          },
+          {
+            "id": "b",
+            "text": "On the very first day"
+          },
+          {
+            "id": "c",
+            "text": "At the end of the year"
+          },
+          {
+            "id": "d",
+            "text": "Halfway through the summer term"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says the offer came 'three weeks into the autumn term'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What did Ronan find wedged in the crack of the desk?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A folded scrap of paper with the name 'Callum' written on it"
+          },
+          {
+            "id": "b",
+            "text": "A pencil case"
+          },
+          {
+            "id": "c",
+            "text": "A photograph"
+          },
+          {
+            "id": "d",
+            "text": "A house key"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage describes 'a folded scrap of paper... on which someone had written a single word in careful pencil: Callum'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does 'weighing up' mean, as in Aisha 'weighing up whether the truth was hers to tell'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Carefully considering something before deciding"
+          },
+          {
+            "id": "b",
+            "text": "Physically lifting an object"
+          },
+          {
+            "id": "c",
+            "text": "Ignoring the question completely"
+          },
+          {
+            "id": "d",
+            "text": "Speaking without thinking"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Weighing up' means carefully thinking through a decision, in this case whether to share Callum's story."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why did Callum's family move to Scotland so suddenly?",
+        "options": [
+          {
+            "id": "a",
+            "text": "His dad got a new job there"
+          },
+          {
+            "id": "b",
+            "text": "They were on holiday"
+          },
+          {
+            "id": "c",
+            "text": "The school closed down"
+          },
+          {
+            "id": "d",
+            "text": "Callum was expelled"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Aisha explains 'His dad got a new job up in Scotland, so they had to move really suddenly'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "What does Ronan write on the desk at the end of the extract, and where does he write it?",
+        "acceptedAnswers": [
+          "he writes his own name, ronan, in the smallest corner of the desk lid, beneath callum's name",
+          "his name, ronan, in the corner of the desk lid below callum's name"
+        ],
+        "explanation": "The passage says he wrote 'a single new word beneath the old one: Ronan' in 'the smallest corner of the desk lid'."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE6-AUT-1",
+        "subSkill": "author-intent",
+        "type": "short_answer",
+        "difficulty": "challenge",
+        "promptText": "Why might the author have chosen to end the extract with Ronan writing his name 'alongside' Callum's, rather than replacing it?",
+        "acceptedAnswers": [
+          "to show that ronan feels connected to callum rather than wanting to erase his memory, showing empathy and continuity",
+          "it shows ronan's growing empathy and suggests the desk's story continues rather than being forgotten"
+        ],
+        "explanation": "Choosing to write 'alongside' rather than over Callum's name reflects Ronan's empathy and the idea that the desk's story continues rather than being erased."
       }
     ]
   },
@@ -2586,6 +3992,131 @@
           "he goes from despairing that the blueprint is gone to having renewed hope because of elsie's clue"
         ],
         "explanation": "Mr Voss's 'shoulders sagged' in dismay when the theft is confirmed, contrasting with the hope implied once Elsie identifies a clue and begins forming a plan to recover it."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What was special about the clock described in Mr Voss's blueprint?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It was designed to run for exactly one hundred years without rewinding"
+          },
+          {
+            "id": "b",
+            "text": "It could tell the weather"
+          },
+          {
+            "id": "c",
+            "text": "It was made entirely of gold"
+          },
+          {
+            "id": "d",
+            "text": "It could play music"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage describes 'a clock designed to run for exactly one hundred years without rewinding'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What did Elsie notice in the brass dust on the workbench?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A single clear line, as though something had been slid away"
+          },
+          {
+            "id": "b",
+            "text": "Footprints"
+          },
+          {
+            "id": "c",
+            "text": "A burn mark"
+          },
+          {
+            "id": "d",
+            "text": "Nothing unusual at all"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'A single clear line ran through it, as though something had been slid rather than lifted'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does 'calculating' suggest about the visitor, as Elsie reconsiders his behaviour?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He was deliberately planning something, not simply curious"
+          },
+          {
+            "id": "b",
+            "text": "He was very good at mathematics"
+          },
+          {
+            "id": "c",
+            "text": "He was extremely clumsy"
+          },
+          {
+            "id": "d",
+            "text": "He was completely honest"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Calculating' here means scheming or deliberately planning, suggesting the visitor's interest was not innocent."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "How did the thief know the workshop would be empty overnight?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He had asked Mr Voss when the shop closed and whether he lived above it"
+          },
+          {
+            "id": "b",
+            "text": "He had a key to the workshop"
+          },
+          {
+            "id": "c",
+            "text": "He worked there previously"
+          },
+          {
+            "id": "d",
+            "text": "Elsie told him by accident"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Elsie recalls the visitor 'asked when the shop closed... and whether you lived above it, or went home each evening'."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE6-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Summarise in one or two sentences what happens in this extract.",
+        "acceptedAnswers": [
+          "mr voss's clock blueprint is stolen overnight, and elsie works out that a visitor who had asked suspicious questions the day before must be responsible",
+          "elsie discovers the stolen blueprint was likely taken by a visitor who prepared carefully, and she begins forming a plan to recover it"
+        ],
+        "explanation": "The extract covers the theft of Mr Voss's blueprint and Elsie piecing together clues that point to the suspicious visitor from the day before."
       }
     ]
   },
@@ -2773,6 +4304,131 @@
         ],
         "correctOptionId": "b",
         "explanation": "The hint of warmth in Mrs Fenwick's 'stern' voice suggests a kinder side beneath the surface, implying their relationship is likely to soften over time."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What was waiting outside the station to take Iris to Bramble Farm?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A farm cart drawn by a grey pony"
+          },
+          {
+            "id": "b",
+            "text": "A motor car"
+          },
+          {
+            "id": "c",
+            "text": "A horse-drawn carriage"
+          },
+          {
+            "id": "d",
+            "text": "A bus"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'they reached the farm cart waiting outside the station, drawn by a patient grey pony'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Where did Iris depart from at the start of her journey?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Paddington"
+          },
+          {
+            "id": "b",
+            "text": "Bramble Farm"
+          },
+          {
+            "id": "c",
+            "text": "Kingsfield"
+          },
+          {
+            "id": "d",
+            "text": "Platform One"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'The train had been crowded since Paddington'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does 'resignation' suggest about the adults waiting on the platform?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A tired acceptance of a difficult situation"
+          },
+          {
+            "id": "b",
+            "text": "Great excitement and joy"
+          },
+          {
+            "id": "c",
+            "text": "Complete confusion"
+          },
+          {
+            "id": "d",
+            "text": "Anger and refusal"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Resignation' means accepting something unwelcome without resistance, suggesting the adults were weary but accepting of their duty."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does the label reading 'as though she were a parcel' suggest about how Iris feels?",
+        "options": [
+          {
+            "id": "a",
+            "text": "She feels dehumanised, like an object being transported rather than a person"
+          },
+          {
+            "id": "b",
+            "text": "She feels proud and important"
+          },
+          {
+            "id": "c",
+            "text": "She feels completely safe and cared for"
+          },
+          {
+            "id": "d",
+            "text": "She feels excited about the adventure"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Comparing herself to a parcel suggests Iris feels like an object being processed rather than a person with feelings."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "What does Mrs Fenwick ask Iris about as soon as she takes charge of her?",
+        "acceptedAnswers": [
+          "whether she knows anything about hens",
+          "if she knows anything about hens"
+        ],
+        "explanation": "Mrs Fenwick asks: 'Do you know anything about hens?'"
       }
     ]
   },
@@ -2948,6 +4604,131 @@
           "experiences varied - some evacuees were happy and well cared for, others felt lonely or were treated unkindly"
         ],
         "explanation": "The passage contrasts evacuees 'welcomed warmly into kind, comfortable households' with others who 'faced loneliness, homesickness or... genuine unkindness'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What was the evacuation plan officially known as?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Operation Pied Piper"
+          },
+          {
+            "id": "b",
+            "text": "Operation Safe Haven"
+          },
+          {
+            "id": "c",
+            "text": "The Children's Crusade"
+          },
+          {
+            "id": "d",
+            "text": "The Great Move"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says the plan 'became known as Operation Pied Piper'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Roughly how many people were moved out of major cities over three days?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About one and a half million"
+          },
+          {
+            "id": "b",
+            "text": "About ten thousand"
+          },
+          {
+            "id": "c",
+            "text": "About five million"
+          },
+          {
+            "id": "d",
+            "text": "About one hundred thousand"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage states 'roughly one and a half million people were moved out of major cities'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does 'chaotic' mean, as in the choosing process being described as 'chaotic'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Disorganised and confusing"
+          },
+          {
+            "id": "b",
+            "text": "Calm and well planned"
+          },
+          {
+            "id": "c",
+            "text": "Slow and boring"
+          },
+          {
+            "id": "d",
+            "text": "Secretive and hidden"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Chaotic' means lacking order, matching the criticism of the choosing process."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why did thousands of families bring their children back to cities during the 'Phoney War'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Because the expected bombing raids hadn't happened yet, so it felt safe"
+          },
+          {
+            "id": "b",
+            "text": "Because the war had ended"
+          },
+          {
+            "id": "c",
+            "text": "Because the countryside hosts requested it"
+          },
+          {
+            "id": "d",
+            "text": "Because school had been cancelled everywhere"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says this happened 'once the expected bombing raids failed to arrive immediately'."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE6-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Summarise the passage in one or two sentences.",
+        "acceptedAnswers": [
+          "britain evacuated over a million children from cities at the start of ww2 to protect them from bombing, with very mixed experiences for the children involved",
+          "operation pied piper moved over a million people, mostly children, out of cities in 1939 to keep them safe from bombing raids, and their experiences varied greatly"
+        ],
+        "explanation": "The passage describes Operation Pied Piper, the mass evacuation of children from British cities in 1939, and the varied experiences that followed."
       }
     ]
   },
@@ -3164,6 +4945,144 @@
           "he was considered an ordinary, unremarkable pupil as a child, yet he grew up to transform science"
         ],
         "explanation": "The passage contrasts his schoolmasters' view of him as 'ordinary at best' with the adult Darwin who would 'transform how humanity understood the natural world' — a deliberate before/after contrast."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "How old was Darwin when he was offered the position aboard HMS Beagle?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Twenty-two"
+          },
+          {
+            "id": "b",
+            "text": "Twelve"
+          },
+          {
+            "id": "c",
+            "text": "Thirty-five"
+          },
+          {
+            "id": "d",
+            "text": "Eighteen"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage states this happened 'at the age of twenty-two'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What did Darwin notice was different about finches on different Galápagos islands?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Their beaks"
+          },
+          {
+            "id": "b",
+            "text": "Their colours"
+          },
+          {
+            "id": "c",
+            "text": "Their size"
+          },
+          {
+            "id": "d",
+            "text": "Their songs"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains finches 'had subtly different beaks' suited to different food sources."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does 'painstaking' mean, as in Darwin's 'painstaking comparison of his specimens'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Careful and thorough, taking great effort"
+          },
+          {
+            "id": "b",
+            "text": "Quick and careless"
+          },
+          {
+            "id": "c",
+            "text": "Painful and unpleasant"
+          },
+          {
+            "id": "d",
+            "text": "Random and unplanned"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Painstaking' describes work done with great care and effort."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why did Darwin wait more than twenty years before publishing his theory?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He understood how controversial his conclusions would be"
+          },
+          {
+            "id": "b",
+            "text": "He hadn't finished his voyage yet"
+          },
+          {
+            "id": "c",
+            "text": "He didn't believe his own theory"
+          },
+          {
+            "id": "d",
+            "text": "Publishers refused to print it"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says this was 'partly because he understood how deeply controversial his conclusions would be'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE6-RET-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "What was the title of the book Darwin published in 1859?",
+        "acceptedAnswers": [
+          "on the origin of species",
+          "the origin of species"
+        ],
+        "explanation": "The passage states he published his ideas 'in a book titled On the Origin of Species'."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE6-AUT-1",
+        "subSkill": "author-intent",
+        "type": "short_answer",
+        "difficulty": "challenge",
+        "promptText": "Why does the author end the passage by describing Darwin as someone who 'simply refused to stop asking why'?",
+        "acceptedAnswers": [
+          "to emphasise that curiosity and persistence, not natural genius, were the key to darwin's success, inspiring the reader",
+          "to highlight that patient curiosity rather than brilliance led to his discovery, leaving the reader with an inspiring message"
+        ],
+        "explanation": "This closing line emphasises that patient curiosity, not innate brilliance, drove Darwin's discovery — a deliberately inspiring final message for the reader."
       }
     ]
   },
@@ -3309,6 +5228,103 @@
           "it shifts from a busy, anticipatory mood as the birds prepare to leave to a quieter, more melancholy mood once they have gone"
         ],
         "explanation": "The poem moves from the restless energy of birds gathering ('restless with a knowledge older than instinct') to the quiet sadness of the empty garden in the final stanzas ('an emptied sound')."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE6-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Where do the birds gather first, according to the poem?",
+        "options": [
+          {
+            "id": "a",
+            "text": "On telephone wires"
+          },
+          {
+            "id": "b",
+            "text": "In the garden"
+          },
+          {
+            "id": "c",
+            "text": "On the roof"
+          },
+          {
+            "id": "d",
+            "text": "By the sea"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem opens: 'They gather first on telephone wires'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE6-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What effect does comparing the birds to 'a hundred dark commas' create?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It gives a precise visual image of small, curved, dark shapes against the sky"
+          },
+          {
+            "id": "b",
+            "text": "It suggests the birds are actually punctuation marks"
+          },
+          {
+            "id": "c",
+            "text": "It shows the birds are enormous"
+          },
+          {
+            "id": "d",
+            "text": "It suggests the birds are brightly coloured"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The comma metaphor creates a precise visual image of small, curved silhouettes against the grey sky."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE6-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does 'the way a held breath waits to sing' suggest about the birds' urge to migrate?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It is a powerful, barely-contained instinct building towards release"
+          },
+          {
+            "id": "b",
+            "text": "It is something the birds have no interest in"
+          },
+          {
+            "id": "c",
+            "text": "It is a sound the birds make constantly"
+          },
+          {
+            "id": "d",
+            "text": "It is something that happens instantly with no build-up"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The simile suggests tension and anticipation, like a breath held before it's finally released."
+      },
+      {
+        "strandSlug": "author-intent",
+        "objectiveCode": "RE6-AUT-1",
+        "subSkill": "author-intent",
+        "type": "short_answer",
+        "difficulty": "challenge",
+        "promptText": "Why might the poet focus on small details left behind, like 'the swing that creaks with no one on it'?",
+        "acceptedAnswers": [
+          "to show the sense of emptiness and loss the speaker feels after the birds leave, making the absence feel personal and vivid",
+          "to make the absence of the birds feel real and emotional by connecting it to familiar, everyday details"
+        ],
+        "explanation": "Focusing on small, familiar details makes the sense of absence and loss feel personal and vivid to the reader."
       }
     ]
   }

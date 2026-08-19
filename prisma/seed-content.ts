@@ -15,7 +15,8 @@ import fs from "node:fs";
 import path from "node:path";
 import { loadCurriculumMaps, resolveTopics } from "../src/lib/curriculum/loader";
 import { toStorageFields, toPrismaEnums } from "../src/lib/question-engine/mapper";
-import { generateAllMathsQuestions, generateAllMathsQuestionsY6 } from "../src/lib/content-generators/maths";
+import { generateAllMathsQuestions, generateAllMathsQuestionsY6, generateAllMathsQuestionsExtra, generateAllMathsQuestionsY6Extra, generateAllMathsQuestionsExtra2, generateAllMathsQuestionsY6Extra2 } from "../src/lib/content-generators/maths";
+import { generateAllGrammarQuestions } from "../src/lib/content-generators/grammar";
 import type { DraftQuestion } from "../src/lib/content-generators/types";
 
 const db = new PrismaClient();
@@ -74,8 +75,13 @@ async function syncQuestions(topicIdByKey: Map<string, string>) {
   const drafts: DraftQuestion[] = [
     ...generateAllMathsQuestions(),
     ...generateAllMathsQuestionsY6(),
+    ...generateAllMathsQuestionsExtra(),
+    ...generateAllMathsQuestionsY6Extra(),
+    ...generateAllMathsQuestionsExtra2(),
+    ...generateAllMathsQuestionsY6Extra2(),
     ...readJson<DraftQuestion[]>("questions", "maths-authored.json"),
     ...readJson<DraftQuestion[]>("questions", "grammar.json"),
+    ...generateAllGrammarQuestions(),
     ...readJson<DraftQuestion[]>("questions", "science.json"),
     ...readJson<DraftQuestion[]>("questions", "history.json"),
     ...readJson<DraftQuestion[]>("questions", "geography.json"),

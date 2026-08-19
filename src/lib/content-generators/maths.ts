@@ -1376,6 +1376,64 @@ export function generateAllMathsQuestionsY6(seed = 6250): DraftQuestion[] {
   ];
 }
 
+/** Second independently-seeded Y6 batch — see generateAllMathsQuestionsExtra
+ * for why this is a separate function rather than raised counts above. */
+export function generateAllMathsQuestionsY6Extra(seed = 62500): DraftQuestion[] {
+  const rng = createRng(seed);
+  return [
+    ...generateNumberComparisonY6Questions(rng, 12),
+    ...generateRoundingY6Questions(rng, 12),
+    ...generateNegativeIntervalY6Questions(rng, 10),
+    ...generateMixedMentalY6Questions(rng, 10),
+    ...generateEstimationY6Questions(rng, 10),
+    ...generateLongMultiplicationY6Questions(rng, 14),
+    ...generateFactorsMultiplesY6Questions(rng, 10),
+    ...generateOrderOfOperationsY6Questions(rng, 10),
+    ...generateLongDivisionY6Questions(rng, 14),
+    ...generateDivisionRemainderY6Questions(rng, 8),
+    ...generateFractionCompareY6Questions(rng, 12),
+    ...generateFractionAddSubDifferentDenomY6Questions(rng, 14),
+    ...generateFractionMultiplyY6Questions(rng, 10),
+    ...generateFractionDivideY6Questions(rng, 8),
+    ...generateFractionDecimalEquivY6Questions(rng, 8),
+    ...generateDecimalPlaceValueY6Questions(rng, 10),
+    ...generateDecimalScaleY6Questions(rng, 12),
+    ...generateDecimalMultiplyY6Questions(rng, 10),
+    ...generateDecimalDivisionY6Questions(rng, 8),
+    ...generatePercentageChangeY6Questions(rng, 10),
+    ...generateFDPEquivalenceY6Questions(rng, 10),
+    ...generateLinearSequenceY6Questions(rng, 8),
+    ...generateSimpleFormulaY6Questions(rng, 8),
+    ...generateRatioShareY6Questions(rng, 10),
+    ...generateMeanY6Questions(rng, 8),
+  ];
+}
+
+/** A third independently-seeded Y6 batch — see generateAllMathsQuestionsExtra. */
+export function generateAllMathsQuestionsY6Extra2(seed = 92500): DraftQuestion[] {
+  const rng = createRng(seed);
+  return [
+    ...generateNumberComparisonY6Questions(rng, 10),
+    ...generateRoundingY6Questions(rng, 10),
+    ...generateNegativeIntervalY6Questions(rng, 8),
+    ...generateMixedMentalY6Questions(rng, 8),
+    ...generateEstimationY6Questions(rng, 8),
+    ...generateLongMultiplicationY6Questions(rng, 12),
+    ...generateFactorsMultiplesY6Questions(rng, 8),
+    ...generateOrderOfOperationsY6Questions(rng, 8),
+    ...generateLongDivisionY6Questions(rng, 12),
+    ...generateFractionCompareY6Questions(rng, 10),
+    ...generateFractionAddSubDifferentDenomY6Questions(rng, 12),
+    ...generateFractionMultiplyY6Questions(rng, 8),
+    ...generateDecimalPlaceValueY6Questions(rng, 8),
+    ...generateDecimalScaleY6Questions(rng, 10),
+    ...generateDecimalMultiplyY6Questions(rng, 8),
+    ...generatePercentageChangeY6Questions(rng, 8),
+    ...generateFDPEquivalenceY6Questions(rng, 8),
+    ...generateRatioShareY6Questions(rng, 8),
+  ];
+}
+
 /** Runs every procedural generator for the current year group. Hand-authored
  * content for geometry, measurement, statistics, reasoning and word problems
  * lives in `content/questions/maths-authored.json` (context-heavy strands
@@ -1399,6 +1457,64 @@ export function generateAllMathsQuestions(seed = 5150): DraftQuestion[] {
     ...generateMentalSubtractionQuestions(rng, 8),
     ...generatePrimeQuestions(rng, 8),
     ...generateSquareCubeQuestions(rng, 8),
+    ...generateMixedNumberQuestions(rng, 8),
+    ...generateFractionAddSubQuestions(rng, 10),
+    ...generateDecimalCompareQuestions(rng, 8),
+    ...generateDecimalFractionQuestions(rng, 8),
+    ...generatePercentFractionDecimalQuestions(rng, 8),
+  ];
+}
+
+/** A second, independently-seeded batch on top of generateAllMathsQuestions —
+ * same templates, a different RNG seed so every number drawn is fresh. Kept
+ * as a separate function (rather than just raising the counts above) so the
+ * original batch's output never shifts: bumping an earlier generator's count
+ * would re-thread the shared RNG and silently regenerate every generator
+ * after it with different numbers, orphaning already-seeded rows instead of
+ * cleanly adding to them. */
+export function generateAllMathsQuestionsExtra(seed = 51500): DraftQuestion[] {
+  const rng = createRng(seed);
+  return [
+    ...generateAdditionQuestions(rng, 16),
+    ...generateSubtractionQuestions(rng, 16),
+    ...generateMultiplicationQuestions(rng, 18),
+    ...generateDivisionQuestions(rng, 16),
+    ...generatePlaceValueQuestions(rng, 16),
+    ...generateDecimalQuestions(rng, 16),
+    ...generateFractionQuestions(rng, 18),
+    ...generatePercentageQuestions(rng, 14),
+    ...generateNumberComparisonQuestions(rng, 10),
+    ...generateNegativeNumberQuestions(rng, 10),
+    ...generateRomanNumeralQuestions(rng, 8),
+    ...generateMentalAdditionQuestions(rng, 10),
+    ...generateRoundingEstimateQuestions(rng, 8),
+    ...generateMentalSubtractionQuestions(rng, 10),
+    ...generatePrimeQuestions(rng, 10),
+    ...generateSquareCubeQuestions(rng, 10),
+    ...generateMixedNumberQuestions(rng, 10),
+    ...generateFractionAddSubQuestions(rng, 12),
+    ...generateDecimalCompareQuestions(rng, 10),
+    ...generateDecimalFractionQuestions(rng, 10),
+    ...generatePercentFractionDecimalQuestions(rng, 10),
+  ];
+}
+
+/** A third independently-seeded Y5 batch — see generateAllMathsQuestionsExtra. */
+export function generateAllMathsQuestionsExtra2(seed = 81500): DraftQuestion[] {
+  const rng = createRng(seed);
+  return [
+    ...generateAdditionQuestions(rng, 12),
+    ...generateSubtractionQuestions(rng, 12),
+    ...generateMultiplicationQuestions(rng, 14),
+    ...generateDivisionQuestions(rng, 12),
+    ...generatePlaceValueQuestions(rng, 12),
+    ...generateDecimalQuestions(rng, 12),
+    ...generateFractionQuestions(rng, 14),
+    ...generatePercentageQuestions(rng, 10),
+    ...generateNumberComparisonQuestions(rng, 8),
+    ...generateNegativeNumberQuestions(rng, 8),
+    ...generateMentalAdditionQuestions(rng, 8),
+    ...generateMentalSubtractionQuestions(rng, 8),
     ...generateMixedNumberQuestions(rng, 8),
     ...generateFractionAddSubQuestions(rng, 10),
     ...generateDecimalCompareQuestions(rng, 8),
