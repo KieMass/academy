@@ -157,6 +157,7 @@ model Topic {
 
   questions ContentQuestion[]
   masteries TopicMastery[]
+  contentGapAlerts ContentGapAlert[]
 
   createdAt DateTime @default(now())
 
@@ -226,6 +227,33 @@ model ContentQuestion {
   updatedAt DateTime @updatedAt
 
   @@index([topicId, difficulty])
+  @@index([status])
+}
+
+enum ContentGapStatus {
+  PENDING
+  DISMISSED
+}
+
+/// A "this topic's question pool is being recycled too hard" alert for
+/// admins, raised automatically from /api/attempts (see lib/content-gap.ts)
+/// once a topic's total attempts-per-question ratio crosses a threshold.
+/// At most one PENDING alert exists per topic at a time; dismissing one
+/// doesn't delete it (so there's a record of when it was raised/actioned),
+/// and a fresh alert for the same topic only fires again once usage has
+/// grown meaningfully further past the dismissal point — otherwise the very
+/// next attempt after a dismiss would just recreate it.
+model ContentGapAlert {
+  id            String           @id @default(cuid())
+  topicId       String
+  topic         Topic            @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  status        ContentGapStatus @default(PENDING)
+  questionCount Int // published questions in the pool when this was raised
+  attemptCount  Int // total attempts against that pool when this was raised
+  createdAt     DateTime         @default(now())
+  dismissedAt   DateTime?
+
+  @@index([topicId, createdAt])
   @@index([status])
 }
 
@@ -346,6 +374,7 @@ enum AssignmentStatus {
   IN_PROGRESS
   COMPLETED
   OVERDUE
+  CANCELLED
 }
 
 model Assignment {
