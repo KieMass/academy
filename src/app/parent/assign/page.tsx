@@ -6,6 +6,8 @@ import { CancelAssignmentButton } from "@/components/parent/cancel-assignment-bu
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { formatDistanceToNow } from "date-fns";
+import { Circle, CircleDot } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 const CANCELLABLE_STATUSES = new Set(["ASSIGNED", "IN_PROGRESS", "OVERDUE"]);
 
@@ -36,6 +38,8 @@ export default async function AssignWorkPage() {
     progressByAssignment.set(a.assignmentId, entry);
   }
 
+  const notStartedCount = assignments.filter((a) => CANCELLABLE_STATUSES.has(a.status) && !progressByAssignment.has(a.id)).length;
+
   const curriculum = loadCurriculumMaps().map((m) => ({
     subjectSlug: m.subjectSlug,
     subjectName: m.subjectName,
@@ -61,11 +65,17 @@ export default async function AssignWorkPage() {
         <Card>
           <CardHeader>
             <CardTitle className="text-lg">Recent assignments</CardTitle>
+            {notStartedCount > 0 && (
+              <p className="text-sm text-muted-foreground">
+                {notStartedCount} assignment{notStartedCount === 1 ? "" : "s"} not started yet
+              </p>
+            )}
           </CardHeader>
           <CardContent className="space-y-3">
             {assignments.length === 0 && <p className="text-sm text-muted-foreground">No assignments yet.</p>}
             {assignments.map((a) => {
               const progress = progressByAssignment.get(a.id);
+              const started = !!progress;
               return (
                 <div key={a.id} className="flex items-center justify-between gap-3 rounded-xl border px-4 py-3 text-sm">
                   <div className="min-w-0">
@@ -73,11 +83,14 @@ export default async function AssignWorkPage() {
                     <p className="text-xs text-muted-foreground">
                       For {a.student.displayName} · {formatDistanceToNow(a.createdAt, { addSuffix: true })}
                     </p>
-                    <p className="mt-0.5 text-xs text-muted-foreground">
-                      {progress
-                        ? `${progress.attempted} question${progress.attempted === 1 ? "" : "s"} attempted · ${Math.round((progress.correct / progress.attempted) * 100)}% correct so far`
-                        : "Not started yet"}
-                    </p>
+                    <div className="mt-1 flex items-center gap-1.5">
+                      {started ? <CircleDot className="size-3.5 text-primary" /> : <Circle className="size-3.5 text-muted-foreground" />}
+                      <span className={cn("text-xs font-medium", started ? "text-primary" : "text-muted-foreground")}>
+                        {progress
+                          ? `${progress.attempted} question${progress.attempted === 1 ? "" : "s"} attempted · ${Math.round((progress.correct / progress.attempted) * 100)}% correct so far`
+                          : "Not started yet"}
+                      </span>
+                    </div>
                   </div>
                   <div className="flex shrink-0 items-center gap-2">
                     <Badge variant="outline" className="capitalize">{a.status.toLowerCase().replace("_", " ")}</Badge>
