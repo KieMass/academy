@@ -5327,5 +5327,1636 @@
         "explanation": "Focusing on small, familiar details makes the sense of absence and loss feel personal and vivid to the reader."
       }
     ]
+  },
+  {
+    "title": "The Lost Sock",
+    "type": "fiction",
+    "yearGroup": "Y1",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Milo had one blue sock and one red sock. He looked under his bed. He looked in the toy box. He looked behind the door.\n\n\"Where is my other blue sock?\" said Milo.\n\nMum came to help. She looked in the washing machine. There it was! The blue sock was stuck to a towel.\n\nMilo put on his two blue socks. He smiled and ran outside to play.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE1-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What colour socks did Milo have at the start?",
+        "options": [
+          {
+            "id": "a",
+            "text": "One blue and one red"
+          },
+          {
+            "id": "b",
+            "text": "Two blue"
+          },
+          {
+            "id": "c",
+            "text": "Two red"
+          },
+          {
+            "id": "d",
+            "text": "One green and one blue"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says Milo 'had one blue sock and one red sock'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE1-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "Who helped Milo look for the sock?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mum"
+          },
+          {
+            "id": "b",
+            "text": "Dad"
+          },
+          {
+            "id": "c",
+            "text": "His sister"
+          },
+          {
+            "id": "d",
+            "text": "His teacher"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Mum came to help'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE1-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Where was the missing sock found?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Stuck to a towel in the washing machine"
+          },
+          {
+            "id": "b",
+            "text": "Under the bed"
+          },
+          {
+            "id": "c",
+            "text": "In the toy box"
+          },
+          {
+            "id": "d",
+            "text": "Behind the door"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says the sock 'was stuck to a towel' in the washing machine."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE1-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "How did Milo feel when he found his sock?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Happy"
+          },
+          {
+            "id": "b",
+            "text": "Angry"
+          },
+          {
+            "id": "c",
+            "text": "Scared"
+          },
+          {
+            "id": "d",
+            "text": "Bored"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'He smiled', showing he felt happy."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE1-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What does 'stuck' mean in this story?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Not able to move away easily"
+          },
+          {
+            "id": "b",
+            "text": "Very clean"
+          },
+          {
+            "id": "c",
+            "text": "Very cold"
+          },
+          {
+            "id": "d",
+            "text": "Lost forever"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Stuck' means something is fixed in place and hard to move."
+      }
+    ]
+  },
+  {
+    "title": "My Pet Cat",
+    "type": "non_fiction",
+    "yearGroup": "Y1",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "My cat is called Whiskers. She is black and white. Whiskers likes to sleep in a sunny spot by the window.\n\nEvery morning I give her food and fresh water. Whiskers likes to play with a small ball of wool.\n\nAt night, Whiskers curls up on my bed. She purrs very loudly. I love my cat very much.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE1-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What is the cat's name?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Whiskers"
+          },
+          {
+            "id": "b",
+            "text": "Fluffy"
+          },
+          {
+            "id": "c",
+            "text": "Tom"
+          },
+          {
+            "id": "d",
+            "text": "Ginger"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'My cat is called Whiskers'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE1-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What colour is Whiskers?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Black and white"
+          },
+          {
+            "id": "b",
+            "text": "Orange"
+          },
+          {
+            "id": "c",
+            "text": "Grey"
+          },
+          {
+            "id": "d",
+            "text": "All white"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'She is black and white'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE1-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does Whiskers like to play with?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A small ball of wool"
+          },
+          {
+            "id": "b",
+            "text": "A toy mouse"
+          },
+          {
+            "id": "c",
+            "text": "A ball of string"
+          },
+          {
+            "id": "d",
+            "text": "A feather"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Whiskers likes to play with a small ball of wool'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE1-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'purrs' mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Makes a soft, happy rumbling sound"
+          },
+          {
+            "id": "b",
+            "text": "Runs very fast"
+          },
+          {
+            "id": "c",
+            "text": "Cries loudly"
+          },
+          {
+            "id": "d",
+            "text": "Jumps up high"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "A cat 'purrs' when it makes a soft rumbling sound, usually when happy."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE1-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "How do we know the writer cares about Whiskers?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They feed her and say they love her"
+          },
+          {
+            "id": "b",
+            "text": "They never mention her"
+          },
+          {
+            "id": "c",
+            "text": "They leave her outside all day"
+          },
+          {
+            "id": "d",
+            "text": "They forget to feed her"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The writer feeds Whiskers every morning and says 'I love my cat very much'."
+      }
+    ]
+  },
+  {
+    "title": "The Big Red Ball",
+    "type": "fiction",
+    "yearGroup": "Y1",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Ana had a big red ball. She kicked it into the garden. The ball rolled and rolled.\n\nIt rolled past the flowers. It rolled past the tree. Then it rolled into the pond with a big splash!\n\n\"Oh no!\" said Ana. Dad came to help. He used a long stick to pull the ball out of the water. Ana was happy again.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE1-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What colour was Ana's ball?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Red"
+          },
+          {
+            "id": "b",
+            "text": "Blue"
+          },
+          {
+            "id": "c",
+            "text": "Yellow"
+          },
+          {
+            "id": "d",
+            "text": "Green"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Ana had a big red ball'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE1-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "Where did the ball end up?",
+        "options": [
+          {
+            "id": "a",
+            "text": "In the pond"
+          },
+          {
+            "id": "b",
+            "text": "Under the tree"
+          },
+          {
+            "id": "c",
+            "text": "In the flowers"
+          },
+          {
+            "id": "d",
+            "text": "In the house"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'it rolled into the pond with a big splash!'"
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE1-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What did Dad use to get the ball out?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A long stick"
+          },
+          {
+            "id": "b",
+            "text": "A net"
+          },
+          {
+            "id": "c",
+            "text": "His hands"
+          },
+          {
+            "id": "d",
+            "text": "A bucket"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says Dad 'used a long stick to pull the ball out'."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE1-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What do you think Ana might do next time she plays with the ball near the pond?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Be more careful when kicking it"
+          },
+          {
+            "id": "b",
+            "text": "Kick it into the pond on purpose"
+          },
+          {
+            "id": "c",
+            "text": "Never play outside again"
+          },
+          {
+            "id": "d",
+            "text": "Give the ball away"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Since the ball landing in the pond was a problem, Ana would likely be more careful next time."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE1-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "How did Ana feel when the ball fell in the pond?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Worried"
+          },
+          {
+            "id": "b",
+            "text": "Excited"
+          },
+          {
+            "id": "c",
+            "text": "Sleepy"
+          },
+          {
+            "id": "d",
+            "text": "Proud"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Ana said 'Oh no!' which shows she felt worried."
+      }
+    ]
+  },
+  {
+    "title": "Farm Animals",
+    "type": "non_fiction",
+    "yearGroup": "Y1",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "There are many animals on a farm. Cows give us milk. Hens lay eggs for us to eat. Sheep have wool that keeps them warm.\n\nPigs like to roll in mud to stay cool. Horses can pull carts and carry riders.\n\nFarmers look after all the animals every day. They give them food and water.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE1-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What do cows give us?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Milk"
+          },
+          {
+            "id": "b",
+            "text": "Eggs"
+          },
+          {
+            "id": "c",
+            "text": "Wool"
+          },
+          {
+            "id": "d",
+            "text": "Honey"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Cows give us milk'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE1-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What do hens lay?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Eggs"
+          },
+          {
+            "id": "b",
+            "text": "Milk"
+          },
+          {
+            "id": "c",
+            "text": "Wool"
+          },
+          {
+            "id": "d",
+            "text": "Seeds"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Hens lay eggs for us to eat'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE1-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Why do pigs roll in mud?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To stay cool"
+          },
+          {
+            "id": "b",
+            "text": "To get clean"
+          },
+          {
+            "id": "c",
+            "text": "To find food"
+          },
+          {
+            "id": "d",
+            "text": "To play games"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Pigs like to roll in mud to stay cool'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE1-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'wool' keep sheep?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Warm"
+          },
+          {
+            "id": "b",
+            "text": "Cool"
+          },
+          {
+            "id": "c",
+            "text": "Clean"
+          },
+          {
+            "id": "d",
+            "text": "Quiet"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says sheep 'have wool that keeps them warm'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE1-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Which animal can carry riders?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Horses"
+          },
+          {
+            "id": "b",
+            "text": "Cows"
+          },
+          {
+            "id": "c",
+            "text": "Hens"
+          },
+          {
+            "id": "d",
+            "text": "Pigs"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Horses can pull carts and carry riders'."
+      }
+    ]
+  },
+  {
+    "title": "A Rainy Day",
+    "type": "poetry",
+    "yearGroup": "Y1",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Pitter, patter, on the ground,\nRaindrops falling all around.\nI put my boots and raincoat on,\nAnd jump in puddles, one by one.\n\nSplish and splash, my boots go through,\nThe sky above is grey, not blue.\nBut I don't mind the rain today,\nSplashing puddles is fun to play!",
+    "questions": [
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE1-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What does the child put on before going outside?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Boots and a raincoat"
+          },
+          {
+            "id": "b",
+            "text": "A sun hat"
+          },
+          {
+            "id": "c",
+            "text": "Sandals"
+          },
+          {
+            "id": "d",
+            "text": "A swimsuit"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem says 'I put my boots and raincoat on'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE1-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What sound do the words 'pitter, patter' copy?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The sound of rain falling"
+          },
+          {
+            "id": "b",
+            "text": "The sound of a dog barking"
+          },
+          {
+            "id": "c",
+            "text": "The sound of thunder"
+          },
+          {
+            "id": "d",
+            "text": "The sound of wind"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Pitter, patter' is an example of onomatopoeia copying the sound of light rain."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE1-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "How does the child feel about the rain?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They enjoy it"
+          },
+          {
+            "id": "b",
+            "text": "They are scared of it"
+          },
+          {
+            "id": "c",
+            "text": "They are angry about it"
+          },
+          {
+            "id": "d",
+            "text": "They don't notice it"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem says 'I don't mind the rain today' and that splashing puddles 'is fun to play'."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE1-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What colour is the sky in the poem?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Grey"
+          },
+          {
+            "id": "b",
+            "text": "Blue"
+          },
+          {
+            "id": "c",
+            "text": "Pink"
+          },
+          {
+            "id": "d",
+            "text": "Black"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem says 'The sky above is grey, not blue'."
+      }
+    ]
+  },
+  {
+    "title": "The Little Seed",
+    "type": "fiction",
+    "yearGroup": "Y1",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "A little seed lay in the soil. It was dark and quiet. Rain fell and made the soil wet. The sun came out and warmed the ground.\n\nSlowly, the seed began to grow. A tiny green shoot popped up from the soil. Every day it grew a little taller.\n\nSoon, it was a tall sunflower with a big yellow face, smiling up at the sun.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE1-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What did the seed grow into?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A sunflower"
+          },
+          {
+            "id": "b",
+            "text": "A tree"
+          },
+          {
+            "id": "c",
+            "text": "A rose"
+          },
+          {
+            "id": "d",
+            "text": "A vegetable"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says it became 'a tall sunflower with a big yellow face'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE1-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What two things helped the seed grow?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Rain and sun"
+          },
+          {
+            "id": "b",
+            "text": "Snow and wind"
+          },
+          {
+            "id": "c",
+            "text": "Ice and dark"
+          },
+          {
+            "id": "d",
+            "text": "Fire and sand"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says rain made the soil wet and the sun warmed the ground."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE1-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What is a 'shoot' in this story?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A new, small growing plant"
+          },
+          {
+            "id": "b",
+            "text": "A loud bang"
+          },
+          {
+            "id": "c",
+            "text": "A type of animal"
+          },
+          {
+            "id": "d",
+            "text": "A kind of flower pot"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "A 'shoot' is the small new growth of a plant as it starts to grow."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE1-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What do you think will happen to the sunflower as the seasons change?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It may eventually drop its own seeds"
+          },
+          {
+            "id": "b",
+            "text": "It will turn back into a seed"
+          },
+          {
+            "id": "c",
+            "text": "It will become a different plant"
+          },
+          {
+            "id": "d",
+            "text": "It will disappear completely"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Flowers like sunflowers typically produce and drop seeds as part of their natural life cycle."
+      }
+    ]
+  },
+  {
+    "title": "The Missing Biscuit",
+    "type": "fiction",
+    "yearGroup": "Y2",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Grandma had baked a fresh batch of chocolate biscuits and left them cooling on a plate by the window. When she came back, one biscuit was missing!\n\n\"Who took my biscuit?\" she asked, looking around the kitchen.\n\nHer dog, Buster, was sitting very still under the table, looking at his paws. There were crumbs scattered near his nose.\n\nGrandma laughed. \"Buster, I think I know exactly who the culprit is!\" Buster wagged his tail and looked rather guilty. Grandma decided not to be cross — she gave the rest of the biscuits to the children instead, and kept a closer eye on the plate next time.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE2-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What had Grandma baked?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chocolate biscuits"
+          },
+          {
+            "id": "b",
+            "text": "A cake"
+          },
+          {
+            "id": "c",
+            "text": "Bread rolls"
+          },
+          {
+            "id": "d",
+            "text": "Cookies with icing"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Grandma had baked a fresh batch of chocolate biscuits'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE2-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Where was Buster sitting?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Under the table"
+          },
+          {
+            "id": "b",
+            "text": "By the window"
+          },
+          {
+            "id": "c",
+            "text": "Outside the door"
+          },
+          {
+            "id": "d",
+            "text": "On the plate"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says Buster 'was sitting very still under the table'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE2-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "How does Grandma know Buster took the biscuit?",
+        "options": [
+          {
+            "id": "a",
+            "text": "There were crumbs near his nose and he looked guilty"
+          },
+          {
+            "id": "b",
+            "text": "Buster admitted it"
+          },
+          {
+            "id": "c",
+            "text": "She saw him eat it"
+          },
+          {
+            "id": "d",
+            "text": "The children told her"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The clues — crumbs near his nose and his guilty look — let Grandma work out what happened, even though she didn't see it directly."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE2-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'culprit' mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The person or animal responsible for something wrong"
+          },
+          {
+            "id": "b",
+            "text": "A type of biscuit"
+          },
+          {
+            "id": "c",
+            "text": "A kind of pet"
+          },
+          {
+            "id": "d",
+            "text": "Someone who bakes"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "A 'culprit' is the one responsible for doing something, often something wrong."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE2-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Put these events in order: (A) Grandma notices a biscuit is missing, (B) Grandma bakes biscuits, (C) Grandma sees the crumbs near Buster. Write the correct order using the letters.",
+        "acceptedAnswers": [
+          "b, a, c",
+          "b a c",
+          "bac"
+        ],
+        "explanation": "First Grandma bakes the biscuits (B), then notices one is missing (A), then spots the clue near Buster (C)."
+      }
+    ]
+  },
+  {
+    "title": "All About Bees",
+    "type": "non_fiction",
+    "yearGroup": "Y2",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Bees are small insects that live together in large groups called colonies. A colony can have thousands of bees, all working together.\n\nBees visit flowers to collect a sweet liquid called nectar. They use the nectar to make honey, which they store inside their hive to eat later.\n\nAs bees fly from flower to flower, a yellow dust called pollen sticks to their legs. This pollen helps plants make new seeds and fruit — without bees, many plants would struggle to grow.\n\nSadly, bee numbers are falling in many places. Planting flowers that bees like, such as lavender, can help protect these important little insects.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE2-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What is a group of bees called?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A colony"
+          },
+          {
+            "id": "b",
+            "text": "A flock"
+          },
+          {
+            "id": "c",
+            "text": "A herd"
+          },
+          {
+            "id": "d",
+            "text": "A pack"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says bees 'live together in large groups called colonies'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE2-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What do bees collect from flowers?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nectar"
+          },
+          {
+            "id": "b",
+            "text": "Water"
+          },
+          {
+            "id": "c",
+            "text": "Leaves"
+          },
+          {
+            "id": "d",
+            "text": "Seeds"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Bees visit flowers to collect a sweet liquid called nectar'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE2-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does 'pollen' do, according to the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Helps plants make new seeds and fruit"
+          },
+          {
+            "id": "b",
+            "text": "Makes bees sick"
+          },
+          {
+            "id": "c",
+            "text": "Is eaten by bees instead of honey"
+          },
+          {
+            "id": "d",
+            "text": "Stops flowers from growing"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says pollen 'helps plants make new seeds and fruit'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE2-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does the passage suggest planting flowers like lavender?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To help protect bees, whose numbers are falling"
+          },
+          {
+            "id": "b",
+            "text": "Because lavender is bees' least favourite flower"
+          },
+          {
+            "id": "c",
+            "text": "Because bees are becoming too common"
+          },
+          {
+            "id": "d",
+            "text": "To stop bees from making honey"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage links falling bee numbers to the suggestion of planting flowers bees like, to help protect them."
+      },
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE2-RET-1",
+        "subSkill": "retrieval",
+        "type": "short_answer",
+        "difficulty": "silver",
+        "promptText": "Where do bees store the honey they make?",
+        "acceptedAnswers": [
+          "inside their hive",
+          "the hive",
+          "in the hive"
+        ],
+        "explanation": "The passage says bees store honey 'inside their hive to eat later'."
+      }
+    ]
+  },
+  {
+    "title": "The New Kid at School",
+    "type": "fiction",
+    "yearGroup": "Y2",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "It was Leo's first day at his new school, and his tummy felt full of butterflies. He didn't know anyone, and everyone else seemed to already have their friends.\n\nAt lunchtime, Leo sat alone at the end of a long table, quietly eating his sandwich and wishing he was back at his old school.\n\n\"Can I sit here?\" asked a girl with a bright yellow backpack. \"I'm Priya. I just moved here too, last term.\"\n\nLeo smiled properly for the first time that day. \"I'm Leo,\" he said. \"I just started today.\"\n\nBy the end of lunch, Leo and Priya had discovered they both loved dinosaurs and drawing. Suddenly, his new school didn't feel quite so scary after all.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE2-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What was special about this day for Leo?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It was his first day at a new school"
+          },
+          {
+            "id": "b",
+            "text": "It was his birthday"
+          },
+          {
+            "id": "c",
+            "text": "It was the last day of school"
+          },
+          {
+            "id": "d",
+            "text": "It was a school trip"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'It was Leo's first day at his new school'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE2-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'his tummy felt full of butterflies' mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He felt nervous"
+          },
+          {
+            "id": "b",
+            "text": "He felt hungry"
+          },
+          {
+            "id": "c",
+            "text": "He felt sick from eating"
+          },
+          {
+            "id": "d",
+            "text": "He felt sleepy"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Butterflies in your tummy' is an expression meaning you feel nervous or anxious."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE2-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What did Leo and Priya discover they both loved?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Dinosaurs and drawing"
+          },
+          {
+            "id": "b",
+            "text": "Football and swimming"
+          },
+          {
+            "id": "c",
+            "text": "Reading and maths"
+          },
+          {
+            "id": "d",
+            "text": "Music and singing"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'they both loved dinosaurs and drawing'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE2-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "How does Leo's feeling about school change by the end of the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He goes from feeling nervous and lonely to feeling happier"
+          },
+          {
+            "id": "b",
+            "text": "He goes from happy to sad"
+          },
+          {
+            "id": "c",
+            "text": "He feels the same the whole time"
+          },
+          {
+            "id": "d",
+            "text": "He decides he wants to go home"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Leo starts with 'butterflies' and sitting alone, but by the end 'his new school didn't feel quite so scary' after meeting Priya."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE2-PRE-1",
+        "subSkill": "prediction",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "What do you think Leo and Priya might do together tomorrow? Give a reason for your answer.",
+        "acceptedAnswers": [
+          "sit together again and draw dinosaurs, because they became friends and share the same interests",
+          "play or draw together because they both like dinosaurs and drawing"
+        ],
+        "explanation": "Since Leo and Priya became friends and share interests in dinosaurs and drawing, they would likely continue spending time together."
+      }
+    ]
+  },
+  {
+    "title": "Why Do Leaves Fall?",
+    "type": "non_fiction",
+    "yearGroup": "Y2",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Every autumn, the leaves on many trees change colour and fall to the ground. But why does this happen?\n\nDuring spring and summer, leaves are green because they are full of a substance called chlorophyll, which helps trees turn sunlight into food. As autumn arrives and days grow shorter and colder, trees stop making chlorophyll.\n\nWithout chlorophyll, the green colour fades, revealing yellow and orange colours that were hidden underneath all along. Some leaves also turn red as sugars become trapped inside them.\n\nEventually, a special layer grows between the leaf and the branch, and the leaf falls off. This helps the tree save energy and water during the cold winter months, when there isn't much sunlight for making food anyway.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE2-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What season do leaves usually change colour and fall?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Autumn"
+          },
+          {
+            "id": "b",
+            "text": "Spring"
+          },
+          {
+            "id": "c",
+            "text": "Summer"
+          },
+          {
+            "id": "d",
+            "text": "Winter"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Every autumn, the leaves on many trees change colour and fall'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE2-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What is chlorophyll used for, according to the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Helping trees turn sunlight into food"
+          },
+          {
+            "id": "b",
+            "text": "Making leaves fall off"
+          },
+          {
+            "id": "c",
+            "text": "Keeping trees warm"
+          },
+          {
+            "id": "d",
+            "text": "Attracting insects"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says chlorophyll 'helps trees turn sunlight into food'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE2-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does 'reveal' mean, as in the yellow and orange colours being 'revealed'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Shown or made visible"
+          },
+          {
+            "id": "b",
+            "text": "Hidden away"
+          },
+          {
+            "id": "c",
+            "text": "Destroyed"
+          },
+          {
+            "id": "d",
+            "text": "Painted on"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Reveal' means to show something that was previously hidden."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE2-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why is it useful for a tree to lose its leaves in winter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It saves energy and water when there isn't much sunlight anyway"
+          },
+          {
+            "id": "b",
+            "text": "It makes the tree grow taller"
+          },
+          {
+            "id": "c",
+            "text": "It stops the tree from ever growing new leaves"
+          },
+          {
+            "id": "d",
+            "text": "It has no benefit at all"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains this 'helps the tree save energy and water during the cold winter months'."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE2-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one sentence, explain why leaves change colour in autumn.",
+        "acceptedAnswers": [
+          "trees stop making chlorophyll so the green fades and reveals the yellow orange and red colours underneath",
+          "because chlorophyll production stops, revealing other colours that were hidden by the green"
+        ],
+        "explanation": "Leaves change colour because the tree stops producing chlorophyll, letting the other colours underneath show through."
+      }
+    ]
+  },
+  {
+    "title": "The Windy Day",
+    "type": "poetry",
+    "yearGroup": "Y2",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "The wind came rushing down the street,\nAnd danced around my dancing feet.\nIt snatched my hat right off my head\nAnd sent it tumbling, so I fled!\n\nIt rattled every window pane,\nAnd shook the branches, again, again.\nThe washing on the line did fly,\nLike flags of colour in the sky.\n\nBut when the evening slowly came,\nThe wind grew tired, and calm, and tame.\nIt settled down without a sound,\nAnd left a stillness all around.",
+    "questions": [
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE2-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What did the wind snatch off the speaker's head?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A hat"
+          },
+          {
+            "id": "b",
+            "text": "A scarf"
+          },
+          {
+            "id": "c",
+            "text": "A hood"
+          },
+          {
+            "id": "d",
+            "text": "A wig"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem says 'It snatched my hat right off my head'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE2-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does 'tame' mean in the final stanza?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Calm and gentle"
+          },
+          {
+            "id": "b",
+            "text": "Wild and dangerous"
+          },
+          {
+            "id": "c",
+            "text": "Very loud"
+          },
+          {
+            "id": "d",
+            "text": "Extremely fast"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Tame' here describes the wind becoming calm and gentle, unlike its wild behaviour earlier."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE2-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "How does the mood of the poem change from the start to the end?",
+        "options": [
+          {
+            "id": "a",
+            "text": "From wild and energetic to calm and still"
+          },
+          {
+            "id": "b",
+            "text": "From calm to wild"
+          },
+          {
+            "id": "c",
+            "text": "It stays exactly the same throughout"
+          },
+          {
+            "id": "d",
+            "text": "From happy to sad"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem moves from a 'rushing', hat-snatching wind to it growing 'tired, and calm, and tame' with 'a stillness all around'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE2-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "The washing flying 'like flags of colour' is an example of what?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A simile, comparing the washing to flags"
+          },
+          {
+            "id": "b",
+            "text": "A question"
+          },
+          {
+            "id": "c",
+            "text": "An instruction"
+          },
+          {
+            "id": "d",
+            "text": "A fact"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Comparing the washing to flags using 'like' is a simile."
+      }
+    ]
+  },
+  {
+    "title": "The Kind Dragon",
+    "type": "fiction",
+    "yearGroup": "Y2",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "In a cave at the top of a green hill, lived a dragon named Ember. Unlike the dragons in old stories, Ember never breathed fire at villagers or guarded piles of treasure.\n\nInstead, Ember used her warm breath to help farmers dry their hay before the rain came, and to melt ice on the village pond in winter so ducks could swim.\n\nOne day, a young boy named Tomas got lost in the forest as night fell. Ember heard his frightened cries echoing up the hillside. She flew down gently, careful not to frighten him further, and used her warm glowing breath to light a safe path all the way home.\n\nFrom that day on, the villagers no longer feared the dragon on the hill. They left out baskets of apples as thanks, and Ember became known as the kindest creature in the whole valley.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE2-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What was the dragon's name?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ember"
+          },
+          {
+            "id": "b",
+            "text": "Tomas"
+          },
+          {
+            "id": "c",
+            "text": "Blaze"
+          },
+          {
+            "id": "d",
+            "text": "Smoky"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'lived a dragon named Ember'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE2-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "How did Ember help Tomas?",
+        "options": [
+          {
+            "id": "a",
+            "text": "She used her warm glowing breath to light a path home"
+          },
+          {
+            "id": "b",
+            "text": "She carried him home on her back"
+          },
+          {
+            "id": "c",
+            "text": "She called his parents"
+          },
+          {
+            "id": "d",
+            "text": "She gave him a map"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says Ember 'used her warm glowing breath to light a safe path all the way home'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE2-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does the author say Ember was 'unlike the dragons in old stories'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To show Ember is kind, not scary or dangerous like typical story dragons"
+          },
+          {
+            "id": "b",
+            "text": "To show Ember cannot breathe fire at all"
+          },
+          {
+            "id": "c",
+            "text": "To show Ember is smaller than other dragons"
+          },
+          {
+            "id": "d",
+            "text": "To show Ember lives in a different place"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "This line sets up a contrast between Ember's kindness and the scary dragons typically found in stories."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE2-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'echoing' mean, as in Tomas's cries 'echoing up the hillside'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Repeating and carrying through the air"
+          },
+          {
+            "id": "b",
+            "text": "Becoming completely silent"
+          },
+          {
+            "id": "c",
+            "text": "Turning into a whisper"
+          },
+          {
+            "id": "d",
+            "text": "Being written down"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Echoing' describes a sound repeating and carrying, often across a distance like a hillside."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE2-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Summarise this story in one or two sentences.",
+        "acceptedAnswers": [
+          "a kind dragon called ember helps villagers and rescues a lost boy, so the villagers stop fearing her and become grateful instead",
+          "ember the dragon helps a lost boy find his way home, so the villagers grow to love her instead of fearing her"
+        ],
+        "explanation": "The story follows Ember, a kind dragon, helping the villagers and rescuing Tomas, which changes how the villagers feel about her."
+      }
+    ]
   }
 ]
