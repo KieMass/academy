@@ -346,6 +346,7 @@ enum AssignmentStatus {
   IN_PROGRESS
   COMPLETED
   OVERDUE
+  CANCELLED
 }
 
 model Assignment {
