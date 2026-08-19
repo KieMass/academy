@@ -8,6 +8,7 @@ import { revealAnswer } from "@/lib/question-engine/reveal";
 import { updateTopicMastery, touchStudentStreak } from "@/lib/mastery";
 import { xpForCorrectAnswer, levelForXp } from "@/lib/gamification/xp";
 import { evaluateBadgesForStudent } from "@/lib/gamification/badges";
+import { checkContentGap } from "@/lib/content-gap";
 
 const schema = z.object({
   questionId: z.string(),
@@ -56,6 +57,7 @@ export async function POST(req: Request) {
   const [, streaked] = await Promise.all([
     updateTopicMastery(studentProfile.id, question.topicId, result.correct),
     touchStudentStreak(studentProfile.id),
+    checkContentGap(question.topicId),
   ]);
 
   let xpAwarded = 0;
