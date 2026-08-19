@@ -40,7 +40,7 @@ export function LoginForm({ defaultTab }: { defaultTab: "student" | "parent" }) 
   }
 
   return (
-    <Card className="w-full max-w-md">
+    <Card className="w-full max-w-md border-t-4 border-t-primary shadow-xl">
       <CardHeader>
         <CardTitle className="font-heading text-2xl">Welcome back</CardTitle>
         <CardDescription>Log in to continue your learning journey.</CardDescription>
@@ -59,7 +59,12 @@ export function LoginForm({ defaultTab }: { defaultTab: "student" | "parent" }) 
                 <Input id="student-username" name="identifier" placeholder="e.g. alex" autoComplete="username" required />
               </div>
               <div className="space-y-1.5">
-                <Label htmlFor="student-password">Password</Label>
+                <div className="flex items-center justify-between">
+                  <Label htmlFor="student-password">Password</Label>
+                  <Link href="/forgot-password" className="text-xs text-muted-foreground underline underline-offset-2 hover:text-foreground">
+                    Forgot password?
+                  </Link>
+                </div>
                 <Input id="student-password" name="password" type="password" autoComplete="current-password" required />
               </div>
               {error && <p className="text-sm text-destructive">{error}</p>}
@@ -77,7 +82,12 @@ export function LoginForm({ defaultTab }: { defaultTab: "student" | "parent" }) 
                 <Input id="parent-email" name="identifier" type="email" autoComplete="email" required />
               </div>
               <div className="space-y-1.5">
-                <Label htmlFor="parent-password">Password</Label>
+                <div className="flex items-center justify-between">
+                  <Label htmlFor="parent-password">Password</Label>
+                  <Link href="/forgot-password" className="text-xs text-muted-foreground underline underline-offset-2 hover:text-foreground">
+                    Forgot password?
+                  </Link>
+                </div>
                 <Input id="parent-password" name="password" type="password" autoComplete="current-password" required />
               </div>
               {error && <p className="text-sm text-destructive">{error}</p>}

@@ -233,7 +233,7 @@ async function seedDemoAccounts() {
       role: "PARENT",
       email: "parent@kaelex.demo",
       passwordHash: parentPassword,
-      parentProfile: { create: { fullName: "Demo Parent" } },
+      parentProfile: { create: { fullName: "Demo Parent", family: { create: {} } } },
     },
     include: { parentProfile: true },
   });

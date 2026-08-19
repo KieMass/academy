@@ -40,11 +40,11 @@ export default function RegisterPage() {
 
   return (
     <div className="flex flex-1 flex-col items-center justify-center gap-8 px-6 py-16">
-      <Link href="/" className="flex items-center gap-2 font-heading text-xl font-bold text-primary">
-        <Sparkles className="size-6" />
+      <Link href="/" className="flex items-center gap-2 font-heading text-xl font-bold text-gradient-brand">
+        <Sparkles className="size-6 text-primary" />
         KaeLex Academy
       </Link>
-      <Card className="w-full max-w-md">
+      <Card className="w-full max-w-md border-t-4 border-t-primary shadow-xl">
         <CardHeader>
           <CardTitle className="font-heading text-2xl">Create a parent account</CardTitle>
           <CardDescription>You&apos;ll be able to add your child&apos;s student profile next.</CardDescription>

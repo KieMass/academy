@@ -15,7 +15,7 @@ const schema = z.object({
 export async function GET() {
   const { parentProfile } = await requireParent();
   const assignments = await db.assignment.findMany({
-    where: { student: { parentId: parentProfile.id } },
+    where: { student: { parent: { familyId: parentProfile.familyId } } },
     include: { student: true },
     orderBy: { createdAt: "desc" },
   });
@@ -31,7 +31,7 @@ export async function POST(req: Request) {
   }
   const { studentId, subjectSlug, strandSlug, yearGroup, title, dueDate } = parsed.data;
 
-  const student = await db.studentProfile.findFirst({ where: { id: studentId, parentId: parentProfile.id } });
+  const student = await db.studentProfile.findFirst({ where: { id: studentId, parent: { familyId: parentProfile.familyId } } });
   if (!student) return NextResponse.json({ error: "Student not found." }, { status: 404 });
 
   const topic = await db.topic.findFirst({ where: { subject: { slug: subjectSlug }, strandSlug, yearGroup: yearGroup as never } });

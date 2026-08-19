@@ -42,6 +42,7 @@ model User {
   studentProfile StudentProfile?
 
   sessions Session[]
+  passwordResetRequests PasswordResetRequest[]
 
   @@index([role])
 }
@@ -56,15 +57,33 @@ model Session {
   @@index([userId])
 }
 
+// A Family groups together every parent who should have full, equal access
+// to the same set of students — e.g. two co-parents. A student still belongs
+// to a single "owning" ParentProfile (the one who added them, via
+// StudentProfile.parentId) for simple record-keeping, but every "my
+// students"-style query is scoped by familyId, not parentId, so any parent
+// in the family sees and manages the same children.
+model Family {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+
+  parents ParentProfile[]
+}
+
 model ParentProfile {
   id       String @id @default(cuid())
   userId   String @unique
   user     User   @relation(fields: [userId], references: [id], onDelete: Cascade)
   fullName String
 
+  familyId String
+  family   Family  @relation(fields: [familyId], references: [id], onDelete: Cascade)
+
   students StudentProfile[]
 
   createdAt DateTime @default(now())
+
+  @@index([familyId])
 }
 
 enum YearGroup {
@@ -442,4 +461,32 @@ model AiGeneratedContent {
 
   createdAt DateTime @default(now())
   reviewedAt DateTime?
+}
+
+// ---------------------------------------------------------------------------
+// Account recovery
+// ---------------------------------------------------------------------------
+
+enum PasswordResetRequestStatus {
+  PENDING
+  FULFILLED
+  DISMISSED
+}
+
+// There's no email service wired up, so "forgot password" can't reset
+// anything automatically — it records a request an admin can see and act on
+// (generating a new one-time password, same as the existing admin-initiated
+// reset). userId is nullable so a request for an email/username that doesn't
+// exist can still be recorded without leaking whether the account exists
+// (the submitter always sees the same generic confirmation).
+model PasswordResetRequest {
+  id         String                     @id @default(cuid())
+  identifier String // whatever the user typed in (email or username), for the admin to see
+  userId     String?
+  user       User?                      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  status     PasswordResetRequestStatus @default(PENDING)
+  createdAt  DateTime                   @default(now())
+  fulfilledAt DateTime?
+
+  @@index([status])
 }

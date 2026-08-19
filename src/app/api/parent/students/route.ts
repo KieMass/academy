@@ -16,7 +16,7 @@ const schema = z.object({
 export async function GET() {
   const { parentProfile } = await requireParent();
   const students = await db.studentProfile.findMany({
-    where: { parentId: parentProfile.id },
+    where: { parent: { familyId: parentProfile.familyId } },
     orderBy: { createdAt: "asc" },
   });
   return NextResponse.json({ students });

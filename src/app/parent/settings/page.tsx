@@ -1,12 +1,16 @@
 import { requireParent } from "@/lib/auth/guards";
 import { db } from "@/lib/db";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 import { AddStudentForm } from "@/components/parent/add-student-form";
+import { AddCoParentForm } from "@/components/parent/add-coparent-form";
+import { ChangePasswordForm } from "@/components/auth/change-password-form";
 import { AccessibilityControls } from "@/components/accessibility/accessibility-controls";
 
 export default async function ParentSettingsPage() {
   const { user, parentProfile } = await requireParent();
-  const students = await db.studentProfile.findMany({ where: { parentId: parentProfile.id }, orderBy: { createdAt: "asc" } });
+  const students = await db.studentProfile.findMany({ where: { parent: { familyId: parentProfile.familyId } }, orderBy: { createdAt: "asc" } });
+  const familyParents = await db.parentProfile.findMany({ where: { familyId: parentProfile.familyId }, include: { user: true }, orderBy: { createdAt: "asc" } });
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
@@ -19,6 +23,30 @@ export default async function ParentSettingsPage() {
         <CardContent className="text-sm text-muted-foreground">
           <p>{parentProfile.fullName}</p>
           <p>{user.email}</p>
+        </CardContent>
+      </Card>
+
+      <Card>
+        <CardHeader className="flex-row items-center justify-between space-y-0">
+          <div>
+            <CardTitle className="text-lg">Family</CardTitle>
+            <CardDescription>Every parent below has full access to all your students.</CardDescription>
+          </div>
+          <AddCoParentForm />
+        </CardHeader>
+        <CardContent className="space-y-2">
+          {familyParents.map((p) => (
+            <div key={p.id} className="flex items-center justify-between rounded-xl border px-4 py-3">
+              <div>
+                <p className="font-medium">
+                  {p.fullName}
+                  {p.id === parentProfile.id && <span className="ml-2 text-xs font-normal text-muted-foreground">(you)</span>}
+                </p>
+                <p className="text-xs text-muted-foreground">{p.user.email}</p>
+              </div>
+              {familyParents.length === 1 && <Badge variant="outline">Only parent</Badge>}
+            </div>
+          ))}
         </CardContent>
       </Card>
 
@@ -42,6 +70,8 @@ export default async function ParentSettingsPage() {
           ))}
         </CardContent>
       </Card>
+
+      <ChangePasswordForm />
 
       <AccessibilityControls />
     </div>

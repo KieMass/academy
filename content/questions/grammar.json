@@ -6620,5 +6620,1326 @@
       "headings would clearly separate each topic so readers can navigate the text and find information easily"
     ],
     "explanation": "Headings act as signposts, allowing readers to locate the specific section they need without reading the whole text."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence correctly places a single dash between two independent clauses?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The storm hit at midnight — the whole village lost power."
+      },
+      {
+        "id": "b",
+        "text": "The storm hit — at midnight the whole village lost power."
+      },
+      {
+        "id": "c",
+        "text": "The storm — hit at midnight the whole village lost power."
+      },
+      {
+        "id": "d",
+        "text": "The storm hit at midnight the whole — village lost power."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A single dash can join two independent clauses, similar to a semicolon, placed between the two complete ideas."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-BRA-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Insert a single dash in the correct place to join these two independent clauses: 'Nobody had spoken for an hour the silence had become unbearable.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "nobody had spoken for an hour — the silence had become unbearable",
+          "nobody had spoken for an hour— the silence had become unbearable"
+        ]
+      }
+    ],
+    "explanation": "The dash sits between the two complete clauses, replacing a semicolon or full stop."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-BRA-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence uses a pair of dashes correctly to add parenthetical information?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The bridge — built over a century ago — still carries traffic today."
+      },
+      {
+        "id": "b",
+        "text": "The bridge built over a century ago — still carries traffic — today."
+      },
+      {
+        "id": "c",
+        "text": "The bridge — built over a century ago still carries traffic today."
+      },
+      {
+        "id": "d",
+        "text": "The bridge built over a century — ago still carries traffic today —."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A pair of dashes bracket the extra information ('built over a century ago') without disrupting the main sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "brackets-dashes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-BRA-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Combine these two sentences using a single dash: 'The explorers ran out of supplies. They had to turn back three days from the summit.'",
+    "acceptedAnswers": [
+      "the explorers ran out of supplies — they had to turn back three days from the summit"
+    ],
+    "explanation": "A single dash can replace the full stop between two closely related independent clauses for effect."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COH-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence uses ellipsis (omitting repeated words) to link ideas cohesively?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sam wanted to go swimming. Priya wanted to go swimming too."
+      },
+      {
+        "id": "b",
+        "text": "Sam wanted to go swimming, and Priya did too."
+      },
+      {
+        "id": "c",
+        "text": "Sam wanted to go swimming. Priya wanted the same thing that Sam wanted."
+      },
+      {
+        "id": "d",
+        "text": "Sam wanted to go swimming, and so did Priya want to go swimming."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Priya did too' omits the repeated verb phrase 'wanted to go swimming', a form of ellipsis used for cohesion."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COH-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Rewrite the second sentence using a grammatical connection (a pronoun) instead of repeating the noun: 'The scientist studied the samples. The samples revealed a surprising pattern.'",
+    "acceptedAnswers": [
+      "the scientist studied the samples. they revealed a surprising pattern",
+      "the scientist studied the samples, which revealed a surprising pattern"
+    ],
+    "explanation": "Replacing 'the samples' with a pronoun such as 'they' or 'which' links the sentences cohesively without clunky repetition."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COH-1",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "Identify the cohesive device used to open each paragraph.\nParagraph 2 opens: 'This discovery changed everything.'\nParagraph 3 opens: 'Even so, doubts remained.'",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What does 'This discovery' refer back to? (repetition/reference or new idea)",
+        "acceptedAnswers": [
+          "reference",
+          "repetition/reference",
+          "grammatical connection"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What kind of connective is 'Even so'? (contrast or addition)",
+        "acceptedAnswers": [
+          "contrast"
+        ]
+      }
+    ],
+    "explanation": "'This discovery' is a grammatical/referential link back to the previous paragraph; 'Even so' is a contrastive connective signalling a shift."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "cohesion",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COH-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Write a sentence that could open a new paragraph, using repetition of the phrase 'the ancient forest' to link back to a previous paragraph about deforestation.",
+    "acceptedAnswers": [
+      "the ancient forest had stood for a thousand years",
+      "the ancient forest was disappearing fast",
+      "the ancient forest still held many secrets"
+    ],
+    "explanation": "Deliberately repeating a key phrase ('the ancient forest') across paragraph boundaries is a cohesive device that keeps the reader anchored to the topic."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence uses a comma correctly to resolve ambiguity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Let's eat, Grandma."
+      },
+      {
+        "id": "b",
+        "text": "Let's eat Grandma."
+      },
+      {
+        "id": "c",
+        "text": "Let's, eat Grandma."
+      },
+      {
+        "id": "d",
+        "text": "Lets eat, grandma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Without the comma, 'Let's eat Grandma' wrongly suggests eating Grandma rather than addressing her."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COM-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Add a comma to mark the clause boundary: 'Although the rain had stopped the ground was still soaked.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "although the rain had stopped, the ground was still soaked"
+        ]
+      }
+    ],
+    "explanation": "A comma marks the boundary after an introductory subordinate clause ('Although the rain had stopped')."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "commas",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-COM-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence is correctly punctuated with commas in a complex sentence containing two subordinate clauses?",
+    "options": [
+      {
+        "id": "a",
+        "text": "When the bell rang, and the pupils lined up, the teacher smiled."
+      },
+      {
+        "id": "b",
+        "text": "When the bell rang and the pupils lined up, the teacher smiled."
+      },
+      {
+        "id": "c",
+        "text": "When the bell rang the pupils lined up, the teacher, smiled."
+      },
+      {
+        "id": "d",
+        "text": "When, the bell rang and the pupils lined up the teacher smiled."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "The single comma after the combined subordinate clauses ('When the bell rang and the pupils lined up') marks the boundary before the main clause."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ENP-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which expanded noun phrase uses a prepositional phrase for precision?",
+    "options": [
+      {
+        "id": "a",
+        "text": "the tall, ancient oak"
+      },
+      {
+        "id": "b",
+        "text": "the oak in the corner of the field"
+      },
+      {
+        "id": "c",
+        "text": "the beautiful oak tree"
+      },
+      {
+        "id": "d",
+        "text": "the very old oak"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'in the corner of the field' is a prepositional phrase modifying 'the oak' with precise location."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ENP-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Expand this noun phrase economically using a modifying noun (not an adjective): 'the ___ pathway' (a pathway made of gravel)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "gravel"
+        ]
+      }
+    ],
+    "explanation": "'Gravel pathway' uses a noun ('gravel') to modify another noun, giving precise, economical detail without a full clause."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ENP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite 'the cottage' as an expanded noun phrase that gives precise detail using both a modifying adjective and a prepositional phrase.",
+    "acceptedAnswers": [
+      "the crumbling cottage at the edge of the woods",
+      "the small cottage beside the river",
+      "the abandoned cottage at the top of the hill"
+    ],
+    "explanation": "Combining an adjective ('crumbling') with a prepositional phrase ('at the edge of the woods') builds precision economically."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "expanded-noun-phrases",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-ENP-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which expanded noun phrase is the most economical (precise but not overloaded)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "the big, huge, enormous, gigantic mountain"
+      },
+      {
+        "id": "b",
+        "text": "the snow-capped mountain overlooking the valley"
+      },
+      {
+        "id": "c",
+        "text": "the mountain that was big and that was also very tall and snowy"
+      },
+      {
+        "id": "d",
+        "text": "the mountain, which was big, and snowy, and tall, and overlooking a valley"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Option B packs precise, varied detail (a compound modifier plus a prepositional phrase) into a concise structure, avoiding repetitive piling-up of adjectives."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-FRO-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Write a fronted adverbial of probability to begin this sentence: '___, the match will be postponed if the rain continues.'",
+    "acceptedAnswers": [
+      "surely",
+      "perhaps",
+      "almost certainly",
+      "without doubt",
+      "in all likelihood"
+    ],
+    "explanation": "Fronted adverbials of probability (e.g. 'Almost certainly', 'Surely') signal how likely an event is."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-FRO-1",
+    "type": "multi_step",
+    "difficulty": "silver",
+    "promptText": "Classify the fronted adverbial in each sentence: 'Cautiously, she opened the door.' and 'Beyond the hedge, a fox waited.'",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "What type of fronted adverbial is 'Cautiously'? (manner, place, time or probability)",
+        "acceptedAnswers": [
+          "manner"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "What type of fronted adverbial is 'Beyond the hedge'? (manner, place, time or probability)",
+        "acceptedAnswers": [
+          "place"
+        ]
+      }
+    ],
+    "explanation": "'Cautiously' describes how she opened the door (manner); 'Beyond the hedge' describes where the fox waited (place)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-FRO-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Rewrite this sentence to begin with a fronted adverbial of time: 'The lights flickered off just as the storm reached its peak.'",
+    "acceptedAnswers": [
+      "just as the storm reached its peak, the lights flickered off"
+    ],
+    "explanation": "Moving the time clause to the front ('Just as the storm reached its peak,') creates a fronted adverbial, followed by a comma."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "fronted-adverbials",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-FRO-1",
+    "type": "multi_step",
+    "difficulty": "challenge",
+    "promptText": "Improve this flat paragraph opening by adding a different type of fronted adverbial to each sentence: 'The train arrived. The doors opened. Passengers stepped out.'",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "Add a fronted adverbial of time before 'The train arrived' (write the full sentence).",
+        "acceptedAnswers": [
+          "at last, the train arrived",
+          "finally, the train arrived",
+          "eventually, the train arrived"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "Add a fronted adverbial of manner before 'Passengers stepped out' (write the full sentence).",
+        "acceptedAnswers": [
+          "wearily, passengers stepped out",
+          "slowly, passengers stepped out",
+          "cautiously, passengers stepped out"
+        ]
+      }
+    ],
+    "explanation": "Using a varied range of fronted adverbials across consecutive sentences (time, then manner) avoids repetitive sentence openers and builds cohesion."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence uses 'stationary' and 'stationery' correctly?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The car remained stationary while she bought new stationery."
+      },
+      {
+        "id": "b",
+        "text": "The car remained stationery while she bought new stationary."
+      },
+      {
+        "id": "c",
+        "text": "The car remained stationary while she bought new stationary."
+      },
+      {
+        "id": "d",
+        "text": "The car remained stationery while she bought new stationery."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Stationary' means not moving; 'stationery' refers to paper and writing materials."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-HOM-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Choose the correct word: 'The insurance policy will ___ that any damage is covered.' (ensure / insure)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "ensure"
+        ]
+      }
+    ],
+    "explanation": "'Ensure' means to make certain; 'insure' means to provide financial compensation, e.g. against loss or damage."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "homophones",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-HOM-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence correctly uses 'complement' and 'compliment'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She gave him a compliment on his complement of skills."
+      },
+      {
+        "id": "b",
+        "text": "She gave him a complement on his compliment of skills."
+      },
+      {
+        "id": "c",
+        "text": "She gave him a compliment on his compliment of skills."
+      },
+      {
+        "id": "d",
+        "text": "She gave him a complement on his complement of skills."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A 'compliment' is a polite remark of praise; a 'complement' is something that completes or goes well with something else."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "layout-devices",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-LAY-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which layout device would best organise a list of equipment needed for an experiment?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A sub-heading"
+      },
+      {
+        "id": "b",
+        "text": "Bullet points"
+      },
+      {
+        "id": "c",
+        "text": "A footnote"
+      },
+      {
+        "id": "d",
+        "text": "Italics"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Bullet points present a list of discrete items clearly, making them easy to scan."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "layout-devices",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-LAY-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "In a non-fiction report about volcanoes, what is the purpose of a sub-heading like 'How Volcanoes Erupt'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To decorate the page"
+      },
+      {
+        "id": "b",
+        "text": "To signal the topic of the section that follows, helping the reader navigate"
+      },
+      {
+        "id": "c",
+        "text": "To replace the need for paragraphs"
+      },
+      {
+        "id": "d",
+        "text": "To summarise the whole report in one line"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Sub-headings break a longer text into navigable sections, telling the reader what each part covers."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "layout-devices",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-LAY-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "You are writing a report on the water cycle with three main sections: evaporation, condensation, and precipitation. Suggest a heading and one sub-heading you could use.",
+    "acceptedAnswers": [
+      "the water cycle, evaporation",
+      "the water cycle. evaporation",
+      "the water cycle - evaporation"
+    ],
+    "explanation": "A clear main heading names the overall topic ('The Water Cycle'), while sub-headings ('Evaporation', 'Condensation', 'Precipitation') break it into consistently structured sections."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "layout-devices",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-LAY-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which use of bullet points is most consistent and effective?",
+    "options": [
+      {
+        "id": "a",
+        "text": "• Pack a tent.\n• You should bring a torch.\n• Water bottles are needed.\n• Don't forget a first aid kit!"
+      },
+      {
+        "id": "b",
+        "text": "• Pack a tent.\n• Pack a torch.\n• Pack water bottles.\n• Pack a first aid kit."
+      },
+      {
+        "id": "c",
+        "text": "• Pack a tent\nPack a torch.\n• water bottles\n• First Aid Kit needed"
+      },
+      {
+        "id": "d",
+        "text": "Pack: a tent, a torch • water bottles, • a first aid kit."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Consistent bullet points use the same grammatical structure (imperative verb + object) and punctuation throughout the list."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which modal verb is most appropriate for a formal request, such as in a letter to a headteacher?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Could you possibly consider..."
+      },
+      {
+        "id": "b",
+        "text": "Gonna need you to..."
+      },
+      {
+        "id": "c",
+        "text": "You'd better..."
+      },
+      {
+        "id": "d",
+        "text": "Can ya..."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Could you possibly consider...' is a polite, formal modal construction suited to formal writing."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-MOD-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Add a modal adverb to strengthen the degree of certainty in this sentence: 'It ___ will rain later, given the dark clouds.'",
+    "acceptedAnswers": [
+      "surely",
+      "almost certainly",
+      "undoubtedly",
+      "definitely"
+    ],
+    "explanation": "Modal adverbs like 'surely' or 'almost certainly' work alongside modal verbs to fine-tune the degree of possibility expressed."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-MOD-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence expresses the weakest degree of possibility?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The bus must be delayed."
+      },
+      {
+        "id": "b",
+        "text": "The bus will be delayed."
+      },
+      {
+        "id": "c",
+        "text": "The bus might be delayed."
+      },
+      {
+        "id": "d",
+        "text": "The bus is definitely delayed."
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'Might' expresses a weak, tentative possibility, unlike 'must', 'will' or 'definitely', which express strong certainty."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "modal-verbs",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-MOD-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Rewrite this informal request as a formal one using an appropriate modal verb: 'Can I leave early today?'",
+    "acceptedAnswers": [
+      "may i leave early today",
+      "might i leave early today",
+      "would it be possible for me to leave early today"
+    ],
+    "explanation": "'May' or 'might' are more formal modal verbs for requesting permission than the informal 'can'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which type of parenthesis is most appropriate for adding a purely factual, low-key detail in formal writing (e.g. a date)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dashes — for dramatic emphasis"
+      },
+      {
+        "id": "b",
+        "text": "Brackets (for understated, factual asides)"
+      },
+      {
+        "id": "c",
+        "text": "Exclamation marks!"
+      },
+      {
+        "id": "d",
+        "text": "Capital letters"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Brackets are the most formal and understated way to insert factual asides, such as dates or clarifications."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence uses dashes for parenthesis to create dramatic emphasis?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The result — utterly unexpected — silenced the whole room."
+      },
+      {
+        "id": "b",
+        "text": "The result (utterly unexpected) silenced the whole room."
+      },
+      {
+        "id": "c",
+        "text": "The result, utterly unexpected, silenced the whole room."
+      },
+      {
+        "id": "d",
+        "text": "The result; utterly unexpected; silenced the whole room."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Dashes create a more dramatic, attention-grabbing pause than commas or brackets, suiting emphasis."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PAR-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Add parenthesis using commas to this sentence to insert the extra detail 'a small fishing village': 'Whitby was once a small fishing village and is now a popular tourist town.'",
+    "acceptedAnswers": [
+      "whitby, once a small fishing village, is now a popular tourist town"
+    ],
+    "explanation": "Commas are the most neutral, everyday way to insert parenthetical information into a sentence."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "parenthesis",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PAR-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "A formal scientific report needs to insert the exact measurement '3.2 metres' as an aside without disrupting the flow. Which is most appropriate?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The bridge span — 3.2 metres — was measured twice."
+      },
+      {
+        "id": "b",
+        "text": "The bridge span (3.2 metres) was measured twice."
+      },
+      {
+        "id": "c",
+        "text": "The bridge span, 3.2 metres!, was measured twice."
+      },
+      {
+        "id": "d",
+        "text": "The bridge span; 3.2 metres; was measured twice."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Brackets suit formal, factual registers such as scientific reports, keeping the aside understated."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What does the prefix 'de-' most often mean, as in 'deforest' or 'decompress'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To do again"
+      },
+      {
+        "id": "b",
+        "text": "To reverse or remove"
+      },
+      {
+        "id": "c",
+        "text": "To do too much"
+      },
+      {
+        "id": "d",
+        "text": "To do wrongly"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'De-' typically reverses or removes something, e.g. 'deforest' means to remove forest."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PRE-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Use the prefix 'over-' to form a word meaning 'to sleep for too long'.",
+    "acceptedAnswers": [
+      "oversleep"
+    ],
+    "explanation": "'Over-' means 'too much', so 'oversleep' means to sleep for longer than intended."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PRE-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which word means 'to disagree with' or 'to speak against'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "misdirect"
+      },
+      {
+        "id": "b",
+        "text": "contradict"
+      },
+      {
+        "id": "c",
+        "text": "overreact"
+      },
+      {
+        "id": "d",
+        "text": "disqualify"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Contra-' means 'against', so 'contradict' means to speak against or disagree with a statement."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "prefixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-PRE-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "The word 'misinformation' contains the prefix 'mis-'. Explain what 'mis-' means and how it changes the meaning of 'information'.",
+    "acceptedAnswers": [
+      "mis- means wrongly or badly, so misinformation means information that is wrong or incorrect",
+      "mis- means wrong, so misinformation is incorrect information"
+    ],
+    "explanation": "'Mis-' means 'wrongly' or 'badly', so 'misinformation' is information that is incorrect or misleading."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence correctly omits the relative pronoun for concise, formal writing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The report the committee submitted was thorough."
+      },
+      {
+        "id": "b",
+        "text": "The report that which the committee submitted was thorough."
+      },
+      {
+        "id": "c",
+        "text": "The report who the committee submitted was thorough."
+      },
+      {
+        "id": "d",
+        "text": "The report the committee, submitted was thorough."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The relative pronoun 'that' (as object of the clause) can be omitted: 'The report [that] the committee submitted...'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-REL-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Rewrite this sentence to omit the relative pronoun: 'The book that I borrowed from the library was fascinating.'",
+    "acceptedAnswers": [
+      "the book i borrowed from the library was fascinating"
+    ],
+    "explanation": "When the relative pronoun is the object of the clause, it can be dropped: 'The book I borrowed...'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-REL-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "In which sentence would omitting the relative pronoun NOT be possible?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The scientist who discovered the cure won an award."
+      },
+      {
+        "id": "b",
+        "text": "The film that we watched last night was brilliant."
+      },
+      {
+        "id": "c",
+        "text": "The cake that Amara baked was delicious."
+      },
+      {
+        "id": "d",
+        "text": "The letter that he wrote arrived late."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Who' is the subject of its clause ('who discovered the cure'), so it cannot be omitted, unlike the object relative pronouns in the other options."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "relative-clauses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-REL-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain why the relative pronoun can be omitted from 'The house [that] we visited was for sale' but not from 'The house that stood on the hill was for sale.'",
+    "acceptedAnswers": [
+      "because in the first sentence that is the object of the clause, but in the second sentence that is the subject of the clause, so it cannot be omitted",
+      "the first uses that as an object so it can be dropped, the second uses it as the subject so it must stay"
+    ],
+    "explanation": "A relative pronoun can only be omitted when it is the object of its clause; when it acts as the subject (as in the second example), it must remain."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "subjunctive-form",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUBJ-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence correctly uses the subjunctive after 'suggested that'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The doctor suggested that she rests more."
+      },
+      {
+        "id": "b",
+        "text": "The doctor suggested that she rest more."
+      },
+      {
+        "id": "c",
+        "text": "The doctor suggested that she is resting more."
+      },
+      {
+        "id": "d",
+        "text": "The doctor suggested that she will rest more."
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "After 'suggested that', the subjunctive uses the base form of the verb ('rest'), not 'rests'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "subjunctive-form",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUBJ-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Rewrite formally using the subjunctive: 'If I was in charge, I would change the rules.'",
+    "acceptedAnswers": [
+      "if i were in charge, i would change the rules"
+    ],
+    "explanation": "The subjunctive 'were' replaces 'was' in hypothetical if-clauses, regardless of subject."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "subjunctive-form",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUBJ-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which sentence correctly uses the subjunctive after 'recommended that'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The board recommended that the policy be reviewed annually."
+      },
+      {
+        "id": "b",
+        "text": "The board recommended that the policy is reviewed annually."
+      },
+      {
+        "id": "c",
+        "text": "The board recommended that the policy was reviewed annually."
+      },
+      {
+        "id": "d",
+        "text": "The board recommended that the policy will be reviewed annually."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "After 'recommended that', the subjunctive uses the base form ('be'), a common feature of formal reports."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "subjunctive-form",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUBJ-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Rewrite as a formal demand using the subjunctive: 'The manager demanded, \"Everyone must submit the form today.\"'",
+    "acceptedAnswers": [
+      "the manager demanded that everyone submit the form today"
+    ],
+    "explanation": "'Demanded that' triggers the subjunctive base form 'submit' rather than 'submits'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which word is spelled correctly, using the '-cious' suffix?",
+    "options": [
+      {
+        "id": "a",
+        "text": "suspicous"
+      },
+      {
+        "id": "b",
+        "text": "suspicious"
+      },
+      {
+        "id": "c",
+        "text": "suspitious"
+      },
+      {
+        "id": "d",
+        "text": "suspiceous"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Suspicious' uses the '-cious' suffix, typically following a root ending in 'ce' (suspicion → suspicious)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUF-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Complete the word with the correct suffix: 'The judge made an impar___ decision.' (-cial or -tial)",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "tial",
+          "impartial"
+        ]
+      }
+    ],
+    "explanation": "'Impartial' uses '-tial', typically following a root ending in a consonant other than 'c' (part → impartial)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUF-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which suffix correctly turns 'govern' into a noun meaning the act of governing?",
+    "options": [
+      {
+        "id": "a",
+        "text": "governly"
+      },
+      {
+        "id": "b",
+        "text": "governness"
+      },
+      {
+        "id": "c",
+        "text": "government"
+      },
+      {
+        "id": "d",
+        "text": "governity"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "The suffix '-ment' turns a verb into a noun (govern → government), naming the resulting state or process."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "suffixes",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SUF-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Explain the spelling rule: why is it 'official' (-cial) but 'essential' (-tial)?",
+    "acceptedAnswers": [
+      "-cial is used after a vowel or when the root word ends in ce/cy, and -tial is used after a consonant, so office becomes official and essence... essential follows the -tial pattern after ss",
+      "-cial usually follows a vowel and -tial usually follows a consonant"
+    ],
+    "explanation": "'-cial' generally follows a root ending in a vowel sound (office → official), while '-tial' generally follows a root ending in a consonant (essence → essential, though there are exceptions to learn as spelling patterns)."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "synonyms-antonyms",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SYN-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which word is the most precise synonym for 'said' to convey that someone spoke quietly and nervously?",
+    "options": [
+      {
+        "id": "a",
+        "text": "shouted"
+      },
+      {
+        "id": "b",
+        "text": "whispered"
+      },
+      {
+        "id": "c",
+        "text": "declared"
+      },
+      {
+        "id": "d",
+        "text": "announced"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'Whispered' precisely conveys quiet, nervous speech, unlike the louder or more formal alternatives."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "synonyms-antonyms",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SYN-1",
+    "type": "matching",
+    "difficulty": "gold",
+    "promptText": "Match each word to its antonym.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "generous",
+        "right": "stingy"
+      },
+      {
+        "id": "p2",
+        "left": "ancient",
+        "right": "modern"
+      },
+      {
+        "id": "p3",
+        "left": "cautious",
+        "right": "reckless"
+      },
+      {
+        "id": "p4",
+        "left": "genuine",
+        "right": "fake"
+      }
+    ],
+    "explanation": "Antonyms express the opposite meaning to the given word."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "synonyms-antonyms",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SYN-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "This sentence repeats 'big' three times. Rewrite it using varied synonyms: 'It was a big house, with a big garden and a big pond.'",
+    "acceptedAnswers": [
+      "it was a vast house, with a sprawling garden and a large pond",
+      "it was an enormous house, with a spacious garden and a sizeable pond"
+    ],
+    "explanation": "Using varied synonyms ('vast', 'sprawling', 'large') instead of repeating 'big' makes writing more precise and engaging."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "synonyms-antonyms",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-SYN-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which synonym for 'happy' would best suit a formal report describing a community's reaction to good news?",
+    "options": [
+      {
+        "id": "a",
+        "text": "chuffed"
+      },
+      {
+        "id": "b",
+        "text": "over the moon"
+      },
+      {
+        "id": "c",
+        "text": "delighted"
+      },
+      {
+        "id": "d",
+        "text": "stoked"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "'Delighted' is a formal-register synonym for 'happy', suitable for reports, unlike the informal alternatives."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which sentence correctly uses the present perfect progressive tense?",
+    "options": [
+      {
+        "id": "a",
+        "text": "She has been practising the piano for two hours."
+      },
+      {
+        "id": "b",
+        "text": "She had been practising the piano for two hours."
+      },
+      {
+        "id": "c",
+        "text": "She practising the piano for two hours."
+      },
+      {
+        "id": "d",
+        "text": "She will practising the piano for two hours."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Has been practising' is the present perfect progressive, showing an action that started in the past and continues into the present."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-TEN-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "Correct the tense inconsistency: 'Yesterday, I walk to school and I saw my friend.'",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "yesterday, i walked to school and i saw my friend"
+        ]
+      }
+    ],
+    "explanation": "Both verbs should be in the past tense for consistency: 'walked' and 'saw'."
+  },
+  {
+    "subjectSlug": "grammar",
+    "strandSlug": "verb-tenses",
+    "yearGroup": "Y6",
+    "objectiveCode": "GR6-TEN-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Which sentence correctly uses the past perfect tense to show one past action happened before another?",
+    "options": [
+      {
+        "id": "a",
+        "text": "By the time the ambulance arrived, the crowd had already dispersed."
+      },
+      {
+        "id": "b",
+        "text": "By the time the ambulance arrived, the crowd has already dispersed."
+      },
+      {
+        "id": "c",
+        "text": "By the time the ambulance arrived, the crowd dispersed already."
+      },
+      {
+        "id": "d",
+        "text": "By the time the ambulance arrives, the crowd had already dispersed."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "'Had already dispersed' (past perfect) shows the dispersing happened before the ambulance's arrival (simple past)."
   }
 ]

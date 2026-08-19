@@ -23,3 +23,16 @@ export function levelForXp(xpTotal: number): number {
   }
   return level;
 }
+
+/** How far a student is into their current level, for progress-bar UI.
+ * Mirrors the same N*100 curve as levelForXp, but keeps the remainder so
+ * callers can render "120 / 300 XP to Level 4" style progress. */
+export function xpProgressWithinLevel(xpTotal: number): { level: number; xpIntoLevel: number; xpForLevel: number } {
+  let level = 1;
+  let remaining = xpTotal;
+  while (remaining >= level * 100) {
+    remaining -= level * 100;
+    level++;
+  }
+  return { level, xpIntoLevel: remaining, xpForLevel: level * 100 };
+}
