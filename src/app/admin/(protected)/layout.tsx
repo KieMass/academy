@@ -6,6 +6,7 @@ const navItems: NavItem[] = [
   { href: "/admin/users", label: "Users", icon: "Users" },
   { href: "/admin/reset-requests", label: "Reset requests", icon: "KeyRound" },
   { href: "/admin/content-gaps", label: "Content gaps", icon: "AlertTriangle" },
+  { href: "/admin/question-flags", label: "Flagged questions", icon: "Flag" },
   { href: "/admin/subjects", label: "Subjects", icon: "BookOpen" },
   { href: "/admin/settings", label: "Settings", icon: "Settings" },
 ];

@@ -62,14 +62,29 @@
     "strandSlug": "relative-clauses",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-REL-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite this as one sentence using a relative clause: 'This is the house. My grandmother grew up in the house.'",
-    "acceptedAnswers": [
-      "this is the house where my grandmother grew up",
-      "this is the house in which my grandmother grew up"
+    "promptText": "Which sentence correctly combines these into one sentence using a relative clause: 'This is the house. My grandmother grew up in the house.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "This is the house where my grandmother grew up."
+      },
+      {
+        "id": "opt2",
+        "text": "This is the house, my grandmother grew up in the house."
+      },
+      {
+        "id": "opt3",
+        "text": "My grandmother grew up in the house where this is."
+      },
+      {
+        "id": "opt4",
+        "text": "This is the house which my grandmother grew up."
+      }
     ],
-    "explanation": "'Where' is used to introduce a relative clause about a place."
+    "correctOptionId": "opt1",
+    "explanation": "'Where' introduces a relative clause about a place, replacing the repeated 'the house'."
   },
   {
     "subjectSlug": "grammar",
@@ -253,14 +268,29 @@
     "strandSlug": "fronted-adverbials",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-FRO-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite this sentence to begin with a fronted adverbial: 'The children ran outside quickly when the bell rang.'",
-    "acceptedAnswers": [
-      "quickly, the children ran outside when the bell rang",
-      "when the bell rang, the children ran outside quickly"
+    "promptText": "Which sentence correctly begins with a fronted adverbial: 'The children ran outside quickly when the bell rang.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Quickly, the children ran outside when the bell rang."
+      },
+      {
+        "id": "opt2",
+        "text": "The children ran outside quickly when the bell rang."
+      },
+      {
+        "id": "opt3",
+        "text": "Quickly the children ran outside when the bell rang."
+      },
+      {
+        "id": "opt4",
+        "text": "When the bell rang the children ran outside quickly."
+      }
     ],
-    "explanation": "Moving the adverbial phrase to the front and adding a comma creates a fronted adverbial."
+    "correctOptionId": "opt1",
+    "explanation": "Moving 'Quickly' to the front and adding a comma creates a fronted adverbial."
   },
   {
     "subjectSlug": "grammar",
@@ -354,14 +384,29 @@
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-ENP-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Expand this noun phrase with at least two extra details: 'the castle'",
-    "acceptedAnswers": [
-      "the ancient, crumbling castle on the hill",
-      "the tall stone castle with broken towers"
+    "promptText": "Which of these best expands the noun phrase 'the castle' with at least two extra details?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "the ancient, crumbling castle on the hill"
+      },
+      {
+        "id": "opt2",
+        "text": "the castle"
+      },
+      {
+        "id": "opt3",
+        "text": "a castle"
+      },
+      {
+        "id": "opt4",
+        "text": "castle ancient crumbling hill the on"
+      }
     ],
-    "explanation": "Any answer adding two or more descriptive details (adjectives and/or a prepositional phrase) is correct."
+    "correctOptionId": "opt1",
+    "explanation": "Adding the adjectives 'ancient, crumbling' and the prepositional phrase 'on the hill' gives more than two extra details."
   },
   {
     "subjectSlug": "grammar",
@@ -577,13 +622,28 @@
     "strandSlug": "sentence-structure",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-SEN-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Combine these into one complex sentence using a subordinating conjunction: 'The match was cancelled. It was raining heavily.'",
-    "acceptedAnswers": [
-      "the match was cancelled because it was raining heavily",
-      "because it was raining heavily, the match was cancelled"
+    "promptText": "Which sentence correctly combines these into one complex sentence using a subordinating conjunction: 'The match was cancelled. It was raining heavily.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The match was cancelled because it was raining heavily."
+      },
+      {
+        "id": "opt2",
+        "text": "The match was cancelled, it was raining heavily."
+      },
+      {
+        "id": "opt3",
+        "text": "The match was cancelled and it was raining heavily."
+      },
+      {
+        "id": "opt4",
+        "text": "Because the match was cancelled, it was raining heavily."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "'Because' correctly links cause (rain) and effect (cancellation) in a complex sentence."
   },
   {
@@ -765,15 +825,29 @@
     "strandSlug": "cohesion",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-COH-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Write a sentence that links back to this idea using a time adverbial: 'The explorers set up camp at the base of the mountain.'",
-    "acceptedAnswers": [
-      "the next morning, they began the climb",
-      "later that day, they began the climb",
-      "at dawn, they began the climb"
+    "promptText": "Which sentence best links back to this idea using a time adverbial: 'The explorers set up camp at the base of the mountain.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The next morning, they began the climb."
+      },
+      {
+        "id": "opt2",
+        "text": "They began the climb."
+      },
+      {
+        "id": "opt3",
+        "text": "The mountain was very tall."
+      },
+      {
+        "id": "opt4",
+        "text": "Climbing, they began the next morning."
+      }
     ],
-    "explanation": "Any sentence beginning with a time adverbial that logically follows from setting up camp is acceptable."
+    "correctOptionId": "opt1",
+    "explanation": "'The next morning' is a time adverbial that logically follows on from setting up camp."
   },
   {
     "subjectSlug": "grammar",
@@ -983,14 +1057,29 @@
     "strandSlug": "relative-clauses",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-REL-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Combine using a relative clause: 'The bridge is very old. The bridge crosses the river.'",
-    "acceptedAnswers": [
-      "the bridge that crosses the river is very old",
-      "the bridge which crosses the river is very old"
+    "promptText": "Which sentence correctly combines these using a relative clause: 'The bridge is very old. The bridge crosses the river.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The bridge that crosses the river is very old."
+      },
+      {
+        "id": "opt2",
+        "text": "The bridge is very old, and the bridge crosses the river."
+      },
+      {
+        "id": "opt3",
+        "text": "The bridge is very old that crosses the river."
+      },
+      {
+        "id": "opt4",
+        "text": "That crosses the river, the bridge is very old."
+      }
     ],
-    "explanation": "The relative clause 'that/which crosses the river' replaces the repeated subject."
+    "correctOptionId": "opt1",
+    "explanation": "The relative clause 'that crosses the river' replaces the repeated subject and sits right after 'the bridge'."
   },
   {
     "subjectSlug": "grammar",
@@ -1432,12 +1521,28 @@
     "strandSlug": "fronted-adverbials",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-FRO-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite starting with a fronted adverbial of time: 'We packed our bags before dawn.'",
-    "acceptedAnswers": [
-      "before dawn, we packed our bags"
+    "promptText": "Which sentence correctly starts with a fronted adverbial of time: 'We packed our bags before dawn.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Before dawn, we packed our bags."
+      },
+      {
+        "id": "opt2",
+        "text": "Before dawn we packed our bags."
+      },
+      {
+        "id": "opt3",
+        "text": "We packed our bags before dawn."
+      },
+      {
+        "id": "opt4",
+        "text": "Dawn before, we packed our bags."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "Moving 'before dawn' to the front and adding a comma creates a fronted adverbial."
   },
   {
@@ -1648,13 +1753,29 @@
     "strandSlug": "parenthesis",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-PAR-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Rewrite adding parenthesis using brackets: 'The castle was built in 1350. It still stands today.'",
-    "acceptedAnswers": [
-      "the castle (built in 1350) still stands today"
+    "promptText": "Which sentence correctly adds parenthesis using brackets: 'The castle was built in 1350. It still stands today.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The castle (built in 1350) still stands today."
+      },
+      {
+        "id": "opt2",
+        "text": "The castle, built in 1350 still stands today."
+      },
+      {
+        "id": "opt3",
+        "text": "The castle still stands today (built in 1350)."
+      },
+      {
+        "id": "opt4",
+        "text": "The castle built in (1350) still stands today."
+      }
     ],
-    "explanation": "'(built in 1350)' is added as extra, removable information."
+    "correctOptionId": "opt1",
+    "explanation": "'(built in 1350)' is inserted right after 'the castle' as extra, removable information."
   },
   {
     "subjectSlug": "grammar",
@@ -1864,14 +1985,29 @@
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-ENP-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Expand this noun phrase with at least two extra details: 'the forest'",
-    "acceptedAnswers": [
-      "the dark, mysterious forest",
-      "the ancient forest full of towering trees"
+    "promptText": "Which of these best expands the noun phrase 'the forest' with at least two extra details?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "the dark, mysterious forest"
+      },
+      {
+        "id": "opt2",
+        "text": "the forest"
+      },
+      {
+        "id": "opt3",
+        "text": "a forest"
+      },
+      {
+        "id": "opt4",
+        "text": "forest dark mysterious the"
+      }
     ],
-    "explanation": "Any answer adding two or more descriptive details is correct."
+    "correctOptionId": "opt1",
+    "explanation": "'Dark' and 'mysterious' both add descriptive detail to the noun 'forest'."
   },
   {
     "subjectSlug": "grammar",
@@ -2731,28 +2867,58 @@
     "strandSlug": "sentence-structure",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-SEN-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Write a compound sentence joining these ideas with 'but': 'The team trained hard. They lost the match.'",
-    "acceptedAnswers": [
-      "the team trained hard but they lost the match",
-      "the team trained hard, but they lost the match"
+    "promptText": "Which sentence correctly joins these ideas as a compound sentence with 'but': 'The team trained hard. They lost the match.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The team trained hard, but they lost the match."
+      },
+      {
+        "id": "opt2",
+        "text": "The team trained hard but lost the match they."
+      },
+      {
+        "id": "opt3",
+        "text": "The team trained hard, so they lost the match."
+      },
+      {
+        "id": "opt4",
+        "text": "The team trained hard. But they lost the match."
+      }
     ],
-    "explanation": "'But' joins the two contrasting main clauses."
+    "correctOptionId": "opt1",
+    "explanation": "'But' joins the two contrasting main clauses into a single compound sentence."
   },
   {
     "subjectSlug": "grammar",
     "strandSlug": "sentence-structure",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-SEN-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Rewrite as a complex sentence with the subordinate clause at the start: 'We went home. The party ended.'",
-    "acceptedAnswers": [
-      "when the party ended, we went home",
-      "because the party ended, we went home"
+    "promptText": "Which sentence correctly rewrites this as a complex sentence with the subordinate clause at the start: 'We went home. The party ended.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "When the party ended, we went home."
+      },
+      {
+        "id": "opt2",
+        "text": "We went home when the party ended."
+      },
+      {
+        "id": "opt3",
+        "text": "When the party ended we went home."
+      },
+      {
+        "id": "opt4",
+        "text": "The party ended, when we went home."
+      }
     ],
-    "explanation": "Placing the subordinate clause first varies the sentence's structure for effect."
+    "correctOptionId": "opt1",
+    "explanation": "'When the party ended' is the subordinate clause, correctly placed first and followed by a comma."
   },
   {
     "subjectSlug": "grammar",
@@ -3626,28 +3792,58 @@
     "strandSlug": "cohesion",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-COH-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Write a sentence linking back to this idea using an adverbial of place: 'The hikers reached the summit.'",
-    "acceptedAnswers": [
-      "above them, the sky stretched endlessly",
-      "from there, they could see the whole valley"
+    "promptText": "Which sentence best links back to this idea using an adverbial of place: 'The hikers reached the summit.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "From there, they could see the whole valley."
+      },
+      {
+        "id": "opt2",
+        "text": "They could see the whole valley."
+      },
+      {
+        "id": "opt3",
+        "text": "They reached the summit quickly."
+      },
+      {
+        "id": "opt4",
+        "text": "Valley the whole see could they there from."
+      }
     ],
-    "explanation": "Any sentence starting with a place adverbial that logically follows is acceptable."
+    "correctOptionId": "opt1",
+    "explanation": "'From there' is an adverbial of place that logically follows on from reaching the summit."
   },
   {
     "subjectSlug": "grammar",
     "strandSlug": "cohesion",
     "yearGroup": "Y5",
     "objectiveCode": "GR5-COH-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Write a sentence linking back using an adverbial of number/order: 'The chef prepared the sauce.'",
-    "acceptedAnswers": [
-      "next, she added the herbs",
-      "then, she added the herbs"
+    "promptText": "Which sentence best links back using an adverbial of number/order: 'The chef prepared the sauce.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Next, she added the herbs."
+      },
+      {
+        "id": "opt2",
+        "text": "She added the herbs."
+      },
+      {
+        "id": "opt3",
+        "text": "The sauce was very tasty."
+      },
+      {
+        "id": "opt4",
+        "text": "Herbs the added she next."
+      }
     ],
-    "explanation": "Any sentence starting with a sequencing adverbial ('next'/'then') is acceptable."
+    "correctOptionId": "opt1",
+    "explanation": "'Next' is a sequencing adverbial that shows what happened after the sauce was prepared."
   },
   {
     "subjectSlug": "grammar",
@@ -3709,12 +3905,28 @@
     "strandSlug": "relative-clauses",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-REL-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Rewrite this sentence, omitting the relative pronoun where possible: 'The film that we watched last night was terrifying.'",
-    "acceptedAnswers": [
-      "the film we watched last night was terrifying"
+    "promptText": "Which sentence correctly omits the relative pronoun from 'The film that we watched last night was terrifying.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The film we watched last night was terrifying."
+      },
+      {
+        "id": "opt2",
+        "text": "The film that we watched last night was terrifying."
+      },
+      {
+        "id": "opt3",
+        "text": "The film we that watched last night was terrifying."
+      },
+      {
+        "id": "opt4",
+        "text": "We watched the film last night that was terrifying."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "'That' can be dropped because it is the object of the relative clause, not the subject."
   },
   {
@@ -3751,13 +3963,29 @@
     "strandSlug": "relative-clauses",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-REL-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Combine using an omitted relative pronoun: 'This is the photograph. My uncle took the photograph in 1985.'",
-    "acceptedAnswers": [
-      "this is the photograph my uncle took in 1985"
+    "promptText": "Which sentence correctly combines these using an omitted relative pronoun: 'This is the photograph. My uncle took the photograph in 1985.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "This is the photograph my uncle took in 1985."
+      },
+      {
+        "id": "opt2",
+        "text": "This is the photograph that my uncle took in 1985."
+      },
+      {
+        "id": "opt3",
+        "text": "My uncle took this is the photograph in 1985."
+      },
+      {
+        "id": "opt4",
+        "text": "This is the photograph, my uncle took in 1985."
+      }
     ],
-    "explanation": "Since 'the photograph' is the object of 'took', the relative pronoun 'that/which' can be omitted for a more concise, formal style."
+    "correctOptionId": "opt1",
+    "explanation": "Since 'the photograph' is the object of 'took', the relative pronoun 'that/which' can be omitted for a concise, formal style."
   },
   {
     "subjectSlug": "grammar",
@@ -3793,12 +4021,28 @@
     "strandSlug": "relative-clauses",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-REL-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Rewrite formally, omitting the relative pronoun: 'The decision that the judges reached surprised everyone.'",
-    "acceptedAnswers": [
-      "the decision the judges reached surprised everyone"
+    "promptText": "Which sentence correctly rewrites this formally, omitting the relative pronoun: 'The decision that the judges reached surprised everyone.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The decision the judges reached surprised everyone."
+      },
+      {
+        "id": "opt2",
+        "text": "The decision that the judges reached surprised everyone."
+      },
+      {
+        "id": "opt3",
+        "text": "The judges reached the decision surprised everyone."
+      },
+      {
+        "id": "opt4",
+        "text": "The decision the judges that reached surprised everyone."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "'That' is the object of 'reached' so it can be dropped for concise, formal writing."
   },
   {
@@ -3835,14 +4079,29 @@
     "strandSlug": "modal-verbs",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-MOD-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Rewrite using a modal verb to show strong obligation: 'You attend the meeting.'",
-    "acceptedAnswers": [
-      "you must attend the meeting",
-      "you should attend the meeting"
+    "promptText": "Which sentence correctly uses a modal verb to show strong obligation: 'You attend the meeting.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "You must attend the meeting."
+      },
+      {
+        "id": "opt2",
+        "text": "You might attend the meeting."
+      },
+      {
+        "id": "opt3",
+        "text": "You could attend the meeting."
+      },
+      {
+        "id": "opt4",
+        "text": "You attend the meeting maybe."
+      }
     ],
-    "explanation": "'Must' expresses strong obligation appropriate for a formal instruction."
+    "correctOptionId": "opt1",
+    "explanation": "'Must' expresses strong obligation, unlike the weaker possibility modals 'might'/'could'."
   },
   {
     "subjectSlug": "grammar",
@@ -3878,15 +4137,29 @@
     "strandSlug": "modal-verbs",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-MOD-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite this informal sentence formally, keeping the same degree of possibility: 'It might be true, I reckon.'",
-    "acceptedAnswers": [
-      "it may be true",
-      "it might be true",
-      "it could be true"
+    "promptText": "Which sentence correctly rewrites this formally, keeping the same degree of possibility: 'It might be true, I reckon.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "It might be true."
+      },
+      {
+        "id": "opt2",
+        "text": "It must be true."
+      },
+      {
+        "id": "opt3",
+        "text": "It is true, I reckon."
+      },
+      {
+        "id": "opt4",
+        "text": "I reckon it might be true."
+      }
     ],
-    "explanation": "Formal register replaces informal phrases such as 'I reckon' with a modal verb like 'may' or 'might'."
+    "correctOptionId": "opt1",
+    "explanation": "Formal register drops the informal 'I reckon' while keeping the modal verb 'might' for the same degree of possibility."
   },
   {
     "subjectSlug": "grammar",
@@ -3922,29 +4195,58 @@
     "strandSlug": "modal-verbs",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-MOD-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Write a formal sentence expressing a small degree of possibility that the results are inaccurate, using a modal verb.",
-    "acceptedAnswers": [
-      "the results may be inaccurate",
-      "the results might be inaccurate",
-      "the results could be inaccurate"
+    "promptText": "Which sentence formally expresses a small degree of possibility that the results are inaccurate, using a modal verb?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The results may be inaccurate."
+      },
+      {
+        "id": "opt2",
+        "text": "The results must be inaccurate."
+      },
+      {
+        "id": "opt3",
+        "text": "The results are definitely inaccurate."
+      },
+      {
+        "id": "opt4",
+        "text": "The results are probably accurate."
+      }
     ],
-    "explanation": "Modal verbs such as 'may', 'might' or 'could' are used formally to express a small degree of possibility."
+    "correctOptionId": "opt1",
+    "explanation": "'May' expresses a small degree of possibility, unlike 'must'/'definitely', which express certainty."
   },
   {
     "subjectSlug": "grammar",
     "strandSlug": "fronted-adverbials",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-FRO-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Write a sentence beginning with a fronted adverbial of manner, describing how a dancer moved.",
-    "acceptedAnswers": [
-      "gracefully, the dancer moved across the stage",
-      "elegantly, the dancer moved across the stage"
+    "promptText": "Which sentence correctly begins with a fronted adverbial of manner, describing how a dancer moved?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Gracefully, the dancer moved across the stage."
+      },
+      {
+        "id": "opt2",
+        "text": "The dancer moved across the stage gracefully."
+      },
+      {
+        "id": "opt3",
+        "text": "Gracefully the dancer moved across the stage."
+      },
+      {
+        "id": "opt4",
+        "text": "The graceful dancer moved across the stage."
+      }
     ],
-    "explanation": "A fronted adverbial of manner describes how something happens and is followed by a comma."
+    "correctOptionId": "opt1",
+    "explanation": "'Gracefully' fronts the sentence and is followed by a comma, describing how the dancer moved."
   },
   {
     "subjectSlug": "grammar",
@@ -3977,14 +4279,29 @@
     "strandSlug": "fronted-adverbials",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-FRO-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Write a sentence beginning with a fronted adverbial of probability about whether a team will win.",
-    "acceptedAnswers": [
-      "surely, the team will win the match",
-      "almost certainly, the team will win the match"
+    "promptText": "Which sentence correctly begins with a fronted adverbial of probability about whether a team will win?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Surely, the team will win the match."
+      },
+      {
+        "id": "opt2",
+        "text": "The team will surely win the match."
+      },
+      {
+        "id": "opt3",
+        "text": "Surely the team will win the match."
+      },
+      {
+        "id": "opt4",
+        "text": "The team, surely, will win the match."
+      }
     ],
-    "explanation": "A fronted adverbial of probability (e.g. 'surely', 'almost certainly') expresses how likely something is."
+    "correctOptionId": "opt1",
+    "explanation": "'Surely' fronts the sentence and is followed by a comma, expressing how likely the win is."
   },
   {
     "subjectSlug": "grammar",
@@ -4017,14 +4334,29 @@
     "strandSlug": "fronted-adverbials",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-FRO-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Rewrite this paragraph opening using a varied fronted adverbial of time (not 'suddenly' or 'later'): 'The bell rang and the exam began.'",
-    "acceptedAnswers": [
-      "promptly at nine o'clock, the bell rang and the exam began",
-      "at nine o'clock sharp, the bell rang and the exam began"
+    "promptText": "Which sentence correctly rewrites this using a varied fronted adverbial of time (not 'suddenly' or 'later'): 'The bell rang and the exam began.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "At nine o'clock sharp, the bell rang and the exam began."
+      },
+      {
+        "id": "opt2",
+        "text": "Suddenly, the bell rang and the exam began."
+      },
+      {
+        "id": "opt3",
+        "text": "Later, the bell rang and the exam began."
+      },
+      {
+        "id": "opt4",
+        "text": "The bell rang and the exam began at nine o'clock sharp."
+      }
     ],
-    "explanation": "A fronted adverbial of time signals when the action happens and adds variety beyond overused words like 'suddenly'."
+    "correctOptionId": "opt1",
+    "explanation": "'At nine o'clock sharp' is a fronted adverbial of time that avoids the overused 'suddenly'/'later'."
   },
   {
     "subjectSlug": "grammar",
@@ -4086,14 +4418,29 @@
     "strandSlug": "parenthesis",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PAR-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite this sentence using dashes instead of brackets for a more dramatic, informal effect: 'The winner (much to everyone's surprise) was the youngest competitor.'",
-    "acceptedAnswers": [
-      "the winner — much to everyone's surprise — was the youngest competitor",
-      "the winner - much to everyone's surprise - was the youngest competitor"
+    "promptText": "Which sentence correctly uses dashes instead of brackets for a more dramatic, informal effect: 'The winner (much to everyone's surprise) was the youngest competitor.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The winner — much to everyone's surprise — was the youngest competitor."
+      },
+      {
+        "id": "opt2",
+        "text": "The winner (much to everyone's surprise) was the youngest competitor."
+      },
+      {
+        "id": "opt3",
+        "text": "The winner, much to everyone's surprise, was the youngest competitor."
+      },
+      {
+        "id": "opt4",
+        "text": "The winner — much to everyone's surprise, was the youngest competitor."
+      }
     ],
-    "explanation": "Dashes create a more dramatic, informal interruption than brackets, which suit a formal aside."
+    "correctOptionId": "opt1",
+    "explanation": "A pair of dashes replaces the brackets, creating a more dramatic, informal interruption."
   },
   {
     "subjectSlug": "grammar",
@@ -4158,14 +4505,29 @@
     "strandSlug": "parenthesis",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PAR-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Rewrite this sentence for a formal essay, replacing the dashes with a more suitable form of parenthesis: 'The volcano — dormant for over a century — erupted without warning.'",
-    "acceptedAnswers": [
-      "the volcano (dormant for over a century) erupted without warning",
-      "the volcano, dormant for over a century, erupted without warning"
+    "promptText": "Which sentence correctly replaces the dashes with a more suitable form of parenthesis for a formal essay: 'The volcano — dormant for over a century — erupted without warning.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The volcano (dormant for over a century) erupted without warning."
+      },
+      {
+        "id": "opt2",
+        "text": "The volcano — dormant for over a century — erupted without warning."
+      },
+      {
+        "id": "opt3",
+        "text": "The volcano, dormant for over a century — erupted without warning."
+      },
+      {
+        "id": "opt4",
+        "text": "The volcano dormant for over a century erupted without warning."
+      }
     ],
-    "explanation": "Brackets or commas suit formal essay writing better than dashes, which feel more dramatic and informal."
+    "correctOptionId": "opt1",
+    "explanation": "Brackets suit formal essay writing better than dashes, which feel more dramatic and informal."
   },
   {
     "subjectSlug": "grammar",
@@ -4230,14 +4592,29 @@
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ENP-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Expand this noun phrase economically using one adjective and one prepositional phrase: 'the bridge'",
-    "acceptedAnswers": [
-      "the narrow bridge over the river",
-      "the old stone bridge across the gorge"
+    "promptText": "Which of these economically expands 'the bridge' using one adjective and one prepositional phrase?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "the narrow bridge over the river"
+      },
+      {
+        "id": "opt2",
+        "text": "the bridge"
+      },
+      {
+        "id": "opt3",
+        "text": "the narrow, old, ancient bridge"
+      },
+      {
+        "id": "opt4",
+        "text": "the bridge over the river that is narrow"
+      }
     ],
-    "explanation": "Combining a single precise adjective with a prepositional phrase adds detail without unnecessary wordiness."
+    "correctOptionId": "opt1",
+    "explanation": "'Narrow' (adjective) plus 'over the river' (prepositional phrase) adds precise detail economically."
   },
   {
     "subjectSlug": "grammar",
@@ -4273,28 +4650,58 @@
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ENP-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite this noun phrase more precisely and economically, using a modifying noun instead of a wordy description: 'a door that is made of oak'",
-    "acceptedAnswers": [
-      "the oak door",
-      "an oak door"
+    "promptText": "Which of these rewrites 'a door that is made of oak' more precisely and economically, using a modifying noun?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "the oak door"
+      },
+      {
+        "id": "opt2",
+        "text": "a door that is made of oak"
+      },
+      {
+        "id": "opt3",
+        "text": "a door of oak material"
+      },
+      {
+        "id": "opt4",
+        "text": "the oaken made door"
+      }
     ],
-    "explanation": "A modifying noun ('oak') expresses the same information far more economically than a relative clause."
+    "correctOptionId": "opt1",
+    "explanation": "'Oak' used as a modifying noun expresses the same information far more economically than the wordy relative clause."
   },
   {
     "subjectSlug": "grammar",
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ENP-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Expand 'the letter' precisely and economically using an adjective, a modifying noun and a prepositional phrase.",
-    "acceptedAnswers": [
-      "the crumpled parchment letter from her grandfather",
-      "the faded handwritten letter on the desk"
+    "promptText": "Which of these expands 'the letter' precisely and economically using an adjective, a modifying noun and a prepositional phrase?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "the crumpled parchment letter from her grandfather"
+      },
+      {
+        "id": "opt2",
+        "text": "the letter"
+      },
+      {
+        "id": "opt3",
+        "text": "the crumpled letter"
+      },
+      {
+        "id": "opt4",
+        "text": "letter crumpled parchment grandfather her from the"
+      }
     ],
-    "explanation": "Combining an adjective, a modifying noun and a prepositional phrase packs maximum precision into a concise phrase."
+    "correctOptionId": "opt1",
+    "explanation": "Combining an adjective ('crumpled'), a modifying noun ('parchment') and a prepositional phrase ('from her grandfather') packs maximum precision into a concise phrase."
   },
   {
     "subjectSlug": "grammar",
@@ -4388,14 +4795,28 @@
     "strandSlug": "prefixes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PRE-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Use your knowledge of prefixes to infer the meaning of 'overreact'.",
-    "acceptedAnswers": [
-      "to react too much",
-      "to react excessively",
-      "to react more strongly than necessary"
+    "promptText": "Using your knowledge of prefixes, what does 'overreact' mean?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "To react too much"
+      },
+      {
+        "id": "opt2",
+        "text": "To react again"
+      },
+      {
+        "id": "opt3",
+        "text": "To not react at all"
+      },
+      {
+        "id": "opt4",
+        "text": "To react wrongly"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "'Over-' means 'too much', so 'overreact' means to react excessively to something."
   },
   {
@@ -4432,13 +4853,28 @@
     "strandSlug": "prefixes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PRE-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Using prefix knowledge, explain what 'misinform' means.",
-    "acceptedAnswers": [
-      "to give someone wrong or incorrect information",
-      "to inform someone incorrectly"
+    "promptText": "Using your knowledge of prefixes, what does 'misinform' mean?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "To give someone wrong or incorrect information"
+      },
+      {
+        "id": "opt2",
+        "text": "To inform someone again"
+      },
+      {
+        "id": "opt3",
+        "text": "To inform someone too much"
+      },
+      {
+        "id": "opt4",
+        "text": "To refuse to inform someone"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "'Mis-' means 'wrongly', so 'misinform' means to give incorrect information."
   },
   {
@@ -4974,13 +5410,28 @@
     "strandSlug": "sentence-structure",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-SEN-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Identify the sentence type: 'Because the bridge was closed, we took a longer route home.'",
-    "acceptedAnswers": [
-      "complex",
-      "complex sentence"
+    "promptText": "What type of sentence is this: 'Because the bridge was closed, we took a longer route home.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Complex"
+      },
+      {
+        "id": "opt2",
+        "text": "Simple"
+      },
+      {
+        "id": "opt3",
+        "text": "Compound"
+      },
+      {
+        "id": "opt4",
+        "text": "Compound-complex"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "This sentence has a subordinate clause ('Because the bridge was closed') and a main clause, making it complex."
   },
   {
@@ -4988,14 +5439,29 @@
     "strandSlug": "sentence-structure",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-SEN-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite these two simple sentences as one compound sentence: 'The wind howled. The trees swayed violently.'",
-    "acceptedAnswers": [
-      "the wind howled and the trees swayed violently",
-      "the wind howled, and the trees swayed violently"
+    "promptText": "Which sentence correctly combines these as one compound sentence: 'The wind howled. The trees swayed violently.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The wind howled, and the trees swayed violently."
+      },
+      {
+        "id": "opt2",
+        "text": "The wind howled because the trees swayed violently."
+      },
+      {
+        "id": "opt3",
+        "text": "The wind howled, the trees swayed violently."
+      },
+      {
+        "id": "opt4",
+        "text": "Howling, the wind made the trees sway violently."
+      }
     ],
-    "explanation": "Joining two independent clauses with 'and' creates a compound sentence."
+    "correctOptionId": "opt1",
+    "explanation": "Joining the two independent clauses with 'and' (plus a comma) creates a compound sentence."
   },
   {
     "subjectSlug": "grammar",
@@ -5089,14 +5555,29 @@
     "strandSlug": "sentence-structure",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-SEN-2",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite this sentence in a more formal register: 'The boss wants everyone to turn up on time.'",
-    "acceptedAnswers": [
-      "the manager requests that everyone arrive on time",
-      "the manager requires that all staff arrive punctually"
+    "promptText": "Which sentence correctly rewrites this in a more formal register: 'The boss wants everyone to turn up on time.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The manager requests that everyone arrive on time."
+      },
+      {
+        "id": "opt2",
+        "text": "The boss wants everyone to turn up on time."
+      },
+      {
+        "id": "opt3",
+        "text": "The manager wants everyone to turn up on time."
+      },
+      {
+        "id": "opt4",
+        "text": "The boss requests everyone arrives on time please."
+      }
     ],
-    "explanation": "Formal register replaces informal words ('boss', 'turn up') with more precise, elevated vocabulary."
+    "correctOptionId": "opt1",
+    "explanation": "Formal register replaces informal words ('boss', 'turn up') with more precise, elevated vocabulary throughout."
   },
   {
     "subjectSlug": "grammar",
@@ -5132,15 +5613,29 @@
     "strandSlug": "sentence-structure",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-SEN-2",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Rewrite formally, using a subjunctive structure: 'The doctor said, \"You should rest.\"'",
-    "acceptedAnswers": [
-      "the doctor recommended that she rest",
-      "the doctor recommended that he rest",
-      "the doctor suggested that the patient rest"
+    "promptText": "Which sentence correctly rewrites this formally, using a subjunctive structure: 'The doctor said, \"You should rest.\"'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The doctor recommended that she rest."
+      },
+      {
+        "id": "opt2",
+        "text": "The doctor recommended that she rests."
+      },
+      {
+        "id": "opt3",
+        "text": "The doctor said that she should rest."
+      },
+      {
+        "id": "opt4",
+        "text": "The doctor recommended she is resting."
+      }
     ],
-    "explanation": "Verbs like 'recommend' and 'suggest' trigger the subjunctive, which uses the base form of the verb ('rest') regardless of subject."
+    "correctOptionId": "opt1",
+    "explanation": "Verbs like 'recommend' trigger the subjunctive, which uses the base form of the verb ('rest') regardless of subject."
   },
   {
     "subjectSlug": "grammar",
@@ -5756,15 +6251,29 @@
     "strandSlug": "cohesion",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-COH-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite the second sentence using ellipsis to avoid repetition: 'Sam wanted to play football. Jess wanted to play football too.'",
-    "acceptedAnswers": [
-      "jess did too",
-      "so did jess",
-      "jess wanted to as well"
+    "promptText": "Which version of the second sentence correctly uses ellipsis to avoid repetition: 'Sam wanted to play football. Jess wanted to play football too.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Jess did too."
+      },
+      {
+        "id": "opt2",
+        "text": "Jess wanted to play football too."
+      },
+      {
+        "id": "opt3",
+        "text": "Jess wanted to play football, Sam too."
+      },
+      {
+        "id": "opt4",
+        "text": "Jess did football too."
+      }
     ],
-    "explanation": "Ellipsis omits the repeated words ('play football'), relying on the reader to infer them from context."
+    "correctOptionId": "opt1",
+    "explanation": "Ellipsis omits the repeated words ('wanted to play football'), relying on the reader to infer them from context."
   },
   {
     "subjectSlug": "grammar",
@@ -5799,13 +6308,28 @@
     "strandSlug": "cohesion",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-COH-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Write a follow-up sentence that links back using deliberate repetition of a key word or phrase: 'The old library held thousands of forgotten books.'",
-    "acceptedAnswers": [
-      "those forgotten books had not been opened in decades",
-      "the forgotten books were finally rediscovered by a curious student"
+    "promptText": "Which follow-up sentence correctly links back using deliberate repetition of a key phrase: 'The old library held thousands of forgotten books.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Those forgotten books had not been opened in decades."
+      },
+      {
+        "id": "opt2",
+        "text": "They had not been opened in decades."
+      },
+      {
+        "id": "opt3",
+        "text": "The library was very old."
+      },
+      {
+        "id": "opt4",
+        "text": "Decades opened not had books forgotten those."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "Repeating the phrase 'forgotten books' creates cohesion by explicitly linking the two sentences."
   },
   {
@@ -5841,14 +6365,28 @@
     "strandSlug": "cohesion",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-COH-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Rewrite the second sentence using ellipsis to avoid repetition: 'Maya had finished her project. Leo had finished his project as well.'",
-    "acceptedAnswers": [
-      "leo had too",
-      "so had leo",
-      "leo had as well"
+    "promptText": "Which version of the second sentence correctly uses ellipsis to avoid repetition: 'Maya had finished her project. Leo had finished his project as well.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Leo had too."
+      },
+      {
+        "id": "opt2",
+        "text": "Leo had finished his project as well."
+      },
+      {
+        "id": "opt3",
+        "text": "Leo too had finished."
+      },
+      {
+        "id": "opt4",
+        "text": "So Leo had finished."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "Ellipsis omits 'finished his project', which is understood from the first sentence."
   },
   {
@@ -5970,13 +6508,28 @@
     "strandSlug": "active-passive-voice",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ACT-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite this sentence in the passive voice: 'The council will repair the road next month.'",
-    "acceptedAnswers": [
-      "the road will be repaired by the council next month",
-      "the road will be repaired next month"
+    "promptText": "Which sentence correctly rewrites this in the passive voice: 'The council will repair the road next month.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The road will be repaired by the council next month."
+      },
+      {
+        "id": "opt2",
+        "text": "The council will repair the road next month."
+      },
+      {
+        "id": "opt3",
+        "text": "The road will repair the council next month."
+      },
+      {
+        "id": "opt4",
+        "text": "The road was repaired by the council next month."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "The passive voice moves the object ('the road') to the subject position, using 'will be' + past participle."
   },
   {
@@ -6042,12 +6595,28 @@
     "strandSlug": "active-passive-voice",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ACT-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite this passive sentence in the active voice: 'The trophy was presented to the winner by the mayor.'",
-    "acceptedAnswers": [
-      "the mayor presented the trophy to the winner"
+    "promptText": "Which sentence correctly rewrites this in the active voice: 'The trophy was presented to the winner by the mayor.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The mayor presented the trophy to the winner."
+      },
+      {
+        "id": "opt2",
+        "text": "The trophy was presented to the winner by the mayor."
+      },
+      {
+        "id": "opt3",
+        "text": "The winner presented the trophy to the mayor."
+      },
+      {
+        "id": "opt4",
+        "text": "The trophy presented the mayor to the winner."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "In the active voice, the mayor (the doer of the action) becomes the subject of the sentence."
   },
   {
@@ -6084,13 +6653,28 @@
     "strandSlug": "active-passive-voice",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ACT-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Explain why a newspaper headline might use the passive voice: 'Local park vandalised overnight.'",
-    "acceptedAnswers": [
-      "to focus attention on the event/park rather than on who did it, especially when the culprit is unknown",
-      "because the person responsible is unknown or unimportant, so the focus stays on what happened"
+    "promptText": "Why might a newspaper headline use the passive voice, as in 'Local park vandalised overnight'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "To focus attention on the event rather than on who did it, especially when the culprit is unknown"
+      },
+      {
+        "id": "opt2",
+        "text": "To make the sentence longer and more formal"
+      },
+      {
+        "id": "opt3",
+        "text": "Because active voice cannot be used in headlines"
+      },
+      {
+        "id": "opt4",
+        "text": "To clearly name who is responsible for the vandalism"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "The passive voice foregrounds the event itself when the agent is unknown or less important than the outcome."
   },
   {
@@ -6185,12 +6769,28 @@
     "strandSlug": "subjunctive-form",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-SUBJ-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite using the subjunctive: 'If I am you, I would apologise.'",
-    "acceptedAnswers": [
-      "if i were you, i would apologise"
+    "promptText": "Which sentence correctly rewrites this using the subjunctive: 'If I am you, I would apologise.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "If I were you, I would apologise."
+      },
+      {
+        "id": "opt2",
+        "text": "If I am you, I would apologise."
+      },
+      {
+        "id": "opt3",
+        "text": "If I was you, I would apologise."
+      },
+      {
+        "id": "opt4",
+        "text": "If I were you, I will apologise."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "The subjunctive 'were' is used for hypothetical situations contrary to fact, regardless of subject."
   },
   {
@@ -6227,12 +6827,28 @@
     "strandSlug": "subjunctive-form",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-SUBJ-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Rewrite formally using the subjunctive: 'The headteacher insisted, \"Every student must arrive on time.\"'",
-    "acceptedAnswers": [
-      "the headteacher insisted that every student arrive on time"
+    "promptText": "Which sentence correctly rewrites this formally using the subjunctive: 'The headteacher insisted, \"Every student must arrive on time.\"'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The headteacher insisted that every student arrive on time."
+      },
+      {
+        "id": "opt2",
+        "text": "The headteacher insisted that every student arrives on time."
+      },
+      {
+        "id": "opt3",
+        "text": "The headteacher insisted every student must arrive on time."
+      },
+      {
+        "id": "opt4",
+        "text": "The headteacher insisted that every student arrived on time."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "'Insisted that' triggers the subjunctive, which uses the base form 'arrive' rather than 'arrives'."
   },
   {
@@ -6675,13 +7291,28 @@
     "strandSlug": "semicolons-colons-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PUNC-3",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Explain the difference in meaning between 'a hot water bottle' and 'a hot-water bottle'.",
-    "acceptedAnswers": [
-      "a hot-water bottle is a bottle for holding hot water, while a hot water bottle could mean a water bottle that is hot",
-      "hot-water bottle means a bottle designed to hold hot water; without the hyphen it could mean the bottle itself is hot"
+    "promptText": "What is the difference in meaning between 'a hot water bottle' and 'a hot-water bottle'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "A hot-water bottle is a bottle for holding hot water, while a hot water bottle could mean a water bottle that is hot"
+      },
+      {
+        "id": "opt2",
+        "text": "There is no difference in meaning between the two"
+      },
+      {
+        "id": "opt3",
+        "text": "A hot-water bottle means the bottle itself is hot, while a hot water bottle holds hot water"
+      },
+      {
+        "id": "opt4",
+        "text": "The hyphen only affects pronunciation, not meaning"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "The hyphen links 'hot' and 'water' as a single modifier describing the type of bottle, avoiding ambiguity."
   },
   {
@@ -6718,13 +7349,28 @@
     "strandSlug": "semicolons-colons-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PUNC-3",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Explain how a hyphen changes the meaning between 're-form' and 'reform'.",
-    "acceptedAnswers": [
-      "re-form means to form again, while reform means to improve or change a system",
-      "re-form means to form something again; reform means to make improvements to something"
+    "promptText": "How does a hyphen change the meaning between 're-form' and 'reform'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Re-form means to form again, while reform means to improve or change a system"
+      },
+      {
+        "id": "opt2",
+        "text": "Reform means to form again, while re-form means to improve a system"
+      },
+      {
+        "id": "opt3",
+        "text": "There is no difference between re-form and reform"
+      },
+      {
+        "id": "opt4",
+        "text": "The hyphen makes 're-form' informal and 'reform' formal"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "The hyphen distinguishes 're-form' (to form again) from 'reform' (to improve or change)."
   },
   {
@@ -6732,14 +7378,29 @@
     "strandSlug": "semicolons-colons-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PUNC-3",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Explain the ambiguity in the phrase 'a man eating shark' and show how a hyphen fixes it.",
-    "acceptedAnswers": [
-      "without a hyphen it could mean a shark that is eating a man; man-eating shark with a hyphen means a shark that eats people",
-      "man eating shark is ambiguous because it could describe a man eating shark meat; the hyphen in man-eating shark shows the shark eats humans"
+    "promptText": "How does a hyphen fix the ambiguity in the phrase 'a man eating shark'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Without a hyphen it could mean a shark that is eating a man; 'man-eating shark' with a hyphen means a shark that eats people"
+      },
+      {
+        "id": "opt2",
+        "text": "The phrase has no ambiguity, with or without a hyphen"
+      },
+      {
+        "id": "opt3",
+        "text": "Without a hyphen it means the shark is being eaten by the man; the hyphen changes nothing"
+      },
+      {
+        "id": "opt4",
+        "text": "The hyphen changes 'shark' into an adjective describing the man"
+      }
     ],
-    "explanation": "Without the hyphen, 'man eating shark' could describe a man who is eating shark meat; the hyphen fixes 'man-eating' as a single adjective describing the shark's diet."
+    "correctOptionId": "opt1",
+    "explanation": "Without the hyphen, 'man eating shark' could describe a man eating shark meat; the hyphen fixes 'man-eating' as a single adjective describing the shark's diet."
   },
   {
     "subjectSlug": "grammar",
@@ -6984,13 +7645,28 @@
     "strandSlug": "layout-devices",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-LAY-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "bronze",
-    "promptText": "Give one reason why a recipe uses bullet points to list ingredients rather than a full paragraph.",
-    "acceptedAnswers": [
-      "bullet points make each ingredient easy to see and read quickly, rather than searching through a paragraph",
-      "bullet points make the list clear and easy to scan compared to a continuous paragraph"
+    "promptText": "Why might a recipe use bullet points to list ingredients rather than a full paragraph?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Bullet points make each ingredient easy to see and read quickly, rather than searching through a paragraph"
+      },
+      {
+        "id": "opt2",
+        "text": "Bullet points use fewer letters than paragraphs"
+      },
+      {
+        "id": "opt3",
+        "text": "Paragraphs are not allowed in recipes"
+      },
+      {
+        "id": "opt4",
+        "text": "Bullet points make the recipe sound more formal"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "Bullet points present list items clearly and concisely, making them faster to scan than a dense paragraph."
   },
   {
@@ -6998,13 +7674,28 @@
     "strandSlug": "layout-devices",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-LAY-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Explain why a non-fiction text about volcanoes might use sub-headings.",
-    "acceptedAnswers": [
-      "to break the information into smaller, organised sections so readers can find specific information quickly",
-      "sub-headings organise the text into clear sections, making it easier for readers to locate information"
+    "promptText": "Why might a non-fiction text about volcanoes use sub-headings?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "To break the information into smaller, organised sections so readers can find specific information quickly"
+      },
+      {
+        "id": "opt2",
+        "text": "To make the text look more colourful"
+      },
+      {
+        "id": "opt3",
+        "text": "Because paragraphs are not allowed in non-fiction texts"
+      },
+      {
+        "id": "opt4",
+        "text": "To make the text longer"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "Sub-headings divide information into clear, organised sections, helping readers locate facts quickly."
   },
   {
@@ -7041,13 +7732,28 @@
     "strandSlug": "layout-devices",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-LAY-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "A pupil is writing an information text about the rainforest with sections on 'Climate', 'Animals' and 'Plants'. Explain how headings would help organise this text.",
-    "acceptedAnswers": [
-      "headings would let the reader quickly find the section they want, such as jumping straight to 'Animals'",
-      "headings would clearly separate each topic so readers can navigate the text and find information easily"
+    "promptText": "A pupil is writing an information text about the rainforest with sections on 'Climate', 'Animals' and 'Plants'. How would headings help organise this text?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Headings would let the reader quickly find the section they want, such as jumping straight to 'Animals'"
+      },
+      {
+        "id": "opt2",
+        "text": "Headings would make each section shorter automatically"
+      },
+      {
+        "id": "opt3",
+        "text": "Headings are only needed if the text has pictures"
+      },
+      {
+        "id": "opt4",
+        "text": "Headings replace the need for full sentences"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "Headings act as signposts, allowing readers to locate the specific section they need without reading the whole text."
   },
   {
@@ -7142,12 +7848,28 @@
     "strandSlug": "brackets-dashes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-BRA-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Combine these two sentences using a single dash: 'The explorers ran out of supplies. They had to turn back three days from the summit.'",
-    "acceptedAnswers": [
-      "the explorers ran out of supplies — they had to turn back three days from the summit"
+    "promptText": "Which sentence correctly combines these using a single dash: 'The explorers ran out of supplies. They had to turn back three days from the summit.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The explorers ran out of supplies — they had to turn back three days from the summit."
+      },
+      {
+        "id": "opt2",
+        "text": "The explorers ran out of supplies. They had to turn back three days from the summit."
+      },
+      {
+        "id": "opt3",
+        "text": "The explorers ran out of supplies, they had to turn back three days from the summit."
+      },
+      {
+        "id": "opt4",
+        "text": "The explorers ran out of supplies — — they had to turn back three days from the summit."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "A single dash can replace the full stop between two closely related independent clauses for effect."
   },
   {
@@ -7184,14 +7906,29 @@
     "strandSlug": "cohesion",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-COH-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Rewrite the second sentence using a grammatical connection (a pronoun) instead of repeating the noun: 'The scientist studied the samples. The samples revealed a surprising pattern.'",
-    "acceptedAnswers": [
-      "the scientist studied the samples. they revealed a surprising pattern",
-      "the scientist studied the samples, which revealed a surprising pattern"
+    "promptText": "Which version of the second sentence correctly uses a pronoun instead of repeating the noun: 'The scientist studied the samples. The samples revealed a surprising pattern.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The scientist studied the samples. They revealed a surprising pattern."
+      },
+      {
+        "id": "opt2",
+        "text": "The scientist studied the samples. The samples revealed a surprising pattern."
+      },
+      {
+        "id": "opt3",
+        "text": "The scientist studied the samples. It revealed a surprising pattern."
+      },
+      {
+        "id": "opt4",
+        "text": "The scientist studied it. The samples revealed a surprising pattern."
+      }
     ],
-    "explanation": "Replacing 'the samples' with a pronoun such as 'they' or 'which' links the sentences cohesively without clunky repetition."
+    "correctOptionId": "opt1",
+    "explanation": "Replacing 'the samples' with the plural pronoun 'they' links the sentences cohesively without clunky repetition."
   },
   {
     "subjectSlug": "grammar",
@@ -7226,15 +7963,29 @@
     "strandSlug": "cohesion",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-COH-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Write a sentence that could open a new paragraph, using repetition of the phrase 'the ancient forest' to link back to a previous paragraph about deforestation.",
-    "acceptedAnswers": [
-      "the ancient forest had stood for a thousand years",
-      "the ancient forest was disappearing fast",
-      "the ancient forest still held many secrets"
+    "promptText": "Which sentence could correctly open a new paragraph, using repetition of the phrase 'the ancient forest' to link back to a previous paragraph about deforestation?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The ancient forest had stood for a thousand years."
+      },
+      {
+        "id": "opt2",
+        "text": "It had stood for a thousand years."
+      },
+      {
+        "id": "opt3",
+        "text": "Forests are important for wildlife."
+      },
+      {
+        "id": "opt4",
+        "text": "Thousand a for stood had forest ancient the years."
+      }
     ],
-    "explanation": "Deliberately repeating a key phrase ('the ancient forest') across paragraph boundaries is a cohesive device that keeps the reader anchored to the topic."
+    "correctOptionId": "opt1",
+    "explanation": "Deliberately repeating the key phrase 'the ancient forest' across paragraph boundaries keeps the reader anchored to the topic."
   },
   {
     "subjectSlug": "grammar",
@@ -7386,14 +8137,28 @@
     "strandSlug": "expanded-noun-phrases",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-ENP-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite 'the cottage' as an expanded noun phrase that gives precise detail using both a modifying adjective and a prepositional phrase.",
-    "acceptedAnswers": [
-      "the crumbling cottage at the edge of the woods",
-      "the small cottage beside the river",
-      "the abandoned cottage at the top of the hill"
+    "promptText": "Which of these expands 'the cottage' precisely using both a modifying adjective and a prepositional phrase?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "the crumbling cottage at the edge of the woods"
+      },
+      {
+        "id": "opt2",
+        "text": "the cottage"
+      },
+      {
+        "id": "opt3",
+        "text": "the crumbling, old, ancient cottage"
+      },
+      {
+        "id": "opt4",
+        "text": "the cottage at the edge of the woods that is crumbling"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "Combining an adjective ('crumbling') with a prepositional phrase ('at the edge of the woods') builds precision economically."
   },
   {
@@ -7430,17 +8195,29 @@
     "strandSlug": "fronted-adverbials",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-FRO-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Write a fronted adverbial of probability to begin this sentence: '___, the match will be postponed if the rain continues.'",
-    "acceptedAnswers": [
-      "surely",
-      "perhaps",
-      "almost certainly",
-      "without doubt",
-      "in all likelihood"
+    "promptText": "Which word correctly completes this fronted adverbial of probability: '___, the match will be postponed if the rain continues.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Surely"
+      },
+      {
+        "id": "opt2",
+        "text": "Quickly"
+      },
+      {
+        "id": "opt3",
+        "text": "Yesterday"
+      },
+      {
+        "id": "opt4",
+        "text": "Nearby"
+      }
     ],
-    "explanation": "Fronted adverbials of probability (e.g. 'Almost certainly', 'Surely') signal how likely an event is."
+    "correctOptionId": "opt1",
+    "explanation": "'Surely' is an adverbial of probability, signalling how likely the postponement is — 'quickly' (manner), 'yesterday' (time) and 'nearby' (place) are the wrong kind of adverbial."
   },
   {
     "subjectSlug": "grammar",
@@ -7473,13 +8250,29 @@
     "strandSlug": "fronted-adverbials",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-FRO-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Rewrite this sentence to begin with a fronted adverbial of time: 'The lights flickered off just as the storm reached its peak.'",
-    "acceptedAnswers": [
-      "just as the storm reached its peak, the lights flickered off"
+    "promptText": "Which sentence correctly begins with a fronted adverbial of time: 'The lights flickered off just as the storm reached its peak.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Just as the storm reached its peak, the lights flickered off."
+      },
+      {
+        "id": "opt2",
+        "text": "The lights flickered off just as the storm reached its peak."
+      },
+      {
+        "id": "opt3",
+        "text": "Just as the storm reached its peak the lights flickered off."
+      },
+      {
+        "id": "opt4",
+        "text": "The storm reached its peak, just as the lights flickered off."
+      }
     ],
-    "explanation": "Moving the time clause to the front ('Just as the storm reached its peak,') creates a fronted adverbial, followed by a comma."
+    "correctOptionId": "opt1",
+    "explanation": "Moving the time clause to the front creates a fronted adverbial, correctly followed by a comma."
   },
   {
     "subjectSlug": "grammar",
@@ -7661,15 +8454,29 @@
     "strandSlug": "layout-devices",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-LAY-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "You are writing a report on the water cycle with three main sections: evaporation, condensation, and precipitation. Suggest a heading and one sub-heading you could use.",
-    "acceptedAnswers": [
-      "the water cycle, evaporation",
-      "the water cycle. evaporation",
-      "the water cycle - evaporation"
+    "promptText": "You are writing a report on the water cycle with three main sections: evaporation, condensation, and precipitation. Which heading and sub-heading pair works best?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Heading: The Water Cycle. Sub-heading: Evaporation."
+      },
+      {
+        "id": "opt2",
+        "text": "Heading: Water. Sub-heading: The Cycle."
+      },
+      {
+        "id": "opt3",
+        "text": "Heading: Evaporation. Sub-heading: The Water Cycle."
+      },
+      {
+        "id": "opt4",
+        "text": "Heading: My Report. Sub-heading: Science."
+      }
     ],
-    "explanation": "A clear main heading names the overall topic ('The Water Cycle'), while sub-headings ('Evaporation', 'Condensation', 'Precipitation') break it into consistently structured sections."
+    "correctOptionId": "opt1",
+    "explanation": "A clear main heading names the overall topic ('The Water Cycle'), while the sub-heading names the first section ('Evaporation')."
   },
   {
     "subjectSlug": "grammar",
@@ -7734,16 +8541,29 @@
     "strandSlug": "modal-verbs",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-MOD-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Add a modal adverb to strengthen the degree of certainty in this sentence: 'It ___ will rain later, given the dark clouds.'",
-    "acceptedAnswers": [
-      "surely",
-      "almost certainly",
-      "undoubtedly",
-      "definitely"
+    "promptText": "Which modal adverb correctly strengthens the degree of certainty in this sentence: 'It ___ will rain later, given the dark clouds.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Surely"
+      },
+      {
+        "id": "opt2",
+        "text": "Rarely"
+      },
+      {
+        "id": "opt3",
+        "text": "Barely"
+      },
+      {
+        "id": "opt4",
+        "text": "Never"
+      }
     ],
-    "explanation": "Modal adverbs like 'surely' or 'almost certainly' work alongside modal verbs to fine-tune the degree of possibility expressed."
+    "correctOptionId": "opt1",
+    "explanation": "'Surely' strengthens certainty, unlike 'rarely'/'barely' (frequency/extent) or 'never', which would contradict the sentence."
   },
   {
     "subjectSlug": "grammar",
@@ -7779,15 +8599,29 @@
     "strandSlug": "modal-verbs",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-MOD-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Rewrite this informal request as a formal one using an appropriate modal verb: 'Can I leave early today?'",
-    "acceptedAnswers": [
-      "may i leave early today",
-      "might i leave early today",
-      "would it be possible for me to leave early today"
+    "promptText": "Which sentence correctly rewrites this as a formal request using an appropriate modal verb: 'Can I leave early today?'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "May I leave early today?"
+      },
+      {
+        "id": "opt2",
+        "text": "Can I leave early today?"
+      },
+      {
+        "id": "opt3",
+        "text": "Must I leave early today?"
+      },
+      {
+        "id": "opt4",
+        "text": "I can leave early today?"
+      }
     ],
-    "explanation": "'May' or 'might' are more formal modal verbs for requesting permission than the informal 'can'."
+    "correctOptionId": "opt1",
+    "explanation": "'May' is the more formal modal verb for requesting permission than the informal 'can'."
   },
   {
     "subjectSlug": "grammar",
@@ -7852,13 +8686,29 @@
     "strandSlug": "parenthesis",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PAR-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "Add parenthesis using commas to this sentence to insert the extra detail 'a small fishing village': 'Whitby was once a small fishing village and is now a popular tourist town.'",
-    "acceptedAnswers": [
-      "whitby, once a small fishing village, is now a popular tourist town"
+    "promptText": "Which sentence correctly adds parenthesis using commas to insert the detail 'a small fishing village': 'Whitby is now a popular tourist town.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Whitby, once a small fishing village, is now a popular tourist town."
+      },
+      {
+        "id": "opt2",
+        "text": "Whitby was once a small fishing village and is now a popular tourist town."
+      },
+      {
+        "id": "opt3",
+        "text": "Whitby, once a small fishing village is now a popular tourist town."
+      },
+      {
+        "id": "opt4",
+        "text": "Whitby once, a small fishing village, is now a popular tourist town."
+      }
     ],
-    "explanation": "Commas are the most neutral, everyday way to insert parenthetical information into a sentence."
+    "correctOptionId": "opt1",
+    "explanation": "Commas are the most neutral, everyday way to insert parenthetical information, with one comma on each side of the inserted detail."
   },
   {
     "subjectSlug": "grammar",
@@ -7923,12 +8773,28 @@
     "strandSlug": "prefixes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PRE-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Use the prefix 'over-' to form a word meaning 'to sleep for too long'.",
-    "acceptedAnswers": [
-      "oversleep"
+    "promptText": "Which word, formed with the prefix 'over-', means 'to sleep for too long'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Oversleep"
+      },
+      {
+        "id": "opt2",
+        "text": "Resleep"
+      },
+      {
+        "id": "opt3",
+        "text": "Undersleep"
+      },
+      {
+        "id": "opt4",
+        "text": "Missleep"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "'Over-' means 'too much', so 'oversleep' means to sleep for longer than intended."
   },
   {
@@ -7965,13 +8831,28 @@
     "strandSlug": "prefixes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-PRE-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "The word 'misinformation' contains the prefix 'mis-'. Explain what 'mis-' means and how it changes the meaning of 'information'.",
-    "acceptedAnswers": [
-      "mis- means wrongly or badly, so misinformation means information that is wrong or incorrect",
-      "mis- means wrong, so misinformation is incorrect information"
+    "promptText": "The word 'misinformation' contains the prefix 'mis-'. What does 'mis-' mean, and how does it change the meaning of 'information'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Mis- means wrongly or badly, so misinformation means information that is wrong or incorrect"
+      },
+      {
+        "id": "opt2",
+        "text": "Mis- means too much, so misinformation means an excessive amount of information"
+      },
+      {
+        "id": "opt3",
+        "text": "Mis- means again, so misinformation means information given again"
+      },
+      {
+        "id": "opt4",
+        "text": "Mis- means not, so misinformation means a complete lack of information"
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "'Mis-' means 'wrongly' or 'badly', so 'misinformation' is information that is incorrect or misleading."
   },
   {
@@ -8008,12 +8889,28 @@
     "strandSlug": "relative-clauses",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-REL-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Rewrite this sentence to omit the relative pronoun: 'The book that I borrowed from the library was fascinating.'",
-    "acceptedAnswers": [
-      "the book i borrowed from the library was fascinating"
+    "promptText": "Which sentence correctly omits the relative pronoun from 'The book that I borrowed from the library was fascinating.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The book I borrowed from the library was fascinating."
+      },
+      {
+        "id": "opt2",
+        "text": "The book that I borrowed from the library was fascinating."
+      },
+      {
+        "id": "opt3",
+        "text": "The book I that borrowed from the library was fascinating."
+      },
+      {
+        "id": "opt4",
+        "text": "I borrowed the book from the library that was fascinating."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "When the relative pronoun is the object of the clause, it can be dropped: 'The book I borrowed...'."
   },
   {
@@ -8050,14 +8947,29 @@
     "strandSlug": "relative-clauses",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-REL-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Explain why the relative pronoun can be omitted from 'The house [that] we visited was for sale' but not from 'The house that stood on the hill was for sale.'",
-    "acceptedAnswers": [
-      "because in the first sentence that is the object of the clause, but in the second sentence that is the subject of the clause, so it cannot be omitted",
-      "the first uses that as an object so it can be dropped, the second uses it as the subject so it must stay"
+    "promptText": "Why can the relative pronoun be omitted from 'The house [that] we visited was for sale' but not from 'The house that stood on the hill was for sale'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Because in the first sentence 'that' is the object of the clause, but in the second it is the subject, so it cannot be omitted"
+      },
+      {
+        "id": "opt2",
+        "text": "Because the first sentence is shorter than the second"
+      },
+      {
+        "id": "opt3",
+        "text": "Because 'house' is used twice in the second sentence"
+      },
+      {
+        "id": "opt4",
+        "text": "Because the second sentence is a question and the first is a statement"
+      }
     ],
-    "explanation": "A relative pronoun can only be omitted when it is the object of its clause; when it acts as the subject (as in the second example), it must remain."
+    "correctOptionId": "opt1",
+    "explanation": "A relative pronoun can only be omitted when it is the object of its clause; when it acts as the subject, as in the second example, it must remain."
   },
   {
     "subjectSlug": "grammar",
@@ -8093,12 +9005,28 @@
     "strandSlug": "subjunctive-form",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-SUBJ-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "silver",
-    "promptText": "Rewrite formally using the subjunctive: 'If I was in charge, I would change the rules.'",
-    "acceptedAnswers": [
-      "if i were in charge, i would change the rules"
+    "promptText": "Which sentence correctly rewrites this formally using the subjunctive: 'If I was in charge, I would change the rules.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "If I were in charge, I would change the rules."
+      },
+      {
+        "id": "opt2",
+        "text": "If I was in charge, I would change the rules."
+      },
+      {
+        "id": "opt3",
+        "text": "If I am in charge, I would change the rules."
+      },
+      {
+        "id": "opt4",
+        "text": "If I were in charge, I will change the rules."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "The subjunctive 'were' replaces 'was' in hypothetical if-clauses, regardless of subject."
   },
   {
@@ -8135,12 +9063,28 @@
     "strandSlug": "subjunctive-form",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-SUBJ-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Rewrite as a formal demand using the subjunctive: 'The manager demanded, \"Everyone must submit the form today.\"'",
-    "acceptedAnswers": [
-      "the manager demanded that everyone submit the form today"
+    "promptText": "Which sentence correctly rewrites this as a formal demand using the subjunctive: 'The manager demanded, \"Everyone must submit the form today.\"'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "The manager demanded that everyone submit the form today."
+      },
+      {
+        "id": "opt2",
+        "text": "The manager demanded that everyone submits the form today."
+      },
+      {
+        "id": "opt3",
+        "text": "The manager demanded everyone must submit the form today."
+      },
+      {
+        "id": "opt4",
+        "text": "The manager demanded that everyone submitted the form today."
+      }
     ],
+    "correctOptionId": "opt1",
     "explanation": "'Demanded that' triggers the subjunctive base form 'submit' rather than 'submits'."
   },
   {
@@ -8235,14 +9179,29 @@
     "strandSlug": "suffixes",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-SUF-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "challenge",
-    "promptText": "Explain the spelling rule: why is it 'official' (-cial) but 'essential' (-tial)?",
-    "acceptedAnswers": [
-      "-cial is used after a vowel or when the root word ends in ce/cy, and -tial is used after a consonant, so office becomes official and essence... essential follows the -tial pattern after ss",
-      "-cial usually follows a vowel and -tial usually follows a consonant"
+    "promptText": "What is the spelling rule that explains why it is 'official' (-cial) but 'essential' (-tial)?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "-cial usually follows a vowel and -tial usually follows a consonant"
+      },
+      {
+        "id": "opt2",
+        "text": "-cial is always used and -tial is an old-fashioned spelling no longer used"
+      },
+      {
+        "id": "opt3",
+        "text": "-cial follows a consonant and -tial follows a vowel"
+      },
+      {
+        "id": "opt4",
+        "text": "There is no rule — the spelling is completely random"
+      }
     ],
-    "explanation": "'-cial' generally follows a root ending in a vowel sound (office → official), while '-tial' generally follows a root ending in a consonant (essence → essential, though there are exceptions to learn as spelling patterns)."
+    "correctOptionId": "opt1",
+    "explanation": "'-cial' generally follows a root ending in a vowel sound (office → official), while '-tial' generally follows a root ending in a consonant (essence → essential)."
   },
   {
     "subjectSlug": "grammar",
@@ -8310,14 +9269,29 @@
     "strandSlug": "synonyms-antonyms",
     "yearGroup": "Y6",
     "objectiveCode": "GR6-SYN-1",
-    "type": "short_answer",
+    "type": "multiple_choice",
     "difficulty": "gold",
-    "promptText": "This sentence repeats 'big' three times. Rewrite it using varied synonyms: 'It was a big house, with a big garden and a big pond.'",
-    "acceptedAnswers": [
-      "it was a vast house, with a sprawling garden and a large pond",
-      "it was an enormous house, with a spacious garden and a sizeable pond"
+    "promptText": "Which sentence correctly rewrites this using varied synonyms instead of repeating 'big': 'It was a big house, with a big garden and a big pond.'?",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "It was a vast house, with a sprawling garden and a large pond."
+      },
+      {
+        "id": "opt2",
+        "text": "It was a big house, with a big garden and a big pond."
+      },
+      {
+        "id": "opt3",
+        "text": "It was a house, with a garden and a pond."
+      },
+      {
+        "id": "opt4",
+        "text": "It was a big, big house, with a big garden and a big pond."
+      }
     ],
-    "explanation": "Using varied synonyms ('vast', 'sprawling', 'large') instead of repeating 'big' makes writing more precise and engaging."
+    "correctOptionId": "opt1",
+    "explanation": "'Vast', 'sprawling' and 'large' are varied synonyms for 'big' that make the writing more precise and engaging."
   },
   {
     "subjectSlug": "grammar",

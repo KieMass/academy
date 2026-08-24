@@ -18,6 +18,7 @@ import {
   MatchingRenderer,
   DragDropRenderer,
 } from "./renderers";
+import { FlagQuestionButton } from "./flag-question-button";
 import { CheckCircle2, XCircle, Trophy, RotateCcw, ArrowLeft, Volume2 } from "lucide-react";
 import { speak, useAccessibilityStore } from "@/store/accessibility-store";
 
@@ -56,6 +57,12 @@ export function QuestionRunner({
   const router = useRouter();
   const readAloudEnabled = useAccessibilityStore((s) => s.readAloudEnabled);
   const [difficulty, setDifficulty] = useState<DifficultyBand | null>(null);
+  // Bumped every time a new session starts (picking a difficulty, or
+  // "Practise again") so the query key below always misses the cache —
+  // otherwise react-query's 30s staleTime would happily serve back the
+  // exact same question set on a quick retry, even with the server now
+  // randomising every call. See lib/question-engine/select.ts.
+  const [sessionSeed, setSessionSeed] = useState(0);
   const [index, setIndex] = useState(0);
   const [response, setResponse] = useState<QuestionResponse | null>(null);
   const [feedback, setFeedback] = useState<AttemptFeedback | null>(null);
@@ -72,7 +79,7 @@ export function QuestionRunner({
   const startedAtRef = useRef<number>(0);
 
   const { data, isLoading } = useQuery({
-    queryKey: ["questions", subjectSlug, strandSlug, yearGroup, difficulty],
+    queryKey: ["questions", subjectSlug, strandSlug, yearGroup, difficulty, sessionSeed],
     queryFn: async () => {
       const params = new URLSearchParams({ subject: subjectSlug, strand: strandSlug, yearGroup, limit: "8" });
       if (difficulty) params.set("difficulty", difficulty);
@@ -162,7 +169,15 @@ export function QuestionRunner({
           <p className="text-muted-foreground">Choose a level to start practising.</p>
           <div className="mx-auto grid max-w-md grid-cols-2 gap-3">
             {DIFFICULTIES.map((d) => (
-              <Button key={d.value} variant="outline" className={`h-16 rounded-xl border-2 text-base font-semibold ${d.className}`} onClick={() => setDifficulty(d.value)}>
+              <Button
+                key={d.value}
+                variant="outline"
+                className={`h-16 rounded-xl border-2 text-base font-semibold ${d.className}`}
+                onClick={() => {
+                  setSessionSeed((s) => s + 1);
+                  setDifficulty(d.value);
+                }}
+              >
                 {d.label}
               </Button>
             ))}
@@ -201,7 +216,7 @@ export function QuestionRunner({
             {earnedBadges.length > 0 && <Badge className="rounded-full px-3 py-1">{earnedBadges.length} new badge{earnedBadges.length > 1 ? "s" : ""}!</Badge>}
           </div>
           {assignmentCompleted && (
-            <p className="text-sm font-medium text-primary">🎉 Assignment complete — nice work! It's off your list now.</p>
+            <p className="text-sm font-medium text-primary">🎉 Assignment complete — nice work! It&apos;s off your list now.</p>
           )}
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <Button
@@ -263,7 +278,8 @@ export function QuestionRunner({
             </div>
           )}
 
-          <div className="flex justify-end gap-2">
+          <div className="flex items-center justify-between gap-2">
+            <FlagQuestionButton questionId={question.id} response={response} />
             {!feedback ? (
               <Button onClick={handleSubmit} disabled={!response || submitting}>
                 {submitting ? "Checking..." : "Check answer"}
