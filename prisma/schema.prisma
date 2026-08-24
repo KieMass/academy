@@ -42,7 +42,7 @@ model User {
   parentProfile  ParentProfile?
   studentProfile StudentProfile?
 
-  sessions Session[]
+  sessions              Session[]
   passwordResetRequests PasswordResetRequest[]
 
   @@index([role])
@@ -78,7 +78,7 @@ model ParentProfile {
   fullName String
 
   familyId String
-  family   Family  @relation(fields: [familyId], references: [id], onDelete: Cascade)
+  family   Family @relation(fields: [familyId], references: [id], onDelete: Cascade)
 
   students StudentProfile[]
 
@@ -109,21 +109,22 @@ model StudentProfile {
   parent   ParentProfile @relation(fields: [parentId], references: [id], onDelete: Cascade)
 
   // Gamification
-  xpTotal      Int      @default(0)
-  levelNumber  Int      @default(1)
-  streakDays   Int      @default(0)
+  xpTotal      Int       @default(0)
+  levelNumber  Int       @default(1)
+  streakDays   Int       @default(0)
   lastActiveAt DateTime?
 
   // Accessibility preferences (dyslexia-friendly font, font scale, contrast, read-aloud)
   accessibilityPrefs String @default("{}") // JSON blob, see lib/accessibility/types.ts
 
-  attempts      QuestionAttempt[]
-  spellingRuns  SpellingRun[]
-  masteries     TopicMastery[]
-  badges        StudentBadge[]
-  xpEvents      XpEvent[]
-  assignments   Assignment[]
-  worksheets    Worksheet[]
+  attempts     QuestionAttempt[]
+  spellingRuns SpellingRun[]
+  masteries    TopicMastery[]
+  badges       StudentBadge[]
+  xpEvents     XpEvent[]
+  assignments  Assignment[]
+  worksheets   Worksheet[]
+  flags        QuestionFlag[]
 
   createdAt DateTime @default(now())
 
@@ -135,12 +136,12 @@ model StudentProfile {
 // ---------------------------------------------------------------------------
 
 model Subject {
-  id        String   @id @default(cuid())
-  slug      String   @unique // e.g. "maths" — matches content/curriculum/<slug>.json
-  name      String
-  icon      String
-  color     String
-  frameworks String  @default("[]") // JSON string array
+  id         String @id @default(cuid())
+  slug       String @unique // e.g. "maths" — matches content/curriculum/<slug>.json
+  name       String
+  icon       String
+  color      String
+  frameworks String @default("[]") // JSON string array
 
   topics     Topic[]
   worksheets Worksheet[]
@@ -149,17 +150,17 @@ model Subject {
 }
 
 model Topic {
-  id             String    @id @default(cuid())
-  subjectId      String
-  subject        Subject   @relation(fields: [subjectId], references: [id], onDelete: Cascade)
-  strandSlug     String // e.g. "fractions"
-  strandName     String
-  yearGroup      YearGroup
-  description    String?
-  order          Int       @default(0)
+  id          String    @id @default(cuid())
+  subjectId   String
+  subject     Subject   @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  strandSlug  String // e.g. "fractions"
+  strandName  String
+  yearGroup   YearGroup
+  description String?
+  order       Int       @default(0)
 
-  questions ContentQuestion[]
-  masteries TopicMastery[]
+  questions        ContentQuestion[]
+  masteries        TopicMastery[]
   contentGapAlerts ContentGapAlert[]
 
   createdAt DateTime @default(now())
@@ -204,17 +205,17 @@ enum ContentStatus {
 /// JSON strings whose shape depends on `type` — see lib/question-engine/types.ts
 /// for the discriminated-union TypeScript contract every reader/writer uses.
 model ContentQuestion {
-  id             String         @id @default(cuid())
-  topicId        String
-  topic          Topic          @relation(fields: [topicId], references: [id], onDelete: Cascade)
-  objectiveCode  String // curriculum map objective code, e.g. "MA5-FRAC-3"
-  type           QuestionType
-  difficulty     DifficultyBand
-  prompt         String // JSON: { text, media? }
-  options        String? // JSON: choice/matching/drag-drop option sets
-  answer         String // JSON: canonical answer + acceptable variants
-  explanation    String? // shown in immediate feedback
-  tags           String  @default("[]") // JSON string array, free-form
+  id            String         @id @default(cuid())
+  topicId       String
+  topic         Topic          @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  objectiveCode String // curriculum map objective code, e.g. "MA5-FRAC-3"
+  type          QuestionType
+  difficulty    DifficultyBand
+  prompt        String // JSON: { text, media? }
+  options       String? // JSON: choice/matching/drag-drop option sets
+  answer        String // JSON: canonical answer + acceptable variants
+  explanation   String? // shown in immediate feedback
+  tags          String         @default("[]") // JSON string array, free-form
 
   // Reading-specific linkage (nullable for non-reading subjects)
   passageId String?
@@ -225,11 +226,54 @@ model ContentQuestion {
   status ContentStatus @default(PUBLISHED)
 
   attempts QuestionAttempt[]
+  flags    QuestionFlag[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
   @@index([topicId, difficulty])
+  @@index([status])
+}
+
+enum QuestionFlagStatus {
+  PENDING_PARENT_REVIEW
+  PENDING_ADMIN_REVIEW
+  DISMISSED_BY_PARENT
+  DISMISSED_BY_ADMIN
+  REMOVED
+}
+
+/// Student-initiated "this question is broken" report. Flows
+/// student -> parent (triage) -> admin (final removal), mirroring the
+/// review-then-act shape of ContentGapAlert. Reviewer ids are stored as
+/// plain strings (not relations) the same way AiGeneratedContent.
+/// reviewedByParentId already does — no back-relation needed on
+/// ParentProfile/User for this.
+model QuestionFlag {
+  id         String          @id @default(cuid())
+  questionId String
+  question   ContentQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  studentId  String
+  student    StudentProfile  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  reason        String // canned reason label the student picked
+  note          String? // optional free-text detail
+  studentAnswer String? // JSON snapshot of what they'd answered, if any, for context
+
+  status QuestionFlagStatus @default(PENDING_PARENT_REVIEW)
+
+  reviewedByParentId String?
+  parentNotes        String?
+  parentReviewedAt   DateTime?
+
+  reviewedByAdminId String? // User.id — admins have no dedicated profile model
+  adminNotes        String?
+  adminReviewedAt   DateTime?
+
+  createdAt DateTime @default(now())
+
+  @@index([questionId])
+  @@index([studentId])
   @@index([status])
 }
 
@@ -267,15 +311,15 @@ enum PassageType {
 }
 
 model ReadingPassage {
-  id         String      @id @default(cuid())
-  title      String
-  type       PassageType
-  yearGroup  YearGroup
-  bodyText   String
-  wordCount  Int
-  author     String?
-  source     ContentSource @default(SEED)
-  status     ContentStatus @default(PUBLISHED)
+  id        String        @id @default(cuid())
+  title     String
+  type      PassageType
+  yearGroup YearGroup
+  bodyText  String
+  wordCount Int
+  author    String?
+  source    ContentSource @default(SEED)
+  status    ContentStatus @default(PUBLISHED)
 
   questions ContentQuestion[]
 
@@ -283,16 +327,16 @@ model ReadingPassage {
 }
 
 model QuestionAttempt {
-  id              String   @id @default(cuid())
-  studentId       String
-  student         StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
-  questionId      String
-  question        ContentQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
-  response        String // JSON: student's raw response
-  isCorrect       Boolean
+  id               String          @id @default(cuid())
+  studentId        String
+  student          StudentProfile  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  questionId       String
+  question         ContentQuestion @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  response         String // JSON: student's raw response
+  isCorrect        Boolean
   timeSpentSeconds Int
-  assignmentId    String?
-  assignment      Assignment? @relation(fields: [assignmentId], references: [id], onDelete: SetNull)
+  assignmentId     String?
+  assignment       Assignment?     @relation(fields: [assignmentId], references: [id], onDelete: SetNull)
 
   attemptedAt DateTime @default(now())
 
@@ -308,14 +352,14 @@ enum MasteryLevel {
 }
 
 model TopicMastery {
-  id                 String       @id @default(cuid())
+  id                 String         @id @default(cuid())
   studentId          String
   student            StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
   topicId            String
-  topic              Topic        @relation(fields: [topicId], references: [id], onDelete: Cascade)
-  questionsAttempted Int          @default(0)
-  questionsCorrect   Int          @default(0)
-  masteryLevel       MasteryLevel @default(NOT_STARTED)
+  topic              Topic          @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  questionsAttempted Int            @default(0)
+  questionsCorrect   Int            @default(0)
+  masteryLevel       MasteryLevel   @default(NOT_STARTED)
   lastPracticedAt    DateTime?
 
   @@unique([studentId, topicId])
@@ -326,7 +370,7 @@ model TopicMastery {
 // ---------------------------------------------------------------------------
 
 model SpellingList {
-  id         String   @id @default(cuid())
+  id         String        @id @default(cuid())
   weekLabel  String // e.g. "Week 1 - Autumn Term"
   yearGroup  YearGroup
   strandSlug String // links to content/curriculum/spelling.json strand
@@ -346,11 +390,11 @@ enum SpellingMode {
 }
 
 model SpellingRun {
-  id             String       @id @default(cuid())
+  id             String         @id @default(cuid())
   studentId      String
   student        StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
   spellingListId String
-  spellingList   SpellingList @relation(fields: [spellingListId], references: [id], onDelete: Cascade)
+  spellingList   SpellingList   @relation(fields: [spellingListId], references: [id], onDelete: Cascade)
   mode           SpellingMode
   results        String // JSON: [{ word, correct, attempts }]
   score          Int
@@ -381,15 +425,15 @@ enum AssignmentStatus {
 }
 
 model Assignment {
-  id         String           @id @default(cuid())
-  studentId  String
-  student    StudentProfile   @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  id                String           @id @default(cuid())
+  studentId         String
+  student           StudentProfile   @relation(fields: [studentId], references: [id], onDelete: Cascade)
   createdByParentId String
-  type       AssignmentType
-  title      String
-  topicIds   String // JSON string array of Topic ids
-  dueDate    DateTime?
-  status     AssignmentStatus @default(ASSIGNED)
+  type              AssignmentType
+  title             String
+  topicIds          String // JSON string array of Topic ids
+  dueDate           DateTime?
+  status            AssignmentStatus @default(ASSIGNED)
 
   attempts QuestionAttempt[]
 
@@ -404,15 +448,15 @@ enum WorksheetKind {
 }
 
 model Worksheet {
-  id          String        @id @default(cuid())
+  id                 String          @id @default(cuid())
   createdByStudentId String?
-  student     StudentProfile? @relation(fields: [createdByStudentId], references: [id], onDelete: SetNull)
-  subjectId   String
-  subject     Subject       @relation(fields: [subjectId], references: [id], onDelete: Cascade)
-  topicIds    String // JSON string array of Topic ids
-  kind        WorksheetKind
-  studentName String // name printed on the PDF (may differ from account name)
-  questionIds String // JSON string array of ContentQuestion ids, frozen at generation time
+  student            StudentProfile? @relation(fields: [createdByStudentId], references: [id], onDelete: SetNull)
+  subjectId          String
+  subject            Subject         @relation(fields: [subjectId], references: [id], onDelete: Cascade)
+  topicIds           String // JSON string array of Topic ids
+  kind               WorksheetKind
+  studentName        String // name printed on the PDF (may differ from account name)
+  questionIds        String // JSON string array of ContentQuestion ids, frozen at generation time
 
   createdAt DateTime @default(now())
 }
@@ -433,12 +477,12 @@ model Badge {
 }
 
 model StudentBadge {
-  id        String   @id @default(cuid())
+  id        String         @id @default(cuid())
   studentId String
   student   StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
   badgeId   String
-  badge     Badge    @relation(fields: [badgeId], references: [id], onDelete: Cascade)
-  earnedAt  DateTime @default(now())
+  badge     Badge          @relation(fields: [badgeId], references: [id], onDelete: Cascade)
+  earnedAt  DateTime       @default(now())
 
   @@unique([studentId, badgeId])
 }
@@ -452,12 +496,12 @@ enum XpReason {
 }
 
 model XpEvent {
-  id        String   @id @default(cuid())
+  id        String         @id @default(cuid())
   studentId String
   student   StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
   points    Int
   reason    XpReason
-  meta      String   @default("{}") // JSON context, e.g. { questionId }
+  meta      String         @default("{}") // JSON context, e.g. { questionId }
 
   createdAt DateTime @default(now())
 
@@ -482,16 +526,16 @@ enum AiReviewStatus {
 }
 
 model AiGeneratedContent {
-  id             String         @id @default(cuid())
-  type           AiContentType
-  targetTopicId  String?
-  payload        String // JSON: shape matches ContentQuestion/ReadingPassage draft
-  promptContext  String @default("{}") // JSON: what was asked for (topic, difficulty, student weaknesses)
-  status         AiReviewStatus @default(PENDING_REVIEW)
+  id                 String         @id @default(cuid())
+  type               AiContentType
+  targetTopicId      String?
+  payload            String // JSON: shape matches ContentQuestion/ReadingPassage draft
+  promptContext      String         @default("{}") // JSON: what was asked for (topic, difficulty, student weaknesses)
+  status             AiReviewStatus @default(PENDING_REVIEW)
   reviewedByParentId String?
-  reviewNotes    String?
+  reviewNotes        String?
 
-  createdAt DateTime @default(now())
+  createdAt  DateTime  @default(now())
   reviewedAt DateTime?
 }
 
@@ -512,12 +556,12 @@ enum PasswordResetRequestStatus {
 // exist can still be recorded without leaking whether the account exists
 // (the submitter always sees the same generic confirmation).
 model PasswordResetRequest {
-  id         String                     @id @default(cuid())
-  identifier String // whatever the user typed in (email or username), for the admin to see
-  userId     String?
-  user       User?                      @relation(fields: [userId], references: [id], onDelete: Cascade)
-  status     PasswordResetRequestStatus @default(PENDING)
-  createdAt  DateTime                   @default(now())
+  id          String                     @id @default(cuid())
+  identifier  String // whatever the user typed in (email or username), for the admin to see
+  userId      String?
+  user        User?                      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  status      PasswordResetRequestStatus @default(PENDING)
+  createdAt   DateTime                   @default(now())
   fulfilledAt DateTime?
 
   @@index([status])
