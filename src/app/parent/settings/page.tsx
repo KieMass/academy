@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { AddStudentForm } from "@/components/parent/add-student-form";
 import { AddCoParentForm } from "@/components/parent/add-coparent-form";
+import { ChangeStudentPasswordButton } from "@/components/parent/change-student-password-button";
 import { ChangePasswordForm } from "@/components/auth/change-password-form";
 import { AccessibilityControls } from "@/components/accessibility/accessibility-controls";
 import { ColorSchemePicker } from "@/components/theme/color-scheme-picker";
@@ -82,6 +83,7 @@ export default async function ParentSettingsPage() {
                       <p className="text-xs text-muted-foreground">Year {s.yearGroup.replace("Y", "")} · Level {s.levelNumber}</p>
                     </div>
                   </div>
+                  <ChangeStudentPasswordButton studentId={s.id} studentName={s.displayName} />
                 </div>
               ))}
             </CardContent>

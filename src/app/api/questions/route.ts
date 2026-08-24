@@ -21,6 +21,14 @@ const RECENT_ATTEMPTS_LOOKBACK = 100;
  * retry (e.g. a failed Bronze attempt tried again) pulls in a different set
  * from the pool where possible, rather than the identical questions every
  * time. See lib/question-engine/select.ts.
+ *
+ * A topic's content isn't necessarily spread evenly across all four
+ * difficulty bands (e.g. a strand might only have Silver questions
+ * authored so far) — rather than hand a student a dead "no questions"
+ * screen for a band that's simply thin, if the exact band is empty we fall
+ * back to the topic's whole published pool and say so via
+ * `usedFallbackDifficulty`, so the UI can be honest about it instead of
+ * silently mislabelling the questions shown.
  */
 export async function GET(req: Request) {
   const user = await getCurrentUser();
@@ -42,15 +50,21 @@ export async function GET(req: Request) {
   });
   if (!topic) return NextResponse.json({ error: "Topic not found." }, { status: 404 });
 
-  const poolWhere = {
-    topicId: topic.id,
-    status: "PUBLISHED" as const,
-    ...(difficulty ? { difficulty: difficulty.toUpperCase() as never } : {}),
-  };
+  const basePoolWhere = { topicId: topic.id, status: "PUBLISHED" as const };
+  const difficultyPoolWhere = difficulty ? { ...basePoolWhere, difficulty: difficulty.toUpperCase() as never } : basePoolWhere;
 
-  const pool = await db.contentQuestion.findMany({ where: poolWhere, select: { id: true } });
+  let pool = await db.contentQuestion.findMany({ where: difficultyPoolWhere, select: { id: true } });
+  let usedFallbackDifficulty = false;
+
+  // The exact band is thin/empty but the topic has other content — fall
+  // back to the whole topic rather than a dead end.
+  if (pool.length === 0 && difficulty) {
+    pool = await db.contentQuestion.findMany({ where: basePoolWhere, select: { id: true } });
+    usedFallbackDifficulty = pool.length > 0;
+  }
+
   if (pool.length === 0) {
-    return NextResponse.json({ topic: { id: topic.id, strandName: topic.strandName }, questions: [], passages: {} });
+    return NextResponse.json({ topic: { id: topic.id, strandName: topic.strandName }, questions: [], passages: {}, usedFallbackDifficulty: false });
   }
   const poolIds = pool.map((p) => p.id);
 
@@ -82,5 +96,5 @@ export async function GET(req: Request) {
     orderedRows.filter((r) => r.passage).map((r) => [r.passage!.id, { title: r.passage!.title, bodyText: r.passage!.bodyText, type: r.passage!.type }])
   );
 
-  return NextResponse.json({ topic: { id: topic.id, strandName: topic.strandName }, questions, passages });
+  return NextResponse.json({ topic: { id: topic.id, strandName: topic.strandName }, questions, passages, usedFallbackDifficulty });
 }

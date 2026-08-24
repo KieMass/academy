@@ -85,7 +85,7 @@ export function QuestionRunner({
       if (difficulty) params.set("difficulty", difficulty);
       const res = await fetch(`/api/questions?${params}`);
       if (!res.ok) throw new Error("Failed to load questions");
-      return (await res.json()) as { questions: PublicQuestion[]; passages: Record<string, { title: string; bodyText: string }> };
+      return (await res.json()) as { questions: PublicQuestion[]; passages: Record<string, { title: string; bodyText: string }>; usedFallbackDifficulty?: boolean };
     },
     enabled: !!difficulty,
   });
@@ -246,6 +246,11 @@ export function QuestionRunner({
         <span>Question {index + 1} of {questions.length}</span>
         <Badge variant="outline" className="capitalize">{difficulty}</Badge>
       </div>
+      {data?.usedFallbackDifficulty && (
+        <p className="text-xs text-muted-foreground">
+          {difficulty} doesn&apos;t have its own questions for this topic yet — showing a mix of levels instead.
+        </p>
+      )}
       <Progress value={((index + (feedback ? 1 : 0)) / questions.length) * 100} className="h-2" />
 
       {passage && (
