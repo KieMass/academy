@@ -520,3 +520,19 @@ export function generateAllMathsQuestionsY2Extra2(seed = 32500): DraftQuestion[]
     ...generateY2WordProblemsQuestions(rng, 6),
   ];
 }
+
+/** A further volume pass over just the "core 6" number strands (the ones
+ * with wide enough numeric ranges to keep yielding new, non-duplicate
+ * combinations) — measurement/geometry/position/statistics/reasoning/
+ * word-problems get their extra volume from maths-ks1-strands2.ts instead. */
+export function generateAllMathsQuestionsY2Extra3(seed = 42500): DraftQuestion[] {
+  const rng = createRng(seed);
+  return [
+    ...generateY2NumberPlaceValueQuestions(rng, 20),
+    ...generateY2AdditionQuestions(rng, 22),
+    ...generateY2SubtractionQuestions(rng, 22),
+    ...generateY2MultiplicationQuestions(rng, 10),
+    ...generateY2DivisionQuestions(rng, 8),
+    ...generateY2FractionsQuestions(rng, 6),
+  ];
+}

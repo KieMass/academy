@@ -98,6 +98,24 @@
       "name": "Fronted Adverbials",
       "years": [
         {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GR4-FA-1",
+              "description": "Use fronted adverbials to open a sentence (e.g. 'Later that day, I heard the bad news.')",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "fill_in_box"
+              ]
+            }
+          ]
+        },
+        {
           "yearGroup": "Y5",
           "objectives": [
             {
@@ -201,6 +219,24 @@
           ]
         },
         {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GR4-ENP-1",
+              "description": "Expand noun phrases by adding modifying adjectives, nouns and preposition phrases (e.g. 'the teacher' becomes 'the strict maths teacher with curly hair')",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
           "yearGroup": "Y5",
           "objectives": [
             {
@@ -242,6 +278,24 @@
       "slug": "prefixes",
       "name": "Prefixes",
       "years": [
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GR3-PRE-1",
+              "description": "Use prefixes to form nouns and adjectives with a negative meaning (e.g. dis-, mis-, in-, im-, il-, ir-)",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "matching"
+              ]
+            }
+          ]
+        },
         {
           "yearGroup": "Y5",
           "objectives": [
@@ -325,6 +379,50 @@
           ]
         },
         {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GR3-SUF-1",
+              "description": "Form nouns using a range of suffixes, such as -ation, -er, -ly",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            },
+            {
+              "code": "GR3-SUF-2",
+              "description": "Form adjectives using suffixes such as -ful, -less, -ous, -ian",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GR4-SUF-1",
+              "description": "Use the suffix -ly to turn adjectives into adverbs, including changing the spelling of the root word where needed (e.g. happy → happily)",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "fill_in_box"
+              ]
+            }
+          ]
+        },
+        {
           "yearGroup": "Y5",
           "objectives": [
             {
@@ -366,6 +464,23 @@
       "slug": "homophones",
       "name": "Homophones & Near-Homophones",
       "years": [
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GR4-HOM-1",
+              "description": "Distinguish between commonly confused homophones (e.g. there/their/they're, to/too/two, your/you're)",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
         {
           "yearGroup": "Y5",
           "objectives": [
@@ -494,6 +609,40 @@
           ]
         },
         {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GR3-TEN-1",
+              "description": "Use the present perfect form of verbs instead of the simple past (e.g. 'He has gone out' rather than 'He went out')",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "fill_in_box"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GR4-TEN-1",
+              "description": "Use standard English verb inflections instead of local spoken forms (e.g. 'we were' not 'we was'; 'I did' not 'I done')",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
           "yearGroup": "Y5",
           "objectives": [
             {
@@ -545,6 +694,23 @@
                 "bronze",
                 "silver",
                 "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "fill_in_box"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GR4-COM-1",
+              "description": "Use a comma after a fronted adverbial",
+              "difficultyBands": [
+                "bronze",
+                "silver"
               ],
               "questionTypes": [
                 "multiple_choice",
@@ -635,6 +801,41 @@
       "slug": "cohesion",
       "name": "Cohesion & Adverbials of Time/Place",
       "years": [
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GR3-COH-1",
+              "description": "Express time, place and cause using conjunctions (e.g. when, before, after, while, so, because), adverbs (e.g. then, next, soon, therefore) and prepositions (e.g. before, after, during, in, because of)",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "fill_in_box"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GR4-COH-1",
+              "description": "Use the appropriate choice of pronoun or noun within and across sentences to aid cohesion and avoid repetition",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
         {
           "yearGroup": "Y5",
           "objectives": [
@@ -776,6 +977,22 @@
       "description": "New for Y6: precise vocabulary choices for effect.",
       "years": [
         {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GR4-SYN-1",
+              "description": "Use a thesaurus to find synonyms for overused words (e.g. said, nice, good)",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
           "yearGroup": "Y6",
           "objectives": [
             {
@@ -800,6 +1017,39 @@
       "name": "Layout Devices & Bullet Points",
       "description": "New for Y6: using layout to present information clearly in non-fiction writing.",
       "years": [
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GR3-LAY-1",
+              "description": "Use paragraphs as a way to group related material",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GR4-LAY-1",
+              "description": "Use paragraphs to organise ideas around a theme",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
         {
           "yearGroup": "Y6",
           "objectives": [
@@ -979,6 +1229,36 @@
               ]
             }
           ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GR3-COORD-1",
+              "description": "Extend sentences with a wider range of conjunctions, including when, if, because, although",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "fill_in_box"
+              ]
+            },
+            {
+              "code": "GR3-COORD-2",
+              "description": "Use subordinating conjunctions to add extra information to a sentence, choosing the clause order for effect",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer",
+                "multi_step"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1103,6 +1383,66 @@
               "questionTypes": [
                 "multiple_choice",
                 "fill_in_box"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GR4-APOS-1",
+              "description": "Use apostrophes to mark plural possession (e.g. 'the girl's name', 'the girls' names')",
+              "difficultyBands": [
+                "silver",
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "fill_in_box"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "direct-speech",
+      "name": "Direct Speech Punctuation",
+      "description": "Inverted commas and related punctuation to mark direct speech.",
+      "years": [
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GR3-DS-1",
+              "description": "Use inverted commas to punctuate direct speech",
+              "difficultyBands": [
+                "silver",
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "fill_in_box"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GR4-DS-1",
+              "description": "Use inverted commas and other punctuation to indicate direct speech, including a comma after the reporting clause and punctuation within the inverted commas",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
               ]
             }
           ]

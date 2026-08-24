@@ -6958,5 +6958,3153 @@
         "explanation": "The story follows Ember, a kind dragon, helping the villagers and rescuing Tomas, which changes how the villagers feel about her."
       }
     ]
+  },
+  {
+    "title": "The Lost Umbrella",
+    "type": "fiction",
+    "yearGroup": "Y3",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Rain hammered against the classroom windows as Jayden stared at the empty peg where his umbrella should have been. It was bright yellow with a duck's head for a handle, and it was definitely, absolutely gone.\n\n\"Are you sure you brought it today?\" asked his teacher, Mrs Okafor, glancing up from the register.\n\n\"Positive,\" said Jayden. \"I remember shaking the rain off it in the cloakroom this morning.\" He chewed his lip, trying to picture exactly where he had left it.\n\nAt lunchtime, Priya nudged him and pointed towards the school office. Through the glass, Jayden could see a yellow umbrella propped against the wall, dripping quietly onto a towel someone had laid down. A little handwritten note was tied to the handle: \"Found outside the front doors — please claim at reception.\"\n\nJayden's shoulders relaxed for the first time all day. He must have dropped it when he ran inside from the car park, too eager to get out of the downpour to notice. He hurried to the office, and the receptionist smiled as she handed it back.\n\n\"Duck handle,\" she said. \"Hard to miss.\"\n\nJayden grinned and hugged the umbrella like an old friend, already looking forward to the walk home — rain or no rain.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE3-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What colour was Jayden's umbrella?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Yellow"
+          },
+          {
+            "id": "b",
+            "text": "Blue"
+          },
+          {
+            "id": "c",
+            "text": "Red"
+          },
+          {
+            "id": "d",
+            "text": "Green"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says it was 'bright yellow with a duck's head for a handle'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE3-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "Where was the umbrella eventually found?",
+        "options": [
+          {
+            "id": "a",
+            "text": "At the school office"
+          },
+          {
+            "id": "b",
+            "text": "In the classroom"
+          },
+          {
+            "id": "c",
+            "text": "In the cloakroom"
+          },
+          {
+            "id": "d",
+            "text": "At Jayden's house"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Priya pointed towards the school office, where the umbrella was propped against the wall."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE3-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "How did the umbrella most likely end up at the office?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Jayden dropped it outside without noticing"
+          },
+          {
+            "id": "b",
+            "text": "Someone stole it from his peg"
+          },
+          {
+            "id": "c",
+            "text": "Mrs Okafor moved it there"
+          },
+          {
+            "id": "d",
+            "text": "It blew there in the wind on its own from the classroom"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Jayden realises he 'must have dropped it when he ran inside from the car park, too eager to get out of the downpour to notice'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE3-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "In the passage, what does 'downpour' mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Heavy rain"
+          },
+          {
+            "id": "b",
+            "text": "A gentle breeze"
+          },
+          {
+            "id": "c",
+            "text": "A loud noise"
+          },
+          {
+            "id": "d",
+            "text": "A type of umbrella"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "A 'downpour' is a period of heavy rain, which matches the rain hammering on the windows earlier in the story."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE3-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on how the story ends, what will Jayden most likely do with his umbrella from now on?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Be more careful about keeping track of it"
+          },
+          {
+            "id": "b",
+            "text": "Leave it at school on purpose"
+          },
+          {
+            "id": "c",
+            "text": "Stop using it altogether"
+          },
+          {
+            "id": "d",
+            "text": "Give it to Priya"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Having nearly lost his umbrella and been relieved to get it back, Jayden is likely to be more careful with it in future."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE3-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Put these events in order using the letters: (A) Jayden gets his umbrella back, (B) Jayden notices his umbrella is missing, (C) Priya spots the umbrella at the office.",
+        "acceptedAnswers": [
+          "b, c, a",
+          "b c a",
+          "bca"
+        ],
+        "explanation": "First Jayden notices it's missing (B), then Priya spots it at the office (C), then he gets it back (A)."
+      }
+    ]
+  },
+  {
+    "title": "How Honeybees Make Honey",
+    "type": "non_fiction",
+    "yearGroup": "Y3",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Honeybees are small, but the way they work together is remarkable. A single hive can hold as many as 60,000 bees, all with their own jobs to do — and one of the most important jobs is making honey.\n\nIt starts with a worker bee visiting a flower. Using a long, tube-shaped tongue, the bee sucks up a sweet liquid called nectar and stores it inside a special pouch in its body, sometimes called a \"honey stomach.\" A bee might visit more than a hundred flowers before flying back to the hive.\n\nOnce inside the hive, the bee passes the nectar to another worker bee, mouth to mouth. This process is repeated several times, and each time, chemicals in the bees' saliva start turning the nectar into honey. The bees then spread the thickening honey into the six-sided wax cells of the honeycomb.\n\nTo finish the job, the bees fan the honey with their wings. This helps extra water evaporate, so the honey becomes thick and sticky rather than runny. When it is ready, the bees seal the cell with a thin layer of wax to keep it fresh.\n\nAll this effort is worth it: honey stored this way can last for a very long time, providing food for the colony throughout the winter months when flowers are scarce.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE3-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "How many bees can a single hive hold?",
+        "options": [
+          {
+            "id": "a",
+            "text": "As many as 60,000"
+          },
+          {
+            "id": "b",
+            "text": "Exactly 100"
+          },
+          {
+            "id": "c",
+            "text": "About 1,000"
+          },
+          {
+            "id": "d",
+            "text": "Fewer than 500"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage states 'a single hive can hold as many as 60,000 bees'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE3-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What do the bees do to help extra water evaporate from the honey?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Fan it with their wings"
+          },
+          {
+            "id": "b",
+            "text": "Leave it in the sun"
+          },
+          {
+            "id": "c",
+            "text": "Add more nectar"
+          },
+          {
+            "id": "d",
+            "text": "Move it to a new hive"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'the bees fan the honey with their wings' to help water evaporate."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE3-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'scarce' mean in the final sentence?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hard to find"
+          },
+          {
+            "id": "b",
+            "text": "Very colourful"
+          },
+          {
+            "id": "c",
+            "text": "Extremely large"
+          },
+          {
+            "id": "d",
+            "text": "Dangerous"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Scarce' means in short supply or hard to find — flowers are hard to find in winter."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE3-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why is it important that honey can last a long time?",
+        "options": [
+          {
+            "id": "a",
+            "text": "So the colony has food during winter when flowers aren't available"
+          },
+          {
+            "id": "b",
+            "text": "So the bees can sell it"
+          },
+          {
+            "id": "c",
+            "text": "So it can be used to build the hive"
+          },
+          {
+            "id": "d",
+            "text": "So other insects will leave the hive alone"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains honey 'provides food for the colony throughout the winter months when flowers are scarce'."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE3-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one sentence, summarise how bees turn nectar into stored honey.",
+        "acceptedAnswers": [
+          "bees collect nectar, pass it between bees to turn it into honey, store it in honeycomb cells and fan it dry before sealing it",
+          "they collect nectar from flowers, pass it to other bees, store it in the honeycomb and fan it to thicken it before sealing the cell"
+        ],
+        "explanation": "The key stages are: collecting nectar, passing it bee-to-bee, storing it in the honeycomb, fanning it to thicken, and sealing the cell."
+      }
+    ]
+  },
+  {
+    "title": "The New Kid",
+    "type": "fiction",
+    "yearGroup": "Y3",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Ade stood at the edge of the playground, watching the other children play a game he didn't recognise. His family had moved to the town only three days ago, and everything — the school, the streets, even the accents — still felt strange and new.\n\nA ball rolled towards his feet. He looked up to see a girl with two long plaits jogging over to fetch it.\n\n\"You can play if you want,\" she said, not unkindly. \"I'm Sofia. We're two players short for teams.\"\n\nAde hesitated. What if he didn't understand the rules? What if he made a mistake in front of everyone? But standing alone at the edge of the playground wasn't much fun either.\n\n\"Okay,\" he said finally, and followed her over.\n\nBy the time the whistle blew for the end of break, Ade had scored a goal, learned three new names, and laughed properly for the first time since the move. As they walked back towards the classroom, Sofia bumped his shoulder gently.\n\n\"See you at lunch?\" she asked.\n\nAde found himself smiling. \"Yeah,\" he said. \"See you at lunch.\"",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE3-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "How long ago had Ade's family moved to the town?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Three days ago"
+          },
+          {
+            "id": "b",
+            "text": "Three weeks ago"
+          },
+          {
+            "id": "c",
+            "text": "One day ago"
+          },
+          {
+            "id": "d",
+            "text": "A year ago"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'His family had moved to the town only three days ago'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE3-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What was Sofia's team short of?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Two players"
+          },
+          {
+            "id": "b",
+            "text": "A ball"
+          },
+          {
+            "id": "c",
+            "text": "A whistle"
+          },
+          {
+            "id": "d",
+            "text": "Time"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Sofia says, 'We're two players short for teams.'"
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE3-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Why did Ade hesitate before joining the game?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He was worried about not knowing the rules and making a mistake"
+          },
+          {
+            "id": "b",
+            "text": "He didn't like Sofia"
+          },
+          {
+            "id": "c",
+            "text": "He wanted to play a different game"
+          },
+          {
+            "id": "d",
+            "text": "He was too tired to play"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says he wondered 'What if he didn't understand the rules? What if he made a mistake in front of everyone?'"
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE3-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'not unkindly' suggest about how Sofia spoke to Ade?",
+        "options": [
+          {
+            "id": "a",
+            "text": "She spoke in a friendly, gentle way"
+          },
+          {
+            "id": "b",
+            "text": "She was being rude to him"
+          },
+          {
+            "id": "c",
+            "text": "She was shouting at him"
+          },
+          {
+            "id": "d",
+            "text": "She ignored him"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Not unkindly' means her tone was friendly rather than harsh, even though she was direct."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE3-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What is most likely to happen at lunch, based on how the story ends?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ade and Sofia will spend time together and Ade will keep making new friends"
+          },
+          {
+            "id": "b",
+            "text": "Ade will avoid Sofia"
+          },
+          {
+            "id": "c",
+            "text": "Ade will go home early"
+          },
+          {
+            "id": "d",
+            "text": "Sofia will forget about him"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Given how well their first meeting went, and that Ade agreed to meet at lunch and was smiling, it's likely their friendship will continue."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE3-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one sentence, summarise what happens to Ade in this story.",
+        "acceptedAnswers": [
+          "a new boy is invited to join a game and makes a new friend",
+          "ade, new to the school, is invited to play by sofia and ends up enjoying himself and making a friend"
+        ],
+        "explanation": "The story is about Ade, new to the school, being invited to play and starting to make friends."
+      }
+    ]
+  },
+  {
+    "title": "The Sahara Desert",
+    "type": "non_fiction",
+    "yearGroup": "Y3",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "When people picture a desert, they often imagine endless golden sand dunes stretching to the horizon — and in the Sahara Desert, that picture isn't far from the truth in some places. The Sahara stretches across most of North Africa, and it is the largest hot desert in the world.\n\nDespite its size, the Sahara isn't just sand. Only about a quarter of it is covered by dunes. The rest is made up of rocky plateaus, gravel plains, and even mountains, some of which are tall enough to have snow on their peaks in winter.\n\nLife in the desert is a constant challenge. During the day, temperatures can soar past 45°C, but at night they can plunge close to freezing, since sand doesn't hold onto heat the way soil or water does. Despite these extremes, plants and animals have found ways to survive. The fennec fox, for example, has huge ears that release heat and help it stay cool, while some desert plants have long roots that stretch deep underground to reach hidden water.\n\nPeople have lived in and around the Sahara for thousands of years too. Groups such as the Tuareg have travelled across the desert for centuries, trading goods like salt and moving between oases — the rare, fertile spots where water reaches the surface and plants can grow.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE3-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What fraction of the Sahara is covered by sand dunes?",
+        "options": [
+          {
+            "id": "a",
+            "text": "About a quarter"
+          },
+          {
+            "id": "b",
+            "text": "About half"
+          },
+          {
+            "id": "c",
+            "text": "Almost all of it"
+          },
+          {
+            "id": "d",
+            "text": "None of it"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Only about a quarter of it is covered by dunes.'"
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE3-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Why do temperatures drop so much at night in the desert?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sand doesn't hold onto heat the way soil or water does"
+          },
+          {
+            "id": "b",
+            "text": "The sun disappears completely"
+          },
+          {
+            "id": "c",
+            "text": "The wind blows all the heat away instantly"
+          },
+          {
+            "id": "d",
+            "text": "It always snows at night"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains temperatures fall 'since sand doesn't hold onto heat the way soil or water does'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE3-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What is an 'oasis', according to the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A rare, fertile spot in the desert where water reaches the surface"
+          },
+          {
+            "id": "b",
+            "text": "A type of sand dune"
+          },
+          {
+            "id": "c",
+            "text": "A kind of desert animal"
+          },
+          {
+            "id": "d",
+            "text": "A very hot wind"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage defines oases as 'the rare, fertile spots where water reaches the surface and plants can grow'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE3-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does the fennec fox most likely have such large ears?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To help release heat and keep the fox cool in extreme temperatures"
+          },
+          {
+            "id": "b",
+            "text": "To help it hear other foxes from far away only"
+          },
+          {
+            "id": "c",
+            "text": "Because all foxes have large ears"
+          },
+          {
+            "id": "d",
+            "text": "To scare away predators"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says the large ears 'release heat and help it stay cool', which is especially useful in such a hot environment."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE3-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one sentence, summarise what this passage tells us about the Sahara Desert.",
+        "acceptedAnswers": [
+          "the sahara is a huge, varied desert with extreme temperatures where plants, animals and people have adapted to survive",
+          "it describes the sahara's landscape, extreme temperatures, and how animals, plants and people such as the tuareg survive there"
+        ],
+        "explanation": "The passage covers the Sahara's landscape, its extreme temperatures, and how life has adapted to survive there."
+      }
+    ]
+  },
+  {
+    "title": "Autumn's Arrival",
+    "type": "poetry",
+    "yearGroup": "Y3",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "The mornings wear a coat of mist,\nThe mornings wear a coat of mist,\nthat clings to fields of gold,\nThe swallows gather, wing to wing,\nand whisper they'll go before the cold.\n\nThe oak tree drops its rusty crown\nin circles round its feet,\nWhile conkers, glossy, split and fall\nonto the pavement of the street.\n\nThe evenings come a little sooner,\nwrapped in amber light,\nAnd children pull their jumpers close\nas day slips into night.\n\nSo though the summer's colours fade\nand green turns brown and gold,\nAutumn paints the world anew\nbefore it hands to cold.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE3-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "According to the poem, what do the mornings 'wear'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A coat of mist"
+          },
+          {
+            "id": "b",
+            "text": "A blanket of snow"
+          },
+          {
+            "id": "c",
+            "text": "A cloak of rain"
+          },
+          {
+            "id": "d",
+            "text": "A crown of leaves"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem begins, 'The mornings wear a coat of mist'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE3-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What are the swallows preparing to do?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Leave before the cold weather arrives"
+          },
+          {
+            "id": "b",
+            "text": "Build a new nest"
+          },
+          {
+            "id": "c",
+            "text": "Stay through the winter"
+          },
+          {
+            "id": "d",
+            "text": "Change colour"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem says the swallows 'whisper they'll go before the cold', meaning they will migrate away."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE3-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "In the poem, the oak tree drops its 'rusty crown'. What does this most likely describe?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Its orange-brown leaves falling"
+          },
+          {
+            "id": "b",
+            "text": "A real metal crown"
+          },
+          {
+            "id": "c",
+            "text": "Its roots"
+          },
+          {
+            "id": "d",
+            "text": "Rainwater dripping from its branches"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Rusty crown' is a poetic way of describing the oak's leaves, which turn a rust-like orange-brown colour in autumn."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE3-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What feeling does the poem create about autumn overall?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A gentle, beautiful change, even as summer fades"
+          },
+          {
+            "id": "b",
+            "text": "Fear and danger"
+          },
+          {
+            "id": "c",
+            "text": "Boredom and dullness"
+          },
+          {
+            "id": "d",
+            "text": "Anger at the changing seasons"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Words like 'gold', 'amber light' and 'paints the world anew' create a warm, gentle mood, even as the poem acknowledges the coming cold."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE3-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one sentence, summarise what this poem is about.",
+        "acceptedAnswers": [
+          "it describes the beauty and changes of autumn as summer fades into winter",
+          "the poem describes signs of autumn arriving, like mist, falling leaves and shorter days, before winter comes"
+        ],
+        "explanation": "The poem describes the gentle arrival of autumn — mist, falling leaves, swallows leaving, and shorter days — as summer fades towards winter."
+      }
+    ]
+  },
+  {
+    "title": "The Talent Show",
+    "type": "fiction",
+    "yearGroup": "Y3",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Backstage, Leah's hands wouldn't stop shaking. In ten minutes, she was going to walk out in front of the entire school and play her violin solo — the same piece she had practised every single day for two months.\n\n\"You'll be brilliant,\" said her friend Noor, squeezing her shoulder. \"You played it perfectly this morning.\"\n\n\"That was in an empty classroom,\" Leah muttered. \"Not in front of three hundred people.\"\n\nShe peeked through the curtain. Rows and rows of faces stretched back into the darkness of the hall. Her stomach twisted into a knot.\n\nWhen her name was finally called, Leah's legs felt like they belonged to someone else. She walked to the centre of the stage, lifted her violin, and took a breath. For one terrifying second, her mind went completely blank.\n\nThen she remembered what her music teacher always said: \"Don't play for the audience. Play for the music.\" So she closed her eyes and began.\n\nThe first note was a little shaky, but by the second phrase, her fingers knew exactly where to go. The music carried her along, and before she knew it, she had reached the final note, holding it until it faded into silence.\n\nThe applause that followed was louder than anything Leah had ever heard.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE3-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What instrument was Leah about to play?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Violin"
+          },
+          {
+            "id": "b",
+            "text": "Piano"
+          },
+          {
+            "id": "c",
+            "text": "Flute"
+          },
+          {
+            "id": "d",
+            "text": "Guitar"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says she was 'going to walk out in front of the entire school and play her violin solo'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE3-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "How long had Leah practised the piece for?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Every day for two months"
+          },
+          {
+            "id": "b",
+            "text": "Once a week for a year"
+          },
+          {
+            "id": "c",
+            "text": "Only the night before"
+          },
+          {
+            "id": "d",
+            "text": "For ten minutes"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says it was 'the same piece she had practised every single day for two months'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE3-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Why did Leah's mind 'go completely blank' when she started?",
+        "options": [
+          {
+            "id": "a",
+            "text": "She was extremely nervous in front of the big audience"
+          },
+          {
+            "id": "b",
+            "text": "She had forgotten how to play the violin"
+          },
+          {
+            "id": "c",
+            "text": "The lights were too bright to see"
+          },
+          {
+            "id": "d",
+            "text": "She didn't want to play anymore"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Her nerves are clear throughout — shaking hands, a twisting stomach — so it makes sense that stage fright caused the blank moment."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE3-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'applause' mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Clapping to show approval"
+          },
+          {
+            "id": "b",
+            "text": "A type of music"
+          },
+          {
+            "id": "c",
+            "text": "Silence"
+          },
+          {
+            "id": "d",
+            "text": "A musical instrument"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Applause' refers to the clapping an audience does to show they enjoyed a performance."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE3-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on how the story ends, how does Leah most likely feel about performing again?",
+        "options": [
+          {
+            "id": "a",
+            "text": "More confident, after such a successful performance"
+          },
+          {
+            "id": "b",
+            "text": "Determined never to perform again"
+          },
+          {
+            "id": "c",
+            "text": "Angry with her music teacher"
+          },
+          {
+            "id": "d",
+            "text": "Unsure if she even finished playing"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Given the successful performance and loud applause, Leah is likely to feel more confident about performing in future."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE3-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one sentence, summarise what happens to Leah in this story.",
+        "acceptedAnswers": [
+          "a nervous leah overcomes her stage fright and successfully performs her violin solo",
+          "leah is nervous before her violin solo but manages to play well and receives loud applause"
+        ],
+        "explanation": "The story follows Leah overcoming nerves to successfully perform her violin solo."
+      }
+    ]
+  },
+  {
+    "title": "The Last Delivery",
+    "type": "fiction",
+    "yearGroup": "Y4",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Marcus checked his watch for the third time in as many minutes. Twenty past five, and the last parcel on his round — a small, oddly heavy box addressed to a Mrs Iyabo Adeyemi — still hadn't found its way to the right doorstep, because the address on the label was smudged beyond reading.\n\nHe'd already tried three houses on Willowbank Crescent. None of them belonged to a Mrs Adeyemi.\n\nRain began to spit against his jacket as he stood at the end of the road, turning the box over in his hands, searching for any other clue. Then he noticed it: a faint postmark from a shop three streets away, one he vaguely recognised — a little bakery that sold the best jollof rice in town on Fridays.\n\nIt was a long shot, but Marcus had learned that long shots were sometimes the only shots worth taking. He jogged the three streets, parcel tucked under his arm against the rain, and pushed open the bakery door. A bell jingled overhead.\n\n\"Excuse me,\" he said to the woman behind the counter, slightly out of breath. \"Would you happen to know a Mrs Adeyemi?\"\n\nThe woman's face broke into a wide smile. \"That's my mother! She lives just above the shop.\" She pointed to a narrow staircase in the corner. \"She's been waiting for that parcel all week — it's a birthday gift from my brother in Lagos.\"\n\nMarcus grinned, suddenly not minding the rain at all.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE4-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "Who was the last parcel addressed to?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mrs Iyabo Adeyemi"
+          },
+          {
+            "id": "b",
+            "text": "The bakery"
+          },
+          {
+            "id": "c",
+            "text": "Marcus"
+          },
+          {
+            "id": "d",
+            "text": "A shop three streets away"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says the parcel was 'addressed to a Mrs Iyabo Adeyemi'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE4-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Why couldn't Marcus deliver the parcel straight away?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The address label was smudged and unreadable"
+          },
+          {
+            "id": "b",
+            "text": "The parcel was too heavy to carry"
+          },
+          {
+            "id": "c",
+            "text": "It was raining too hard to walk"
+          },
+          {
+            "id": "d",
+            "text": "The bakery was closed"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'the address on the label was smudged beyond reading'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What clue led Marcus to the bakery?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A faint postmark on the parcel from a shop he recognised"
+          },
+          {
+            "id": "b",
+            "text": "Someone on Willowbank Crescent told him"
+          },
+          {
+            "id": "c",
+            "text": "He smelled jollof rice from far away"
+          },
+          {
+            "id": "d",
+            "text": "He guessed randomly"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says he noticed 'a faint postmark from a shop three streets away' that he recognised."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'a long shot' mean in this passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Something unlikely to work, but worth trying"
+          },
+          {
+            "id": "b",
+            "text": "A very fast run"
+          },
+          {
+            "id": "c",
+            "text": "A photograph taken from far away"
+          },
+          {
+            "id": "d",
+            "text": "A type of delivery van"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'A long shot' describes an attempt that probably won't succeed, but is still worth attempting — which is exactly how Marcus describes his idea."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-2",
+        "subSkill": "inference",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Using evidence from the text, explain why Marcus 'suddenly' didn't mind the rain at the end of the story.",
+        "acceptedAnswers": [
+          "he was happy/pleased that he had successfully found mrs adeyemi and delivered her important birthday gift",
+          "because he had solved the mystery and delivered the special birthday parcel, making him feel pleased despite the rain"
+        ],
+        "explanation": "Marcus feels satisfied and happy after successfully solving the mystery of the smudged address and delivering the special birthday gift, which outweighs his discomfort from the rain."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE4-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one or two sentences, summarise how Marcus finally delivers the parcel.",
+        "acceptedAnswers": [
+          "marcus follows a postmark clue on the smudged parcel to a bakery, where he discovers the recipient is the owner's mother living upstairs",
+          "he notices a postmark from a nearby bakery, goes there, and finds out the woman who lives above the shop is the person the parcel is for"
+        ],
+        "explanation": "Marcus uses the postmark on the parcel as a clue to track down the bakery, where he discovers Mrs Adeyemi lives above the shop."
+      }
+    ]
+  },
+  {
+    "title": "Journey to the Deep",
+    "type": "non_fiction",
+    "yearGroup": "Y4",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "More people have travelled into space than have visited the very deepest part of the ocean. That deepest point, called Challenger Deep, lies almost 11 kilometres below the surface of the Pacific Ocean, in a place known as the Mariana Trench.\n\nTravelling to such depths is far from simple. The pressure of the water increases dramatically the deeper you go — at the bottom of Challenger Deep, it is more than a thousand times greater than at sea level. Any ordinary submarine would be crushed instantly. Special vessels, built with incredibly thick, rounded hulls to withstand the pressure, are needed to survive the journey.\n\nIt might seem like nothing could possibly live in such a dark, crushing, freezing environment, but scientists have discovered otherwise. Strange, pale creatures have been found thriving near the ocean floor, including a type of shrimp-like creature called an amphipod and even certain kinds of fish that have adapted to the extreme pressure and near-total darkness.\n\nExploring the deep ocean matters for more than curiosity alone. Scientists believe there may be far more undiscovered species living in the depths than on land, and studying these creatures could teach us about how life survives in the most extreme conditions imaginable — knowledge that might even help us understand whether life could exist elsewhere in our solar system.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE4-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What is the name of the deepest point of the ocean mentioned in the passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Challenger Deep"
+          },
+          {
+            "id": "b",
+            "text": "Pacific Trench"
+          },
+          {
+            "id": "c",
+            "text": "Mariana Point"
+          },
+          {
+            "id": "d",
+            "text": "Ocean Floor Deep"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage names 'Challenger Deep' as the deepest point, located in the Mariana Trench."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE4-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Why would an ordinary submarine be crushed at such depths?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The water pressure is over a thousand times greater than at sea level"
+          },
+          {
+            "id": "b",
+            "text": "The water is too cold"
+          },
+          {
+            "id": "c",
+            "text": "There are dangerous sea creatures"
+          },
+          {
+            "id": "d",
+            "text": "The water is too dark to navigate"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains the pressure 'at the bottom of Challenger Deep... is more than a thousand times greater than at sea level'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'thriving' mean in the phrase 'creatures have been found thriving near the ocean floor'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Living and doing well"
+          },
+          {
+            "id": "b",
+            "text": "Struggling to survive"
+          },
+          {
+            "id": "c",
+            "text": "Swimming away quickly"
+          },
+          {
+            "id": "d",
+            "text": "Being extremely rare"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Thriving' means growing or developing successfully — the creatures are not just surviving but doing well."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does the author compare deep-ocean exploration to space travel at the start?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To show just how extreme and rarely-visited the deep ocean is"
+          },
+          {
+            "id": "b",
+            "text": "Because astronauts also explore the ocean"
+          },
+          {
+            "id": "c",
+            "text": "Because space and the ocean are the same temperature"
+          },
+          {
+            "id": "d",
+            "text": "To suggest space travel is easier than any other activity"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "By noting more people have been to space than the ocean's deepest point, the author emphasises how extreme and inaccessible Challenger Deep is."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-2",
+        "subSkill": "vocabulary",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Identify one word or phrase from the final paragraph that shows why scientists think deep-ocean research is valuable, and briefly explain its effect.",
+        "acceptedAnswers": [
+          "undiscovered species",
+          "extreme conditions",
+          "elsewhere in our solar system"
+        ],
+        "explanation": "Phrases like 'undiscovered species' and 'elsewhere in our solar system' emphasise how much is still unknown and how far-reaching the research could be, making the ocean's depths feel important and exciting rather than just distant and cold."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE4-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one or two sentences, summarise the main ideas of this passage.",
+        "acceptedAnswers": [
+          "the deep ocean is extremely difficult to reach due to pressure, yet strange creatures survive there, and studying them could reveal new species and help scientists understand extreme life",
+          "it explains how deep and dangerous challenger deep is, that special vessels and creatures adapted to survive there, and why exploring it is scientifically valuable"
+        ],
+        "explanation": "The passage covers the extreme depth and pressure of Challenger Deep, the special vessels and creatures needed to survive there, and why studying this environment matters to scientists."
+      }
+    ]
+  },
+  {
+    "title": "The Practice Match",
+    "type": "fiction",
+    "yearGroup": "Y4",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Ruby had been substitute goalkeeper for the entire season. Every Saturday, she sat on the bench in her spotless kit, watching Freya make save after save, and every Saturday she told herself that her turn would come eventually.\n\nIt came sooner than she expected — and for the worst possible reason. Ten minutes into the match against Fernwood United, Freya went down clutching her ankle, and the referee blew his whistle for a stoppage.\n\n\"Ruby, you're on,\" called Coach Patel, already waving her towards the goal.\n\nHer legs felt strangely heavy as she jogged onto the pitch, pulling on her gloves. The Fernwood forwards looked enormous from this angle, and the goal behind her felt impossibly wide open.\n\nThe first real test came in the fifteenth minute — a low, curling shot from the edge of the box. Ruby dived, more on instinct than skill, and somehow got a fingertip to the ball, deflecting it just wide of the post. Her teammates cheered from the halfway line.\n\nAfter that, something shifted. She stopped thinking about how nervous she was and started reading the game instead — watching where the ball was going, not just where it had been. By the final whistle, she had made four saves, and her team had held on for a scrappy 1-1 draw.\n\nAs she walked off, Coach Patel clapped her on the shoulder. \"Where has that been hiding all season?\"\n\nRuby laughed. \"On the bench, apparently.\"",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE4-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What position did Ruby play when she came on?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Goalkeeper"
+          },
+          {
+            "id": "b",
+            "text": "Forward"
+          },
+          {
+            "id": "c",
+            "text": "Referee"
+          },
+          {
+            "id": "d",
+            "text": "Coach"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage establishes Ruby had 'been substitute goalkeeper for the entire season' and comes on to replace Freya in goal."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE4-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Why did Ruby come on to play?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Freya was injured and had to leave the pitch"
+          },
+          {
+            "id": "b",
+            "text": "The coach wanted to rest Freya"
+          },
+          {
+            "id": "c",
+            "text": "Ruby asked to play"
+          },
+          {
+            "id": "d",
+            "text": "It was half-time"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'Freya went down clutching her ankle', forcing a substitution."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does the phrase 'something shifted' suggest about Ruby after her first save?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Her confidence grew and she started focusing on the game rather than her nerves"
+          },
+          {
+            "id": "b",
+            "text": "She decided to stop playing"
+          },
+          {
+            "id": "c",
+            "text": "The weather changed suddenly"
+          },
+          {
+            "id": "d",
+            "text": "She swapped positions with another player"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains that after the save, she 'stopped thinking about how nervous she was and started reading the game instead' — a shift in mindset and confidence."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'scrappy' mean in the phrase 'a scrappy 1-1 draw'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Messy or not smoothly played"
+          },
+          {
+            "id": "b",
+            "text": "Extremely skilful and elegant"
+          },
+          {
+            "id": "c",
+            "text": "Very short"
+          },
+          {
+            "id": "d",
+            "text": "Boring to watch"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Scrappy' describes something untidy or disorganised — a hard-fought, messy game rather than a smooth, polished one."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-2",
+        "subSkill": "inference",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Using evidence from the text, explain what Coach Patel's comment 'Where has that been hiding all season?' suggests about his opinion of Ruby's performance.",
+        "acceptedAnswers": [
+          "he is impressed and surprised by how well she played, suggesting she had hidden talent that hadn't been shown before",
+          "he thinks she played really well and is surprised she hadn't shown this ability earlier in the season"
+        ],
+        "explanation": "The comment shows Coach Patel is impressed and surprised — he didn't realise Ruby had this level of skill, since she had been on the bench all season."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE4-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one or two sentences, summarise how Ruby's role in the match changes over the course of the story.",
+        "acceptedAnswers": [
+          "ruby comes on as a nervous substitute goalkeeper but grows in confidence after a good save and ends up playing well, helping her team draw",
+          "she starts nervous after being subbed on, makes an important early save, gains confidence, and finishes the match having made four saves"
+        ],
+        "explanation": "Ruby starts nervous after an unexpected substitution, but a good early save builds her confidence, and she ends the match having made four saves and helped her team draw."
+      }
+    ]
+  },
+  {
+    "title": "Recycling: Why It Matters",
+    "type": "non_fiction",
+    "yearGroup": "Y4",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Every day, households around the world throw away enormous amounts of rubbish — food packaging, paper, plastic bottles, glass jars and more. Much of this rubbish ends up in landfill sites, where it can take an extraordinarily long time to break down. A plastic bottle, for example, can take up to 450 years to decompose fully.\n\nRecycling offers a way to reduce this problem. Instead of throwing materials away, recycling collects and processes them so they can be turned into new products. Aluminium cans, for instance, can be melted down and remade into new cans in as little as 60 days — a process that uses far less energy than making brand new aluminium from raw materials.\n\nNot everything in the recycling bin gets a straightforward second life, however. Some materials, like certain plastics, are harder to recycle because they are made of mixed materials that are difficult to separate. This is why sorting rubbish correctly matters so much: putting the wrong item in a recycling bin can sometimes contaminate an entire batch, meaning otherwise-recyclable materials end up in landfill anyway.\n\nReducing and reusing matter just as much as recycling. Choosing products with less packaging, repairing items instead of replacing them, and reusing containers all help to reduce the sheer amount of rubbish produced in the first place — meaning there's simply less that needs recycling, or landfilling, at all.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE4-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "How long can a plastic bottle take to decompose in landfill?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Up to 450 years"
+          },
+          {
+            "id": "b",
+            "text": "About 60 days"
+          },
+          {
+            "id": "c",
+            "text": "Around 10 years"
+          },
+          {
+            "id": "d",
+            "text": "Just a few months"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage states 'a plastic bottle... can take up to 450 years to decompose fully'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE4-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Why can putting the wrong item in a recycling bin be a problem?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It can contaminate the whole batch, sending recyclable materials to landfill anyway"
+          },
+          {
+            "id": "b",
+            "text": "It makes the bin too heavy to collect"
+          },
+          {
+            "id": "c",
+            "text": "It is against the law everywhere"
+          },
+          {
+            "id": "d",
+            "text": "It slows down bin collection day"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains that a wrong item 'can sometimes contaminate an entire batch, meaning otherwise-recyclable materials end up in landfill anyway'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'decompose' mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Break down naturally over time"
+          },
+          {
+            "id": "b",
+            "text": "Become brand new"
+          },
+          {
+            "id": "c",
+            "text": "Get recycled instantly"
+          },
+          {
+            "id": "d",
+            "text": "Increase in size"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Decompose' means to break down or rot, which is what happens to rubbish (very slowly) in landfill."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does the author mention that recycling aluminium 'uses far less energy than making brand new aluminium'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To show recycling has practical benefits beyond just reducing rubbish"
+          },
+          {
+            "id": "b",
+            "text": "To suggest aluminium should never be recycled"
+          },
+          {
+            "id": "c",
+            "text": "To explain how aluminium cans are made from scratch"
+          },
+          {
+            "id": "d",
+            "text": "To argue that plastic is better than aluminium"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "By highlighting the energy savings, the author strengthens the case for recycling, showing it's not just about waste but also efficiency."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-2",
+        "subSkill": "vocabulary",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "The passage uses the word 'extraordinarily' to describe how long rubbish takes to break down. What effect does this word choice have?",
+        "acceptedAnswers": [
+          "it emphasises just how surprisingly long the process takes, making the problem seem more serious",
+          "it makes the length of time seem shocking or unusually long, stressing the scale of the problem"
+        ],
+        "explanation": "'Extraordinarily' is a strong word that emphasises the surprising, almost shocking length of time involved, making the scale of the landfill problem feel more serious to the reader."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE4-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one or two sentences, summarise the main ideas of this passage.",
+        "acceptedAnswers": [
+          "rubbish takes a long time to break down in landfill, recycling can help but must be sorted correctly, and reducing and reusing matter just as much",
+          "it explains why landfill is a problem, how recycling can help if done correctly, and why reducing and reusing rubbish in the first place is also important"
+        ],
+        "explanation": "The passage covers the landfill problem, how recycling helps (and the importance of sorting correctly), and why reducing and reusing rubbish also matters."
+      }
+    ]
+  },
+  {
+    "title": "The Storm",
+    "type": "poetry",
+    "yearGroup": "Y4",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "The sky turned the colour of an old bruise,\npurple-grey and swollen with rain,\nAnd the wind, impatient, tugged at the trees\nlike a child pulling a sleeve again and again.\n\nThunder rolled in from somewhere far off,\na low growl before the show,\nAnd the first fat raindrops struck the ground\nlike coins dropped from far above.\n\nThen the storm arrived in earnest —\nlightning stitched the sky in white,\nAnd the rain came down in silver sheets,\nturning afternoon to night.\n\nWe watched it all from the window,\nsafe and warm and dry,\nWhile the garden bent and shivered\nbeneath a furious sky.\n\nBy morning it had passed entirely,\nleaving puddles bright as glass,\nAnd the world smelled washed and new again\nas sunlight touched the grass.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE4-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What colour does the poem compare the sky to?",
+        "options": [
+          {
+            "id": "a",
+            "text": "An old bruise"
+          },
+          {
+            "id": "b",
+            "text": "A clear blue"
+          },
+          {
+            "id": "c",
+            "text": "Bright orange"
+          },
+          {
+            "id": "d",
+            "text": "Pure white"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem opens: 'The sky turned the colour of an old bruise'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE4-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Where do the speakers watch the storm from?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The window"
+          },
+          {
+            "id": "b",
+            "text": "The garden"
+          },
+          {
+            "id": "c",
+            "text": "Outside in the rain"
+          },
+          {
+            "id": "d",
+            "text": "A car"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem says, 'We watched it all from the window, safe and warm and dry.'"
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does the simile 'like a child pulling a sleeve again and again' suggest about the wind?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It was persistent and repetitive"
+          },
+          {
+            "id": "b",
+            "text": "It was completely still"
+          },
+          {
+            "id": "c",
+            "text": "It smelled sweet"
+          },
+          {
+            "id": "d",
+            "text": "It was very quiet"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Comparing the wind to a child repeatedly tugging a sleeve suggests a persistent, repeated action."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does the final stanza suggest about the storm's effect on the world afterwards?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The storm left the world feeling fresh and renewed"
+          },
+          {
+            "id": "b",
+            "text": "The storm caused permanent damage"
+          },
+          {
+            "id": "c",
+            "text": "Nothing changed at all"
+          },
+          {
+            "id": "d",
+            "text": "Another storm was about to arrive"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Phrases like 'puddles bright as glass' and 'the world smelled washed and new again' suggest the storm left things feeling clean and refreshed."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-2",
+        "subSkill": "vocabulary",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Identify the metaphor used to describe the lightning, and briefly explain its effect.",
+        "acceptedAnswers": [
+          "lightning stitched the sky in white - it makes the lightning seem like thread sewing across the sky, creating a vivid, sharp image",
+          "'lightning stitched the sky in white' compares the lightning bolts to stitches, giving a vivid image of jagged lines across the dark sky"
+        ],
+        "explanation": "'Lightning stitched the sky in white' is a metaphor comparing the jagged lightning bolts to stitches of thread, creating a vivid image of thin white lines cutting across the dark sky."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE4-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one or two sentences, summarise how the mood of the poem changes from beginning to end.",
+        "acceptedAnswers": [
+          "it moves from a tense, threatening build-up to a dramatic storm, then ends calm and refreshed once the storm has passed",
+          "the poem starts ominous as the storm builds, becomes dramatic and fierce, then ends peaceful as the storm passes and the world feels clean"
+        ],
+        "explanation": "The poem moves from an ominous, building tension, through a dramatic and fierce storm, to a calm, refreshed mood once the storm has passed."
+      }
+    ]
+  },
+  {
+    "title": "Grandad's Workshop",
+    "type": "fiction",
+    "yearGroup": "Y4",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "The workshop at the bottom of Grandad's garden smelled of sawdust and old oil, a smell Elin had loved for as long as she could remember. Every Sunday afternoon, while the rest of the family watched films indoors, she would slip out through the back door and find him there, hunched over his workbench.\n\n\"Come to help, or come to watch?\" he always asked, even though he already knew the answer.\n\nToday he was building something new — a small wooden box with a hinged lid, carved with a pattern of leaves along the edge. Elin picked up a piece of sandpaper without being asked and started smoothing the rough edges of the lid.\n\n\"Who's it for?\" she asked.\n\nGrandad didn't look up from the hinge he was fitting. \"You, actually. For your birthday. Though I suppose the surprise is rather spoiled now.\"\n\nElin's hands went still. \"You're making this for me?\"\n\n\"Been working on it for three weeks,\" he said, finally glancing over with a small smile. \"Though clearly I should have hidden it better.\"\n\nElin looked down at the box — at the careful, curling leaf pattern, at the smooth wood beneath her fingers — and felt something warm settle in her chest. She kept sanding, more carefully now, as if she were helping to build something far more important than a wooden box.\n\n\"Well,\" she said. \"I suppose I'd better help you finish it properly, then.\"",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE4-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What was Grandad building?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A wooden box with a hinged lid"
+          },
+          {
+            "id": "b",
+            "text": "A birdhouse"
+          },
+          {
+            "id": "c",
+            "text": "A chair"
+          },
+          {
+            "id": "d",
+            "text": "A picture frame"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says he was building 'a small wooden box with a hinged lid, carved with a pattern of leaves along the edge'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE4-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "How long had Grandad been working on the box?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Three weeks"
+          },
+          {
+            "id": "b",
+            "text": "One day"
+          },
+          {
+            "id": "c",
+            "text": "A whole year"
+          },
+          {
+            "id": "d",
+            "text": "Three days"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Grandad says, 'Been working on it for three weeks.'"
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does Elin start sanding 'more carefully now'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "She realises the box is a special gift being made for her, and it now feels more meaningful"
+          },
+          {
+            "id": "b",
+            "text": "Grandad told her off for going too fast"
+          },
+          {
+            "id": "c",
+            "text": "The wood had suddenly become more fragile"
+          },
+          {
+            "id": "d",
+            "text": "She was told there was a test on woodworking"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "After discovering the box is a birthday gift for her, Elin feels 'something warm settle in her chest', showing the moment has become emotionally significant, which explains her extra care."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'hunched' suggest about how Grandad was sitting at his workbench?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bent forward, focused on his work"
+          },
+          {
+            "id": "b",
+            "text": "Standing up tall and relaxed"
+          },
+          {
+            "id": "c",
+            "text": "Lying down"
+          },
+          {
+            "id": "d",
+            "text": "Sitting far away from the bench"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Hunched' describes someone bent forward, often in concentration — matching the image of him absorbed in his careful work."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-2",
+        "subSkill": "inference",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Using evidence from the text, explain what the ending suggests about Elin and Grandad's relationship.",
+        "acceptedAnswers": [
+          "it suggests they are close and enjoy spending time together, and elin values the time and effort he puts into things for her",
+          "the ending shows they have a warm, close relationship, and elin appreciates the care grandad puts into making things for her"
+        ],
+        "explanation": "Elin's regular Sunday visits, her instinctive help without being asked, and her emotional reaction to the gift all suggest a warm, close relationship built on shared time and care."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE4-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one or two sentences, summarise what happens in this story.",
+        "acceptedAnswers": [
+          "elin visits her grandad in his workshop as usual and discovers the wooden box he is making is actually a birthday gift for her",
+          "while helping grandad in his workshop, elin finds out the box he's building is secretly a birthday present for her, which touches her"
+        ],
+        "explanation": "Elin visits her grandad's workshop as usual, only to discover the box he's carefully building is a birthday gift for her, which moves her."
+      }
+    ]
+  },
+  {
+    "title": "The Class Pet",
+    "type": "fiction",
+    "yearGroup": "Y2",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Class 2B had a new class pet — a fluffy hamster named Biscuit. Every Friday, one lucky child got to take Biscuit home for the weekend.\n\nThis Friday, it was finally Oscar's turn. He had been waiting for weeks, and he had already asked his mum to buy a bag of hamster food.\n\n\"Remember,\" said his teacher, Miss Bello, \"Biscuit likes to hide his food in the corner of his cage. Don't be surprised if you can't find it all!\"\n\nOscar carried the cage home very carefully, holding it with both hands the whole way. That evening, he gave Biscuit a little piece of carrot. Biscuit grabbed it with his tiny paws and stuffed it into his cheek pouches, then scurried off to his favourite corner.\n\n\"He's hiding it, just like Miss Bello said!\" Oscar laughed.\n\nOn Monday, Oscar brought Biscuit back to school, along with a drawing he had made of the little hamster.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE2-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What was the class pet's name?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Biscuit"
+          },
+          {
+            "id": "b",
+            "text": "Oscar"
+          },
+          {
+            "id": "c",
+            "text": "Carrot"
+          },
+          {
+            "id": "d",
+            "text": "Miss Bello"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says the hamster was 'named Biscuit'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE2-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What did Oscar give Biscuit to eat?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A piece of carrot"
+          },
+          {
+            "id": "b",
+            "text": "Hamster food"
+          },
+          {
+            "id": "c",
+            "text": "A biscuit"
+          },
+          {
+            "id": "d",
+            "text": "Cheese"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'he gave Biscuit a little piece of carrot'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE2-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "How did Oscar feel about finally getting his turn with Biscuit?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Excited, since he had been waiting weeks"
+          },
+          {
+            "id": "b",
+            "text": "Annoyed"
+          },
+          {
+            "id": "c",
+            "text": "Scared of the hamster"
+          },
+          {
+            "id": "d",
+            "text": "Bored"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Oscar 'had been waiting for weeks' and had already prepared, showing he was excited for his turn."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE2-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What will Oscar most likely do the next time it is his turn with Biscuit?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Look after him carefully again, just like this time"
+          },
+          {
+            "id": "b",
+            "text": "Refuse to take him home"
+          },
+          {
+            "id": "c",
+            "text": "Forget to feed him"
+          },
+          {
+            "id": "d",
+            "text": "Give the cage away"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Since Oscar was careful and enjoyed looking after Biscuit, he would likely take good care of him again."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE2-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'scurried' mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ran quickly with small steps"
+          },
+          {
+            "id": "b",
+            "text": "Walked very slowly"
+          },
+          {
+            "id": "c",
+            "text": "Slept"
+          },
+          {
+            "id": "d",
+            "text": "Cried"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Scurried' describes quick, small, hurried movements — matching how the hamster ran to hide its food."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE2-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Put these events in order using the letters: (A) Oscar gives Biscuit some carrot, (B) Oscar carries Biscuit home, (C) Oscar brings Biscuit back to school.",
+        "acceptedAnswers": [
+          "b, a, c",
+          "b a c",
+          "bac"
+        ],
+        "explanation": "First Oscar carries Biscuit home (B), then feeds him carrot (A), then brings him back to school (C)."
+      }
+    ]
+  },
+  {
+    "title": "Why Do Leaves Change Colour?",
+    "type": "non_fiction",
+    "yearGroup": "Y2",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "In summer, most leaves are green. This is because they are full of something called chlorophyll, which helps trees make food from sunlight.\n\nWhen autumn comes, the days get shorter and cooler. Trees start to get ready for winter, and they stop making as much chlorophyll. As the green colour fades, other colours that were hiding underneath — like yellow, orange and red — start to show through.\n\nEventually, the leaves dry out and fall from the tree. This helps the tree save energy over the cold winter months, ready to grow fresh green leaves again in spring.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE2-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What is the green substance in leaves called?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chlorophyll"
+          },
+          {
+            "id": "b",
+            "text": "Sunlight"
+          },
+          {
+            "id": "c",
+            "text": "Autumn"
+          },
+          {
+            "id": "d",
+            "text": "Energy"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says leaves are 'full of something called chlorophyll'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE2-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Why do leaves eventually fall from the tree?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To help the tree save energy over winter"
+          },
+          {
+            "id": "b",
+            "text": "Because it stops raining"
+          },
+          {
+            "id": "c",
+            "text": "Because birds pull them off"
+          },
+          {
+            "id": "d",
+            "text": "Because they turn green again"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says falling leaves 'helps the tree save energy over the cold winter months'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE2-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'fades' mean in this passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Slowly disappears"
+          },
+          {
+            "id": "b",
+            "text": "Suddenly appears"
+          },
+          {
+            "id": "c",
+            "text": "Gets brighter"
+          },
+          {
+            "id": "d",
+            "text": "Changes shape"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Fades' means to slowly disappear or become less strong, describing how the green colour goes."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE2-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What will most likely happen to the trees in spring?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They will grow fresh green leaves"
+          },
+          {
+            "id": "b",
+            "text": "They will stay bare forever"
+          },
+          {
+            "id": "c",
+            "text": "They will turn red"
+          },
+          {
+            "id": "d",
+            "text": "They will stop growing leaves altogether"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says trees are 'ready to grow fresh green leaves again in spring'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE2-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why can you see yellow, orange and red in autumn leaves if they were 'hiding' before?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Because those colours were always there, just covered up by the stronger green colour"
+          },
+          {
+            "id": "b",
+            "text": "Because the tree paints the leaves"
+          },
+          {
+            "id": "c",
+            "text": "Because the colours only appear in autumn"
+          },
+          {
+            "id": "d",
+            "text": "Because the leaves change species"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage implies the other colours were present underneath the green all along, only becoming visible once the chlorophyll fades."
+      }
+    ]
+  },
+  {
+    "title": "Race Day",
+    "type": "fiction",
+    "yearGroup": "Y2",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "It was Sports Day, and Zoe stood at the starting line, bouncing on her toes. She had practised running every day that week with her dad in the park.\n\n\"On your marks, get set, GO!\" shouted the teacher.\n\nZoe sprinted forward. Her friend Ben was just ahead of her, his arms pumping fast. Zoe pushed harder, remembering what her dad had told her: \"Keep your eyes on the finish line, not on the other runners.\"\n\nShe kept her eyes forward and ran as fast as her legs would go. Just before the line, she caught up with Ben — and crossed just a step ahead of him!\n\n\"You won!\" Ben grinned, not even upset. \"That was such a good race.\"\n\nZoe beamed with pride. All that practising in the park had been worth it.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE2-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "Who had Zoe practised running with?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Her dad"
+          },
+          {
+            "id": "b",
+            "text": "Ben"
+          },
+          {
+            "id": "c",
+            "text": "Her teacher"
+          },
+          {
+            "id": "d",
+            "text": "Her mum"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'She had practised running every day that week with her dad in the park'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE2-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What advice did Zoe's dad give her?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Keep your eyes on the finish line"
+          },
+          {
+            "id": "b",
+            "text": "Run slowly at first"
+          },
+          {
+            "id": "c",
+            "text": "Look at the other runners"
+          },
+          {
+            "id": "d",
+            "text": "Stretch before the race"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Zoe remembered her dad's advice: 'Keep your eyes on the finish line, not on the other runners.'"
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE2-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What will Zoe most likely do before the next Sports Day?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Keep practising, since it helped her win"
+          },
+          {
+            "id": "b",
+            "text": "Stop running altogether"
+          },
+          {
+            "id": "c",
+            "text": "Ask Ben to stop competing"
+          },
+          {
+            "id": "d",
+            "text": "Forget about Sports Day"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Since practising helped her win, Zoe would likely continue practising for future races."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE2-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "How did Ben feel about losing the race?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Good-natured about it, not upset"
+          },
+          {
+            "id": "b",
+            "text": "Very angry"
+          },
+          {
+            "id": "c",
+            "text": "He didn't notice he lost"
+          },
+          {
+            "id": "d",
+            "text": "He cried"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says Ben 'grinned, not even upset', showing he was a good sport about losing."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE2-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'beamed with pride' mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Smiled happily, feeling proud"
+          },
+          {
+            "id": "b",
+            "text": "Cried with disappointment"
+          },
+          {
+            "id": "c",
+            "text": "Ran away quickly"
+          },
+          {
+            "id": "d",
+            "text": "Fell over"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Beamed with pride' describes a big, happy smile that shows someone feels proud."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE2-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "Put these events in order using the letters: (A) Zoe crosses the finish line first, (B) Zoe practises running with her dad, (C) The race begins.",
+        "acceptedAnswers": [
+          "b, c, a",
+          "b c a",
+          "bca"
+        ],
+        "explanation": "First Zoe practises with her dad (B), then the race begins (C), then she crosses the line first (A)."
+      }
+    ]
+  },
+  {
+    "title": "The School Garden",
+    "type": "fiction",
+    "yearGroup": "Y3",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Every Wednesday lunchtime, a small group of children met in the corner of the playground that used to be nothing but weeds and broken paving stones. Now, thanks to months of digging, planting and watering, it was the school garden — full of sunflowers, tomato plants and rows of carrots.\n\nDeja knelt beside the tomato plants, checking for any that were finally turning red. She had planted these seeds back in the spring, when they were nothing more than tiny specks, and had watched them grow taller every single week.\n\n\"Still green,\" she sighed, gently touching one of the tomatoes.\n\n\"Give it time,\" said Mr Osei, the caretaker who had helped start the garden club. \"The best things are worth waiting for. By next week, I reckon they'll have turned.\"\n\nDeja looked at the plant one more time before standing up and brushing the soil from her knees. She decided she would check again first thing on Wednesday.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE3-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What did the school garden used to be before it was planted?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A corner full of weeds and broken paving stones"
+          },
+          {
+            "id": "b",
+            "text": "A car park"
+          },
+          {
+            "id": "c",
+            "text": "A swimming pool"
+          },
+          {
+            "id": "d",
+            "text": "A sports field"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage describes it as 'the corner of the playground that used to be nothing but weeds and broken paving stones'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE3-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "When had Deja planted the tomato seeds?",
+        "options": [
+          {
+            "id": "a",
+            "text": "In the spring"
+          },
+          {
+            "id": "b",
+            "text": "Last week"
+          },
+          {
+            "id": "c",
+            "text": "In the winter"
+          },
+          {
+            "id": "d",
+            "text": "That morning"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'She had planted these seeds back in the spring'."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE3-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on Mr Osei's comment, what is most likely to happen by next Wednesday?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The tomatoes will have turned red"
+          },
+          {
+            "id": "b",
+            "text": "The garden will be dug up"
+          },
+          {
+            "id": "c",
+            "text": "Deja will stop checking the plants"
+          },
+          {
+            "id": "d",
+            "text": "The sunflowers will die"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Mr Osei says, 'By next week, I reckon they'll have turned', suggesting the tomatoes will soon ripen."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE3-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What does Deja's decision to check again on Wednesday suggest about her?",
+        "options": [
+          {
+            "id": "a",
+            "text": "She is patient and dedicated to caring for the garden"
+          },
+          {
+            "id": "b",
+            "text": "She has lost interest in the garden"
+          },
+          {
+            "id": "c",
+            "text": "She is angry with Mr Osei"
+          },
+          {
+            "id": "d",
+            "text": "She doesn't like tomatoes"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Her continued care and willingness to wait shows dedication and patience toward the garden project."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE3-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'reckon' mean in Mr Osei's sentence?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Think or believe"
+          },
+          {
+            "id": "b",
+            "text": "Forget"
+          },
+          {
+            "id": "c",
+            "text": "Refuse"
+          },
+          {
+            "id": "d",
+            "text": "Shout"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Reckon' is an informal way of saying 'think' or 'believe'."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE3-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one sentence, summarise what this passage is about.",
+        "acceptedAnswers": [
+          "deja checks on her tomato plants in the school garden and is told by mr osei to be patient as they will soon ripen",
+          "a girl checks on tomatoes she planted in the school garden and the caretaker reassures her they will ripen soon"
+        ],
+        "explanation": "The passage is about Deja checking on her tomato plants in the school garden and being reassured by Mr Osei that they will soon ripen."
+      }
+    ]
+  },
+  {
+    "title": "How Do Bridges Stay Up?",
+    "type": "non_fiction",
+    "yearGroup": "Y3",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Bridges let people and vehicles cross rivers, valleys and roads that would otherwise block their path. But how do these huge structures manage to hold up so much weight without collapsing?\n\nOne simple type is the beam bridge — just a flat structure resting on supports at each end, a bit like a plank laid across a stream. Beam bridges work well for short distances, but they can start to sag or bend if they are too long, so they aren't used for very wide gaps.\n\nFor longer crossings, engineers often use arch bridges. The curved shape of an arch is very good at spreading weight outward and down into the ground, rather than letting it all press down in one place. This is why many old stone bridges, some built hundreds of years ago, are still standing today.\n\nSuspension bridges are used for the widest gaps, like across large rivers or bays. Instead of resting the whole bridge on the ground below, thick cables are hung from tall towers, and the road hangs from these cables. This clever design lets suspension bridges stretch incredibly long distances while still supporting heavy traffic.\n\nEach design solves the same problem in a different way — and choosing the right one depends on how wide the gap is and how much weight the bridge needs to carry.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE3-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What is the simplest type of bridge mentioned?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A beam bridge"
+          },
+          {
+            "id": "b",
+            "text": "A suspension bridge"
+          },
+          {
+            "id": "c",
+            "text": "An arch bridge"
+          },
+          {
+            "id": "d",
+            "text": "A tower bridge"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'One simple type is the beam bridge'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE3-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What holds up the road on a suspension bridge?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thick cables hung from tall towers"
+          },
+          {
+            "id": "b",
+            "text": "A curved stone arch"
+          },
+          {
+            "id": "c",
+            "text": "A flat beam resting on the ground"
+          },
+          {
+            "id": "d",
+            "text": "Nothing — it floats"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'thick cables are hung from tall towers, and the road hangs from these cables'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE3-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'sag' mean in this passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bend or droop downward"
+          },
+          {
+            "id": "b",
+            "text": "Become stronger"
+          },
+          {
+            "id": "c",
+            "text": "Change colour"
+          },
+          {
+            "id": "d",
+            "text": "Get wider"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Sag' describes something bending or drooping downward under weight, which is a risk for long beam bridges."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE3-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why are many old stone arch bridges still standing hundreds of years later?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The arch shape spreads weight effectively, so it doesn't collapse under strain"
+          },
+          {
+            "id": "b",
+            "text": "They are never used, so they never wear out"
+          },
+          {
+            "id": "c",
+            "text": "They are made of a special modern material"
+          },
+          {
+            "id": "d",
+            "text": "They are rebuilt every year"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains that the arch shape 'is very good at spreading weight outward and down into the ground', which helps them last."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE3-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one sentence, summarise the three bridge types described in this passage.",
+        "acceptedAnswers": [
+          "beam bridges suit short gaps, arch bridges spread weight well for longer crossings, and suspension bridges use cables to span the widest gaps",
+          "it describes beam, arch and suspension bridges, each suited to different gap widths and weight needs"
+        ],
+        "explanation": "The passage describes beam bridges (short gaps), arch bridges (spread weight well, last a long time), and suspension bridges (widest gaps, using cables)."
+      }
+    ]
+  },
+  {
+    "title": "Whispers in the Attic",
+    "type": "poetry",
+    "yearGroup": "Y3",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Up the narrow, creaking stairs,\nwhere dusty sunbeams softly fall,\nOld boxes sit in silent rows\nalong the sloping attic wall.\n\nA trunk of clothes from long ago,\na rocking horse with one ear gone,\nA faded photograph in black and white\nof someone smiling, long since gone.\n\nThe floorboards sigh with every step,\nas if they hold a secret still,\nOf stories tucked inside these walls,\nwaiting for someone with the will\n\nTo climb the stairs and search around,\nto listen closely, to explore,\nAnd find the tales that time forgot,\nbehind the little attic door.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE3-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What is missing from the rocking horse?",
+        "options": [
+          {
+            "id": "a",
+            "text": "One ear"
+          },
+          {
+            "id": "b",
+            "text": "A leg"
+          },
+          {
+            "id": "c",
+            "text": "Its tail"
+          },
+          {
+            "id": "d",
+            "text": "Its saddle"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem describes 'a rocking horse with one ear gone'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE3-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "How does the poem describe the photograph?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Faded and in black and white"
+          },
+          {
+            "id": "b",
+            "text": "Brightly coloured"
+          },
+          {
+            "id": "c",
+            "text": "Torn in half"
+          },
+          {
+            "id": "d",
+            "text": "Framed in gold"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem describes 'a faded photograph in black and white'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE3-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does the personification 'the floorboards sigh' suggest?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The floorboards creak in a way that sounds like a sigh"
+          },
+          {
+            "id": "b",
+            "text": "The floorboards are actually alive and breathing"
+          },
+          {
+            "id": "c",
+            "text": "The floorboards are being cleaned"
+          },
+          {
+            "id": "d",
+            "text": "The floorboards are brand new"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Giving the floorboards a human quality like 'sighing' creates an atmospheric image of the creaking sound they make."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE3-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "What mood does the poem create about the attic?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mysterious and full of forgotten stories"
+          },
+          {
+            "id": "b",
+            "text": "Cheerful and busy"
+          },
+          {
+            "id": "c",
+            "text": "Frightening and dangerous"
+          },
+          {
+            "id": "d",
+            "text": "Empty and boring"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Phrases like 'secret still', 'tales that time forgot' and the quiet, dusty imagery create a mysterious, story-filled mood."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE3-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one sentence, summarise what this poem is about.",
+        "acceptedAnswers": [
+          "it describes an old attic full of forgotten objects and the stories they seem to hold",
+          "the poem describes climbing to a dusty, mysterious attic full of old objects that hint at forgotten stories"
+        ],
+        "explanation": "The poem describes exploring a dusty, mysterious attic full of old objects that hint at forgotten stories from the past."
+      }
+    ]
+  },
+  {
+    "title": "The Science Fair",
+    "type": "fiction",
+    "yearGroup": "Y4",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Amara's volcano stood proudly on the table, a papier-mâché cone painted in streaks of red and orange. She had spent two whole weekends building it, and tonight was finally the school science fair.\n\n\"Ready to test it?\" asked her dad, holding the bottle of vinegar.\n\nAmara nodded, though her stomach fluttered with nerves. She had practised the reaction three times at home, and it had worked perfectly every single time — a satisfying eruption of fizzy, bubbling \"lava\" pouring down the sides. But this was different. This time, half the school would be watching.\n\nShe measured the bicarbonate of soda carefully into the volcano's crater, just as she had rehearsed. Her hands were steadier than she expected.\n\n\"Here goes,\" she whispered, and poured in the vinegar.\n\nThe reaction fizzed up instantly, foam bubbling over the edge exactly like it had at home. A small crowd of classmates gathered, pointing and laughing with delight. Amara let out a breath she hadn't realised she'd been holding, and allowed herself a proud smile.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE4-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What had Amara built for the science fair?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A papier-mâché volcano"
+          },
+          {
+            "id": "b",
+            "text": "A robot"
+          },
+          {
+            "id": "c",
+            "text": "A model bridge"
+          },
+          {
+            "id": "d",
+            "text": "A telescope"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage describes 'a papier-mâché cone painted in streaks of red and orange' — her volcano."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE4-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "How many times had Amara practised the reaction at home?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Three times"
+          },
+          {
+            "id": "b",
+            "text": "Once"
+          },
+          {
+            "id": "c",
+            "text": "Five times"
+          },
+          {
+            "id": "d",
+            "text": "She hadn't practised at all"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'She had practised the reaction three times at home'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why were Amara's 'hands steadier than she expected'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Because her practice at home had prepared her, even though she still felt nervous"
+          },
+          {
+            "id": "b",
+            "text": "Because she wasn't nervous at all"
+          },
+          {
+            "id": "c",
+            "text": "Because her dad held her hands"
+          },
+          {
+            "id": "d",
+            "text": "Because the vinegar bottle was very light"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Despite her nerves ('her stomach fluttered'), her repeated practice gave her confidence and control, which is why her hands were steadier than expected."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'fluttered' suggest about how Amara's stomach felt?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nervous and fidgety"
+          },
+          {
+            "id": "b",
+            "text": "Completely calm"
+          },
+          {
+            "id": "c",
+            "text": "In pain"
+          },
+          {
+            "id": "d",
+            "text": "Hungry"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Fluttered' describes a nervous, fidgety feeling, often used to describe butterflies-in-the-stomach nerves."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE4-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Based on how the experiment went, what will Amara most likely feel about entering next year's science fair?",
+        "options": [
+          {
+            "id": "a",
+            "text": "More confident, after this successful experience"
+          },
+          {
+            "id": "b",
+            "text": "Too scared to ever enter again"
+          },
+          {
+            "id": "c",
+            "text": "Uninterested in science"
+          },
+          {
+            "id": "d",
+            "text": "Annoyed that people watched"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Given the successful, well-received experiment and her proud smile at the end, Amara is likely to feel more confident about future science fairs."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE4-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one or two sentences, summarise what happens in this story.",
+        "acceptedAnswers": [
+          "amara nervously demonstrates her volcano experiment at the science fair and it works successfully, impressing her classmates",
+          "despite her nerves, amara's volcano experiment works perfectly at the science fair, delighting her classmates and making her feel proud"
+        ],
+        "explanation": "The story follows Amara nervously demonstrating her volcano experiment at the science fair, which works successfully and impresses her classmates."
+      }
+    ]
+  },
+  {
+    "title": "The Rise of the Robots?",
+    "type": "non_fiction",
+    "yearGroup": "Y4",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "Robots already do far more than most people realise. In factories, robotic arms assemble cars with incredible precision, welding and painting parts thousands of times a day without ever growing tired. In hospitals, some robots help deliver medicine and supplies along corridors, freeing up nurses for other important tasks.\n\nBut should robots take over even more jobs in the future? Supporters argue that robots can do dangerous, repetitive or exhausting work far more safely than humans, reducing injuries and freeing people up for more creative or skilled roles. A robot exploring a collapsed mine, for instance, faces no risk to human life.\n\nCritics, however, point out that as robots become capable of doing more jobs, some people could struggle to find work, especially in industries where machines can now do tasks that once required a human worker. They argue that as a society, we need to plan carefully — perhaps by training people for new kinds of jobs that robots cannot easily do, jobs that require empathy, creativity or complex decision-making.\n\nWhichever direction the future takes, one thing seems certain: robots are already part of daily life, and understanding how they work will only become more important.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE4-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "According to the passage, what do robotic arms do in factories?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Assemble cars, welding and painting parts"
+          },
+          {
+            "id": "b",
+            "text": "Deliver medicine to patients"
+          },
+          {
+            "id": "c",
+            "text": "Teach students"
+          },
+          {
+            "id": "d",
+            "text": "Explore collapsed mines"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says 'robotic arms assemble cars with incredible precision, welding and painting parts'."
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE4-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What is one argument critics make against robots taking over more jobs?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Some people could struggle to find work"
+          },
+          {
+            "id": "b",
+            "text": "Robots are too expensive to build"
+          },
+          {
+            "id": "c",
+            "text": "Robots break down too easily"
+          },
+          {
+            "id": "d",
+            "text": "Robots cannot do repetitive tasks"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says critics 'point out that... some people could struggle to find work'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'precision' mean in this passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Great accuracy and exactness"
+          },
+          {
+            "id": "b",
+            "text": "Great speed"
+          },
+          {
+            "id": "c",
+            "text": "Loud noise"
+          },
+          {
+            "id": "d",
+            "text": "Bright colour"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Precision' means doing something with great accuracy — matching the description of robots assembling cars exactly right."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why does the passage mention a robot 'exploring a collapsed mine'?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To give a clear example of dangerous work robots can do without risking a human life"
+          },
+          {
+            "id": "b",
+            "text": "To argue that mining should be banned"
+          },
+          {
+            "id": "c",
+            "text": "To show that robots always fail in emergencies"
+          },
+          {
+            "id": "d",
+            "text": "To explain how mines are built"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "This example illustrates the argument that robots 'can do dangerous... work far more safely than humans', since 'a robot exploring a collapsed mine faces no risk to human life'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-2",
+        "subSkill": "vocabulary",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "The passage poses the title as a question: 'The Rise of the Robots?' What effect does the question mark have?",
+        "acceptedAnswers": [
+          "it suggests the answer is uncertain or debatable, inviting the reader to consider both sides",
+          "it makes the title open to debate rather than stating a fact, hinting at the balanced argument that follows"
+        ],
+        "explanation": "The question mark signals that this is an open, debatable issue rather than a settled fact, matching the balanced 'supporters vs critics' structure of the passage."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE4-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one or two sentences, summarise the main argument of this passage.",
+        "acceptedAnswers": [
+          "robots already do useful and dangerous work, but there is debate about whether they should take over more jobs given the impact on human employment",
+          "it explains how robots help with dangerous or repetitive tasks, while also presenting concerns about job losses and the need to plan for the future"
+        ],
+        "explanation": "The passage presents both the benefits of robots (safety, efficiency) and the concerns (job losses), without settling firmly on one side."
+      }
+    ]
+  },
+  {
+    "title": "Midnight Flight",
+    "type": "fiction",
+    "yearGroup": "Y4",
+    "author": "Original — KaeLex Academy",
+    "bodyText": "The barn owl had been watching the field from her perch for almost an hour, utterly still except for the slow swivel of her head. Below, the grass rustled ever so slightly — a mouse, unaware it was being watched, was making its way across the open ground toward the safety of the hedgerow.\n\nShe waited. Patience, her mother had taught her long ago, was worth more than speed. A hunt rushed too early ended in an empty stomach and a wasted night.\n\nThe mouse paused to sniff the air, then continued forward, now halfway across the exposed grass.\n\nIn that instant, the owl dropped from her branch, wings spread wide but making almost no sound at all — her feathers were specially shaped for silence. She swept low across the field, talons extended.\n\nThe mouse never heard her coming.\n\nMoments later, the owl was airborne again, rising back toward the old oak tree where her chicks waited, hungry, in the hollow of the trunk.",
+    "questions": [
+      {
+        "strandSlug": "retrieval",
+        "objectiveCode": "RE4-RET-1",
+        "subSkill": "retrieval",
+        "type": "multiple_choice",
+        "difficulty": "bronze",
+        "promptText": "What kind of owl is in this story?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A barn owl"
+          },
+          {
+            "id": "b",
+            "text": "A snowy owl"
+          },
+          {
+            "id": "c",
+            "text": "An eagle owl"
+          },
+          {
+            "id": "d",
+            "text": "A tawny owl"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage begins, 'The barn owl had been watching the field...'"
+      },
+      {
+        "strandSlug": "literal-comprehension",
+        "objectiveCode": "RE4-LIT-1",
+        "subSkill": "literal",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Where were the owl's chicks waiting?",
+        "options": [
+          {
+            "id": "a",
+            "text": "In the hollow of an old oak tree"
+          },
+          {
+            "id": "b",
+            "text": "In the hedgerow"
+          },
+          {
+            "id": "c",
+            "text": "In a nest on the ground"
+          },
+          {
+            "id": "d",
+            "text": "In a barn"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says she flew back 'toward the old oak tree where her chicks waited... in the hollow of the trunk'."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE4-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Why did the owl wait instead of attacking immediately?",
+        "options": [
+          {
+            "id": "a",
+            "text": "She had learned that patience leads to a more successful hunt"
+          },
+          {
+            "id": "b",
+            "text": "She was too tired to fly"
+          },
+          {
+            "id": "c",
+            "text": "She was afraid of the mouse"
+          },
+          {
+            "id": "d",
+            "text": "She had already eaten"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains her mother taught her 'Patience... was worth more than speed', and that rushing 'ended in an empty stomach'."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE4-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does 'talons' mean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A bird of prey's sharp claws"
+          },
+          {
+            "id": "b",
+            "text": "A type of feather"
+          },
+          {
+            "id": "c",
+            "text": "The owl's eyes"
+          },
+          {
+            "id": "d",
+            "text": "A hunting call"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "'Talons' are the sharp claws of a bird of prey, used here for catching the mouse."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE4-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Based on the ending, what will most likely happen next?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The owl will feed the mouse to her hungry chicks"
+          },
+          {
+            "id": "b",
+            "text": "The owl will release the mouse unharmed"
+          },
+          {
+            "id": "c",
+            "text": "The mouse will escape and warn other mice"
+          },
+          {
+            "id": "d",
+            "text": "The owl will abandon her chicks"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Since the owl successfully caught the mouse and is flying back to her hungry chicks, she will most likely feed them with it."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE4-SUM-1",
+        "subSkill": "summarising",
+        "type": "short_answer",
+        "difficulty": "gold",
+        "promptText": "In one or two sentences, summarise what happens in this story.",
+        "acceptedAnswers": [
+          "a barn owl patiently watches and then silently catches a mouse before flying back to feed her hungry chicks",
+          "the owl waits patiently, silently swoops down to catch a mouse crossing a field, and returns to her chicks in the oak tree"
+        ],
+        "explanation": "The story follows a barn owl patiently waiting before silently catching a mouse and returning to feed her hungry chicks."
+      }
+    ]
   }
 ]

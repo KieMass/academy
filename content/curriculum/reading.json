@@ -49,6 +49,42 @@
           ]
         },
         {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "RE3-RET-1",
+              "description": "Retrieve and record key information from fiction and non-fiction texts",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "RE4-RET-1",
+              "description": "Retrieve and record information from fiction and non-fiction texts, including across more than one paragraph",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
           "yearGroup": "Y5",
           "objectives": [
             {
@@ -113,6 +149,42 @@
             {
               "code": "RE2-LIT-1",
               "description": "Answer questions directly using information explicitly stated in the text",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "RE3-LIT-1",
+              "description": "Answer questions directly using information explicitly stated in the text",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "RE4-LIT-1",
+              "description": "Answer questions directly using information explicitly stated across a text",
               "difficultyBands": [
                 "bronze",
                 "silver",
@@ -196,6 +268,51 @@
               ],
               "questionTypes": [
                 "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "RE3-INF-1",
+              "description": "Make inferences from the text, such as inferring characters' feelings from their actions",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "RE4-INF-1",
+              "description": "Draw inferences such as inferring characters' feelings, thoughts and motives from their actions",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            },
+            {
+              "code": "RE4-INF-2",
+              "description": "Justify inferences with evidence from the text",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
                 "short_answer"
               ]
             }
@@ -300,6 +417,40 @@
           ]
         },
         {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "RE3-PRE-1",
+              "description": "Predict what might happen on the basis of what has been read so far",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "RE4-PRE-1",
+              "description": "Predict what might happen from details stated and implied",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
           "yearGroup": "Y5",
           "objectives": [
             {
@@ -370,6 +521,52 @@
               ],
               "questionTypes": [
                 "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "RE3-VOC-1",
+              "description": "Discuss words and phrases that capture the reader's interest and imagination",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "RE4-VOC-1",
+              "description": "Give/explain the meaning of words in context",
+              "difficultyBands": [
+                "bronze",
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "matching"
+              ]
+            },
+            {
+              "code": "RE4-VOC-2",
+              "description": "Identify how a writer's choice of words and phrases adds detail or emphasis",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "short_answer"
               ]
             }
           ]
@@ -515,6 +712,40 @@
               "questionTypes": [
                 "multiple_choice",
                 "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "RE3-SUM-1",
+              "description": "Identify and explain the sequence of events in a text, and summarise a paragraph in one sentence",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice",
+                "short_answer"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "RE4-SUM-1",
+              "description": "Summarise the main ideas from more than one paragraph, identifying key details that support the main idea(s)",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "short_answer",
+                "multiple_choice"
               ]
             }
           ]

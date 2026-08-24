@@ -3495,5 +3495,1897 @@
       }
     ],
     "explanation": "11.5 + 8.25 = 19.75 miles completed. 26 - 19.75 = 6.25 miles remaining."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-GEO-3",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "An angle looks like it has opened wider than a right angle. What is this called?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Acute"
+      },
+      {
+        "id": "b",
+        "text": "Obtuse"
+      },
+      {
+        "id": "c",
+        "text": "Reflex"
+      },
+      {
+        "id": "d",
+        "text": "A right angle"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "An angle wider than a right angle (90°) but less than a straight line (180°) is obtuse."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-GEO-3",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "How many right angles make a half-turn?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "A half-turn is 180°, and each right angle is 90°, so 2 right angles make a half-turn."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-GEO-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "How many right angles make a complete turn?",
+    "options": [
+      {
+        "id": "a",
+        "text": "2"
+      },
+      {
+        "id": "b",
+        "text": "3"
+      },
+      {
+        "id": "c",
+        "text": "4"
+      },
+      {
+        "id": "d",
+        "text": "8"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "A complete turn is 360°. Since a right angle is 90°, 360 ÷ 90 = 4 right angles make a complete turn."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-GEO-4",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which word describes a line that goes straight up and down?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Vertical"
+      },
+      {
+        "id": "b",
+        "text": "Horizontal"
+      },
+      {
+        "id": "c",
+        "text": "Diagonal"
+      },
+      {
+        "id": "d",
+        "text": "Curved"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A vertical line runs straight up and down."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-GEO-4",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Two lines that never meet and stay the same distance apart are called what?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parallel"
+      },
+      {
+        "id": "b",
+        "text": "Perpendicular"
+      },
+      {
+        "id": "c",
+        "text": "Vertical"
+      },
+      {
+        "id": "d",
+        "text": "Diagonal"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Parallel lines run in the same direction and never meet."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-GEO-4",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Two lines that meet at a right angle are called what?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Perpendicular"
+      },
+      {
+        "id": "b",
+        "text": "Parallel"
+      },
+      {
+        "id": "c",
+        "text": "Horizontal"
+      },
+      {
+        "id": "d",
+        "text": "Curved"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Perpendicular lines cross each other at a right angle (90°)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-GEO-1",
+    "type": "matching",
+    "difficulty": "bronze",
+    "promptText": "Match each 3-D shape to the number of flat faces it has.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Cube",
+        "right": "6 faces"
+      },
+      {
+        "id": "p2",
+        "left": "Cylinder",
+        "right": "2 flat faces + 1 curved"
+      },
+      {
+        "id": "p3",
+        "left": "Cone",
+        "right": "1 flat face + 1 curved"
+      },
+      {
+        "id": "p4",
+        "left": "Sphere",
+        "right": "0 flat faces"
+      }
+    ],
+    "explanation": "A cube has 6 flat faces; a cylinder has 2 flat circular faces and a curved side; a cone has 1 flat face and a curved side; a sphere has no flat faces."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-GEO-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "When a clock hand moves from 12 to 3, what kind of turn has it made?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A quarter turn"
+      },
+      {
+        "id": "b",
+        "text": "A half turn"
+      },
+      {
+        "id": "c",
+        "text": "A three-quarter turn"
+      },
+      {
+        "id": "d",
+        "text": "A whole turn"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Moving from 12 to 3 on a clock face is a quarter of a full turn."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-GEO-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which 3-D shape would you get if you stood a triangular piece of card up and it had a rectangular base and sides meeting at a point?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Triangular-based pyramid"
+      },
+      {
+        "id": "b",
+        "text": "Triangular prism"
+      },
+      {
+        "id": "c",
+        "text": "Cuboid"
+      },
+      {
+        "id": "d",
+        "text": "Cylinder"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A pyramid has triangular sides that meet at a single point (the apex), on top of a base."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-GEO-3",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A door is open so that it makes an angle greater than a right angle but less than a straight line with the wall. What type of angle is this?",
+    "acceptedAnswers": [
+      "obtuse",
+      "an obtuse angle"
+    ],
+    "explanation": "An angle between 90° and 180° is called obtuse."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-GEO-1",
+    "type": "matching",
+    "difficulty": "silver",
+    "promptText": "Match each 2-D shape to the correct description.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Pentagon",
+        "right": "5 sides"
+      },
+      {
+        "id": "p2",
+        "left": "Hexagon",
+        "right": "6 sides"
+      },
+      {
+        "id": "p3",
+        "left": "Heptagon",
+        "right": "7 sides"
+      },
+      {
+        "id": "p4",
+        "left": "Octagon",
+        "right": "8 sides"
+      }
+    ],
+    "explanation": "The prefix tells you the number of sides: penta- (5), hexa- (6), hepta- (7), octa- (8)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "A ribbon is 2 m 35 cm long. How many centimetres is that in total?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "235"
+        ]
+      }
+    ],
+    "explanation": "2 m = 200 cm, plus 35 cm = 235 cm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A bucket holds 4 l 250 ml of water. Another bucket holds 1 l 800 ml. How much water is there altogether, in millilitres?",
+    "acceptedAnswers": [
+      "6050",
+      "6050ml",
+      "6050 ml"
+    ],
+    "explanation": "4250 ml + 1800 ml = 6050 ml."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A rectangular field is 15 m long and 9 m wide. What is its perimeter?",
+    "acceptedAnswers": [
+      "48",
+      "48m",
+      "48 m"
+    ],
+    "explanation": "Perimeter = 2 × (15 + 9) = 2 × 24 = 48 m."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-3",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "You pay for a £2.40 book with a £5 note. How much change do you get?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "2.60",
+          "£2.60"
+        ]
+      }
+    ],
+    "explanation": "£5.00 - £2.40 = £2.60."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-4",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which Roman numeral represents the number 9 on a clock face?",
+    "options": [
+      {
+        "id": "a",
+        "text": "IX"
+      },
+      {
+        "id": "b",
+        "text": "XI"
+      },
+      {
+        "id": "c",
+        "text": "VI"
+      },
+      {
+        "id": "d",
+        "text": "IIX"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "IX represents 9 (one less than X, which is 10)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-4",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "What time is shown as '15:20' on a 24-hour clock, written as a 12-hour time?",
+    "options": [
+      {
+        "id": "a",
+        "text": "3:20 pm"
+      },
+      {
+        "id": "b",
+        "text": "3:20 am"
+      },
+      {
+        "id": "c",
+        "text": "5:20 pm"
+      },
+      {
+        "id": "d",
+        "text": "1:20 pm"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "15:20 - 12:00 = 3:20 pm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-5",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "How many seconds are there in a minute?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "60"
+        ]
+      }
+    ],
+    "explanation": "There are 60 seconds in a minute."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-5",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "How many days are there in April?",
+    "options": [
+      {
+        "id": "a",
+        "text": "30"
+      },
+      {
+        "id": "b",
+        "text": "31"
+      },
+      {
+        "id": "c",
+        "text": "28"
+      },
+      {
+        "id": "d",
+        "text": "29"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "April is one of the months with 30 days."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-5",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "How many days does February have in a leap year?",
+    "options": [
+      {
+        "id": "a",
+        "text": "29"
+      },
+      {
+        "id": "b",
+        "text": "28"
+      },
+      {
+        "id": "c",
+        "text": "30"
+      },
+      {
+        "id": "d",
+        "text": "31"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "In a leap year, an extra day is added to February, making it 29 days."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-6",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "A film lasts 1 hour 40 minutes and a cartoon lasts 25 minutes. Which lasts longer, and by how much?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The film, by 75 minutes"
+      },
+      {
+        "id": "b",
+        "text": "The cartoon, by 75 minutes"
+      },
+      {
+        "id": "c",
+        "text": "The film, by 100 minutes"
+      },
+      {
+        "id": "d",
+        "text": "They last the same time"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "1 hour 40 minutes = 100 minutes. 100 - 25 = 75 minutes longer."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-1",
+    "type": "matching",
+    "difficulty": "bronze",
+    "promptText": "Match each object to the most sensible unit for measuring it.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "The length of a pencil",
+        "right": "centimetres (cm)"
+      },
+      {
+        "id": "p2",
+        "left": "The mass of an apple",
+        "right": "grams (g)"
+      },
+      {
+        "id": "p3",
+        "left": "The capacity of a bathtub",
+        "right": "litres (l)"
+      },
+      {
+        "id": "p4",
+        "left": "The distance to the next town",
+        "right": "kilometres (km)"
+      }
+    ],
+    "explanation": "Small lengths use cm, light objects use g, large volumes use l, and long distances use km."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-3",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A pencil case costs £3.65 and a notebook costs £1.85. How much do they cost altogether?",
+    "acceptedAnswers": [
+      "5.50",
+      "£5.50"
+    ],
+    "explanation": "£3.65 + £1.85 = £5.50."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-MEA-4",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A train departs at 09:15 and the journey takes 55 minutes. What time (24-hour clock) does it arrive?",
+    "acceptedAnswers": [
+      "10:10"
+    ],
+    "explanation": "09:15 + 55 minutes = 10:10."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-STAT-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "A bar chart shows the number of pets owned by a class: Dogs 8, Cats 6, Fish 3, Rabbits 2. Which pet is the least common?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rabbits"
+      },
+      {
+        "id": "b",
+        "text": "Fish"
+      },
+      {
+        "id": "c",
+        "text": "Cats"
+      },
+      {
+        "id": "d",
+        "text": "Dogs"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Rabbits has the lowest count (2), so it is the least common pet."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-STAT-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A bar chart shows books read in a month: Amir 7, Bella 5, Chen 9, Dana 4. How many books did they read altogether?",
+    "acceptedAnswers": [
+      "25"
+    ],
+    "explanation": "7 + 5 + 9 + 4 = 25 books."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-STAT-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A pictogram shows that each picture of an apple represents 2 apples sold. If there are 6 pictures for Monday, how many apples were sold?",
+    "acceptedAnswers": [
+      "12"
+    ],
+    "explanation": "6 pictures × 2 apples each = 12 apples."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-STAT-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "A tally chart shows: |||| for red cars and ||| for blue cars. How many red cars were counted?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4"
+      },
+      {
+        "id": "b",
+        "text": "3"
+      },
+      {
+        "id": "c",
+        "text": "5"
+      },
+      {
+        "id": "d",
+        "text": "7"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "|||| represents 4 tally marks, so 4 red cars."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-STAT-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A table shows sweets sold: Monday 20, Tuesday 15, Wednesday 25. How many more were sold on Wednesday than Tuesday?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "5"
+      },
+      {
+        "id": "c",
+        "text": "15"
+      },
+      {
+        "id": "d",
+        "text": "20"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "25 - 15 = 10 more sweets on Wednesday."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-STAT-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "In a bar chart, the height of each bar shows what?",
+    "options": [
+      {
+        "id": "a",
+        "text": "How many there are of that category"
+      },
+      {
+        "id": "b",
+        "text": "The colour of the category"
+      },
+      {
+        "id": "c",
+        "text": "The order the data was collected in"
+      },
+      {
+        "id": "d",
+        "text": "The name of the category"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The height (or length) of a bar represents the quantity for that category."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-REA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "I am a 3-digit number. My tens digit is double my ones digit. My hundreds digit is 1. My ones digit is 3. What number am I?",
+    "acceptedAnswers": [
+      "163"
+    ],
+    "explanation": "Ones digit = 3, tens digit = double = 6, hundreds digit = 1, so the number is 163."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-REA-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which statement is always true about a square?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It has 4 equal sides and 4 right angles"
+      },
+      {
+        "id": "b",
+        "text": "It has 3 sides"
+      },
+      {
+        "id": "c",
+        "text": "It has no right angles"
+      },
+      {
+        "id": "d",
+        "text": "It has 5 vertices"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "By definition, a square always has 4 equal sides and 4 right angles."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-REA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Explain why 3 + 4 gives the same answer as 4 + 3.",
+    "acceptedAnswers": [
+      "addition is commutative",
+      "the order does not matter in addition",
+      "addition can be done in any order"
+    ],
+    "explanation": "Addition is commutative — you can add numbers in any order and get the same total."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-REA-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "A number is odd and is a multiple of 5, and is less than 20 but greater than 10. What is the number?",
+    "acceptedAnswers": [
+      "15"
+    ],
+    "explanation": "Multiples of 5 under 20 and over 10: 15. It is also odd, so 15 fits all the clues."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-REA-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Priya says: 'All rectangles are squares.' Is she correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No — a square is a special rectangle, but not all rectangles are squares"
+      },
+      {
+        "id": "b",
+        "text": "Yes — they are always the same shape"
+      },
+      {
+        "id": "c",
+        "text": "No — rectangles and squares are unrelated"
+      },
+      {
+        "id": "d",
+        "text": "Yes, but only if they are red"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A square is a rectangle with all sides equal, but most rectangles have unequal side lengths, so not all rectangles are squares."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-WP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A baker makes 245 rolls. 128 are sold in the morning. How many rolls are left?",
+    "acceptedAnswers": [
+      "117"
+    ],
+    "explanation": "245 - 128 = 117 rolls left."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-WP-1",
+    "type": "fill_in_box",
+    "difficulty": "gold",
+    "promptText": "___ + 236 = 500. What number goes in the gap?",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "264"
+        ]
+      }
+    ],
+    "explanation": "500 - 236 = 264."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-WP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A shop has 8 boxes of 4 footballs each. How many footballs are there altogether?",
+    "acceptedAnswers": [
+      "32"
+    ],
+    "explanation": "8 × 4 = 32 footballs."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-WP-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "24 children are put into equal teams of 3. How many teams are there?",
+    "acceptedAnswers": [
+      "8"
+    ],
+    "explanation": "24 ÷ 3 = 8 teams."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-WP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Tom has 156 stickers. He gives away 47 and then buys 60 more. How many stickers does he have now?",
+    "acceptedAnswers": [
+      "169"
+    ],
+    "explanation": "156 - 47 = 109, then 109 + 60 = 169."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y3",
+    "objectiveCode": "MA3-WP-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "A recipe needs 3/4 of a bag of flour. If a bag has 8 cups, how many cups of flour are needed?",
+    "acceptedAnswers": [
+      "6"
+    ],
+    "explanation": "3/4 of 8 = (8 ÷ 4) × 3 = 2 × 3 = 6 cups."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-GEO-1",
+    "type": "matching",
+    "difficulty": "silver",
+    "promptText": "Match each quadrilateral to its correct property.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "Square",
+        "right": "4 equal sides, 4 right angles"
+      },
+      {
+        "id": "p2",
+        "left": "Rectangle",
+        "right": "2 pairs of equal sides, 4 right angles"
+      },
+      {
+        "id": "p3",
+        "left": "Rhombus",
+        "right": "4 equal sides, no right angles"
+      },
+      {
+        "id": "p4",
+        "left": "Trapezium",
+        "right": "Exactly 1 pair of parallel sides"
+      }
+    ],
+    "explanation": "Each quadrilateral has a distinct combination of side lengths and angles."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-GEO-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which shape always has exactly one pair of parallel sides?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Trapezium"
+      },
+      {
+        "id": "b",
+        "text": "Square"
+      },
+      {
+        "id": "c",
+        "text": "Rhombus"
+      },
+      {
+        "id": "d",
+        "text": "Rectangle"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A trapezium is defined as a quadrilateral with exactly one pair of parallel sides."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-GEO-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these describes an acute angle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Less than 90°"
+      },
+      {
+        "id": "b",
+        "text": "Exactly 90°"
+      },
+      {
+        "id": "c",
+        "text": "Between 90° and 180°"
+      },
+      {
+        "id": "d",
+        "text": "More than 180°"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "An acute angle is any angle less than 90°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-GEO-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Put these angles in order from smallest to largest: 45°, 100°, 89°, 15°.",
+    "options": [
+      {
+        "id": "a",
+        "text": "15°, 45°, 89°, 100°"
+      },
+      {
+        "id": "b",
+        "text": "100°, 89°, 45°, 15°"
+      },
+      {
+        "id": "c",
+        "text": "45°, 15°, 100°, 89°"
+      },
+      {
+        "id": "d",
+        "text": "15°, 89°, 45°, 100°"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ordering the values from smallest to largest gives 15°, 45°, 89°, 100°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-GEO-3",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "How many lines of symmetry does a square have?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "0"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A square has 4 lines of symmetry: 2 diagonals and 2 through the midpoints of opposite sides."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-GEO-3",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "How many lines of symmetry does a regular pentagon have?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5"
+      },
+      {
+        "id": "b",
+        "text": "4"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "0"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A regular pentagon has 5 lines of symmetry — one through each vertex and the midpoint of the opposite side."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-GEO-3",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which capital letter has a horizontal line of symmetry?",
+    "options": [
+      {
+        "id": "a",
+        "text": "B"
+      },
+      {
+        "id": "b",
+        "text": "A"
+      },
+      {
+        "id": "c",
+        "text": "M"
+      },
+      {
+        "id": "d",
+        "text": "T"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The letter B can be folded along a horizontal line so the top and bottom halves match."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-GEO-4",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A shape has a line of symmetry down the middle, and the left half is a right-angled triangle. What must the right half be to complete the symmetric figure?",
+    "acceptedAnswers": [
+      "a mirror image of the right-angled triangle",
+      "a reflected right-angled triangle",
+      "the mirror image"
+    ],
+    "explanation": "To complete a symmetric figure, the missing half must be the exact mirror image of the given half."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-GEO-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which triangle has all three sides of different lengths?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Scalene"
+      },
+      {
+        "id": "b",
+        "text": "Equilateral"
+      },
+      {
+        "id": "c",
+        "text": "Isosceles"
+      },
+      {
+        "id": "d",
+        "text": "Right-angled"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A scalene triangle has three sides of different lengths and three different angles."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-GEO-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which triangle has exactly two equal sides?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Isosceles"
+      },
+      {
+        "id": "b",
+        "text": "Equilateral"
+      },
+      {
+        "id": "c",
+        "text": "Scalene"
+      },
+      {
+        "id": "d",
+        "text": "Obtuse"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "An isosceles triangle has exactly two equal sides and two equal angles."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "geometry",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-GEO-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Two right angles put together make what size angle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "180°"
+      },
+      {
+        "id": "b",
+        "text": "90°"
+      },
+      {
+        "id": "c",
+        "text": "270°"
+      },
+      {
+        "id": "d",
+        "text": "360°"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Two right angles (90° + 90°) make a straight line: 180°."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "Convert 3 km to metres.",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "3000"
+        ]
+      }
+    ],
+    "explanation": "1 km = 1000 m, so 3 km = 3000 m."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-1",
+    "type": "fill_in_box",
+    "difficulty": "silver",
+    "promptText": "Convert 2 hours 15 minutes into minutes.",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "135"
+        ]
+      }
+    ],
+    "explanation": "2 hours = 120 minutes, plus 15 minutes = 135 minutes."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "An L-shaped garden has these outer sides going round: 8 m, 5 m, 3 m, 2 m, 5 m, 3 m. What is its perimeter?",
+    "acceptedAnswers": [
+      "26",
+      "26m",
+      "26 m"
+    ],
+    "explanation": "Adding all the outer sides: 8 + 5 + 3 + 2 + 5 + 3 = 26 m."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-3",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "A shape is drawn on a grid of 1 cm squares. It covers 17 whole squares. What is its area?",
+    "acceptedAnswers": [
+      "17",
+      "17cm2",
+      "17 cm2",
+      "17cm²"
+    ],
+    "explanation": "Counting the whole squares covered gives the area: 17 cm²."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-4",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A book costs £4.75 and a pencil case costs £2.60. Estimate the total to the nearest pound, then work out the exact total.",
+    "acceptedAnswers": [
+      "7.35",
+      "£7.35"
+    ],
+    "explanation": "£4.75 + £2.60 = £7.35 (roughly £5 + £3 = £8 as an estimate)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-5",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What is 17:45 written on a 12-hour clock?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5:45 pm"
+      },
+      {
+        "id": "b",
+        "text": "5:45 am"
+      },
+      {
+        "id": "c",
+        "text": "7:45 pm"
+      },
+      {
+        "id": "d",
+        "text": "6:45 pm"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "17:45 - 12:00 = 5:45 pm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-5",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What is 8:30 pm written on a 24-hour clock?",
+    "options": [
+      {
+        "id": "a",
+        "text": "20:30"
+      },
+      {
+        "id": "b",
+        "text": "08:30"
+      },
+      {
+        "id": "c",
+        "text": "18:30"
+      },
+      {
+        "id": "d",
+        "text": "20:30 pm"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Adding 12 hours to 8:30 pm gives 20:30 on the 24-hour clock."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-6",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "How many minutes are there in 3 hours?",
+    "acceptedAnswers": [
+      "180"
+    ],
+    "explanation": "3 × 60 = 180 minutes."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-6",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "How many months are there in 2 years and 5 months?",
+    "acceptedAnswers": [
+      "29"
+    ],
+    "explanation": "2 years = 24 months, plus 5 months = 29 months."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-6",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "How many weeks are there in 63 days?",
+    "acceptedAnswers": [
+      "9"
+    ],
+    "explanation": "63 ÷ 7 = 9 weeks."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-1",
+    "type": "matching",
+    "difficulty": "silver",
+    "promptText": "Match each conversion to its correct value.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "1 kg",
+        "right": "1000 g"
+      },
+      {
+        "id": "p2",
+        "left": "1 litre",
+        "right": "1000 ml"
+      },
+      {
+        "id": "p3",
+        "left": "1 metre",
+        "right": "100 cm"
+      },
+      {
+        "id": "p4",
+        "left": "1 hour",
+        "right": "60 minutes"
+      }
+    ],
+    "explanation": "Each metric or time unit converts to its smaller unit using these standard relationships."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "measurement",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-MEA-3",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A rectangle is made from 1 cm squares. It is 6 squares long and 4 squares wide. What is its area?",
+    "acceptedAnswers": [
+      "24",
+      "24cm2",
+      "24 cm2"
+    ],
+    "explanation": "6 × 4 = 24 squares, so the area is 24 cm²."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-POS-1",
+    "type": "fill_in_box",
+    "difficulty": "bronze",
+    "promptText": "A point is 3 across and 5 up from the origin, on a grid in the first quadrant. Write its coordinates as (x, y).",
+    "blanks": [
+      {
+        "id": "answer",
+        "acceptedAnswers": [
+          "(3,5)",
+          "3,5",
+          "(3, 5)"
+        ]
+      }
+    ],
+    "explanation": "Coordinates are written (x, y) — 3 across (x) and 5 up (y) gives (3, 5)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-POS-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "On a coordinate grid, what does the first number in a coordinate pair (x, y) tell you?",
+    "options": [
+      {
+        "id": "a",
+        "text": "How far across (right) to move"
+      },
+      {
+        "id": "b",
+        "text": "How far up to move"
+      },
+      {
+        "id": "c",
+        "text": "The name of the point"
+      },
+      {
+        "id": "d",
+        "text": "The colour of the point"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The x-coordinate (first number) shows the horizontal position."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-POS-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A point starts at (2, 3) and is translated 4 units right and 1 unit up. What are its new coordinates?",
+    "acceptedAnswers": [
+      "(6,4)",
+      "6,4",
+      "(6, 4)"
+    ],
+    "explanation": "Adding 4 to the x-coordinate and 1 to the y-coordinate: (2+4, 3+1) = (6, 4)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-POS-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A point starts at (5, 7) and is translated 2 units left and 3 units down. What are its new coordinates?",
+    "acceptedAnswers": [
+      "(3,4)",
+      "3,4",
+      "(3, 4)"
+    ],
+    "explanation": "Subtracting 2 from the x-coordinate and 3 from the y-coordinate: (5-2, 7-3) = (3, 4)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-POS-3",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Three corners of a square are (1,1), (1,4) and (4,4). What are the coordinates of the fourth corner?",
+    "acceptedAnswers": [
+      "(4,1)",
+      "4,1",
+      "(4, 1)"
+    ],
+    "explanation": "To complete the square, the fourth corner must share its x-coordinate with (4,4) and its y-coordinate with (1,1): (4, 1)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "position-direction",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-POS-1",
+    "type": "matching",
+    "difficulty": "silver",
+    "promptText": "Match each point to its correct coordinates.",
+    "pairs": [
+      {
+        "id": "p1",
+        "left": "3 across, 2 up",
+        "right": "(3, 2)"
+      },
+      {
+        "id": "p2",
+        "left": "0 across, 4 up",
+        "right": "(0, 4)"
+      },
+      {
+        "id": "p3",
+        "left": "5 across, 0 up",
+        "right": "(5, 0)"
+      },
+      {
+        "id": "p4",
+        "left": "1 across, 1 up",
+        "right": "(1, 1)"
+      }
+    ],
+    "explanation": "Coordinates are always written (x, y): across, then up."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-STAT-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "A time graph shows temperature rising steadily through the morning. What does the slope of the line tell you?",
+    "options": [
+      {
+        "id": "a",
+        "text": "How quickly the temperature is changing"
+      },
+      {
+        "id": "b",
+        "text": "The exact time in hours"
+      },
+      {
+        "id": "c",
+        "text": "The colour used for the line"
+      },
+      {
+        "id": "d",
+        "text": "Nothing useful"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The steepness (slope) of a line on a time graph shows the rate of change."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-STAT-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A bar chart shows rainfall (mm): Mon 12, Tue 8, Wed 20, Thu 5. What is the difference between the wettest and driest day?",
+    "acceptedAnswers": [
+      "15"
+    ],
+    "explanation": "Wettest is Wed (20 mm), driest is Thu (5 mm). 20 - 5 = 15 mm."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-STAT-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A table shows visitors to a museum: Sat 340, Sun 275. How many more visitors came on Saturday than Sunday?",
+    "acceptedAnswers": [
+      "65"
+    ],
+    "explanation": "340 - 275 = 65 more visitors."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-STAT-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which type of data changes continuously over time, like temperature?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Continuous data"
+      },
+      {
+        "id": "b",
+        "text": "Discrete data"
+      },
+      {
+        "id": "c",
+        "text": "Categorical data"
+      },
+      {
+        "id": "d",
+        "text": "Random data"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Continuous data, like temperature, can take any value and changes smoothly, unlike discrete data (e.g. counts)."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "statistics",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-STAT-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A pictogram key shows 1 symbol = 5 books. If 'Fiction' has 4 symbols and 'Non-fiction' has 3 symbols, how many more fiction books are there?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "10"
+      },
+      {
+        "id": "d",
+        "text": "15"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Fiction = 4 × 5 = 20, Non-fiction = 3 × 5 = 15. 20 - 15 = 5 more."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-REA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Look at the pattern: 3, 7, 11, 15, ___. What is the next number, and what is the rule?",
+    "acceptedAnswers": [
+      "19",
+      "19, add 4",
+      "19 add 4"
+    ],
+    "explanation": "Each term increases by 4, so the next number is 15 + 4 = 19."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-REA-1",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which of these numbers does NOT belong with the others: 12, 18, 24, 25, 30?",
+    "options": [
+      {
+        "id": "a",
+        "text": "25"
+      },
+      {
+        "id": "b",
+        "text": "12"
+      },
+      {
+        "id": "c",
+        "text": "18"
+      },
+      {
+        "id": "d",
+        "text": "30"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "12, 18, 24 and 30 are all multiples of 6; 25 is not."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-REA-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "I am thinking of a number. If you double it and add 3, you get 19. What is my number?",
+    "acceptedAnswers": [
+      "8"
+    ],
+    "explanation": "19 - 3 = 16, then 16 ÷ 2 = 8."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-REA-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Explain why 36 is a square number.",
+    "acceptedAnswers": [
+      "6 x 6 = 36",
+      "6 times 6 equals 36",
+      "it is 6 multiplied by itself"
+    ],
+    "explanation": "A square number is the product of a whole number multiplied by itself: 6 × 6 = 36."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "reasoning",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-REA-1",
+    "type": "multiple_choice",
+    "difficulty": "challenge",
+    "promptText": "Jack says: 'If a number is even, it must be a multiple of 4.' Is he correct?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No — e.g. 6 is even but not a multiple of 4"
+      },
+      {
+        "id": "b",
+        "text": "Yes, always"
+      },
+      {
+        "id": "c",
+        "text": "No — even numbers are never multiples of 4"
+      },
+      {
+        "id": "d",
+        "text": "Only for numbers under 10"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "6, 10, 14 and 18 are all even but not multiples of 4, so Jack's statement is false."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-WP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A theatre has 24 rows with 18 seats in each row. How many seats are there in total?",
+    "acceptedAnswers": [
+      "432"
+    ],
+    "explanation": "24 × 18 = 432 seats."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-WP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A school orders 8 boxes of pencils, each holding 36 pencils, and gives away 150 pencils. How many are left?",
+    "acceptedAnswers": [
+      "138"
+    ],
+    "explanation": "8 × 36 = 288 pencils ordered. 288 - 150 = 138 pencils left."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-WP-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "Using the distributive law, work out 6 × 23 by splitting 23 into 20 + 3.",
+    "acceptedAnswers": [
+      "138"
+    ],
+    "explanation": "6 × 20 = 120, 6 × 3 = 18, so 6 × 23 = 120 + 18 = 138."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-WP-1",
+    "type": "multi_step",
+    "difficulty": "gold",
+    "promptText": "A café sells 145 coffees on Saturday and 98 on Sunday.",
+    "steps": [
+      {
+        "id": "s1",
+        "prompt": "How many coffees were sold over the weekend altogether?",
+        "acceptedAnswers": [
+          "243"
+        ]
+      },
+      {
+        "id": "s2",
+        "prompt": "If each coffee costs £3, how much money was made in total?",
+        "acceptedAnswers": [
+          "729",
+          "£729"
+        ]
+      }
+    ],
+    "explanation": "145 + 98 = 243 coffees. 243 × £3 = £729."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-WP-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "A recipe needs 250 g of flour per cake. How much flour is needed for 7 cakes, in kilograms?",
+    "acceptedAnswers": [
+      "1.75",
+      "1.75kg",
+      "1.75 kg"
+    ],
+    "explanation": "250 g × 7 = 1750 g = 1.75 kg."
+  },
+  {
+    "subjectSlug": "maths",
+    "strandSlug": "word-problems",
+    "yearGroup": "Y4",
+    "objectiveCode": "MA4-WP-1",
+    "type": "short_answer",
+    "difficulty": "challenge",
+    "promptText": "A model is built at a scale where 1 cm represents 4 m in real life. If a wall in the model is 6 cm long, how long is the real wall?",
+    "acceptedAnswers": [
+      "24",
+      "24m",
+      "24 m"
+    ],
+    "explanation": "6 × 4 = 24 m."
   }
 ]
