@@ -85,10 +85,24 @@ export function QuestionRunner({
       if (difficulty) params.set("difficulty", difficulty);
       const res = await fetch(`/api/questions?${params}`);
       if (!res.ok) throw new Error("Failed to load questions");
-      return (await res.json()) as { questions: PublicQuestion[]; passages: Record<string, { title: string; bodyText: string }>; usedFallbackDifficulty?: boolean };
+      return (await res.json()) as { questions: PublicQuestion[]; passages: Record<string, { title: string; bodyText: string }> };
     },
     enabled: !!difficulty,
   });
+
+  // Drives which difficulty buttons the picker offers — a band with no
+  // published questions for this topic simply isn't shown, rather than
+  // being clickable and leading to a "no questions" dead end.
+  const { data: difficultiesData, isLoading: difficultiesLoading } = useQuery({
+    queryKey: ["question-difficulties", subjectSlug, strandSlug, yearGroup],
+    queryFn: async () => {
+      const params = new URLSearchParams({ subject: subjectSlug, strand: strandSlug, yearGroup });
+      const res = await fetch(`/api/questions/difficulties?${params}`);
+      if (!res.ok) throw new Error("Failed to load available difficulties");
+      return (await res.json()) as { available: { value: DifficultyBand; count: number }[] };
+    },
+  });
+  const availableDifficulties = new Set((difficultiesData?.available ?? []).map((d) => d.value));
 
   const questions = data?.questions ?? [];
   const question = questions[index];
@@ -162,13 +176,30 @@ export function QuestionRunner({
   }, [isComplete, assignmentId, scorePct, sessionResults.length]);
 
   if (!difficulty) {
+    if (difficultiesLoading) {
+      return <Card><CardContent className="py-16 text-center text-muted-foreground">Loading...</CardContent></Card>;
+    }
+
+    const offeredDifficulties = DIFFICULTIES.filter((d) => availableDifficulties.has(d.value));
+
+    if (offeredDifficulties.length === 0) {
+      return (
+        <Card>
+          <CardContent className="space-y-3 py-10 text-center">
+            <h2 className="font-heading text-xl font-bold">{strandName}</h2>
+            <p className="text-muted-foreground">No questions are available for this topic yet — check back soon.</p>
+          </CardContent>
+        </Card>
+      );
+    }
+
     return (
       <Card>
         <CardContent className="space-y-4 py-8 text-center">
           <h2 className="font-heading text-xl font-bold">{strandName}</h2>
           <p className="text-muted-foreground">Choose a level to start practising.</p>
           <div className="mx-auto grid max-w-md grid-cols-2 gap-3">
-            {DIFFICULTIES.map((d) => (
+            {offeredDifficulties.map((d) => (
               <Button
                 key={d.value}
                 variant="outline"
@@ -246,11 +277,6 @@ export function QuestionRunner({
         <span>Question {index + 1} of {questions.length}</span>
         <Badge variant="outline" className="capitalize">{difficulty}</Badge>
       </div>
-      {data?.usedFallbackDifficulty && (
-        <p className="text-xs text-muted-foreground">
-          {difficulty} doesn&apos;t have its own questions for this topic yet — showing a mix of levels instead.
-        </p>
-      )}
       <Progress value={((index + (feedback ? 1 : 0)) / questions.length) * 100} className="h-2" />
 
       {passage && (

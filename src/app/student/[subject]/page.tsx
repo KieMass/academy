@@ -22,11 +22,18 @@ export default async function SubjectTopicsPage({ params }: PageProps<"/student/
   const map = getSubjectMap(subjectSlug);
   if (!map) notFound();
 
-  const topics = await db.topic.findMany({
+  const allTopics = await db.topic.findMany({
     where: { subject: { slug: subjectSlug }, yearGroup: studentProfile.yearGroup },
-    include: { masteries: { where: { studentId: studentProfile.id } }, _count: { select: { questions: true } } },
+    include: {
+      masteries: { where: { studentId: studentProfile.id } },
+      _count: { select: { questions: { where: { status: "PUBLISHED" } } } },
+    },
     orderBy: { order: "asc" },
   });
+  // A topic with no published questions isn't a choice worth showing —
+  // mirrors the difficulty picker only ever offering bands that have
+  // content (see QuestionRunner / GET /api/questions/difficulties).
+  const topics = allTopics.filter((t) => t._count.questions > 0);
 
   const colors = subjectColorClasses(map.color);
 
