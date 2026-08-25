@@ -599,3 +599,19 @@ model PasswordResetRequest {
 
   @@index([status])
 }
+
+// Fixed-window rate-limit counters (see src/lib/rate-limit.ts). Backed by
+// Postgres rather than in-memory because this app runs on Vercel's
+// serverless functions — separate invocations don't share process memory,
+// so an in-memory counter would silently reset per-instance and give no
+// real protection. One row per (endpoint, identity) window; rows are
+// naturally reused across windows (see the upsert in checkRateLimit) so
+// this table stays small — no cleanup job needed.
+model RateLimitBucket {
+  key       String   @id // e.g. "login:ip:203.0.113.5" or "attempts:student:<id>"
+  count     Int      @default(1)
+  resetAt   DateTime
+  updatedAt DateTime @updatedAt
+
+  @@index([resetAt])
+}

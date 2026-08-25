@@ -85,6 +85,10 @@ beforeEach(() => {
   mockDb.studentProfile.update.mockResolvedValue({});
   mockDb.questionAttempt.create.mockResolvedValue({});
   mockDb.xpEvent.create.mockResolvedValue({});
+  // Rate limiting is checked before anything else in the route — default to
+  // "well under the limit" so tests that aren't about rate limiting itself
+  // don't need to think about it.
+  mockDb.$queryRaw.mockResolvedValue([{ count: 1, resetAt: new Date(Date.now() + 60_000) }]);
 });
 
 describe("POST /api/attempts", () => {
@@ -207,5 +211,14 @@ describe("POST /api/attempts", () => {
     const body = await res.json();
     expect(body.newBadges).toEqual(["first-steps"]);
     expect(mockDb.studentBadge.create).toHaveBeenCalledWith({ data: { studentId: STUDENT_ID, badgeId: "b1" } });
+  });
+
+  it("429s once the per-student rate limit is exceeded, before touching the question", async () => {
+    mockDb.$queryRaw.mockResolvedValue([{ count: 61, resetAt: new Date(Date.now() + 45_000) }]); // over LIMIT(60)
+
+    const res = await POST(request({ questionId: QUESTION_ID, response: { type: "multiple_choice", optionId: "a" }, timeSpentSeconds: 1 }));
+    expect(res.status).toBe(429);
+    expect(res.headers.get("Retry-After")).toBe("45");
+    expect(mockDb.contentQuestion.findUnique).not.toHaveBeenCalled();
   });
 });

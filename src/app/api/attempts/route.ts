@@ -9,6 +9,7 @@ import { updateTopicMastery, touchStudentStreak } from "@/lib/mastery";
 import { xpForCorrectAnswer, levelForXp } from "@/lib/gamification/xp";
 import { evaluateBadgesForStudent } from "@/lib/gamification/badges";
 import { checkContentGap } from "@/lib/content-gap";
+import { checkRateLimit, rateLimitResponse } from "@/lib/rate-limit";
 
 const schema = z.object({
   questionId: z.string(),
@@ -17,8 +18,18 @@ const schema = z.object({
   assignmentId: z.string().optional(),
 });
 
+// Generous enough for genuine rapid-fire practice (a quick multiple-choice
+// question can be answered in a couple of seconds) but stops a script from
+// farming XP/mastery by hammering this endpoint.
+const LIMIT = 60;
+const WINDOW_MS = 60 * 1000;
+
 export async function POST(req: Request) {
   const { studentProfile } = await requireStudent();
+
+  const rateCheck = await checkRateLimit(`attempts:student:${studentProfile.id}`, LIMIT, WINDOW_MS);
+  if (!rateCheck.allowed) return rateLimitResponse(rateCheck.retryAfterSeconds!);
+
   const body = await req.json().catch(() => null);
   const parsed = schema.safeParse(body);
   if (!parsed.success) {

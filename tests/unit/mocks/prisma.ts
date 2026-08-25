@@ -30,10 +30,11 @@ export function createMockDb() {
     spellingRun: { findMany: vi.fn() },
     curriculum: { findUnique: vi.fn(), findMany: vi.fn() },
     family: { update: vi.fn(), findUnique: vi.fn(), count: vi.fn() },
-    user: { findUnique: vi.fn(), create: vi.fn() },
+    user: { findUnique: vi.fn(), findFirst: vi.fn(), create: vi.fn() },
     parentProfile: { findMany: vi.fn() },
     topic: { findFirst: vi.fn(), findMany: vi.fn(), findUnique: vi.fn() },
     subject: { findUnique: vi.fn(), findMany: vi.fn() },
+    $queryRaw: vi.fn(),
   };
 }
 
