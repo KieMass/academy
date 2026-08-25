@@ -59,6 +59,39 @@ describe("gradeResponse — short_answer", () => {
   });
 });
 
+describe("gradeResponse — thousands-separator commas", () => {
+  it("accepts a comma-formatted answer against a plain-digit accepted answer", () => {
+    const question: FillInBoxQuestion = { ...base, type: "fill_in_box", blanks: [{ id: "answer", acceptedAnswers: ["5541"] }] };
+    expect(gradeResponse(question, { type: "fill_in_box", values: { answer: "5,541" } }).correct).toBe(true);
+  });
+
+  it("accepts a plain-digit answer against a comma-formatted accepted answer (symmetric)", () => {
+    const question: ShortAnswerQuestion = { ...base, type: "short_answer", acceptedAnswers: ["5,541"] };
+    expect(gradeResponse(question, { type: "short_answer", value: "5541" }).correct).toBe(true);
+  });
+
+  it("handles multiple comma groups (millions)", () => {
+    const question: ShortAnswerQuestion = { ...base, type: "short_answer", acceptedAnswers: ["1234567"] };
+    expect(gradeResponse(question, { type: "short_answer", value: "1,234,567" }).correct).toBe(true);
+  });
+
+  it("strips a thousands comma immediately followed by a unit", () => {
+    const question: ShortAnswerQuestion = { ...base, type: "short_answer", acceptedAnswers: ["30000cm3"] };
+    expect(gradeResponse(question, { type: "short_answer", value: "30,000cm3" }).correct).toBe(true);
+  });
+
+  it("does not touch a comma in a coordinate pair like '6,2' (only 1 digit follows, not a thousands group)", () => {
+    const question: ShortAnswerQuestion = { ...base, type: "short_answer", acceptedAnswers: ["6,2"] };
+    expect(gradeResponse(question, { type: "short_answer", value: "6,2" }).correct).toBe(true);
+    expect(gradeResponse(question, { type: "short_answer", value: "62" }).correct).toBe(false);
+  });
+
+  it("does not touch a comma in ordinary prose", () => {
+    const question: ShortAnswerQuestion = { ...base, type: "short_answer", acceptedAnswers: ["yesterday, i walked to school"] };
+    expect(gradeResponse(question, { type: "short_answer", value: "yesterday i walked to school" }).correct).toBe(false);
+  });
+});
+
 describe("gradeResponse — fill_in_box (partial credit tracking)", () => {
   const question: FillInBoxQuestion = {
     ...base,
