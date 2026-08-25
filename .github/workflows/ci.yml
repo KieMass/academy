@@ -23,7 +23,10 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          # jsdom 30 (used by the Vitest suite) requires Node >=22.22 —
+          # see its package.json "engines". Node 20 fails at runtime with
+          # a cryptic "webidl.util.markAsUncloneable is not a function".
+          node-version: 22
           cache: npm
 
       - name: Install dependencies
