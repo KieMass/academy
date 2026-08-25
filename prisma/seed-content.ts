@@ -24,6 +24,7 @@ import { generateAllGrammarQuestionsY3, generateAllGrammarQuestionsY3Extra, gene
 import { generateAllMathsQuestionsY2Strands2, generateAllMathsQuestionsY2Strands2Extra } from "../src/lib/content-generators/maths-ks1-strands2";
 import { generateAllMathsQuestionsY3Strands2, generateAllMathsQuestionsY3Strands2Extra, generateAllMathsQuestionsY4Strands2, generateAllMathsQuestionsY4Strands2Extra } from "../src/lib/content-generators/maths-lks2-strands2";
 import { generateAllGrammarQuestionsY2Wordbanks, generateAllGrammarQuestionsY3Wordbanks, generateAllGrammarQuestionsY4Wordbanks } from "../src/lib/content-generators/grammar-wordbanks";
+import { generateAllMathsQuestionsGuyana } from "../src/lib/content-generators/maths-guyana";
 import type { DraftQuestion } from "../src/lib/content-generators/types";
 
 const db = new PrismaClient();
@@ -99,11 +100,41 @@ async function loadExistingPromptsByTopic(): Promise<Map<string, Set<string>>> {
   return map;
 }
 
-async function syncQuestions(topicIdByKey: Map<string, string>) {
+async function syncQuestions(topicIdByKey: Map<string, string>, drafts: DraftQuestion[]) {
   console.log("→ Syncing question bank (skipping anything already present)...");
   const existingByTopic = await loadExistingPromptsByTopic();
 
-  const drafts: DraftQuestion[] = [
+  let created = 0;
+  let skipped = 0;
+  for (const draft of drafts) {
+    const topicId = topicIdByKey.get(`${draft.subjectSlug}:${draft.strandSlug}:${draft.yearGroup}`);
+    if (!topicId) {
+      console.warn(`  ! No topic found for ${draft.subjectSlug}:${draft.strandSlug}:${draft.yearGroup} — skipping question`);
+      continue;
+    }
+    const existing = existingByTopic.get(topicId) ?? new Set<string>();
+    if (existing.has(draft.promptText)) {
+      skipped++;
+      continue;
+    }
+
+    const { prompt, options, answer } = toStorageFields(draft);
+    const { type, difficulty } = toPrismaEnums(draft.type, draft.difficulty);
+    await db.contentQuestion.create({
+      data: { topicId, objectiveCode: draft.objectiveCode, type, difficulty, prompt, options, answer, explanation: draft.explanation, subSkill: draft.subSkill, source: "SEED", status: "PUBLISHED" },
+    });
+    existing.add(draft.promptText);
+    existingByTopic.set(topicId, existing);
+    created++;
+  }
+  console.log(`  ✓ ${created} new questions created, ${skipped} already present (skipped)`);
+}
+
+/** Builds the full Cayman draft-question list (procedural generators +
+ * hand-authored JSON packs). Kept as its own function purely so main() reads
+ * as "build drafts, then sync" the same way for every curriculum. */
+function buildCaymanDrafts(): DraftQuestion[] {
+  return [
     ...generateAllMathsQuestions(),
     ...generateAllMathsQuestionsY6(),
     ...generateAllMathsQuestionsExtra(),
@@ -149,44 +180,30 @@ async function syncQuestions(topicIdByKey: Map<string, string>) {
     ...readJson<DraftQuestion[]>("questions", "cayman", "geography.json"),
     ...readJson<DraftQuestion[]>("questions", "cayman", "computing.json"),
   ];
-
-  let created = 0;
-  let skipped = 0;
-  for (const draft of drafts) {
-    const topicId = topicIdByKey.get(`${draft.subjectSlug}:${draft.strandSlug}:${draft.yearGroup}`);
-    if (!topicId) {
-      console.warn(`  ! No topic found for ${draft.subjectSlug}:${draft.strandSlug}:${draft.yearGroup} — skipping question`);
-      continue;
-    }
-    const existing = existingByTopic.get(topicId) ?? new Set<string>();
-    if (existing.has(draft.promptText)) {
-      skipped++;
-      continue;
-    }
-
-    const { prompt, options, answer } = toStorageFields(draft);
-    const { type, difficulty } = toPrismaEnums(draft.type, draft.difficulty);
-    await db.contentQuestion.create({
-      data: { topicId, objectiveCode: draft.objectiveCode, type, difficulty, prompt, options, answer, explanation: draft.explanation, subSkill: draft.subSkill, source: "SEED", status: "PUBLISHED" },
-    });
-    existing.add(draft.promptText);
-    existingByTopic.set(topicId, existing);
-    created++;
-  }
-  console.log(`  ✓ ${created} new questions created, ${skipped} already present (skipped)`);
 }
 
-async function syncReadingPassages(topicIdByKey: Map<string, string>) {
+/** Builds the full Guyana draft-question list (procedural Maths generator +
+ * a hand-authored Grammar pack — see content/questions/guyana/grammar.json.
+ * Reading is passage-driven, so its questions come from syncReadingPassages
+ * instead of a flat draft list. */
+function buildGuyanaDrafts(): DraftQuestion[] {
+  return [
+    ...generateAllMathsQuestionsGuyana(),
+    ...readJson<DraftQuestion[]>("questions", "guyana", "grammar.json"),
+  ];
+}
+
+async function syncReadingPassages(topicIdByKey: Map<string, string>, curriculumSlug: string) {
   console.log("→ Syncing reading passages & comprehension questions...");
   type PassageJson = {
     title: string;
     type: "fiction" | "non_fiction" | "poetry";
-    yearGroup: "Y3" | "Y4" | "Y5" | "Y6";
+    yearGroup: "Y1" | "Y2" | "Y3" | "Y4" | "Y5" | "Y6";
     author?: string;
     bodyText: string;
     questions: (Omit<DraftQuestion, "subjectSlug" | "yearGroup"> & { subSkill: string })[];
   };
-  const passages = readJson<PassageJson[]>("passages", "cayman", "reading.json");
+  const passages = readJson<PassageJson[]>("passages", curriculumSlug, "reading.json");
   const typeMap = { fiction: "FICTION", non_fiction: "NON_FICTION", poetry: "POETRY" } as const;
 
   const existingPassages = await db.readingPassage.findMany({ select: { id: true, title: true } });
@@ -249,16 +266,24 @@ async function main() {
 
   const caymanId = curriculumIdBySlug.get("cayman")!;
   const caymanTopics = await ensureTopicsForCurriculum("cayman", caymanId);
-  await syncQuestions(caymanTopics);
-  await syncReadingPassages(caymanTopics);
+  await syncQuestions(caymanTopics, buildCaymanDrafts());
+  await syncReadingPassages(caymanTopics, "cayman");
 
-  // Guyana content authoring hasn't started yet — content/curriculum/guyana/
-  // is an empty directory for now, so this is a no-op until curriculum JSON
-  // + question packs land there. Iterating every other curriculum slug on
-  // disk (rather than hand-listing "guyana") means new curricula pick this
-  // up automatically once their content exists.
+  // Guyana: Maths (procedural) + Grammar (hand-authored) + Reading
+  // (passage-driven). Science/Social Studies aren't in scope for this pass
+  // — see content/curriculum/guyana/ (no science.json etc.).
+  const guyanaId = curriculumIdBySlug.get("guyana");
+  if (guyanaId) {
+    const guyanaTopics = await ensureTopicsForCurriculum("guyana", guyanaId);
+    await syncQuestions(guyanaTopics, buildGuyanaDrafts());
+    await syncReadingPassages(guyanaTopics, "guyana");
+  }
+
+  // Any further curriculum slugs on disk beyond cayman/guyana get their
+  // topics synced (so they show up in admin) even before their question
+  // packs exist — mirrors how content/curriculum/guyana/ started empty.
   for (const slug of listCurriculumSlugs()) {
-    if (slug === "cayman") continue;
+    if (slug === "cayman" || slug === "guyana") continue;
     const curriculumId = curriculumIdBySlug.get(slug);
     if (!curriculumId) {
       console.warn(`  ! No Curriculum DB row for "${slug}" — skipping (add it to ensureCurricula()).`);

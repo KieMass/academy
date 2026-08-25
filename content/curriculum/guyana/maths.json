@@ -1,0 +1,257 @@
+{
+  "subjectSlug": "maths",
+  "subjectName": "Mathematics",
+  "frameworks": [
+    "Guyana National Curriculum Guide (NCERD)",
+    "CXC/NGSA-aligned"
+  ],
+  "icon": "Calculator",
+  "color": "blue",
+  "strands": [
+    {
+      "slug": "number-operations",
+      "name": "Number and Operations",
+      "description": "Counting, place value, and the four operations, built from the NCERD Number and Operations strand.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            { "code": "GY-MA1-NUM-1", "description": "Count to and across 100, forwards and backwards, from any given number", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA1-NUM-2", "description": "Represent and partition numbers to 20 using concrete materials and pictorial representations", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            { "code": "GY-MA2-NUM-1", "description": "Count by 1s, 2s, 5s and 10s, forward and backward, to 100", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA2-NUM-2", "description": "Read, write and compare numbers to 100, exploring to 200", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            { "code": "GY-MA3-NUM-1", "description": "Read, write and order numbers to 1,000 using place value", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA3-NUM-2", "description": "Add and subtract 2- and 3-digit numbers using a range of strategies", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            { "code": "GY-MA4-NUM-1", "description": "Read, write, order and compare numbers to 10,000", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA4-NUM-2", "description": "Recall and use multiplication and division facts for the 2, 3, 4, 5, 8 and 10 times tables", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "GY-MA5-NUM-1", "description": "Identify and write factors of 1, 2, 3 and 4 digit numbers", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA5-NUM-2", "description": "Write numbers in expanded notation, e.g. 3,047 = 3 x 1,000 + 0 x 100 + 4 x 10 + 7 x 1", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            { "code": "GY-MA6-NUM-1", "description": "Describe, identify and write sets, including equal and equivalent sets and subsets, using set notation", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA6-NUM-2", "description": "Find prime factors of a number and use them to find the LCD (lowest common denominator) of fractions", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "patterns-relations",
+      "name": "Patterns and Relations",
+      "description": "Number patterns, equality and early algebraic reasoning, from the NCERD Patterns and Relations strand.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            { "code": "GY-MA1-PAT-1", "description": "Identify, describe, extend and create repeating patterns with two or three elements", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA1-PAT-2", "description": "Given a number, identify one more and one less", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            { "code": "GY-MA2-PAT-1", "description": "Understand that different combinations of numbers can represent the same value", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA2-PAT-2", "description": "Represent equalities using a pan balance and other concrete materials to explore the equals sign", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            { "code": "GY-MA3-PAT-1", "description": "Identify, describe and extend increasing and decreasing number patterns", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA3-PAT-2", "description": "Demonstrate an understanding of equality using addition and subtraction to 1,000", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            { "code": "GY-MA4-PAT-1", "description": "Identify and describe situations with constant or varying rates of change", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA4-PAT-2", "description": "Represent, describe and extend patterns and relationships using charts and tables", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "GY-MA5-PAT-1", "description": "Continue and describe increasing and decreasing patterns involving whole numbers, fractions and decimals", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA5-PAT-2", "description": "Represent a given pattern using a table of values and predict subsequent terms", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            { "code": "GY-MA6-PAT-1", "description": "Use number patterns to find the lowest common multiple (LCM) and greatest common factor (GCF) of two numbers", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA6-PAT-2", "description": "Solve problems involving single-variable, one-step equations", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "geometry",
+      "name": "Geometry",
+      "description": "Shape, position and transformation, from the NCERD Geometry strand.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            { "code": "GY-MA1-GEO-1", "description": "Sort 2-D shapes and 3-D objects using one attribute, and explain the sorting rule", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA1-GEO-2", "description": "Describe the relative position of objects using the language of position, e.g. above, below, beside", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            { "code": "GY-MA2-GEO-1", "description": "Describe, compare and sort 2-D shapes and 3-D objects according to the number of sides, edges and faces", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA2-GEO-2", "description": "Describe and identify lines of symmetry in 2-D shapes", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            { "code": "GY-MA3-GEO-1", "description": "Identify and describe the properties of quadrilaterals and triangles", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA3-GEO-2", "description": "Describe and perform single transformations (slides, flips and turns) of 2-D shapes", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            { "code": "GY-MA4-GEO-1", "description": "Identify, describe and classify angles as acute, right, obtuse or straight", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA4-GEO-2", "description": "Describe and construct 3-D objects, including edges, faces and vertices, and identify nets of common solids", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "GY-MA5-GEO-1", "description": "Measure and classify angles using a protractor, and identify complementary and supplementary angles", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA5-GEO-2", "description": "Describe and perform translations, reflections and rotations of 2-D shapes on a grid", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            { "code": "GY-MA6-GEO-1", "description": "Identify and describe properties of prisms, pyramids and other 3-D solids, including their nets", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA6-GEO-2", "description": "Determine the perimeter and area of regular and composite shapes", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "measurement",
+      "name": "Measurement",
+      "description": "Length, mass, capacity, time and money, from the NCERD Measurement strand.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            { "code": "GY-MA1-MEA-1", "description": "Compare and order objects by length, mass and capacity using direct comparison", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA1-MEA-2", "description": "Tell time to the hour and half hour using an analogue clock", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            { "code": "GY-MA2-MEA-1", "description": "Estimate and measure length, mass and capacity using non-standard and standard units", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA2-MEA-2", "description": "Tell time to the nearest five minutes, and relate days, weeks and months on a calendar", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            { "code": "GY-MA3-MEA-1", "description": "Measure and record length, mass and capacity using standard metric units", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA3-MEA-2", "description": "Solve problems involving the addition and subtraction of money in Guyana dollars", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            { "code": "GY-MA4-MEA-1", "description": "Convert between related metric units of length, mass and capacity, e.g. cm to m, g to kg", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA4-MEA-2", "description": "Determine the perimeter of regular and irregular polygons", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "GY-MA5-MEA-1", "description": "Determine the area of rectangles and composite shapes made from rectangles", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA5-MEA-2", "description": "Solve problems involving elapsed time, including conversions between seconds, minutes, hours and days", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            { "code": "GY-MA6-MEA-1", "description": "Solve real-world problems involving length, mass, capacity, money and time, applying the four operations", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA6-MEA-2", "description": "Determine the volume of rectangular prisms using cubic units and a formula", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "data-analysis",
+      "name": "Data Analysis and Probability",
+      "description": "Collecting, displaying and interpreting data, from the NCERD Data Analysis and Probability strand.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            { "code": "GY-MA1-DAT-1", "description": "Collect, sort and organise objects into a simple pictograph, and answer questions about the data", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA1-DAT-2", "description": "Describe events using the language of chance, e.g. certain, possible, impossible", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            { "code": "GY-MA2-DAT-1", "description": "Construct and interpret bar graphs and pictographs with a many-to-one correspondence", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA2-DAT-2", "description": "Determine and compare the likelihood of simple events using the language of chance", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            { "code": "GY-MA3-DAT-1", "description": "Collect, organise and display data in tally charts, frequency tables and bar graphs", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA3-DAT-2", "description": "Determine the range and mode of a small set of data", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            { "code": "GY-MA4-DAT-1", "description": "Construct and interpret double bar graphs, and draw conclusions from displayed data", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA4-DAT-2", "description": "Determine the probability of a simple event as a fraction of equally likely outcomes", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            { "code": "GY-MA5-DAT-1", "description": "Construct and interpret line graphs to display data that changes over time", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA5-DAT-2", "description": "Determine the mean, median, mode and range of a data set", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            { "code": "GY-MA6-DAT-1", "description": "Construct and interpret pie charts and use them to compare parts of a whole", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA6-DAT-2", "description": "Solve problems that involve interpreting and comparing data from more than one graph", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+          ]
+        }
+      ]
+    }
+  ]
+}
