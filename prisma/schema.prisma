@@ -85,11 +85,12 @@ model Family {
   id        String   @id @default(cuid())
   createdAt DateTime @default(now())
 
-  // TODO(curriculum-migration): nullable during the backfill step, then
-  // tightened to required in a follow-up migration — see
-  // prisma/backfill-curriculum.ts.
-  curriculumId String?
-  curriculum   Curriculum? @relation(fields: [curriculumId], references: [id], onDelete: Restrict)
+  // The national curriculum this family follows — required. Every family
+  // is created with one, either at registration
+  // (src/app/api/auth/register-parent) or via the parent-facing
+  // "change curriculum" setting (src/app/api/parent/family/curriculum).
+  curriculumId String
+  curriculum   Curriculum @relation(fields: [curriculumId], references: [id], onDelete: Restrict)
 
   parents ParentProfile[]
 
@@ -184,11 +185,11 @@ model Topic {
   description String?
   order       Int       @default(0)
 
-  // TODO(curriculum-migration): nullable during the backfill step, then
-  // tightened to required in a follow-up migration — see
-  // prisma/backfill-curriculum.ts.
-  curriculumId String?
-  curriculum   Curriculum? @relation(fields: [curriculumId], references: [id], onDelete: Restrict)
+  // The curriculum this topic belongs to — required. The same (subjectId,
+  // strandSlug, yearGroup) triple can exist under more than one curriculum
+  // with entirely different content.
+  curriculumId String
+  curriculum   Curriculum @relation(fields: [curriculumId], references: [id], onDelete: Restrict)
 
   questions        ContentQuestion[]
   masteries        TopicMastery[]

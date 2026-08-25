@@ -35,9 +35,8 @@ function readJson<T>(...segments: string[]): T {
   return JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, ...segments), "utf-8"));
 }
 
-/** Upserts the two known Curriculum rows and returns slug -> id. Mirrors
- * prisma/backfill-curriculum.ts's data, kept idempotent so this script stays
- * safe to run repeatedly against a live DB. */
+/** Upserts the two known Curriculum rows and returns slug -> id. Kept
+ * idempotent so this script stays safe to run repeatedly against a live DB. */
 async function ensureCurricula(): Promise<Map<string, string>> {
   const rows = [
     { slug: "cayman", name: "Cayman Islands", yearGroupLabel: "Year" },

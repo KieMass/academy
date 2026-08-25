@@ -64,9 +64,8 @@ export async function getCurrentUser() {
 
 export type CurrentUser = NonNullable<Awaited<ReturnType<typeof getCurrentUser>>>;
 
-/** Every family/topic row was backfilled to this curriculum when the
- * Curriculum model was introduced — see prisma/backfill-curriculum.ts. Used
- * as a defensive fallback only; curriculumId should never actually be null
- * once that migration has run. */
+/** Family.curriculumId is a required DB column, so this is a defensive
+ * fallback only (e.g. a raw query that skips the include) — it should never
+ * actually be needed in practice. */
 export const DEFAULT_CURRICULUM_SLUG = "cayman";
 export const DEFAULT_YEAR_GROUP_LABEL = "Year";
