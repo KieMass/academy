@@ -25,6 +25,7 @@ import { generateAllMathsQuestionsY2Strands2, generateAllMathsQuestionsY2Strands
 import { generateAllMathsQuestionsY3Strands2, generateAllMathsQuestionsY3Strands2Extra, generateAllMathsQuestionsY4Strands2, generateAllMathsQuestionsY4Strands2Extra } from "../src/lib/content-generators/maths-lks2-strands2";
 import { generateAllGrammarQuestionsY2Wordbanks, generateAllGrammarQuestionsY3Wordbanks, generateAllGrammarQuestionsY4Wordbanks } from "../src/lib/content-generators/grammar-wordbanks";
 import { generateAllMathsQuestionsGuyana } from "../src/lib/content-generators/maths-guyana";
+import { generateAllGrammarQuestionsGuyana } from "../src/lib/content-generators/grammar-guyana";
 import type { DraftQuestion } from "../src/lib/content-generators/types";
 
 const db = new PrismaClient();
@@ -190,6 +191,7 @@ function buildGuyanaDrafts(): DraftQuestion[] {
   return [
     ...generateAllMathsQuestionsGuyana(),
     ...readJson<DraftQuestion[]>("questions", "guyana", "grammar.json"),
+    ...generateAllGrammarQuestionsGuyana(),
   ];
 }
 
