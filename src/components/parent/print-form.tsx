@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Printer, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { formatYearGroup } from "@/lib/curriculum/label";
 
 const MAX_TOPICS = 4;
 
@@ -34,7 +35,7 @@ const KINDS = [
   { value: "INTERVENTION", label: "Targeted Intervention Paper (weak areas)", needsStrand: false },
 ] as const;
 
-export function PrintForm({ students, curriculum }: { students: Student[]; curriculum: CurriculumSubject[] }) {
+export function PrintForm({ students, curriculum, yearGroupLabel }: { students: Student[]; curriculum: CurriculumSubject[]; yearGroupLabel: string }) {
   const [studentId, setStudentId] = useState(students[0]?.id ?? "");
   const [subjectSlug, setSubjectSlug] = useState(curriculum[0]?.subjectSlug ?? "");
   const [strandSlugs, setStrandSlugs] = useState<string[]>([]);
@@ -120,14 +121,14 @@ export function PrintForm({ students, curriculum }: { students: Student[]; curri
         <div className="space-y-1.5">
           <Label>Student</Label>
           <Select
-            items={students.map((s) => ({ value: s.id, label: `${s.displayName} (Year ${s.yearGroup.replace("Y", "")})` }))}
+            items={students.map((s) => ({ value: s.id, label: `${s.displayName} (${formatYearGroup(s.yearGroup, yearGroupLabel)})` }))}
             value={studentId}
             onValueChange={(v) => v && setStudentId(v)}
           >
             <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
             <SelectContent>
               {students.map((s) => (
-                <SelectItem key={s.id} value={s.id}>{s.displayName} (Year {s.yearGroup.replace("Y", "")})</SelectItem>
+                <SelectItem key={s.id} value={s.id}>{s.displayName} ({formatYearGroup(s.yearGroup, yearGroupLabel)})</SelectItem>
               ))}
             </SelectContent>
           </Select>

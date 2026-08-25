@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
 const CANCELLABLE_STATUSES = new Set(["ASSIGNED", "IN_PROGRESS", "OVERDUE"]);
 
 export default async function AssignWorkPage() {
-  const { parentProfile } = await requireParent();
+  const { parentProfile, curriculumSlug, yearGroupLabel } = await requireParent();
   const students = await db.studentProfile.findMany({ where: { parent: { familyId: parentProfile.familyId } }, orderBy: { createdAt: "asc" } });
   const assignments = await db.assignment.findMany({
     where: { student: { parent: { familyId: parentProfile.familyId } } },
@@ -40,7 +40,7 @@ export default async function AssignWorkPage() {
 
   const notStartedCount = assignments.filter((a) => CANCELLABLE_STATUSES.has(a.status) && !progressByAssignment.has(a.id)).length;
 
-  const curriculum = loadCurriculumMaps().map((m) => ({
+  const curriculum = loadCurriculumMaps(curriculumSlug).map((m) => ({
     subjectSlug: m.subjectSlug,
     subjectName: m.subjectName,
     strands: m.strands.map((s) => ({
@@ -61,6 +61,7 @@ export default async function AssignWorkPage() {
         <AssignForm
           students={students.map((s) => ({ id: s.id, displayName: s.displayName, yearGroup: s.yearGroup }))}
           curriculum={curriculum}
+          yearGroupLabel={yearGroupLabel}
         />
         <Card>
           <CardHeader>

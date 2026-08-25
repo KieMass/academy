@@ -10,10 +10,11 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from "@/components/ui/dialog";
 import { Pencil } from "lucide-react";
 import { YEAR_GROUPS } from "@/lib/curriculum/types";
+import { formatYearGroup } from "@/lib/curriculum/label";
 
 type EditableUser =
   | { id: string; role: "PARENT"; fullName: string; email: string }
-  | { id: string; role: "STUDENT"; displayName: string; username: string; yearGroup: string; avatarEmoji: string }
+  | { id: string; role: "STUDENT"; displayName: string; username: string; yearGroup: string; avatarEmoji: string; yearGroupLabel: string }
   | { id: string; role: "ADMIN"; email: string };
 
 export function EditUserDialog({ user }: { user: EditableUser }) {
@@ -93,12 +94,12 @@ export function EditUserDialog({ user }: { user: EditableUser }) {
                   <Input id="username" name="username" defaultValue={user.username} required />
                 </div>
                 <div className="space-y-1.5">
-                  <Label htmlFor="yearGroup">Year group</Label>
-                  <Select items={YEAR_GROUPS.map((y) => ({ value: y, label: `Year ${y.replace("Y", "")}` }))} name="yearGroup" defaultValue={user.yearGroup}>
+                  <Label htmlFor="yearGroup">{user.yearGroupLabel} group</Label>
+                  <Select items={YEAR_GROUPS.map((y) => ({ value: y, label: formatYearGroup(y, user.yearGroupLabel) }))} name="yearGroup" defaultValue={user.yearGroup}>
                     <SelectTrigger className="w-full" id="yearGroup"><SelectValue /></SelectTrigger>
                     <SelectContent>
                       {YEAR_GROUPS.map((y) => (
-                        <SelectItem key={y} value={y}>Year {y.replace("Y", "")}</SelectItem>
+                        <SelectItem key={y} value={y}>{formatYearGroup(y, user.yearGroupLabel)}</SelectItem>
                       ))}
                     </SelectContent>
                   </Select>

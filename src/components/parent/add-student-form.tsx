@@ -10,10 +10,11 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { UserPlus } from "lucide-react";
 import { YEAR_GROUPS } from "@/lib/curriculum/types";
+import { formatYearGroup } from "@/lib/curriculum/label";
 
 const AVATARS = ["🦊", "🦎", "🐬", "🦉", "🐢", "🦜", "🐙", "🦁"];
 
-export function AddStudentForm() {
+export function AddStudentForm({ yearGroupLabel }: { yearGroupLabel: string }) {
   const router = useRouter();
   const [open, setOpen] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -71,16 +72,16 @@ export function AddStudentForm() {
               <Input id="username" name="username" placeholder="e.g. alex" required />
             </div>
             <div className="space-y-1.5">
-              <Label htmlFor="yearGroup">Year group</Label>
+              <Label htmlFor="yearGroup">{yearGroupLabel} group</Label>
               <Select
-                items={YEAR_GROUPS.map((y) => ({ value: y, label: `Year ${y.replace("Y", "")}` }))}
+                items={YEAR_GROUPS.map((y) => ({ value: y, label: formatYearGroup(y, yearGroupLabel) }))}
                 name="yearGroup"
                 defaultValue="Y5"
               >
                 <SelectTrigger className="w-full" id="yearGroup"><SelectValue /></SelectTrigger>
                 <SelectContent>
                   {YEAR_GROUPS.map((y) => (
-                    <SelectItem key={y} value={y}>Year {y.replace("Y", "")}</SelectItem>
+                    <SelectItem key={y} value={y}>{formatYearGroup(y, yearGroupLabel)}</SelectItem>
                   ))}
                 </SelectContent>
               </Select>

@@ -1,4 +1,5 @@
 import { requireAdmin } from "@/lib/auth/guards";
+import { formatYearGroup } from "@/lib/curriculum/label";
 import { db } from "@/lib/db";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -13,7 +14,7 @@ export default async function AdminContentGapsPage() {
   await requireAdmin();
 
   const alerts = await db.contentGapAlert.findMany({
-    include: { topic: { include: { subject: true } } },
+    include: { topic: { include: { subject: true, curriculum: true } } },
     orderBy: { createdAt: "desc" },
     take: 100,
   });
@@ -38,6 +39,7 @@ export default async function AdminContentGapsPage() {
             <thead>
               <tr className="border-b text-left text-xs text-muted-foreground">
                 <th className="pb-2 font-medium">Subject</th>
+                <th className="pb-2 pl-4 font-medium">Curriculum</th>
                 <th className="pb-2 pl-4 font-medium">Strand</th>
                 <th className="pb-2 pl-4 font-medium">Year</th>
                 <th className="pb-2 pl-4 font-medium">Pool size</th>
@@ -51,8 +53,9 @@ export default async function AdminContentGapsPage() {
               {alerts.map((a) => (
                 <tr key={a.id} className="border-b last:border-0">
                   <td className="py-2.5 font-medium">{a.topic.subject.name}</td>
+                  <td className="py-2.5 pl-4 text-muted-foreground">{a.topic.curriculum?.name ?? "—"}</td>
                   <td className="py-2.5 pl-4">{a.topic.strandName}</td>
-                  <td className="py-2.5 pl-4 text-muted-foreground">Year {a.topic.yearGroup.replace("Y", "")}</td>
+                  <td className="py-2.5 pl-4 text-muted-foreground">{formatYearGroup(a.topic.yearGroup, a.topic.curriculum?.yearGroupLabel)}</td>
                   <td className="py-2.5 pl-4 text-muted-foreground">{a.questionCount} questions</td>
                   <td className="py-2.5 pl-4 text-muted-foreground">
                     {a.attemptCount} ({(a.attemptCount / a.questionCount).toFixed(1)}x per question)
@@ -65,14 +68,14 @@ export default async function AdminContentGapsPage() {
                   </td>
                   <td className="py-2.5 pl-4 text-right">
                     {a.status === "PENDING" && (
-                      <DismissContentGapButton alertId={a.id} topicLabel={`${a.topic.subject.name} — ${a.topic.strandName} (Year ${a.topic.yearGroup.replace("Y", "")})`} />
+                      <DismissContentGapButton alertId={a.id} topicLabel={`${a.topic.subject.name} — ${a.topic.strandName} (${formatYearGroup(a.topic.yearGroup, a.topic.curriculum?.yearGroupLabel)})`} />
                     )}
                   </td>
                 </tr>
               ))}
               {alerts.length === 0 && (
                 <tr>
-                  <td colSpan={8} className="py-6 text-center text-muted-foreground">No content gaps flagged yet.</td>
+                  <td colSpan={9} className="py-6 text-center text-muted-foreground">No content gaps flagged yet.</td>
                 </tr>
               )}
             </tbody>

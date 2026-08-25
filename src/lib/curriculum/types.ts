@@ -67,6 +67,7 @@ export interface SubjectCurriculumMap {
 /** A resolved (strand, yearGroup) pair — what the UI actually renders as a
  *  "topic". Produced by flattening the curriculum map at load time. */
 export interface ResolvedTopic {
+  curriculumSlug: string;
   subjectSlug: string;
   subjectName: string;
   strandSlug: string;

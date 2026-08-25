@@ -1,4 +1,5 @@
 import { requireStudent } from "@/lib/auth/guards";
+import { formatYearGroup } from "@/lib/curriculum/label";
 import { DashboardShell, type NavItem } from "@/components/layout/dashboard-shell";
 import { Badge } from "@/components/ui/badge";
 import { Flame } from "lucide-react";
@@ -11,13 +12,13 @@ const navItems: NavItem[] = [
 ];
 
 export default async function StudentLayout({ children }: { children: React.ReactNode }) {
-  const { studentProfile } = await requireStudent();
+  const { studentProfile, yearGroupLabel } = await requireStudent();
 
   return (
     <DashboardShell
       navItems={navItems}
       userLabel={`Hi, ${studentProfile.displayName} ${studentProfile.avatarEmoji}`}
-      userSubLabel={`Year ${studentProfile.yearGroup.replace("Y", "")} · Level ${studentProfile.levelNumber}`}
+      userSubLabel={`${formatYearGroup(studentProfile.yearGroup, yearGroupLabel)} · Level ${studentProfile.levelNumber}`}
       headerAccessory={
         <Badge variant="secondary" className="gap-1.5 rounded-full px-3 py-1">
           <Flame className="size-3.5 text-accent" />

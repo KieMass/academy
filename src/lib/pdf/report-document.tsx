@@ -1,4 +1,5 @@
 import { Document, Page, Text, View, StyleSheet } from "@react-pdf/renderer";
+import { formatYearGroup } from "@/lib/curriculum/label";
 
 const styles = StyleSheet.create({
   page: { padding: 36, fontSize: 11, fontFamily: "Helvetica" },
@@ -40,6 +41,7 @@ export interface ReportTopicRow {
 export interface ReportData {
   studentName: string;
   yearGroup: string;
+  yearGroupLabel: string; // "Year" / "Grade" — see lib/curriculum/label.ts
   periodLabel: string; // "Weekly", "Fortnightly", "Monthly"
   startDate: string;
   endDate: string;
@@ -70,7 +72,7 @@ export function ReportDocument({ data }: { data: ReportData }) {
           </View>
           <View>
             <Text style={styles.metaLabel}>Year Group</Text>
-            <Text style={styles.metaValue}>Year {data.yearGroup.replace("Y", "")}</Text>
+            <Text style={styles.metaValue}>{formatYearGroup(data.yearGroup, data.yearGroupLabel)}</Text>
           </View>
           <View>
             <Text style={styles.metaLabel}>Period</Text>

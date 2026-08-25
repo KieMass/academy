@@ -18,7 +18,7 @@ import { PrismaClient } from "@prisma/client";
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
-import { loadCurriculumMaps, resolveTopics } from "../src/lib/curriculum/loader";
+import { loadCurriculumMaps } from "../src/lib/curriculum/loader";
 import { toStorageFields, toPrismaEnums } from "../src/lib/question-engine/mapper";
 import { generateAllMathsQuestions, generateAllMathsQuestionsY6, generateAllMathsQuestionsExtra, generateAllMathsQuestionsY6Extra, generateAllMathsQuestionsExtra2, generateAllMathsQuestionsY6Extra2 } from "../src/lib/content-generators/maths";
 import { generateAllGrammarQuestions } from "../src/lib/content-generators/grammar";
@@ -36,7 +36,12 @@ function readJson<T>(...segments: string[]): T {
 
 async function seedSubjectsAndTopics() {
   console.log("→ Seeding subjects & topics from curriculum map...");
-  const maps = loadCurriculumMaps();
+  const curriculum = await db.curriculum.upsert({
+    where: { slug: "cayman" },
+    update: { name: "Cayman Islands", yearGroupLabel: "Year" },
+    create: { slug: "cayman", name: "Cayman Islands", yearGroupLabel: "Year" },
+  });
+  const maps = loadCurriculumMaps("cayman");
   const topicIdByKey = new Map<string, string>();
 
   for (const map of maps) {
@@ -56,7 +61,7 @@ async function seedSubjectsAndTopics() {
     for (const strand of map.strands) {
       for (const year of strand.years) {
         const topic = await db.topic.upsert({
-          where: { subjectId_strandSlug_yearGroup: { subjectId: subject.id, strandSlug: strand.slug, yearGroup: year.yearGroup } },
+          where: { subjectId_strandSlug_yearGroup_curriculumId: { subjectId: subject.id, strandSlug: strand.slug, yearGroup: year.yearGroup, curriculumId: curriculum.id } },
           update: { strandName: strand.name, description: strand.description, order },
           create: {
             subjectId: subject.id,
@@ -65,6 +70,7 @@ async function seedSubjectsAndTopics() {
             yearGroup: year.yearGroup,
             description: strand.description,
             order,
+            curriculumId: curriculum.id,
           },
         });
         topicIdByKey.set(`${map.subjectSlug}:${strand.slug}:${year.yearGroup}`, topic.id);
@@ -73,8 +79,8 @@ async function seedSubjectsAndTopics() {
     }
   }
 
-  console.log(`  ✓ ${maps.length} subjects, ${resolveTopics().length} topics`);
-  return topicIdByKey;
+  console.log(`  ✓ ${maps.length} subjects, ${topicIdByKey.size} topics`);
+  return { topicIdByKey, curriculumId: curriculum.id };
 }
 
 async function seedQuestions(topicIdByKey: Map<string, string>) {
@@ -93,15 +99,15 @@ async function seedQuestions(topicIdByKey: Map<string, string>) {
     ...generateAllMathsQuestionsY2Extra(),
     ...generateAllMathsQuestionsY1Extra2(),
     ...generateAllMathsQuestionsY2Extra2(),
-    ...readJson<DraftQuestion[]>("questions", "maths-authored.json"),
-    ...readJson<DraftQuestion[]>("questions", "grammar.json"),
+    ...readJson<DraftQuestion[]>("questions", "cayman", "maths-authored.json"),
+    ...readJson<DraftQuestion[]>("questions", "cayman", "grammar.json"),
     ...generateAllGrammarQuestions(),
     ...generateAllGrammarQuestionsY1(),
     ...generateAllGrammarQuestionsY2(),
-    ...readJson<DraftQuestion[]>("questions", "science.json"),
-    ...readJson<DraftQuestion[]>("questions", "history.json"),
-    ...readJson<DraftQuestion[]>("questions", "geography.json"),
-    ...readJson<DraftQuestion[]>("questions", "computing.json"),
+    ...readJson<DraftQuestion[]>("questions", "cayman", "science.json"),
+    ...readJson<DraftQuestion[]>("questions", "cayman", "history.json"),
+    ...readJson<DraftQuestion[]>("questions", "cayman", "geography.json"),
+    ...readJson<DraftQuestion[]>("questions", "cayman", "computing.json"),
   ];
 
   let created = 0;
@@ -144,7 +150,7 @@ async function seedReadingPassages(topicIdByKey: Map<string, string>) {
     bodyText: string;
     questions: (Omit<DraftQuestion, "subjectSlug" | "yearGroup"> & { subSkill: string })[];
   };
-  const passages = readJson<PassageJson[]>("passages", "reading.json");
+  const passages = readJson<PassageJson[]>("passages", "cayman", "reading.json");
   const typeMap = { fiction: "FICTION", non_fiction: "NON_FICTION", poetry: "POETRY" } as const;
 
   let passageCount = 0;
@@ -203,7 +209,7 @@ async function seedSpellingLists() {
     strandSlug: string;
     words: { word: string; definition?: string; exampleSentence?: string }[];
   };
-  const lists = readJson<SpellingListJson[]>("spelling", "lists.json");
+  const lists = readJson<SpellingListJson[]>("spelling", "cayman", "lists.json");
   for (const list of lists) {
     await db.spellingList.create({
       data: {
@@ -237,7 +243,7 @@ async function seedBadges() {
   console.log(`  ✓ ${STARTER_BADGES.length} badges`);
 }
 
-async function seedDemoAccounts() {
+async function seedDemoAccounts(curriculumId: string) {
   console.log("→ Seeding demo parent + student account...");
   const parentPassword = await hashPassword("Parent123!");
   const studentPassword = await hashPassword("student123");
@@ -249,7 +255,7 @@ async function seedDemoAccounts() {
       role: "PARENT",
       email: "parent@kaelex.demo",
       passwordHash: parentPassword,
-      parentProfile: { create: { fullName: "Demo Parent", family: { create: {} } } },
+      parentProfile: { create: { fullName: "Demo Parent", family: { create: { curriculumId } } } },
     },
     include: { parentProfile: true },
   });
@@ -306,12 +312,12 @@ async function seedAdminAccount() {
 
 async function main() {
   console.log("Seeding KaeLex Academy database...\n");
-  const topicIdByKey = await seedSubjectsAndTopics();
+  const { topicIdByKey, curriculumId } = await seedSubjectsAndTopics();
   await seedQuestions(topicIdByKey);
   await seedReadingPassages(topicIdByKey);
   await seedSpellingLists();
   await seedBadges();
-  await seedDemoAccounts();
+  await seedDemoAccounts(curriculumId);
   await seedAdminAccount();
   console.log("\nSeed complete.");
 }

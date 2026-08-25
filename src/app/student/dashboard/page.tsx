@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { requireStudent } from "@/lib/auth/guards";
+import { formatYearGroup } from "@/lib/curriculum/label";
 import { listSubjects, resolveTopics } from "@/lib/curriculum/loader";
 import { getStudentOverview } from "@/lib/student-stats";
 import { db } from "@/lib/db";
@@ -11,13 +12,13 @@ import { xpProgressWithinLevel } from "@/lib/gamification/xp";
 import { ArrowRight, Target, ClipboardList, Flame } from "lucide-react";
 
 export default async function StudentDashboardPage() {
-  const { studentProfile } = await requireStudent();
-  const subjects = listSubjects();
+  const { studentProfile, curriculumSlug, yearGroupLabel } = await requireStudent();
+  const subjects = listSubjects(curriculumSlug);
   const topicCounts = new Map<string, number>();
-  for (const t of resolveTopics({ yearGroup: studentProfile.yearGroup })) {
+  for (const t of resolveTopics(curriculumSlug, { yearGroup: studentProfile.yearGroup })) {
     topicCounts.set(t.subjectSlug, (topicCounts.get(t.subjectSlug) ?? 0) + 1);
   }
-  const overview = await getStudentOverview(studentProfile.id, studentProfile.yearGroup, 4);
+  const overview = await getStudentOverview(studentProfile.id, curriculumSlug, studentProfile.yearGroup, 4);
   const masteredPct = overview.totalTopics > 0 ? Math.round(((overview.counts.mastered + overview.counts.secure) / overview.totalTopics) * 100) : 0;
 
   const activeAssignments = await db.assignment.findMany({
@@ -127,7 +128,7 @@ export default async function StudentDashboardPage() {
       <div>
         <div className="mb-3 flex items-center justify-between">
           <h2 className="font-heading text-lg font-semibold">Your subjects</h2>
-          <span className="text-sm text-muted-foreground">{masteredPct}% of Year {studentProfile.yearGroup.replace("Y", "")} secure or mastered</span>
+          <span className="text-sm text-muted-foreground">{masteredPct}% of {formatYearGroup(studentProfile.yearGroup, yearGroupLabel)} secure or mastered</span>
         </div>
         <Progress value={masteredPct} className="mb-5 h-2" />
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">

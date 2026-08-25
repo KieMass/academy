@@ -1,0 +1,51 @@
+{
+  "subjectSlug": "grammar",
+  "subjectName": "Grammar",
+  "frameworks": [
+    "Guyana Language Arts Curriculum Guide (NCERD)",
+    "CXC/NGSA-aligned"
+  ],
+  "icon": "PenLine",
+  "color": "rose",
+  "strands": [
+    {
+      "slug": "spelling-patterns",
+      "name": "Spelling Patterns",
+      "description": "Phonic knowledge and word study, from the NCERD Writing and Representing strand (ELO 9: spelling).",
+      "years": [
+        { "yearGroup": "Y1", "objectives": [ { "code": "GY-GR1-SPL-1", "description": "Spell Grade 1 high-frequency words and words with common letter patterns, using phonic knowledge", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice", "short_answer"] } ] },
+        { "yearGroup": "Y2", "objectives": [ { "code": "GY-GR2-SPL-1", "description": "Use knowledge of common spelling patterns and word families to spell unfamiliar words", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice", "short_answer"] } ] },
+        { "yearGroup": "Y3", "objectives": [ { "code": "GY-GR3-SPL-1", "description": "Spell words with common prefixes and suffixes, and use a dictionary to check spelling", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "short_answer"] } ] },
+        { "yearGroup": "Y4", "objectives": [ { "code": "GY-GR4-SPL-1", "description": "Spell words with more complex letter patterns and less common homophones correctly", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "short_answer"] } ] },
+        { "yearGroup": "Y5", "objectives": [ { "code": "GY-GR5-SPL-1", "description": "Use knowledge of word roots, prefixes and suffixes to spell and understand less familiar words", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice", "short_answer"] } ] },
+        { "yearGroup": "Y6", "objectives": [ { "code": "GY-GR6-SPL-1", "description": "Spell most words correctly, including some words with irregular spelling patterns", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "short_answer"] } ] }
+      ]
+    },
+    {
+      "slug": "punctuation",
+      "name": "Punctuation",
+      "description": "Sentence and text punctuation, from the NCERD Writing and Representing strand (ELO 9: conventions).",
+      "years": [
+        { "yearGroup": "Y1", "objectives": [ { "code": "GY-GR1-PUN-1", "description": "Use a capital letter for the start of a sentence and a full stop to end it", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
+        { "yearGroup": "Y2", "objectives": [ { "code": "GY-GR2-PUN-1", "description": "Use capital letters, full stops, question marks and exclamation marks correctly", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
+        { "yearGroup": "Y3", "objectives": [ { "code": "GY-GR3-PUN-1", "description": "Use commas to separate items in a list", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
+        { "yearGroup": "Y4", "objectives": [ { "code": "GY-GR4-PUN-1", "description": "Use inverted commas and other punctuation to indicate direct speech", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] } ] },
+        { "yearGroup": "Y5", "objectives": [ { "code": "GY-GR5-PUN-1", "description": "Use commas to clarify meaning and avoid ambiguity in longer sentences", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] } ] },
+        { "yearGroup": "Y6", "objectives": [ { "code": "GY-GR6-PUN-1", "description": "Use a range of punctuation correctly, including semi-colons, colons and dashes", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] } ] }
+      ]
+    },
+    {
+      "slug": "sentence-construction",
+      "name": "Sentence Construction",
+      "description": "Building and varying sentences, from the NCERD Writing and Representing strand.",
+      "years": [
+        { "yearGroup": "Y1", "objectives": [ { "code": "GY-GR1-SEN-1", "description": "Write simple sentences that make sense, using a capital letter and a full stop", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
+        { "yearGroup": "Y2", "objectives": [ { "code": "GY-GR2-SEN-1", "description": "Join words and clauses using \"and\" to write compound sentences", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
+        { "yearGroup": "Y3", "objectives": [ { "code": "GY-GR3-SEN-1", "description": "Use conjunctions to join clauses and create sentences with more than one idea", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
+        { "yearGroup": "Y4", "objectives": [ { "code": "GY-GR4-SEN-1", "description": "Use fronted adverbials and expanded noun phrases to add detail and variety to sentences", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] } ] },
+        { "yearGroup": "Y5", "objectives": [ { "code": "GY-GR5-SEN-1", "description": "Use relative clauses to add extra information to a sentence", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
+        { "yearGroup": "Y6", "objectives": [ { "code": "GY-GR6-SEN-1", "description": "Use a range of sentence structures, including active and passive voice, for effect", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] }
+      ]
+    }
+  ]
+}

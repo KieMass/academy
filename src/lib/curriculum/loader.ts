@@ -11,8 +11,13 @@ import {
 } from "./types";
 
 /**
- * Loads and validates content/curriculum/*.json — the single source of truth
- * for every subject, strand and year group in the platform.
+ * Loads and validates content/curriculum/<curriculumSlug>/*.json — the
+ * single source of truth for every subject, strand and year group in the
+ * platform, now split per curriculum (e.g. "cayman", "guyana" — see the
+ * Curriculum DB model in prisma/schema.prisma). A curriculumSlug is
+ * required everywhere in this module rather than defaulted, so a caller
+ * can never accidentally serve one family's national curriculum content to
+ * another's.
  *
  * IMPORTANT: this is the only place that should ever read curriculum JSON
  * from disk. Everything else (API routes, server components, the seed
@@ -20,7 +25,7 @@ import {
  * when the on-disk layout evolves.
  */
 
-const CURRICULUM_DIR = path.join(process.cwd(), "content", "curriculum");
+const CURRICULUM_ROOT = path.join(process.cwd(), "content", "curriculum");
 
 const objectiveSchema = z.object({
   code: z.string(),
@@ -51,43 +56,60 @@ const subjectMapSchema = z.object({
   strands: z.array(strandSchema).min(1),
 });
 
-let cache: SubjectCurriculumMap[] | null = null;
+const cache = new Map<string, SubjectCurriculumMap[]>();
 
-/** Reads and validates every curriculum map JSON file. Cached after first call. */
-export function loadCurriculumMaps(): SubjectCurriculumMap[] {
-  if (cache) return cache;
+/** All curriculum slugs present on disk (content/curriculum/<slug>/) —
+ * used by the seed script to iterate every curriculum without hand-listing
+ * them. Doesn't hit the DB; the DB's Curriculum table is the source of
+ * truth for *registration choices*, this is the source of truth for *what
+ * content exists to seed*. */
+export function listCurriculumSlugs(): string[] {
+  if (!fs.existsSync(CURRICULUM_ROOT)) return [];
+  return fs.readdirSync(CURRICULUM_ROOT, { withFileTypes: true })
+    .filter((e) => e.isDirectory())
+    .map((e) => e.name)
+    .sort();
+}
 
-  if (!fs.existsSync(CURRICULUM_DIR)) {
-    throw new Error(`Curriculum directory not found: ${CURRICULUM_DIR}`);
+/** Reads and validates every curriculum map JSON file for one curriculum.
+ * Cached per curriculumSlug after first call. */
+export function loadCurriculumMaps(curriculumSlug: string): SubjectCurriculumMap[] {
+  const cached = cache.get(curriculumSlug);
+  if (cached) return cached;
+
+  const dir = path.join(CURRICULUM_ROOT, curriculumSlug);
+  if (!fs.existsSync(dir)) {
+    throw new Error(`Curriculum directory not found: ${dir}`);
   }
 
-  const files = fs.readdirSync(CURRICULUM_DIR).filter((f) => f.endsWith(".json"));
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json"));
   const maps: SubjectCurriculumMap[] = [];
 
   for (const file of files) {
-    const raw = fs.readFileSync(path.join(CURRICULUM_DIR, file), "utf-8");
+    const raw = fs.readFileSync(path.join(dir, file), "utf-8");
     const parsed = subjectMapSchema.safeParse(JSON.parse(raw));
     if (!parsed.success) {
-      throw new Error(`Invalid curriculum map in ${file}: ${parsed.error.message}`);
+      throw new Error(`Invalid curriculum map in ${curriculumSlug}/${file}: ${parsed.error.message}`);
     }
     maps.push(parsed.data);
   }
 
-  cache = maps.sort((a, b) => a.subjectName.localeCompare(b.subjectName));
-  return cache;
+  const sorted = maps.sort((a, b) => a.subjectName.localeCompare(b.subjectName));
+  cache.set(curriculumSlug, sorted);
+  return sorted;
 }
 
 /** Clears the in-memory cache — used by the seed script / tests. */
 export function clearCurriculumCache() {
-  cache = null;
+  cache.clear();
 }
 
-export function getSubjectMap(subjectSlug: string): SubjectCurriculumMap | undefined {
-  return loadCurriculumMaps().find((m) => m.subjectSlug === subjectSlug);
+export function getSubjectMap(curriculumSlug: string, subjectSlug: string): SubjectCurriculumMap | undefined {
+  return loadCurriculumMaps(curriculumSlug).find((m) => m.subjectSlug === subjectSlug);
 }
 
-export function listSubjects(): Pick<SubjectCurriculumMap, "subjectSlug" | "subjectName" | "icon" | "color" | "frameworks">[] {
-  return loadCurriculumMaps().map(({ subjectSlug, subjectName, icon, color, frameworks }) => ({
+export function listSubjects(curriculumSlug: string): Pick<SubjectCurriculumMap, "subjectSlug" | "subjectName" | "icon" | "color" | "frameworks">[] {
+  return loadCurriculumMaps(curriculumSlug).map(({ subjectSlug, subjectName, icon, color, frameworks }) => ({
     subjectSlug,
     subjectName,
     icon,
@@ -102,8 +124,8 @@ export function listSubjects(): Pick<SubjectCurriculumMap, "subjectSlug" | "subj
  * get every topic across every year group (used by the seed script and
  * parent-facing "assign from any year" tools).
  */
-export function resolveTopics(opts?: { subjectSlug?: string; yearGroup?: YearGroup }): ResolvedTopic[] {
-  const maps = loadCurriculumMaps().filter(
+export function resolveTopics(curriculumSlug: string, opts?: { subjectSlug?: string; yearGroup?: YearGroup }): ResolvedTopic[] {
+  const maps = loadCurriculumMaps(curriculumSlug).filter(
     (m) => !opts?.subjectSlug || m.subjectSlug === opts.subjectSlug
   );
 
@@ -113,6 +135,7 @@ export function resolveTopics(opts?: { subjectSlug?: string; yearGroup?: YearGro
       for (const year of strand.years) {
         if (opts?.yearGroup && year.yearGroup !== opts.yearGroup) continue;
         topics.push({
+          curriculumSlug,
           subjectSlug: subject.subjectSlug,
           subjectName: subject.subjectName,
           strandSlug: strand.slug,
@@ -126,8 +149,8 @@ export function resolveTopics(opts?: { subjectSlug?: string; yearGroup?: YearGro
   return topics;
 }
 
-export function getObjectiveByCode(code: string) {
-  for (const topic of resolveTopics()) {
+export function getObjectiveByCode(curriculumSlug: string, code: string) {
+  for (const topic of resolveTopics(curriculumSlug)) {
     const objective = topic.objectives.find((o) => o.code === code);
     if (objective) return { topic, objective };
   }

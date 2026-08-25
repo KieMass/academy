@@ -7,7 +7,7 @@ import { CheckCircle2, XCircle, Clock, Target } from "lucide-react";
 import { formatDistanceToNow } from "date-fns";
 
 export default async function StudentProgressPage() {
-  const { studentProfile } = await requireStudent();
+  const { studentProfile, curriculumSlug } = await requireStudent();
 
   const [attempts, masteries, recent] = await Promise.all([
     db.questionAttempt.findMany({ where: { studentId: studentProfile.id }, select: { isCorrect: true, timeSpentSeconds: true } }),
@@ -25,9 +25,9 @@ export default async function StudentProgressPage() {
   const accuracy = totalAttempts > 0 ? Math.round((correctAttempts / totalAttempts) * 100) : 0;
   const totalMinutes = Math.round(attempts.reduce((sum, a) => sum + a.timeSpentSeconds, 0) / 60);
 
-  const subjects = listSubjects();
+  const subjects = listSubjects(curriculumSlug);
   const topicCountBySubject = new Map<string, number>();
-  for (const t of resolveTopics({ yearGroup: studentProfile.yearGroup })) {
+  for (const t of resolveTopics(curriculumSlug, { yearGroup: studentProfile.yearGroup })) {
     topicCountBySubject.set(t.subjectSlug, (topicCountBySubject.get(t.subjectSlug) ?? 0) + 1);
   }
   const secureCountBySubject = new Map<string, number>();

@@ -1,4 +1,5 @@
 import { requireParent } from "@/lib/auth/guards";
+import { formatYearGroup } from "@/lib/curriculum/label";
 import { db } from "@/lib/db";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -6,12 +7,18 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { AddStudentForm } from "@/components/parent/add-student-form";
 import { AddCoParentForm } from "@/components/parent/add-coparent-form";
 import { ChangeStudentPasswordButton } from "@/components/parent/change-student-password-button";
+import { EditStudentDialog } from "@/components/parent/edit-student-dialog";
+import { ChangeFamilyCurriculumDialog } from "@/components/parent/change-family-curriculum-dialog";
 import { ChangePasswordForm } from "@/components/auth/change-password-form";
 import { AccessibilityControls } from "@/components/accessibility/accessibility-controls";
 import { ColorSchemePicker } from "@/components/theme/color-scheme-picker";
+import { DEFAULT_CURRICULUM_SLUG } from "@/lib/auth/session";
 
 export default async function ParentSettingsPage() {
-  const { user, parentProfile } = await requireParent();
+  const { user, parentProfile, yearGroupLabel } = await requireParent();
+  const currentCurriculum = parentProfile.family.curriculum;
+  const currentCurriculumSlug = currentCurriculum?.slug ?? DEFAULT_CURRICULUM_SLUG;
+  const currentCurriculumName = currentCurriculum?.name ?? "Cayman Islands";
   const students = await db.studentProfile.findMany({ where: { parent: { familyId: parentProfile.familyId } }, orderBy: { createdAt: "asc" } });
   const familyParents = await db.parentProfile.findMany({ where: { familyId: parentProfile.familyId }, include: { user: true }, orderBy: { createdAt: "asc" } });
 
@@ -40,7 +47,7 @@ export default async function ParentSettingsPage() {
           </Card>
         </TabsContent>
 
-        <TabsContent value="family" className="pt-4">
+        <TabsContent value="family" className="space-y-6 pt-4">
           <Card>
             <CardHeader className="flex-row items-center justify-between space-y-0">
               <div>
@@ -64,13 +71,29 @@ export default async function ParentSettingsPage() {
               ))}
             </CardContent>
           </Card>
+
+          <Card>
+            <CardHeader className="flex-row items-center justify-between space-y-0">
+              <div>
+                <CardTitle className="text-lg">Curriculum</CardTitle>
+                <CardDescription>Applies to every student in your family — change it if you&apos;ve relocated to a different country.</CardDescription>
+              </div>
+              <ChangeFamilyCurriculumDialog currentSlug={currentCurriculumSlug} currentName={currentCurriculumName} />
+            </CardHeader>
+            <CardContent>
+              <div className="flex items-center justify-between rounded-xl border px-4 py-3">
+                <p className="font-medium">{currentCurriculumName}</p>
+                <Badge variant="outline">Currently following</Badge>
+              </div>
+            </CardContent>
+          </Card>
         </TabsContent>
 
         <TabsContent value="students" className="pt-4">
           <Card>
             <CardHeader className="flex-row items-center justify-between space-y-0">
               <CardTitle className="text-lg">Student accounts</CardTitle>
-              <AddStudentForm />
+              <AddStudentForm yearGroupLabel={yearGroupLabel} />
             </CardHeader>
             <CardContent className="space-y-2">
               {students.length === 0 && <p className="text-sm text-muted-foreground">No students added yet.</p>}
@@ -80,10 +103,13 @@ export default async function ParentSettingsPage() {
                     <span className="text-2xl">{s.avatarEmoji}</span>
                     <div>
                       <p className="font-medium">{s.displayName}</p>
-                      <p className="text-xs text-muted-foreground">Year {s.yearGroup.replace("Y", "")} · Level {s.levelNumber}</p>
+                      <p className="text-xs text-muted-foreground">{formatYearGroup(s.yearGroup, yearGroupLabel)} · Level {s.levelNumber}</p>
                     </div>
                   </div>
-                  <ChangeStudentPasswordButton studentId={s.id} studentName={s.displayName} />
+                  <div className="flex items-center gap-1">
+                    <EditStudentDialog student={{ id: s.id, displayName: s.displayName, yearGroup: s.yearGroup, avatarEmoji: s.avatarEmoji }} yearGroupLabel={yearGroupLabel} />
+                    <ChangeStudentPasswordButton studentId={s.id} studentName={s.displayName} />
+                  </div>
                 </div>
               ))}
             </CardContent>

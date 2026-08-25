@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { db } from "@/lib/db";
-import { getCurrentUser } from "@/lib/auth/session";
+import { getCurrentUser, DEFAULT_CURRICULUM_SLUG } from "@/lib/auth/session";
 import { fromContentQuestion } from "@/lib/question-engine/mapper";
 import { toPublicQuestion } from "@/lib/question-engine/types";
 import { pickRandomQuestionIds } from "@/lib/question-engine/select";
@@ -43,8 +43,9 @@ export async function GET(req: Request) {
     return NextResponse.json({ error: "subject, strand and yearGroup are required." }, { status: 400 });
   }
 
+  const curriculumSlug = user.studentProfile?.parent.family.curriculum?.slug ?? user.parentProfile?.family.curriculum?.slug ?? DEFAULT_CURRICULUM_SLUG;
   const topic = await db.topic.findFirst({
-    where: { subject: { slug: subjectSlug }, strandSlug, yearGroup: yearGroup as never },
+    where: { subject: { slug: subjectSlug }, strandSlug, yearGroup: yearGroup as never, curriculum: { slug: curriculumSlug } },
   });
   if (!topic) return NextResponse.json({ error: "Topic not found." }, { status: 404 });
 
