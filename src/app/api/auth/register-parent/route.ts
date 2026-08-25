@@ -8,6 +8,7 @@ const schema = z.object({
   fullName: z.string().min(1).max(100),
   email: z.string().email(),
   password: z.string().min(8, "Password must be at least 8 characters."),
+  curriculumSlug: z.string().min(1, "Please choose your country."),
 });
 
 export async function POST(req: Request) {
@@ -16,7 +17,12 @@ export async function POST(req: Request) {
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.issues[0]?.message ?? "Invalid request." }, { status: 400 });
   }
-  const { fullName, email, password } = parsed.data;
+  const { fullName, email, password, curriculumSlug } = parsed.data;
+
+  const curriculum = await db.curriculum.findUnique({ where: { slug: curriculumSlug } });
+  if (!curriculum) {
+    return NextResponse.json({ error: "Unknown curriculum. Please choose your country again." }, { status: 400 });
+  }
 
   const existing = await db.user.findUnique({ where: { email: email.toLowerCase() } });
   if (existing) {
@@ -29,7 +35,7 @@ export async function POST(req: Request) {
       role: "PARENT",
       email: email.toLowerCase(),
       passwordHash,
-      parentProfile: { create: { fullName, family: { create: {} } } },
+      parentProfile: { create: { fullName, family: { create: { curriculumId: curriculum.id } } } },
     },
   });
 
