@@ -58,6 +58,23 @@ model Session {
   @@index([userId])
 }
 
+// A national curriculum a Family follows — e.g. Cayman Islands (the
+// original, UK-National-Curriculum-derived content) or Guyana (CXC/NGSA-
+// aligned). Topic is scoped by curriculum in addition to (subject, strand,
+// yearGroup), so the exact same YearGroup value (Y1-Y6) can mean "Year 5"
+// for one family and "Grade 5" for another — see yearGroupLabel.
+model Curriculum {
+  id             String   @id @default(cuid())
+  slug           String   @unique // "cayman", "guyana"
+  name           String // "Cayman Islands", "Guyana"
+  yearGroupLabel String   @default("Year") // "Year" -> "Year 5"; Guyana uses "Grade" -> "Grade 5"
+  description    String?
+  createdAt      DateTime @default(now())
+
+  topics   Topic[]
+  families Family[]
+}
+
 // A Family groups together every parent who should have full, equal access
 // to the same set of students — e.g. two co-parents. A student still belongs
 // to a single "owning" ParentProfile (the one who added them, via
@@ -68,7 +85,15 @@ model Family {
   id        String   @id @default(cuid())
   createdAt DateTime @default(now())
 
+  // TODO(curriculum-migration): nullable during the backfill step, then
+  // tightened to required in a follow-up migration — see
+  // prisma/backfill-curriculum.ts.
+  curriculumId String?
+  curriculum   Curriculum? @relation(fields: [curriculumId], references: [id], onDelete: Restrict)
+
   parents ParentProfile[]
+
+  @@index([curriculumId])
 }
 
 model ParentProfile {
@@ -159,14 +184,21 @@ model Topic {
   description String?
   order       Int       @default(0)
 
+  // TODO(curriculum-migration): nullable during the backfill step, then
+  // tightened to required in a follow-up migration — see
+  // prisma/backfill-curriculum.ts.
+  curriculumId String?
+  curriculum   Curriculum? @relation(fields: [curriculumId], references: [id], onDelete: Restrict)
+
   questions        ContentQuestion[]
   masteries        TopicMastery[]
   contentGapAlerts ContentGapAlert[]
 
   createdAt DateTime @default(now())
 
-  @@unique([subjectId, strandSlug, yearGroup])
+  @@unique([subjectId, strandSlug, yearGroup, curriculumId])
   @@index([yearGroup])
+  @@index([curriculumId])
 }
 
 // ---------------------------------------------------------------------------

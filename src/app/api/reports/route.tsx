@@ -23,7 +23,7 @@ const schema = z.object({
 });
 
 export async function POST(req: Request) {
-  const { parentProfile } = await requireParent();
+  const { parentProfile, yearGroupLabel } = await requireParent();
   const body = await req.json().catch(() => null);
   const parsed = schema.safeParse(body);
   if (!parsed.success) {
@@ -89,6 +89,7 @@ export async function POST(req: Request) {
   const reportData: ReportData = {
     studentName: student.displayName,
     yearGroup: student.yearGroup,
+    yearGroupLabel,
     periodLabel: PERIOD_LABEL[period],
     startDate: startDate.toLocaleDateString("en-GB"),
     endDate: endDate.toLocaleDateString("en-GB"),

@@ -1,4 +1,5 @@
 import { requireAdmin } from "@/lib/auth/guards";
+import { formatYearGroup } from "@/lib/curriculum/label";
 import { db } from "@/lib/db";
 import { fromContentQuestion } from "@/lib/question-engine/mapper";
 import { revealAnswer } from "@/lib/question-engine/reveal";
@@ -21,7 +22,7 @@ export default async function AdminQuestionFlagsPage() {
     where: { status: { not: "PENDING_PARENT_REVIEW" } }, // not admin's turn yet
     include: {
       student: { include: { parent: true } },
-      question: { include: { topic: { include: { subject: true } } } },
+      question: { include: { topic: { include: { subject: true, curriculum: true } } } },
     },
     orderBy: { createdAt: "desc" },
     take: 150,
@@ -55,7 +56,7 @@ export default async function AdminQuestionFlagsPage() {
               <CardHeader className="flex-row items-start justify-between gap-3 space-y-0">
                 <div>
                   <CardTitle className="text-base">
-                    {flag.question.topic.subject.name} — {flag.question.topic.strandName} (Year {flag.question.topic.yearGroup.replace("Y", "")})
+                    {flag.question.topic.subject.name} — {flag.question.topic.strandName} ({formatYearGroup(flag.question.topic.yearGroup, flag.question.topic.curriculum?.yearGroupLabel)})
                   </CardTitle>
                   <p className="text-sm text-muted-foreground">
                     Reported by {flag.student.displayName}, reviewed by {flag.student.parent.fullName} · {(flag.parentReviewedAt ?? flag.createdAt).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}

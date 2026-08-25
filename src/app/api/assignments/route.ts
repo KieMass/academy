@@ -34,7 +34,7 @@ export async function POST(req: Request) {
   const student = await db.studentProfile.findFirst({ where: { id: studentId, parent: { familyId: parentProfile.familyId } } });
   if (!student) return NextResponse.json({ error: "Student not found." }, { status: 404 });
 
-  const topic = await db.topic.findFirst({ where: { subject: { slug: subjectSlug }, strandSlug, yearGroup: yearGroup as never } });
+  const topic = await db.topic.findFirst({ where: { subject: { slug: subjectSlug }, strandSlug, yearGroup: yearGroup as never, curriculumId: parentProfile.family.curriculumId } });
   if (!topic) return NextResponse.json({ error: "Topic not found." }, { status: 404 });
 
   const assignment = await db.assignment.create({

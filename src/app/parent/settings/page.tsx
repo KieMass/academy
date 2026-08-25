@@ -1,4 +1,5 @@
 import { requireParent } from "@/lib/auth/guards";
+import { formatYearGroup } from "@/lib/curriculum/label";
 import { db } from "@/lib/db";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -11,7 +12,7 @@ import { AccessibilityControls } from "@/components/accessibility/accessibility-
 import { ColorSchemePicker } from "@/components/theme/color-scheme-picker";
 
 export default async function ParentSettingsPage() {
-  const { user, parentProfile } = await requireParent();
+  const { user, parentProfile, yearGroupLabel } = await requireParent();
   const students = await db.studentProfile.findMany({ where: { parent: { familyId: parentProfile.familyId } }, orderBy: { createdAt: "asc" } });
   const familyParents = await db.parentProfile.findMany({ where: { familyId: parentProfile.familyId }, include: { user: true }, orderBy: { createdAt: "asc" } });
 
@@ -70,7 +71,7 @@ export default async function ParentSettingsPage() {
           <Card>
             <CardHeader className="flex-row items-center justify-between space-y-0">
               <CardTitle className="text-lg">Student accounts</CardTitle>
-              <AddStudentForm />
+              <AddStudentForm yearGroupLabel={yearGroupLabel} />
             </CardHeader>
             <CardContent className="space-y-2">
               {students.length === 0 && <p className="text-sm text-muted-foreground">No students added yet.</p>}
@@ -80,7 +81,7 @@ export default async function ParentSettingsPage() {
                     <span className="text-2xl">{s.avatarEmoji}</span>
                     <div>
                       <p className="font-medium">{s.displayName}</p>
-                      <p className="text-xs text-muted-foreground">Year {s.yearGroup.replace("Y", "")} · Level {s.levelNumber}</p>
+                      <p className="text-xs text-muted-foreground">{formatYearGroup(s.yearGroup, yearGroupLabel)} · Level {s.levelNumber}</p>
                     </div>
                   </div>
                   <ChangeStudentPasswordButton studentId={s.id} studentName={s.displayName} />

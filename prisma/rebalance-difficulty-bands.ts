@@ -47,7 +47,8 @@ interface TopicPlan {
 }
 
 async function buildDeclaredBandsByKey(): Promise<Map<string, Set<string>>> {
-  const maps = loadCurriculumMaps();
+  // Cayman-only script (see file header) — Guyana content doesn't exist yet.
+  const maps = loadCurriculumMaps("cayman");
   const declaredByKey = new Map<string, Set<string>>();
   for (const map of maps) {
     for (const strand of map.strands) {
@@ -109,7 +110,11 @@ function planTopic(topicId: string, key: string, rows: Row[], declaredBands: Set
 
 async function buildPlans(): Promise<TopicPlan[]> {
   const declaredByKey = await buildDeclaredBandsByKey();
-  const topics = await db.topic.findMany({ include: { subject: true } });
+  // Scoped to Cayman explicitly — declaredByKey is built from Cayman's
+  // curriculum maps only, and topic keys don't carry curriculumId, so an
+  // unscoped query here could misapply Cayman's declared bands to another
+  // curriculum's topic that happens to share the same subject/strand/year.
+  const topics = await db.topic.findMany({ where: { curriculum: { slug: "cayman" } }, include: { subject: true } });
   const plans: TopicPlan[] = [];
 
   for (const t of topics) {

@@ -16,7 +16,7 @@ const PERIODS = [
 ] as const;
 
 export default async function ParentProgressPage({ searchParams }: PageProps<"/parent/progress">) {
-  const { parentProfile } = await requireParent();
+  const { parentProfile, curriculumSlug } = await requireParent();
   const params = await searchParams;
   const students = await db.studentProfile.findMany({ where: { parent: { familyId: parentProfile.familyId } }, orderBy: { createdAt: "asc" } });
   if (students.length === 0) {
@@ -47,7 +47,7 @@ export default async function ParentProgressPage({ searchParams }: PageProps<"/p
   }
   const chartData = [...bySubject.values()].map((v) => ({ subject: v.name, accuracy: v.attempted > 0 ? Math.round((v.correct / v.attempted) * 100) : 0 }));
 
-  const allTopics = resolveTopics({ yearGroup: student.yearGroup });
+  const allTopics = resolveTopics(curriculumSlug, { yearGroup: student.yearGroup });
   const masteryByStrand = new Map(masteries.map((m) => [`${m.topic.subject.slug}:${m.topic.strandSlug}`, m]));
   const attainmentRows = allTopics
     .map((t) => {

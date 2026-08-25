@@ -1,4 +1,5 @@
 import { requireParent } from "@/lib/auth/guards";
+import { formatYearGroup } from "@/lib/curriculum/label";
 import { db } from "@/lib/db";
 import { fromContentQuestion } from "@/lib/question-engine/mapper";
 import { revealAnswer } from "@/lib/question-engine/reveal";
@@ -15,7 +16,7 @@ const STATUS_LABEL: Record<string, string> = {
 };
 
 export default async function ParentFlaggedQuestionsPage() {
-  const { parentProfile } = await requireParent();
+  const { parentProfile, yearGroupLabel } = await requireParent();
 
   const flags = await db.questionFlag.findMany({
     where: { student: { parent: { familyId: parentProfile.familyId } } },
@@ -59,7 +60,7 @@ export default async function ParentFlaggedQuestionsPage() {
               <CardHeader className="flex-row items-start justify-between gap-3 space-y-0">
                 <div>
                   <CardTitle className="text-base">
-                    {flag.question.topic.subject.name} — {flag.question.topic.strandName} (Year {flag.question.topic.yearGroup.replace("Y", "")})
+                    {flag.question.topic.subject.name} — {flag.question.topic.strandName} ({formatYearGroup(flag.question.topic.yearGroup, yearGroupLabel)})
                   </CardTitle>
                   <p className="text-sm text-muted-foreground">
                     Reported by {flag.student.displayName} · {flag.createdAt.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}

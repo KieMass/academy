@@ -19,10 +19,10 @@ export interface RecommendedTopic {
  * (the "reattempt weak areas" goal), then a few never-attempted topics to
  * keep exploration balanced.
  */
-export async function getStudentOverview(studentId: string, yearGroup: YearGroup, limit = 5) {
-  const allTopics = resolveTopics({ yearGroup });
+export async function getStudentOverview(studentId: string, curriculumSlug: string, yearGroup: YearGroup, limit = 5) {
+  const allTopics = resolveTopics(curriculumSlug, { yearGroup });
   const masteries = await db.topicMastery.findMany({
-    where: { studentId, topic: { yearGroup } },
+    where: { studentId, topic: { yearGroup, curriculum: { slug: curriculumSlug } } },
     include: { topic: { include: { subject: true } } },
   });
 

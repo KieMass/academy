@@ -5,9 +5,9 @@ import { PrintForm } from "@/components/parent/print-form";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default async function PrintResourcesPage() {
-  const { parentProfile } = await requireParent();
+  const { parentProfile, curriculumSlug, yearGroupLabel } = await requireParent();
   const students = await db.studentProfile.findMany({ where: { parent: { familyId: parentProfile.familyId } }, orderBy: { createdAt: "asc" } });
-  const curriculum = loadCurriculumMaps().map((m) => ({
+  const curriculum = loadCurriculumMaps(curriculumSlug).map((m) => ({
     subjectSlug: m.subjectSlug,
     subjectName: m.subjectName,
     strands: m.strands.map((s) => ({ slug: s.slug, name: s.name, yearGroups: s.years.map((y) => y.yearGroup) })),
@@ -24,7 +24,7 @@ export default async function PrintResourcesPage() {
         <p className="text-muted-foreground">Generate offline practice — great for screen-free time or extra revision.</p>
       </div>
       <div className="grid gap-6 lg:grid-cols-[420px_1fr]">
-        <PrintForm students={students.map((s) => ({ id: s.id, displayName: s.displayName, yearGroup: s.yearGroup }))} curriculum={curriculum} />
+        <PrintForm students={students.map((s) => ({ id: s.id, displayName: s.displayName, yearGroup: s.yearGroup }))} curriculum={curriculum} yearGroupLabel={yearGroupLabel} />
         <Card>
           <CardContent className="space-y-3 py-6 text-sm text-muted-foreground">
             <p><strong className="text-foreground">10 / 20-Question Worksheet</strong> — targeted practice on a single topic, mixed difficulty.</p>

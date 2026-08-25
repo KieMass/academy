@@ -46,7 +46,10 @@ export async function getCurrentUser() {
     where: { id: sessionId },
     include: {
       user: {
-        include: { parentProfile: true, studentProfile: true },
+        include: {
+          parentProfile: { include: { family: { include: { curriculum: true } } } },
+          studentProfile: { include: { parent: { include: { family: { include: { curriculum: true } } } } } },
+        },
       },
     },
   });
@@ -60,3 +63,10 @@ export async function getCurrentUser() {
 }
 
 export type CurrentUser = NonNullable<Awaited<ReturnType<typeof getCurrentUser>>>;
+
+/** Every family/topic row was backfilled to this curriculum when the
+ * Curriculum model was introduced — see prisma/backfill-curriculum.ts. Used
+ * as a defensive fallback only; curriculumId should never actually be null
+ * once that migration has run. */
+export const DEFAULT_CURRICULUM_SLUG = "cayman";
+export const DEFAULT_YEAR_GROUP_LABEL = "Year";

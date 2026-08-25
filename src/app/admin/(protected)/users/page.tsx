@@ -1,4 +1,5 @@
 import { requireAdmin } from "@/lib/auth/guards";
+import { DEFAULT_YEAR_GROUP_LABEL } from "@/lib/auth/session";
 import { db } from "@/lib/db";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -16,8 +17,8 @@ export default async function AdminUsersPage() {
 
   const users = await db.user.findMany({
     include: {
-      parentProfile: { include: { family: { include: { parents: true } } } },
-      studentProfile: { include: { parent: { include: { family: { include: { parents: true } } } } } },
+      parentProfile: { include: { family: { include: { parents: true, curriculum: true } } } },
+      studentProfile: { include: { parent: { include: { family: { include: { parents: true, curriculum: true } } } } } },
     },
     orderBy: { createdAt: "desc" },
   });
@@ -39,6 +40,7 @@ export default async function AdminUsersPage() {
               <tr className="border-b text-left text-xs text-muted-foreground">
                 <th className="pb-2 font-medium">Name</th>
                 <th className="pb-2 pl-4 font-medium">Role</th>
+                <th className="pb-2 pl-4 font-medium">Curriculum</th>
                 <th className="pb-2 pl-4 font-medium">Login</th>
                 <th className="pb-2 pl-4 font-medium">Joined</th>
                 <th className="pb-2 pl-4 font-medium text-right">Actions</th>
@@ -52,6 +54,11 @@ export default async function AdminUsersPage() {
                   "Admin";
                 const login = u.email ?? u.username ?? "—";
                 const familyParents = u.role === "STUDENT" ? u.studentProfile?.parent.family.parents : undefined;
+                const curriculum =
+                  u.role === "PARENT" ? u.parentProfile?.family.curriculum :
+                  u.role === "STUDENT" ? u.studentProfile?.parent.family.curriculum :
+                  undefined;
+                const yearGroupLabel = curriculum?.yearGroupLabel ?? DEFAULT_YEAR_GROUP_LABEL;
                 return (
                   <tr key={u.id} className="border-b last:border-0">
                     <td className="py-2.5 font-medium">
@@ -65,6 +72,7 @@ export default async function AdminUsersPage() {
                     <td className="py-2.5 pl-4">
                       <Badge variant={ROLE_VARIANT[u.role]} className="capitalize">{u.role.toLowerCase()}</Badge>
                     </td>
+                    <td className="py-2.5 pl-4 text-muted-foreground">{curriculum?.name ?? "—"}</td>
                     <td className="py-2.5 pl-4 text-muted-foreground">{login}</td>
                     <td className="py-2.5 pl-4 text-muted-foreground">
                       {u.createdAt.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}
@@ -74,7 +82,7 @@ export default async function AdminUsersPage() {
                         <EditUserDialog
                           user={
                             u.role === "PARENT" ? { id: u.id, role: "PARENT", fullName: u.parentProfile!.fullName, email: u.email! } :
-                            u.role === "STUDENT" ? { id: u.id, role: "STUDENT", displayName: u.studentProfile!.displayName, username: u.username!, yearGroup: u.studentProfile!.yearGroup, avatarEmoji: u.studentProfile!.avatarEmoji } :
+                            u.role === "STUDENT" ? { id: u.id, role: "STUDENT", displayName: u.studentProfile!.displayName, username: u.username!, yearGroup: u.studentProfile!.yearGroup, avatarEmoji: u.studentProfile!.avatarEmoji, yearGroupLabel } :
                             { id: u.id, role: "ADMIN", email: u.email! }
                           }
                         />
@@ -86,7 +94,7 @@ export default async function AdminUsersPage() {
               })}
               {users.length === 0 && (
                 <tr>
-                  <td colSpan={5} className="py-6 text-center text-muted-foreground">No users yet.</td>
+                  <td colSpan={6} className="py-6 text-center text-muted-foreground">No users yet.</td>
                 </tr>
               )}
             </tbody>

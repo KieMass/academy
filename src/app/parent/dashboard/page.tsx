@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { requireParent } from "@/lib/auth/guards";
+import { formatYearGroup } from "@/lib/curriculum/label";
 import { db } from "@/lib/db";
 import { getStudentOverview } from "@/lib/student-stats";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -8,10 +9,10 @@ import { Progress } from "@/components/ui/progress";
 import { UserPlus, ArrowRight, Flame, Star } from "lucide-react";
 
 export default async function ParentDashboardPage() {
-  const { parentProfile } = await requireParent();
+  const { parentProfile, curriculumSlug, yearGroupLabel } = await requireParent();
   const students = await db.studentProfile.findMany({ where: { parent: { familyId: parentProfile.familyId } }, orderBy: { createdAt: "asc" } });
 
-  const overviews = await Promise.all(students.map((s) => getStudentOverview(s.id, s.yearGroup, 3)));
+  const overviews = await Promise.all(students.map((s) => getStudentOverview(s.id, curriculumSlug, s.yearGroup, 3)));
 
   return (
     <div className="space-y-6">
@@ -49,7 +50,7 @@ export default async function ParentDashboardPage() {
                   <CardTitle className="flex items-center gap-2 text-lg">
                     <span className="flex size-9 items-center justify-center rounded-full bg-primary/10 text-xl">{student.avatarEmoji}</span>
                     {student.displayName}
-                    <span className="text-sm font-normal text-muted-foreground">Year {student.yearGroup.replace("Y", "")}</span>
+                    <span className="text-sm font-normal text-muted-foreground">{formatYearGroup(student.yearGroup, yearGroupLabel)}</span>
                   </CardTitle>
                   <div className="flex items-center gap-3 text-sm text-muted-foreground">
                     <span className="flex items-center gap-1"><Flame className="size-4 text-accent" />{student.streakDays}d</span>

@@ -18,12 +18,12 @@ const MASTERY_LABEL: Record<string, { label: string; className: string }> = {
 
 export default async function SubjectTopicsPage({ params }: PageProps<"/student/[subject]">) {
   const { subject: subjectSlug } = await params;
-  const { studentProfile } = await requireStudent();
-  const map = getSubjectMap(subjectSlug);
+  const { studentProfile, curriculumSlug } = await requireStudent();
+  const map = getSubjectMap(curriculumSlug, subjectSlug);
   if (!map) notFound();
 
   const allTopics = await db.topic.findMany({
-    where: { subject: { slug: subjectSlug }, yearGroup: studentProfile.yearGroup },
+    where: { subject: { slug: subjectSlug }, yearGroup: studentProfile.yearGroup, curriculum: { slug: curriculumSlug } },
     include: {
       masteries: { where: { studentId: studentProfile.id } },
       _count: { select: { questions: { where: { status: "PUBLISHED" } } } },

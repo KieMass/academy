@@ -8,8 +8,8 @@ import { ChevronLeft } from "lucide-react";
 export default async function PracticePage({ params, searchParams }: PageProps<"/student/[subject]/[strand]">) {
   const { subject: subjectSlug, strand: strandSlug } = await params;
   const { assignmentId } = await searchParams;
-  const { studentProfile } = await requireStudent();
-  const map = getSubjectMap(subjectSlug);
+  const { studentProfile, curriculumSlug } = await requireStudent();
+  const map = getSubjectMap(curriculumSlug, subjectSlug);
   const strand = map?.strands.find((s) => s.slug === strandSlug);
   if (!map || !strand) notFound();
 
