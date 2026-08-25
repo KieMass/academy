@@ -44,7 +44,7 @@ export function ColorSchemePicker({ initialScheme }: { initialScheme: string }) 
     <Card>
       <CardHeader>
         <CardTitle className="text-lg">Colour scheme</CardTitle>
-        <CardDescription>Pick a look for your account. Applies everywhere you're signed in.</CardDescription>
+        <CardDescription>Pick a look for your account. Applies everywhere you&apos;re signed in.</CardDescription>
       </CardHeader>
       <CardContent>
         <div className="grid grid-cols-3 gap-3 sm:grid-cols-6">

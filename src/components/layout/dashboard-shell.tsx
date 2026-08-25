@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { LogOut, Sparkles, Home, Trophy, LineChart, Settings, ClipboardList, Printer, Menu, X, Users, BookOpen, KeyRound, FileText, AlertTriangle, Flag, type LucideIcon } from "lucide-react";
@@ -16,6 +16,35 @@ export interface NavItem {
   href: string;
   label: string;
   icon: keyof typeof NAV_ICONS;
+}
+
+// Declared outside DashboardShell — a component defined inside another
+// component's body is recreated (and remounted) every render, which resets
+// its internal state and defeats reconciliation for no benefit here.
+function NavLinks({ navItems, pathname }: { navItems: NavItem[]; pathname: string | null }) {
+  return (
+    <nav className="flex-1 space-y-1 px-3">
+      {navItems.map((item) => {
+        const active = pathname === item.href || pathname?.startsWith(item.href + "/");
+        const Icon = NAV_ICONS[item.icon];
+        return (
+          <Link
+            key={item.href}
+            href={item.href}
+            className={cn(
+              "flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-all",
+              active
+                ? "bg-sidebar-primary text-sidebar-primary-foreground shadow-md shadow-sidebar-primary/30"
+                : "text-sidebar-foreground/80 hover:translate-x-0.5 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
+            )}
+          >
+            <Icon className="size-4.5" />
+            {item.label}
+          </Link>
+        );
+      })}
+    </nav>
+  );
 }
 
 export function DashboardShell({
@@ -35,41 +64,19 @@ export function DashboardShell({
   const router = useRouter();
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
 
-  // Close the mobile drawer whenever the route changes (e.g. a nav link was tapped).
-  useEffect(() => {
+  // Close the mobile drawer whenever the route changes (e.g. a nav link was
+  // tapped) — adjusted during render rather than in an Effect, per
+  // https://react.dev/learn/you-might-not-need-an-effect#adjusting-some-state-when-a-prop-changes.
+  const [prevPathname, setPrevPathname] = useState(pathname);
+  if (pathname !== prevPathname) {
+    setPrevPathname(pathname);
     setMobileNavOpen(false);
-  }, [pathname]);
+  }
 
   async function handleLogout() {
     await fetch("/api/auth/logout", { method: "POST" });
     router.push("/");
     router.refresh();
-  }
-
-  function NavLinks() {
-    return (
-      <nav className="flex-1 space-y-1 px-3">
-        {navItems.map((item) => {
-          const active = pathname === item.href || pathname?.startsWith(item.href + "/");
-          const Icon = NAV_ICONS[item.icon];
-          return (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={cn(
-                "flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-all",
-                active
-                  ? "bg-sidebar-primary text-sidebar-primary-foreground shadow-md shadow-sidebar-primary/30"
-                  : "text-sidebar-foreground/80 hover:translate-x-0.5 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
-              )}
-            >
-              <Icon className="size-4.5" />
-              {item.label}
-            </Link>
-          );
-        })}
-      </nav>
-    );
   }
 
   return (
@@ -81,7 +88,7 @@ export function DashboardShell({
           </span>
           <span className="text-gradient-brand">KaeLex Academy</span>
         </Link>
-        <NavLinks />
+        <NavLinks navItems={navItems} pathname={pathname} />
         <div className="p-3">
           <Button variant="ghost" className="w-full justify-start gap-3 text-sidebar-foreground/80" onClick={handleLogout}>
             <LogOut className="size-4.5" />
@@ -106,7 +113,7 @@ export function DashboardShell({
                 <X className="size-5" />
               </Button>
             </div>
-            <NavLinks />
+            <NavLinks navItems={navItems} pathname={pathname} />
             <div className="p-3">
               <Button variant="ghost" className="w-full justify-start gap-3 text-sidebar-foreground/80" onClick={handleLogout}>
                 <LogOut className="size-4.5" />

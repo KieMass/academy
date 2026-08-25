@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { toast } from "sonner";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
@@ -52,13 +52,14 @@ export function PrintForm({ students, curriculum, yearGroupLabel }: { students: 
 
   // Keep the selection valid (and default to the first topic) whenever the
   // available list changes — e.g. the parent switched subject or student.
-  useEffect(() => {
-    setStrandSlugs((prev) => {
-      const stillValid = prev.filter((slug) => availableStrands.some((s) => s.slug === slug));
-      if (stillValid.length > 0) return stillValid;
-      return availableStrands[0] ? [availableStrands[0].slug] : [];
-    });
-  }, [availableStrands]);
+  // Adjusted during render rather than in an Effect, per
+  // https://react.dev/learn/you-might-not-need-an-effect#adjusting-some-state-when-a-prop-changes.
+  const [prevAvailableStrands, setPrevAvailableStrands] = useState(availableStrands);
+  if (availableStrands !== prevAvailableStrands) {
+    setPrevAvailableStrands(availableStrands);
+    const stillValid = strandSlugs.filter((slug) => availableStrands.some((s) => s.slug === slug));
+    setStrandSlugs(stillValid.length > 0 ? stillValid : availableStrands[0] ? [availableStrands[0].slug] : []);
+  }
 
   function toggleStrand(slug: string) {
     setStrandSlugs((prev) => {
