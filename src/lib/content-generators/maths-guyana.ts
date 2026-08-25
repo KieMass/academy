@@ -15,6 +15,13 @@
  * kinds per branch means a higher count converts into real, distinct
  * question volume instead.
  *
+ * Number theory (fractions, decimals, percentages, ratio) and coordinate/
+ * compass geometry don't depend on which country's curriculum is asking
+ * about them, so those "kinds" pull their underlying facts from
+ * shared/maths-facts.ts rather than reimplementing the arithmetic here —
+ * that shared layer is written so Cayman's generators could eventually
+ * draw on it too, rather than each curriculum re-deriving the same facts.
+ *
  * Every question is tagged curriculumSlug-implicitly — this file only ever
  * feeds Guyana topics (see prisma/seed-content.ts), so there's no
  * curriculumSlug field on DraftQuestion itself; the seed script resolves
@@ -23,6 +30,23 @@
 import { createRng, pick, randInt, shuffle, type Rng } from "./rng";
 import type { DraftQuestion } from "./types";
 import type { DifficultyBand, YearGroup } from "@/lib/curriculum/types";
+import {
+  randomFraction,
+  simplifiableFraction,
+  comparableFractionPair,
+  addableFractionPair,
+  fractionOfAmount,
+  decimalPlaceValueFact,
+  comparableDecimalPair,
+  roundingDecimalFact,
+  percentOfAmountFact,
+  fractionToPercentFact,
+  simplifiableRatio,
+  shareInRatioFact,
+  coordinateTranslationFact,
+  compassTurnFact,
+  COMPASS as COMPASS_DIRECTIONS,
+} from "./shared/maths-facts";
 
 function mc(
   rng: Rng,
@@ -120,8 +144,31 @@ function generateNumberOperationsQuestions(rng: Rng, yearGroup: YearGroup, band:
     } else if (yearGroup === "Y3" || yearGroup === "Y4") {
       const numCode = yearGroup === "Y3" ? "GY-MA3-NUM-1" : "GY-MA4-NUM-1";
       const opCode = yearGroup === "Y3" ? "GY-MA3-NUM-2" : "GY-MA4-NUM-2";
-      const kind = pick(rng, ["add", "subtract", "order", "multiply", "round"] as const);
-      if (kind === "add") {
+      const fracDecCode = yearGroup === "Y3" ? "GY-MA3-NUM-3" : "GY-MA4-NUM-3";
+      const kinds = yearGroup === "Y3"
+        ? (["add", "subtract", "order", "multiply", "round", "fraction-compare", "fraction-name"] as const)
+        : (["add", "subtract", "order", "multiply", "round", "fraction-compare", "fraction-add", "decimal-place-value", "decimal-compare"] as const);
+      const kind = pick(rng, kinds);
+      if (kind === "fraction-compare") {
+        const { aNum, bNum, denominator } = comparableFractionPair(rng);
+        const correct = aNum > bNum ? `${aNum}/${denominator}` : `${bNum}/${denominator}`;
+        const other = aNum > bNum ? `${bNum}/${denominator}` : `${aNum}/${denominator}`;
+        out.push(mc(rng, { strandSlug: "number-operations", yearGroup, objectiveCode: fracDecCode, difficulty: band, promptText: `Which fraction is bigger: ${aNum}/${denominator} or ${bNum}/${denominator}?`, correct, distractors: [other, `They are equal`], explanation: `With the same denominator, the fraction with the bigger numerator is bigger: ${correct} > ${other}.` }));
+      } else if (kind === "fraction-name") {
+        const { numerator, denominator } = randomFraction(rng);
+        out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: fracDecCode, difficulty: band, promptText: `Write the fraction "${numerator} out of ${denominator}" using digits (e.g. 3 out of 4 -> 3/4).`, answer: `${numerator}/${denominator}`, explanation: `${numerator} out of ${denominator} is written as ${numerator}/${denominator}.` }));
+      } else if (kind === "fraction-add") {
+        const { aNum, bNum, denominator } = addableFractionPair(rng);
+        out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: fracDecCode, difficulty: band, promptText: `${aNum}/${denominator} + ${bNum}/${denominator} = ?/${denominator}`, answer: String(aNum + bNum), explanation: `With the same denominator, add the numerators: ${aNum} + ${bNum} = ${aNum + bNum}, so the answer is ${aNum + bNum}/${denominator}.` }));
+      } else if (kind === "decimal-place-value") {
+        const { value, tenths } = decimalPlaceValueFact(rng);
+        out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: fracDecCode, difficulty: band, promptText: `In the number ${value}, what digit is in the tenths place?`, answer: String(tenths), explanation: `In ${value}, the digit right after the decimal point (tenths place) is ${tenths}.` }));
+      } else if (kind === "decimal-compare") {
+        const { a, b } = comparableDecimalPair(rng);
+        const correct = a > b ? a : b;
+        const other = a > b ? b : a;
+        out.push(mc(rng, { strandSlug: "number-operations", yearGroup, objectiveCode: fracDecCode, difficulty: band, promptText: `Which decimal is bigger: ${a} or ${b}?`, correct: String(correct), distractors: [String(other), "They are equal"], explanation: `${correct} is bigger than ${other}.` }));
+      } else if (kind === "add") {
         const a = randInt(rng, 10, max / 2);
         const b = randInt(rng, 10, max / 2);
         out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: opCode, difficulty: band, promptText: `${a} + ${b} = ?`, answer: String(a + b), explanation: `${a} + ${b} = ${a + b}.` }));
@@ -144,8 +191,17 @@ function generateNumberOperationsQuestions(rng: Rng, yearGroup: YearGroup, band:
         out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: numCode, difficulty: band, promptText: `Round ${n} to the nearest ${roundTo}.`, answer: String(rounded), explanation: `${n} rounds to ${rounded} to the nearest ${roundTo}.` }));
       }
     } else if (yearGroup === "Y5") {
-      const kind = pick(rng, ["factor", "expand", "multiple", "place-value"] as const);
-      if (kind === "factor") {
+      const kind = pick(rng, ["factor", "expand", "multiple", "place-value", "simplify-fraction", "percent-of-amount", "fraction-to-percent"] as const);
+      if (kind === "simplify-fraction") {
+        const { numerator, denominator, simplifiedNumerator, simplifiedDenominator } = simplifiableFraction(rng);
+        out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: "GY-MA5-NUM-3", difficulty: band, promptText: `Simplify the fraction ${numerator}/${denominator} to its lowest terms (write as a/b).`, answer: `${simplifiedNumerator}/${simplifiedDenominator}`, explanation: `${numerator}/${denominator} simplifies to ${simplifiedNumerator}/${simplifiedDenominator}.` }));
+      } else if (kind === "percent-of-amount") {
+        const { percent, amount, result } = percentOfAmountFact(rng);
+        out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: "GY-MA5-NUM-3", difficulty: band, promptText: `What is ${percent}% of ${amount}?`, answer: String(result), explanation: `${percent}% of ${amount} = (${percent}/100) x ${amount} = ${result}.` }));
+      } else if (kind === "fraction-to-percent") {
+        const { numerator, denominator, percent } = fractionToPercentFact(rng);
+        out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: "GY-MA5-NUM-3", difficulty: band, promptText: `Write ${numerator}/${denominator} as a percentage.`, answer: `${percent}%`, explanation: `${numerator}/${denominator} = ${percent}%.` }));
+      } else if (kind === "factor") {
         const bases = [12, 18, 20, 24, 30, 36, 40, 42, 48, 60];
         const n = pick(rng, bases);
         const factorsOf = (x: number) => Array.from({ length: x }, (_, k) => k + 1).filter((f) => x % f === 0);
@@ -170,8 +226,20 @@ function generateNumberOperationsQuestions(rng: Rng, yearGroup: YearGroup, band:
         out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: "GY-MA5-NUM-2", difficulty: band, promptText: `In the number ${n}, what digit is in the ${placeName} place?`, answer: String(digitVal), explanation: `In ${n}, the ${placeName} digit is ${digitVal}.` }));
       }
     } else {
-      const kind = pick(rng, ["sets", "lcd", "prime-factor", "gcf"] as const);
-      if (kind === "sets") {
+      const kind = pick(rng, ["sets", "lcd", "prime-factor", "gcf", "simplify-ratio", "share-ratio", "round-decimal", "fraction-of-amount"] as const);
+      if (kind === "simplify-ratio") {
+        const { a, b, simplifiedA, simplifiedB } = simplifiableRatio(rng);
+        out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: "GY-MA6-NUM-3", difficulty: band, promptText: `Simplify the ratio ${a}:${b} to its lowest terms (write as a:b).`, answer: `${simplifiedA}:${simplifiedB}`, explanation: `${a}:${b} simplifies to ${simplifiedA}:${simplifiedB}.` }));
+      } else if (kind === "share-ratio") {
+        const { a, b, total, shareA } = shareInRatioFact(rng);
+        out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: "GY-MA6-NUM-3", difficulty: band, promptText: `Share ${total} sweets in the ratio ${a}:${b}. How many sweets does the first share get?`, answer: String(shareA), explanation: `Dividing ${total} in the ratio ${a}:${b} gives the first share ${shareA}.` }));
+      } else if (kind === "round-decimal") {
+        const { value, roundedToWhole } = roundingDecimalFact(rng);
+        out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: "GY-MA6-NUM-3", difficulty: band, promptText: `Round ${value} to the nearest whole number.`, answer: String(roundedToWhole), explanation: `${value} rounds to ${roundedToWhole} to the nearest whole number.` }));
+      } else if (kind === "fraction-of-amount") {
+        const { numerator, denominator, amount, result } = fractionOfAmount(rng);
+        out.push(fib({ strandSlug: "number-operations", yearGroup, objectiveCode: "GY-MA6-NUM-2", difficulty: band, promptText: `What is ${numerator}/${denominator} of ${amount}?`, answer: String(result), explanation: `${numerator}/${denominator} of ${amount} = ${result}.` }));
+      } else if (kind === "sets") {
         const a = shuffle(rng, [2, 4, 6, 8, 10, 12]).slice(0, 3).sort((x, y) => x - y);
         const b = shuffle(rng, [3, 6, 9, 12, 15]).slice(0, 3).sort((x, y) => x - y);
         const equivalent = a.length === b.length;
@@ -312,8 +380,11 @@ function generateGeometryQuestions(rng: Rng, yearGroup: YearGroup, band: Difficu
         out.push(mc(rng, { strandSlug: "geometry", yearGroup, objectiveCode: `GY-MA${yearGroup.slice(1)}-GEO-2`, difficulty: band, promptText: `Which shape has no straight sides at all?`, correct: "circle", distractors: shuffle(rng, shapeNames).slice(0, 3), explanation: `A circle is round and has no straight sides.` }));
       }
     } else if (yearGroup === "Y3") {
-      const kind = pick(rng, ["property", "classify"] as const);
-      if (kind === "property") {
+      const kind = pick(rng, ["property", "classify", "coordinate"] as const);
+      if (kind === "coordinate") {
+        const { x, y } = coordinateTranslationFact(rng);
+        out.push(fib({ strandSlug: "geometry", yearGroup, objectiveCode: "GY-MA3-GEO-3", difficulty: band, promptText: `On a grid, a point is ${x} squares across and ${y} squares up from the corner. Write its coordinates as (x,y).`, answer: `(${x},${y})`, explanation: `The point is ${x} across and ${y} up, so its coordinates are (${x},${y}).` }));
+      } else if (kind === "property") {
         const shape = pick(rng, ["a square", "a rectangle", "a triangle", "a rhombus"] as const);
         const angleSum: Record<string, string> = { "a square": "4 right angles", "a rectangle": "4 right angles", "a triangle": "3 angles that sum to 180 degrees", "a rhombus": "4 sides of equal length" };
         out.push(mc(rng, { strandSlug: "geometry", yearGroup, objectiveCode: "GY-MA3-GEO-1", difficulty: band, promptText: `Which property is true of ${shape}?`, correct: angleSum[shape], distractors: Object.values(angleSum).filter((v) => v !== angleSum[shape]), explanation: `${shape[0].toUpperCase() + shape.slice(1)} has ${angleSum[shape]}.` }));
@@ -323,8 +394,14 @@ function generateGeometryQuestions(rng: Rng, yearGroup: YearGroup, band: Difficu
         out.push(mc(rng, { strandSlug: "geometry", yearGroup, objectiveCode: "GY-MA3-GEO-1", difficulty: band, promptText: `Is a ${shape} a quadrilateral (a shape with exactly 4 sides)?`, correct: isQuadrilateral ? "Yes" : "No", distractors: [isQuadrilateral ? "No" : "Yes", "Only sometimes", "Cannot be determined"], explanation: `A ${shape} has ${SIDED_SHAPES[shape] ?? 4} sides, so it ${isQuadrilateral ? "is" : "is not"} a quadrilateral.` }));
       }
     } else if (yearGroup === "Y4" || yearGroup === "Y5") {
-      const kind = pick(rng, ["classify", "complementary"] as const);
-      if (kind === "classify") {
+      const kind = pick(rng, ["classify", "complementary", "translate", "compass"] as const);
+      if (kind === "translate") {
+        const { x, y, dx, dy, newX, newY } = coordinateTranslationFact(rng);
+        out.push(fib({ strandSlug: "geometry", yearGroup, objectiveCode: `GY-MA${yearGroup.slice(1)}-GEO-3`, difficulty: band, promptText: `A point at (${x},${y}) is translated ${dx >= 0 ? `${dx} right` : `${-dx} left`} and ${dy >= 0 ? `${dy} up` : `${-dy} down`}. What are its new coordinates?`, answer: `(${newX},${newY})`, explanation: `(${x},${y}) moved by (${dx},${dy}) gives (${newX},${newY}).` }));
+      } else if (kind === "compass") {
+        const { start, quarterTurns, clockwise, result } = compassTurnFact(rng);
+        out.push(mc(rng, { strandSlug: "geometry", yearGroup, objectiveCode: `GY-MA${yearGroup.slice(1)}-GEO-3`, difficulty: band, promptText: `Facing ${start}, you turn ${quarterTurns} quarter-turn${quarterTurns > 1 ? "s" : ""} ${clockwise ? "clockwise" : "anticlockwise"}. Which direction do you now face?`, correct: result, distractors: shuffle(rng, [...COMPASS_DIRECTIONS]).filter((d) => d !== result).slice(0, 3), explanation: `Turning ${quarterTurns} quarter-turn${quarterTurns > 1 ? "s" : ""} ${clockwise ? "clockwise" : "anticlockwise"} from ${start} faces you ${result}.` }));
+      } else if (kind === "classify") {
         const deg = randInt(rng, 5, 355);
         const correct = classifyAngle(deg);
         out.push(mc(rng, { strandSlug: "geometry", yearGroup, objectiveCode: `GY-MA${yearGroup.slice(1)}-GEO-1`, difficulty: band, promptText: `An angle measures ${deg} degrees. What type of angle is it?`, correct, distractors: ANGLE_TYPES.map((t) => t.label).filter((l) => l !== correct), explanation: `${deg} degrees is ${correct === "right" ? "exactly 90 degrees, a right angle" : `${correct} (${correct === "acute" ? "less than 90" : correct === "obtuse" ? "between 90 and 180" : "greater than 180"} degrees)`}.` }));
@@ -333,6 +410,18 @@ function generateGeometryQuestions(rng: Rng, yearGroup: YearGroup, band: Difficu
         const a = randInt(rng, 10, 80);
         const b = isComplementary ? 90 - a : randInt(rng, 10, 170);
         out.push(mc(rng, { strandSlug: "geometry", yearGroup, objectiveCode: `GY-MA${yearGroup.slice(1)}-GEO-1`, difficulty: band, promptText: `Two angles measure ${a} degrees and ${b} degrees. Are they complementary (add to 90 degrees)?`, correct: a + b === 90 ? "Yes" : "No", distractors: [a + b === 90 ? "No" : "Yes", "They are supplementary", "Cannot be determined"], explanation: `${a} + ${b} = ${a + b} degrees, ${a + b === 90 ? "which is exactly 90 — they are complementary." : "which is not 90, so they are not complementary."}` }));
+      }
+    } else if (pick(rng, ["solid", "solid", "position"] as const) === "position") {
+      const kind = pick(rng, ["translate-twice", "compass"] as const);
+      if (kind === "translate-twice") {
+        const first = coordinateTranslationFact(rng);
+        const second = coordinateTranslationFact(rng);
+        const finalX = first.newX + second.dx;
+        const finalY = first.newY + second.dy;
+        out.push(fib({ strandSlug: "geometry", yearGroup, objectiveCode: "GY-MA6-GEO-3", difficulty: band, promptText: `A point starts at (${first.x},${first.y}). It is translated by (${first.dx},${first.dy}), then translated again by (${second.dx},${second.dy}). What are its final coordinates?`, answer: `(${finalX},${finalY})`, explanation: `First translation: (${first.x},${first.y}) -> (${first.newX},${first.newY}). Second translation: -> (${finalX},${finalY}).` }));
+      } else {
+        const { start, quarterTurns, clockwise, result } = compassTurnFact(rng);
+        out.push(mc(rng, { strandSlug: "geometry", yearGroup, objectiveCode: "GY-MA6-GEO-3", difficulty: band, promptText: `Facing ${start}, you turn ${quarterTurns} quarter-turn${quarterTurns > 1 ? "s" : ""} ${clockwise ? "clockwise" : "anticlockwise"}. Which direction do you now face?`, correct: result, distractors: shuffle(rng, [...COMPASS_DIRECTIONS]).filter((d) => d !== result).slice(0, 3), explanation: `Turning ${quarterTurns} quarter-turn${quarterTurns > 1 ? "s" : ""} ${clockwise ? "clockwise" : "anticlockwise"} from ${start} faces you ${result}.` }));
       }
     } else {
       const kind = pick(rng, ["faces", "edges-vertices"] as const);
@@ -526,9 +615,9 @@ export function generateAllMathsQuestionsGuyana(seed = 55100): DraftQuestion[] {
   const out: DraftQuestion[] = [];
   for (const yearGroup of YEARS) {
     for (const band of BANDS) {
-      out.push(...generateNumberOperationsQuestions(rng, yearGroup, band, 10));
+      out.push(...generateNumberOperationsQuestions(rng, yearGroup, band, 16));
       out.push(...generatePatternsQuestions(rng, yearGroup, band, 8));
-      out.push(...generateGeometryQuestions(rng, yearGroup, band, 8));
+      out.push(...generateGeometryQuestions(rng, yearGroup, band, 12));
       out.push(...generateMeasurementQuestions(rng, yearGroup, band, 8));
       out.push(...generateDataQuestions(rng, yearGroup, band, 8));
     }

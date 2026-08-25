@@ -11,6 +11,7 @@
 import { createRng, shuffle, type Rng } from "./rng";
 import type { DraftQuestion } from "./types";
 import type { DifficultyBand, YearGroup } from "@/lib/curriculum/types";
+import { PLURAL_BANK, SYNONYM_BANK, STANDARD_ENGLISH_BANK } from "./shared/word-facts";
 
 const SUBJECT = "grammar";
 
@@ -54,6 +55,22 @@ function y2WordFamilies(rng: Rng): DraftQuestion[] {
   const families = ["-ay", "-ight", "-ould", "-ow"];
   for (const [word, family] of y2WordFamilyRows) {
     out.push(mc(rng, { strandSlug: "spelling-patterns", yearGroup: "Y2", objectiveCode: "GY-GR2-SPL-1", difficulty: "bronze", promptText: `Which spelling pattern does "${word}" end in?`, correct: family, distractors: families.filter((f) => f !== family), explanation: `"${word}" ends in the "${family}" pattern.` }));
+  }
+  return out;
+}
+
+// --- Y2: plural rules, drawn from the shared word-facts bank (spelling
+// theory doesn't depend on which country's curriculum is teaching it — see
+// shared/word-facts.ts) ---
+function y2Plurals(rng: Rng): DraftQuestion[] {
+  const out: DraftQuestion[] = [];
+  for (const { singular, plural, rule } of PLURAL_BANK) {
+    const wrongOptions =
+      rule === "y-to-ies" ? [`${singular}s`, `${singular.slice(0, -1)}ys`] :
+      rule === "f-to-ves" ? [`${singular}s`, `${singular.slice(0, -1)}fs`] :
+      rule === "add-es" ? [`${singular}s`] :
+      [`${singular}s`, `${singular}es`];
+    out.push(mc(rng, { strandSlug: "spelling-patterns", yearGroup: "Y2", objectiveCode: "GY-GR2-SPL-1", difficulty: "silver", promptText: `What is the plural of "${singular}"?`, correct: plural, distractors: wrongOptions, explanation: `The plural of "${singular}" is "${plural}".` }));
   }
   return out;
 }
@@ -356,11 +373,33 @@ function y6ActivePassive(rng: Rng): DraftQuestion[] {
   return out;
 }
 
+// --- Y5: word choice (replacing an overused word), drawn from the shared
+// synonym bank — a style/vocabulary skill that fits alongside relative
+// clauses under "improving sentences" ---
+function y5Synonyms(rng: Rng): DraftQuestion[] {
+  const out: DraftQuestion[] = [];
+  for (const { context, overused, best, distractors } of SYNONYM_BANK) {
+    out.push(mc(rng, { strandSlug: "sentence-construction", yearGroup: "Y5", objectiveCode: "GY-GR5-SEN-1", difficulty: "silver", promptText: `Which is the best replacement for the overused word "${overused}" in "${context}"?`, correct: best, distractors, explanation: `"${best}" is a more precise, less overused alternative to "${overused}".` }));
+  }
+  return out;
+}
+
+// --- Y6: standard vs. non-standard English verb forms, drawn from the
+// shared bank — fits alongside active/passive under sentence accuracy ---
+function y6StandardEnglish(rng: Rng): DraftQuestion[] {
+  const out: DraftQuestion[] = [];
+  for (const { sentence, correct, nonStandard } of STANDARD_ENGLISH_BANK) {
+    out.push(mc(rng, { strandSlug: "sentence-construction", yearGroup: "Y6", objectiveCode: "GY-GR6-SEN-1", difficulty: "silver", promptText: `Which fills the gap in standard English: '${sentence}'`, correct, distractors: [nonStandard], explanation: `Standard English uses "${correct}", not the non-standard "${nonStandard}".` }));
+  }
+  return out;
+}
+
 export function generateAllGrammarQuestionsGuyana(seed = 56100): DraftQuestion[] {
   const rng = createRng(seed);
   return [
     ...y1WordFamilies(rng),
     ...y2WordFamilies(rng),
+    ...y2Plurals(rng),
     ...y3Prefixes(rng),
     ...y3Suffixes(rng),
     ...y4Homophones(rng),
@@ -378,6 +417,8 @@ export function generateAllGrammarQuestionsGuyana(seed = 56100): DraftQuestion[]
     ...y4FrontedAdverbials(rng),
     ...y4NounPhrases(rng),
     ...y5RelativeClauses(rng),
+    ...y5Synonyms(rng),
     ...y6ActivePassive(rng),
+    ...y6StandardEnglish(rng),
   ];
 }

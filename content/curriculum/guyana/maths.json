@@ -31,28 +31,32 @@
           "yearGroup": "Y3",
           "objectives": [
             { "code": "GY-MA3-NUM-1", "description": "Read, write and order numbers to 1,000 using place value", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
-            { "code": "GY-MA3-NUM-2", "description": "Add and subtract 2- and 3-digit numbers using a range of strategies", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+            { "code": "GY-MA3-NUM-2", "description": "Add and subtract 2- and 3-digit numbers using a range of strategies", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA3-NUM-3", "description": "Recognise, compare and simplify fractions with small denominators", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
           ]
         },
         {
           "yearGroup": "Y4",
           "objectives": [
             { "code": "GY-MA4-NUM-1", "description": "Read, write, order and compare numbers to 10,000", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
-            { "code": "GY-MA4-NUM-2", "description": "Recall and use multiplication and division facts for the 2, 3, 4, 5, 8 and 10 times tables", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+            { "code": "GY-MA4-NUM-2", "description": "Recall and use multiplication and division facts for the 2, 3, 4, 5, 8 and 10 times tables", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA4-NUM-3", "description": "Recognise decimal place value and add simple fractions with the same denominator", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
           ]
         },
         {
           "yearGroup": "Y5",
           "objectives": [
             { "code": "GY-MA5-NUM-1", "description": "Identify and write factors of 1, 2, 3 and 4 digit numbers", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
-            { "code": "GY-MA5-NUM-2", "description": "Write numbers in expanded notation, e.g. 3,047 = 3 x 1,000 + 0 x 100 + 4 x 10 + 7 x 1", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+            { "code": "GY-MA5-NUM-2", "description": "Write numbers in expanded notation, e.g. 3,047 = 3 x 1,000 + 0 x 100 + 4 x 10 + 7 x 1", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA5-NUM-3", "description": "Find fractions and percentages of amounts, and convert between simple fractions and percentages", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
           ]
         },
         {
           "yearGroup": "Y6",
           "objectives": [
             { "code": "GY-MA6-NUM-1", "description": "Describe, identify and write sets, including equal and equivalent sets and subsets, using set notation", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
-            { "code": "GY-MA6-NUM-2", "description": "Find prime factors of a number and use them to find the LCD (lowest common denominator) of fractions", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+            { "code": "GY-MA6-NUM-2", "description": "Find prime factors of a number and use them to find the LCD (lowest common denominator) of fractions", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA6-NUM-3", "description": "Simplify ratios, share a quantity in a given ratio, and round decimals to a given place", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
           ]
         }
       ]
@@ -129,28 +133,32 @@
           "yearGroup": "Y3",
           "objectives": [
             { "code": "GY-MA3-GEO-1", "description": "Identify and describe the properties of quadrilaterals and triangles", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
-            { "code": "GY-MA3-GEO-2", "description": "Describe and perform single transformations (slides, flips and turns) of 2-D shapes", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+            { "code": "GY-MA3-GEO-2", "description": "Describe and perform single transformations (slides, flips and turns) of 2-D shapes", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA3-GEO-3", "description": "Describe position on a simple coordinate grid and use compass directions", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
           ]
         },
         {
           "yearGroup": "Y4",
           "objectives": [
             { "code": "GY-MA4-GEO-1", "description": "Identify, describe and classify angles as acute, right, obtuse or straight", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
-            { "code": "GY-MA4-GEO-2", "description": "Describe and construct 3-D objects, including edges, faces and vertices, and identify nets of common solids", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+            { "code": "GY-MA4-GEO-2", "description": "Describe and construct 3-D objects, including edges, faces and vertices, and identify nets of common solids", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA4-GEO-3", "description": "Plot and translate coordinates on a grid, and describe turns using compass directions", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
           ]
         },
         {
           "yearGroup": "Y5",
           "objectives": [
             { "code": "GY-MA5-GEO-1", "description": "Measure and classify angles using a protractor, and identify complementary and supplementary angles", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
-            { "code": "GY-MA5-GEO-2", "description": "Describe and perform translations, reflections and rotations of 2-D shapes on a grid", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] }
+            { "code": "GY-MA5-GEO-2", "description": "Describe and perform translations, reflections and rotations of 2-D shapes on a grid", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
+            { "code": "GY-MA5-GEO-3", "description": "Plot coordinates in all four quadrants and describe translations using compass directions", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
           ]
         },
         {
           "yearGroup": "Y6",
           "objectives": [
             { "code": "GY-MA6-GEO-1", "description": "Identify and describe properties of prisms, pyramids and other 3-D solids, including their nets", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice"] },
-            { "code": "GY-MA6-GEO-2", "description": "Determine the perimeter and area of regular and composite shapes", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
+            { "code": "GY-MA6-GEO-2", "description": "Determine the perimeter and area of regular and composite shapes", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] },
+            { "code": "GY-MA6-GEO-3", "description": "Describe and perform combinations of translations and rotations using coordinates and compass directions", "difficultyBands": ["bronze", "silver"], "questionTypes": ["multiple_choice", "fill_in_box"] }
           ]
         }
       ]
