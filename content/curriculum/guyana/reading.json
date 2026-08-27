@@ -1,10 +1,7 @@
 {
   "subjectSlug": "reading",
   "subjectName": "Reading",
-  "frameworks": [
-    "Guyana Language Arts Curriculum Guide (NCERD)",
-    "CXC/NGSA-aligned"
-  ],
+  "frameworks": ["Guyana Language Arts Curriculum Guide (NCERD)", "CXC/NGSA-aligned"],
   "icon": "BookOpen",
   "color": "amber",
   "strands": [
@@ -16,37 +13,67 @@
         {
           "yearGroup": "Y1",
           "objectives": [
-            { "code": "GY-RD1-RET-1", "description": "Answer simple who/what/where questions about a text read aloud or read independently", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] }
+            {
+              "code": "GY-RD1-RET-1",
+              "description": "Answer simple who/what/where questions about a text read aloud or read independently",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
           ]
         },
         {
           "yearGroup": "Y2",
           "objectives": [
-            { "code": "GY-RD2-RET-1", "description": "Locate and retrieve explicitly stated details from a short passage", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] }
+            {
+              "code": "GY-RD2-RET-1",
+              "description": "Locate and retrieve explicitly stated details from a short passage",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
           ]
         },
         {
           "yearGroup": "Y3",
           "objectives": [
-            { "code": "GY-RD3-RET-1", "description": "Retrieve and record key details and events from fiction and non-fiction texts", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] }
+            {
+              "code": "GY-RD3-RET-1",
+              "description": "Retrieve and record key details and events from fiction and non-fiction texts",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
           ]
         },
         {
           "yearGroup": "Y4",
           "objectives": [
-            { "code": "GY-RD4-RET-1", "description": "Skim and scan a text to locate specific information to answer a question", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] }
+            {
+              "code": "GY-RD4-RET-1",
+              "description": "Skim and scan a text to locate specific information to answer a question",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
           ]
         },
         {
           "yearGroup": "Y5",
           "objectives": [
-            { "code": "GY-RD5-RET-1", "description": "Retrieve, record and present information from more than one part of a text", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] }
+            {
+              "code": "GY-RD5-RET-1",
+              "description": "Retrieve, record and present information from more than one part of a text",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
           ]
         },
         {
           "yearGroup": "Y6",
           "objectives": [
-            { "code": "GY-RD6-RET-1", "description": "Retrieve and synthesise information from across a text to support an answer", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] }
+            {
+              "code": "GY-RD6-RET-1",
+              "description": "Retrieve and synthesise information from across a text to support an answer",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
           ]
         }
       ]
@@ -56,12 +83,72 @@
       "name": "Inference",
       "description": "Reasoning beyond what is stated to characters' feelings, motives and a writer's viewpoint.",
       "years": [
-        { "yearGroup": "Y1", "objectives": [ { "code": "GY-RD1-INF-1", "description": "Make simple predictions about what might happen next in a familiar story", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
-        { "yearGroup": "Y2", "objectives": [ { "code": "GY-RD2-INF-1", "description": "Draw simple inferences from what a character says or does", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
-        { "yearGroup": "Y3", "objectives": [ { "code": "GY-RD3-INF-1", "description": "Infer characters' feelings, thoughts and motives from their actions", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
-        { "yearGroup": "Y4", "objectives": [ { "code": "GY-RD4-INF-1", "description": "Infer meaning using evidence from the text, justifying inferences with reference to the text", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
-        { "yearGroup": "Y5", "objectives": [ { "code": "GY-RD5-INF-1", "description": "Draw inferences about characters, settings and events, supporting with evidence from the text", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
-        { "yearGroup": "Y6", "objectives": [ { "code": "GY-RD6-INF-1", "description": "Make and justify inferences about a writer's viewpoint or purpose using evidence from the text", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] }
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "GY-RD1-INF-1",
+              "description": "Make simple predictions about what might happen next in a familiar story",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "GY-RD2-INF-1",
+              "description": "Draw simple inferences from what a character says or does",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GY-RD3-INF-1",
+              "description": "Infer characters' feelings, thoughts and motives from their actions",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GY-RD4-INF-1",
+              "description": "Infer meaning using evidence from the text, justifying inferences with reference to the text",
+              "difficultyBands": ["bronze", "silver", "gold"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "GY-RD5-INF-1",
+              "description": "Draw inferences about characters, settings and events, supporting with evidence from the text",
+              "difficultyBands": ["bronze", "silver", "gold"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "GY-RD6-INF-1",
+              "description": "Make and justify inferences about a writer's viewpoint or purpose using evidence from the text",
+              "difficultyBands": ["bronze", "silver", "gold"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        }
       ]
     },
     {
@@ -69,12 +156,72 @@
       "name": "Vocabulary",
       "description": "Working out and discussing the meaning of words in context.",
       "years": [
-        { "yearGroup": "Y1", "objectives": [ { "code": "GY-RD1-VOC-1", "description": "Use background knowledge and picture clues to work out the meaning of an unfamiliar word", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
-        { "yearGroup": "Y2", "objectives": [ { "code": "GY-RD2-VOC-1", "description": "Discuss the meaning of new words, linking new meanings to known vocabulary", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
-        { "yearGroup": "Y3", "objectives": [ { "code": "GY-RD3-VOC-1", "description": "Use context clues to work out the meaning of words in a passage", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
-        { "yearGroup": "Y4", "objectives": [ { "code": "GY-RD4-VOC-1", "description": "Explain the meaning of words in context, including simple figurative phrases", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
-        { "yearGroup": "Y5", "objectives": [ { "code": "GY-RD5-VOC-1", "description": "Explore the meaning of words in context, including words with more than one meaning", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] },
-        { "yearGroup": "Y6", "objectives": [ { "code": "GY-RD6-VOC-1", "description": "Analyse how a writer's word choices affect meaning and tone", "difficultyBands": ["bronze"], "questionTypes": ["multiple_choice"] } ] }
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "GY-RD1-VOC-1",
+              "description": "Use background knowledge and picture clues to work out the meaning of an unfamiliar word",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "GY-RD2-VOC-1",
+              "description": "Discuss the meaning of new words, linking new meanings to known vocabulary",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GY-RD3-VOC-1",
+              "description": "Use context clues to work out the meaning of words in a passage",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GY-RD4-VOC-1",
+              "description": "Explain the meaning of words in context, including simple figurative phrases",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "GY-RD5-VOC-1",
+              "description": "Explore the meaning of words in context, including words with more than one meaning",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "GY-RD6-VOC-1",
+              "description": "Analyse how a writer's word choices affect meaning and tone",
+              "difficultyBands": ["bronze", "silver"],
+              "questionTypes": ["multiple_choice"]
+            }
+          ]
+        }
       ]
     }
   ]

@@ -1691,5 +1691,327 @@
       "organised police forces allowed for proper investigation rather than harsh, immediate punishment"
     ],
     "explanation": "The growth of organised police forces allowed crimes to be properly investigated, reducing reliance on harsh, immediate punishments based on assumption alone."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-GRE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these is a lasting Ancient Greek achievement still influencing the modern world?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Olympic Games"
+      },
+      {
+        "id": "b",
+        "text": "The invention of paper money"
+      },
+      {
+        "id": "c",
+        "text": "The invention of the printing press"
+      },
+      {
+        "id": "d",
+        "text": "The steam engine"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Olympic Games began in Ancient Greece and continue today as a major international sporting event."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-GRE-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one way Athenian democracy was different from most democracies today.",
+    "acceptedAnswers": [
+      "only free men could vote",
+      "women could not vote",
+      "slaves could not vote",
+      "not everyone could vote",
+      "only male citizens could vote"
+    ],
+    "explanation": "In Athens, only free adult male citizens could vote — women, slaves and foreigners were excluded, unlike most modern democracies which aim for universal adult suffrage."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "ancient-greeks",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-GRE-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one area of modern life that was influenced by Ancient Greek civilisation.",
+    "acceptedAnswers": [
+      "democracy",
+      "philosophy",
+      "theatre",
+      "the Olympics",
+      "medicine",
+      "architecture"
+    ],
+    "explanation": "Ancient Greek civilisation left a lasting influence on democracy, philosophy, theatre, the Olympics, medicine and architecture."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-SAX-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What were Anglo-Saxon houses typically built from?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wood and thatch"
+      },
+      {
+        "id": "b",
+        "text": "Brick and concrete"
+      },
+      {
+        "id": "c",
+        "text": "Stone and glass"
+      },
+      {
+        "id": "d",
+        "text": "Steel and tile"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Anglo-Saxon houses were usually timber-framed with thatched roofs, not brick or stone."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-SAX-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one of the Anglo-Saxon kingdoms.",
+    "acceptedAnswers": [
+      "Wessex",
+      "Mercia",
+      "Northumbria",
+      "East Anglia",
+      "Kent",
+      "Essex",
+      "Sussex"
+    ],
+    "explanation": "Anglo-Saxon England was divided into several kingdoms, including Wessex, Mercia, Northumbria and East Anglia."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "anglo-saxons",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-SAX-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one type of historical source historians use to learn about Anglo-Saxon Britain.",
+    "acceptedAnswers": [
+      "artefacts",
+      "written accounts",
+      "archaeology",
+      "burial sites",
+      "manuscripts",
+      "the Sutton Hoo treasure"
+    ],
+    "explanation": "Historians use artefacts, written accounts and archaeological evidence, such as the Sutton Hoo ship burial, to learn about Anglo-Saxon Britain."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-VIK-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Where did the Vikings mainly come from?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Scandinavia"
+      },
+      {
+        "id": "b",
+        "text": "Southern Europe"
+      },
+      {
+        "id": "c",
+        "text": "North Africa"
+      },
+      {
+        "id": "d",
+        "text": "The Middle East"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Vikings came from Scandinavia — the region covering modern-day Norway, Sweden and Denmark."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y5",
+    "objectiveCode": "HI5-VIK-2",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "What type of ship allowed the Vikings to travel far across seas and up rivers?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The longship"
+      },
+      {
+        "id": "b",
+        "text": "The galleon"
+      },
+      {
+        "id": "c",
+        "text": "The steamship"
+      },
+      {
+        "id": "d",
+        "text": "The submarine"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Viking longships were fast, sturdy vessels that could sail across open seas and up shallow rivers."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "vikings",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-VIK-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "In what year did the Norman Conquest of England take place?",
+    "acceptedAnswers": [
+      "1066"
+    ],
+    "explanation": "The Norman Conquest took place in 1066, when William of Normandy defeated King Harold at the Battle of Hastings."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What was 'the Blitz'?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A sustained bombing campaign on British cities by Germany"
+      },
+      {
+        "id": "b",
+        "text": "A British invasion of Germany"
+      },
+      {
+        "id": "c",
+        "text": "A type of wartime ration book"
+      },
+      {
+        "id": "d",
+        "text": "A children's evacuation train"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Blitz was a sustained German bombing campaign against British cities during the Second World War."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Why was rationing introduced in Britain during the Second World War?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To make sure food and goods were shared fairly when supplies were limited"
+      },
+      {
+        "id": "b",
+        "text": "Because shops had too much food"
+      },
+      {
+        "id": "c",
+        "text": "To stop people from cooking at home"
+      },
+      {
+        "id": "d",
+        "text": "Because farmers stopped growing food"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Rationing ensured that limited food and goods, made scarce by the war, were shared out fairly among the population."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "world-war-two",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-WW2-3",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one type of historical source historians can use to learn about life during the Second World War.",
+    "acceptedAnswers": [
+      "photographs",
+      "ration books",
+      "propaganda posters",
+      "diaries",
+      "letters",
+      "newspapers"
+    ],
+    "explanation": "Historians use sources like photographs, ration books and propaganda posters to understand life on the home front."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "crime-punishment",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-CRI-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "In Anglo-Saxon times, what was 'trial by ordeal' used for?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To decide if an accused person was guilty or innocent"
+      },
+      {
+        "id": "b",
+        "text": "To choose the next king"
+      },
+      {
+        "id": "c",
+        "text": "To pay taxes"
+      },
+      {
+        "id": "d",
+        "text": "To build churches"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Trial by ordeal was a method used in Anglo-Saxon times to decide guilt or innocence, often through a painful or dangerous physical test."
+  },
+  {
+    "subjectSlug": "history",
+    "strandSlug": "crime-punishment",
+    "yearGroup": "Y6",
+    "objectiveCode": "HI6-CRI-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one reason why punishments have generally become less physically violent over time in Britain.",
+    "acceptedAnswers": [
+      "changing attitudes towards human rights",
+      "more humane attitudes",
+      "changing views on human rights",
+      "society became more humane"
+    ],
+    "explanation": "Changing attitudes towards human rights and more humane views of justice have led to less physically violent punishments over time."
   }
 ]

@@ -2135,5 +2135,460 @@
     ],
     "correctOptionId": "b",
     "explanation": "The rural-urban fringe is where new development gradually blends the edge of a growing settlement into the surrounding countryside."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-MAP-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which tool would best show you the whole Earth's surface as a sphere?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A globe"
+      },
+      {
+        "id": "b",
+        "text": "A road map"
+      },
+      {
+        "id": "c",
+        "text": "A weather chart"
+      },
+      {
+        "id": "d",
+        "text": "A compass"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A globe is a three-dimensional model that shows the Earth's surface as a sphere, unlike a flat map."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-MAP-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "On an Ordnance Survey map, what does a blue line usually represent?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A river or stream"
+      },
+      {
+        "id": "b",
+        "text": "A road"
+      },
+      {
+        "id": "c",
+        "text": "A footpath"
+      },
+      {
+        "id": "d",
+        "text": "A railway"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "On Ordnance Survey maps, blue is conventionally used to show water features like rivers and streams."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "maps",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-MAP-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "If a map has a large scale (like 1:1000), what does this usually mean?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It shows a small area in a lot of detail"
+      },
+      {
+        "id": "b",
+        "text": "It shows the whole world"
+      },
+      {
+        "id": "c",
+        "text": "It shows no detail at all"
+      },
+      {
+        "id": "d",
+        "text": "It cannot be used for walking routes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A large-scale map (like 1:1000) covers a small area but shows it in great detail."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-COORD-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "In a four-figure grid reference, which comes first — the eastings or the northings?",
+    "acceptedAnswers": [
+      "the eastings",
+      "eastings",
+      "eastings come first",
+      "the easting"
+    ],
+    "explanation": "You read along the corridor then up the stairs — eastings (left to right) are given first, followed by northings (bottom to top)."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "coordinates",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-COORD-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "What is the name of the imaginary line at 0 degrees latitude that divides the Earth into the Northern and Southern hemispheres?",
+    "acceptedAnswers": [
+      "the Equator",
+      "Equator"
+    ],
+    "explanation": "The Equator is the imaginary line around the middle of the Earth at 0 degrees latitude, splitting it into the Northern and Southern Hemispheres."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-RES-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these is an example of a natural resource?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fresh water"
+      },
+      {
+        "id": "b",
+        "text": "A car"
+      },
+      {
+        "id": "c",
+        "text": "A mobile phone"
+      },
+      {
+        "id": "d",
+        "text": "A road"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Fresh water occurs naturally, unlike manufactured items such as cars, phones or roads."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "natural-resources",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RES-1",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Give one reason why countries trade with each other.",
+    "acceptedAnswers": [
+      "to get resources they don't have",
+      "because resources are not evenly spread",
+      "to access goods or resources they lack",
+      "some countries have resources others need"
+    ],
+    "explanation": "Natural resources are not spread evenly around the world, so countries trade to access resources or goods they don't have enough of themselves."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-ENV-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Why are small island nations, like the Cayman Islands, especially vulnerable to climate change?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Rising sea levels can threaten low-lying coastal land"
+      },
+      {
+        "id": "b",
+        "text": "They have too many natural resources"
+      },
+      {
+        "id": "c",
+        "text": "They never experience storms"
+      },
+      {
+        "id": "d",
+        "text": "They are located far from any ocean"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Many small island nations have low-lying coastal land that is at risk from rising sea levels caused by climate change."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-ENV-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Alongside mangroves, which other natural feature helps protect coastlines and support marine biodiversity?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Coral reefs"
+      },
+      {
+        "id": "b",
+        "text": "Deserts"
+      },
+      {
+        "id": "c",
+        "text": "Glaciers"
+      },
+      {
+        "id": "d",
+        "text": "Volcanoes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Coral reefs, like mangroves, act as a natural barrier that absorbs wave energy and provides habitat for a huge range of marine life."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "environmental-issues",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ENV-1",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Name one strategy that can help reduce plastic pollution in the ocean.",
+    "acceptedAnswers": [
+      "reducing single-use plastics",
+      "recycling",
+      "banning plastic bags",
+      "beach clean-ups",
+      "using reusable bags or bottles"
+    ],
+    "explanation": "Strategies like reducing single-use plastics, recycling, and organising beach clean-ups all help reduce plastic pollution in the ocean."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-WOR-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which ocean lies to the east of the Caribbean islands?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The Atlantic Ocean"
+      },
+      {
+        "id": "b",
+        "text": "The Pacific Ocean"
+      },
+      {
+        "id": "c",
+        "text": "The Indian Ocean"
+      },
+      {
+        "id": "d",
+        "text": "The Arctic Ocean"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Atlantic Ocean lies to the east of the Caribbean islands."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y5",
+    "objectiveCode": "GE5-WOR-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "During which months does the Atlantic hurricane season typically run?",
+    "options": [
+      {
+        "id": "a",
+        "text": "June to November"
+      },
+      {
+        "id": "b",
+        "text": "January to March"
+      },
+      {
+        "id": "c",
+        "text": "July to August only"
+      },
+      {
+        "id": "d",
+        "text": "October to December only"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Atlantic hurricane season officially runs from 1 June to 30 November each year."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-WOR-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which is the largest continent by land area?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Asia"
+      },
+      {
+        "id": "b",
+        "text": "Africa"
+      },
+      {
+        "id": "c",
+        "text": "Europe"
+      },
+      {
+        "id": "d",
+        "text": "North America"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Asia is the largest continent by land area, covering about a third of the world's total land."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "world-geography",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-WOR-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "Give one way that comparing two regions from different countries can help geographers understand the world.",
+    "acceptedAnswers": [
+      "it shows similarities and differences between places",
+      "it helps identify how climate or resources differ",
+      "it helps understand how people live differently in different places"
+    ],
+    "explanation": "Comparing regions helps geographers understand similarities and differences in climate, resources, and how people live in different parts of the world."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "rivers-water-cycle",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RIV-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What is the process called when water vapour turns into liquid water droplets to form clouds?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Condensation"
+      },
+      {
+        "id": "b",
+        "text": "Evaporation"
+      },
+      {
+        "id": "c",
+        "text": "Precipitation"
+      },
+      {
+        "id": "d",
+        "text": "Collection"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Condensation is when water vapour cools and turns back into liquid droplets, forming clouds."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "rivers-water-cycle",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-RIV-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What is the name for the point where a river meets the sea?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The mouth"
+      },
+      {
+        "id": "b",
+        "text": "The source"
+      },
+      {
+        "id": "c",
+        "text": "The meander"
+      },
+      {
+        "id": "d",
+        "text": "The tributary"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The mouth of a river is the point where it flows into the sea (or another body of water)."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "economic-activity-trade",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ECO-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these is an example of a SECONDARY economic activity — making a product from raw materials?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Building furniture from wood"
+      },
+      {
+        "id": "b",
+        "text": "Fishing"
+      },
+      {
+        "id": "c",
+        "text": "Mining"
+      },
+      {
+        "id": "d",
+        "text": "Growing crops"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Secondary economic activities process or manufacture raw materials into products, such as turning wood into furniture — unlike primary activities like farming, fishing and mining, which extract materials directly."
+  },
+  {
+    "subjectSlug": "geography",
+    "strandSlug": "economic-activity-trade",
+    "yearGroup": "Y6",
+    "objectiveCode": "GE6-ECO-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "As a small village grows into a large town, what typically happens to land use?",
+    "options": [
+      {
+        "id": "a",
+        "text": "More land is used for housing, shops and services"
+      },
+      {
+        "id": "b",
+        "text": "All farmland stays exactly the same size"
+      },
+      {
+        "id": "c",
+        "text": "The population always decreases"
+      },
+      {
+        "id": "d",
+        "text": "Roads are removed"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "As a settlement grows, more land is typically converted from farmland into housing, shops and services."
   }
 ]

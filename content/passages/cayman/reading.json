@@ -5474,6 +5474,34 @@
         ],
         "correctOptionId": "a",
         "explanation": "'Stuck' means something is fixed in place and hard to move."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE1-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What will Milo most likely do next time he loses a sock?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Check the washing machine"
+          },
+          {
+            "id": "b",
+            "text": "Give up looking"
+          },
+          {
+            "id": "c",
+            "text": "Buy new socks"
+          },
+          {
+            "id": "d",
+            "text": "Ask a stranger for help"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Mum found the missing sock in the washing machine, so Milo would likely check there first next time."
       }
     ]
   },
@@ -5623,6 +5651,34 @@
         ],
         "correctOptionId": "a",
         "explanation": "The writer feeds Whiskers every morning and says 'I love my cat very much'."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE1-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the passage, what will Whiskers probably do tonight?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Curl up on the bed and purr"
+          },
+          {
+            "id": "b",
+            "text": "Go for a walk outside"
+          },
+          {
+            "id": "c",
+            "text": "Learn to fetch"
+          },
+          {
+            "id": "d",
+            "text": "Stop eating"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says \"At night, Whiskers curls up on my bed. She purrs very loudly\" — this happens every night."
       }
     ]
   },
@@ -5772,6 +5828,34 @@
         ],
         "correctOptionId": "a",
         "explanation": "Ana said 'Oh no!' which shows she felt worried."
+      },
+      {
+        "strandSlug": "vocabulary",
+        "objectiveCode": "RE1-VOC-1",
+        "subSkill": "vocabulary",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What does \"rolled\" mean in the story?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Moved along by turning over and over"
+          },
+          {
+            "id": "b",
+            "text": "Stopped suddenly"
+          },
+          {
+            "id": "c",
+            "text": "Flew through the air"
+          },
+          {
+            "id": "d",
+            "text": "Broke into pieces"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "\"Rolled\" describes the ball moving along the ground, turning over and over."
       }
     ]
   },
@@ -5921,6 +6005,62 @@
         ],
         "correctOptionId": "a",
         "explanation": "The passage says 'Horses can pull carts and carry riders'."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE1-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the passage, what will farmers probably do tomorrow?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Give the animals food and water"
+          },
+          {
+            "id": "b",
+            "text": "Stop looking after the animals"
+          },
+          {
+            "id": "c",
+            "text": "Sell all the animals"
+          },
+          {
+            "id": "d",
+            "text": "Take the animals to school"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says \"Farmers look after all the animals every day\", so this will continue tomorrow too."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE1-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Why do farmers give the animals food and water every day?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To take care of them and keep them healthy"
+          },
+          {
+            "id": "b",
+            "text": "Because the animals ask for it"
+          },
+          {
+            "id": "c",
+            "text": "Because it is a rule at school"
+          },
+          {
+            "id": "d",
+            "text": "Because the animals are lonely"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Farmers looking after the animals every day shows they are responsible for keeping them healthy and fed."
       }
     ]
   },
@@ -6042,6 +6182,34 @@
         ],
         "correctOptionId": "a",
         "explanation": "The poem says 'The sky above is grey, not blue'."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE1-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "What will the child in the poem probably do if it rains again tomorrow?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Put on boots and a raincoat to play outside"
+          },
+          {
+            "id": "b",
+            "text": "Stay inside and refuse to go out"
+          },
+          {
+            "id": "c",
+            "text": "Be very upset"
+          },
+          {
+            "id": "d",
+            "text": "Never go outside again"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem ends \"I don't mind the rain today, splashing puddles is fun to play!\" — showing the child enjoys it and would likely do it again."
       }
     ]
   },
@@ -6163,6 +6331,34 @@
         ],
         "correctOptionId": "a",
         "explanation": "Flowers like sunflowers typically produce and drop seeds as part of their natural life cycle."
+      },
+      {
+        "strandSlug": "inference",
+        "objectiveCode": "RE1-INF-1",
+        "subSkill": "inference",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Why does the story describe the sunflower as \"smiling up at the sun\"?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To show the sunflower looks happy, turned toward the sunlight"
+          },
+          {
+            "id": "b",
+            "text": "Because sunflowers can really smile"
+          },
+          {
+            "id": "c",
+            "text": "Because the sun was frowning"
+          },
+          {
+            "id": "d",
+            "text": "Because the seed was sad"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "\"Smiling up at the sun\" is a way of describing the sunflower's bright, healthy face turned toward the sunlight."
       }
     ]
   },
@@ -6298,6 +6494,34 @@
           "bac"
         ],
         "explanation": "First Grandma bakes the biscuits (B), then notices one is missing (A), then spots the clue near Buster (C)."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE2-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the story, what will Buster probably do next time biscuits are cooling by the window?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Try to sneak another one"
+          },
+          {
+            "id": "b",
+            "text": "Never go near biscuits again"
+          },
+          {
+            "id": "c",
+            "text": "Bake his own biscuits"
+          },
+          {
+            "id": "d",
+            "text": "Tell Grandma directly"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Grandma decided to \"keep a closer eye on the plate next time\", suggesting she expects Buster to try again."
       }
     ]
   },
@@ -6433,6 +6657,62 @@
           "in the hive"
         ],
         "explanation": "The passage says bees store honey 'inside their hive to eat later'."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE2-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the passage, what will most likely happen if people stop planting flowers that bees like?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bee numbers will likely fall even more"
+          },
+          {
+            "id": "b",
+            "text": "Bee numbers will increase a lot"
+          },
+          {
+            "id": "c",
+            "text": "Bees will stop needing flowers"
+          },
+          {
+            "id": "d",
+            "text": "Bees will make more honey than before"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says bee numbers are already falling and that planting flowers bees like \"can help protect\" them — without that help, the opposite is likely."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE2-SUM-1",
+        "subSkill": "summarising",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Which sentence best summarises this passage about bees?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bees collect nectar to make honey and pollinate plants, but their numbers are falling and need protecting"
+          },
+          {
+            "id": "b",
+            "text": "Bees are large insects that live alone"
+          },
+          {
+            "id": "c",
+            "text": "Honey is dangerous for bees to eat"
+          },
+          {
+            "id": "d",
+            "text": "Pollen is bad for plants"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage covers how bees make honey and pollinate plants, and ends by explaining that falling bee numbers need protecting."
       }
     ]
   },
@@ -6567,6 +6847,34 @@
           "play or draw together because they both like dinosaurs and drawing"
         ],
         "explanation": "Since Leo and Priya became friends and share interests in dinosaurs and drawing, they would likely continue spending time together."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE2-SUM-1",
+        "subSkill": "summarising",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Which sentence best summarises this passage?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Leo feels nervous on his first day but makes a new friend, Priya, who understands how he feels"
+          },
+          {
+            "id": "b",
+            "text": "Leo already knew everyone at his new school"
+          },
+          {
+            "id": "c",
+            "text": "Priya was unkind to Leo at lunch"
+          },
+          {
+            "id": "d",
+            "text": "Leo decided to go back to his old school"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage follows Leo's nervous first day, which improves once he meets Priya, who had also just moved schools."
       }
     ]
   },
@@ -6701,6 +7009,34 @@
           "because chlorophyll production stops, revealing other colours that were hidden by the green"
         ],
         "explanation": "Leaves change colour because the tree stops producing chlorophyll, letting the other colours underneath show through."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE2-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the passage, what will most trees do in spring?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Start making chlorophyll again and grow new green leaves"
+          },
+          {
+            "id": "b",
+            "text": "Stay bare with no leaves forever"
+          },
+          {
+            "id": "c",
+            "text": "Turn permanently yellow"
+          },
+          {
+            "id": "d",
+            "text": "Stop growing completely"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains trees stop making chlorophyll to save energy in winter — once winter ends, they can start again and grow new leaves."
       }
     ]
   },
@@ -6822,6 +7158,62 @@
         ],
         "correctOptionId": "a",
         "explanation": "Comparing the washing to flags using 'like' is a simile."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE2-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the final stanza, what is the wind most likely doing as night continues?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Staying calm and quiet"
+          },
+          {
+            "id": "b",
+            "text": "Getting stronger and wilder"
+          },
+          {
+            "id": "c",
+            "text": "Turning into rain"
+          },
+          {
+            "id": "d",
+            "text": "Waking everyone up"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem ends \"It settled down without a sound, and left a stillness all around\" — suggesting the calm continues."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE2-SUM-1",
+        "subSkill": "summarising",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Which sentence best summarises this poem?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A gusty wind causes mischief during the day before calming down in the evening"
+          },
+          {
+            "id": "b",
+            "text": "A quiet breeze never moves anything"
+          },
+          {
+            "id": "c",
+            "text": "The wind broke all the windows"
+          },
+          {
+            "id": "d",
+            "text": "The poem is about a rainy afternoon"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem describes the wind snatching hats and shaking branches, then growing \"tired, and calm, and tame\" by evening."
       }
     ]
   },
@@ -6956,6 +7348,34 @@
           "ember the dragon helps a lost boy find his way home, so the villagers grow to love her instead of fearing her"
         ],
         "explanation": "The story follows Ember, a kind dragon, helping the villagers and rescuing Tomas, which changes how the villagers feel about her."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE2-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the story, what will the villagers probably do next time they see Ember?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Welcome her kindly instead of being afraid"
+          },
+          {
+            "id": "b",
+            "text": "Run away and hide"
+          },
+          {
+            "id": "c",
+            "text": "Try to chase her away"
+          },
+          {
+            "id": "d",
+            "text": "Ignore her completely"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says the villagers \"no longer feared the dragon on the hill\" and left her apples as thanks."
       }
     ]
   },
@@ -7253,6 +7673,34 @@
           "they collect nectar from flowers, pass it to other bees, store it in the honeycomb and fan it to thicken it before sealing the cell"
         ],
         "explanation": "The key stages are: collecting nectar, passing it bee-to-bee, storing it in the honeycomb, fanning it to thicken, and sealing the cell."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE3-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the passage, what would most likely happen if bees could not fan the honey with their wings?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The honey would stay too watery and runny"
+          },
+          {
+            "id": "b",
+            "text": "The honey would turn into wax"
+          },
+          {
+            "id": "c",
+            "text": "The bees would stop collecting nectar"
+          },
+          {
+            "id": "d",
+            "text": "The hive would produce more honey"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says fanning \"helps extra water evaporate, so the honey becomes thick and sticky rather than runny\" — without it, the honey would stay runny."
       }
     ]
   },
@@ -7549,6 +7997,34 @@
           "it describes the sahara's landscape, extreme temperatures, and how animals, plants and people such as the tuareg survive there"
         ],
         "explanation": "The passage covers the Sahara's landscape, its extreme temperatures, and how life has adapted to survive there."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE3-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the passage, what would most likely happen to a desert plant without long roots?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It would struggle to reach water and survive"
+          },
+          {
+            "id": "b",
+            "text": "It would grow taller than other plants"
+          },
+          {
+            "id": "c",
+            "text": "It would need less sunlight"
+          },
+          {
+            "id": "d",
+            "text": "It would become an oasis"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains that desert plants survive by having \"long roots that stretch deep underground to reach hidden water\" — without that, survival would be harder."
       }
     ]
   },
@@ -7683,6 +8159,34 @@
           "the poem describes signs of autumn arriving, like mist, falling leaves and shorter days, before winter comes"
         ],
         "explanation": "The poem describes the gentle arrival of autumn — mist, falling leaves, swallows leaving, and shorter days — as summer fades towards winter."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE3-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the poem, what is most likely to happen after \"green turns brown and gold\"?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Winter's cold will arrive"
+          },
+          {
+            "id": "b",
+            "text": "Summer will begin again immediately"
+          },
+          {
+            "id": "c",
+            "text": "The trees will stay green forever"
+          },
+          {
+            "id": "d",
+            "text": "Snow will melt into flowers"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem's final line says autumn \"paints the world anew before it hands to cold\" — pointing toward winter next."
       }
     ]
   },
@@ -7992,6 +8496,34 @@
           "he notices a postmark from a nearby bakery, goes there, and finds out the woman who lives above the shop is the person the parcel is for"
         ],
         "explanation": "Marcus uses the postmark on the parcel as a clue to track down the bakery, where he discovers Mrs Adeyemi lives above the shop."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE4-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Based on the story, what will Marcus most likely do next time an address is hard to read?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Look for other clues, like a postmark, rather than giving up"
+          },
+          {
+            "id": "b",
+            "text": "Give up immediately"
+          },
+          {
+            "id": "c",
+            "text": "Throw the parcel away"
+          },
+          {
+            "id": "d",
+            "text": "Wait for someone else to deliver it"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Marcus learned \"long shots were sometimes the only shots worth taking\" and used a postmark clue to solve the problem this time."
       }
     ]
   },
@@ -8140,6 +8672,34 @@
           "it explains how deep and dangerous challenger deep is, that special vessels and creatures adapted to survive there, and why exploring it is scientifically valuable"
         ],
         "explanation": "The passage covers the extreme depth and pressure of Challenger Deep, the special vessels and creatures needed to survive there, and why studying this environment matters to scientists."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE4-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Based on the passage, what is most likely to happen as scientists continue exploring the deep ocean?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They will probably discover more new species living there"
+          },
+          {
+            "id": "b",
+            "text": "They will find that nothing at all lives there"
+          },
+          {
+            "id": "c",
+            "text": "They will stop studying the ocean completely"
+          },
+          {
+            "id": "d",
+            "text": "They will discover the ocean has no pressure"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says scientists \"believe there may be far more undiscovered species living in the depths than on land.\""
       }
     ]
   },
@@ -8287,6 +8847,34 @@
           "she starts nervous after being subbed on, makes an important early save, gains confidence, and finishes the match having made four saves"
         ],
         "explanation": "Ruby starts nervous after an unexpected substitution, but a good early save builds her confidence, and she ends the match having made four saves and helped her team draw."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE4-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Based on the story, what is Coach Patel most likely to do in the next match?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Consider giving Ruby more playing time as goalkeeper"
+          },
+          {
+            "id": "b",
+            "text": "Never let Ruby play again"
+          },
+          {
+            "id": "c",
+            "text": "Remove the goalkeeper position"
+          },
+          {
+            "id": "d",
+            "text": "Ask Ruby to play a different sport"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Coach Patel's surprised praise, \"Where has that been hiding all season?\", suggests he now sees Ruby as a strong option in goal."
       }
     ]
   },
@@ -8434,6 +9022,34 @@
           "it explains why landfill is a problem, how recycling can help if done correctly, and why reducing and reusing rubbish in the first place is also important"
         ],
         "explanation": "The passage covers the landfill problem, how recycling helps (and the importance of sorting correctly), and why reducing and reusing rubbish also matters."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE4-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Based on the passage, what would most likely happen if people sorted their recycling incorrectly more often?",
+        "options": [
+          {
+            "id": "a",
+            "text": "More recyclable material would end up contaminated and sent to landfill"
+          },
+          {
+            "id": "b",
+            "text": "Recycling would become faster and cheaper"
+          },
+          {
+            "id": "c",
+            "text": "Aluminium cans would decompose instantly"
+          },
+          {
+            "id": "d",
+            "text": "Plastic bottles would disappear completely"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage warns that \"putting the wrong item in a recycling bin can sometimes contaminate an entire batch\", sending otherwise-recyclable material to landfill."
       }
     ]
   },
@@ -8581,6 +9197,34 @@
           "the poem starts ominous as the storm builds, becomes dramatic and fierce, then ends peaceful as the storm passes and the world feels clean"
         ],
         "explanation": "The poem moves from an ominous, building tension, through a dramatic and fierce storm, to a calm, refreshed mood once the storm has passed."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE4-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Based on the poem's final stanza, what is most likely to happen to the garden that \"bent and shivered\" during the storm?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It will likely recover as sunlight returns"
+          },
+          {
+            "id": "b",
+            "text": "It will stay bent forever"
+          },
+          {
+            "id": "c",
+            "text": "It will turn into a pond"
+          },
+          {
+            "id": "d",
+            "text": "It will disappear completely"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The final stanza describes morning bringing sunlight and a world that \"smelled washed and new again\", suggesting recovery."
       }
     ]
   },
@@ -8728,6 +9372,34 @@
           "while helping grandad in his workshop, elin finds out the box he's building is secretly a birthday present for her, which touches her"
         ],
         "explanation": "Elin visits her grandad's workshop as usual, only to discover the box he's carefully building is a birthday gift for her, which moves her."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE4-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Based on the story's ending, what will Elin and Grandad most likely do next?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Keep working together to finish the box"
+          },
+          {
+            "id": "b",
+            "text": "Stop speaking to each other"
+          },
+          {
+            "id": "c",
+            "text": "Throw the box away"
+          },
+          {
+            "id": "d",
+            "text": "Never enter the workshop again"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "Elin says \"I suppose I'd better help you finish it properly, then\", showing they will keep working on it together."
       }
     ]
   },
@@ -9040,6 +9712,34 @@
         ],
         "correctOptionId": "a",
         "explanation": "The passage implies the other colours were present underneath the green all along, only becoming visible once the chlorophyll fades."
+      },
+      {
+        "strandSlug": "summarising",
+        "objectiveCode": "RE2-SUM-1",
+        "subSkill": "summarising",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Which sentence best summarises this passage about why leaves change colour?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Trees stop making chlorophyll in autumn, showing colours that were hidden before the leaves fall"
+          },
+          {
+            "id": "b",
+            "text": "Leaves are always green all year round"
+          },
+          {
+            "id": "c",
+            "text": "Trees make chlorophyll only in winter"
+          },
+          {
+            "id": "d",
+            "text": "Leaves change colour because of rain"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage explains chlorophyll fading reveals hidden colours, and the leaves then fall to save the tree energy over winter."
       }
     ]
   },
@@ -9499,6 +10199,34 @@
           "it describes beam, arch and suspension bridges, each suited to different gap widths and weight needs"
         ],
         "explanation": "The passage describes beam bridges (short gaps), arch bridges (spread weight well, last a long time), and suspension bridges (widest gaps, using cables)."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE3-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the passage, which type of bridge would an engineer most likely choose to cross a very wide river?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A suspension bridge"
+          },
+          {
+            "id": "b",
+            "text": "A beam bridge"
+          },
+          {
+            "id": "c",
+            "text": "No bridge could cross it"
+          },
+          {
+            "id": "d",
+            "text": "A bridge is never needed for wide rivers"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says \"Suspension bridges are used for the widest gaps, like across large rivers or bays.\""
       }
     ]
   },
@@ -9633,6 +10361,34 @@
           "the poem describes climbing to a dusty, mysterious attic full of old objects that hint at forgotten stories"
         ],
         "explanation": "The poem describes exploring a dusty, mysterious attic full of old objects that hint at forgotten stories from the past."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE3-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "silver",
+        "promptText": "Based on the poem's final stanza, what does it suggest someone should do next?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Climb the stairs and explore the attic"
+          },
+          {
+            "id": "b",
+            "text": "Avoid the attic completely"
+          },
+          {
+            "id": "c",
+            "text": "Throw away the old boxes"
+          },
+          {
+            "id": "d",
+            "text": "Repaint the attic walls"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The poem ends by inviting the reader \"to climb the stairs and search around, to listen closely, to explore.\""
       }
     ]
   },
@@ -9942,6 +10698,34 @@
           "it explains how robots help with dangerous or repetitive tasks, while also presenting concerns about job losses and the need to plan for the future"
         ],
         "explanation": "The passage presents both the benefits of robots (safety, efficiency) and the concerns (job losses), without settling firmly on one side."
+      },
+      {
+        "strandSlug": "prediction",
+        "objectiveCode": "RE4-PRE-1",
+        "subSkill": "prediction",
+        "type": "multiple_choice",
+        "difficulty": "gold",
+        "promptText": "Based on the passage, what is most likely needed as robots take on more jobs in the future?",
+        "options": [
+          {
+            "id": "a",
+            "text": "People trained for new kinds of jobs robots cannot easily do"
+          },
+          {
+            "id": "b",
+            "text": "No changes at all to how people are trained"
+          },
+          {
+            "id": "c",
+            "text": "Fewer robots being built everywhere"
+          },
+          {
+            "id": "d",
+            "text": "An end to all factory work"
+          }
+        ],
+        "correctOptionId": "a",
+        "explanation": "The passage says critics argue society needs to plan \"by training people for new kinds of jobs that robots cannot easily do.\""
       }
     ]
   },

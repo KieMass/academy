@@ -1911,5 +1911,496 @@
       "general terms return too many broad, unrelated results, while specific terms focus the search"
     ],
     "explanation": "Specific search terms help the search engine narrow results down to pages that closely match what you actually want."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-TYP-1",
+    "type": "short_answer",
+    "difficulty": "bronze",
+    "promptText": "Which hand should typically rest on the F, D, S and A keys when touch-typing?",
+    "acceptedAnswers": [
+      "left hand",
+      "the left hand"
+    ],
+    "explanation": "The left hand rests on A, S, D, F on the home row, while the right hand rests on J, K, L and the semicolon."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "typing",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-TYP-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which keyboard shortcut is commonly used to undo your last action?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ctrl+Z"
+      },
+      {
+        "id": "b",
+        "text": "Ctrl+C"
+      },
+      {
+        "id": "c",
+        "text": "Ctrl+V"
+      },
+      {
+        "id": "d",
+        "text": "Ctrl+S"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Ctrl+Z is the common shortcut for undoing your most recent action."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SAFE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "If you see something upsetting online, what is the best first step?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Tell a trusted adult straight away"
+      },
+      {
+        "id": "b",
+        "text": "Share it with all your friends"
+      },
+      {
+        "id": "c",
+        "text": "Ignore it and keep browsing"
+      },
+      {
+        "id": "d",
+        "text": "Reply to the person who posted it"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Telling a trusted adult straight away is the safest first step if you see something upsetting online."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SAFE-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these is safe to share in a public online game chat?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Your favourite colour"
+      },
+      {
+        "id": "b",
+        "text": "Your home address"
+      },
+      {
+        "id": "c",
+        "text": "Your school's name"
+      },
+      {
+        "id": "d",
+        "text": "Your full name and age"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Personal details like your address, school or full name should never be shared publicly online — general preferences like a favourite colour are safe."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SAFE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these is an example of unacceptable online behaviour?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sending unkind messages to someone"
+      },
+      {
+        "id": "b",
+        "text": "Reporting a rule-breaking post"
+      },
+      {
+        "id": "c",
+        "text": "Using a strong password"
+      },
+      {
+        "id": "d",
+        "text": "Asking permission before sharing a photo"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Sending unkind or hurtful messages is a form of unacceptable online behaviour, sometimes called cyberbullying."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "e-safety",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SAFE-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which of these is a good way to check if an online source is reliable?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Check if other trusted sources agree with the information"
+      },
+      {
+        "id": "b",
+        "text": "Trust it because it was the first search result"
+      },
+      {
+        "id": "c",
+        "text": "Trust it because it has lots of exclamation marks"
+      },
+      {
+        "id": "d",
+        "text": "Trust it because the website looks colourful"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Cross-checking information against other trusted sources is a reliable way to judge whether a source is accurate."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-ALG-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What is an algorithm?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A precise set of step-by-step instructions to solve a problem"
+      },
+      {
+        "id": "b",
+        "text": "A type of computer virus"
+      },
+      {
+        "id": "c",
+        "text": "A brand of computer"
+      },
+      {
+        "id": "d",
+        "text": "A picture on a screen"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "An algorithm is a precise, step-by-step set of instructions for solving a problem or completing a task."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-ALG-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "What is the process of finding and fixing errors in a program called?",
+    "acceptedAnswers": [
+      "debugging"
+    ],
+    "explanation": "Debugging is the process of finding and fixing errors, or 'bugs', in a program's code."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-ALG-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these devices could a program be written to control?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A robot"
+      },
+      {
+        "id": "b",
+        "text": "A pencil"
+      },
+      {
+        "id": "c",
+        "text": "A book"
+      },
+      {
+        "id": "d",
+        "text": "A pair of scissors"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Programs can be written to control physical devices like robots, but not simple non-electronic objects like a pencil."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "algorithms",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-ALG-2",
+    "type": "short_answer",
+    "difficulty": "gold",
+    "promptText": "What do we call a loop placed inside another loop in a program?",
+    "acceptedAnswers": [
+      "a nested loop",
+      "nested loop",
+      "nested repetition"
+    ],
+    "explanation": "A loop placed inside another loop is called a nested loop, allowing more complex repeated actions."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-SCR-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "In programming, what is a 'variable' used for?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Storing a value that can change"
+      },
+      {
+        "id": "b",
+        "text": "Drawing a shape on screen"
+      },
+      {
+        "id": "c",
+        "text": "Playing a sound"
+      },
+      {
+        "id": "d",
+        "text": "Deleting the program"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A variable is used to store a value in a program, which can change while the program runs."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "scratch-concepts",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SCR-1",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Why might a program use more than one variable at the same time?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To store different pieces of information the program needs to track"
+      },
+      {
+        "id": "b",
+        "text": "Because programs are not allowed to reuse variable names"
+      },
+      {
+        "id": "c",
+        "text": "To make the code run more slowly"
+      },
+      {
+        "id": "d",
+        "text": "Because only one variable is allowed per program"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Multiple variables let a program keep track of several different pieces of information at once, such as a score and a timer."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-DIG-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which type of software would be most useful for creating a poster with text and images?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A word processor or design tool"
+      },
+      {
+        "id": "b",
+        "text": "A spreadsheet only"
+      },
+      {
+        "id": "c",
+        "text": "A web browser only"
+      },
+      {
+        "id": "d",
+        "text": "An email client only"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A word processor or design tool is built for combining text and images, making it well suited to creating a poster."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y5",
+    "objectiveCode": "CO5-DIG-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What is the World Wide Web?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A system of linked webpages accessed over the internet"
+      },
+      {
+        "id": "b",
+        "text": "The physical cables that connect computers"
+      },
+      {
+        "id": "c",
+        "text": "A type of computer virus"
+      },
+      {
+        "id": "d",
+        "text": "A single website"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The World Wide Web is a system of linked webpages and information that people access over the internet."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DIG-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "When evaluating a piece of digital content you created, what is a good question to ask?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Does it achieve the goal it was created for?"
+      },
+      {
+        "id": "b",
+        "text": "Is it the longest file on the computer?"
+      },
+      {
+        "id": "c",
+        "text": "Did it take the most time to make?"
+      },
+      {
+        "id": "d",
+        "text": "Is it the newest file saved?"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Evaluating content means judging whether it successfully achieves the purpose it was created for."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "digital-literacy",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DIG-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "What is one benefit computer networks provide for communication?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They let people share information and messages quickly across distances"
+      },
+      {
+        "id": "b",
+        "text": "They make computers work without any electricity"
+      },
+      {
+        "id": "c",
+        "text": "They stop people from working together"
+      },
+      {
+        "id": "d",
+        "text": "They prevent any files from being shared"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Computer networks, including the internet, let people communicate and share information quickly across long distances."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "data-handling",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DATA-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which type of software is best for organising data into rows and columns to perform calculations?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A spreadsheet"
+      },
+      {
+        "id": "b",
+        "text": "A drawing program"
+      },
+      {
+        "id": "c",
+        "text": "A music player"
+      },
+      {
+        "id": "d",
+        "text": "A web browser"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Spreadsheets are designed to organise data into rows and columns and perform calculations on it."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "data-handling",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-DATA-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "In a database, what is the term for a single collection of related fields, like one person's record?",
+    "acceptedAnswers": [
+      "a record",
+      "record"
+    ],
+    "explanation": "A record is a single set of related data in a database, such as one person's name, age and address."
+  },
+  {
+    "subjectSlug": "computing",
+    "strandSlug": "search-technologies",
+    "yearGroup": "Y6",
+    "objectiveCode": "CO6-SRCH-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What helps a search engine decide which results to show first?",
+    "options": [
+      {
+        "id": "a",
+        "text": "How relevant and popular the pages are"
+      },
+      {
+        "id": "b",
+        "text": "The colour of the website"
+      },
+      {
+        "id": "c",
+        "text": "The length of the website's name"
+      },
+      {
+        "id": "d",
+        "text": "The time zone of the searcher"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Search engines rank results based on factors like relevance to the search and how popular or trusted the page is."
   }
 ]

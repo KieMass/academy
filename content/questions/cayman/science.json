@@ -2231,5 +2231,760 @@
     ],
     "correctOptionId": "b",
     "explanation": "With the same cell powering two buzzers in series, the energy is shared between them, so each is quieter than with a single buzzer."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these animals undergoes complete metamorphosis, changing dramatically in body shape during its life cycle?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Butterfly"
+      },
+      {
+        "id": "b",
+        "text": "Human"
+      },
+      {
+        "id": "c",
+        "text": "Dog"
+      },
+      {
+        "id": "d",
+        "text": "Chicken"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Insects like butterflies undergo metamorphosis (egg, larva, pupa, adult), unlike mammals and birds which simply grow bigger."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-LIV-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which part of a flowering plant contains the male reproductive cells (pollen)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Stamen"
+      },
+      {
+        "id": "b",
+        "text": "Petal"
+      },
+      {
+        "id": "c",
+        "text": "Sepal"
+      },
+      {
+        "id": "d",
+        "text": "Root"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The stamen is the male part of a flower and produces pollen."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIV-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these is NOT one of the five main vertebrate groups?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Insect"
+      },
+      {
+        "id": "b",
+        "text": "Fish"
+      },
+      {
+        "id": "c",
+        "text": "Amphibian"
+      },
+      {
+        "id": "d",
+        "text": "Bird"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Insects are invertebrates (no backbone) — the five vertebrate groups are fish, amphibians, reptiles, birds and mammals."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "living-things-habitats",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIV-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "A scientist groups animals by whether they have a backbone or not. What are animals without a backbone called?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Invertebrates"
+      },
+      {
+        "id": "b",
+        "text": "Vertebrates"
+      },
+      {
+        "id": "c",
+        "text": "Mammals"
+      },
+      {
+        "id": "d",
+        "text": "Reptiles"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Animals without a backbone are called invertebrates, such as insects, worms and jellyfish."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-ANI-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which human life stage comes immediately after childhood?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Adolescence"
+      },
+      {
+        "id": "b",
+        "text": "Old age"
+      },
+      {
+        "id": "c",
+        "text": "Infancy"
+      },
+      {
+        "id": "d",
+        "text": "Adulthood"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The order of human life stages is roughly: infancy, childhood, adolescence, adulthood, old age."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-ANI-2",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "Name one physical change that can happen to the body during puberty.",
+    "acceptedAnswers": [
+      "growth spurt",
+      "growing taller",
+      "voice changes",
+      "growing body hair",
+      "body hair growth"
+    ],
+    "explanation": "During puberty, hormone changes cause physical changes such as growth spurts and voice changes."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What is the main function of red blood cells?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Carry oxygen around the body"
+      },
+      {
+        "id": "b",
+        "text": "Fight infection"
+      },
+      {
+        "id": "c",
+        "text": "Help blood clot"
+      },
+      {
+        "id": "d",
+        "text": "Digest food"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Red blood cells carry oxygen from the lungs to the rest of the body."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-2",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which of these lifestyle habits is most likely to strengthen the heart and lungs over time?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Regular exercise"
+      },
+      {
+        "id": "b",
+        "text": "Smoking"
+      },
+      {
+        "id": "c",
+        "text": "A diet high in sugary drinks"
+      },
+      {
+        "id": "d",
+        "text": "Sitting still for long periods"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Regular exercise strengthens the heart and lungs, improving how well they work."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "animals-including-humans",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ANI-3",
+    "type": "short_answer",
+    "difficulty": "silver",
+    "promptText": "What is the name of the liquid part of blood that carries nutrients around the body?",
+    "acceptedAnswers": [
+      "plasma"
+    ],
+    "explanation": "Plasma is the pale yellow liquid part of blood that carries nutrients, hormones and waste around the body."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Which property describes how easily a material lets electricity pass through it?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Conductivity"
+      },
+      {
+        "id": "b",
+        "text": "Solubility"
+      },
+      {
+        "id": "c",
+        "text": "Transparency"
+      },
+      {
+        "id": "d",
+        "text": "Hardness"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Conductivity describes how well a material allows electricity (or heat) to pass through it."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which method could you use to recover salt from salty water?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Evaporation"
+      },
+      {
+        "id": "b",
+        "text": "Filtering"
+      },
+      {
+        "id": "c",
+        "text": "Freezing"
+      },
+      {
+        "id": "d",
+        "text": "Magnetism"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Evaporating the water leaves the dissolved salt behind as a solid."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "materials",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-MAT-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which of these is an example of an irreversible change?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Baking a cake"
+      },
+      {
+        "id": "b",
+        "text": "Melting chocolate"
+      },
+      {
+        "id": "c",
+        "text": "Freezing water"
+      },
+      {
+        "id": "d",
+        "text": "Dissolving sugar in water"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Baking a cake causes a chemical change that forms new substances and cannot be undone, unlike the other reversible physical changes."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What is the shape of the path a planet takes as it orbits the Sun?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An oval-like ellipse"
+      },
+      {
+        "id": "b",
+        "text": "A perfect square"
+      },
+      {
+        "id": "c",
+        "text": "A straight line"
+      },
+      {
+        "id": "d",
+        "text": "A perfect triangle"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Planets orbit the Sun in paths called ellipses, which are oval-like shapes."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Approximately how long does it take the Moon to orbit the Earth once?",
+    "options": [
+      {
+        "id": "a",
+        "text": "About 28 days"
+      },
+      {
+        "id": "b",
+        "text": "About 1 day"
+      },
+      {
+        "id": "c",
+        "text": "About 1 year"
+      },
+      {
+        "id": "d",
+        "text": "About 7 days"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Moon takes roughly 28 days (about a month) to complete one orbit of the Earth."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "earth-and-space",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-SPA-3",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Why does the Sun appear to rise in the east and set in the west?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because the Earth rotates from west to east"
+      },
+      {
+        "id": "b",
+        "text": "Because the Sun moves around the Earth"
+      },
+      {
+        "id": "c",
+        "text": "Because the Earth stops spinning at night"
+      },
+      {
+        "id": "d",
+        "text": "Because the Moon blocks the Sun"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The Earth spins on its axis from west to east, which makes the Sun appear to rise in the east and set in the west."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What force pulls unsupported objects down towards the Earth?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gravity"
+      },
+      {
+        "id": "b",
+        "text": "Friction"
+      },
+      {
+        "id": "c",
+        "text": "Air resistance"
+      },
+      {
+        "id": "d",
+        "text": "Magnetism"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Gravity is the force that pulls objects towards the Earth."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Which force acts to slow down a parachute as it falls through the air?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Air resistance"
+      },
+      {
+        "id": "b",
+        "text": "Magnetism"
+      },
+      {
+        "id": "c",
+        "text": "Gravity"
+      },
+      {
+        "id": "d",
+        "text": "Electricity"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Air resistance is a force that pushes against a falling object, slowing it down — this is why parachutes work."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "forces",
+    "yearGroup": "Y5",
+    "objectiveCode": "SC5-FOR-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Which simple machine uses a rope over a wheel to make lifting a heavy object easier?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A pulley"
+      },
+      {
+        "id": "b",
+        "text": "A lever"
+      },
+      {
+        "id": "c",
+        "text": "A gear"
+      },
+      {
+        "id": "d",
+        "text": "A wedge"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A pulley uses a wheel and rope or chain to make it easier to lift heavy loads."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "What can fossils tell scientists about?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Living things that existed millions of years ago"
+      },
+      {
+        "id": "b",
+        "text": "Only what dinosaurs ate"
+      },
+      {
+        "id": "c",
+        "text": "Only the exact colour of ancient animals"
+      },
+      {
+        "id": "d",
+        "text": "Only how old rocks are"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Fossils are the preserved remains or traces of living things, and they help scientists learn about life millions of years ago."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "Why do offspring usually look slightly different from their parents?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because of natural variation inherited from both parents"
+      },
+      {
+        "id": "b",
+        "text": "Because offspring never inherit anything from parents"
+      },
+      {
+        "id": "c",
+        "text": "Because all offspring are exact copies of one parent"
+      },
+      {
+        "id": "d",
+        "text": "Because environment is the only factor that matters"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Offspring inherit a mix of characteristics from both parents, which creates natural variation."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "evolution-inheritance",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-EVO-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "A polar bear's thick white fur is an example of what?",
+    "options": [
+      {
+        "id": "a",
+        "text": "An adaptation suited to its cold environment"
+      },
+      {
+        "id": "b",
+        "text": "A random change with no purpose"
+      },
+      {
+        "id": "c",
+        "text": "A change that happens within one bear's lifetime"
+      },
+      {
+        "id": "d",
+        "text": "A fossilised feature"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Thick white fur is an adaptation that helps polar bears survive and stay camouflaged in their cold, snowy environment."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "Why can you not see around a corner without a mirror?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Because light travels in straight lines"
+      },
+      {
+        "id": "b",
+        "text": "Because light travels in circles"
+      },
+      {
+        "id": "c",
+        "text": "Because light does not travel at all"
+      },
+      {
+        "id": "d",
+        "text": "Because light only travels at night"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Light travels in straight lines, so it cannot bend around a corner without something to reflect it, like a mirror."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "How do we see a non-luminous object, like a book, in a lit room?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Light reflects off the book into our eyes"
+      },
+      {
+        "id": "b",
+        "text": "The book gives out its own light"
+      },
+      {
+        "id": "c",
+        "text": "We see it because it is warm"
+      },
+      {
+        "id": "d",
+        "text": "We see it because of gravity"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Non-luminous objects like books don't produce their own light — we see them because light reflects off their surface into our eyes."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "light",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-LIG-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "Why does a shadow form when an object blocks a light source?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Light cannot pass through the opaque object, so light doesn't reach the ground behind it"
+      },
+      {
+        "id": "b",
+        "text": "The object absorbs all sound"
+      },
+      {
+        "id": "c",
+        "text": "The light source turns off"
+      },
+      {
+        "id": "d",
+        "text": "Shadows are a type of reflection"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "An opaque object blocks light from passing through it, so an area with no light forms behind it — a shadow."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-1",
+    "type": "multiple_choice",
+    "difficulty": "bronze",
+    "promptText": "In a simple circuit, what usually happens to a bulb's brightness if you add a second battery cell?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The bulb usually gets brighter"
+      },
+      {
+        "id": "b",
+        "text": "The bulb always gets dimmer"
+      },
+      {
+        "id": "c",
+        "text": "The bulb switches off completely"
+      },
+      {
+        "id": "d",
+        "text": "Nothing changes at all"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Adding another cell usually increases the voltage in the circuit, making the bulb burn brighter."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-2",
+    "type": "multiple_choice",
+    "difficulty": "silver",
+    "promptText": "In a circuit diagram, what does a symbol with two parallel lines of different lengths usually represent?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A cell (battery)"
+      },
+      {
+        "id": "b",
+        "text": "A switch"
+      },
+      {
+        "id": "c",
+        "text": "A bulb"
+      },
+      {
+        "id": "d",
+        "text": "A buzzer"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "A symbol with a long and a short parallel line is the standard symbol for a single cell in a circuit diagram."
+  },
+  {
+    "subjectSlug": "science",
+    "strandSlug": "electricity",
+    "yearGroup": "Y6",
+    "objectiveCode": "SC6-ELE-3",
+    "type": "multiple_choice",
+    "difficulty": "gold",
+    "promptText": "In a circuit with two bulbs in series, what usually happens to their brightness if a third bulb is added in series (same battery)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The bulbs become dimmer"
+      },
+      {
+        "id": "b",
+        "text": "The bulbs become brighter"
+      },
+      {
+        "id": "c",
+        "text": "The bulbs turn off completely"
+      },
+      {
+        "id": "d",
+        "text": "Nothing changes at all"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Adding more bulbs in series shares the same voltage across more components, so each bulb usually becomes dimmer."
   }
 ]

@@ -468,13 +468,39 @@ function generateMeasurementQuestions(rng: Rng, yearGroup: YearGroup, band: Diff
         out.push(mc(rng, { strandSlug: "measurement", yearGroup, objectiveCode: "GY-MA1-MEA-1", difficulty: band, promptText: `Which is longer: ${shorter} or ${longer}?`, correct: longer, distractors: [shorter], explanation: `${longer[0].toUpperCase()}${longer.slice(1)} is longer than ${shorter}.` }));
       }
     } else if (yearGroup === "Y2") {
-      const kind = pick(rng, ["unit-choice-length", "unit-choice-mass", "unit-choice-capacity"] as const);
+      const kind = pick(rng, ["unit-choice-length", "unit-choice-mass", "unit-choice-capacity", "compare-length", "tell-time-5min", "calendar"] as const);
       if (kind === "unit-choice-length") {
-        out.push(mc(rng, { strandSlug: "measurement", yearGroup, objectiveCode: "GY-MA2-MEA-1", difficulty: band, promptText: `Which unit would you use to measure the length of a classroom — centimetres or metres?`, correct: "Metres", distractors: ["Centimetres", "Grams", "Litres"], explanation: `A classroom is long, so metres is the sensible unit for measuring it.` }));
+        const [big, small] = pick(rng, [
+          ["a classroom", "a pencil"],
+          ["a school field", "a ruler"],
+          ["a road", "a book"],
+          ["a bridge", "a crayon"],
+        ] as const);
+        out.push(mc(rng, { strandSlug: "measurement", yearGroup, objectiveCode: "GY-MA2-MEA-1", difficulty: band, promptText: `Which unit would you use to measure the length of ${big} — centimetres or metres?`, correct: "Metres", distractors: ["Centimetres", "Grams", "Litres"], explanation: `${big[0].toUpperCase()}${big.slice(1)} is long, so metres is the sensible unit for measuring it. (${small.replace(/^a /, "A ")} would be measured in centimetres instead.)` }));
       } else if (kind === "unit-choice-mass") {
-        out.push(mc(rng, { strandSlug: "measurement", yearGroup, objectiveCode: "GY-MA2-MEA-1", difficulty: band, promptText: `Which unit would you use to weigh a bag of rice — grams or kilograms?`, correct: "Kilograms", distractors: ["Grams", "Metres", "Litres"], explanation: `A bag of rice is heavy enough that kilograms is the sensible unit.` }));
+        const heavy = pick(rng, ["a bag of rice", "a sack of flour", "a grown dog", "a school bag full of books"] as const);
+        out.push(mc(rng, { strandSlug: "measurement", yearGroup, objectiveCode: "GY-MA2-MEA-1", difficulty: band, promptText: `Which unit would you use to weigh ${heavy} — grams or kilograms?`, correct: "Kilograms", distractors: ["Grams", "Metres", "Litres"], explanation: `${heavy[0].toUpperCase()}${heavy.slice(1)} is heavy enough that kilograms is the sensible unit.` }));
+      } else if (kind === "unit-choice-capacity") {
+        const small = pick(rng, ["a small cup", "a spoon", "a medicine bottle", "a juice box"] as const);
+        out.push(mc(rng, { strandSlug: "measurement", yearGroup, objectiveCode: "GY-MA2-MEA-1", difficulty: band, promptText: `Which unit would you use to measure water in ${small} — millilitres or litres?`, correct: "Millilitres", distractors: ["Litres", "Grams", "Metres"], explanation: `${small[0].toUpperCase()}${small.slice(1)} holds a small amount, so millilitres is the sensible unit.` }));
+      } else if (kind === "compare-length") {
+        const itemsByLength = ["a paperclip", "a pencil", "a school ruler", "a classroom door", "a school bus", "a football field"] as const;
+        const [i, j] = shuffle(rng, itemsByLength.map((_, idx) => idx)).slice(0, 2).sort((a, b) => a - b);
+        const shorter = itemsByLength[i];
+        const longer = itemsByLength[j];
+        out.push(mc(rng, { strandSlug: "measurement", yearGroup, objectiveCode: "GY-MA2-MEA-1", difficulty: band, promptText: `Which is longer: ${shorter} or ${longer}?`, correct: longer, distractors: [shorter], explanation: `${longer[0].toUpperCase()}${longer.slice(1)} is longer than ${shorter}.` }));
+      } else if (kind === "tell-time-5min") {
+        const h = randInt(rng, 1, 12);
+        const fiveMin = randInt(rng, 1, 11) * 5;
+        out.push(mc(rng, { strandSlug: "measurement", yearGroup, objectiveCode: "GY-MA2-MEA-2", difficulty: band, promptText: `The clock's hour hand is just past ${h} and the minute hand points to the ${fiveMin}-minute mark. What time is it? (Write as H:MM)`, correct: `${h}:${String(fiveMin).padStart(2, "0")}`, distractors: [`${h}:00`, `${(h % 12) + 1}:${String(fiveMin).padStart(2, "0")}`, `${h}:${String((fiveMin + 5) % 60).padStart(2, "0")}`], explanation: `The hour hand just past ${h} with the minute hand on the ${fiveMin}-minute mark shows ${h}:${String(fiveMin).padStart(2, "0")}.` }));
       } else {
-        out.push(mc(rng, { strandSlug: "measurement", yearGroup, objectiveCode: "GY-MA2-MEA-1", difficulty: band, promptText: `Which unit would you use to measure water in a small cup — millilitres or litres?`, correct: "Millilitres", distractors: ["Litres", "Grams", "Metres"], explanation: `A small cup holds a small amount, so millilitres is the sensible unit.` }));
+        const days = pick(rng, [
+          { q: "How many days are there in one week?", a: "7" },
+          { q: "About how many weeks are there in one month?", a: "4" },
+          { q: "How many months are there in one year?", a: "12" },
+          { q: "How many days are usually in the month of April?", a: "30" },
+        ] as const);
+        out.push(fib({ strandSlug: "measurement", yearGroup, objectiveCode: "GY-MA2-MEA-2", difficulty: band, promptText: days.q, answer: days.a, explanation: `${days.q.replace("?", "")} — the answer is ${days.a}.` }));
       }
     } else if (yearGroup === "Y3") {
       const kind = pick(rng, ["money-subtract", "money-add"] as const);
