@@ -199,9 +199,29 @@ function generateY1GeometryQuestions(rng: Rng, count: number): DraftQuestion[] {
 function generateY1PositionQuestions(rng: Rng, count: number): DraftQuestion[] {
   const out: DraftQuestion[] = [];
   const turns = [{ n: "whole turn", frac: "4/4" }, { n: "half turn", frac: "2/4" }, { n: "quarter turn", frac: "1/4" }, { n: "three-quarter turn", frac: "3/4" }];
+  // Only 4 distinct turn fractions exist to name, so "turn-name" alone caps
+  // out at 4 ever-distinct prompts no matter how many times it's called —
+  // three more kinds spread across bronze/silver/gold (matching the
+  // declared bands for MA1-POS-1) give this branch real variety instead.
+  const oppositePairs: [string, string][] = [["up", "down"], ["left", "right"], ["forwards", "backwards"], ["over", "under"], ["in front of", "behind"]];
+  const facingPairs: [string, string][] = [["the window", "the door"], ["the whiteboard", "the back wall"], ["the teacher", "the classroom door"], ["the playground", "the school hall"]];
   for (let i = 0; i < count; i++) {
-    const t = pick(rng, turns);
-    out.push(mcQuestion(rng, { subjectSlug: SUBJECT, strandSlug: "position-direction", yearGroup: Y1, objectiveCode: "MA1-POS-1", difficulty: "silver", promptText: `A turn of ${t.frac} of a full circle is called what?`, correct: t.n, distractors: turns.filter((x) => x.n !== t.n).map((x) => x.n).slice(0, 3), explanation: `${t.frac} of a full turn is a ${t.n}.` }));
+    const kind = pick(rng, ["turn-name", "opposite-direction", "clockwise-sense", "half-turn-facing"] as const);
+    if (kind === "turn-name") {
+      const t = pick(rng, turns);
+      out.push(mcQuestion(rng, { subjectSlug: SUBJECT, strandSlug: "position-direction", yearGroup: Y1, objectiveCode: "MA1-POS-1", difficulty: "silver", promptText: `A turn of ${t.frac} of a full circle is called what?`, correct: t.n, distractors: turns.filter((x) => x.n !== t.n).map((x) => x.n).slice(0, 3), explanation: `${t.frac} of a full turn is a ${t.n}.` }));
+    } else if (kind === "opposite-direction") {
+      const pair = pick(rng, oppositePairs);
+      const [word, opposite] = pick(rng, [true, false]) ? pair : [pair[1], pair[0]];
+      const otherWords = oppositePairs.flat().filter((w) => w !== word && w !== opposite);
+      out.push(mcQuestion(rng, { subjectSlug: SUBJECT, strandSlug: "position-direction", yearGroup: Y1, objectiveCode: "MA1-POS-1", difficulty: "bronze", promptText: `Which word means the opposite of "${word}"?`, correct: opposite, distractors: shuffle(rng, otherWords).slice(0, 3), explanation: `"${opposite}" is the opposite direction to "${word}".` }));
+    } else if (kind === "clockwise-sense") {
+      const wantClockwise = pick(rng, [true, false]);
+      out.push(mcQuestion(rng, { subjectSlug: SUBJECT, strandSlug: "position-direction", yearGroup: Y1, objectiveCode: "MA1-POS-1", difficulty: "silver", promptText: `Which word describes a turn in ${wantClockwise ? "the same direction the hands of a clock move" : "the opposite direction to the hands of a clock"}?`, correct: wantClockwise ? "Clockwise" : "Anticlockwise", distractors: ["Sideways", "Diagonally", wantClockwise ? "Anticlockwise" : "Clockwise"], explanation: `A turn in ${wantClockwise ? "the same direction as a clock's hands" : "the opposite direction to a clock's hands"} is called ${wantClockwise ? "clockwise" : "anticlockwise"}.` }));
+    } else {
+      const [start, opposite] = pick(rng, facingPairs);
+      out.push(mcQuestion(rng, { subjectSlug: SUBJECT, strandSlug: "position-direction", yearGroup: Y1, objectiveCode: "MA1-POS-1", difficulty: "gold", promptText: `You are facing ${start}. You make a half turn. Which direction are you now facing?`, correct: opposite, distractors: [start, "left", "right"], explanation: `A half turn always leaves you facing the exact opposite way — from ${start} to ${opposite}.` }));
+    }
   }
   return out;
 }
@@ -245,7 +265,7 @@ export function generateAllMathsQuestionsY1(seed = 11500): DraftQuestion[] {
     ...generateY1FractionsQuestions(rng, 10),
     ...generateY1MeasurementQuestions(rng, 16),
     ...generateY1GeometryQuestions(rng, 14),
-    ...generateY1PositionQuestions(rng, 8),
+    ...generateY1PositionQuestions(rng, 14),
     ...generateY1ReasoningQuestions(rng, 8),
     ...generateY1WordProblemsQuestions(rng, 12),
   ];
@@ -262,7 +282,7 @@ export function generateAllMathsQuestionsY1Extra(seed = 21500): DraftQuestion[] 
     ...generateY1FractionsQuestions(rng, 8),
     ...generateY1MeasurementQuestions(rng, 14),
     ...generateY1GeometryQuestions(rng, 12),
-    ...generateY1PositionQuestions(rng, 6),
+    ...generateY1PositionQuestions(rng, 10),
     ...generateY1ReasoningQuestions(rng, 6),
     ...generateY1WordProblemsQuestions(rng, 10),
   ];
@@ -497,7 +517,7 @@ export function generateAllMathsQuestionsY1Extra2(seed = 31500): DraftQuestion[]
     ...generateY1FractionsQuestions(rng, 6),
     ...generateY1MeasurementQuestions(rng, 12),
     ...generateY1GeometryQuestions(rng, 10),
-    ...generateY1PositionQuestions(rng, 5),
+    ...generateY1PositionQuestions(rng, 9),
     ...generateY1ReasoningQuestions(rng, 5),
     ...generateY1WordProblemsQuestions(rng, 8),
   ];
