@@ -92,6 +92,38 @@ describe("gradeResponse — thousands-separator commas", () => {
   });
 });
 
+describe("gradeResponse — fraction equivalence", () => {
+  it("accepts a simplified answer against an unreduced accepted answer", () => {
+    const question: ShortAnswerQuestion = { ...base, type: "short_answer", acceptedAnswers: ["2/4"] };
+    expect(gradeResponse(question, { type: "short_answer", value: "1/2" }).correct).toBe(true);
+  });
+
+  it("accepts an unreduced answer against a simplified accepted answer (symmetric)", () => {
+    const question: ShortAnswerQuestion = { ...base, type: "short_answer", acceptedAnswers: ["1/2"] };
+    expect(gradeResponse(question, { type: "short_answer", value: "2/4" }).correct).toBe(true);
+  });
+
+  it("works inside a fill_in_box blank too", () => {
+    const question: FillInBoxQuestion = { ...base, type: "fill_in_box", blanks: [{ id: "answer", acceptedAnswers: ["3/9"] }] };
+    expect(gradeResponse(question, { type: "fill_in_box", values: { answer: "1/3" } }).correct).toBe(true);
+  });
+
+  it("still rejects a fraction with a genuinely different value", () => {
+    const question: ShortAnswerQuestion = { ...base, type: "short_answer", acceptedAnswers: ["1/2"] };
+    expect(gradeResponse(question, { type: "short_answer", value: "1/3" }).correct).toBe(false);
+  });
+
+  it("does not treat a non-fraction string containing a slash as equivalent to anything", () => {
+    const question: ShortAnswerQuestion = { ...base, type: "short_answer", acceptedAnswers: ["1/2"] };
+    expect(gradeResponse(question, { type: "short_answer", value: "n/a" }).correct).toBe(false);
+  });
+
+  it("does not divide by a zero denominator", () => {
+    const question: ShortAnswerQuestion = { ...base, type: "short_answer", acceptedAnswers: ["1/2"] };
+    expect(gradeResponse(question, { type: "short_answer", value: "5/0" }).correct).toBe(false);
+  });
+});
+
 describe("gradeResponse — fill_in_box (partial credit tracking)", () => {
   const question: FillInBoxQuestion = {
     ...base,
