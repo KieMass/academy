@@ -1,0 +1,318 @@
+{
+  "subjectSlug": "science",
+  "subjectName": "Science",
+  "frameworks": [
+    "Guyana National Curriculum Guide (NCERD) \u2014 Primary Science",
+    "CXC/NGSA-aligned"
+  ],
+  "icon": "FlaskConical",
+  "color": "emerald",
+  "strands": [
+    {
+      "slug": "living-things",
+      "name": "Living Things and Their Environment",
+      "description": "Plants, animals, the human body and habitats, from the NCERD Science strand on Living Things.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "GY-SC1-LIV-1",
+              "description": "Identify living and non-living things and describe how living things use their senses",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "GY-SC2-LIV-1",
+              "description": "Describe the basic needs of plants and animals (air, water, food, shelter)",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GY-SC3-LIV-1",
+              "description": "Describe the life cycles of common local animals such as the frog, butterfly and chicken",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GY-SC4-LIV-1",
+              "description": "Identify the major organs and functions of the human body, including the digestive and skeletal systems",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "GY-SC5-LIV-1",
+              "description": "Describe habitats and simple food chains found in Guyana, such as the rainforest, savannah and river",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "GY-SC6-LIV-1",
+              "description": "Classify living things into major groups and describe human growth and reproduction in simple terms",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "matter-and-energy",
+      "name": "Materials, Forces and Energy",
+      "description": "Properties of materials, forces, simple machines and energy, from the NCERD Science strand on Matter and Energy.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "GY-SC1-MAE-1",
+              "description": "Describe and sort materials by simple properties such as hard/soft and rough/smooth",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "GY-SC2-MAE-1",
+              "description": "Identify whether objects float or sink and describe the three states of matter",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GY-SC3-MAE-1",
+              "description": "Describe changes of state caused by heating and cooling, such as melting, freezing and evaporation",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GY-SC4-MAE-1",
+              "description": "Describe the effects of forces such as pushes, pulls and friction on the movement of objects",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "GY-SC5-MAE-1",
+              "description": "Explain how simple machines, including the lever, pulley and wheel and axle, make work easier",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "GY-SC6-MAE-1",
+              "description": "Explain how electricity flows in a simple circuit and describe basic magnetic forces",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "earth-and-environment",
+      "name": "Earth, Weather and Our Environment",
+      "description": "Weather, water, natural resources and our place in the solar system, from the NCERD Science strand on Earth and Space.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "GY-SC1-EAE-1",
+              "description": "Observe and describe daily weather and the difference between the wet and dry seasons",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "GY-SC2-EAE-1",
+              "description": "Describe the sources and uses of water and the importance of keeping water clean",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GY-SC3-EAE-1",
+              "description": "Describe the water cycle, including evaporation, condensation and precipitation",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GY-SC4-EAE-1",
+              "description": "Identify Guyana's natural resources, such as forests, minerals and rivers, and their uses",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "GY-SC5-EAE-1",
+              "description": "Explain how human activity affects the environment and describe ways to conserve it",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "GY-SC6-EAE-1",
+              "description": "Describe the Sun-Earth-Moon system and Earth's position within the solar system",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

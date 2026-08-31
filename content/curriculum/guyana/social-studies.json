@@ -1,0 +1,312 @@
+{
+  "subjectSlug": "social-studies",
+  "subjectName": "Social Studies",
+  "frameworks": [
+    "Guyana National Curriculum Guide (NCERD) \u2014 Social Studies",
+    "CXC/NGSA-aligned"
+  ],
+  "icon": "Landmark",
+  "color": "orange",
+  "strands": [
+    {
+      "slug": "self-family-community",
+      "name": "Myself, My Family and My Community",
+      "description": "Family roles, community helpers, citizenship and government, from the NCERD Social Studies strand on Social Living.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "GY-SS1-SEC-1",
+              "description": "Identify members of the family and describe their roles",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "GY-SS2-SEC-1",
+              "description": "Describe people who help us in the school and community",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GY-SS3-SEC-1",
+              "description": "Describe the roles and responsibilities of citizens in a community",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GY-SS4-SEC-1",
+              "description": "Explain the importance of rules and laws, and the rights and responsibilities of citizens",
+              "difficultyBands": [
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "GY-SS5-SEC-1",
+              "description": "Describe how Guyana's government is organised at the local, regional and national level",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "GY-SS6-SEC-1",
+              "description": "Explain the roles of the executive, legislature and judiciary in Guyana's government and the rights of citizens",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "guyana-geography",
+      "name": "Guyana: Land, Regions and Resources",
+      "description": "Maps, Guyana's ten regions, physical features and natural resources, from the NCERD Social Studies strand on Our Environment.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "GY-SS1-GEO-1",
+              "description": "Identify directions and simple features on a map of the local area",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "GY-SS2-GEO-1",
+              "description": "Locate Guyana on a map of South America and name its neighbouring countries",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GY-SS3-GEO-1",
+              "description": "Name and locate Guyana's ten administrative regions",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GY-SS4-GEO-1",
+              "description": "Describe Guyana's main geographic features, including its rivers, coastland, forest, savannah and highlands",
+              "difficultyBands": [
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "GY-SS5-GEO-1",
+              "description": "Describe Guyana's climate and the uses of its natural resources, such as bauxite, gold, timber, sugar and rice",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "GY-SS6-GEO-1",
+              "description": "Explain how Guyana's geography shapes where people live, work and travel",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "guyana-history-civics",
+      "name": "The History and Peoples of Guyana",
+      "description": "National symbols, Guyana's peoples and its journey to Independence, from the NCERD Social Studies strand on Our Heritage.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "GY-SS1-HIS-1",
+              "description": "Identify Guyana's national symbols, including the flag, coat of arms and national anthem",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "GY-SS2-HIS-1",
+              "description": "Describe the customs and celebrations of Guyana's different ethnic groups",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GY-SS3-HIS-1",
+              "description": "Describe the way of life of Guyana's Indigenous (Amerindian) peoples",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GY-SS4-HIS-1",
+              "description": "Describe European settlement and the arrival of enslaved Africans and indentured labourers in Guyana",
+              "difficultyBands": [
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "GY-SS5-HIS-1",
+              "description": "Describe key events and figures in Guyana's journey to Independence in 1966",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "GY-SS6-HIS-1",
+              "description": "Explain the significance of Guyana becoming a republic and describe its national heroes and public holidays",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
