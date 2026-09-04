@@ -51,11 +51,13 @@ async function ensureCurricula(): Promise<Map<string, string>> {
   ];
   const idBySlug = new Map<string, string>();
   for (const row of rows) {
-    const curriculum = await db.curriculum.upsert({
-      where: { slug: row.slug },
-      update: { name: row.name, yearGroupLabel: row.yearGroupLabel },
-      create: row,
-    });
+    const curriculum = await withRetry(() =>
+      db.curriculum.upsert({
+        where: { slug: row.slug },
+        update: { name: row.name, yearGroupLabel: row.yearGroupLabel },
+        create: row,
+      })
+    );
     idBySlug.set(row.slug, curriculum.id);
   }
   return idBySlug;
@@ -71,20 +73,24 @@ async function ensureTopicsForCurriculum(curriculumSlug: string, curriculumId: s
   const topicIdByKey = new Map<string, string>();
 
   for (const map of maps) {
-    const subject = await db.subject.upsert({
-      where: { slug: map.subjectSlug },
-      update: { name: map.subjectName, icon: map.icon, color: map.color, frameworks: JSON.stringify(map.frameworks) },
-      create: { slug: map.subjectSlug, name: map.subjectName, icon: map.icon, color: map.color, frameworks: JSON.stringify(map.frameworks) },
-    });
+    const subject = await withRetry(() =>
+      db.subject.upsert({
+        where: { slug: map.subjectSlug },
+        update: { name: map.subjectName, icon: map.icon, color: map.color, frameworks: JSON.stringify(map.frameworks) },
+        create: { slug: map.subjectSlug, name: map.subjectName, icon: map.icon, color: map.color, frameworks: JSON.stringify(map.frameworks) },
+      })
+    );
 
     let order = 0;
     for (const strand of map.strands) {
       for (const year of strand.years) {
-        const topic = await db.topic.upsert({
-          where: { subjectId_strandSlug_yearGroup_curriculumId: { subjectId: subject.id, strandSlug: strand.slug, yearGroup: year.yearGroup, curriculumId } },
-          update: { strandName: strand.name, description: strand.description, order },
-          create: { subjectId: subject.id, strandSlug: strand.slug, strandName: strand.name, yearGroup: year.yearGroup, description: strand.description, order, curriculumId },
-        });
+        const topic = await withRetry(() =>
+          db.topic.upsert({
+            where: { subjectId_strandSlug_yearGroup_curriculumId: { subjectId: subject.id, strandSlug: strand.slug, yearGroup: year.yearGroup, curriculumId } },
+            update: { strandName: strand.name, description: strand.description, order },
+            create: { subjectId: subject.id, strandSlug: strand.slug, strandName: strand.name, yearGroup: year.yearGroup, description: strand.description, order, curriculumId },
+          })
+        );
         topicIdByKey.set(`${map.subjectSlug}:${strand.slug}:${year.yearGroup}`, topic.id);
         order++;
       }
@@ -107,6 +113,27 @@ async function loadExistingPromptsByTopic(): Promise<Map<string, Set<string>>> {
   return map;
 }
 
+/** The Neon connection has been dropping mid-run under sustained write
+ *  load (P1001 "Can't reach database server" from deep inside a loop that
+ *  had already made real progress, not a clean up/down) — retrying the
+ *  single failed operation with backoff is far cheaper than restarting the
+ *  whole idempotent scan from scratch every time a connection blips. */
+async function withRetry<T>(fn: () => Promise<T>, attempts = 6, delayMs = 3000): Promise<T> {
+  let lastErr: unknown;
+  for (let i = 0; i < attempts; i++) {
+    try {
+      return await fn();
+    } catch (err) {
+      lastErr = err;
+      if (i < attempts - 1) {
+        console.warn(`  ! transient DB error, retrying (${i + 1}/${attempts})...`);
+        await new Promise((resolve) => setTimeout(resolve, delayMs));
+      }
+    }
+  }
+  throw lastErr;
+}
+
 async function syncQuestions(topicIdByKey: Map<string, string>, drafts: DraftQuestion[]) {
   console.log("→ Syncing question bank (skipping anything already present)...");
   const existingByTopic = await loadExistingPromptsByTopic();
@@ -127,9 +154,11 @@ async function syncQuestions(topicIdByKey: Map<string, string>, drafts: DraftQue
 
     const { prompt, options, answer } = toStorageFields(draft);
     const { type, difficulty } = toPrismaEnums(draft.type, draft.difficulty);
-    await db.contentQuestion.create({
-      data: { topicId, objectiveCode: draft.objectiveCode, type, difficulty, prompt, options, answer, explanation: draft.explanation, subSkill: draft.subSkill, source: "SEED", status: "PUBLISHED" },
-    });
+    await withRetry(() =>
+      db.contentQuestion.create({
+        data: { topicId, objectiveCode: draft.objectiveCode, type, difficulty, prompt, options, answer, explanation: draft.explanation, subSkill: draft.subSkill, source: "SEED", status: "PUBLISHED" },
+      })
+    );
     existing.add(draft.promptText);
     existingByTopic.set(topicId, existing);
     created++;
@@ -233,18 +262,20 @@ async function syncReadingPassages(topicIdByKey: Map<string, string>, curriculum
   for (const p of passages) {
     let passageId = passageIdByTitle.get(p.title);
     if (!passageId) {
-      const passage = await db.readingPassage.create({
-        data: {
-          title: p.title,
-          type: typeMap[p.type],
-          yearGroup: p.yearGroup,
-          bodyText: p.bodyText,
-          wordCount: p.bodyText.trim().split(/\s+/).length,
-          author: p.author,
-          source: "SEED",
-          status: "PUBLISHED",
-        },
-      });
+      const passage = await withRetry(() =>
+        db.readingPassage.create({
+          data: {
+            title: p.title,
+            type: typeMap[p.type],
+            yearGroup: p.yearGroup,
+            bodyText: p.bodyText,
+            wordCount: p.bodyText.trim().split(/\s+/).length,
+            author: p.author,
+            source: "SEED",
+            status: "PUBLISHED",
+          },
+        })
+      );
       passageId = passage.id;
       passageIdByTitle.set(p.title, passageId);
       passagesCreated++;
@@ -265,9 +296,11 @@ async function syncReadingPassages(topicIdByKey: Map<string, string>, curriculum
       const draft = { ...q, subjectSlug: "reading", yearGroup: p.yearGroup } as DraftQuestion;
       const { prompt, options, answer } = toStorageFields(draft);
       const { type, difficulty } = toPrismaEnums(draft.type, draft.difficulty);
-      await db.contentQuestion.create({
-        data: { topicId, objectiveCode: draft.objectiveCode, type, difficulty, prompt, options, answer, explanation: draft.explanation, subSkill: q.subSkill, passageId, source: "SEED", status: "PUBLISHED" },
-      });
+      await withRetry(() =>
+        db.contentQuestion.create({
+          data: { topicId, objectiveCode: draft.objectiveCode, type, difficulty, prompt, options, answer, explanation: draft.explanation, subSkill: q.subSkill, passageId, source: "SEED", status: "PUBLISHED" },
+        })
+      );
       existing.add(q.promptText);
       existingByTopic.set(topicId, existing);
       questionsCreated++;
