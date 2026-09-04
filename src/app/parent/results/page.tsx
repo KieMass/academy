@@ -7,7 +7,8 @@ import type { QuestionResponse } from "@/lib/question-engine/types";
 import { getRetentionSetting, describeRetentionSetting } from "@/lib/retention";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle2, XCircle, Clock } from "lucide-react";
+import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/components/ui/collapsible";
+import { CheckCircle2, XCircle, Clock, ChevronDown } from "lucide-react";
 import { format } from "date-fns";
 
 const COUNTS = [5, 10, 20] as const;
@@ -83,60 +84,72 @@ export default async function ParentResultsPage({ searchParams }: PageProps<"/pa
           const correct = assignment.attempts.filter((a) => a.isCorrect).length;
           const scorePct = total > 0 ? Math.round((correct / total) * 100) : 0;
           return (
-            <Card key={assignment.id}>
-              <CardHeader>
-                <div className="flex flex-wrap items-center justify-between gap-3">
-                  <div>
-                    <CardTitle className="text-lg">{assignment.title}</CardTitle>
-                    <p className="text-xs text-muted-foreground">
-                      Assigned {format(assignment.createdAt, "d MMM yyyy")}
-                      {assignment.dueDate && ` · Due ${format(assignment.dueDate, "d MMM yyyy")}`}
-                    </p>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Badge variant="outline" className="capitalize">{assignment.status.toLowerCase().replace("_", " ")}</Badge>
-                    <Badge variant={scorePct >= 75 ? "default" : "outline"}>
-                      {correct}/{total} correct · {scorePct}%
-                    </Badge>
-                  </div>
-                </div>
-              </CardHeader>
-              <CardContent className="divide-y">
-                {assignment.attempts.map((attempt) => {
-                  const question = fromContentQuestion(attempt.question);
-                  const response = JSON.parse(attempt.response) as QuestionResponse;
-                  const theirAnswer = formatResponse(question, response);
-                  return (
-                    <div key={attempt.id} className="flex items-start gap-3 py-3 text-sm">
-                      {attempt.isCorrect ? (
-                        <CheckCircle2 className="mt-0.5 size-5 shrink-0 text-emerald-500" />
-                      ) : (
-                        <XCircle className="mt-0.5 size-5 shrink-0 text-destructive" />
-                      )}
-                      <div className="min-w-0 flex-1 space-y-0.5">
-                        <p className="font-medium">{question.promptText}</p>
-                        <p className="text-xs text-muted-foreground">
-                          {attempt.question.topic.subject.name} · {attempt.question.topic.strandName}
-                        </p>
-                        <p className="text-xs">
-                          <span className="text-muted-foreground">Their answer: </span>
-                          <span className={attempt.isCorrect ? "text-emerald-600 dark:text-emerald-400" : "text-destructive"}>{theirAnswer}</span>
-                        </p>
-                        {!attempt.isCorrect && (
-                          <p className="text-xs">
-                            <span className="text-muted-foreground">Correct answer: </span>
-                            <span className="text-emerald-600 dark:text-emerald-400">{revealAnswer(question)}</span>
+            <Card key={assignment.id} className="overflow-hidden py-0">
+              <Collapsible>
+                <CollapsibleTrigger
+                  className="group cursor-pointer focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none"
+                  render={<div role="button" tabIndex={0} />}
+                >
+                  <CardHeader className="py-4 hover:bg-muted/40">
+                    <div className="flex flex-wrap items-center justify-between gap-3">
+                      <div className="flex items-center gap-2">
+                        <ChevronDown className="size-4 shrink-0 text-muted-foreground transition-transform group-data-panel-open:rotate-180" />
+                        <div>
+                          <CardTitle className="text-lg">{assignment.title}</CardTitle>
+                          <p className="text-xs text-muted-foreground">
+                            Assigned {format(assignment.createdAt, "d MMM yyyy")}
+                            {assignment.dueDate && ` · Due ${format(assignment.dueDate, "d MMM yyyy")}`}
                           </p>
-                        )}
+                        </div>
                       </div>
-                      <span className="flex shrink-0 items-center gap-1 text-xs text-muted-foreground">
-                        <Clock className="size-3" />
-                        {attempt.timeSpentSeconds}s
-                      </span>
+                      <div className="flex items-center gap-2">
+                        <Badge variant="outline" className="capitalize">{assignment.status.toLowerCase().replace("_", " ")}</Badge>
+                        <Badge variant={scorePct >= 75 ? "default" : "outline"}>
+                          {correct}/{total} correct · {scorePct}%
+                        </Badge>
+                      </div>
                     </div>
-                  );
-                })}
-              </CardContent>
+                  </CardHeader>
+                </CollapsibleTrigger>
+                <CollapsibleContent>
+                  <CardContent className="divide-y border-t">
+                    {assignment.attempts.map((attempt) => {
+                      const question = fromContentQuestion(attempt.question);
+                      const response = JSON.parse(attempt.response) as QuestionResponse;
+                      const theirAnswer = formatResponse(question, response);
+                      return (
+                        <div key={attempt.id} className="flex items-start gap-3 py-3 text-sm">
+                          {attempt.isCorrect ? (
+                            <CheckCircle2 className="mt-0.5 size-5 shrink-0 text-emerald-500" />
+                          ) : (
+                            <XCircle className="mt-0.5 size-5 shrink-0 text-destructive" />
+                          )}
+                          <div className="min-w-0 flex-1 space-y-0.5">
+                            <p className="font-medium">{question.promptText}</p>
+                            <p className="text-xs text-muted-foreground">
+                              {attempt.question.topic.subject.name} · {attempt.question.topic.strandName}
+                            </p>
+                            <p className="text-xs">
+                              <span className="text-muted-foreground">Their answer: </span>
+                              <span className={attempt.isCorrect ? "text-emerald-600 dark:text-emerald-400" : "text-destructive"}>{theirAnswer}</span>
+                            </p>
+                            {!attempt.isCorrect && (
+                              <p className="text-xs">
+                                <span className="text-muted-foreground">Correct answer: </span>
+                                <span className="text-emerald-600 dark:text-emerald-400">{revealAnswer(question)}</span>
+                              </p>
+                            )}
+                          </div>
+                          <span className="flex shrink-0 items-center gap-1 text-xs text-muted-foreground">
+                            <Clock className="size-3" />
+                            {attempt.timeSpentSeconds}s
+                          </span>
+                        </div>
+                      );
+                    })}
+                  </CardContent>
+                </CollapsibleContent>
+              </Collapsible>
             </Card>
           );
         })}
