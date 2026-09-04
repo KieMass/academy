@@ -118,7 +118,7 @@ async function loadExistingPromptsByTopic(): Promise<Map<string, Set<string>>> {
  *  had already made real progress, not a clean up/down) — retrying the
  *  single failed operation with backoff is far cheaper than restarting the
  *  whole idempotent scan from scratch every time a connection blips. */
-async function withRetry<T>(fn: () => Promise<T>, attempts = 6, delayMs = 3000): Promise<T> {
+async function withRetry<T>(fn: () => Promise<T>, attempts = 12): Promise<T> {
   let lastErr: unknown;
   for (let i = 0; i < attempts; i++) {
     try {
@@ -126,7 +126,10 @@ async function withRetry<T>(fn: () => Promise<T>, attempts = 6, delayMs = 3000):
     } catch (err) {
       lastErr = err;
       if (i < attempts - 1) {
-        console.warn(`  ! transient DB error, retrying (${i + 1}/${attempts})...`);
+        // Exponential backoff up to 30s — today's connection drops have
+        // outlasted a flat 3s x 6 (18s) retry window entirely.
+        const delayMs = Math.min(30_000, 2_000 * 2 ** i);
+        console.warn(`  ! transient DB error, retrying (${i + 1}/${attempts}) in ${Math.round(delayMs / 1000)}s...`);
         await new Promise((resolve) => setTimeout(resolve, delayMs));
       }
     }
