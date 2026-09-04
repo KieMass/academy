@@ -9,6 +9,7 @@ import { updateTopicMastery, touchStudentStreak } from "@/lib/mastery";
 import { xpForCorrectAnswer, levelForXp } from "@/lib/gamification/xp";
 import { evaluateBadgesForStudent } from "@/lib/gamification/badges";
 import { checkContentGap } from "@/lib/content-gap";
+import { maybePurgeExpiredResults } from "@/lib/retention";
 import { checkRateLimit, rateLimitResponse } from "@/lib/rate-limit";
 
 const schema = z.object({
@@ -69,6 +70,7 @@ export async function POST(req: Request) {
     updateTopicMastery(studentProfile.id, question.topicId, result.correct),
     touchStudentStreak(studentProfile.id),
     checkContentGap(question.topicId),
+    maybePurgeExpiredResults(),
   ]);
 
   let xpAwarded = 0;

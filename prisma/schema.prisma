@@ -615,3 +615,27 @@ model RateLimitBucket {
 
   @@index([resetAt])
 }
+
+// ---------------------------------------------------------------------------
+// Data retention
+// ---------------------------------------------------------------------------
+
+enum RetentionMode {
+  ASSIGNMENT_COUNT // keep each student's most recent `value` assignments
+  DAYS // keep assignments created within the last `value` days
+}
+
+// Single-row, system-wide policy for how long assignment results (an
+// Assignment plus its QuestionAttempt rows) are kept before
+// purgeExpiredResults() (see lib/retention.ts) deletes them. Tuned from the
+// admin settings page; upserted under a fixed id rather than relying on a
+// generated one, same convention as RateLimitBucket.key above. lastPurgedAt
+// lets purging piggyback on regular request traffic (see maybePurgeExpiredResults,
+// called from /api/attempts) without needing a cron job.
+model ResultsRetentionSetting {
+  id           String        @id
+  mode         RetentionMode @default(ASSIGNMENT_COUNT)
+  value        Int           @default(20)
+  lastPurgedAt DateTime?
+  updatedAt    DateTime      @updatedAt
+}
