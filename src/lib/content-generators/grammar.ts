@@ -350,12 +350,42 @@ function mcFromSentence(rng: Rng, strandSlug: string, yearGroup: YearGroup, obje
   return mc(rng, { strandSlug, yearGroup, objectiveCode, difficulty, promptText, correct: item.correct, distractors: item.distractors, explanation: item.explanation });
 }
 
+/** Same underlying sentence+answer as mcFromSentence, but typed instead of
+ *  picked — recall rather than recognition. Doubles a bank's volume for
+ *  free (no new data), since the bank's own verified correct/explanation is
+ *  reused as-is, just rendered as a different question type. Only usable
+ *  where `item.sentence` contains a fill-able blank. */
+function fibFromSentence(strandSlug: string, yearGroup: YearGroup, objectiveCode: string, difficulty: DifficultyBand, item: { sentence?: string; correct: string; explanation: string }): DraftQuestion | null {
+  if (!item.sentence) return null;
+  return {
+    type: "fill_in_box",
+    subjectSlug: SUBJECT,
+    strandSlug,
+    yearGroup,
+    objectiveCode,
+    difficulty,
+    promptText: `Fill in the blank: '${item.sentence}'`,
+    explanation: item.explanation,
+    blanks: [{ id: "answer", acceptedAnswers: [item.correct] }],
+  };
+}
+
 export function generateHomophoneQuestions(seed = 71001): DraftQuestion[] {
   const rng = createRng(seed);
   const out: DraftQuestion[] = [];
   const difficulties: DifficultyBand[] = ["bronze", "silver", "silver", "gold"];
-  HOMOPHONES_Y5.forEach((item, i) => out.push(mcFromSentence(rng, "homophones", "Y5", "GR5-HOM-1", difficulties[i % difficulties.length], "Which word correctly completes this sentence?", item)));
-  HOMOPHONES_Y6.forEach((item, i) => out.push(mcFromSentence(rng, "homophones", "Y6", "GR6-HOM-1", difficulties[i % difficulties.length], "Which word correctly completes this sentence?", item)));
+  HOMOPHONES_Y5.forEach((item, i) => {
+    const d = difficulties[i % difficulties.length];
+    out.push(mcFromSentence(rng, "homophones", "Y5", "GR5-HOM-1", d, "Which word correctly completes this sentence?", item));
+    const fib = fibFromSentence("homophones", "Y5", "GR5-HOM-1", d, item);
+    if (fib) out.push(fib);
+  });
+  HOMOPHONES_Y6.forEach((item, i) => {
+    const d = difficulties[i % difficulties.length];
+    out.push(mcFromSentence(rng, "homophones", "Y6", "GR6-HOM-1", d, "Which word correctly completes this sentence?", item));
+    const fib = fibFromSentence("homophones", "Y6", "GR6-HOM-1", d, item);
+    if (fib) out.push(fib);
+  });
   return out;
 }
 
@@ -363,12 +393,16 @@ export function generatePrefixQuestions(seed = 71002): DraftQuestion[] {
   const rng = createRng(seed);
   const out: DraftQuestion[] = [];
   const difficulties: DifficultyBand[] = ["bronze", "silver", "silver", "gold"];
-  PREFIXES_Y5.forEach((item, i) =>
-    out.push(mc(rng, { strandSlug: "prefixes", yearGroup: "Y5", objectiveCode: "GR5-PRE-1", difficulty: difficulties[i % difficulties.length], promptText: `Which prefix correctly forms a word meaning '${item.meaning}' from '${item.root}'?`, correct: item.correct, distractors: item.distractors, explanation: item.explanation }))
-  );
-  PREFIXES_Y6.forEach((item, i) =>
-    out.push(mc(rng, { strandSlug: "prefixes", yearGroup: "Y6", objectiveCode: "GR6-PRE-1", difficulty: difficulties[i % difficulties.length], promptText: `Which prefix correctly forms a word meaning '${item.meaning}' from '${item.root}'?`, correct: item.correct, distractors: item.distractors, explanation: item.explanation }))
-  );
+  PREFIXES_Y5.forEach((item, i) => {
+    const d = difficulties[i % difficulties.length];
+    out.push(mc(rng, { strandSlug: "prefixes", yearGroup: "Y5", objectiveCode: "GR5-PRE-1", difficulty: d, promptText: `Which prefix correctly forms a word meaning '${item.meaning}' from '${item.root}'?`, correct: item.correct, distractors: item.distractors, explanation: item.explanation }));
+    out.push({ type: "fill_in_box", subjectSlug: SUBJECT, strandSlug: "prefixes", yearGroup: "Y5", objectiveCode: "GR5-PRE-1", difficulty: d, promptText: `Add a prefix to '${item.root}' to make a word meaning '${item.meaning}'.`, explanation: item.explanation, blanks: [{ id: "answer", acceptedAnswers: [item.correctWord] }] });
+  });
+  PREFIXES_Y6.forEach((item, i) => {
+    const d = difficulties[i % difficulties.length];
+    out.push(mc(rng, { strandSlug: "prefixes", yearGroup: "Y6", objectiveCode: "GR6-PRE-1", difficulty: d, promptText: `Which prefix correctly forms a word meaning '${item.meaning}' from '${item.root}'?`, correct: item.correct, distractors: item.distractors, explanation: item.explanation }));
+    out.push({ type: "fill_in_box", subjectSlug: SUBJECT, strandSlug: "prefixes", yearGroup: "Y6", objectiveCode: "GR6-PRE-1", difficulty: d, promptText: `Add a prefix to '${item.root}' to make a word meaning '${item.meaning}'.`, explanation: item.explanation, blanks: [{ id: "answer", acceptedAnswers: [item.correctWord] }] });
+  });
   return out;
 }
 
@@ -385,8 +419,18 @@ export function generateModalVerbQuestions(seed = 71004): DraftQuestion[] {
   const rng = createRng(seed);
   const out: DraftQuestion[] = [];
   const difficulties: DifficultyBand[] = ["bronze", "silver", "silver", "gold"];
-  MODALS_Y5.forEach((item, i) => out.push(mcFromSentence(rng, "modal-verbs", "Y5", "GR5-MOD-1", difficulties[i % difficulties.length], "Which modal verb correctly completes this sentence?", item)));
-  MODALS_Y6.forEach((item, i) => out.push(mcFromSentence(rng, "modal-verbs", "Y6", "GR6-MOD-1", ["silver", "gold", "gold", "challenge"][i % 4] as DifficultyBand, "Which word correctly completes this sentence?", item)));
+  MODALS_Y5.forEach((item, i) => {
+    const d = difficulties[i % difficulties.length];
+    out.push(mcFromSentence(rng, "modal-verbs", "Y5", "GR5-MOD-1", d, "Which modal verb correctly completes this sentence?", item));
+    const fib = fibFromSentence("modal-verbs", "Y5", "GR5-MOD-1", d, item);
+    if (fib) out.push(fib);
+  });
+  MODALS_Y6.forEach((item, i) => {
+    const d = ["silver", "gold", "gold", "challenge"][i % 4] as DifficultyBand;
+    out.push(mcFromSentence(rng, "modal-verbs", "Y6", "GR6-MOD-1", d, "Which word correctly completes this sentence?", item));
+    const fib = fibFromSentence("modal-verbs", "Y6", "GR6-MOD-1", d, item);
+    if (fib) out.push(fib);
+  });
   return out;
 }
 
@@ -395,8 +439,18 @@ export function generateVerbTenseQuestions(seed = 71005): DraftQuestion[] {
   const out: DraftQuestion[] = [];
   const difficultiesY5: DifficultyBand[] = ["bronze", "silver", "silver", "gold"];
   const difficultiesY6: DifficultyBand[] = ["silver", "gold", "gold", "challenge"];
-  TENSES_Y5.forEach((item, i) => out.push(mcFromSentence(rng, "verb-tenses", "Y5", "GR5-TEN-1", difficultiesY5[i % 4], "Which correctly completes this sentence?", item)));
-  TENSES_Y6.forEach((item, i) => out.push(mcFromSentence(rng, "verb-tenses", "Y6", "GR6-TEN-1", difficultiesY6[i % 4], "Which correctly completes this sentence?", item)));
+  TENSES_Y5.forEach((item, i) => {
+    const d = difficultiesY5[i % 4];
+    out.push(mcFromSentence(rng, "verb-tenses", "Y5", "GR5-TEN-1", d, "Which correctly completes this sentence?", item));
+    const fib = fibFromSentence("verb-tenses", "Y5", "GR5-TEN-1", d, item);
+    if (fib) out.push(fib);
+  });
+  TENSES_Y6.forEach((item, i) => {
+    const d = difficultiesY6[i % 4];
+    out.push(mcFromSentence(rng, "verb-tenses", "Y6", "GR6-TEN-1", d, "Which correctly completes this sentence?", item));
+    const fib = fibFromSentence("verb-tenses", "Y6", "GR6-TEN-1", d, item);
+    if (fib) out.push(fib);
+  });
   return out;
 }
 
@@ -421,6 +475,18 @@ export function generateSynonymAntonymQuestions(seed = 71006): DraftQuestion[] {
         explanation: `'${item.antonym}' means the opposite of '${item.word}'.`,
       })
     );
+    out.push({
+      type: "fill_in_box", subjectSlug: SUBJECT, strandSlug: "synonyms-antonyms", yearGroup: "Y6", objectiveCode: "GR6-SYN-1", difficulty: difficulties[(i + 2) % 4],
+      promptText: `Write a synonym (a word that means the same) for '${item.word}'.`,
+      explanation: `'${item.synonym}' means the same as '${item.word}'.`,
+      blanks: [{ id: "answer", acceptedAnswers: [item.synonym] }],
+    });
+    out.push({
+      type: "fill_in_box", subjectSlug: SUBJECT, strandSlug: "synonyms-antonyms", yearGroup: "Y6", objectiveCode: "GR6-SYN-1", difficulty: difficulties[(i + 3) % 4],
+      promptText: `Write an antonym (a word that means the opposite) for '${item.word}'.`,
+      explanation: `'${item.antonym}' means the opposite of '${item.word}'.`,
+      blanks: [{ id: "answer", acceptedAnswers: [item.antonym] }],
+    });
   });
   return out;
 }
