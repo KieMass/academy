@@ -5,6 +5,7 @@ const navItems: NavItem[] = [
   { href: "/parent/dashboard", label: "Dashboard", icon: "Home" },
   { href: "/parent/progress", label: "Progress & Reports", icon: "LineChart" },
   { href: "/parent/assign", label: "Assign Work", icon: "ClipboardList" },
+  { href: "/parent/results", label: "Assignment Results", icon: "ListChecks" },
   { href: "/parent/print", label: "Print Resources", icon: "Printer" },
   { href: "/parent/flagged-questions", label: "Flagged Questions", icon: "Flag" },
   { href: "/parent/settings", label: "Settings", icon: "Settings" },

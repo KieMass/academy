@@ -213,8 +213,15 @@ export function generateDecimalQuestions(rng: Rng, count: number): DraftQuestion
   const out: DraftQuestion[] = [];
   for (let i = 0; i < count; i++) {
     const difficulty: DifficultyBand = pick(rng, ["bronze", "silver", "silver", "gold"] as const);
-    const places = difficulty === "bronze" ? 1 : difficulty === "silver" ? 2 : 3;
-    const raw = randInt(rng, 1, 999);
+    // The question always rounds to 1 decimal place, so the source value must
+    // have at least 2 decimal places or rounding is a no-op (e.g. "round 90.9
+    // to one decimal place" would already be the answer).
+    const places = difficulty === "bronze" ? 2 : difficulty === "silver" ? 3 : 4;
+    // Nudge away from multiples of 10^(places-1): those collapse to a value
+    // that already has just 1 decimal place, making the rounding trivial.
+    const trivialMod = 10 ** (places - 1);
+    let raw = randInt(rng, 1, 999);
+    if (raw % trivialMod === 0) raw += 1;
     const value = raw / 10 ** places;
     const rounded = Math.round(value * 10) / 10;
     out.push(
