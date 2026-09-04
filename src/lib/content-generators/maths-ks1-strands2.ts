@@ -252,35 +252,35 @@ function generateY2WordProblemsQuestions(rng: Rng, count: number): DraftQuestion
 export function generateAllMathsQuestionsY2Strands2(seed = 62700): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY2MoneyChangeQuestions(rng, 14),
-    ...generateY2CoinCombinationQuestions(rng, 12),
-    ...generateY2CompareMeasuresQuestions(rng, 12),
-    ...generateY2ChooseUnitQuestions(rng, 10),
-    ...generateY2TimeQuestions(rng, 12),
-    ...generateY2ShapeSidesQuestions(rng, 14),
-    ...generateY2SolidPropertiesQuestions(rng, 14),
-    ...generateY2SortShapesQuestions(rng, 12),
-    ...generateY2PositionQuestions(rng, 20),
-    ...generateY2StatisticsQuestions(rng, 18),
-    ...generateY2ReasoningQuestions(rng, 18),
-    ...generateY2WordProblemsQuestions(rng, 18),
+    ...generateY2MoneyChangeQuestions(rng, 28),
+    ...generateY2CoinCombinationQuestions(rng, 24),
+    ...generateY2CompareMeasuresQuestions(rng, 24),
+    ...generateY2ChooseUnitQuestions(rng, 20),
+    ...generateY2TimeQuestions(rng, 24),
+    ...generateY2ShapeSidesQuestions(rng, 28),
+    ...generateY2SolidPropertiesQuestions(rng, 28),
+    ...generateY2SortShapesQuestions(rng, 24),
+    ...generateY2PositionQuestions(rng, 40),
+    ...generateY2StatisticsQuestions(rng, 36),
+    ...generateY2ReasoningQuestions(rng, 36),
+    ...generateY2WordProblemsQuestions(rng, 36),
   ];
 }
 
 export function generateAllMathsQuestionsY2Strands2Extra(seed = 72700): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY2MoneyChangeQuestions(rng, 12),
-    ...generateY2CoinCombinationQuestions(rng, 10),
-    ...generateY2CompareMeasuresQuestions(rng, 10),
-    ...generateY2ChooseUnitQuestions(rng, 8),
-    ...generateY2TimeQuestions(rng, 10),
-    ...generateY2ShapeSidesQuestions(rng, 12),
-    ...generateY2SolidPropertiesQuestions(rng, 12),
-    ...generateY2SortShapesQuestions(rng, 10),
-    ...generateY2PositionQuestions(rng, 16),
-    ...generateY2StatisticsQuestions(rng, 16),
-    ...generateY2ReasoningQuestions(rng, 16),
-    ...generateY2WordProblemsQuestions(rng, 16),
+    ...generateY2MoneyChangeQuestions(rng, 24),
+    ...generateY2CoinCombinationQuestions(rng, 20),
+    ...generateY2CompareMeasuresQuestions(rng, 20),
+    ...generateY2ChooseUnitQuestions(rng, 16),
+    ...generateY2TimeQuestions(rng, 20),
+    ...generateY2ShapeSidesQuestions(rng, 24),
+    ...generateY2SolidPropertiesQuestions(rng, 24),
+    ...generateY2SortShapesQuestions(rng, 20),
+    ...generateY2PositionQuestions(rng, 32),
+    ...generateY2StatisticsQuestions(rng, 32),
+    ...generateY2ReasoningQuestions(rng, 32),
+    ...generateY2WordProblemsQuestions(rng, 32),
   ];
 }

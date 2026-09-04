@@ -28,7 +28,19 @@ function mc(
 type Row = [string, string, string[], string];
 
 function rowsToQuestions(rng: Rng, rows: Row[], strandSlug: string, yearGroup: YearGroup, objectiveCode: string, difficulty: DifficultyBand): DraftQuestion[] {
-  return rows.map(([promptText, correct, distractors, explanation]) => mc(rng, { strandSlug, yearGroup, objectiveCode, difficulty, promptText, correct, distractors, explanation }));
+  return rows.flatMap(([promptText, correct, distractors, explanation]) => {
+    const out: DraftQuestion[] = [mc(rng, { strandSlug, yearGroup, objectiveCode, difficulty, promptText, correct, distractors, explanation })];
+    // A short-answer companion for the same fact — recall rather than
+    // recognition, doubling volume with zero new authoring. Only for short,
+    // single-phrase answers: a long/multi-item correct answer (e.g. "Sunlight,
+    // water and air") is unfair to grade by exact string match, since a
+    // correct but differently-ordered or -punctuated typed answer would be
+    // marked wrong.
+    if (correct.split(" ").length <= 3 && !correct.includes(",")) {
+      out.push({ type: "short_answer", subjectSlug: SUBJECT, strandSlug, yearGroup, objectiveCode, difficulty, promptText: `${promptText} (Answer without looking at multiple choices.)`, explanation, acceptedAnswers: [correct] });
+    }
+    return out;
+  });
 }
 
 // =========================== LIVING THINGS ==================================

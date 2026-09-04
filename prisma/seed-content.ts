@@ -29,6 +29,10 @@ import { generateAllGrammarQuestionsGuyana } from "../src/lib/content-generators
 import { generateAllScienceQuestionsGuyana } from "../src/lib/content-generators/science-guyana";
 import { generateAllSocialStudiesQuestionsGuyana } from "../src/lib/content-generators/social-studies-guyana";
 import { generateAllSpellingQuestionsGuyana } from "../src/lib/content-generators/spelling-guyana";
+import { generateAllScienceQuestionsCaymanExtra } from "../src/lib/content-generators/science-cayman-extra";
+import { generateAllHistoryQuestionsCaymanExtra } from "../src/lib/content-generators/history-cayman-extra";
+import { generateAllGeographyQuestionsCaymanExtra } from "../src/lib/content-generators/geography-cayman-extra";
+import { generateAllComputingQuestionsCaymanExtra } from "../src/lib/content-generators/computing-cayman-extra";
 import type { DraftQuestion } from "../src/lib/content-generators/types";
 
 const db = new PrismaClient();
@@ -182,6 +186,10 @@ function buildCaymanDrafts(): DraftQuestion[] {
     ...readJson<DraftQuestion[]>("questions", "cayman", "history.json"),
     ...readJson<DraftQuestion[]>("questions", "cayman", "geography.json"),
     ...readJson<DraftQuestion[]>("questions", "cayman", "computing.json"),
+    ...generateAllScienceQuestionsCaymanExtra(),
+    ...generateAllHistoryQuestionsCaymanExtra(),
+    ...generateAllGeographyQuestionsCaymanExtra(),
+    ...generateAllComputingQuestionsCaymanExtra(),
   ];
 }
 

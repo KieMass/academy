@@ -198,48 +198,48 @@ function generateY3FractionsQuestions(rng: Rng, count: number): DraftQuestion[] 
 export function generateAllMathsQuestionsY3(seed = 33500): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY3NumberPlaceValueQuestions(rng, 18),
-    ...generateY3AdditionQuestions(rng, 18),
-    ...generateY3SubtractionQuestions(rng, 18),
-    ...generateY3MultiplicationQuestions(rng, 16),
-    ...generateY3DivisionQuestions(rng, 14),
-    ...generateY3FractionsQuestions(rng, 18),
+    ...generateY3NumberPlaceValueQuestions(rng, 36),
+    ...generateY3AdditionQuestions(rng, 36),
+    ...generateY3SubtractionQuestions(rng, 36),
+    ...generateY3MultiplicationQuestions(rng, 32),
+    ...generateY3DivisionQuestions(rng, 28),
+    ...generateY3FractionsQuestions(rng, 36),
   ];
 }
 
 export function generateAllMathsQuestionsY3Extra(seed = 43500): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY3NumberPlaceValueQuestions(rng, 16),
-    ...generateY3AdditionQuestions(rng, 16),
-    ...generateY3SubtractionQuestions(rng, 16),
-    ...generateY3MultiplicationQuestions(rng, 14),
-    ...generateY3DivisionQuestions(rng, 12),
-    ...generateY3FractionsQuestions(rng, 16),
+    ...generateY3NumberPlaceValueQuestions(rng, 32),
+    ...generateY3AdditionQuestions(rng, 32),
+    ...generateY3SubtractionQuestions(rng, 32),
+    ...generateY3MultiplicationQuestions(rng, 28),
+    ...generateY3DivisionQuestions(rng, 24),
+    ...generateY3FractionsQuestions(rng, 32),
   ];
 }
 
 export function generateAllMathsQuestionsY3Extra2(seed = 53500): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY3NumberPlaceValueQuestions(rng, 14),
-    ...generateY3AdditionQuestions(rng, 14),
-    ...generateY3SubtractionQuestions(rng, 14),
-    ...generateY3MultiplicationQuestions(rng, 12),
-    ...generateY3DivisionQuestions(rng, 10),
-    ...generateY3FractionsQuestions(rng, 14),
+    ...generateY3NumberPlaceValueQuestions(rng, 28),
+    ...generateY3AdditionQuestions(rng, 28),
+    ...generateY3SubtractionQuestions(rng, 28),
+    ...generateY3MultiplicationQuestions(rng, 24),
+    ...generateY3DivisionQuestions(rng, 20),
+    ...generateY3FractionsQuestions(rng, 28),
   ];
 }
 
 export function generateAllMathsQuestionsY3Extra3(seed = 63500): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY3NumberPlaceValueQuestions(rng, 18),
-    ...generateY3AdditionQuestions(rng, 20),
-    ...generateY3SubtractionQuestions(rng, 20),
-    ...generateY3MultiplicationQuestions(rng, 8),
-    ...generateY3DivisionQuestions(rng, 6),
-    ...generateY3FractionsQuestions(rng, 20),
+    ...generateY3NumberPlaceValueQuestions(rng, 36),
+    ...generateY3AdditionQuestions(rng, 40),
+    ...generateY3SubtractionQuestions(rng, 40),
+    ...generateY3MultiplicationQuestions(rng, 16),
+    ...generateY3DivisionQuestions(rng, 12),
+    ...generateY3FractionsQuestions(rng, 40),
   ];
 }
 
@@ -388,47 +388,47 @@ function generateY4FractionsQuestions(rng: Rng, count: number): DraftQuestion[] 
 export function generateAllMathsQuestionsY4(seed = 34500): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY4NumberPlaceValueQuestions(rng, 20),
-    ...generateY4AdditionQuestions(rng, 16),
-    ...generateY4SubtractionQuestions(rng, 16),
-    ...generateY4MultiplicationQuestions(rng, 20),
-    ...generateY4DivisionQuestions(rng, 16),
-    ...generateY4FractionsQuestions(rng, 20),
+    ...generateY4NumberPlaceValueQuestions(rng, 40),
+    ...generateY4AdditionQuestions(rng, 32),
+    ...generateY4SubtractionQuestions(rng, 32),
+    ...generateY4MultiplicationQuestions(rng, 40),
+    ...generateY4DivisionQuestions(rng, 32),
+    ...generateY4FractionsQuestions(rng, 40),
   ];
 }
 
 export function generateAllMathsQuestionsY4Extra(seed = 44500): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY4NumberPlaceValueQuestions(rng, 18),
-    ...generateY4AdditionQuestions(rng, 14),
-    ...generateY4SubtractionQuestions(rng, 14),
-    ...generateY4MultiplicationQuestions(rng, 18),
-    ...generateY4DivisionQuestions(rng, 14),
-    ...generateY4FractionsQuestions(rng, 18),
+    ...generateY4NumberPlaceValueQuestions(rng, 36),
+    ...generateY4AdditionQuestions(rng, 28),
+    ...generateY4SubtractionQuestions(rng, 28),
+    ...generateY4MultiplicationQuestions(rng, 36),
+    ...generateY4DivisionQuestions(rng, 28),
+    ...generateY4FractionsQuestions(rng, 36),
   ];
 }
 
 export function generateAllMathsQuestionsY4Extra2(seed = 54500): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY4NumberPlaceValueQuestions(rng, 16),
-    ...generateY4AdditionQuestions(rng, 12),
-    ...generateY4SubtractionQuestions(rng, 12),
-    ...generateY4MultiplicationQuestions(rng, 16),
-    ...generateY4DivisionQuestions(rng, 12),
-    ...generateY4FractionsQuestions(rng, 16),
+    ...generateY4NumberPlaceValueQuestions(rng, 32),
+    ...generateY4AdditionQuestions(rng, 24),
+    ...generateY4SubtractionQuestions(rng, 24),
+    ...generateY4MultiplicationQuestions(rng, 32),
+    ...generateY4DivisionQuestions(rng, 24),
+    ...generateY4FractionsQuestions(rng, 32),
   ];
 }
 
 export function generateAllMathsQuestionsY4Extra3(seed = 64500): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY4NumberPlaceValueQuestions(rng, 20),
-    ...generateY4AdditionQuestions(rng, 18),
-    ...generateY4SubtractionQuestions(rng, 18),
-    ...generateY4MultiplicationQuestions(rng, 20),
-    ...generateY4DivisionQuestions(rng, 16),
-    ...generateY4FractionsQuestions(rng, 20),
+    ...generateY4NumberPlaceValueQuestions(rng, 40),
+    ...generateY4AdditionQuestions(rng, 36),
+    ...generateY4SubtractionQuestions(rng, 36),
+    ...generateY4MultiplicationQuestions(rng, 40),
+    ...generateY4DivisionQuestions(rng, 32),
+    ...generateY4FractionsQuestions(rng, 40),
   ];
 }

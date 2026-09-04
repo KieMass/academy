@@ -253,30 +253,30 @@ function generateY3WordProblemsQuestions(rng: Rng, count: number): DraftQuestion
 export function generateAllMathsQuestionsY3Strands2(seed = 63700): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY3LengthMassCapacityQuestions(rng, 16),
-    ...generateY3PerimeterQuestions(rng, 16),
-    ...generateY3MoneyQuestions(rng, 16),
-    ...generateY3TimeQuestions(rng, 16),
-    ...generateY3AnglesQuestions(rng, 16),
-    ...generateY3ShapePropertiesQuestions(rng, 16),
-    ...generateY3StatisticsQuestions(rng, 22),
-    ...generateY3ReasoningQuestions(rng, 20),
-    ...generateY3WordProblemsQuestions(rng, 20),
+    ...generateY3LengthMassCapacityQuestions(rng, 32),
+    ...generateY3PerimeterQuestions(rng, 32),
+    ...generateY3MoneyQuestions(rng, 32),
+    ...generateY3TimeQuestions(rng, 32),
+    ...generateY3AnglesQuestions(rng, 32),
+    ...generateY3ShapePropertiesQuestions(rng, 32),
+    ...generateY3StatisticsQuestions(rng, 44),
+    ...generateY3ReasoningQuestions(rng, 40),
+    ...generateY3WordProblemsQuestions(rng, 40),
   ];
 }
 
 export function generateAllMathsQuestionsY3Strands2Extra(seed = 73700): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY3LengthMassCapacityQuestions(rng, 14),
-    ...generateY3PerimeterQuestions(rng, 14),
-    ...generateY3MoneyQuestions(rng, 14),
-    ...generateY3TimeQuestions(rng, 14),
-    ...generateY3AnglesQuestions(rng, 14),
-    ...generateY3ShapePropertiesQuestions(rng, 14),
-    ...generateY3StatisticsQuestions(rng, 18),
-    ...generateY3ReasoningQuestions(rng, 16),
-    ...generateY3WordProblemsQuestions(rng, 16),
+    ...generateY3LengthMassCapacityQuestions(rng, 28),
+    ...generateY3PerimeterQuestions(rng, 28),
+    ...generateY3MoneyQuestions(rng, 28),
+    ...generateY3TimeQuestions(rng, 28),
+    ...generateY3AnglesQuestions(rng, 28),
+    ...generateY3ShapePropertiesQuestions(rng, 28),
+    ...generateY3StatisticsQuestions(rng, 36),
+    ...generateY3ReasoningQuestions(rng, 32),
+    ...generateY3WordProblemsQuestions(rng, 32),
   ];
 }
 
@@ -501,29 +501,29 @@ function generateY4WordProblemsQuestions(rng: Rng, count: number): DraftQuestion
 export function generateAllMathsQuestionsY4Strands2(seed = 64700): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY4ConvertUnitsQuestions(rng, 18),
-    ...generateY4PerimeterAreaQuestions(rng, 16),
-    ...generateY4MoneyEstimateQuestions(rng, 12),
-    ...generateY4TimeQuestions(rng, 16),
-    ...generateY4GeometryQuestions(rng, 20),
-    ...generateY4PositionQuestions(rng, 18),
-    ...generateY4StatisticsQuestions(rng, 20),
-    ...generateY4ReasoningQuestions(rng, 18),
-    ...generateY4WordProblemsQuestions(rng, 18),
+    ...generateY4ConvertUnitsQuestions(rng, 36),
+    ...generateY4PerimeterAreaQuestions(rng, 32),
+    ...generateY4MoneyEstimateQuestions(rng, 24),
+    ...generateY4TimeQuestions(rng, 32),
+    ...generateY4GeometryQuestions(rng, 40),
+    ...generateY4PositionQuestions(rng, 36),
+    ...generateY4StatisticsQuestions(rng, 40),
+    ...generateY4ReasoningQuestions(rng, 36),
+    ...generateY4WordProblemsQuestions(rng, 36),
   ];
 }
 
 export function generateAllMathsQuestionsY4Strands2Extra(seed = 74700): DraftQuestion[] {
   const rng = createRng(seed);
   return [
-    ...generateY4ConvertUnitsQuestions(rng, 16),
-    ...generateY4PerimeterAreaQuestions(rng, 14),
-    ...generateY4MoneyEstimateQuestions(rng, 10),
-    ...generateY4TimeQuestions(rng, 14),
-    ...generateY4GeometryQuestions(rng, 16),
-    ...generateY4PositionQuestions(rng, 14),
-    ...generateY4StatisticsQuestions(rng, 16),
-    ...generateY4ReasoningQuestions(rng, 14),
-    ...generateY4WordProblemsQuestions(rng, 14),
+    ...generateY4ConvertUnitsQuestions(rng, 32),
+    ...generateY4PerimeterAreaQuestions(rng, 28),
+    ...generateY4MoneyEstimateQuestions(rng, 20),
+    ...generateY4TimeQuestions(rng, 28),
+    ...generateY4GeometryQuestions(rng, 32),
+    ...generateY4PositionQuestions(rng, 28),
+    ...generateY4StatisticsQuestions(rng, 32),
+    ...generateY4ReasoningQuestions(rng, 28),
+    ...generateY4WordProblemsQuestions(rng, 28),
   ];
 }

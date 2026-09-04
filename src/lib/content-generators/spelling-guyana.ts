@@ -28,7 +28,13 @@ function mc(
 type Row = [string, string, string[], string];
 
 function rowsToQuestions(rng: Rng, rows: Row[], strandSlug: string, yearGroup: YearGroup, objectiveCode: string, difficulty: DifficultyBand): DraftQuestion[] {
-  return rows.map(([promptText, correct, distractors, explanation]) => mc(rng, { strandSlug, yearGroup, objectiveCode, difficulty, promptText, correct, distractors, explanation }));
+  return rows.flatMap(([promptText, correct, distractors, explanation]) => {
+    const out: DraftQuestion[] = [mc(rng, { strandSlug, yearGroup, objectiveCode, difficulty, promptText, correct, distractors, explanation })];
+    if (correct.split(" ").length <= 3 && !correct.includes(",")) {
+      out.push({ type: "short_answer", subjectSlug: SUBJECT, strandSlug, yearGroup, objectiveCode, difficulty, promptText: `${promptText} (Type the word yourself.)`, explanation, acceptedAnswers: [correct] });
+    }
+    return out;
+  });
 }
 
 // ===================== HOMOPHONES AND TRICKY WORDS ===========================

@@ -641,11 +641,11 @@ export function generateAllMathsQuestionsGuyana(seed = 55100): DraftQuestion[] {
   const out: DraftQuestion[] = [];
   for (const yearGroup of YEARS) {
     for (const band of BANDS) {
-      out.push(...generateNumberOperationsQuestions(rng, yearGroup, band, 16));
-      out.push(...generatePatternsQuestions(rng, yearGroup, band, 8));
-      out.push(...generateGeometryQuestions(rng, yearGroup, band, 12));
-      out.push(...generateMeasurementQuestions(rng, yearGroup, band, 8));
-      out.push(...generateDataQuestions(rng, yearGroup, band, 8));
+      out.push(...generateNumberOperationsQuestions(rng, yearGroup, band, 32));
+      out.push(...generatePatternsQuestions(rng, yearGroup, band, 16));
+      out.push(...generateGeometryQuestions(rng, yearGroup, band, 24));
+      out.push(...generateMeasurementQuestions(rng, yearGroup, band, 16));
+      out.push(...generateDataQuestions(rng, yearGroup, band, 16));
     }
   }
   return out;
