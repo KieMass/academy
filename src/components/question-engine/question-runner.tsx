@@ -325,7 +325,7 @@ export function QuestionRunner({
   );
 }
 
-function QuestionBody({
+export function QuestionBody({
   question,
   response,
   onChange,

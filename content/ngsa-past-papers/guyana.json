@@ -1,0 +1,57 @@
+[
+  {
+    "year": 2021,
+    "subjectSlug": "maths",
+    "subjectLabel": "Mathematics",
+    "paperLabel": "Paper 02",
+    "title": "NGSA 2021 — Mathematics Paper 02",
+    "description": "Extended-response answer booklet — answer Question 1 and three others.",
+    "fileUrl": "/ngsa-past-papers/2021/2021-mathematics-paper-02.pdf",
+    "markingSchemeUrl": "/ngsa-past-papers/2021/2021-mathematics-paper-02-marking-scheme.pdf",
+    "sourceUrl": "https://education.gov.gy/web2/index.php/pri/grade-6/grade-6-past-papers/ng6-assessment-past-papers-1/ng6-assessment-past-papers-mathematics/national-grade-six-assessment-past-papers-mathematics/6515-ngsa-2021-mathematics-paper-2"
+  },
+  {
+    "year": 2021,
+    "subjectSlug": "science",
+    "subjectLabel": "Science",
+    "paperLabel": "Paper 01",
+    "title": "NGSA 2021 — Science Paper 01",
+    "description": "Objective (multiple-choice) test paper.",
+    "fileUrl": "/ngsa-past-papers/2021/2021-science-paper-01.pdf",
+    "markingSchemeUrl": "/ngsa-past-papers/2021/2021-science-paper-02-marking-scheme.pdf",
+    "sourceUrl": "https://education.gov.gy/web2/index.php/ngsa-past-papers/ng6-assessment-past-papers-science/6507-ngsa-2021-science-paper-1"
+  },
+  {
+    "year": 2021,
+    "subjectSlug": "reading",
+    "subjectLabel": "English Language",
+    "paperLabel": "Paper 01",
+    "title": "NGSA 2021 — English Language Paper 01",
+    "description": "Objective (multiple-choice) test paper.",
+    "fileUrl": "/ngsa-past-papers/2021/2021-english-language-paper-01.pdf",
+    "markingSchemeUrl": null,
+    "sourceUrl": "https://education.gov.gy/web2/index.php/pri/grade-6/grade-6-past-papers/ng6-assessment-past-papers/ng6-assessment-past-papers-english/6504-ngsa-2021-english-language-paper-1"
+  },
+  {
+    "year": 2021,
+    "subjectSlug": "reading",
+    "subjectLabel": "English Language",
+    "paperLabel": "Paper 02",
+    "title": "NGSA 2021 — English Language Paper 02",
+    "description": "Extended-response answer booklet.",
+    "fileUrl": "/ngsa-past-papers/2021/2021-english-language-paper-02.pdf",
+    "markingSchemeUrl": null,
+    "sourceUrl": "https://www.education.gov.gy/web2/index.php/pri/grade-6/grade-6-past-papers/ng6-assessment-past-papers/ng6-assessment-past-papers-english/6505-ngsa-2021-english-language-paper-2"
+  },
+  {
+    "year": 2021,
+    "subjectSlug": "social-studies",
+    "subjectLabel": "Social Studies",
+    "paperLabel": "Paper 02",
+    "title": "NGSA 2021 — Social Studies Paper 02",
+    "description": "Extended-response answer booklet.",
+    "fileUrl": "/ngsa-past-papers/2021/2021-social-studies-paper-02.pdf",
+    "markingSchemeUrl": "/ngsa-past-papers/2021/2021-social-studies-paper-01-marking-scheme.pdf",
+    "sourceUrl": "https://education.gov.gy/web2/index.php/ngsa-past-papers/ng6-assessment-past-papers-social-studies/6513-ngsa-2021-social-studies-paper-2"
+  }
+]

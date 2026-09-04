@@ -4,7 +4,7 @@ import { DashboardShell, type NavItem } from "@/components/layout/dashboard-shel
 import { Badge } from "@/components/ui/badge";
 import { Flame } from "lucide-react";
 
-const navItems: NavItem[] = [
+const BASE_NAV_ITEMS: NavItem[] = [
   { href: "/student/dashboard", label: "Today's Tasks", icon: "Home" },
   { href: "/student/badges", label: "Badges", icon: "Trophy" },
   { href: "/student/progress", label: "My Progress", icon: "LineChart" },
@@ -12,7 +12,14 @@ const navItems: NavItem[] = [
 ];
 
 export default async function StudentLayout({ children }: { children: React.ReactNode }) {
-  const { studentProfile, yearGroupLabel } = await requireStudent();
+  const { studentProfile, yearGroupLabel, curriculumSlug } = await requireStudent();
+
+  // NGSA Prep only makes sense for Guyana's Grade 6 assessment — hidden
+  // from the nav entirely rather than shown-but-empty for everyone else.
+  const navItems: NavItem[] =
+    curriculumSlug === "guyana" && studentProfile.yearGroup === "Y6"
+      ? [...BASE_NAV_ITEMS.slice(0, 1), { href: "/student/ngsa", label: "NGSA Prep", icon: "FileText" }, ...BASE_NAV_ITEMS.slice(1)]
+      : BASE_NAV_ITEMS;
 
   return (
     <DashboardShell
