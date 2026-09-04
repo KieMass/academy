@@ -24,8 +24,14 @@ function mcQuestion(
   }
 ): DraftQuestion {
   const uniqueDistractors = [...new Set(opts.distractors.filter((d) => d !== opts.correct))].slice(0, 3);
-  while (uniqueDistractors.length < 3) {
-    uniqueDistractors.push(`${opts.correct}${uniqueDistractors.length + 1}`);
+  // No fake padding when there aren't 3 genuine distractors (e.g. a
+  // True/False question only ever has one real alternative) — a nonsense
+  // option like "False2" is worse than just rendering a 2- or 3-option
+  // question. Only a genuinely empty distractor list (a caller bug) fails,
+  // and fails loudly at generation time rather than shipping a broken
+  // question silently.
+  if (uniqueDistractors.length === 0) {
+    throw new Error(`mcQuestion: no distinct distractors for "${opts.promptText}" (correct: "${opts.correct}")`);
   }
   const optionTexts = shuffle(rng, [opts.correct, ...uniqueDistractors]);
   const options = optionTexts.map((text, i) => ({ id: `opt${i + 1}`, text }));
