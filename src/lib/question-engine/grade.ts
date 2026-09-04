@@ -29,9 +29,41 @@ function normalise(value: string): string {
   return stripThousandsSeparators(value.trim().toLowerCase().replace(/\s+/g, " "));
 }
 
+/** Parses a plain "a/b" fraction (whole non-negative integers either side of
+ * a single slash, e.g. "4/8"). Returns null for anything else — mixed
+ * numbers, negatives and non-fraction strings are left to the exact-string
+ * match, since only simple fractions have the "many equivalent spellings of
+ * one value" problem this exists to solve. A zero denominator returns null
+ * too, so it never gets treated as a valid fraction. */
+function parseSimpleFraction(value: string): { numerator: number; denominator: number } | null {
+  const match = /^(\d+)\/(\d+)$/.exec(value);
+  if (!match) return null;
+  const denominator = Number(match[2]);
+  if (denominator === 0) return null;
+  return { numerator: Number(match[1]), denominator };
+}
+
+/** Content questions store one canonical fraction as the accepted answer
+ * (e.g. "2/4"), but a student who correctly reduces it to lowest terms
+ * (e.g. "1/2") — or, going the other way, leaves an already-simplified
+ * answer unreduced — has still given a mathematically correct answer.
+ * Rather than requiring every generator to enumerate every equivalent
+ * spelling in `acceptedAnswers`, two fractions are compared by
+ * cross-multiplication (a/b == c/d  <=>  a*d == c*b), which is exact
+ * (integer-only) and doesn't care which side is in lowest terms. */
+function fractionsEquivalent(given: string, accepted: string): boolean {
+  const g = parseSimpleFraction(given);
+  const a = parseSimpleFraction(accepted);
+  if (!g || !a) return false;
+  return g.numerator * a.denominator === a.numerator * g.denominator;
+}
+
 function answerMatches(given: string, accepted: string[], caseSensitive = false): boolean {
   const target = caseSensitive ? stripThousandsSeparators(given.trim()) : normalise(given);
-  return accepted.some((a) => (caseSensitive ? stripThousandsSeparators(a.trim()) : normalise(a)) === target);
+  return accepted.some((a) => {
+    const acceptedValue = caseSensitive ? stripThousandsSeparators(a.trim()) : normalise(a);
+    return acceptedValue === target || fractionsEquivalent(target, acceptedValue);
+  });
 }
 
 /**

@@ -26,6 +26,9 @@ import { generateAllMathsQuestionsY3Strands2, generateAllMathsQuestionsY3Strands
 import { generateAllGrammarQuestionsY2Wordbanks, generateAllGrammarQuestionsY3Wordbanks, generateAllGrammarQuestionsY4Wordbanks } from "../src/lib/content-generators/grammar-wordbanks";
 import { generateAllMathsQuestionsGuyana } from "../src/lib/content-generators/maths-guyana";
 import { generateAllGrammarQuestionsGuyana } from "../src/lib/content-generators/grammar-guyana";
+import { generateAllScienceQuestionsGuyana } from "../src/lib/content-generators/science-guyana";
+import { generateAllSocialStudiesQuestionsGuyana } from "../src/lib/content-generators/social-studies-guyana";
+import { generateAllSpellingQuestionsGuyana } from "../src/lib/content-generators/spelling-guyana";
 import type { DraftQuestion } from "../src/lib/content-generators/types";
 
 const db = new PrismaClient();
@@ -182,8 +185,9 @@ function buildCaymanDrafts(): DraftQuestion[] {
   ];
 }
 
-/** Builds the full Guyana draft-question list (procedural Maths generator +
- * a hand-authored Grammar pack — see content/questions/guyana/grammar.json.
+/** Builds the full Guyana draft-question list: procedural generators for
+ * Maths, Grammar, Science, Social Studies and Spelling, plus a
+ * hand-authored Grammar pack (content/questions/guyana/grammar.json).
  * Reading is passage-driven, so its questions come from syncReadingPassages
  * instead of a flat draft list. */
 function buildGuyanaDrafts(): DraftQuestion[] {
@@ -191,6 +195,9 @@ function buildGuyanaDrafts(): DraftQuestion[] {
     ...generateAllMathsQuestionsGuyana(),
     ...readJson<DraftQuestion[]>("questions", "guyana", "grammar.json"),
     ...generateAllGrammarQuestionsGuyana(),
+    ...generateAllScienceQuestionsGuyana(),
+    ...generateAllSocialStudiesQuestionsGuyana(),
+    ...generateAllSpellingQuestionsGuyana(),
   ];
 }
 
@@ -270,9 +277,9 @@ async function main() {
   await syncQuestions(caymanTopics, buildCaymanDrafts());
   await syncReadingPassages(caymanTopics, "cayman");
 
-  // Guyana: Maths (procedural) + Grammar (hand-authored) + Reading
-  // (passage-driven). Science/Social Studies aren't in scope for this pass
-  // — see content/curriculum/guyana/ (no science.json etc.).
+  // Guyana: Maths, Grammar, Science, Social Studies and Spelling
+  // (procedural, plus a hand-authored Grammar pack) + Reading
+  // (passage-driven) — see content/curriculum/guyana/.
   const guyanaId = curriculumIdBySlug.get("guyana");
   if (guyanaId) {
     const guyanaTopics = await ensureTopicsForCurriculum("guyana", guyanaId);

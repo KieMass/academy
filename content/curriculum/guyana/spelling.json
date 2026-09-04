@@ -1,0 +1,312 @@
+{
+  "subjectSlug": "spelling",
+  "subjectName": "Spelling",
+  "frameworks": [
+    "Guyana Language Arts Curriculum Guide (NCERD) \u2014 Writing and Representing (ELO 9: Spelling)",
+    "CXC/NGSA-aligned"
+  ],
+  "icon": "SpellCheck",
+  "color": "cyan",
+  "strands": [
+    {
+      "slug": "homophones-tricky-words",
+      "name": "Homophones and Tricky Words",
+      "description": "High-frequency tricky words and commonly confused homophones, building in difficulty across the grades.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "GY-SP1-HOM-1",
+              "description": "Spell simple high-frequency tricky words correctly, such as the, said, was and you",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "GY-SP2-HOM-1",
+              "description": "Distinguish and spell simple homophones, such as to/too/two and there/their",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GY-SP3-HOM-1",
+              "description": "Spell commonly confused homophones correctly in context, such as its/it's and your/you're",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GY-SP4-HOM-1",
+              "description": "Spell less common homophones and near-homophones correctly, such as whose/who's and affect/effect",
+              "difficultyBands": [
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "GY-SP5-HOM-1",
+              "description": "Spell words often confused because of similar sound or spelling, such as practice/practise and stationary/stationery",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "GY-SP6-HOM-1",
+              "description": "Apply knowledge of word origins and homophones to spell challenging vocabulary correctly",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "plurals-and-suffixes",
+      "name": "Plurals, Prefixes and Suffixes",
+      "description": "Regular and irregular plurals and building words with prefixes and suffixes.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "GY-SP1-AFF-1",
+              "description": "Add -s to form regular plurals",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "GY-SP2-AFF-1",
+              "description": "Form plurals of nouns ending in -s, -x, -ch, -sh and -y",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GY-SP3-AFF-1",
+              "description": "Add common prefixes (un-, re-, dis-) and suffixes (-ful, -less) to root words",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GY-SP4-AFF-1",
+              "description": "Add suffixes beginning with vowels to words ending in -e or a consonant, such as -ing, -ed and -er",
+              "difficultyBands": [
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "GY-SP5-AFF-1",
+              "description": "Spell words with the endings -cious, -tious, -cial and -tial",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "GY-SP6-AFF-1",
+              "description": "Use knowledge of root words, prefixes and suffixes to spell and understand new words",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "compound-and-syllables",
+      "name": "Compound Words and Syllable Patterns",
+      "description": "Building longer words from smaller parts: compound words, silent letters, contractions and syllables.",
+      "years": [
+        {
+          "yearGroup": "Y1",
+          "objectives": [
+            {
+              "code": "GY-SP1-CPD-1",
+              "description": "Blend and spell simple two-part compound words, such as sunhat and backpack",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y2",
+          "objectives": [
+            {
+              "code": "GY-SP2-CPD-1",
+              "description": "Spell compound words made from two smaller known words",
+              "difficultyBands": [
+                "bronze"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y3",
+          "objectives": [
+            {
+              "code": "GY-SP3-CPD-1",
+              "description": "Spell words with common silent letters, such as knee, write and thumb",
+              "difficultyBands": [
+                "bronze",
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y4",
+          "objectives": [
+            {
+              "code": "GY-SP4-CPD-1",
+              "description": "Spell contractions correctly, including using an apostrophe for missing letters",
+              "difficultyBands": [
+                "silver"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y5",
+          "objectives": [
+            {
+              "code": "GY-SP5-CPD-1",
+              "description": "Break multisyllabic words into syllables in order to spell them correctly",
+              "difficultyBands": [
+                "silver",
+                "gold"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        },
+        {
+          "yearGroup": "Y6",
+          "objectives": [
+            {
+              "code": "GY-SP6-CPD-1",
+              "description": "Spell a range of Grade 6 statutory-list and topic-specific words correctly",
+              "difficultyBands": [
+                "gold",
+                "challenge"
+              ],
+              "questionTypes": [
+                "multiple_choice"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
