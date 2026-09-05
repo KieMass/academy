@@ -13,6 +13,20 @@ import { format } from "date-fns";
 
 const COUNTS = [5, 10, 20] as const;
 
+const LEVEL_LABELS: Record<string, string> = {
+  BRONZE: "Bronze",
+  SILVER: "Silver",
+  GOLD: "Gold",
+  CHALLENGE: "Challenge",
+};
+
+const LEVEL_CLASSES: Record<string, string> = {
+  BRONZE: "bg-amber-700/10 text-amber-800 border-amber-700/30 dark:text-amber-500",
+  SILVER: "bg-slate-400/10 text-slate-600 border-slate-400/30 dark:text-slate-300",
+  GOLD: "bg-yellow-400/15 text-yellow-700 border-yellow-500/30 dark:text-yellow-400",
+  CHALLENGE: "bg-fuchsia-500/10 text-fuchsia-700 border-fuchsia-500/30 dark:text-fuchsia-400",
+};
+
 export default async function ParentResultsPage({ searchParams }: PageProps<"/parent/results">) {
   const { parentProfile } = await requireParent();
   const params = await searchParams;
@@ -83,6 +97,10 @@ export default async function ParentResultsPage({ searchParams }: PageProps<"/pa
           const total = assignment.attempts.length;
           const correct = assignment.attempts.filter((a) => a.isCorrect).length;
           const scorePct = total > 0 ? Math.round((correct / total) * 100) : 0;
+          // Every question in an assignment session is drawn from the same
+          // level the student picked when they started it, so the first
+          // attempt's question tells us the level for the whole assignment.
+          const level = assignment.attempts[0]?.question.difficulty;
           return (
             <Card key={assignment.id} className="overflow-hidden py-0">
               <Collapsible>
@@ -103,6 +121,11 @@ export default async function ParentResultsPage({ searchParams }: PageProps<"/pa
                         </div>
                       </div>
                       <div className="flex items-center gap-2">
+                        {level && (
+                          <Badge variant="outline" className={LEVEL_CLASSES[level]}>
+                            {LEVEL_LABELS[level] ?? level}
+                          </Badge>
+                        )}
                         <Badge variant="outline" className="capitalize">{assignment.status.toLowerCase().replace("_", " ")}</Badge>
                         <Badge variant={scorePct >= 75 ? "default" : "outline"}>
                           {correct}/{total} correct · {scorePct}%
