@@ -143,14 +143,15 @@ model StudentProfile {
   // Accessibility preferences (dyslexia-friendly font, font scale, contrast, read-aloud)
   accessibilityPrefs String @default("{}") // JSON blob, see lib/accessibility/types.ts
 
-  attempts     QuestionAttempt[]
-  spellingRuns SpellingRun[]
-  masteries    TopicMastery[]
-  badges       StudentBadge[]
-  xpEvents     XpEvent[]
-  assignments  Assignment[]
-  worksheets   Worksheet[]
-  flags        QuestionFlag[]
+  attempts           QuestionAttempt[]
+  spellingRuns       SpellingRun[]
+  masteries          TopicMastery[]
+  badges             StudentBadge[]
+  xpEvents           XpEvent[]
+  assignments        Assignment[]
+  worksheets         Worksheet[]
+  flags              QuestionFlag[]
+  timesTableSessions TimesTableSession[]
 
   createdAt DateTime @default(now())
 
@@ -396,6 +397,32 @@ model TopicMastery {
   lastPracticedAt    DateTime?
 
   @@unique([studentId, topicId])
+}
+
+// ---------------------------------------------------------------------------
+// Times tables speed drills — curriculum-agnostic, so unlike everything
+// above this has no Topic/Subject/Curriculum link. Facts are generated on
+// the fly (see lib/times-tables/) rather than stored as ContentQuestion
+// rows; only the round's summary is persisted, once, when the round ends.
+// ---------------------------------------------------------------------------
+
+model TimesTableSession {
+  id        String         @id @default(cuid())
+  studentId String
+  student   StudentProfile @relation(fields: [studentId], references: [id], onDelete: Cascade)
+
+  tables       String // JSON int array, e.g. "[6,7,8]" — tables practised this round
+  roundSeconds Int // the round length the student picked
+  endedEarly   Boolean @default(false) // finished via "Finish now" rather than the clock running out
+
+  questionsAnswered Int
+  correctCount      Int
+  avgCorrectSpeedMs Int? // avg time-to-answer for correct answers only; null if none were correct
+  tableStats        String // JSON: { [table]: { answered, correct, avgCorrectSpeedMs } } — per-table breakdown
+
+  createdAt DateTime @default(now())
+
+  @@index([studentId, createdAt])
 }
 
 // ---------------------------------------------------------------------------

@@ -9,7 +9,7 @@ import { Progress } from "@/components/ui/progress";
 import { SubjectIcon } from "@/components/subject-icon";
 import { subjectColorClasses } from "@/lib/subject-colors";
 import { xpProgressWithinLevel } from "@/lib/gamification/xp";
-import { ArrowRight, Target, ClipboardList, Flame } from "lucide-react";
+import { ArrowRight, Target, ClipboardList, Flame, Zap } from "lucide-react";
 
 export default async function StudentDashboardPage() {
   const { studentProfile, curriculumSlug, yearGroupLabel } = await requireStudent();
@@ -63,6 +63,22 @@ export default async function StudentDashboardPage() {
           </div>
         </div>
       </div>
+
+      <Link
+        href="/student/times-tables"
+        className="flex items-center justify-between rounded-2xl border bg-card px-5 py-4 transition hover:-translate-y-0.5 hover:shadow-lg"
+      >
+        <div className="flex items-center gap-3">
+          <div className="flex size-11 items-center justify-center rounded-2xl bg-accent/15">
+            <Zap className="size-5.5 text-accent" />
+          </div>
+          <div>
+            <p className="font-heading font-semibold">Times Tables Speed Drill</p>
+            <p className="text-xs text-muted-foreground">Pick your tables, set a timer, and beat your best speed.</p>
+          </div>
+        </div>
+        <ArrowRight className="size-4 text-muted-foreground" />
+      </Link>
 
       {activeAssignments.length > 0 && (
         <Card className="border-accent/40 bg-accent/5">
