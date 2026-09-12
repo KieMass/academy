@@ -6,7 +6,7 @@ import { requireParent } from "@/lib/auth/guards";
 import { fromContentQuestion } from "@/lib/question-engine/mapper";
 import { WorksheetDocument } from "@/lib/pdf/worksheet-document";
 import { getStudentOverview } from "@/lib/student-stats";
-import { YEAR_GROUPS } from "@/lib/curriculum/types";
+import { YEAR_GROUPS, DIFFICULTY_BANDS } from "@/lib/curriculum/types";
 
 const schema = z.object({
   subjectSlug: z.string(),
@@ -14,6 +14,10 @@ const schema = z.object({
   yearGroup: z.enum(YEAR_GROUPS),
   kind: z.enum(["TEN_QUESTION", "TWENTY_QUESTION", "ASSESSMENT", "INTERVENTION"]),
   studentId: z.string().optional(), // required for INTERVENTION; used to print the student's name otherwise
+  // Omit to keep the default: questions spread across all difficulty bands,
+  // easiest first (see the orderBy below). Passing a band restricts the
+  // whole worksheet to just that difficulty.
+  difficulty: z.enum(DIFFICULTY_BANDS).optional(),
 });
 
 const QUESTION_COUNT: Record<string, number> = {
@@ -38,7 +42,7 @@ export async function POST(req: Request) {
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.issues[0]?.message ?? "Invalid request." }, { status: 400 });
   }
-  const { subjectSlug, strandSlugs, yearGroup, kind, studentId } = parsed.data;
+  const { subjectSlug, strandSlugs, yearGroup, kind, studentId, difficulty } = parsed.data;
   const targetCount = QUESTION_COUNT[kind];
 
   let student: { id: string; displayName: string } | null = null;
@@ -76,13 +80,15 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "No topics available to build this worksheet." }, { status: 404 });
   }
 
-  // Spread questions evenly across the selected topics, mixed difficulty.
+  // Spread questions evenly across the selected topics. Left at the default,
+  // difficulty is mixed (easiest first, via orderBy); a parent who picks a
+  // specific band gets the whole worksheet restricted to it instead.
   const perTopic = Math.max(1, Math.ceil(targetCount / topicIds.length));
   const rows = (
     await Promise.all(
       topicIds.map((topicId) =>
         db.contentQuestion.findMany({
-          where: { topicId, status: "PUBLISHED" },
+          where: { topicId, status: "PUBLISHED", ...(difficulty ? { difficulty: difficulty.toUpperCase() as never } : {}) },
           take: perTopic,
           orderBy: { difficulty: "asc" },
           include: { passage: true },
@@ -94,7 +100,10 @@ export async function POST(req: Request) {
     .slice(0, targetCount);
 
   if (rows.length === 0) {
-    return NextResponse.json({ error: "No published questions found for this selection." }, { status: 404 });
+    return NextResponse.json(
+      { error: difficulty ? `No published ${difficulty} questions found for this selection.` : "No published questions found for this selection." },
+      { status: 404 }
+    );
   }
 
   // Cluster every question onto the same page as its reading passage — topic
