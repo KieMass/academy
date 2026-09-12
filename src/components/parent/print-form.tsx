@@ -9,6 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { Printer, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { formatYearGroup } from "@/lib/curriculum/label";
+import { DIFFICULTY_BANDS, type DifficultyBand } from "@/lib/curriculum/types";
 
 const MAX_TOPICS = 4;
 
@@ -35,11 +36,20 @@ const KINDS = [
   { value: "INTERVENTION", label: "Targeted Intervention Paper (weak areas)", needsStrand: false },
 ] as const;
 
+// "mixed" is the current default behaviour — questions spread across all
+// difficulty bands — kept as an explicit option rather than leaving the
+// picker empty, so a parent who doesn't care can just leave it alone.
+const DIFFICULTY_OPTIONS = [
+  { value: "mixed", label: "Mixed (default)" },
+  ...DIFFICULTY_BANDS.map((d) => ({ value: d, label: d[0].toUpperCase() + d.slice(1) })),
+] as const;
+
 export function PrintForm({ students, curriculum, yearGroupLabel }: { students: Student[]; curriculum: CurriculumSubject[]; yearGroupLabel: string }) {
   const [studentId, setStudentId] = useState(students[0]?.id ?? "");
   const [subjectSlug, setSubjectSlug] = useState(curriculum[0]?.subjectSlug ?? "");
   const [strandSlugs, setStrandSlugs] = useState<string[]>([]);
   const [kind, setKind] = useState<(typeof KINDS)[number]["value"]>("TEN_QUESTION");
+  const [difficulty, setDifficulty] = useState<"mixed" | DifficultyBand>("mixed");
   const [generating, setGenerating] = useState(false);
 
   const student = students.find((s) => s.id === studentId);
@@ -86,6 +96,7 @@ export function PrintForm({ students, curriculum, yearGroupLabel }: { students: 
           yearGroup: student.yearGroup,
           kind,
           studentId: student.id,
+          difficulty: difficulty === "mixed" ? undefined : difficulty,
         }),
       });
       if (!res.ok) {
@@ -162,6 +173,22 @@ export function PrintForm({ students, curriculum, yearGroupLabel }: { students: 
             <SelectContent>
               {KINDS.map((k) => (
                 <SelectItem key={k.value} value={k.value}>{k.label}</SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div className="space-y-1.5">
+          <Label>Difficulty</Label>
+          <Select
+            items={DIFFICULTY_OPTIONS.map((d) => ({ value: d.value, label: d.label }))}
+            value={difficulty}
+            onValueChange={(v) => v && setDifficulty(v as typeof difficulty)}
+          >
+            <SelectTrigger className="w-full"><SelectValue /></SelectTrigger>
+            <SelectContent>
+              {DIFFICULTY_OPTIONS.map((d) => (
+                <SelectItem key={d.value} value={d.value}>{d.label}</SelectItem>
               ))}
             </SelectContent>
           </Select>
