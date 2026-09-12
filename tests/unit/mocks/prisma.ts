@@ -34,6 +34,7 @@ export function createMockDb() {
     parentProfile: { findMany: vi.fn() },
     topic: { findFirst: vi.fn(), findMany: vi.fn(), findUnique: vi.fn() },
     subject: { findUnique: vi.fn(), findMany: vi.fn() },
+    timesTableSession: { create: vi.fn(), findMany: vi.fn() },
     $queryRaw: vi.fn(),
   };
 }

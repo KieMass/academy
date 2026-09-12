@@ -6,6 +6,7 @@ import { Flame } from "lucide-react";
 
 const BASE_NAV_ITEMS: NavItem[] = [
   { href: "/student/dashboard", label: "Today's Tasks", icon: "Home" },
+  { href: "/student/times-tables", label: "Times Tables", icon: "Zap" },
   { href: "/student/badges", label: "Badges", icon: "Trophy" },
   { href: "/student/progress", label: "My Progress", icon: "LineChart" },
   { href: "/student/settings", label: "Settings", icon: "Settings" },
