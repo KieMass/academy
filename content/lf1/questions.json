@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "lf1-1-01",
+    "outcome": 1,
+    "objective": "1.1",
+    "question": "Which of the following best describes the role of financial intermediation in the economy?",
+    "options": [
+      "Setting the Bank of England base rate",
+      "Channelling money from people who have surplus funds to people and businesses who need to borrow",
+      "Printing and distributing bank notes",
+      "Collecting income tax on behalf of HMRC"
+    ],
+    "answer": 1,
+    "explanation": "Financial intermediaries such as banks, insurers and pension funds bring savers and borrowers together, moving surplus funds to where they can be used productively."
+  },
+  {
+    "id": "lf1-1-02",
+    "outcome": 1,
+    "objective": "1.1",
+    "question": "Life insurers and pension funds are major institutional investors. What is the main economic benefit of this?",
+    "options": [
+      "They guarantee that share prices will rise",
+      "They remove the need for government borrowing",
+      "They provide long-term capital to companies and government through investing in shares, bonds and property",
+      "They ensure that every customer receives a fixed return"
+    ],
+    "answer": 2,
+    "explanation": "Because they hold large pools of long-term money, life and pension funds invest in equities, gilts, corporate bonds and property, providing capital that supports economic growth."
+  },
+  {
+    "id": "lf1-1-03",
+    "outcome": 1,
+    "objective": "1.1",
+    "question": "Which of these is a contribution the financial services sector makes to the UK economy?",
+    "options": [
+      "It generates significant tax revenue, employment and overseas earnings",
+      "It sets the level of state pension each year",
+      "It is responsible for controlling inflation",
+      "It decides the annual National Insurance rates"
+    ],
+    "answer": 0,
+    "explanation": "The sector is a major employer and taxpayer and earns substantial income from overseas customers ('invisible earnings'). Inflation, state pensions and NI rates are set by the Bank of England and government."
+  },
+  {
+    "id": "lf1-1-04",
+    "outcome": 1,
+    "objective": "1.2",
+    "question": "Insurance works by pooling risk. What does this mean?",
+    "options": [
+      "Each policyholder pays for their own claim in full",
+      "The insurer invests all premiums in a single fund",
+      "Only customers who have claimed before pay premiums",
+      "The premiums of the many pay for the losses of the few"
+    ],
+    "answer": 3,
+    "explanation": "Pooling means a large number of people each pay a relatively small premium into a common pool, from which the losses of the relatively few who suffer an insured event are paid."
+  },
+  {
+    "id": "lf1-1-05",
+    "outcome": 1,
+    "objective": "1.2",
+    "question": "Which type of risk is generally insurable?",
+    "options": [
+      "Speculative risk, such as buying shares that may rise or fall",
+      "Pure risk, where the only outcomes are a loss or no loss",
+      "The risk of a business making a poor pricing decision",
+      "Gambling losses"
+    ],
+    "answer": 1,
+    "explanation": "Pure risks (e.g. death, illness, fire) offer only loss or no loss and are insurable. Speculative risks also carry the chance of a gain and are generally not insurable."
+  },
+  {
+    "id": "lf1-1-06",
+    "outcome": 1,
+    "objective": "1.2",
+    "question": "Which of the following is an example of the social value of life and protection insurance?",
+    "options": [
+      "It guarantees investment growth for policyholders",
+      "It removes the need for any state benefits",
+      "It helps families maintain their standard of living after a death or illness, reducing reliance on the state",
+      "It allows insurers to avoid regulation"
+    ],
+    "answer": 2,
+    "explanation": "Protection insurance provides financial security for dependants and reduces the burden on state welfare, as well as giving peace of mind."
+  },
+  {
+    "id": "lf1-1-07",
+    "outcome": 1,
+    "objective": "1.3",
+    "question": "The UK pensions system is often described as having three pillars. What are they?",
+    "options": [
+      "State pension, workplace pensions and private (individual) pensions",
+      "Annuities, drawdown and lump sums",
+      "The FCA, the PRA and The Pensions Regulator",
+      "Defined benefit, defined contribution and hybrid schemes"
+    ],
+    "answer": 0,
+    "explanation": "The three pillars are: state provision, occupational/workplace pensions arranged through employers, and private pensions arranged by individuals."
+  },
+  {
+    "id": "lf1-1-08",
+    "outcome": 1,
+    "objective": "1.3",
+    "question": "Under automatic enrolment, what must an employer do for eligible jobholders?",
+    "options": [
+      "Pay their entire pension contribution",
+      "Enrol them into a qualifying workplace pension scheme and make employer contributions",
+      "Offer them a defined benefit scheme",
+      "Pay them the state pension early"
+    ],
+    "answer": 1,
+    "explanation": "Employers must automatically enrol eligible jobholders into a qualifying scheme and pay at least the minimum employer contribution. Workers can choose to opt out."
+  },
+  {
+    "id": "lf1-1-09",
+    "outcome": 1,
+    "objective": "1.3",
+    "question": "How many qualifying years of National Insurance contributions are normally needed to receive the full new State Pension?",
+    "options": [
+      "10 years",
+      "25 years",
+      "30 years",
+      "35 years"
+    ],
+    "answer": 3,
+    "explanation": "A full new State Pension normally needs 35 qualifying years. At least 10 qualifying years are usually needed to receive any new State Pension at all."
+  },
+  {
+    "id": "lf1-2-01",
+    "outcome": 2,
+    "objective": "2.1",
+    "question": "A couple in their early 30s have just bought their first home with a repayment mortgage and have a baby. Which financial need is likely to be the MOST pressing?",
+    "options": [
+      "Life and income protection to cover the mortgage and family if one of them dies or cannot work",
+      "Choosing a retirement income option",
+      "Inheritance tax planning for a large estate",
+      "Long-term care funding"
+    ],
+    "answer": 0,
+    "explanation": "At the family-building stage, dependants and debts are at their highest, so protecting income and repaying the mortgage on death or illness are priority needs."
+  },
+  {
+    "id": "lf1-2-02",
+    "outcome": 2,
+    "objective": "2.1",
+    "question": "At which stage of the personal financial lifecycle are people typically able to save most heavily towards retirement?",
+    "options": [
+      "Young adulthood, when starting work",
+      "Early family stage, with young children",
+      "The 'empty nest' stage, after children have left home and the mortgage is reduced",
+      "Retirement"
+    ],
+    "answer": 2,
+    "explanation": "In the empty nest stage, earnings are often at their peak and outgoings such as childcare and mortgage payments are reduced, freeing money for pension and savings."
+  },
+  {
+    "id": "lf1-2-03",
+    "outcome": 2,
+    "objective": "2.1",
+    "question": "Which financial need is typically most relevant for someone who has recently retired?",
+    "options": [
+      "Arranging a mortgage for a first home",
+      "Securing a sustainable income and managing the risk of outliving their savings",
+      "Starting to build an emergency fund for the first time",
+      "Buying decreasing term assurance to protect a new loan"
+    ],
+    "answer": 1,
+    "explanation": "In retirement the focus moves to turning savings into a reliable income, managing longevity risk and, later, planning for care and passing on wealth."
+  },
+  {
+    "id": "lf1-2-04",
+    "outcome": 2,
+    "objective": "2.2",
+    "question": "During a fact-find, which of the following is an example of 'soft' information?",
+    "options": [
+      "The customer's date of birth",
+      "The customer's monthly mortgage payment",
+      "The customer's attitudes, priorities and plans for the future",
+      "The value of the customer's existing pension"
+    ],
+    "answer": 2,
+    "explanation": "Hard facts are objective and verifiable (dates, income, assets). Soft facts are subjective, such as the customer's goals, feelings, priorities and attitude to risk."
+  },
+  {
+    "id": "lf1-2-05",
+    "outcome": 2,
+    "objective": "2.2",
+    "question": "Why is it important to establish a customer's capacity for loss before recommending an investment?",
+    "options": [
+      "To work out how much commission can be earned",
+      "To decide which fund manager to use",
+      "Because it is only needed for customers over state pension age",
+      "To understand how much of a fall in value the customer could withstand without it materially affecting their standard of living"
+    ],
+    "answer": 3,
+    "explanation": "Capacity for loss is the customer's financial ability to absorb losses. It is assessed alongside attitude to risk so that recommendations are suitable."
+  },
+  {
+    "id": "lf1-2-06",
+    "outcome": 2,
+    "objective": "2.2",
+    "question": "Which of the following should normally be established BEFORE recommending a long-term investment?",
+    "options": [
+      "Whether the customer has an adequate emergency fund and existing protection in place",
+      "The customer's favourite fund manager",
+      "Whether the customer prefers email or post",
+      "How many other advisers the customer has spoken to"
+    ],
+    "answer": 0,
+    "explanation": "Good practice is to ensure core needs (accessible emergency savings, protection, and management of expensive debt) are addressed before committing money to long-term investments."
+  },
+  {
+    "id": "lf1-3-01",
+    "outcome": 3,
+    "objective": "3.1",
+    "question": "What is the main feature of level term assurance?",
+    "options": [
+      "It pays out on death at any time, whenever it occurs",
+      "It pays a fixed sum assured if the life assured dies within a specified term",
+      "It builds up a cash-in value over time",
+      "Its sum assured reduces each year in line with a repayment mortgage"
+    ],
+    "answer": 1,
+    "explanation": "Level term pays a fixed lump sum if death occurs within the policy term. If the life assured survives the term, nothing is paid and there is no cash-in value."
+  },
+  {
+    "id": "lf1-3-02",
+    "outcome": 3,
+    "objective": "3.1",
+    "question": "Decreasing term assurance is most commonly used to protect which of the following?",
+    "options": [
+      "An interest-only mortgage",
+      "A family's future inheritance tax liability",
+      "A capital and interest (repayment) mortgage",
+      "Retirement income"
+    ],
+    "answer": 2,
+    "explanation": "The sum assured reduces over the term, broadly matching the reducing balance of a repayment mortgage. An interest-only mortgage needs level cover because the debt does not reduce."
+  },
+  {
+    "id": "lf1-3-03",
+    "outcome": 3,
+    "objective": "3.1",
+    "question": "Family income benefit pays out:",
+    "options": [
+      "A regular tax-free income from the date of death until the end of the policy term",
+      "A single lump sum on survival to the end of the term",
+      "An income for life to the surviving spouse regardless of the term",
+      "A refund of all premiums paid if no claim is made"
+    ],
+    "answer": 0,
+    "explanation": "Family income benefit is a form of decreasing term assurance that pays a regular income from the date of a claim until the end of the chosen term, often chosen to cover the years until children are independent."
+  },
+  {
+    "id": "lf1-3-04",
+    "outcome": 3,
+    "objective": "3.1",
+    "question": "Which type of life assurance is guaranteed to pay out eventually, provided premiums continue to be paid?",
+    "options": [
+      "Level term assurance",
+      "Decreasing term assurance",
+      "Convertible term assurance",
+      "Whole of life assurance"
+    ],
+    "answer": 3,
+    "explanation": "Whole of life cover has no fixed term and pays out on death whenever it occurs, so a claim is certain as long as the policy is kept in force."
+  },
+  {
+    "id": "lf1-3-05",
+    "outcome": 3,
+    "objective": "3.1",
+    "question": "What is the main advantage of convertible term assurance?",
+    "options": [
+      "It pays out on diagnosis of a serious illness",
+      "It can be converted into a whole of life or endowment policy without further medical evidence",
+      "It has a cash-in value from the first year",
+      "It automatically increases the sum assured each year"
+    ],
+    "answer": 1,
+    "explanation": "The conversion option allows the policyholder to take out a new permanent policy without proving their health again, which is valuable if their health deteriorates."
+  },
+  {
+    "id": "lf1-3-06",
+    "outcome": 3,
+    "objective": "3.1",
+    "question": "Why might a life policy be written in trust?",
+    "options": [
+      "To make the premiums tax-deductible",
+      "To guarantee a higher sum assured",
+      "So that proceeds can be paid quickly to beneficiaries and usually fall outside the policyholder's estate for inheritance tax",
+      "So that the insurer does not need to see a death certificate"
+    ],
+    "answer": 2,
+    "explanation": "Writing a policy in trust means proceeds can be paid to the trustees without waiting for probate, and they are usually not part of the deceased's estate for inheritance tax."
+  },
+  {
+    "id": "lf1-3-07",
+    "outcome": 3,
+    "objective": "3.2",
+    "question": "What does critical illness cover provide?",
+    "options": [
+      "A lump sum on diagnosis of a specified serious illness that meets the policy definition",
+      "A replacement income while the policyholder is unable to work due to any illness",
+      "Payment of private hospital treatment costs",
+      "A pension if the policyholder retires early due to ill health"
+    ],
+    "answer": 0,
+    "explanation": "Critical illness cover pays a lump sum on diagnosis of a defined condition (e.g. certain cancers, heart attack, stroke) that meets the policy's definitions."
+  },
+  {
+    "id": "lf1-3-08",
+    "outcome": 3,
+    "objective": "3.2",
+    "question": "In an income protection policy, what is the 'deferred period'?",
+    "options": [
+      "The time allowed for the insurer to investigate a claim",
+      "The period after the policy starts during which no claim can be made for any reason",
+      "The length of time benefit is paid",
+      "The period of incapacity that must pass before benefit starts to be paid"
+    ],
+    "answer": 3,
+    "explanation": "The deferred period (e.g. 4, 13, 26 or 52 weeks) is the time the policyholder must be unable to work before benefit begins. A longer deferred period usually means a lower premium."
+  },
+  {
+    "id": "lf1-3-09",
+    "outcome": 3,
+    "objective": "3.2",
+    "question": "How is benefit from an individually owned income protection policy normally taxed?",
+    "options": [
+      "Taxed as earned income",
+      "Tax-free",
+      "Subject to capital gains tax",
+      "Taxed at 20% at source"
+    ],
+    "answer": 1,
+    "explanation": "Benefits from income protection that an individual pays for personally are normally paid free of income tax. Group schemes paid for by the employer are taxed as earnings when passed to the employee."
+  },
+  {
+    "id": "lf1-3-10",
+    "outcome": 3,
+    "objective": "3.2",
+    "question": "Which definition of incapacity is the MOST favourable to an income protection policyholder?",
+    "options": [
+      "Unable to carry out any occupation",
+      "Unable to carry out a number of activities of daily living",
+      "Unable to carry out their own occupation",
+      "Unable to carry out any suited occupation"
+    ],
+    "answer": 2,
+    "explanation": "An 'own occupation' definition pays if the policyholder cannot do their own job, which is easier to meet than having to be unable to do any job or daily activities."
+  },
+  {
+    "id": "lf1-3-11",
+    "outcome": 3,
+    "objective": "3.2",
+    "question": "What is the main purpose of private medical insurance?",
+    "options": [
+      "To pay the costs of private treatment for acute conditions",
+      "To replace lost earnings during illness",
+      "To pay a lump sum on death",
+      "To fund long-term residential care"
+    ],
+    "answer": 0,
+    "explanation": "PMI pays for private diagnosis and treatment of acute conditions that respond to treatment, allowing quicker access and choice. It does not replace income."
+  },
+  {
+    "id": "lf1-3-12",
+    "outcome": 3,
+    "objective": "3.1",
+    "question": "A joint life first death policy pays out:",
+    "options": [
+      "When both lives assured have died",
+      "Only if both lives assured die at the same time",
+      "Twice – once on each death",
+      "On the first death of the two lives assured, after which the policy ends"
+    ],
+    "answer": 3,
+    "explanation": "A joint life first death policy pays once, on the first death, which is often used to protect a joint mortgage. A joint life second death policy pays on the second death."
+  },
+  {
+    "id": "lf1-4-01",
+    "outcome": 4,
+    "objective": "4.1",
+    "question": "What is the main purpose of an emergency fund?",
+    "options": [
+      "To achieve the highest possible long-term growth",
+      "To provide easily accessible money to cover unexpected expenses or a temporary loss of income",
+      "To fund retirement income",
+      "To reduce inheritance tax"
+    ],
+    "answer": 1,
+    "explanation": "An emergency fund, often suggested as three to six months' essential spending, is held in an easy-access, low-risk account so it is available when needed."
+  },
+  {
+    "id": "lf1-4-02",
+    "outcome": 4,
+    "objective": "4.1",
+    "question": "Which statement about risk and return is correct?",
+    "options": [
+      "Cash deposits carry no risk of any kind",
+      "Higher-risk investments always produce higher returns",
+      "Investments with the potential for higher returns generally carry a greater risk of loss",
+      "Diversification increases overall risk"
+    ],
+    "answer": 2,
+    "explanation": "Higher potential return generally comes with higher risk; it is not guaranteed. Even cash carries inflation risk. Diversification helps reduce risk."
+  },
+  {
+    "id": "lf1-4-03",
+    "outcome": 4,
+    "objective": "4.1",
+    "question": "Why can holding money in cash over the long term reduce its value in real terms?",
+    "options": [
+      "Because inflation may rise faster than the interest earned, reducing purchasing power",
+      "Because banks charge capital gains tax on deposits",
+      "Because cash deposits are not covered by any compensation scheme",
+      "Because interest is never paid on savings accounts"
+    ],
+    "answer": 0,
+    "explanation": "If inflation exceeds the interest earned, the money buys less over time. This is known as inflation risk."
+  },
+  {
+    "id": "lf1-4-04",
+    "outcome": 4,
+    "objective": "4.2",
+    "question": "What is the overall annual ISA subscription limit for an adult in the 2026/27 tax year?",
+    "options": [
+      "£4,000",
+      "£9,000",
+      "£12,000",
+      "£20,000"
+    ],
+    "answer": 3,
+    "explanation": "The overall adult ISA allowance is £20,000 in 2026/27. The Lifetime ISA limit (£4,000) counts towards it. The Junior ISA limit is £9,000."
+  },
+  {
+    "id": "lf1-4-05",
+    "outcome": 4,
+    "objective": "4.2",
+    "question": "What is the tax treatment of income and gains within a stocks and shares ISA?",
+    "options": [
+      "Income is taxed at 20% but gains are tax-free",
+      "Both income and gains are free of income tax and capital gains tax",
+      "Gains are taxed but income is tax-free",
+      "Tax is deferred until the ISA is closed"
+    ],
+    "answer": 1,
+    "explanation": "Income and gains within an ISA are free of UK income tax and capital gains tax, and withdrawals are tax-free."
+  },
+  {
+    "id": "lf1-4-06",
+    "outcome": 4,
+    "objective": "4.2",
+    "question": "A Lifetime ISA can be opened by someone aged 18 to 39. What does the government add to contributions?",
+    "options": [
+      "A 10% bonus",
+      "Basic-rate tax relief of 20%",
+      "A 25% bonus, on contributions of up to £4,000 a year",
+      "A 50% bonus for first-time buyers only"
+    ],
+    "answer": 2,
+    "explanation": "The government adds a 25% bonus on up to £4,000 of contributions each year (maximum £1,000). Withdrawals other than for a first home, after age 60 or on terminal illness usually incur a 25% charge."
+  },
+  {
+    "id": "lf1-4-07",
+    "outcome": 4,
+    "objective": "4.2",
+    "question": "Which is a key feature of an onshore investment bond?",
+    "options": [
+      "Up to 5% of the original investment can be withdrawn each year for 20 years with no immediate tax liability",
+      "All withdrawals are completely tax-free",
+      "The investor pays capital gains tax on any gains",
+      "It must be held until age 55"
+    ],
+    "answer": 0,
+    "explanation": "Onshore bonds are single-premium life policies. The fund is taxed within the insurer, and the investor can take 5% a year (cumulative) of the premium for 20 years with tax deferred."
+  },
+  {
+    "id": "lf1-4-08",
+    "outcome": 4,
+    "objective": "4.2",
+    "question": "What is a key feature of a gilt?",
+    "options": [
+      "It is a share in a UK company",
+      "It is a bond issued by a local bank",
+      "It is a deposit account with a building society",
+      "It is a fixed-interest security issued by the UK government"
+    ],
+    "answer": 3,
+    "explanation": "Gilts are UK government bonds. They normally pay a fixed interest (coupon) and repay a set amount at redemption, and are regarded as very secure."
+  },
+  {
+    "id": "lf1-4-09",
+    "outcome": 4,
+    "objective": "4.2",
+    "question": "What does owning ordinary shares in a company give the investor?",
+    "options": [
+      "A guaranteed fixed income each year",
+      "Part-ownership of the company, with potential dividends and capital growth",
+      "A loan to the company repayable on a set date",
+      "Protection of the original capital by the FSCS against falls in value"
+    ],
+    "answer": 1,
+    "explanation": "Shareholders own part of the company. Dividends are not guaranteed and the share price can go down as well as up. The FSCS does not protect against investment losses."
+  },
+  {
+    "id": "lf1-4-10",
+    "outcome": 4,
+    "objective": "4.3",
+    "question": "How does an investment trust differ from a unit trust?",
+    "options": [
+      "An investment trust is open-ended and creates new units when investors buy",
+      "An investment trust cannot invest in shares",
+      "An investment trust is a closed-ended company whose shares can trade at a discount or premium to its net asset value",
+      "An investment trust always guarantees the original capital"
+    ],
+    "answer": 2,
+    "explanation": "Investment trusts are closed-ended listed companies with a fixed number of shares. Their share price is set by supply and demand, so it can differ from the value of the underlying assets. They can also borrow (gear)."
+  },
+  {
+    "id": "lf1-4-11",
+    "outcome": 4,
+    "objective": "4.3",
+    "question": "What is the aim of a passive (tracker) fund?",
+    "options": [
+      "To replicate the performance of a chosen market index, usually at low cost",
+      "To beat the market through the fund manager's stock selection",
+      "To guarantee a positive return every year",
+      "To invest only in cash deposits"
+    ],
+    "answer": 0,
+    "explanation": "Tracker funds aim to match an index such as the FTSE 100 rather than outperform it, which typically means lower charges than actively managed funds."
+  },
+  {
+    "id": "lf1-4-12",
+    "outcome": 4,
+    "objective": "4.3",
+    "question": "With-profits funds use 'smoothing'. What does this mean?",
+    "options": [
+      "The fund only invests in low-risk assets",
+      "Charges are spread evenly over the life of the policy",
+      "The fund value is recalculated daily",
+      "Some returns from good years are held back to support bonuses in poorer years, reducing volatility"
+    ],
+    "answer": 3,
+    "explanation": "Smoothing evens out the peaks and troughs of investment returns. Returns are added through regular (reversionary) and terminal bonuses, and a market value reduction may apply on early exit."
+  },
+  {
+    "id": "lf1-4-13",
+    "outcome": 4,
+    "objective": "4.3",
+    "question": "What is the main benefit of a multi-asset (managed) fund for an inexperienced investor?",
+    "options": [
+      "It guarantees the return of the original investment",
+      "It gives a diversified spread across different asset classes within a single fund",
+      "It invests only in property",
+      "It is not subject to any charges"
+    ],
+    "answer": 1,
+    "explanation": "Multi-asset funds spread money across equities, bonds, property and cash, giving diversification and professional management in one product."
+  },
+  {
+    "id": "lf1-5-01",
+    "outcome": 5,
+    "objective": "5.1",
+    "question": "In a defined benefit (final salary) pension scheme, who bears the investment risk?",
+    "options": [
+      "The member",
+      "The pension provider's shareholders only",
+      "The employer (scheme sponsor)",
+      "The Financial Services Compensation Scheme"
+    ],
+    "answer": 2,
+    "explanation": "A DB scheme promises a pension based on salary and service, so the employer must make up any shortfall in the fund. In a DC scheme the member bears the investment risk."
+  },
+  {
+    "id": "lf1-5-02",
+    "outcome": 5,
+    "objective": "5.1",
+    "question": "What determines the size of the pension fund in a defined contribution scheme?",
+    "options": [
+      "The contributions paid, the investment returns achieved and the charges deducted",
+      "The member's final salary and years of service",
+      "The state pension age",
+      "A guaranteed rate set by the regulator"
+    ],
+    "answer": 0,
+    "explanation": "In a DC (money purchase) scheme, the fund depends on contributions, investment growth and charges. There is no guaranteed level of pension."
+  },
+  {
+    "id": "lf1-5-03",
+    "outcome": 5,
+    "objective": "5.1",
+    "question": "What is the minimum total contribution required under automatic enrolment on qualifying earnings, and the minimum employer share?",
+    "options": [
+      "5% total, of which the employer pays 1%",
+      "10% total, of which the employer pays 5%",
+      "8% total, of which the employer pays 5%",
+      "8% total, of which the employer pays 3%"
+    ],
+    "answer": 3,
+    "explanation": "The minimum is 8% of qualifying earnings in total, of which the employer must pay at least 3%. The rest comes from the employee, including tax relief."
+  },
+  {
+    "id": "lf1-5-04",
+    "outcome": 5,
+    "objective": "5.1",
+    "question": "Under 'relief at source', a basic-rate taxpayer pays £80 into a personal pension. How much is credited to the pension?",
+    "options": [
+      "£80",
+      "£100",
+      "£96",
+      "£120"
+    ],
+    "answer": 1,
+    "explanation": "The provider claims basic-rate tax relief from HMRC and adds it: £80 is treated as a net contribution, grossed up to £100. Higher-rate taxpayers claim further relief through self-assessment."
+  },
+  {
+    "id": "lf1-5-05",
+    "outcome": 5,
+    "objective": "5.1",
+    "question": "What is the standard annual allowance for pension contributions in 2026/27?",
+    "options": [
+      "£10,000",
+      "£40,000",
+      "£60,000",
+      "£100,000"
+    ],
+    "answer": 2,
+    "explanation": "The standard annual allowance is £60,000 (subject to tapering for very high earners). The money purchase annual allowance of £10,000 applies once flexible benefits have been taken."
+  },
+  {
+    "id": "lf1-5-06",
+    "outcome": 5,
+    "objective": "5.1",
+    "question": "What is a self-invested personal pension (SIPP)?",
+    "options": [
+      "A personal pension that gives the member a wide choice of investments that they can control",
+      "A state pension top-up scheme",
+      "A defined benefit scheme for the self-employed",
+      "A pension that can only invest in cash"
+    ],
+    "answer": 0,
+    "explanation": "A SIPP is a type of personal pension that allows a much wider range of investments, such as individual shares and commercial property, chosen by the member or their adviser."
+  },
+  {
+    "id": "lf1-5-07",
+    "outcome": 5,
+    "objective": "5.1",
+    "question": "What is the normal minimum pension age from which most people can currently access their private pension savings?",
+    "options": [
+      "50",
+      "60",
+      "State pension age",
+      "55 (rising to 57 from April 2028)"
+    ],
+    "answer": 3,
+    "explanation": "The normal minimum pension age is 55, rising to 57 from 6 April 2028, unless the member retires early through ill health or has a protected pension age."
+  },
+  {
+    "id": "lf1-5-08",
+    "outcome": 5,
+    "objective": "5.1",
+    "question": "How does salary sacrifice for pension contributions work?",
+    "options": [
+      "The employee pays contributions from net pay and claims tax relief later",
+      "The employee gives up part of their salary in return for an equivalent employer pension contribution, saving National Insurance",
+      "The employer reduces the employee's pension to increase their salary",
+      "The employee receives their pension early in return for a lower salary"
+    ],
+    "answer": 1,
+    "explanation": "Under salary sacrifice, the employee agrees a lower salary and the employer pays the difference into the pension. Both employer and employee typically save National Insurance contributions."
+  },
+  {
+    "id": "lf1-5-09",
+    "outcome": 5,
+    "objective": "5.1",
+    "question": "A career average revalued earnings (CARE) scheme is a type of:",
+    "options": [
+      "Defined contribution scheme",
+      "Personal pension",
+      "Defined benefit scheme",
+      "Stakeholder pension"
+    ],
+    "answer": 2,
+    "explanation": "CARE schemes are defined benefit schemes where pension builds up based on earnings in each year, revalued, rather than on final salary."
+  },
+  {
+    "id": "lf1-5-10",
+    "outcome": 5,
+    "objective": "5.1",
+    "question": "Which body protects members of eligible defined benefit schemes if their employer becomes insolvent and the scheme is underfunded?",
+    "options": [
+      "The Pension Protection Fund",
+      "The Financial Ombudsman Service",
+      "The Prudential Regulation Authority",
+      "MoneyHelper"
+    ],
+    "answer": 0,
+    "explanation": "The Pension Protection Fund (PPF) pays compensation to members of eligible DB schemes when the employer becomes insolvent and the scheme cannot pay the promised benefits."
+  },
+  {
+    "id": "lf1-5-11",
+    "outcome": 5,
+    "objective": "5.1",
+    "question": "What is the maximum amount of tax-relievable pension contributions an individual with no earnings can make in a year?",
+    "options": [
+      "Nothing – non-earners cannot contribute",
+      "£1,000 gross",
+      "£60,000 gross",
+      "£3,600 gross (£2,880 net)"
+    ],
+    "answer": 3,
+    "explanation": "Anyone under 75 can contribute up to £3,600 gross a year and receive tax relief even without earnings. Otherwise relief is limited to 100% of relevant UK earnings."
+  },
+  {
+    "id": "lf1-6-01",
+    "outcome": 6,
+    "objective": "6.1",
+    "question": "What is the main advantage of a lifetime annuity?",
+    "options": [
+      "The fund remains invested and can grow",
+      "It provides a guaranteed income for life, removing the risk of running out of money",
+      "The whole fund can be passed on to beneficiaries",
+      "Income can be varied from year to year"
+    ],
+    "answer": 1,
+    "explanation": "A lifetime annuity exchanges a pension fund for a guaranteed income for life, removing investment and longevity risk. The trade-off is less flexibility."
+  },
+  {
+    "id": "lf1-6-02",
+    "outcome": 6,
+    "objective": "6.1",
+    "question": "Why might a smoker with high blood pressure be offered an enhanced annuity?",
+    "options": [
+      "Because their life expectancy may be shorter, so the insurer can pay a higher income",
+      "Because they are entitled to a larger tax-free lump sum",
+      "Because the annuity will increase with inflation",
+      "Because the state pension is reduced for smokers"
+    ],
+    "answer": 0,
+    "explanation": "Enhanced and impaired life annuities pay higher incomes to people whose health or lifestyle suggests a shorter life expectancy."
+  },
+  {
+    "id": "lf1-6-03",
+    "outcome": 6,
+    "objective": "6.1",
+    "question": "What is flexi-access drawdown?",
+    "options": [
+      "A guaranteed income for life purchased from an insurer",
+      "A way of transferring a pension overseas",
+      "Keeping the pension fund invested and taking income withdrawals as and when needed",
+      "A state benefit for pensioners on low incomes"
+    ],
+    "answer": 2,
+    "explanation": "With flexi-access drawdown, the fund stays invested and the member withdraws income flexibly. The income is not guaranteed and the fund can run out."
+  },
+  {
+    "id": "lf1-6-04",
+    "outcome": 6,
+    "objective": "6.1",
+    "question": "How is an uncrystallised funds pension lump sum (UFPLS) normally taxed?",
+    "options": [
+      "It is entirely tax-free",
+      "It is entirely taxed as income",
+      "It is subject to capital gains tax",
+      "25% is tax-free and 75% is taxed as income"
+    ],
+    "answer": 3,
+    "explanation": "Each UFPLS is normally 25% tax-free and 75% taxable as income. Taking one also triggers the money purchase annual allowance."
+  },
+  {
+    "id": "lf1-6-05",
+    "outcome": 6,
+    "objective": "6.1",
+    "question": "What free, impartial guidance service is available to people aged 50 and over with a defined contribution pension?",
+    "options": [
+      "The Financial Ombudsman Service",
+      "Pension Wise, from MoneyHelper",
+      "The Pensions Regulator",
+      "The Financial Services Compensation Scheme"
+    ],
+    "answer": 1,
+    "explanation": "Pension Wise, delivered by MoneyHelper, offers free, impartial guidance on retirement options to people aged 50 and over with DC pensions."
+  },
+  {
+    "id": "lf1-6-06",
+    "outcome": 6,
+    "objective": "6.1",
+    "question": "A customer wants an annuity income that keeps pace with rising prices. Which feature should they consider?",
+    "options": [
+      "A guarantee period",
+      "A level annuity",
+      "An escalating or inflation-linked annuity",
+      "A value protection option"
+    ],
+    "answer": 2,
+    "explanation": "Escalating annuities increase each year by a fixed rate or in line with inflation. The starting income is lower than a level annuity."
+  },
+  {
+    "id": "lf1-7-01",
+    "outcome": 7,
+    "objective": "7.1",
+    "question": "What is the key feature of an independent financial adviser?",
+    "options": [
+      "They can recommend products from any firm in the market, based on a comprehensive and fair analysis",
+      "They can only recommend products from one provider",
+      "They cannot charge a fee",
+      "They only sell execution-only products"
+    ],
+    "answer": 0,
+    "explanation": "Independent advice must be based on a comprehensive and fair analysis of the relevant market and be unbiased and unrestricted. Restricted advisers limit the products or providers they consider."
+  },
+  {
+    "id": "lf1-7-02",
+    "outcome": 7,
+    "objective": "7.1",
+    "question": "What is an 'execution-only' sale?",
+    "options": [
+      "A sale where the adviser provides a personal recommendation",
+      "A sale made only to professional clients",
+      "A sale where the customer instructs the firm to carry out a transaction without receiving advice",
+      "A sale where the firm guarantees the product's performance"
+    ],
+    "answer": 2,
+    "explanation": "In an execution-only transaction the customer makes their own decision and the firm simply carries out their instructions. The customer does not have the protection of a suitability assessment."
+  },
+  {
+    "id": "lf1-7-03",
+    "outcome": 7,
+    "objective": "7.1",
+    "question": "An appointed representative carries out regulated business on behalf of a principal firm. Who is responsible for the appointed representative's regulated activities?",
+    "options": [
+      "The customer",
+      "The Financial Ombudsman Service",
+      "Nobody – appointed representatives are unregulated",
+      "The principal firm"
+    ],
+    "answer": 3,
+    "explanation": "The principal is authorised by the FCA and accepts regulatory responsibility for the activities of its appointed representatives."
+  },
+  {
+    "id": "lf1-7-04",
+    "outcome": 7,
+    "objective": "7.1",
+    "question": "Since the Retail Distribution Review, how are advisers giving investment advice to retail clients paid?",
+    "options": [
+      "Only through commission from product providers",
+      "Through adviser charges agreed with the client, rather than product provider commission",
+      "By the Financial Conduct Authority",
+      "Only by a percentage of investment growth"
+    ],
+    "answer": 1,
+    "explanation": "The RDR (2013) banned product provider commission on investment advice. Advisers agree their charges with clients up front."
+  },
+  {
+    "id": "lf1-7-05",
+    "outcome": 7,
+    "objective": "7.2",
+    "question": "Which of the following is a main source of income for a life insurance company?",
+    "options": [
+      "Premiums received and investment returns on the funds it holds",
+      "Government grants",
+      "Fines paid by other insurers",
+      "Payments from the FSCS"
+    ],
+    "answer": 0,
+    "explanation": "Life offices earn income from premiums and from investing the funds they hold until claims are paid, as well as from product charges."
+  },
+  {
+    "id": "lf1-7-06",
+    "outcome": 7,
+    "objective": "7.2",
+    "question": "Why do life insurers use reinsurance?",
+    "options": [
+      "To avoid paying claims",
+      "To increase the premium charged to customers",
+      "To avoid regulation by the PRA",
+      "To pass part of their risk to another insurer, protecting their financial stability against large or unexpected claims"
+    ],
+    "answer": 3,
+    "explanation": "Reinsurance spreads risk, allowing the insurer to accept larger risks and protecting its capital against large losses or a high number of claims."
+  },
+  {
+    "id": "lf1-7-07",
+    "outcome": 7,
+    "objective": "7.2",
+    "question": "Why must insurers hold capital above the amount needed to meet expected claims?",
+    "options": [
+      "To pay higher dividends to shareholders",
+      "So that the firm can continue to meet its obligations even if experience is worse than expected",
+      "To qualify for lower corporation tax",
+      "Because customers can withdraw capital on demand"
+    ],
+    "answer": 1,
+    "explanation": "Prudential rules (the UK's Solvency regime, overseen by the PRA) require insurers to hold enough capital to survive adverse events and still pay policyholders."
+  },
+  {
+    "id": "lf1-7-08",
+    "outcome": 7,
+    "objective": "7.2",
+    "question": "What is the role of underwriting in a life insurance company?",
+    "options": [
+      "Marketing products to new customers",
+      "Paying claims after death",
+      "Assessing the risk presented by each applicant and deciding on terms and premiums",
+      "Investing the company's funds"
+    ],
+    "answer": 2,
+    "explanation": "Underwriters assess medical, lifestyle and financial information to decide whether to accept a risk and on what terms, which keeps pricing fair and sustainable."
+  },
+  {
+    "id": "lf1-8-01",
+    "outcome": 8,
+    "objective": "8.1",
+    "question": "Which of the following is a typical customer service function in a life and pensions company?",
+    "options": [
+      "Setting the Bank of England base rate",
+      "Handling policy changes, answering queries and processing claims and retirements",
+      "Approving new FCA rules",
+      "Deciding Financial Ombudsman Service complaints"
+    ],
+    "answer": 1,
+    "explanation": "Customer service teams deal with enquiries, policy amendments, changes of address or beneficiary, claims, maturities and retirement processing."
+  },
+  {
+    "id": "lf1-8-02",
+    "outcome": 8,
+    "objective": "8.1",
+    "question": "Before discussing a policy with a caller on the telephone, what should a customer service representative do first?",
+    "options": [
+      "Complete security checks to confirm the caller's identity and authority",
+      "Transfer the call to the complaints team",
+      "Ask the caller to write in instead",
+      "Read out the full policy terms and conditions"
+    ],
+    "answer": 0,
+    "explanation": "Identity and authority must be confirmed before personal information is discussed, to protect the customer and comply with data protection requirements."
+  },
+  {
+    "id": "lf1-8-03",
+    "outcome": 8,
+    "objective": "8.2",
+    "question": "What is a key advantage of face-to-face communication with customers?",
+    "options": [
+      "It is always the cheapest method",
+      "It automatically creates a written record",
+      "It allows body language to be observed and helps build trust and rapport",
+      "It can be carried out at any time of day without arranging"
+    ],
+    "answer": 2,
+    "explanation": "Face-to-face meetings allow non-verbal cues to be seen and responded to, which helps build rapport and spot misunderstanding or vulnerability."
+  },
+  {
+    "id": "lf1-8-04",
+    "outcome": 8,
+    "objective": "8.2",
+    "question": "What is a key advantage of written communication, such as a letter or email?",
+    "options": [
+      "It allows instant two-way conversation",
+      "It shows the customer's tone of voice",
+      "It is always understood correctly",
+      "It provides a permanent record that the customer can refer back to"
+    ],
+    "answer": 3,
+    "explanation": "Written communication gives a lasting record and lets the customer read it at their own pace, though it lacks immediate two-way interaction."
+  },
+  {
+    "id": "lf1-8-05",
+    "outcome": 8,
+    "objective": "8.3",
+    "question": "Which of the following is an open question?",
+    "options": [
+      "Do you have a pension?",
+      "What are you hoping to achieve when you retire?",
+      "Are you married?",
+      "Is your mortgage a repayment mortgage?"
+    ],
+    "answer": 1,
+    "explanation": "Open questions (what, how, why, tell me about...) encourage customers to explain in their own words. Closed questions get short factual yes/no answers."
+  },
+  {
+    "id": "lf1-8-06",
+    "outcome": 8,
+    "objective": "8.3",
+    "question": "Which technique best demonstrates active listening?",
+    "options": [
+      "Summarising what the customer has said and checking understanding",
+      "Planning your next question while the customer is talking",
+      "Finishing the customer's sentences to save time",
+      "Moving quickly to the product recommendation"
+    ],
+    "answer": 0,
+    "explanation": "Active listening involves full attention, summarising, paraphrasing and checking back, which shows understanding and avoids mistakes."
+  },
+  {
+    "id": "lf1-8-07",
+    "outcome": 8,
+    "objective": "8.3",
+    "question": "The FCA identifies four key drivers of customer vulnerability. Which of these is one of them?",
+    "options": [
+      "Age over 65",
+      "Having a large investment portfolio",
+      "Health, life events, resilience and capability",
+      "Living outside London"
+    ],
+    "answer": 2,
+    "explanation": "The FCA's drivers are health, life events, resilience and capability. Age alone does not make someone vulnerable, and anyone can become vulnerable at any time."
+  },
+  {
+    "id": "lf1-8-08",
+    "outcome": 8,
+    "objective": "8.3",
+    "question": "A recently bereaved customer calls to claim on their partner's life policy and becomes upset. What is the most appropriate response?",
+    "options": [
+      "Continue reading the claim script without pausing",
+      "Tell them to call back when they feel better",
+      "Transfer them to another department",
+      "Show empathy, allow them time, explain the next steps clearly and record any support needs"
+    ],
+    "answer": 3,
+    "explanation": "Bereavement is a life event that can cause vulnerability. Staff should be patient and empathetic, adapt the process and make sure the customer understands what happens next."
+  },
+  {
+    "id": "lf1-8-09",
+    "outcome": 8,
+    "objective": "8.3",
+    "question": "When dealing with an angry customer, which approach is most likely to help?",
+    "options": [
+      "Arguing the facts to show the customer is wrong",
+      "Staying calm, listening without interrupting and acknowledging their concerns",
+      "Ending the call immediately",
+      "Promising compensation straight away to calm them down"
+    ],
+    "answer": 1,
+    "explanation": "Remaining calm, listening, acknowledging feelings and then focusing on a solution helps defuse the situation. Promises should not be made that cannot be kept."
+  },
+  {
+    "id": "lf1-8-10",
+    "outcome": 8,
+    "objective": "8.3",
+    "question": "Which of the following is good practice for clear communication with customers?",
+    "options": [
+      "Using technical terms to show expertise",
+      "Giving as much detail as possible in one long document",
+      "Using plain language, avoiding jargon, and checking the customer has understood",
+      "Assuming all customers have the same level of financial knowledge"
+    ],
+    "answer": 2,
+    "explanation": "Plain language, explaining unavoidable jargon, and checking understanding help to meet the Consumer Duty's consumer understanding outcome."
+  },
+  {
+    "id": "lf1-8-11",
+    "outcome": 8,
+    "objective": "8.4",
+    "question": "Under the FCA complaint rules, how long does a firm normally have to send a final response to a complaint?",
+    "options": [
+      "8 weeks",
+      "2 weeks",
+      "6 months",
+      "12 months"
+    ],
+    "answer": 0,
+    "explanation": "A firm must normally send a final response within eight weeks of receiving the complaint, or explain why it cannot and tell the customer about their right to go to the Financial Ombudsman Service."
+  },
+  {
+    "id": "lf1-8-12",
+    "outcome": 8,
+    "objective": "8.4",
+    "question": "How long does a customer normally have to refer a complaint to the Financial Ombudsman Service after receiving the firm's final response?",
+    "options": [
+      "8 weeks",
+      "3 months",
+      "12 months",
+      "6 months"
+    ],
+    "answer": 3,
+    "explanation": "The customer normally has six months from the date of the final response to refer the complaint to the Financial Ombudsman Service."
+  },
+  {
+    "id": "lf1-8-13",
+    "outcome": 8,
+    "objective": "8.4",
+    "question": "Why should firms analyse the root causes of complaints?",
+    "options": [
+      "To identify which customers complain most often so they can be refused cover",
+      "To identify and fix recurring problems so that other customers are not affected",
+      "To reduce the number of complaints sent to the FCA by rejecting more",
+      "Because the FOS requires every complaint to be upheld"
+    ],
+    "answer": 1,
+    "explanation": "Root cause analysis helps firms put right systemic issues, improve products and processes, and deliver good outcomes for all customers."
+  },
+  {
+    "id": "lf1-9-01",
+    "outcome": 9,
+    "objective": "9.1",
+    "question": "Under the Consumer Insurance (Disclosure and Representations) Act 2012, what is a consumer's duty when applying for insurance?",
+    "options": [
+      "To disclose every fact that might possibly be relevant, whether asked or not",
+      "To take reasonable care not to make a misrepresentation to the insurer",
+      "To obtain a medical report at their own expense",
+      "To pay premiums annually in advance"
+    ],
+    "answer": 1,
+    "explanation": "The 2012 Act replaced the consumer's duty to volunteer information with a duty to take reasonable care to answer the insurer's questions fully and accurately."
+  },
+  {
+    "id": "lf1-9-02",
+    "outcome": 9,
+    "objective": "9.1",
+    "question": "Under UK data protection law, within what time must a firm normally report a notifiable personal data breach to the Information Commissioner's Office?",
+    "options": [
+      "72 hours of becoming aware of it",
+      "7 days",
+      "30 days",
+      "There is no requirement to report breaches"
+    ],
+    "answer": 0,
+    "explanation": "Under UK GDPR, a reportable breach must be notified to the ICO without undue delay and, where feasible, within 72 hours of becoming aware of it."
+  },
+  {
+    "id": "lf1-9-03",
+    "outcome": 9,
+    "objective": "9.1",
+    "question": "An employee suspects a customer of money laundering. To whom should they report their suspicion?",
+    "options": [
+      "The customer, to give them a chance to explain",
+      "The Financial Ombudsman Service",
+      "The firm's Money Laundering Reporting Officer (nominated officer)",
+      "Their colleagues, so they can be alert"
+    ],
+    "answer": 2,
+    "explanation": "Suspicions must be reported internally to the MLRO, who decides whether to submit a suspicious activity report to the National Crime Agency. Alerting the customer could be the offence of tipping off."
+  },
+  {
+    "id": "lf1-9-04",
+    "outcome": 9,
+    "objective": "9.1",
+    "question": "What is 'tipping off' under anti-money laundering legislation?",
+    "options": [
+      "Reporting a suspicion to the MLRO",
+      "Carrying out customer due diligence",
+      "Asking a customer for identification",
+      "Disclosing information that is likely to prejudice an investigation, such as telling a customer a report has been made"
+    ],
+    "answer": 3,
+    "explanation": "Tipping off is a criminal offence under the Proceeds of Crime Act 2002. Staff must not reveal that a suspicious activity report has been made or an investigation is under way."
+  },
+  {
+    "id": "lf1-9-05",
+    "outcome": 9,
+    "objective": "9.1",
+    "question": "How many protected characteristics are set out in the Equality Act 2010?",
+    "options": [
+      "Five",
+      "Nine",
+      "Seven",
+      "Twelve"
+    ],
+    "answer": 1,
+    "explanation": "The nine are: age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, and sexual orientation."
+  },
+  {
+    "id": "lf1-9-06",
+    "outcome": 9,
+    "objective": "9.2",
+    "question": "Which regulator is responsible for the conduct of financial services firms and protecting consumers?",
+    "options": [
+      "The Financial Conduct Authority",
+      "The Prudential Regulation Authority",
+      "The Pension Protection Fund",
+      "The Information Commissioner's Office"
+    ],
+    "answer": 0,
+    "explanation": "The FCA regulates conduct and aims to protect consumers, protect market integrity and promote competition. The PRA, part of the Bank of England, focuses on prudential safety of insurers and banks."
+  },
+  {
+    "id": "lf1-9-07",
+    "outcome": 9,
+    "objective": "9.2",
+    "question": "Which body regulates work-based (occupational) pension schemes in the UK?",
+    "options": [
+      "The Financial Ombudsman Service",
+      "HM Treasury",
+      "The Pensions Regulator",
+      "The Money and Pensions Service"
+    ],
+    "answer": 2,
+    "explanation": "The Pensions Regulator (TPR) regulates workplace pension schemes and oversees employers' automatic enrolment duties."
+  },
+  {
+    "id": "lf1-9-08",
+    "outcome": 9,
+    "objective": "9.2",
+    "question": "The FCA's Consumer Duty sets out four outcomes. Which of the following is one of them?",
+    "options": [
+      "Maximum profit",
+      "Market share",
+      "Guaranteed returns",
+      "Price and value"
+    ],
+    "answer": 3,
+    "explanation": "The four outcomes are: products and services; price and value; consumer understanding; and consumer support. Firms must act to deliver good outcomes for retail customers."
+  },
+  {
+    "id": "lf1-9-09",
+    "outcome": 9,
+    "objective": "9.2",
+    "question": "If an authorised life insurer fails and cannot pay claims, which body may provide compensation to eligible policyholders?",
+    "options": [
+      "The Financial Ombudsman Service",
+      "The Financial Services Compensation Scheme",
+      "The Pensions Regulator",
+      "The Information Commissioner's Office"
+    ],
+    "answer": 1,
+    "explanation": "The FSCS is the UK's compensation fund of last resort. For long-term insurance such as life policies and annuities, protection is 100% with no upper limit."
+  },
+  {
+    "id": "lf1-9-10",
+    "outcome": 9,
+    "objective": "9.3",
+    "question": "Which of the following is an example of ethical, professional conduct?",
+    "options": [
+      "Recommending the product that pays the adviser the highest remuneration",
+      "Keeping customer information confidential and putting the customer's interests first",
+      "Avoiding disclosing conflicts of interest to customers",
+      "Taking on work outside your competence to meet sales targets"
+    ],
+    "answer": 1,
+    "explanation": "Professional codes, such as the CII Code of Ethics, require integrity, acting in clients' best interests, confidentiality, competence and managing conflicts of interest."
+  },
+  {
+    "id": "lf1-9-11",
+    "outcome": 9,
+    "objective": "9.3",
+    "question": "What is a likely consequence for a firm with poor standards of conduct?",
+    "options": [
+      "Improved customer trust",
+      "Automatic exemption from regulation",
+      "Regulatory fines and sanctions, customer redress and reputational damage",
+      "Lower capital requirements"
+    ],
+    "answer": 2,
+    "explanation": "Poor conduct can lead to FCA enforcement, redress payments, loss of customers and lasting reputational harm, as seen in past mis-selling scandals."
+  },
+  {
+    "id": "lf1-9-12",
+    "outcome": 9,
+    "objective": "9.3",
+    "question": "Which behaviour best demonstrates inclusive conduct towards customers?",
+    "options": [
+      "Adapting communication and processes so customers with different needs and characteristics can access services fairly",
+      "Treating every customer in exactly the same way regardless of their needs",
+      "Offering services only online to reduce costs",
+      "Only dealing with customers who speak fluent English"
+    ],
+    "answer": 0,
+    "explanation": "Inclusive conduct means recognising diversity and making reasonable adjustments, such as accessible formats or extra time, so all customers receive fair treatment and good outcomes."
+  }
+]

@@ -8,6 +8,7 @@ export default async function Home() {
   const user = await getCurrentUser();
   if (user?.role === "PARENT") redirect("/parent/dashboard");
   if (user?.role === "STUDENT") redirect("/student/dashboard");
+  if (user?.role === "LEARNER") redirect("/lf1/dashboard");
 
   return (
     <div className="flex-1 flex flex-col">

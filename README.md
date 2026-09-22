@@ -104,6 +104,29 @@ See [docs/ROADMAP.md](docs/ROADMAP.md) for what's next and an honest list of wha
 in this delivery (in particular: seed content volume is a strong representative sample, not yet the full
 200/100/100/50 target counts from the spec — the pipeline is built to grow into that without code changes).
 
+## LF1 Study (side app)
+
+A separate, single-user area at **`/lf1`** for revising the CII **LF1 — Life and pensions foundations**
+exam (2026/27 syllabus). It shares the main app's login, session and database, using a `LEARNER` role
+that cannot see the parent/student areas.
+
+- **Practice**: pick a learning outcome (1–9) or mixed questions. Each answer is marked straight away
+  with an explanation, and questions you haven't seen come first.
+- **Mock exam**: 50 questions in 60 minutes, weighted by learning outcome like the real exam
+  (5/3/7/7/7/3/4/8/6). You can move between questions and flag them. Answers autosave, so a refresh
+  picks up where you left off, and the paper submits itself when time runs out.
+- **Dashboard and history**: accuracy per learning outcome, mock scores, and a full answer review
+  for every test.
+
+Content lives in `content/lf1/syllabus.json` and `content/lf1/questions.json`. Add questions by
+appending to that file with a new, unique `id`. `tests/unit/lf1.test.ts` checks the bank's structure.
+These are practice questions written for this app, not official CII questions.
+
+**The account**: username `fanell`, created by `npm run db:seed` or on its own with
+`npm run db:seed-lf1`. The password is printed once, when the account is created. Set
+`LF1_LEARNER_PASSWORD` before running the script to choose it yourself. An admin can reset it later
+from `/admin/users`.
+
 ## Scripts
 
 | Command              | What it does                                      |
@@ -113,6 +136,7 @@ in this delivery (in particular: seed content volume is a strong representative 
 | `npm run db:migrate`   | Create/apply a migration (dev)                       |
 | `npm run db:deploy`    | Apply migrations (production)                         |
 | `npm run db:seed`      | Seed curriculum + content + demo accounts             |
+| `npm run db:seed-lf1`  | Create just the LF1 Study learner account (safe on prod) |
 | `npm run db:reset`     | Drop, recreate, migrate and reseed the dev database    |
 | `npm run db:studio`    | Open Prisma Studio (visual DB browser)                 |
 | `npm test`             | Run Vitest unit tests                                  |

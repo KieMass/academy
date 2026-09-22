@@ -27,6 +27,7 @@ enum Role {
   PARENT
   STUDENT
   ADMIN
+  LEARNER // adult learner on a side app, e.g. LF1 exam prep at /lf1 — no family/curriculum link
 }
 
 model User {
@@ -41,6 +42,7 @@ model User {
 
   parentProfile  ParentProfile?
   studentProfile StudentProfile?
+  learnerProfile LearnerProfile?
 
   sessions              Session[]
   passwordResetRequests PasswordResetRequest[]
@@ -424,6 +426,69 @@ model TimesTableSession {
   createdAt DateTime @default(now())
 
   @@index([studentId, createdAt])
+}
+
+// ---------------------------------------------------------------------------
+// LF1 (CII Life and pensions foundations) exam prep — a side app at /lf1
+// for adult LEARNER accounts. Like times tables above, it sits outside the
+// Subject/Topic/Curriculum catalogue: questions live in content/lf1/*.json
+// and are referenced here by their stable string id (see lib/lf1/bank.ts),
+// so editing the question bank needs no migration or re-seed.
+// ---------------------------------------------------------------------------
+
+model LearnerProfile {
+  id          String   @id @default(cuid())
+  userId      String   @unique
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  displayName String
+  createdAt   DateTime @default(now())
+
+  lf1Tests   Lf1TestSession[]
+  lf1Answers Lf1Answer[]
+}
+
+enum Lf1TestMode {
+  PRACTICE // immediate feedback after each question
+  MOCK // timed, exam-weighted paper, marked only at the end
+}
+
+model Lf1TestSession {
+  id        String         @id @default(cuid())
+  learnerId String
+  learner   LearnerProfile @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  mode      Lf1TestMode
+  outcome   Int? // learning outcome (1-9) for a single-outcome practice set; null = mixed
+
+  questionIds      String // JSON string array of question ids, frozen at creation
+  answers          String @default("{}") // JSON: { [questionId]: selectedIndex } — the latest saved answers
+  totalQuestions   Int
+  correctCount     Int? // set when completed
+  timeLimitSeconds Int? // mock only
+
+  startedAt   DateTime  @default(now())
+  completedAt DateTime?
+
+  results Lf1Answer[]
+
+  @@index([learnerId, startedAt])
+}
+
+/// One graded answer — the per-outcome progress on the LF1 dashboard is
+/// aggregated from these rows.
+model Lf1Answer {
+  id            String         @id @default(cuid())
+  sessionId     String
+  session       Lf1TestSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  learnerId     String
+  learner       LearnerProfile @relation(fields: [learnerId], references: [id], onDelete: Cascade)
+  questionId    String
+  outcome       Int
+  selectedIndex Int? // null = left unanswered in a mock
+  isCorrect     Boolean
+  answeredAt    DateTime       @default(now())
+
+  @@unique([sessionId, questionId])
+  @@index([learnerId, outcome])
 }
 
 // ---------------------------------------------------------------------------

@@ -52,12 +52,18 @@ export function DashboardShell({
   userLabel,
   userSubLabel,
   headerAccessory,
+  brandLabel = "KaeLex Academy",
+  logoutHref = "/",
   children,
 }: {
   navItems: NavItem[];
   userLabel: string;
   userSubLabel?: string;
   headerAccessory?: React.ReactNode;
+  /** Sidebar title — side apps (e.g. LF1 Study) override it. */
+  brandLabel?: string;
+  /** Where to land after logging out — side apps send users back to their own login. */
+  logoutHref?: string;
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
@@ -75,7 +81,7 @@ export function DashboardShell({
 
   async function handleLogout() {
     await fetch("/api/auth/logout", { method: "POST" });
-    router.push("/");
+    router.push(logoutHref);
     router.refresh();
   }
 
@@ -86,7 +92,7 @@ export function DashboardShell({
           <span className="flex size-8 items-center justify-center rounded-xl bg-gradient-brand text-primary-foreground shadow-sm">
             <Sparkles className="size-4.5" />
           </span>
-          <span className="text-gradient-brand">KaeLex Academy</span>
+          <span className="text-gradient-brand">{brandLabel}</span>
         </Link>
         <NavLinks navItems={navItems} pathname={pathname} />
         <div className="p-3">
@@ -107,7 +113,7 @@ export function DashboardShell({
                 <span className="flex size-8 items-center justify-center rounded-xl bg-gradient-brand text-primary-foreground shadow-sm">
                   <Sparkles className="size-4.5" />
                 </span>
-                <span className="text-gradient-brand">KaeLex Academy</span>
+                <span className="text-gradient-brand">{brandLabel}</span>
               </Link>
               <Button variant="ghost" size="icon" onClick={() => setMobileNavOpen(false)} aria-label="Close menu">
                 <X className="size-5" />

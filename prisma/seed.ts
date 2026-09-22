@@ -26,6 +26,7 @@ import { generateAllMathsQuestionsY1, generateAllMathsQuestionsY1Extra, generate
 import { generateAllGrammarQuestionsY1, generateAllGrammarQuestionsY2 } from "../src/lib/content-generators/grammar-ks1";
 import type { DraftQuestion } from "../src/lib/content-generators/types";
 import { hashPassword } from "../src/lib/auth/password";
+import { seedLf1Learner } from "./lf1-learner";
 
 const db = new PrismaClient();
 const CONTENT_DIR = path.join(process.cwd(), "content");
@@ -319,6 +320,7 @@ async function main() {
   await seedBadges();
   await seedDemoAccounts(curriculumId);
   await seedAdminAccount();
+  await seedLf1Learner(db);
   console.log("\nSeed complete.");
 }
 

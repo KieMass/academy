@@ -32,6 +32,16 @@ export async function requireStudent() {
   return { user, studentProfile, curriculumSlug, yearGroupLabel };
 }
 
+/** Use in server components/pages that require a logged-in adult learner
+ * (the LF1 exam-prep side app at /lf1). */
+export async function requireLearner() {
+  const user = await getCurrentUser();
+  if (!user || user.role !== "LEARNER" || !user.learnerProfile) {
+    redirect("/lf1/login");
+  }
+  return { user, learnerProfile: user.learnerProfile! };
+}
+
 /** Use in server components/pages that require a logged-in admin. */
 export async function requireAdmin() {
   const user = await getCurrentUser();

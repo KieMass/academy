@@ -35,6 +35,9 @@ export function createMockDb() {
     topic: { findFirst: vi.fn(), findMany: vi.fn(), findUnique: vi.fn() },
     subject: { findUnique: vi.fn(), findMany: vi.fn() },
     timesTableSession: { create: vi.fn(), findMany: vi.fn() },
+    lf1TestSession: { create: vi.fn(), findFirst: vi.fn(), findMany: vi.fn(), update: vi.fn(), updateMany: vi.fn() },
+    lf1Answer: { create: vi.fn(), createMany: vi.fn(), findMany: vi.fn(), count: vi.fn(), groupBy: vi.fn() },
+    $transaction: vi.fn(),
     $queryRaw: vi.fn(),
   };
 }

@@ -46,6 +46,17 @@ describe("POST /api/auth/login", () => {
     expect(createSession).toHaveBeenCalledWith("user-1");
   });
 
+  it("logs an LF1 learner in by (lowercased) username", async () => {
+    mockDb.user.findFirst.mockResolvedValue({ id: "user-fanell", role: "LEARNER", passwordHash: "hashed" });
+    verifyPassword.mockResolvedValue(true);
+
+    const res = await POST(request({ role: "LEARNER", identifier: "Fanell", password: "correct-horse" }));
+    expect(res.status).toBe(200);
+    expect((await res.json()).role).toBe("LEARNER");
+    expect(mockDb.user.findFirst).toHaveBeenCalledWith({ where: { role: "LEARNER", username: "fanell" } });
+    expect(createSession).toHaveBeenCalledWith("user-fanell");
+  });
+
   it("401s on an unknown identifier without revealing which part was wrong", async () => {
     mockDb.user.findFirst.mockResolvedValue(null);
 

@@ -6,8 +6,8 @@ import { createSession } from "@/lib/auth/session";
 import { checkRateLimit, getClientIp, rateLimitResponse } from "@/lib/rate-limit";
 
 const loginSchema = z.object({
-  role: z.enum(["PARENT", "STUDENT", "ADMIN"]),
-  identifier: z.string().min(1), // email for parents/admins, username for students
+  role: z.enum(["PARENT", "STUDENT", "ADMIN", "LEARNER"]),
+  identifier: z.string().min(1), // email for parents/admins, username for students/learners
   password: z.string().min(1),
 });
 
@@ -36,7 +36,7 @@ export async function POST(req: Request) {
   if (!accountCheck.allowed) return rateLimitResponse(accountCheck.retryAfterSeconds!);
 
   const user = await db.user.findFirst({
-    where: role === "STUDENT" ? { role, username: identifier.toLowerCase() } : { role, email: identifier.toLowerCase() },
+    where: role === "STUDENT" || role === "LEARNER" ? { role, username: identifier.toLowerCase() } : { role, email: identifier.toLowerCase() },
   });
 
   if (!user) {

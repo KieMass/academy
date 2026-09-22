@@ -1,0 +1,105 @@
+{
+  "code": "LF1",
+  "title": "Life and pensions foundations",
+  "awardingBody": "The Chartered Insurance Institute (CII)",
+  "examinedFrom": "2026-09-01",
+  "examinedTo": "2027-08-31",
+  "taxYear": "2026/2027",
+  "exam": {
+    "questionCount": 50,
+    "durationMinutes": 60,
+    "format": "Multiple choice questions (MCQs)"
+  },
+  "objective": [
+    "the value of the Life and Pensions sector to society and the economy",
+    "key customer needs relating to pensions, protection, investments and savings",
+    "a range of potential solutions available to meet customer needs",
+    "how individuals and organisations work as a profession to treat customers fairly and meet their needs effectively"
+  ],
+  "outcomes": [
+    {
+      "number": 1,
+      "title": "Understand the role and value of financial services, including the Life and Pensions sector",
+      "examQuestions": 5,
+      "objectives": [
+        { "code": "1.1", "text": "Identify the key features of the financial services sector and its role in the economy." },
+        { "code": "1.2", "text": "Outline key concepts of risk and the social value of insurance." },
+        { "code": "1.3", "text": "Outline the UK pensions system." }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Understand typical customer financial needs and expectations",
+      "examQuestions": 3,
+      "objectives": [
+        { "code": "2.1", "text": "Outline the stages of the typical customer lifecycle (the personal financial lifecycle) and associated financial needs." },
+        { "code": "2.2", "text": "Identify what key information is gathered from a customer to establish their financial needs." }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Understand financial protection products and their role in customer solutions",
+      "examQuestions": 7,
+      "objectives": [
+        { "code": "3.1", "text": "Outline the main types of life assurance and their uses." },
+        { "code": "3.2", "text": "Outline the main types of health and income protection products and their uses." }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Understand savings and investment products and their role in customer solutions",
+      "examQuestions": 7,
+      "objectives": [
+        { "code": "4.1", "text": "Identify the functions served by savings and investment products." },
+        { "code": "4.2", "text": "Outline the main types of savings and investment products and their tax treatment." },
+        { "code": "4.3", "text": "Identify fund types and uses." }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Understand pensions and their role in customer solutions",
+      "examQuestions": 7,
+      "objectives": [
+        { "code": "5.1", "text": "Outline the main types of pension and their benefits." }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Know the main retirement income options",
+      "examQuestions": 3,
+      "objectives": [
+        { "code": "6.1", "text": "Outline the main retirement income options." }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Understand how Life and Pensions firms operate",
+      "examQuestions": 4,
+      "objectives": [
+        { "code": "7.1", "text": "Identify definitions and features of different life and pensions distribution and advisory models." },
+        { "code": "7.2", "text": "Outline how Life and Pensions firms gain income and maintain financial stability." }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Understand key principles of delivering good customer service",
+      "examQuestions": 8,
+      "objectives": [
+        { "code": "8.1", "text": "Outline the main customer service functions and procedures." },
+        { "code": "8.2", "text": "Identify the main communication approaches and their key advantages." },
+        { "code": "8.3", "text": "Outline the main customer service techniques for eliciting information; rapport and empathy; clear communication; recognising vulnerable customers; dealing with challenging situations; recognising and responding fairly to diversity of backgrounds, characteristics and levels of understanding." },
+        { "code": "8.4", "text": "Outline the role and stages of the complaints process." }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Understand ethical, legal and regulatory principles and duties in the context of life insurance and pensions",
+      "examQuestions": 6,
+      "objectives": [
+        { "code": "9.1", "text": "Identify key aspects of legislation: insurance law; data protection; anti-money laundering; Equality Act." },
+        { "code": "9.2", "text": "Outline the UK regulators and their role in protecting customers and industry standards." },
+        { "code": "9.3", "text": "Identify the features of professional, ethical and inclusive conduct and the consequences of different standards of conduct." }
+      ]
+    }
+  ]
+}

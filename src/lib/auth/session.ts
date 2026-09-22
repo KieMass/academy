@@ -49,6 +49,7 @@ export async function getCurrentUser() {
         include: {
           parentProfile: { include: { family: { include: { curriculum: true } } } },
           studentProfile: { include: { parent: { include: { family: { include: { curriculum: true } } } } } },
+          learnerProfile: true,
         },
       },
     },

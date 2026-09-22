@@ -10,6 +10,7 @@ const ROLE_VARIANT: Record<string, "default" | "secondary" | "outline"> = {
   ADMIN: "default",
   PARENT: "secondary",
   STUDENT: "outline",
+  LEARNER: "outline",
 };
 
 export default async function AdminUsersPage() {
@@ -19,6 +20,7 @@ export default async function AdminUsersPage() {
     include: {
       parentProfile: { include: { family: { include: { parents: true, curriculum: true } } } },
       studentProfile: { include: { parent: { include: { family: { include: { parents: true, curriculum: true } } } } } },
+      learnerProfile: true,
     },
     orderBy: { createdAt: "desc" },
   });
@@ -51,6 +53,7 @@ export default async function AdminUsersPage() {
                 const name =
                   u.role === "PARENT" ? (u.parentProfile?.fullName ?? "—") :
                   u.role === "STUDENT" ? (u.studentProfile?.displayName ?? "—") :
+                  u.role === "LEARNER" ? (u.learnerProfile?.displayName ?? "—") :
                   "Admin";
                 const login = u.email ?? u.username ?? "—";
                 const familyParents = u.role === "STUDENT" ? u.studentProfile?.parent.family.parents : undefined;
@@ -72,20 +75,23 @@ export default async function AdminUsersPage() {
                     <td className="py-2.5 pl-4">
                       <Badge variant={ROLE_VARIANT[u.role]} className="capitalize">{u.role.toLowerCase()}</Badge>
                     </td>
-                    <td className="py-2.5 pl-4 text-muted-foreground">{curriculum?.name ?? "—"}</td>
+                    <td className="py-2.5 pl-4 text-muted-foreground">{u.role === "LEARNER" ? "LF1 Study" : (curriculum?.name ?? "—")}</td>
                     <td className="py-2.5 pl-4 text-muted-foreground">{login}</td>
                     <td className="py-2.5 pl-4 text-muted-foreground">
                       {u.createdAt.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}
                     </td>
                     <td className="py-2.5 pl-4">
                       <div className="flex justify-end gap-2">
-                        <EditUserDialog
-                          user={
-                            u.role === "PARENT" ? { id: u.id, role: "PARENT", fullName: u.parentProfile!.fullName, email: u.email! } :
-                            u.role === "STUDENT" ? { id: u.id, role: "STUDENT", displayName: u.studentProfile!.displayName, username: u.username!, yearGroup: u.studentProfile!.yearGroup, avatarEmoji: u.studentProfile!.avatarEmoji, yearGroupLabel } :
-                            { id: u.id, role: "ADMIN", email: u.email! }
-                          }
-                        />
+                        {/* LF1 learner accounts have no editable profile fields here — password reset only. */}
+                        {u.role !== "LEARNER" && (
+                          <EditUserDialog
+                            user={
+                              u.role === "PARENT" ? { id: u.id, role: "PARENT", fullName: u.parentProfile!.fullName, email: u.email! } :
+                              u.role === "STUDENT" ? { id: u.id, role: "STUDENT", displayName: u.studentProfile!.displayName, username: u.username!, yearGroup: u.studentProfile!.yearGroup, avatarEmoji: u.studentProfile!.avatarEmoji, yearGroupLabel } :
+                              { id: u.id, role: "ADMIN", email: u.email! }
+                            }
+                          />
+                        )}
                         <ResetPasswordButton userId={u.id} userLabel={name} />
                       </div>
                     </td>
