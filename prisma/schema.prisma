@@ -106,7 +106,8 @@ model ParentProfile {
   familyId String
   family   Family @relation(fields: [familyId], references: [id], onDelete: Cascade)
 
-  students StudentProfile[]
+  students   StudentProfile[]
+  worksheets Worksheet[]
 
   createdAt DateTime @default(now())
 
@@ -511,6 +512,12 @@ model Worksheet {
   id                 String          @id @default(cuid())
   createdByStudentId String?
   student            StudentProfile? @relation(fields: [createdByStudentId], references: [id], onDelete: SetNull)
+  // The parent who generated this worksheet — nullable because worksheets
+  // created before this field existed have no value to backfill (see the
+  // migration that added it). Every worksheet created going forward always
+  // has one: POST /api/worksheets runs behind requireParent().
+  createdByParentId  String?
+  parent             ParentProfile?  @relation(fields: [createdByParentId], references: [id], onDelete: SetNull)
   subjectId          String
   subject            Subject         @relation(fields: [subjectId], references: [id], onDelete: Cascade)
   topicIds           String // JSON string array of Topic ids
@@ -519,6 +526,8 @@ model Worksheet {
   questionIds        String // JSON string array of ContentQuestion ids, frozen at generation time
 
   createdAt DateTime @default(now())
+
+  @@index([createdByParentId])
 }
 
 // ---------------------------------------------------------------------------

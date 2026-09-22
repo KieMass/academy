@@ -3,6 +3,7 @@ import { DashboardShell, type NavItem } from "@/components/layout/dashboard-shel
 
 const navItems: NavItem[] = [
   { href: "/admin/dashboard", label: "Dashboard", icon: "Home" },
+  { href: "/admin/leaderboards", label: "Leaderboards", icon: "Trophy" },
   { href: "/admin/users", label: "Users", icon: "Users" },
   { href: "/admin/reset-requests", label: "Reset requests", icon: "KeyRound" },
   { href: "/admin/content-gaps", label: "Content gaps", icon: "AlertTriangle" },

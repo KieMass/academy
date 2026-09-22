@@ -133,6 +133,7 @@ export async function POST(req: Request) {
   await db.worksheet.create({
     data: {
       createdByStudentId: student?.id,
+      createdByParentId: parentProfile.id,
       subjectId: subject.id,
       topicIds: JSON.stringify(topicIds),
       kind,
