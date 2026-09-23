@@ -7,6 +7,7 @@ const NAV_ITEMS: NavItem[] = [
   { href: "/lf1/practice", label: "Practice", icon: "BookOpen" },
   { href: "/lf1/mock", label: "Mock exam", icon: "FileText" },
   { href: "/lf1/history", label: "History", icon: "ListChecks" },
+  { href: "/lf1/settings", label: "Settings", icon: "Settings" },
 ];
 
 export const metadata = { title: "LF1 Study" };

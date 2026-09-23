@@ -122,10 +122,11 @@ Content lives in `content/lf1/syllabus.json` and `content/lf1/questions.json`. A
 appending to that file with a new, unique `id`. `tests/unit/lf1.test.ts` checks the bank's structure.
 These are practice questions written for this app, not official CII questions.
 
-**The account**: username `fanell`, created by `npm run db:seed` or on its own with
-`npm run db:seed-lf1`. The password is printed once, when the account is created. Set
-`LF1_LEARNER_PASSWORD` before running the script to choose it yourself. An admin can reset it later
-from `/admin/users`.
+**The account**: username `fanell`, created automatically by a database migration on deploy with
+no usable password. To give Fanell access, go to `/admin/users` and click **Reset password** on the
+`fanell` row. It shows a one-time password to pass on, and Fanell can then choose their own under
+LF1 Study → **Settings**. (`npm run db:seed-lf1` also creates the account, for local databases;
+set `LF1_LEARNER_PASSWORD` to choose the starting password there.)
 
 ## Scripts
 

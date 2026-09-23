@@ -12,8 +12,8 @@ const schema = z.object({
 
 /** POST /api/auth/change-password
  *
- * Self-service password change for any logged-in role (parent, student or
- * admin) — requires knowing the current password, unlike an admin-initiated
+ * Self-service password change for any logged-in role (parent, student,
+ * admin or LF1 learner) — requires knowing the current password, unlike an admin-initiated
  * reset. Invalidates every *other* session so a lost/shared device can't
  * keep using the old login, but leaves the current session alive so the
  * user isn't immediately booted off the page they just used. */
